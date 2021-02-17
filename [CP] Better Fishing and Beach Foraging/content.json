@@ -1,0 +1,726 @@
+{
+	"Format": "1.11.0",
+	"ConfigSchema": {
+		"Clam": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Cockle": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Crayfish": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Lobster": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Mussel": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Oyster": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Periwinkle": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Coral": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"NautilusShell": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"RainbowShell": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"SeaUrchin": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Seaweed": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"GreenAlgae": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"WhiteAlgae": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Pearl": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"SquidInk": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"LavaEel": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Snail": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Shrimp": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Crab": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Eel": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Anchovy": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Sardine": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Tuna": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Pufferfish": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"LavaEel": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Bream": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Ghostfish": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"LargemouthBass": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Octopus": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"RainbowTrout": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Salmon": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"SeaCucumber": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"SuperCucumber": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"SmallmouthBass": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Squid": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Walleye": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Angler": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Crimsonfish": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Ghostfish": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Glacerfish": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Icepip": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Legend": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"MidnightCarp": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"MidnightSquid": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"MutantCarp": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Sandfish": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"ScorpionCarp": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Slimejack": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Stonefish": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"VoidSalmon": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+},
+	"Changes": [
+
+	//Crab Pot
+		//Clam
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/crab pot/clam.png",
+			"ToArea": { "X": 192, "Y": 240, "Width": 16, "Height": 16 },
+			"When": {
+				"Clam": "True",
+			}
+		},
+		//Cockle
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/crab pot/cockle.png",
+			"ToArea": { "X": 352, "Y": 464, "Width": 16, "Height": 16 },
+			"When": {
+				"Cockle": "True",
+			}
+		},
+		//Crab
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/crab pot/crab.png",
+			"ToArea": { "X": 336, "Y": 464, "Width": 16, "Height": 16 },
+			"When": {
+				"Crab": "True",
+			}
+		},
+
+		//Crayfish
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/crab pot/crayfish.png",
+			"ToArea": { "X": 320, "Y": 464, "Width": 16, "Height": 16 },
+			"When": {
+				"Crayfish": "True",
+			}
+		},
+		//Lobster
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/crab pot/lobster.png",
+			"ToArea": { "X": 304, "Y": 464, "Width": 16, "Height": 16 },
+			"When": {
+				"Lobster": "True",
+			}
+		},
+		//Mussel
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/crab pot/mussel.png",
+			"ToArea": { "X": 368, "Y": 464, "Width": 16, "Height": 16 },
+			"When": {
+				"Mussel": "True",
+			}
+		},
+		//Oyster
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/crab pot/oyster.png",
+			"ToArea": { "X": 48, "Y": 480, "Width": 16, "Height": 16 },
+			"When": {
+				"Oyster": "True",
+			}
+		},
+		//Periwinkle
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/crab pot/periwinkle.png",
+			"ToArea": { "X": 32, "Y": 480, "Width": 16, "Height": 16 },
+			"When": {
+				"Periwinkle": "True",
+			}
+		},
+		//Shrimp
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/crab pot/shrimp.png",
+			"ToArea": { "X": 0, "Y": 480, "Width": 16, "Height": 16 },
+			"When": {
+				"Shrimp": "True",
+			}
+		},
+		//Snail
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/crab pot/snail.png",
+			"ToArea": { "X": 16, "Y": 480, "Width": 16, "Height": 16 },
+			"When": {
+				"Snail": "True",
+			}
+		},
+
+	//Foraging
+
+		//Coral
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/foraging/coral.png",
+			"ToArea": { "X": 144, "Y": 256, "Width": 16, "Height": 16 },
+			"When": {
+				"Coral": "True",
+			}
+		},
+		//NautilusShell
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/foraging/nautilusshell.png",
+			"ToArea": { "X": 128, "Y": 256, "Width": 16, "Height": 16 },
+			"When": {
+				"NautilusShell": "True",
+			}
+		},
+		//RainbowShell
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/foraging/rainbowshell.png",
+			"ToArea": { "X": 160, "Y": 256, "Width": 16, "Height": 16 },
+			"When": {
+				"RainbowShell": "True",
+			}
+		},
+		//SeaUrchin
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/foraging/seaurchin.png",
+			"ToArea": { "X": 208, "Y": 256, "Width": 16, "Height": 16 },
+			"When": {
+				"SeaUrchin": "True",
+			}
+		},
+		//Seaweed
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/foraging/seaweed.png",
+			"ToArea": { "X": 128, "Y": 96, "Width": 16, "Height": 16 },
+			"When": {
+				"Seaweed": "True",
+			}
+		},
+
+	//Fishing
+
+		//Anchovy
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/anchovy.png",
+			"ToArea": { "X": 144, "Y": 80, "Width": 16, "Height": 16 },
+			"When": {
+				"Anchovy": "True",
+			}
+		},
+		//Angler
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/angler.png",
+			"ToArea": { "X": 256, "Y": 96, "Width": 16, "Height": 16 },
+			"When": {
+				"Angler": "True",
+			}
+		},
+		//Bream
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/bream.png",
+			"ToArea": { "X": 192, "Y": 80, "Width": 16, "Height": 16 },
+			"When": {
+				"Bream": "True",
+			}
+		},
+		//Crimsonfish
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/crimsonfish.png",
+			"ToArea": { "X": 240, "Y": 96, "Width": 16, "Height": 16 },
+			"When": {
+				"Crimsonfish": "True",
+			}
+		},
+		//Eel
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/eel.png",
+			"ToArea": { "X": 64, "Y": 96, "Width": 16, "Height": 16 },
+			"When": {
+				"Eel": "True",
+			}
+		},
+		//Ghostfish
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/ghostfish.png",
+			"ToArea": { "X": 192, "Y": 96, "Width": 16, "Height": 16 },
+			"When": {
+				"Ghostfish": "True",
+			}
+		},
+		//Glacerfish
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/glacerfish.png",
+			"ToArea": { "X": 112, "Y": 512, "Width": 16, "Height": 16 },
+			"When": {
+				"Glacerfish": "True",
+			}
+		},
+		//Icepip
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/icepip.png",
+			"ToArea": { "X": 272, "Y": 96, "Width": 16, "Height": 16 },
+			"When": {
+				"Icepip": "True",
+			}
+		},
+		//LargemouthBass
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/largemouthbass.png",
+			"ToArea": { "X": 256, "Y": 80, "Width": 16, "Height": 16 },
+			"When": {
+				"LargemouthBass": "True",
+			}
+		},
+
+		//LavaEel
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/LavaEel.png",
+			"ToArea": { "X": 288, "Y": 96, "Width": 16, "Height": 16 },
+			"When": {
+				"LavaEel": "True",
+			}
+		},
+		//Legend
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/legend.png",
+			"ToArea": { "X": 304, "Y": 96, "Width": 16, "Height": 16 },
+			"When": {
+				"Legend": "True",
+			}
+		},
+		//MidnightCarp
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/midnightcarp.png",
+			"ToArea": { "X": 80, "Y": 176, "Width": 16, "Height": 16 },
+			"When": {
+				"MidnightCarp": "True",
+			}
+		},
+		//MidnightSquid
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/midnightsquid.png",
+			"ToArea": { "X": 96, "Y": 528, "Width": 16, "Height": 16 },
+			"When": {
+				"MidnightSquid": "True",
+			}
+		},
+		//MutantCarp1
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/mutantcarp.png",
+			"ToArea": { "X": 160, "Y": 448, "Width": 16, "Height": 16 },
+			"When": {
+				"MutantCarp": "True",
+			}
+		},
+		//MutantCarp2
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/mutantcarp.png",
+			"ToArea": { "X": 176, "Y": 448, "Width": 16, "Height": 16 },
+			"When": {
+				"MutantCarp": "True",
+			}
+		},
+		//Octopus
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/octopus.png",
+			"ToArea": { "X": 80, "Y": 96, "Width": 16, "Height": 16 },
+			"When": {
+				"Octopus": "True",
+			}
+		},
+		//Pufferfish
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/pufferfish.png",
+			"ToArea": { "X": 128, "Y": 80, "Width": 16, "Height": 16 },
+			"When": {
+				"Pufferfish": "True",
+			}
+		},
+		//RainbowTrout
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/rainbowtrout.png",
+			"ToArea": { "X": 288, "Y": 80, "Width": 16, "Height": 16 },
+			"When": {
+				"RainbowTrout": "True",
+			}
+		},
+		//Salmon
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/salmon.png",
+			"ToArea": { "X": 304, "Y": 80, "Width": 16, "Height": 16 },
+			"When": {
+				"Salmon": "True",
+			}
+		},
+		//Sandfish
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/sandfish.png",
+			"ToArea": { "X": 320, "Y": 96, "Width": 16, "Height": 16 },
+			"When": {
+				"Sandfish": "True",
+			}
+		},
+		//Sardine
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/sardine.png",
+			"ToArea": { "X": 176, "Y": 80, "Width": 16, "Height": 16 },
+			"When": {
+				"Sardine": "True",
+			}
+		},
+		//ScorpionCarp
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/scorpioncarp.png",
+			"ToArea": { "X": 336, "Y": 96, "Width": 16, "Height": 16 },
+			"When": {
+				"ScorpionCarp": "True",
+			}
+		},
+	
+		//SeaCucumber
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/seacucumber.png",
+			"ToArea": { "X": 160, "Y": 96, "Width": 16, "Height": 16 },
+			"When": {
+				"SeaCucumber": "True",
+			}
+		},
+		//Slimejack
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/slimejack.png",
+			"ToArea": { "X": 64, "Y": 528, "Width": 16, "Height": 16 },
+			"When": {
+				"Slimejack": "True",
+			}
+		},
+		//SmallmouthBass
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/smallmouthbass.png",
+			"ToArea": { "X": 272, "Y": 80, "Width": 16, "Height": 16 },
+			"When": {
+				"SmallmouthBass": "True",
+			}
+		},
+		//Stonefish
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/stonefish.png",
+			"ToArea": { "X": 224, "Y": 96, "Width": 16, "Height": 16 },
+			"When": {
+				"Stonefish": "True",
+			}
+		},
+		//Squid
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/squid.png",
+			"ToArea": { "X": 112, "Y": 96, "Width": 16, "Height": 16 },
+			"When": {
+				"Squid": "True",
+			}
+		},
+		//SuperCucumber
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/supercucumber.png",
+			"ToArea": { "X": 176, "Y": 96, "Width": 16, "Height": 16 },
+			"When": {
+				"SuperCucumber": "True",
+			}
+		},
+		//Tuna
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/tuna.png",
+			"ToArea": { "X": 160, "Y": 80, "Width": 16, "Height": 16 },
+			"When": {
+				"Tuna": "True",
+			}
+		},
+		//VoidSalmon
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/voidsalmon.png",
+			"ToArea": { "X": 48, "Y": 528, "Width": 16, "Height": 16 },
+			"When": {
+				"VoidSalmon": "True",
+			}
+		},
+		//Walleye
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fishing/walleye.png",
+			"ToArea": { "X": 320, "Y": 80, "Width": 16, "Height": 16 },
+			"When": {
+				"Walleye": "True",
+			}
+		},
+
+	//Misc
+
+
+		//GreenAlgae
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/misc/greenalgae.png",
+			"ToArea": { "X": 144, "Y": 96, "Width": 16, "Height": 16 },
+			"When": {
+				"GreenAlgae": "True",
+			}
+		},
+		//Pearl
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/misc/pearl.png",
+			"ToArea": { "X": 80, "Y": 528, "Width": 16, "Height": 16 },
+			"When": {
+				"Pearl": "True",
+			}
+		},
+		//SquidInk
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/misc/squidink.png",
+			"ToArea": { "X": 352, "Y": 528, "Width": 16, "Height": 16 },
+			"When": {
+				"SquidInk": "True",
+			}
+		},
+		//WhiteAlgae
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/misc/whitealgae.png",
+			"ToArea": { "X": 208, "Y": 96, "Width": 16, "Height": 16 },
+			"When": {
+				"WhiteAlgae": "True",
+			}
+		}
+	]
+}

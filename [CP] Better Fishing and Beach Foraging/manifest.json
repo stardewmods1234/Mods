@@ -1,0 +1,10 @@
+{
+   "Name": "Better Fishing and Beach Foraging",
+   "Author": "cometkins",
+   "Version": "1.0.0",
+   "Description": "Nicer looking fish and beach foraging.",
+   "UniqueID": "cometkins.BetterFishingAndBeachForaging",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}
