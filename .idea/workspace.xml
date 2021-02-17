@@ -1,105 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11a264c3-5969-4de6-9ef0-ed2ce2dec00e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/ReadMe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Dialogue/Dialogue.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Dialogue/DivorcedDialogue.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Dialogue/MarriageDialogue.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Events/0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Events/10.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Events/14.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Events/4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Events/6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Events/8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Image/AfterMarriage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Image/AureliaAfter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Image/AureliaBefore.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Image/BeachAfterMarriage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Image/BeachAureliaAfter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Image/BeachAureliaBefore.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Image/BeachBeforeMarriage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Image/BeforeMarriage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Map/AbandonedHouse.xnb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Schedule/FreeSchedule.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Schedule/FriendSchedule.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Schedule/Schedule.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Schedule/ScheduleDialogue.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/content.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned Bride Festival Locations/content.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned Bride Festival Locations/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned Bride Spouse Room/ABSpouseRoom.tmx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned Bride Spouse Room/content.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned Bride Spouse Room/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned Bride Spouse Room/sproomsts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior II/assets/RenewedHouseExterior.tmx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior II/assets/paths.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior II/assets/paths.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior II/assets/spring_outdoorsTileSheet.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior II/assets/spring_outdoorsTileSheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior II/content.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior II/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior/II/assets/RenewedHouseExterior.tmx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior/II/assets/paths.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior/II/assets/paths.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior/II/assets/spring_outdoorsTileSheet.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior/II/assets/spring_outdoorsTileSheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior/II/content.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior/II/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior/assets/AbandonedHouseExterior.tmx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior/assets/paths.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior/assets/paths.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior/assets/spring_outdoorsTileSheet.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior/assets/spring_outdoorsTileSheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior/content.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House II/assets/AbandonedHouse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House II/assets/RenewedHouse.tmx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House II/assets/paths.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House II/assets/paths.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House II/assets/townInterior.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House II/assets/townInterior.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House II/assets/townInterior_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House II/assets/townInterior_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House II/content.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House II/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/Exterior II/assets/RenewedHouseExterior.tmx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/Exterior II/assets/paths.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/Exterior II/assets/paths.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/Exterior II/assets/spring_outdoorsTileSheet.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/Exterior II/assets/spring_outdoorsTileSheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/Exterior II/content.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/Exterior II/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/Exterior/assets/AbandonedHouseExterior.tmx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/Exterior/assets/paths.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/Exterior/assets/paths.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/Exterior/assets/spring_outdoorsTileSheet.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/Exterior/assets/spring_outdoorsTileSheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/Exterior/content.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/Exterior/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/II/assets/AbandonedHouse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/II/assets/RenewedHouse.tmx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/II/assets/paths.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/II/assets/paths.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/II/assets/townInterior.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/II/assets/townInterior.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/II/assets/townInterior_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/II/assets/townInterior_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/II/content.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/II/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/assets/AbandonedHouse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/assets/AbandonedHouse.tmx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/assets/paths.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/assets/paths.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/assets/townInterior.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/assets/townInterior.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/assets/townInterior_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/assets/townInterior_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/content.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/manifest.json" beforeDir="false" />
-    </list>
+    <list default="true" id="11a264c3-5969-4de6-9ef0-ed2ce2dec00e" name="Default Changelist" comment="" />
     <list id="df405b05-a641-4446-8c59-d3949be38b2b" name="Revert &quot;:tada: initial commit&quot;" comment="Revert &quot;:tada: initial commit&quot;&#10;&#10;This reverts commit 6b0926c7" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +57,7 @@
       <workItem from="1613442523770" duration="2393000" />
       <workItem from="1613447402450" duration="620000" />
       <workItem from="1613556748851" duration="6680000" />
-      <workItem from="1613577133406" duration="6353000" />
+      <workItem from="1613577133406" duration="7114000" />
     </task>
     <task id="LOCAL-00001" summary=":tada: initial">
       <created>1613431689680</created>

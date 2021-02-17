@@ -1,9 +1,0 @@
-{
-	"Name": "Asian Persimmon Tree",
-	"Product": "Asian Persimmon",
-	"SaplingName": "Asian Persimmon Sapling",
-	"SaplingDescription": "Takes 28 days to produce a mature Asian Persimmon tree. Bears fruit in the winter. Only grows if the 8 surrounding tiles are empty.",
-	"Season": "winter",
-	"SaplingPurchasePrice": 6000,
-	"SaplingPurchaseFrom": "Pierre",
-}

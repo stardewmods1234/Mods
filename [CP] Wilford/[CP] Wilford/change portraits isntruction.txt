@@ -1,6 +1,0 @@
-if you want to play with the old portraits, go into the config.json and change "default" into "old"
-
-you can change portraits at any time back and forth:
-
-"default" - default Wilford's portraits
-"old" - old ones

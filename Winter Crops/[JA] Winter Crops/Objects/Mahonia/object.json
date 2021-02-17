@@ -1,9 +1,0 @@
-{
-	"Name": "Mahonia",
-	"Price": 25,
-	"Description": "A cluster of yellow flowers with a fragrant aroma.",
-	"Category": "Flower",
-	"Edibility": 15,
-	"IsColored": false,
-	"Recipe": null,
-}

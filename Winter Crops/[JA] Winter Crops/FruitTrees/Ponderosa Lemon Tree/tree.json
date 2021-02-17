@@ -1,9 +1,0 @@
-{
-	"Name": "Ponderosa Lemon Tree",
-	"Product": "Ponderosa Lemon",
-	"SaplingName": "Ponderosa Lemon Sapling",
-	"SaplingDescription": "Takes 28 days to produce a mature Ponderosa Lemon tree. Bears fruit in the winter. Only grows if the 8 surrounding tiles are empty.",
-	"Season": "winter",
-	"SaplingPurchasePrice": 4000,
-	"SaplingPurchaseFrom": "Pierre",
-}
