@@ -3,132 +3,102 @@
   <component name="ChangeListManager">
     <list default="true" id="11a264c3-5969-4de6-9ef0-ed2ce2dec00e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octo Crops/[JA]OctoCrops/[JA] Octo Crops/Crops/OctoFruit/crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octo Crops/[JA]OctoCrops/[JA] Octo Crops/Crops/OctoFruit/crop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octo Crops/[JA]OctoCrops/[JA] Octo Crops/Crops/OctoFruit/seeds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octo Crops/[JA]OctoCrops/[JA] Octo Crops/FruitTrees/Moonfruit Tree/sapling.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octo Crops/[JA]OctoCrops/[JA] Octo Crops/FruitTrees/Moonfruit Tree/tree.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octo Crops/[JA]OctoCrops/[JA] Octo Crops/FruitTrees/Moonfruit Tree/tree.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octo Crops/[JA]OctoCrops/[JA] Octo Crops/Objects/Moonfruit/Object.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octo Crops/[JA]OctoCrops/[JA] Octo Crops/Objects/Moonfruit/object.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octo Crops/[JA]OctoCrops/[JA] Octo Crops/Objects/OctoFruit/Object.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octo Crops/[JA]OctoCrops/[JA] Octo Crops/Objects/OctoFruit/object.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octo Crops/[JA]OctoCrops/[JA] Octo Crops/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PregnancyRole/PregnancyRole.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PregnancyRole/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PregnancyRole/i18n/default.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PregnancyRole/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShowCatchQuality/ShowCatchQuality.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShowCatchQuality/ShowCatchQuality.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShowCatchQuality/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SlimeProduce/assets/SlimeBallGray.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/BigCraftables/Brewing Station/big-craftable.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/BigCraftables/Brewing Station/big-craftable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/BigCraftables/Mushroom Tray/big-craftable.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/BigCraftables/Mushroom Tray/big-craftable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Crops/Ash Cinnamon/crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Crops/Ash Cinnamon/crop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Crops/Ash Cinnamon/seeds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Crops/Desert Roots/crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Crops/Desert Roots/crop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Crops/Desert Roots/seeds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Crops/Firefly Orchid/crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Crops/Firefly Orchid/crop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Crops/Firefly Orchid/seeds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Crops/Glass Orchid/crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Crops/Glass Orchid/crop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Crops/Glass Orchid/seeds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Crops/Managora/crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Crops/Managora/crop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Crops/Managora/seeds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Crops/Marine Orchid/crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Crops/Marine Orchid/crop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Crops/Marine Orchid/seeds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Crops/Void Orchid/crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Crops/Void Orchid/crop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Crops/Void Orchid/seeds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/FruitTrees/Moonlight Orchid/sapling.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/FruitTrees/Moonlight Orchid/tree.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/FruitTrees/Moonlight Orchid/tree.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/FruitTrees/Spectre Orchid/sapling.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/FruitTrees/Spectre Orchid/tree.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/FruitTrees/Spectre Orchid/tree.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/FruitTrees/Weeping Orchid/sapling.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/FruitTrees/Weeping Orchid/tree.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/FruitTrees/Weeping Orchid/tree.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Ash Cinnamon/object.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Ash Cinnamon/object.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Desert Roots/object.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Desert Roots/object.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Firefly Orchid/object.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Firefly Orchid/object.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Floral Tea/object.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Floral Tea/object.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Forest Tonic/object.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Forest Tonic/object.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Glass Orchid/color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Glass Orchid/object.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Glass Orchid/object.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Herbalist's Mix/object.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Herbalist's Mix/object.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Mana Moss/object.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Mana Moss/object.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Managora Essence/object.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Managora Essence/object.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Managora/object.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Managora/object.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Marine Blessing/object.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Marine Blessing/object.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Marine Orchid/object.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Marine Orchid/object.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Miner's Fuel/object.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Miner's Fuel/object.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Moondrip/object.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Moondrip/object.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Moonlight Orchid/object.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Moonlight Orchid/object.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Riders' Punch/object.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Riders' Punch/object.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Savage Rush/object.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Savage Rush/object.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Spectre Orchid/object.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Spectre Orchid/object.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Steel Fortress Potion/object.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Steel Fortress Potion/object.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Summer Nectar/object.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Summer Nectar/object.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Void Orchid/object.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Void Orchid/object.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Weeping Orchid/object.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/Objects/Weeping Orchid/object.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[JA] Valley Herbalist/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[PFM] Valley Herbalist/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[PFM] Valley Herbalist/producerRules.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valley Herbalist/[PFM] Valley Herbalist/producersConfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/[JA] Fantasy Crops/Crops/Coal Root/crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/[JA] Fantasy Crops/Crops/Coal Root/crop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/[JA] Fantasy Crops/Crops/Coal Root/seeds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/[JA] Fantasy Crops/Crops/Copper Leaf/crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/[JA] Fantasy Crops/Crops/Copper Leaf/crop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/[JA] Fantasy Crops/Crops/Copper Leaf/seeds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/[JA] Fantasy Crops/Crops/Gold Leaf/crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/[JA] Fantasy Crops/Crops/Gold Leaf/crop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/[JA] Fantasy Crops/Crops/Gold Leaf/seeds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/[JA] Fantasy Crops/Crops/Iridium Fern/crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/[JA] Fantasy Crops/Crops/Iridium Fern/crop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/[JA] Fantasy Crops/Crops/Iridium Fern/seeds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/[JA] Fantasy Crops/Crops/Iron Leaf/crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/[JA] Fantasy Crops/Crops/Iron Leaf/crop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/[JA] Fantasy Crops/Crops/Iron Leaf/seeds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/[JA] Fantasy Crops/Crops/Money Plant/crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/[JA] Fantasy Crops/Crops/Money Plant/crop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/[JA] Fantasy Crops/Crops/Money Plant/seeds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/[JA] Fantasy Crops/Crops/Radioactive Leaf/crop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/[JA] Fantasy Crops/Crops/Radioactive Leaf/crop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/[JA] Fantasy Crops/Crops/Radioactive Leaf/seeds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/[JA] Fantasy Crops/Objects/Doubloon/object.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/[JA] Fantasy Crops/Objects/Doubloon/object.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/[JA] Fantasy Crops/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/ReadMe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Dialogue/Dialogue.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Dialogue/DivorcedDialogue.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Dialogue/MarriageDialogue.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Events/0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Events/10.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Events/14.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Events/4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Events/6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Events/8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Image/AfterMarriage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Image/AureliaAfter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Image/AureliaBefore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Image/BeachAfterMarriage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Image/BeachAureliaAfter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Image/BeachAureliaBefore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Image/BeachBeforeMarriage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Image/BeforeMarriage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Map/AbandonedHouse.xnb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Schedule/FreeSchedule.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Schedule/FriendSchedule.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Schedule/Schedule.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/assets/Schedule/ScheduleDialogue.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/content.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[CP] Abandoned Bride/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned Bride Festival Locations/content.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned Bride Festival Locations/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned Bride Spouse Room/ABSpouseRoom.tmx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned Bride Spouse Room/content.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned Bride Spouse Room/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned Bride Spouse Room/sproomsts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior II/assets/RenewedHouseExterior.tmx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior II/assets/paths.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior II/assets/paths.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior II/assets/spring_outdoorsTileSheet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior II/assets/spring_outdoorsTileSheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior II/content.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior II/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior/II/assets/RenewedHouseExterior.tmx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior/II/assets/paths.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior/II/assets/paths.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior/II/assets/spring_outdoorsTileSheet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior/II/assets/spring_outdoorsTileSheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior/II/content.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior/II/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior/assets/AbandonedHouseExterior.tmx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior/assets/paths.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior/assets/paths.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior/assets/spring_outdoorsTileSheet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior/assets/spring_outdoorsTileSheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior/content.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House Exterior/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House II/assets/AbandonedHouse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House II/assets/RenewedHouse.tmx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House II/assets/paths.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House II/assets/paths.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House II/assets/townInterior.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House II/assets/townInterior.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House II/assets/townInterior_2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House II/assets/townInterior_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House II/content.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House II/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/Exterior II/assets/RenewedHouseExterior.tmx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/Exterior II/assets/paths.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/Exterior II/assets/paths.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/Exterior II/assets/spring_outdoorsTileSheet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/Exterior II/assets/spring_outdoorsTileSheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/Exterior II/content.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/Exterior II/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/Exterior/assets/AbandonedHouseExterior.tmx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/Exterior/assets/paths.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/Exterior/assets/paths.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/Exterior/assets/spring_outdoorsTileSheet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/Exterior/assets/spring_outdoorsTileSheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/Exterior/content.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/Exterior/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/II/assets/AbandonedHouse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/II/assets/RenewedHouse.tmx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/II/assets/paths.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/II/assets/paths.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/II/assets/townInterior.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/II/assets/townInterior.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/II/assets/townInterior_2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/II/assets/townInterior_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/II/content.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/II/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/assets/AbandonedHouse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/assets/AbandonedHouse.tmx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/assets/paths.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/assets/paths.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/assets/townInterior.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/assets/townInterior.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/assets/townInterior_2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/assets/townInterior_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/content.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abandoned Bride/[TMX] Abandoned House/manifest.json" beforeDir="false" />
     </list>
     <list id="df405b05-a641-4446-8c59-d3949be38b2b" name="Revert &quot;:tada: initial commit&quot;" comment="Revert &quot;:tada: initial commit&quot;&#10;&#10;This reverts commit 6b0926c7" />
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +155,7 @@
       <workItem from="1613442523770" duration="2393000" />
       <workItem from="1613447402450" duration="620000" />
       <workItem from="1613556748851" duration="6680000" />
-      <workItem from="1613577133406" duration="5223000" />
+      <workItem from="1613577133406" duration="6353000" />
     </task>
     <task id="LOCAL-00001" summary=":tada: initial">
       <created>1613431689680</created>
