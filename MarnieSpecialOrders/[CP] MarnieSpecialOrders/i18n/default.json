@@ -1,0 +1,15 @@
+{
+
+	"specialorder.cake-title": "Craving for Cake!",
+	"specialorder.cake-text": "It's melon season again, and I have an uncontrollable craving for pink cake! Could you please bring me 10 pink cakes made from melons from your farm?",
+	"specialorder.cake-objective0": "Harvest 10 melons.",
+	"specialorder.cake-objective1": "Deliver 10 pink cakes to Marnie.",
+	"specialorder.pie-title": "Desperate for Pie!",
+	"specialorder.pie-text": "I woke up this morning and couldn't stop thinking about pumpkin pie! Could you please bring me 10 pumpkin pies made from pumpkins from your farm?",
+	"specialorder.pie-objective0": "Harvest 10 pumpkins.",
+	"specialorder.pie-objective1": "Deliver 10 pumpkin pies to Marnie.",  
+	"specialorder.cake-success": "They smell delicious! I knew I could count on you!",
+	"specialorder.pie-success": "They smell incredible! I knew I could count on you!",
+	"mail.auto-petter": "Dear @,^Thank you so much! You're a true friend!^Starting tomorrow, I'll be selling a new luxury item... the \"Auto-Petter\".^I don't advocate relying on it all the time. Animals still need human touch.^But I know that sometimes life gets busy. And I trust that you won't start ignoring your animals!^See you soon!^   -Marnie[#]Auto-Petter for Sale",
+
+}

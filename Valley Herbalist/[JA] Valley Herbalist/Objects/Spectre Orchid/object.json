@@ -1,0 +1,21 @@
+{
+  "Name": "Spectre Orchid",
+  "Description": "Spooky flower that blooms in spooky season.",
+  "Category": "Flower",
+  "Edibility": 15,
+  "Price": 240,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+	"Love": ["Krobus", "Wizard"],
+	"Like": ["Sebastian"],
+	"Dislike": ["Robin", "Penny", "Maru", "Caroline", "Evelyn", "George", "Haley", "Jas", "Pam", "Willy", "Clint", "Harvey", "Gus"],
+	"Hate": ["Kent", "Vincent"]
+  },
+  "ContextTags": [
+    	"fruit_tree_flower_item",
+    	"flower_item",
+    	"season_fall",
+    	"color_red"
+    ]
+}

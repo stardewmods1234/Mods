@@ -1,0 +1,17 @@
+{
+    "Name": "Ash Cinnamon",
+    "Description": "An ashy cousin of your regular cinnamon. Probably not the best thing to put in your cooking.",
+    "Edibility": -300,
+    "Price": 140,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Like": ["Wizard", "Abigail", "Dwarf"],
+    },
+    "ContextTags": [
+    	"season_fall",
+    	"brewing_material",
+    	"color_grey"
+    ]
+}

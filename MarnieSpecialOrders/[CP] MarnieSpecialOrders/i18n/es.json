@@ -1,0 +1,15 @@
+{
+
+	"specialorder.cake-title": "Deseo de pastel!",
+	"specialorder.cake-text": "Es temporada de melón nuevamente, y tengo un deseo incontrolable de pastel rosa!. Podría traerme 10 pasteles rosados ​​hechos con melones de su granja??",
+	"specialorder.cake-objective0": "Cosecha 10 melones.",
+	"specialorder.cake-objective1": "Entrega 10 pasteles rosas a Marnie.",
+	"specialorder.pie-title": "Desesperado por pastel!",
+	"specialorder.pie-text": "Me desperté esta mañana y no podía dejar de pensar en el pastel de calabaza!. Podría traerme 10 pasteles de calabaza hechos con calabazas de su granja?",
+	"specialorder.pie-objective0": "Cosecha 10 calabazas.",
+	"specialorder.pie-objective1": "Entrega 10 pasteles de calabaza a Marnie.",  
+	"specialorder.cake-success": "Huelen delicioso! Sabía que podía contar contigo!",
+	"specialorder.pie-success": "Huelen increíble! Sabía que podía contar contigo!",
+	"mail.auto-petter": "Estimado @, ^ ¡Muchas gracias! Eres un verdadero amigo! ^ A partir de mañana, venderé un nuevo artículo de lujo ... el \"Auto-Petter\".^No soy partidario de depender de él todo el tiempo. Los animales todavía necesitan el contacto humano.^Pero sé que a veces la vida se complica. Y confío en que no empezará a ignorar a sus animales!^Hasta pronto!^  -Marnie [#] Auto-Petter a la venta",
+
+}

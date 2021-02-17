@@ -1,0 +1,16 @@
+{
+  "Name": "[MFM] Life Cycle - Penny & Sam Wedding Mail",
+  "Author": "nraittanna",
+  "Version": "3.2.2",
+  "Description": "Mail for Sam and Penny married version.",
+  "UniqueID": "nraittanna.LifeCycleSamPennyMail",
+  "UpdateKeys": [ "Nexus:6200" ],
+  "Dependencies": [
+		{
+			"UniqueID": "nraittanna.LifeCyclePennySam"
+		}
+	],
+  "ContentPackFor": {
+    "UniqueID": "DIGUS.MailFrameworkMod",
+  }
+}

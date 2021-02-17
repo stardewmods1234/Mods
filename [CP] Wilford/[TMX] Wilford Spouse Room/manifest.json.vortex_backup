@@ -1,0 +1,11 @@
+{
+  "Name": "Spouse Room Wilford",
+  "Author": "FloranceBless",
+  "Version": "1.0.1",
+  "Description": "Spouse Room for Wilford",
+  "UniqueID": "Fernandtea.SpouseRooms.Wilford",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.4.0"
+  }
+}

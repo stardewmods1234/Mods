@@ -1,0 +1,11 @@
+{
+	"Name": "Wilford's Mails",
+	"Author": "FloranceBless",
+	"Version": "1.0.1",
+	"Description": "Adds custom mail for Wilford.",
+	"UniqueID": "Fernandtea.mailforwilford",
+	"MinimumApiVersion": "2.11.3",
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod"
+	}
+}

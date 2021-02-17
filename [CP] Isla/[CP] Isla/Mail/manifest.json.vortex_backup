@@ -1,0 +1,12 @@
+{
+	"Name": "[MFM] Isla’s Mail",
+	"Author": "PaperNautilus",
+	"Version": "1.0.0",
+	"Description": "Adds custom mail.",
+	"UniqueID": "PaperNautilus.IslaMail",
+	"MinimumApiVersion": "2.11.3",
+	"UpdateKeys": [],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod",
+	}
+}

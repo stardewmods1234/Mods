@@ -1,0 +1,9 @@
+[
+    {
+        "ProducerName": "Cheese Press",
+        "InputIdentifier": "931",
+        "MinutesUntilReady": 200,
+        "OutputIdentifier": "932",
+        "Sounds": [ "Ship" ]
+    }
+]

@@ -1,0 +1,38 @@
+{
+	"Name": "Winter Brew",
+	"Category": "Cooking",
+	"Price": 525,
+	"Description": "A Perfect blend of winter teas.",
+	"Edibility": 50,
+	"EdibleIsDrink": true,
+	"Recipe":{
+      "ResultCount": 1,
+      "Ingredients": [
+		{
+		"Object": "Nettle Tea", "Count": 1,
+		},
+		{
+		"Object": "Christmas Rose Tea", "Count": 1,
+		},
+		{
+		"Object": "Mahonia Tea", "Count": 1
+		},
+       ],
+      "CanPurchase": false,
+      "IsDefault": false,
+    },
+	"EdibleBuffs":
+    {
+        "Farming": 1,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 1,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 1,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 300,
+    },
+}

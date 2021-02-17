@@ -1,0 +1,18 @@
+{
+"Format": "1.15.0",
+"Changes": [
+//Wedding arch and flowers tilesheets
+{
+"Action": "EditImage",
+"Target": "Tilesheets/Craftables",
+"FromFile": "assets/Flower.png",
+"ToArea": { "X": 16, "Y": 1120, "Width": 15, "Height": 29 }
+},
+{
+"Action": "EditImage",
+"Target": "Tilesheets/Craftables",
+"FromFile": "assets/Arch.png",
+"ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 105 }
+}
+    ]
+}

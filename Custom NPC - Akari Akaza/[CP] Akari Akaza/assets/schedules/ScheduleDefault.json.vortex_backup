@@ -1,0 +1,10 @@
+{
+"Mon": "800 Town 34 79 2/1000 ArchaeologyHouse 4 10 0/1200 ArchaeologyHouse 15 9 0/1400 ArchaeologyHouse 15 5 0/1600 ArchaeologyHouse 4 10 0/1900 SeedShop 24 14 2",
+"Tue": "800 Town 34 79 2/1000 ArchaeologyHouse 4 10 0/1200 ArchaeologyHouse 15 9 0/1400 ArchaeologyHouse 15 5 0/1600 ArchaeologyHouse 4 10 0/1900 SeedShop 24 14 2",
+"Wed": "800 Town 34 79 2/1000 ArchaeologyHouse 4 10 0/1200 ArchaeologyHouse 15 9 0/1400 ArchaeologyHouse 15 5 0/1600 ArchaeologyHouse 4 10 0/1900 Town 40 72 2",
+"Thu": "800 Town 34 79 2/1000 ArchaeologyHouse 4 10 0/1200 ArchaeologyHouse 15 9 0/1400 ArchaeologyHouse 15 5 0/1600 ArchaeologyHouse 4 10 0/1900 SeedShop 24 14 2",
+"Fri": "800 Town 34 79 2/1000 ArchaeologyHouse 4 10 0/1200 ArchaeologyHouse 15 9 0/1400 ArchaeologyHouse 15 5 0/1600 ArchaeologyHouse 4 10 0/1900 SeedShop 24 14 2",
+"Sat": "800 Town 34 79 2/1200 Town 73 53 2/1400 Town 33 101 2/1800 Town 40 72 2/2100 SeedShop 24 14 2",
+"Sun": "800 Town 34 79 2/1200 Town 80 94 0/1400 Beach 7 11 1/1800 SeedShop 24 14 2",
+"rain": "610 SeedShop 27 13 2/900 SeedShop 24 14 2/1200 SeedShop 2 6 0/1600 Town 105 89 2/2000 SeedShop 24 14 2",
+}

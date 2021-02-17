@@ -1,0 +1,426 @@
+{
+    "Format": "1.18.0",
+    "DynamicTokens": [
+        {
+            "Name": "WeatherVariant",
+            "Value": "Rain",
+            "When": {
+                "Season": "spring, summer, fall",
+                "Weather": "rain, storm, snow"
+            }
+        },
+        {
+            "Name": "WeatherVariant",
+            "Value": "Sun",
+            "When": {
+                "Weather": "sun, wind",
+                "Season": "spring, summer, fall, winter"
+            }
+        },
+        {
+            "Name": "WeatherVariant",
+            "Value": "Snow",
+            "When": {
+                "Season": "winter",
+                "Weather": "snow, rain, storm"
+            }
+        },
+        {
+            "Name": "HasArrived",
+            "Value": false
+        },
+          {
+            "Name": "HasArrived",
+            "Value": true,
+            "When": {
+                "HasSeenEvent": "9588563"
+            }
+        }
+    ],
+    "Changes": [
+        /************************************************
+        ** Map edits
+        ************************************************/
+              {
+      "Action": "EditData",
+      "Target": "Data/CustomNPCExclusions",
+      "Entries": {
+        "John": "IslandVisit"
+      }
+    },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Saloon",
+            "FromFile": "assets/Maps/Saloon.tbin",
+            "ToArea": { "X": 6, "Y": 7, "Width": 3, "Height": 4 },
+            "When": {
+                "HasMod |contains=Karmylla.ImmersiveMaps": false,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedALL": false
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Saloon",
+            "FromFile": "assets/Maps/SaloonKarm.tbin",
+            "ToArea": { "X": 6, "Y": 7, "Width": 3, "Height": 4 },
+            "When": {
+                "HasMod |contains=Karmylla.ImmersiveMaps": true,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedALL": false
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Saloon",
+            "FromFile": "assets/Maps/SaloonSve.tbin",
+            "ToArea": { "X": 6, "Y": 7, "Width": 3, "Height": 4 },
+            "When": {
+                "HasMod |contains=Karmylla.ImmersiveMaps": false,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedALL": true
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Saloon",
+            "MapProperties": {
+                "Doors": "11 9 1 120 20 9 1 120 3 16 1 824 4 16 1 825 40 16 1 120 40 15 1 120 31 15 1 120"
+            }
+        },
+        {
+            "LogName": "Map Strings Edit",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "SaloonJohn.1": "{{i18n:maps.saloon.1}}",
+                "SaloonJohn.2": "{{i18n:maps.saloon.2}}",
+                "SaloonJohn.3": "{{i18n:maps.saloon.3}}",
+            }
+        },
+ /************************************************
+        ** Festival spots
+        ************************************************/
+        {
+            "LogName": "Adds John to festivals",
+            "Action": "Include",
+            "FromFile": "assets/Data/Festivals.json",
+        },
+
+
+        /************************************************
+        ** NPC info
+        ************************************************/
+        {
+            "LogName": "NPCDispositions",
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "Entries": {
+                "John": "adult/rude/shy/neutral/male/datable/null/town/fall 17//SaloonTwo 43 5/{{i18n:npc-display-name}}"
+            }
+        },
+        {
+            "LogName": "NPCGiftTastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "John": "{{i18n:gift.love}}/715 720 524/{{i18n:gift.like}}/66 68 608 610/{{i18n:gift.dislike}}/597 219/{{i18n:gift.hate}}/199/{{i18n:gift.neutral}}/-4/ "
+            }
+        },
+
+
+        /************************************************
+        ** Movies
+        ************************************************/
+        {
+            "LogName": "Movie Theatre",
+            "Action": "Include",
+            "FromFile": "assets/movie-reactions.json"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/ConcessionTastes",
+            "Entries": { 
+                "John": {
+                    "Name": "John",
+                    "LovedTags": [ "Kale Smoothie", "Truffle Popcorn", "Apple Slices", "Jasmine Tea" ],
+                    "LikedTags": [ "Ice Cream Sandwich" ],
+                    "DislikedTags": [ "fatty" ]
+                }
+            }
+        },
+
+
+        /************************************************
+        ** Generic dialogue
+        ************************************************/
+        {
+            "Action": "EditData",
+            "Target": "Data/ExtraDialogue",
+            "Entries": {
+                "Mines_PlayerKilled_John_NotSpouse": "{{i18n:player-killed.not-spouse}}",
+                "Mines_PlayerKilled_John_Spouse": "{{i18n:player-killed.spouse}}"
+            }
+        },
+        {
+            "LogName": "Coriel Courtship",
+            "Action": "Include",
+            "FromFile": "assets/MissCoriel-courtship-dialogue.json",
+            "When": {
+                "HasMod |contains=misscoriel.courtship": true
+            }
+        },
+        {
+            "LogName": "Engagement Dialogue",
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "Entries": {
+                "John0": "{{i18n:engagement.0}}",
+                "John1": "{{i18n:engagement.1}}",
+            }
+        },
+        {
+            "LogName": "John Jealousy Messages",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/John",
+            "Entries": {
+                "giftquestion_yes": "{{i18n:gift-question.truth}}",
+                "giftquestion_lie": "{{i18n:gift-question.lie}}"
+            },
+            "When": {
+                "HasMod |contains=minervamaga.CP.JealousyResponses": true
+            }
+        },
+        {
+            "LogName": "Dialogue Default",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/John",
+            "FromFile": "assets/Dialogue/Dialogue-en.json",
+        },
+        {
+            "LogName": "Dialogue Edit",
+            "Action": "Include",
+            "FromFile": "assets/Dialogue/Dialogue-{{language}}.json",
+            "When": {
+                "HasFile:{{FromFile}}": true,
+                "Language |contains=en": false
+            }
+        },
+        {
+            "LogName": "Dialogue 2 3 4 hearts",
+            "Action": "Include",
+            "FromFile": "assets/Dialogue/Dialogue 2 3 4-en.json",
+            "When": {
+                "Hearts:John": "2,3,4",
+            }
+        },
+        {
+            "LogName": "Dialogue 2 3 4 hearts",
+            "Action": "Include",
+            "FromFile": "assets/Dialogue/Dialogue 2 3 4-{{language}}.json",
+            "When": {
+                "Hearts:John": "2,3,4",
+                "HasFile:{{FromFile}}": true,
+                "Language |contains=en": false
+            }
+        },
+        {
+            "LogName": "Dialogue 5 6 7",
+            "Action": "Include",
+            "FromFile": "assets/Dialogue/Dialogue 5 6 7-en.json",
+            "When": {
+                "Hearts:John": "5,6,7",
+            }
+        },
+        {
+            "LogName": "Dialogue 5 6 7",
+            "Action": "Include",
+            "FromFile": "assets/Dialogue/Dialogue 5 6 7-{{language}}.json",
+            "When": {
+                "Hearts:John": "5,6,7",
+                "HasFile:{{FromFile}}": true,
+                "Language |contains=en": false
+            }
+        },
+        {
+            "LogName": "Dialogue Edit",
+            "Action": "Include",
+            "FromFile": "assets/Dialogue/DialogueDating-en.json",
+            "When": {
+                "Relationship:John": "Dating"
+            }
+        },
+        {
+            "LogName": "Dialogue Edit",
+            "Action": "Include",
+            "FromFile": "assets/Dialogue/DialogueDating-{{language}}.json",
+            "When": {
+                "Relationship:John": "Dating",
+                "HasFile:{{FromFile}}": true,
+                "Language |contains=en": false
+            }
+        },
+        {
+            "LogName": "Marriage Dialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/MarriageDialogueJohn",
+            "FromFile": "assets/Dialogue/MarriageDialogue-en.json",
+        },
+        {
+            "LogName": "Marriage Dialogue",
+            "Action": "Include",
+            "FromFile": "assets/Dialogue/MarriageDialogue-{{Language}}.json",
+            "When": {
+                "HasFile:{{FromFile}}": true,
+                "Language |contains=en": false
+            }
+        },
+
+
+        /************************************************
+        ** Schedules
+        ************************************************/
+        {
+            "LogName": "Schedule",
+            "Action": "Load",
+            "Target": "Characters/schedules/John",
+            "FromFile": "assets/Schedule/NotThereSchedule.json",
+        },
+        {
+            "LogName": "Schedule",
+            "Action": "Include",
+            "FromFile": "assets/Schedule/Schedule.json",
+            "When": {
+                "HasArrived": true
+            }
+        },
+        {
+            "LogName": "Schedule strings",
+            "Action": "Load",
+            "Target": "Strings/schedules/John",
+            "FromFile": "assets/Schedule/ScheduleDialogue-en.json",
+        },
+        {
+            "LogName": "Schedule strings",
+            "Action": "Include",
+            "FromFile": "assets/Schedule/ScheduleDialogue-{{Language}}.json",
+            "When": {
+                "HasFile:{{FromFile}}": true,
+                "Language |contains=en": false
+            }
+        },
+
+
+        /************************************************
+        ** Festival dialogue
+        ************************************************/
+        {
+            "LogName": "Festival dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13, Data/Festivals/spring24, Data/Festivals/summer11, Data/Festivals/summer28, Data/Festivals/fall1, Data/Festivals/fall3, Data/Festivals/fall16, Data/Festivals/fall27, Data/Festivals/winter8, Data/Festivals/winter25",
+            "Entries": {
+                // show the first translation found from 'spring13.dating', 'spring13', or 'festival-default'
+                "John": "{{i18n:{{TargetWithoutPath}}.{{Relationship:John}} |default={{i18n:{{TargetWithoutPath}} |default={{i18n:festival-default}} }} }}"
+            }
+        },
+
+
+        /************************************************
+        ** Sprites and portraits
+        ************************************************/
+        // animations
+        {
+            "LogName": "Animations",
+            "Action": "EditData",
+            "Target": "Data/animationDescriptions",
+            "Entries": {
+                "sit_john": "40/40/40",
+                "john_drink": "20/21 21 21 21 21 21 21 21 22 22 22 22 22 22 22 22 22 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 22 22 22 22 22 22 22 21 21 21 21 21 21 21 21 21 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20/20",
+            }
+        },
+
+        // Everyday sprites and Portraits
+        {
+            "LogName": "Sprites",
+            "Action": "Load",
+            "Target": "Characters/John",
+            "FromFile": "assets/Image/Sprites/DoNotDelete.png",
+            "When": {
+                "HasArrived": false
+            },
+           "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Portraits",
+            "Action": "Load",
+            "Target": "Portraits/John",
+            "FromFile": "assets/Image/Portraits/John_Spring_Sun.png",
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Sprites",
+            "Action": "Load",
+            "Target": "Characters/John",
+            "FromFile": "assets/Image/Sprites/John_Spring_Sun.png",
+            "When": {
+                "HasArrived": true
+              },
+           "Update": "OnLocationChange"
+        },        {
+            "LogName": "Portraits",
+            "Action": "EditImage",
+            "Target": "Portraits/John",
+            "FromFile": "assets/Image/Portraits/John_{{season}}_{{WeatherVariant}}.png",
+            "When": {
+                "HasArrived": true
+             },
+           "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Sprites",
+            "Action": "EditImage",
+            "Target": "Characters/John",
+            "FromFile": "assets/Image/Sprites/John_{{season}}_{{WeatherVariant}}.png",
+            "When": {
+                "HasArrived": true
+             },
+           "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Festival Sprites",
+            "Action": "EditImage",
+            "Target": "Characters/John",
+            "FromFile": "assets/Image/Sprites/Festivals/{{DayEvent}}.png",
+            "Update": "OnLocationChange",
+            "When": {
+                "HasFile:{{FromFile}}": true,
+                "LocationName": "Temp"
+            }
+        },
+        {
+            "LogName": "Festival Portraits",
+            "Action": "EditImage",
+            "Target": "Portraits/John",
+            "FromFile": "assets/Image/Portraits/Festivals/{{DayEvent}}.png",
+            "Update": "OnLocationChange",
+            "When": {
+                "HasFile:{{FromFile}}": true,
+                "LocationName": "Temp"
+            }
+        },
+        {
+            "LogName": "Johns Bag",
+            "Action": "Load",
+            "Target": "Characters/John_Bag",
+            "FromFile": "assets/Image/TempSprites/John_Bag.png",
+        },
+        {
+            "LogName": "Johns swimsuit",
+            "Action": "Load",
+            "Target": "Characters/John_Swimsuit",
+            "FromFile": "assets/Image/TempSprites/John_Swimsuit.png",
+        },
+        {
+            "LogName": "Events",
+            "Action": "Include",
+            "FromFile": "assets/events.json"
+        }
+    ]
+}

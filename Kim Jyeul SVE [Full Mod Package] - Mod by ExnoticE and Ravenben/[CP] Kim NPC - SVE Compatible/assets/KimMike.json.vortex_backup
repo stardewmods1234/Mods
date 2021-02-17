@@ -1,0 +1,35 @@
+{
+     "Changes": [
+	{
+      "LogName": "Kim - Mike",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Kim",
+      "Entries": {
+                   "30" : "It's pretty cool Mike knows how to play guitar.$h",
+                   "2" : "I want to go to university someday.$h",
+                 }
+           }
+     ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

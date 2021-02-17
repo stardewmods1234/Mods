@@ -1,0 +1,46 @@
+{
+    "Name": "Paper Mulberry Branch",
+    "Description": "This sweet fruit is the summer delicacy of a sericulture farm.",
+    "Category": "Vegetable",
+    "CategoryTextOverride": "Fiber Resources",
+    "CategoryColorOverride": "55, 130, 35, 255",
+    "Edibility": 15,
+    "Price": 10,
+    "GiftTastes":
+    {
+        "Dislike": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "NameLocalization":
+    {
+        //"es": "", //Spansih
+        "ko": "닥나무 가지", //Korean
+        //"de": "", //German
+        //"fr": "", //French
+        //"hu": "", //Hungarian
+        //"it": "", //Italian
+        //"ja": "", //Japanese
+        //"pt": "", //Portuguese
+        //"ru": "", //Russian
+        //"tr": "", //Turkish
+        //"zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "", //Spansih
+        "ko": "껍질을 벗겨내 한지를 만들 수 있다.", //Korean
+        //"de": "", //German
+        //"fr": "", //French
+        //"hu": "", //Hungarian
+        //"it": "", //Italian
+        //"ja": "", //Japanese
+        //"pt": "", //Portuguese
+        //"ru": "", //Russian
+        //"tr": "", //Turkish
+        //"zh": "", //Chinese (Simplified)
+    },
+    "ContextTags": [
+        "season_summer",
+    	"fiber_resources_item",
+        "color_brown",
+    ],
+}

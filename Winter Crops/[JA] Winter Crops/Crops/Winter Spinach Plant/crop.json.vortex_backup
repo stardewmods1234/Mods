@@ -1,0 +1,22 @@
+{
+	"Name": "Winter Spinach Plant",
+	"Product": "Winter Spinach",
+	"SeedName": "Winter Spinach Seeds",
+	"SeedDescription": "Grows in 7 days. Plant in winter and harvest with a scythe.",
+	"Type": "Vegetable",
+	"CropType": "Normal",
+	"Seasons": ["winter"],
+	"Phases": [1,2,2,2],
+	"RegrowthPhase": -1,
+	"HarvestWithScythe": true,
+	"TrellisCrop": false,
+	"Bonus": {
+		"MinimumPerHarvest": 1,
+		"MaximumPerHarvest": 3,
+		"MaxIncreasePerFarmLevel": 6,
+		"ExtraChance": 0.5,
+	},
+	"SeedPurchasePrice": 40,
+	"SeedPurchaseFrom": "Pierre",
+	"SeedPurchaseRequirements": ["z spring/z summer/z fall"]
+}

@@ -1,0 +1,59 @@
+{
+    "Name": "Log Beehive",
+    "Description": "Wild honeycomb that makes honey found in the crevices of rocks. It requires flowers to produce.",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": true,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 390,  //Stone
+            "Count": 40,
+        },
+        {
+            "Object": 382,  //Coal
+            "Count": 8,
+        },
+        {
+            "Object": 335, //Iron Bar
+            "Count": 1,
+        }, 
+		 {
+            "Object": 724, //Maple Syrup
+            "Count": 1,
+        }, 
+		],
+        "CanPurchase": false,
+        "SkillUnlockName": "Farming",
+        "SkillUnlockLevel": 1,
+    },
+  "NameLocalization": { 
+		// "es": "",
+		"ko": "석청 벌집",
+        "de": "Baumstamm Bienenstock",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "原木蜂巢",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        "ko": "석청을 만들어내는 야생 벌집. 꿀을 생산하려면 꽃이 필요합니다.",
+        "de": "Wilde Wabe mit Honig die man in Felsspalten findet. Es braucht Blumen, um ihn zu produzieren.",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "在岩石缝隙中发现的能够产生蜂蜜的野生蜂巢。需要鲜花才可生产。",
+    }  
+	}

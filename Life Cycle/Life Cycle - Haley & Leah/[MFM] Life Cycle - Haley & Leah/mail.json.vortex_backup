@@ -1,0 +1,28 @@
+[
+//Wedding invitation
+{
+    "Id": "LifeCycle.HaleyLeah", 
+    "GroupID": "LifeCycle.Wedding",
+    "Text": "  ^     Dear @,^     we invite you to celebrate our marriage^     today, 27th of summer, at 5 in the town square.", 
+    "Title": "Haley and Leah wedding invitation", 
+    "LetterBG": "HaleyLeah.png",
+    "TextColor": 0,
+    "Repeatable": false,
+    "Date": "27 summer Y3",
+    "Weather": "sunny",
+    "EventsSeen": [59020039],
+    "FriendshipConditions":
+    [
+        {
+            "NpcName": "Haley",
+            "FriendshipLevel": 8,
+            "FriendshipStatus": ["Friendly","Divorced"]
+        },
+        {
+            "NpcName": "Leah",
+            "FriendshipLevel": 8,
+            "FriendshipStatus": ["Friendly","Divorced"]
+        }
+    ],
+},
+]

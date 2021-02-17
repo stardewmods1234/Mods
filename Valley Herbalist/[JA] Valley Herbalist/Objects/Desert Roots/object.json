@@ -1,0 +1,17 @@
+{
+    "Name": "Desert Roots",
+    "Description": "Spicy root commonly made into various beverages.",
+    "Category": "Vegetable",
+    "Edibility": 11,
+    "Price": 65,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Like": ["Sam", "Gus", "Sandy"],
+	},
+    "ContextTags": [
+    	"brewing_material",
+    	"color_yellow"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+   "Name": "[JA] BeachSide Plant",
+   "Author": "KAYA",
+   "Description": "Add some BeachSide plants.",
+   "Version": "1.0.0",
+   "UniqueID": "KAYA.BeachSidePlant",
+   "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+	"UpdateKeys": [ "Nexus:8056" ],
+}

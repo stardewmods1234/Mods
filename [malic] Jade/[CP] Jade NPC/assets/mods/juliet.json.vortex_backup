@@ -1,0 +1,42 @@
+// juliet patchfile
+// other references - DynamicTokens, i18n, dialogue
+// loads with juliet
+
+{
+	"Changes": [
+		{
+			"LogName": "Jade - Dialogue - Juliet",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jade",
+			"Entries": {
+				"Sat": "{{i18n:juliet.Sat}}",
+				"Mon4": "{{i18n:juliet.Mon4}}",
+				"summer_Thu4": "{{i18n:juliet.summer_Thu4}}",
+				"winter_Mon": "{{i18n:juliet.winter_Mon}}",
+			}
+		},
+
+		{
+			"LogName": "Jade - Schedule - Juliet",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Jade",
+            "Entries": { 
+				"Sat": "610 {{ScheduleAfterSpawnLocation}}/800 LodgingHouse 28 16 0/1000 ClearingHouse 11 12 jade_groundread/1300 ClearingHouse 46 14 jade_groundread/1700 LodgingHouse 19 13 0/1720 LodgingHouse 16 16 1/1830 LodgingHouse 3 5 0/2000 LodgingHouse 7 6 jade_groundread/2200 {{ScheduleAfterSpawnLocation}}", // lounging around juliet's house
+			}
+        },
+        
+        // lodging house room patch (used to be part of TMX folder)
+		{
+			"Action": "EditMap",
+			"Target": "Maps/LodgingHouse",
+			"FromFile": "assets/maps/LodgingHouseJadeRoom.tmx",
+			"PatchMode": "Replace",
+			"ToArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 11,
+				"Height": 13
+			}
+		},
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"Name": "Brussel Sprout",
+	"Price": 25,
+	"Description": "A small green sprout that has an imfamous bitter taste when boiled.",
+	"Category": "Vegetable",
+	"Edibility": 5,
+	"Recipe": null,
+}

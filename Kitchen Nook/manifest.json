@@ -1,0 +1,12 @@
+{
+   "Name": "[CP] Kitchen Nook",
+   "Author": "Allayna",
+   "Version": "3.1.0",
+   "Description": "Adds a kitchen nook to the starting farmhouse. ",
+   "UniqueID": "Allayna.Kitchen",
+   "MinimumApiVersion": "2.0",
+   "UpdateKeys": [1668],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

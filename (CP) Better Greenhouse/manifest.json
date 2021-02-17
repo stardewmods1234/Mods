@@ -1,0 +1,12 @@
+{
+   "Name": "Better Greenhouse",
+   "Author": "DoctorHadley",
+   "Version": "1.0.0",
+   "Description": "A modified greenhouse layout.",
+   "UniqueID": "DoctorHadley.BetterGreenhouse",
+   "MinimumApiVersion": "3.8",
+   "UpdateKeys": ["Nexus:7701"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

@@ -1,0 +1,260 @@
+{
+	"Changes":[
+		{
+			"LogName":"Jade - Movie Theatre Default",
+			"Action":"EditData",
+			"Target":"Data/MoviesReactions",
+			"Entries":{
+				"Jade":{
+					"NPCName":"Jade",
+					"Reactions":[
+						{ // brave little sapling
+							"Tag":"spring_movie_0",
+							"Response":"like",
+							"Whitelist":[],
+							"SpecialResponses":{
+								"BeforeMovie":{
+									"ResponsePoint":null,
+									"Script":"",
+									"Text":"{{i18n:movies.before.spring_movie_0}}"
+								},
+								"DuringMovie":{
+									"ResponsePoint":"sprout_leave",
+									"Script":"{{i18n:movies.during.spring_movie_0.script}}",
+									"Text":""
+								},
+								"AfterMovie":{
+									"ResponsePoint":null,
+									"Script":"",
+									"Text":"{{i18n:movies.after.spring_movie_0}}"
+								}
+							},
+							"ID":"reaction_1"
+						},
+						{ // prairie king
+							"Tag":"summer_movie_0",
+							"Response":"love",
+							"Whitelist":[],
+							"SpecialResponses":{
+								"BeforeMovie":{
+									"ResponsePoint":null,
+									"Script":"",
+									"Text":"{{i18n:movies.before.summer_movie_0}}"
+								},
+								"DuringMovie":{
+									"ResponsePoint":"",
+									"Script":"",
+									"Text":""
+								},
+								"AfterMovie":{
+									"ResponsePoint":null,
+									"Script":"",
+									"Text":"{{i18n:movies.after.summer_movie_0}}"
+								}
+							},
+							"ID":"reaction_summer_movie_0"
+						},
+						{ // mysterium
+							"Tag":"fall_movie_0",
+							"Response":"hate",
+							"Whitelist":[],
+							"SpecialResponses":{
+								"BeforeMovie":{
+									"ResponsePoint":null,
+									"Script":"",
+									"Text":"{{i18n:movies.before.fall_movie_0}}"
+								},
+								"DuringMovie":{
+									"ResponsePoint":null,
+									"Script":"/emote Jade 16 /message \"{{i18n:movies.during.fall_movie_0.script}}\"",
+									"Text":""
+								},
+								"AfterMovie":{
+									"ResponsePoint":null,
+									"Script":"",
+									"Text":"{{i18n:movies.after.fall_movie_0}}"
+								}
+							},
+							"ID":"reaction_fall_movie_0"
+						},
+						{ // coldstar ranch
+							"Tag":"winter_movie_0",
+							"Response":"like",
+							"Whitelist":[],
+							"SpecialResponses":{
+								"BeforeMovie":{
+									"ResponsePoint":null,
+									"Script":"",
+									"Text":"{{i18n:movies.before.winter_movie_0}}"
+								},
+								"DuringMovie":{
+									"ResponsePoint":null,
+									"Script":"/emote Jade 16",
+									"Text":""
+								},
+								"AfterMovie":{
+									"ResponsePoint":null,
+									"Script":"",
+									"Text":"{{i18n:movies.after.winter_movie_0}}"
+								}
+							},
+							"ID":"reaction_winter_movie_0"
+						},
+						{ // natural wonders
+							"Tag":"spring_movie_1",
+							"Response":"love",
+							"Whitelist":[],
+							"SpecialResponses":{
+								"BeforeMovie":{
+									"ResponsePoint":null,
+									"Script":"",
+									"Text":"{{i18n:movies.before.spring_movie_1}}"
+								},
+								"DuringMovie":{
+									"ResponsePoint":null,
+									"Script":"/emote Jade 20",
+									"Text":""
+								},
+								"AfterMovie":{
+									"ResponsePoint":null,
+									"Script":"",
+									"Text":"{{i18n:movies.after.spring_movie_1}}"
+								}
+							},
+							"ID":"reaction_spring_movie_1"
+						},
+						{ // wumbus
+							"Tag":"summer_movie_1",
+							"Response":"dislike",
+							"Whitelist":[],
+							"SpecialResponses":{
+								"BeforeMovie":{
+									"ResponsePoint":null,
+									"Script":"",
+									"Text":"{{i18n:movies.before.summer_movie_1}}"
+								},
+								"DuringMovie":{
+									"ResponsePoint":null,
+									"Script":"/emote Jade 24",
+									"Text":""
+								},
+								"AfterMovie":{
+									"ResponsePoint":null,
+									"Script":"",
+									"Text":"{{i18n:movies.after.summer_movie_1}}"
+								}
+							},
+							"ID":"reaction_summer_movie_1"
+						},
+						{ // howls in the rain
+							"Tag":"fall_movie_1",
+							"Response":"like",
+							"Whitelist":[],
+							"SpecialResponses":{
+								"BeforeMovie":{
+									"ResponsePoint":null,
+									"Script":"",
+									"Text":"{{i18n:movies.before.fall_movie_1}}"
+								},
+								"DuringMovie":{
+									"ResponsePoint":null,
+									"Script":"/emote Jade 16",
+									"Text":""
+								},
+								"AfterMovie":{
+									"ResponsePoint":null,
+									"Script":"",
+									"Text":"{{i18n:movies.after.fall_movie_1}}"
+								}
+							},
+							"ID":"reaction_fall_movie_1"
+						},
+						{ // zuzu express
+							"Tag":"winter_movie_1",
+							"Response":"like",
+							"Whitelist":[],
+							"SpecialResponses":{
+								"BeforeMovie":{
+									"ResponsePoint":null,
+									"Script":"",
+									"Text":"{{i18n:movies.before.winter_movie_1}}"
+								},
+								"DuringMovie":{
+									"ResponsePoint":null,
+									"Script":"",
+									"Text":""
+								},
+								"AfterMovie":{
+									"ResponsePoint":null,
+									"Script":"",
+									"Text":"{{i18n:movies.after.winter_movie_1}}"
+								}
+							},
+							"ID":"reaction_winter_movie_1"
+						},
+						{ // wildcard
+							"Tag":"*",
+							"Response":"like",
+							"Whitelist":[],
+							"SpecialResponses":{
+								"BeforeMovie":{
+									"ResponsePoint":null,
+									"Script":"",
+									"Text":"{{i18n:movies.before.generic}}"
+								},
+								"DuringMovie":null,
+								"AfterMovie":{
+									"ResponsePoint":null,
+									"Script":"",
+									"Text":"{{i18n:movies.after.generic}}"
+								}
+							},
+							"ID":"reaction_generic_movie"
+						}
+					]
+				}
+			}
+		},
+		{
+			"LogName":"Jade - Movie Theatre Tastes",
+			"Action":"EditData",
+			"Target":"Data/ConcessionTastes",
+			"Entries":{
+				"Jade":{
+					"Name":"Jade",
+					"LovedTags":[
+						"Stardrop Sorbet",
+						"Cappuccino Mousse Cake",
+						"Jawbreaker",
+						"Rock Candy"
+					],
+					"LikedTags":[
+						"Apple Slices",
+						"Ice Cream Sandwich",
+						"Popcorn",
+						"Chocolate Popcorn",
+						"Cotton Candy",
+						"Fries",
+						"Hummus Snack Pack",
+						"Jasmine Tea",
+						"Kale Smoothie",
+						"Panzanella Salad",
+						"Salted Peanuts",
+						"Sour Slimes",
+						"Star Cookie",
+						"Truffle Popcorn"
+						
+					],
+					"DislikedTags":[
+						"Black Licorice",
+						"Joja Cola",
+						"JojaCorn",
+						"Nachos",
+						"Personal Pizza",
+						"Salmon Burger"
+					]
+				}
+			}
+		}
+	]
+}

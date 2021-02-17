@@ -1,0 +1,28 @@
+{
+   "Entries": {
+            "Mon8": "Caelum and Orion like to help in the clinic.$0#$b#Of course, I just assign them easy tasks, they're still young.$1",
+            "Tue8": "Maybe after we finish with the history of medicine, I can teach Maru about medicine literature.$0#$b#I'm sure she'll love it!$1",
+            "Wed8": "Robin helped me remodel the apartment.$0#$b#It's much more cozy now.$1",
+            "Thu8": "I was afraid that Maru and I would talk too much about work...$2#$b#But that's not the case.$1",
+            "Fri8": "Robin offered to expand the clinic when we had dinner with them last week.$0#$e#I appreciate it, but I think it's big enough for our community.$0",
+            "Sat8": "Last night I cooked Maru and the kids a healthy and nutritious dinner.$0#$b#I think they loved it!$1",
+            "Sun8": "I've prepared a special energy tonic for Maru.$0#$e#I don't want her to feel exhausted.$2#$b#You know, she works too much...$2",
+            "spring_Thu8": "When I first met Maru I didn't know if she would do a good job.$0#$b#But she has proven to be a fully capable nurse.$1#$e#Also, if she hadn't applied for a job, we wouldn't have gotten to know each other and be married.$4",
+            "spring_Fri8": "Do you think Caelum or Orion will become pilots one day?$1",
+            "spring_Sat8": "Maru always brightens my day, I love being married to her.$4#$b#I love our family.$4",
+            "summer_Mon8": "Orion and Caelum wanted to visit the desert.$0#$b#Maybe we could go in the fall or winter, when it's cooler.$1",
+            "summer_Wed8": "Summer has become my favorite season because Maru and I go stargazing with the boys.$0#$e#The sky over the valley always looks stunning, but in the summer it gets even better!$1",
+            "summer_Sun8": "...$4#$e#Oh, @.$0#$b#I was thinking about Maru, our wedding, our family...$4",
+            "fall_Mon8": "I've been getting better at cooking now that I'm a dad.$1#$b#If you want advices on how to make healthy food, don't hesitate to ask me.$0",
+            "fall_Tue8": "I've been improving my massages techniques for Maru.$0#$b#Somedays she's really tired after work, and I want to help her relax a little.$1",
+            "fall_Fri8": "I used to feel down when business was not going well...$2#$b#But now Maru, Caelum and Orion always keep my spirits up, even on the hard days.$1",
+            "winter_Wed8": "I didn't know Demetrius liked kids so much, he's always playing with Orion and Caelum.$1",
+            "winter_Thu8": "On cold days like this, Maru and I like to share a bottle of wine by the fire.$1",
+            "winter_Sat8": "To be honest, I thought I would be single forever.$2#$b#I'm so glad Maru appeared in my life.$4#$b#We have such a wonderful family.$4",
+            "spring_23_2": "I'm feeling confident about the Flower Dance tomorrow.$1#$e#Maru and I have been practising our moves.$1",
+            "summer_10_2": "Hello, @.$0#$e#I've been improving my cooking skills for Maru's birthday.$1#$b#She told me that she loves cheese cauliflower and pepper poppers so I'm going to prepare her a special dinner.$1",
+            "summer_27_2": "The Dance of the Moonlight Jellies is so beautiful.$0#$e#I’m looking forward to enjoying it with Maru tomorrow.$1",
+            "fall_8_2": "I've prepared artichoke dip and chocolate cake for the twins' birthday.$0#$b#We also bought a science board game for them, they'll love it!$1",
+            "fall_26_2": "I always get lost in the Haunted Maze.$2#$e#Maybe if Maru and I go together, we'll be able to reach the exit.$0"
+   },
+}

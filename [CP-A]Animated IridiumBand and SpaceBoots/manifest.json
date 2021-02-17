@@ -1,0 +1,13 @@
+{
+  "Name": "Animated IridiumBand and SpaceBoots",
+  "Author": "scajiang",
+  "Version": "1.0.0",
+  "Description": "Animated IridiumBand and SpaceBoots",
+  "UniqueID": "scajiang.AnimatedIridiumBandandSpaceBoots",
+  "MinimumApiVersion": "1.0.0",
+  "UpdateKeys": [ "Nexus:    " ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "1.6.0"
+  }
+}

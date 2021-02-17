@@ -1,0 +1,59 @@
+{
+    "Name": "Mead Keg",
+    "Description": "A special keg for make variants of mead!",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 709, //Hardwood
+            "Count": 2,
+        },
+        {
+            "Object": 336, //Gold Bar
+            "Count": 3,
+        },
+        {
+            "Object": 725, //Oak Resi
+            "Count": 1,
+        }, 
+		{
+            "Object": 340, //honey
+            "Count": 1,
+        }, 
+		],
+        "CanPurchase": false,
+        "SkillUnlockName": "Farming",
+        "SkillUnlockLevel": 1,
+    },
+  "NameLocalization": { 
+		// "es": "",
+		"ko": "벌꿀주통",
+        "de": "Met Fass",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "蜜酒小桶",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        "ko": "다양한 벌꿀주를 만들 수 있는 특별한 술통이다!",
+        "de": "Ein spezielles Fass für Met-Varianten!",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "可以酿造多种蜂蜜酒的特殊小桶！",
+    }  
+}

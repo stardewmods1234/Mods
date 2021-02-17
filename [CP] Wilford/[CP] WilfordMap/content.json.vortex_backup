@@ -1,0 +1,36 @@
+{
+    "Format": "1.19",
+    "Changes": [
+	    {
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "FromFile": "assets/Entrance.tmx",
+            "ToArea": { "X": 102, "Y": 36, "Width": 18, "Height": 9 },
+            "When": {
+			
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "FromFile": "assets/EntranceSVE.tmx",
+            "ToArea": { "X": 107, "Y": 37, "Width": 13, "Height": 12 },
+            "When": {
+			
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        },
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "TextOperations": [
+                {
+                  "Operation": "Append",
+                  "Target": [ "MapProperties", "Warp" ],
+                  "Value": "120 42 EastWoods 1 38",
+                  "Delimiter": " "
+                }]
+             
+        }
+]}

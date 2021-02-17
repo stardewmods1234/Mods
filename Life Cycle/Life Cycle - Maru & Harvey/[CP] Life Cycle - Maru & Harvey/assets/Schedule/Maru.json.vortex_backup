@@ -1,0 +1,29 @@
+{
+   "Entries": {
+    //Original
+        "rain": "800 HarveyRoom 6 10 0/1000 HarveyRoom 13 10 1/1230 ScienceHouse 2 21 1/1430 ScienceHouse 19 18 0/1630 ScienceHouse 5 6 1 maru_tinker/1800 HarveyRoom 8 5 3/2000 HarveyRoom 13 10 1/2300 HarveyRoom 12 5 3 maru_sleep",
+        "Tue": "730 Hospital 6 15 2/1400 Hospital 9 15 3/1600 Hospital 8 17 1/1640 HarveyRoom 13 19 3/2200 HarveyRoom 13 10 1/2400 HarveyRoom 12 5 3 maru_sleep",
+        "Thu": "GOTO Tue",
+        "Mon": "800 HarveyRoom 8 10 1 maru_tinker/1130 HarveyRoom 3 9 1/1530 Town 43 77 2 maru_sit_down/1830 HarveyRoom 8 10 1 maru_tinker/2300 HarveyRoom 12 5 3 maru_sleep",
+        "Sun": "GOTO Mon",
+        "Summer_Mon": "800 ScienceHouse 19 18 0/1310 Town 64 16 3/1830 HarveyRoom 8 10 1 maru_tinker/2300 HarveyRoom 12 5 3 maru_sleep",
+        "winter": "800 ScienceHouse 19 18 0/1100 CommunityCenter 15 27 0/1600 HarveyRoom 8 10 1 maru_tinker/2200 HarveyRoom 12 5 3 maru_sleep",
+        "winter_16": "800 HarveyRoom 8 10 1 maru_tinker/1200 HarveyRoom 22 17 0/1500 Beach 11 33 3 \"Strings\\schedules\\Maru:winter_16.000\"/2300 HarveyRoom 12 5 3 maru_sleep",
+        "CommunityCenter_Replacement": "ScienceHouse 5 19 1",
+        "summer": "800 HarveyRoom 8 10 1 maru_tinker/1200 Mountain 55 31 0/1900 Mountain 8 23 3 \"Strings\\schedules\\Maru:summer.000\"/2300 HarveyRoom 12 5 3 maru_sleep",
+        "spring": "800 HarveyRoom 8 10 1 maru_tinker/1000 HarveyRoom 13 10 1/1500 Town 63 15 2 maru_sit_down/1800 HarveyRoom 8 10 1 maru_tinker/2200 HarveyRoom 12 5 3 maru_sleep",
+       
+    //Meet with Harvey
+        "spring_Wed": "800 HarveyRoom 8 10 1 maru_tinker/1100 Town 10 65 2 \"Strings\\schedules\\Maru:spring.001\"/1730 ScienceHouse 5 6 1 maru_tinker/2200 HarveyRoom 12 5 3 maru_sleep",
+        "spring_Sat": "800 ArchaeologyHouse 15 9 0 \"Strings\\schedules\\Maru:spring.002\"/1500 Town 62 98 2/1800 HarveyRoom 8 10 1 maru_tinker/2200 HarveyRoom 12 5 3 maru_sleep",
+        "summer_Tue": "730 Hospital 6 15 2/1400 Hospital 9 15 3/1600 Hospital 8 17 1/1800 Mountain 8 23 3 \"Strings\\schedules\\Maru:summer.001\"/2200 HarveyRoom 12 5 3 maru_sleep",
+        "summer_Sat": "800 ArchaeologyHouse 15 9 0 \"Strings\\schedules\\Maru:summer.002\"/1500 Town 62 98 2/1800 HarveyRoom 8 10 1 maru_tinker/2200 HarveyRoom 12 5 3 maru_sleep",
+        "fall_Thu": "730 Hospital 6 15 2/1400 Hospital 9 15 3/1600 Hospital 8 17 1/1800 HarveyRoom 10 17 3 \"Strings\\schedules\\Maru:fall.001\"/2200 HarveyRoom 12 5 3 maru_sleep",
+        "fall_Sat": "800 ArchaeologyHouse 15 9 0 \"Strings\\schedules\\Maru:fall.002\"/1500 Town 62 98 2/1800 HarveyRoom 8 10 1 maru_tinker/2200 HarveyRoom 12 5 3 maru_sleep",
+        "winter_Wed": "800 HarveyRoom 8 10 1 maru_tinker/900 ScienceHouse 19 18 0/1100 Town 64 17 2 \"Strings\\schedules\\Maru:winter.001\"/1600 ScienceHouse 5 6 1 maru_tinker/2200 HarveyRoom 12 5 3 maru_sleep",
+        "winter_Sat": "800 ArchaeologyHouse 15 9 0 \"Strings\\schedules\\Maru:winter.002\"/1500 Town 62 98 2/1800 HarveyRoom 8 10 1 maru_tinker/2200 HarveyRoom 12 5 3 maru_sleep",
+       
+    //Family dinner
+        "22": "800 HarveyRoom 8 10 1 maru_tinker/1130 HarveyRoom 3 9 1/1530 Town 43 77 2 maru_sit_down \"Strings\\schedules\\Maru:familydinner.001\"/1800 Saloon 6 6 0 \"Strings\\schedules\\Maru:familydinner.002\"/2310 HarveyRoom 12 5 3 maru_sleep"
+   },
+}

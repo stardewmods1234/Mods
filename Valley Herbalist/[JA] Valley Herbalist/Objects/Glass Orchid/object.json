@@ -1,0 +1,23 @@
+{
+    "Name": "Glass Orchid",
+    "Description": "Winter flowers with glassy petals, very delicate.",
+    "Category": "Flower",
+    "Edibility": -40,
+    "Price": 255,
+	"IsColored": true,
+	"Recipe": null,
+	"CanPurchase": false,
+	"PurchaseFrom": null,
+	"GiftTastes":
+{
+"Love": ["Abigail"],
+"Like": ["Sebastian", "Wizard"],
+"Neutral": ["Alex", "Shane", "Maru", "Dwarf", "Gus", "Krobus", "Pam", "Pierre", "Vincent", "Willy"],
+"Dislike": ["Clint", "George"],
+},
+    "ContextTags": [
+    	"flower_item",
+    	"color_blue",
+    	"season_winter"
+    ]
+}

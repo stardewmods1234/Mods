@@ -1,0 +1,419 @@
+{
+    /************************************************
+    ** Generic text
+    ************************************************/
+    // NPC info
+    "npc-display-name": "John",
+
+    // gift taste dialogue
+    "gift.love": "Oh, eu amei isso!",
+    "gift.like": "Eu gostei disso.",
+    "gift.dislike": "Eu não gostei.",
+    "gift.hate": "Eu odeio isso.",
+    "gift.neutral": "Eu esperava mais de você.",
+
+    // map text
+    "maps.saloon.1": "É um livro sobre religião.",
+    "maps.saloon.2": "Anotações do John.",
+    "maps.saloon.3": "Tem uma antoação no chão. Parece um lembrete.",
+
+    // player killed dialogue
+    "player-killed.not-spouse": "Ei, você parece acabdo. Te achei nas minas.$2#$b#Você deveria tomar mais cuidado.$s",
+    "player-killed.spouse": "Amoreco, você precisa ser mais cuidadoso...$2#$b#Eu não sei o que faria sem você!$s",
+
+    // engagement dialogue
+    "engagement.0": "Mal acredito que você está falando sério.",
+    "engagement.1": "Faltam poucos dias.",
+
+    // jelousy dialogue
+    "gift-question.truth": "Você é realmente um ótimo amigo para eles.$h",
+    "gift-question.lie": "Por que você mentiria?$a", // TODO: doesn't match default?
+
+
+    /************************************************
+    ** Festival dialogue
+    ************************************************/
+    // text shown if nothing else matches
+    "festival-default": "It's a beautiful day for a festival. $1#$e#I'm happy I had the energy to show up this year. $1", // TODO
+
+    // egg festival
+    "spring13": "...#$b#Eu costumava ser bom em festivais.#$b#Mas as coisas mudaram.$2",
+    "spring13.dating": "Ter você por perto faz o festival ficar ainda melhor.$4",
+    "spring13.married": "Vai caçar ovos esse ano?$1#$e#Sei que dará o seu melhor.$1",
+    "spring13.divorced": "Vai embora, você está arruinando o meu dia.$2",
+
+    // flower festival
+    "spring24": "Eu amo dançar...$2#$b#Mas sou péssimo nisso.$4",
+    "spring24.dating": "Oh, Coração. Eu não posso dançar.$4",
+    "spring24.married": "Por que não dança com seus amigos? Está tudo bem.$1",
+    "spring24.divorced": "Eu não quero dançar com você, cai fora.$5",
+
+    // luaua
+    "summer11": "Espero que gostem de alcachofras.$1#$b#Tenho certeza que ficará ótimo na sopa.$3",
+    "summer11.friendly": "I hope you like artichokes because I put some in the soup.$3", // TODO
+    "summer11.dating": "Eu coloquei o seu tempero favorito na sopa.$1",
+    "summer11.married": "Espero que esteja curtindo o festival.$1#$b#Eu estou curtindo bastante.$1",
+    "summer11.divorced": "O que faz aqui?$2#$e#Eu não vou comer a mesma sopa que você.$5",
+
+    // jellies
+    "summer28": "Uma linda noite.$3#$b#Ficará ainda mais linda quando eu ver água-vivas.$1",
+    "summer28.dating": "Esse festival é romântico, não acha?$4",
+    "summer28.married": "Ei, coração. Você está elegante hoje.$4",
+    "summer28.divorced": "Deixa eu curtir o festival em paz? Pelamor.$2",
+
+    // Marketpalooza (from Fellowclown.Nikolai mod)
+    "fall1": "Quanta loja, que legal.$1",
+    "fall1.dating": "É bem divertido, né?$1#$e#Estou feliz que veio.$4",
+    "fall1.married": "O mercador misterioso me vendeu alguns remédios.#$b#Espero que funcionem.$1",
+    "fall1.divorced": "Por que você tá falando comigo?$5#$e#Me deixe em paz...",
+
+    // fair
+    "fall16": "Quanta gente...$2",
+    "fall16.dating": "Está tão cheio aqui que eu mal consigo respirar.$12",
+    "fall16.married": "Eu tomei algumas medicações antes de vir, fez bastante diferença.$1",
+    "fall16.divorced": "Você está elegante...#$e#*suspiro*$2",
+
+    // spirit's eve
+    "fall27": "Sei que vou pegar um resfriado.$1#$b#Mas eu gosto tanto desse festival que não quis ficar no meu quarto.$3",
+    "fall27.dating": "O que você acha de combinarmos as nossas fantasias na próxima?$1",
+    "fall27.married": "Você viu as crianças correndo por aí? Parecem estar se divertindo.$1",
+    "fall27.divorced": "Você poderia só me deixar em paz?$2",
+
+    // festival of ice
+    "winter8": "Eu sou péssimo em pesca, mas gosto de assistir.$3",
+    "winter8.dating": "Eu sei que você vai ganhar, @. Estou torcendo por ti.$1",
+    "winter8.married": "Se você pegar um peixe, podemos pensar em ficar com ele, pedindo pro Lewis.$1#$e#É delicioso quando frito.$1",
+    "winter.divorced": "Só porque estamos em um festival não significa que eu queira falar contigo.$5",
+
+    // winter star
+    "winter25": "Eu li um livro uma vez que dizia que o festival era originalmente comemorado por uma cidade antiga em Gotoro.$1#$b#Dizem que quando um grupo da cidade atravessou o mar, o povo da República adotou e modificou à gosto deles.#$b#Faz você pensar, né?$1",
+    "winter25.dating": "Ei coração, fique com isso.$4[###]",
+    "winter25.spouse": "Eu peguei isso para você, Eu te amo, @!$4[###]",
+    "winter25.divorced": "Não espere nada de mim.",
+
+
+    /************************************************
+    ** MissCoriel's Courtship dialogue
+    ************************************************/
+    "give_flowersA": "Isso é um doce da sua parte.$4",
+    "give_flowersB": "Mas eu não tenho nada para te dar!$4",
+    "give_pendant": "É lidno.#$b#Vou aceitar.$4",
+    "stardrop_gift": "Isso é...estou sem palavras.$h",
+    "rejectNPCA": "Oh não, não estou interessado",
+    "rejectNPCB": "Nem pagando, me desculpe.",
+    "reject_two_heartA": "Você não acha que está cedo demais?$3",
+    "reject_two_heartB": "Ah cara, não...me desculpe.$3",
+    "reject_four_heartA": "Não estou pronto pra isso...Não podemos só continuar amigos?$3",
+    "reject_four_heartB": "Uh...Me perdoe?$3",
+    "engageA": "Você é louco, já não tem o seu?!$5",
+    "engageB": "Espera, o que? Você já está namorando!$5",
+    "marriedA": "Você tá tirando com a minha cara? Você já é casado!$5",
+    "marriedB": "Se não parar, vou ter que tomar medidas!$3",
+    "refusal_no_heartsA": "Oh não, ainda não somos proximos o suficiente.$3",
+    "refusal_no_heartsB": "Me desculpe, ainda nem nos conhecemos direito.$3",
+    "refusal_knownA": "Estou lisonjeado, mas não.$3",
+    "refusal_knownB": "Isso é tão...#$b#Inesperado...Isso é um não, me desculpe.$3",
+    "refusal_botherA": "Eu aceitaria mas, você não parece estável no momento.$3",
+    "refusal_botherB": "Acho que não, parece ser um momento ruim.$3",
+
+
+    /************************************************
+    ** Movie reactions
+    ************************************************/
+    "movies.0.before": "Os filmes são realmente engraçados!$1#$e#Obrigado por me visitar, @!$1",
+    "movies.0.during": "John está vidrado na tela do cinema.",
+    "movies.0.after": "Isso foi bem legal, obrigado por me chamar.$1",
+
+    "movies.1.before": "Eu já vi esse filme antes, ele é muito bom.$1#$e#Eu amei vê-lo novamente!$1",
+    "movies.1.during": "Os olhos do John estão cheio de água.",
+    "movies.1.after": "O filme realmente me partiu o coração.",
+
+    "movies.3.before": "Espero que eu goste.",
+    "movies.3.during": "John parece ansioso...",
+    "movies.3.after": "Filmes assim fazem eu pensar em minha vida.",
+
+    "movies.4.before": "Faz tempo que eu não dou umas boas gargalhadas...",
+    "movies.4.during": "Oh, cara! Que bacana!$3",
+    "movies.4.after": "Isso era exatamente o que eu precisava, me sinto muito melhor agora.$1",
+
+    "movies.5.before": "Eu nunca fui muito fã de filmes de terror. Faz meu peito doer.",
+    "movies.5.during": "Oh, não consigo assistir...!$2",
+    "movies.5.after": "Isso foi terrível, eu nem consegui respirar direito...$2",
+
+    "movies.6.before": "Espero que o filme seja bom.",
+    "movies.6.after": "Tomara que façam uma sequência. Isso foi muito bom.",
+
+    "movies.7.before": "Ouvi falar que esse filme é bom.",
+    "movies.7.after": "Não foi um filme ruim, afinal. Eu assistiria de novo.$1",
+
+    "movies.8.before": "Não sei não, heim...",
+    "movies.8.during": "...",
+    "movies.8.after": "Não sou capaz de opinar sobre esse filme....",
+
+    "movies.9.before": "Ooh, '{0}'! Esse foi um filmaço!!",
+
+    "movies.10.before": "Já vi esse filme. É legalzinho.",
+
+    "movies.11.before": "Eu realmente não gosto desse filme, é bem ruim...$2",
+
+
+    /************************************************
+    ** Event dialogue
+    ************************************************/
+    /*********
+    ** Bus stop arrival event
+    *********/
+    // main segment
+    "arrival.01": "...Quem é você?$11",
+    "arrival.02": "Oi! O meu nome é Lewis, eu sou o prefeito da cidade! Recebi uma carta dizendo que alguém novo chegaria da cidade de Zuzu hoje.$1",
+    "arrival.03": "Então vim dar as boas-vindas pessoalmente.$1",
+    "arrival.04": "Ah...$10",
+    "arrival.05": "Oi...$11",
+    "arrival.06": "Bem, qual o seu nome?$2",
+    "arrival.07": "Ah, @, que bom te ver! Está se adaptando bem, pelo visto.$1",
+    "arrival.08": "Então, novato.",
+    "arrival.09": "Qual é o seu nome?",
+    "arrival.10": "Eu... Ér.$11",
+    "arrival.11": "Eu sou John.$10",
+    "arrival.12": "John, então tá!#$b#Prazer em te conhecer! Essa pessoa aqui perto de mim é @.",
+    "arrival.13": "@ cuida da fazenda local, que aliás não faz muito tempo que ele veio para cá.$1",
+    "arrival.14": "Olá...$10",
+    "arrival.15": "Onde planeja ficar, John?",
+    "arrival.16": "Eu, é...$10#$b#Eu falei com o Gus, ele disse que tem um quarto para mim no salão.$10",
+    "arrival.17": "Gus é um bom homem.",
+    "arrival.18": "Ei, tive uma ideia.",
+    "arrival.19": "Por que você não mostra ao John onde fica o salão?",
+    "arrival.20": "...De boa. Eu consigo encontrar sozinho...$11",
+
+    // accept fork
+    "arrival.accept.01": "Eu insisto.",
+    "arrival.accept.02": "Bem, eu-$11",
+    "arrival.accept.03": "Maravilha! vou deixá-los a sós então, @. Foi um prazer, John!",
+    "arrival.accept.04": "Lidere o caminho então, eu acho.$11",
+    "arrival.accept.05": "Oh... valeu.$11",
+    "arrival.accept.06": "Tenho que ir agora.$10",
+
+    // refuse fork
+    "arrival.refuse.01": "Sim, Lewis. Ele pode encontrar o salão sozinho.",
+    "arrival.refuse.02": "Já ouviu falar em hospitalidade, @?$4",
+    "arrival.refuse.03": "Me desculpe, John, eu te mostro onde fica.$3",
+    "arrival.refuse.04": "Mas, eu...$11",
+    "arrival.refuse.05": "Me siga, apenas.",
+    "arrival.refuse.06": "*suspiro*$11",
+
+
+    /*********
+    ** Saloon 1-heart event
+    *********/
+    "1heart.01": "Esse é o cara que eu tava te falando.$3",
+    "1heart.02": "Oh, ele?$2#$b#O que tem ele?$2",
+    "1heart.03": "Eu ouvi a Marnie conversando com a Robin.$3#$b#Que ele vive no cemitério olhando os túmulos.$3",
+    "1heart.04": "E daí?",
+    "1heart.05": "Isso é assustador.$3",
+    "1heart.06": "Mas a Abby às vezes não faz isso também?$2",
+    "1heart.07": "A Abby é diferente.$2#$b#Ela...você sabe, é gótica ou algo assim.#$b#Ela é estilosa por fazer essas coisas.",
+    "1heart.08": "E por que ele não?$2",
+    "1heart.09": "Um cara velho vendo túmulos, é assustador, Alex.$2",
+    "1heart.10": "Grr...$5",
+    "1heart.11": "Tá, eu acho que entendi.",
+    "1heart.12": "*suspiro*$2",
+    "1heart.13": "Você acha que ele nos ouviu?$2",
+    "1heart.14": "Eu sei lá, mas quem se importa?$2",
+    "1heart.15": "O que foi isso?$5",
+    "1heart.16": "Você tem algo a dizer?",
+    "1heart.17": "O que a Haley disse não é verdade.",
+    "1heart.18": "O que a Haley disse te chateou, né?",
+    "1heart.19": "Eu não sei porque pensei que aqui seria diferente.$2#$b#Não é muito diferente de Zuzu.$2",
+    "1heart.20": "A Cidade Zuzu me deixou doente... literalmente.#$b#E eu vim para cá em busca de melhorias.$2",
+    "1heart.21": "É só que - espero que nem todos sejam assim aqui.#$b#O Gus é um cara legal, pelo menos.$3",
+    "1heart.22": "Eu não fico olhando túmulos, eu estava pegando o lixo que eles jogam lá...$7",
+    "1heart.23": "Eu nem sei porque tô te falando isso. Eu mal te conheço.$2",
+    "1heart.24": "Foi mal... preciso ir...$2",
+
+
+    /*********
+    ** Forest 2-heart event
+    *********/
+    "2hearts.01": "...*huff huff*$12",
+    "2hearts.02": "@, está tudo bem.$12#$b#Só estou um pouco cansado.$12",
+    "2hearts.03": "Eu vou ficar bem, só preciso ir para o meu quarto.$2",
+    "2hearts.04": "Ok...$12#$b#Talvez eu não esteja tão bem assim.$12",
+    "2hearts.05": "Melhor levá-lo ao Harvey.",
+    "2hearts.06": "O que houve assim tão tarde?$s",
+    "2hearts.07": "Eu estou muito tonto...$12#$b#Se não fosse @, eu não teria conseguido chegar até aqui.$12",
+    "2hearts.08": "Percebi...$s#$b#Isso anda acontecendo frequentemente.$s#$b#E você parece estar sem fôlego.",
+    "2hearts.09": "Melhor eu ficar de olho em você hoje à noite.#$b#De plantão.$2",
+    "2hearts.10": "É, eu acho que vou precisar.$2",
+    "2hearts.11": "Obrigado por me ajudar, @.",
+    "2hearts.12": "Nem todo mundo faria isso.",
+    "2hearts.13": "Sem problemas. Somos amigo.",
+    "2hearts.14": "De boa, que não vire hábito.",
+    "2hearts.15": "Deixe eu te ajudar a levá-lo até a cama.",
+    "2hearts.16": "Te vejo por aí, ok?$3#$b#Vou descansar por hoje.$2",
+    "2hearts.17": "Ok, vamos lá.",
+
+
+    /*********
+    ** Pierre's shop 4-heart event
+    *********/
+    "4hearts.01": "Já faz um ano.$2#$b#Eu continuo rezando todas as noites, mas você não me responde.$2#$b#Mesmo sendo um padre, você nunca me respondeu.$2",
+    "4hearts.02": "Yoba, as coisas continuam indo mal.$2#$b#Eu não entendo porque tenho que passar por tudo isso...$2",
+    "4hearts.03": "A minha saúde está piorando.$2",
+    "4hearts.04": "Isso é algum tipo de teste?$5",
+    "4hearts.05": "*suspiro*.$2",
+    "4hearts.06": "Eu estou em dúvidas se tú és real...$2",
+    "4hearts.07": "Oh, @, eu não vi que estava aí...",
+    "4hearts.08": "Eu estava orando, eu acho... Você não ouviu a minha oração, né?$2",
+
+    // main fork
+    "4hearts.09": "Eu ouvi tudo. Continue sendo forte.",
+    "4hearts.10": "*Suspiro*$7",
+    "4hearts.11": "...Isso não é nada simples.$2",
+    "4hearts.12": "Estou cansado, @, todo o tempo.$2#$b#E está ficando pior e pior.$2#$b#O Harvey não faz ideia do que possa ser.#$b#É difícil se manter forte desse jeito.$2",
+    "4hearts.13": "Foi mal, mas estou tentando o máximo.#$b#Obrigado por todo o suporte, @, isso significa muito para mim.$2",
+    "4hearts.14": "Eu espero que as coisas melhorem.",
+    "4hearts.15": "Te vejo por aí, @.",
+
+    // sad fork
+    "4hearts.sad.01": "Eu ouvi uma coisa ou outra. É triste.",
+    "4hearts.sad.02": "Por favor, não diga isso.",
+    "4hearts.sad.03": "Eu não preciso que tenhas pena de mim, @.$5",
+    "4hearts.sad.04": "Vou embora, eu já fiz o que vim fazer.",
+
+
+    /*********
+    ** Hospital 5-heart event
+    *********/
+    "5hearts.01": "Os testes deram todos negativos, mas eu recomendo você visitar um doutor na cidade de Zuzu.$11",
+    "5hearts.02": "Sua condição está fora do meu alcance.$2#$b#É melhor ver um especialista.",
+    "5hearts.03": "Eu já visitei um especialista lá, e disseram a mesma coisa que você...$2",
+    "5hearts.04": "Ah, eu entendo.#$b#Então posso tentar te medicar?#$b#Sei que não é a reposta que quer, mas é o máximo que posso fazer.",
+    "5hearts.05": "E talvez um cão-guia, quem sabe.#$b#Eles são treinados para a sua situação.",
+    "5hearts.06": "@?!$8",
+    "5hearts.07": "@! ...Não é uma boa hora.#$b#Poderia ir para a sala de espera, por favor?$2",
+    "5hearts.08": "@, tudo bem. Eu já estou de saída.$2",
+    "5hearts.09": "Mas precisamos conversar ainda.$2",
+    "5hearts.10": "Não precisamos. Não preciso dessas coisas.#$b#Eu preciso é de respostas.",
+    "5hearts.11": "Está me deixando louco não saber o que tá rolando comigo.$2",
+    "5hearts.12": "Não faz sentido se basear em medicamentos se não sabe que está acontecendo.",
+    "5hearts.13": "Você deveria escutar o Harvey. Ele sabe o que faz.",
+    "5hearts.14": "Mesmo sem respostas, você deveria aceitar ajuda.",
+    "5hearts.15": "Tente encontrar outro doutor. Não perca a esperança.",
+
+
+    /*********
+    ** Wizard's house 6-heart event
+    *********/
+    "6hearts.01": "Eu não posso prometer resultados. Milagres são imprevisíveis.",
+    "6hearts.02": "Eu sei... mas não custa tentar.$2",
+    "6hearts.03": "Essa doença... os doutores não conseguiram resolver?",
+    "6hearts.04": "Não, eles não conseguem. Está fora do alcance deles.$5",
+    "6hearts.05": "Eles deduzem que a causa da minha doença era a minha antiga cidade.$6",
+    "6hearts.06": "Ah, mas nada mudou?",
+    "6hearts.07": "Sim, nada mudou, eu continuo doente.$2",
+    "6hearts.08": "É incerto saber exatamente o que causou isso tudo.",
+    "6hearts.09": "Eu não consigo fazer uma poção para curar algo que não sei o que é...",
+    "6hearts.10": "Mas posso tentar criar uma poção que te dê forças. Um tônico, por assim dizer.",
+    "6hearts.11": "É, o que você tem é bem forte.$2",
+    "6hearts.12": "Por Yoba.$12#$b#Isso é terrível!$12",
+    "6hearts.13": "Então tá.$12",
+    "6hearts.14": "Uma reação ruim seria o comum.#$b#Ele vai ficar bem, confie.",
+    "6hearts.15": "Como...$2#$b#Como vou saber se isso funcionou?$2",
+    "6hearts.16": "...#$b#Eu espero que você diga que sentiu algo diferente.",
+    "6hearts.17": "Eu não sinto nada.$2",
+    "6hearts.18": "Mas, obrigado por tentar.$2",
+    "6hearts.19": "Rasmodius estava tentando me curar.$2",
+    "6hearts.20": "Eu ando bem doente...",
+    "6hearts.21": "Estou começando a pensar que nunca ficarei bem.",
+
+    // main fork
+    "6hearts.22": "Vou tentar fazer o possível.",
+    "6hearts.23": "@... Isso foi fofo de sua parte.$2",
+
+    // discourage fork
+    "6hearts.discourage.01": "As vezes não há maneiras de ficar melhor.",
+    "6hearts.discourage.02": "Eu acho que você está corretíssimo.$2#$b#Mas isso meio que me desencoraja...",
+
+    // outro
+    "6hearts.24": "Obrigado por tentar me animar.",
+    "6hearts.25": "Há tantas coisas que a vida nos testa, e não importa quantas dificuldades apareçam, desafios sempre surgirão. Precisamos saber lidar com isso. Se manter firme.",
+
+
+    /*********
+    ** Saloon 7-heart event
+    *********/
+    "7hearts.01": "@! É bom te ver aqui!$1",
+    "7hearts.02": "Eu estava tomando um último drink, antes de me deitar.",
+    "7hearts.03": "É engraçado. Eu não deveria beber por conta de minhas crenças, mas eu precisava.$1",
+    "7hearts.04": "São tantas espectativas em ser um padre.$2#$b#Eu sinto falta disso às vezes, mas preciso parar.$3",
+    "7hearts.05": "Hm? Bem, como um padre, você não pode se entregar aos prazeres da vida.#$b#A maior parte do tempo, você tem que repassar a palavra e ensinamentos.#$b#É uma rotina bem singular, aliás.$2",
+    "7hearts.06": "É bom ser um cara normal, às vezes.#$b#É bem solitário ser um padre.$2",
+    "7hearts.07": "Padres nem mesmo podem ter um encontro, sabia?$7",
+    "7hearts.08": "Bem, acho que estou reclamando, né?",
+    "7hearts.09": "Foi mal, eu não deveria falar essas coisas.#$b#Entrei no sacerdócio aos dezenove anos, então passei a maior parte da minha vida fazendo isso.",
+    "7hearts.10": "Enquanto a maioria do pessoal da minha idade estavam farreando, eu estava servindo um propósito maior.$2",
+    "7hearts.11": "As vezes percebo que perdi parte da minha juventude com isso.",
+    "7hearts.12": "Tudo bem, mas você pode fazer essas coisas agora.",
+    "7hearts.13": "Ser um padre é uma coisa bem honrosa. Você não deveria reclamar.",
+    "7hearts.14": "*bocejo* Está muito tarde, não acha?#$b#Eu vou para a cama.#$b# A gente poderia fazer isso mais vezes.",
+
+
+    /*********
+    ** Town 8-heart event
+    *********/
+    "8hearts.01": "@!$13",
+    "8hearts.02": "Estou me sentindo melhor hoje, decidi ir para a praia.$15#$b#O Harvey disse que será bom para mim.$13",
+    "8hearts.03": "Quer ir comigo?",
+
+    // main fork
+    "8hearts.04": "Ir com o John.",
+    "8hearts.05": "Oh, ótimo!$13",
+    "8hearts.06": "Está um dia lindo aqui.$13#$b#O Harvey estava certo, estou me sentindo melhor aqui.$13",
+    "8hearts.07": "Eu adoro passar um tempo contigo, @, obrigado por vir.",
+    "8hearts.08": "Eu gosto de passar um tempo com você também.",
+    "8hearts.09": "Eu prefiro ficar sozinho.",
+    "8hearts.10": "Eu também gostava de ficar sozinho, até te conhecer...$14",
+    "8hearts.11": "Não se assuste, por favor.$14#$b#É só que... eu nunca me senti assim antes.$14#$b#Como um padre... eu nem mesmo achei que me sentiria assim em algum momento..$14",
+    "8hearts.12": "...$8",
+    "8hearts.13": "Isso não me assusta, eu me sinto da mesma maneira.",
+    "8hearts.14": "Isso é insano... me assusta.",
+    "8hearts.15": "Eu sei que estamos nos encontrando várias vezes.$14#$b#Mas eu realmente estou feliz em estar contigo, @.$16",
+
+    // decline fork
+    "8hearts.refuse.01": "Não ir com o John.",
+    "8hearts.refuse.02": "Oh, então tá. Vejo você por aí. Tchau, @.$14",
+
+    /*********
+    ** Hospital 9-heart event
+    *********/
+    "9hearts.01": "@?#$b#Eu fiz alguns novos exames...",
+    "9hearts.02": "Estou esperando ser chamado.$2",
+    "9hearts.03": "John, sua vez.",
+    "9hearts.04": "E lá vamos nós...$2",
+    "9hearts.05": "Eu estou...um pouco ansioso.$2#$b#Quer vir comigo?",
+
+    // accept fork
+    "9hearts.06": "Sim",
+    "9hearts.07": "Obrigado...$2",
+    "9hearts.08": "Ok, John. Vamos ver.#$b#Eu sei que você está esperando o resultado já faz um tempo.$2",
+    "9hearts.09": "Sim, ansiosamente.$2",
+    "9hearts.10": "Bem, a boa notícia é.#$b#Descobrimos o que é.",
+    "9hearts.11": "Você tem algo conhecido como (ME) ou como posso dizer, Síndrome da fadiga crônica.$2",
+    "9hearts.12": "E o que isso significa?",
+    "9hearts.13": "Bem, é uma doença multissistêmica que causa disfunção dos sistemas neurológico, imunológico, endócrino e de metabolismo energético do corpo.",
+    "9hearts.14": "Isso explica o seu cansaço.$2#$b#Assim como a sua dor repentina.",
+    "9hearts.15": "Tem algum tratamente para isso?",
+    "9hearts.16": "Tratamentos concretos, não.$2#$b#Mas alguns pacientes notaram melhora com planos de atendimento personalizados.$2#$b#Para uma doença crônica, encontrar uma cura não é tão importante.",
+    "9hearts.17": "O que importa é saber lidar com ela.",
+    "9hearts.18": "Ah, entendo...$2",
+    "9hearts.19": "Podemos começar amanhã a desenvolver seu plano de assistência, se você estiver disposto a vir aqui em algum momento, o que acha?",
+    "9hearts.20": "Claro que irei vir, doutor.$2",
+    "9hearts.21": "Obrigado @, por estar aqui comigo.",
+    "9hearts.22": "Isso...#$b#Isso não era exatamente o que eu queria ouvir, mas vou conseguir lidar.$2",
+    "9hearts.23": "É um alívio de certo modo, saber o que está havendo comigo.#$b#Que não é algo da minha cabeça.",
+    "9hearts.24": "E eu estou no caminho certo para melhorar.$1",
+
+    // decline fork
+    "9hearts.refuse.01": "Não",
+    "9hearts.refuse.02": "Ah, tá bom.$2#$b#Eu entendo, eu faço isso sozinho.$2"
+}

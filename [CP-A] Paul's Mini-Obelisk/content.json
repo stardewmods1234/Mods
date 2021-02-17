@@ -1,0 +1,18 @@
+{
+	"Format": "1.17.0",
+
+	"Changes": [
+
+		{
+			"LogName": "Mini-Obelisk",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "Mini-Obelisk.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+			"ToArea": { "X": 96, "Y": 928, "Width": 16, "Height": 32 },
+			"AnimationFrameTime": 5,
+			"AnimationFrameCount": 32,
+		},
+
+		  ],
+}

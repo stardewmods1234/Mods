@@ -1,0 +1,835 @@
+{
+	"Format": "1.17.0",
+
+    "DynamicTokens": [
+
+            {
+
+            "Name": "IndoorVariant",
+            "Value": "Indoor",
+            "When":{
+            
+                "Season": "winter",
+            },
+        },
+        {
+            "Name": "IndoorVariant",
+            "Value": "Outdoor",
+            "When": {
+
+                "IsOutdoors": "true",
+                "Season": "winter",
+
+            },
+        },
+        {
+            "Name": "Festival",
+            "Value": "_SpiritsEve",
+            "When":
+            {
+                "DayEvent": "spirit's eve"
+
+            }
+        },
+     ],
+
+  "Changes": [
+    {
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Isla": "adult/polite/shy/neutral/female/datable/null/Other/winter 18//UnderwaterCove 2 6 1/Isla",
+
+   }
+},
+	
+	{
+
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+       "Isla": "This is wonderful! Thank you very much, kind @.$8/797 265 560 242/Thank you @, that's very thoughtful of you.$1/212 228 392 394 597 456 457 595 728 727 730 422/Oh @, I appreciate the thought./535 536 537 749 771 184 176 16 20/Oh dear @, I don't care for this at all.$2/729 199 207 205 346 348 330 766 167 168 170 171 172/Thank you, @./393 668 414/",
+            }
+        },
+		{
+      "LogName": "Animations",
+      "Action": "EditData",
+      "Target": "Data/animationdescriptions",
+      "Entries": {
+	"Isla_Reading": "22 22 22 23 23 23 23 23 24 24 24 24 24 24 24 25/25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25/25 24 24 23 23 22 22",
+		"Isla_Sorting": "29/29 29 29 30 30 30 30 31 31 31 31 30 30 30 30 29 29 29/29",
+		"Isla_Drinking": "32/32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 33 33 33 33 33 33 33 33 34 34 34 34 34 34 34 34 35 35 35 35 35 35 35 34 34 34 34 34 34 34 34 33 33 33 33 33 32 32 32 32 32 32 32 32 32/32",
+			
+			"Isla_Sleep": "39/39/39",
+       }
+    },
+
+    {
+
+      "LogName": "Schedule Dialogue",
+      "Action": "Load",
+      "Target": "Strings/schedules/Isla",
+      "FromFile": "assets/Schedules/ScheduleDialogue.json"
+
+    },
+
+    {
+
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Isla",
+      "FromFile": "assets/Image/Sprites/Isla/Isla_Spring.png",
+      
+    },
+{
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Portraits/Isla",
+      "FromFile": "assets/Image/Portraits/Isla/Isla_Spring.png",
+      
+    },
+	{
+      "LogName": "NPC Sprite",
+      "Action": "EditImage",
+      "Target": "Characters/Isla",
+      "FromFile": "assets/Image/Sprites/Isla/Isla_{{season}}.png",
+	"When": {"Season":"summer, fall"}
+    },
+   {
+ 
+      "LogName": "NPC Sprite",
+      "Action": "EditImage",
+      "Target": "Characters/Isla",
+      "FromFile": "assets/Image/Sprites/Isla/Isla_{{season}}_{{IndoorVariant}}.png",
+      "Update": "OnLocationChange",
+	"When": {"Season":"winter"}
+
+    },
+    {
+
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Isla",
+      "Update": "OnLocationChange",
+      "FromFile": "assets/Image/Portraits/Isla/Festivals/Isla_SpiritsEve.png",
+      "When":
+            {
+                "DayEvent": "spirit's eve",
+
+            }
+        },
+        {
+
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Isla",
+      "Update": "OnLocationChange",
+      "FromFile": "assets/Image/Sprites/Isla/Festivals/Isla_SpiritsEve.png",
+      "When":
+            {
+                "DayEvent": "spirit's eve",
+
+            }
+        },
+        {
+
+      "LogName": "Kelpie",
+      "Action": "Load",
+      "Target": "Characters/Kelpie",
+      "FromFile": "assets/Image/Sprites/Temporary/Kelpie/Kelpie.png",
+
+    },
+    {
+
+      "LogName": "Soraya",
+      "Action": "Load",
+      "Target": "Characters/Soraya",
+      "FromFile": "assets/Image/Sprites/Temporary/Soraya/Soraya.png",
+
+
+    },
+    {
+
+      "LogName": "Marika",
+      "Action": "Load",
+      "Target": "Characters/Marika",
+      "FromFile": "assets/Image/Sprites/Temporary/Marika/Marika.png",
+
+    },
+    {
+
+      "LogName": "Elysa",
+      "Action": "Load",
+      "Target": "Characters/Elysa",
+      "FromFile": "assets/Image/Sprites/Temporary/Elysa/Elysa.png",
+
+    },
+    {
+
+
+      "LogName": "Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Isla",
+      "FromFile": "assets/Image/Portraits/Isla/Isla_{{season}}.png",
+      "Update": "OnLocationChange",
+	"When": {"Season":"summer, fall"}
+
+    },
+   {
+
+      "LogName": "Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Isla",
+      "FromFile": "assets/Image/Portraits/Isla/Isla_{{season}}_{{IndoorVariant}}.png",
+      "Update": "OnLocationChange",
+	"When": {"Season":"winter"}
+
+
+    },
+    {
+
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Kelpie",
+      "FromFile": "assets/Image/Portraits/Temporary/Kelpie/Kelpie.png",
+
+    },
+    {
+
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Soraya",
+      "FromFile": "assets/Image/Portraits/Temporary/Soraya/Soraya.png",
+
+
+    },
+    {
+
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Marika",
+      "FromFile": "assets/Image/Portraits/Temporary/Marika/Marika.png",
+
+    },
+    {
+
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Elysa",
+      "FromFile": "assets/Image/Portraits/Temporary/Elysa/Elysa.png",
+
+	},
+	{
+
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Isla",
+      "FromFile": "assets/schedules/Schedule.json",
+	  "When": { 
+	  "HasSeenEvent |contains=8205020": true,
+	}
+
+   		},
+   	 {
+     
+      "LogName": "Before Intro Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Isla",
+      "FromFile": "assets/schedules/BeforeIntroSchedule.json",
+	  "When": { 
+	  "HasSeenEvent |contains=8205020": false,
+
+	}
+
+   		},
+   	 {
+		"LogName": "Adds LockedDoorWarp on Isla's cove",
+		"Action": "EditMap",
+		"Target": "Maps/Underwater_Cove_Exterior",
+		"MapTiles": [
+		  {
+			"Position": { "X": 42, "Y": 4 },
+			"Layer": "Buildings",
+		   "SetProperties": {
+				   "Action": "LockedDoorWarp 42 4 UnderwaterCove_Exterior 610 2400",
+				}
+			  }
+		  ],
+		  "When": { 
+			"DayofWeek": "Friday, Saturday, Sunday",
+				  }
+	  },
+	  { 
+
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Isla": "I saw Elliott on the beach this morning, and he invited me to come to the festival!$8#$b#It's been nice meeting the other residents, and the food is simply delicious.$8",
+        "Isla_Spouse": "It's the first festival of the year, dear @! It's so lovely to see everyone here.$8",
+            }
+        },
+		{
+ 
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Isla": "Oh, I've danced so many times with Galene. I just love the exhilaration of moving with the music.$1", 
+        "Isla_Spouse": "I can't wait to dance with you today, dear @.$4",
+
+            }
+        },
+		{
+
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Isla": "Hello @. I decided to come join the festivities today. Everyone has been so friendly and welcoming towards me.$1#$b#I decided to add some freshly harvested seaweed, straight from the Gem Sea!$8",
+        "Isla_Spouse": "I'm going to put my special seaweed to the luau soup today. It will add a unique brininess to the flavour! What will you bring this year, dear @?$8",
+
+            }
+        },
+		{
+
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Isla": "I've see the jellyfish perform many a time, but tonight's performance will special.$1#$b#It will be a beautiful farewell to the summer.$1",
+        "Isla_Spouse": "Oh, I can't wait to see the jellyfish dance tonight! You know, it will feel a lot like old times...$1",
+
+            }
+        },
+		{
+
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Isla": "Hello, @. I see you've found me here by the river. I took a look at some of the festivities earlier, and they were just wonderful!$8",  
+        "Isla_Spouse": "You've really outdone yourself with your display this year, dear @! I couldn't be more proud. I was a feeling a little overwhelmed by the crowds, so I came to stand here for a little while.$1",
+
+            }
+        },
+		{
+
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Isla": "What do you think of my costume, @? I decided to dress up as one of my favourite Ferngillian poets, Emily Dickinson.$8",
+        "Isla_Spouse": "What is your favourite Emily Dickinson poem, @?$8",
+
+            }
+        },
+		{
+
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Isla": "This sculpture is a tribute to the founder of Galene, a mermaid by the name of Melusine. It's a striking likeness.$1",
+        "Isla_Spouse": "This sculpture of Melusine reminds me of my old life...$1",
+
+            }
+        },
+		{
+
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Isla": "Merry Winter Star, @. I hope your year has been most fruitful, and I'm wishing you the best for the next.$1",
+        "Isla_Spouse": "Merry Winter Star, love. I'm elated I get to spend it with you.$4"
+
+            }
+        },
+		{
+
+      "Action": "EditData",
+      "Target": "strings/StringsFromMaps",
+      "Entries": {
+		"UnderwaterCove.001": "You see new melodies, lyrics, and harmonies, written in Isla's beautiful handwriting.",
+		"UnderwaterCove.002": "This is a reference book of classic arias. It appears to be very old.",
+		"UnderwaterCove.003": "The walls of Isla's cove are covered in algae.",
+		"UnderwaterCove.004": "This appears to be a replica of a Saxifrageian viking ship.",
+		"UnderwaterCove.005": "This antique vessel is beautifully crafted and inlaid with gold. You suspect it may be of Gotoran craftsmanship.",
+		"UnderwaterCove.006": "All of the furniture in Isla's chamber appears to be quite worn-looking. You suspect she may have collected it from various sunken ships.",
+		"UnderwaterCove.007": "Is this blanket woven from sea silk?",
+		"UnderwaterCove.008": "This carpet appears to be woven from dried seaweed.",
+		"BeachsideRoom.001": "You see titles from all of Isla's favourite authors. You are incredibly proud to see that many of them are Ferngillian.",
+		"BeachsideRoom.002": "You see that Isla has been working very hard on her latest collection of poems. You beam with pride.",
+		"BeachsideRoom.003": "You recognise this chair from Isla's cove! You marvel at how far you two have come.",
+		"BeachsideRoom.004": "It's wonderful to be able to come stand by the water, and relax for awhile.",
+
+            }
+        },
+		{
+
+
+      "Action": "Load", 
+      "Target": "Maps/MermaidBeachEvent", 
+      "FromFile": "assets/Maps/MermaidBeachEvent.tmx",   
+
+        },
+		{
+ 
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "Entries": { 
+ "UnderwaterCove_Exterior": "372 .9 718 .1 719 .3 723 .3/372 .9 394 .5 718 .1 719 .3 723 .3/372 .9 718 .1 719 .3 723 .3/372 .4 392 .8 718 .05 719 .2 723 .2/129 -1 131 -1 147 -1 148 -1 152 -1 708 -1 267 -1/128 -1 130 -1 146 -1 149 -1 150 -1 152 -1 155 -1 708 -1 701 -1 267 -1/129 -1 131 -1 148 -1 150 -1 152 -1 154 -1 155 -1 705 -1 701 -1/708 -1 130 -1 131 -1 146 -1 147 -1 150 -1 151 -1 152 -1 154 -1 705 -1/384 .08 589 .09 102 .15 390 .25 330 1"}
+
+    },
+   		 {
+
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Isla",
+      "FromFile": "assets/dialogue/DialogueIsla.json",
+
+
+    },
+    {
+
+      "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Isla0": "I was so delighted that you presented me with a Mermaid Pendant. How did you know that that is customary amongst us merpeople?$7",
+        "Isla1": "Tomorrow we wed. I'm looking forward to the beautiful ceremony. But most of all, I'm looking forward to being with you, dear @.$4"
+      }
+    },
+	{
+      "Action": "EditData",
+      "Target": "strings/StringsFromCSFiles",
+      "Entries": {
+      "Utility.cs.5367": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Isla in the bonds of marriage. Let us celebrate that on this day, {0} of {1}, two different beings from two very different places are united in the bonds of marriage.",
+      "Utility.cs.5369": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#Let us celebrate that on this day, {0} of {1}, two different beings from two very different places are united in the bonds of marriage.",
+	  "Utility.cs.5371": "@... Isla... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$h",
+      "Utility.cs.5377": "@... Isla... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you wife and..., well, wife!$h",
+      },
+      "When": {
+      "Relationship:Isla": "Engaged"
+            }
+        },
+		{
+      "LogName": "Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueIsla",
+      "FromFile": "assets/dialogue/MarriageDialogueIsla.json",
+    },
+	{
+
+//"A Mysterious Visitor (Part I)"
+      "Action": "EditData",
+      "Target": "Data/Events/Mountain",
+      "When": { "HasFlag": "beachBridgeFixed" },
+      "Entries": {
+	"8205019/d Fri Sat Sun/t 610 900": "none/-500 -500/farmer 1 13 1/addTemporaryActor Kelpie 16 32 5 13 2 false/viewport 10 13 true/pause 2000/emote Kelpie 16/speed Kelpie 5/move Kelpie 0 6 2/warp Kelpie -30 -30/emote farmer 8/pause 500/globalFade/viewport -1000 -1000/pause 500/message \"I wonder where the mysterious horse ran off to? It seems like they were headed towards the beach...\"/pause 500/globalFade/viewport -1000 -1000/end",
+            }
+        },
+		{
+//"A Mysterious Visitor (Part II)"
+      "Action": "EditData",
+      "Target": "Data/Events/Beach",
+      "Entries": {
+	"8205020/e 8205019/d Fri Sat Sun/t 610 900": "desolate/-500 -500/farmer 52 16 2 Isla -300 -300 0/addTemporaryActor Kelpie 16 32 52 22 0 false/viewport 52 20 true/pause 1000/emote Kelpie 16/pause 800/animate Kelpie false false 16 16 16 16 16 17 17 17 17 17 18 18 18 18 18 19 19 19 19 19 19 20 21 21 21 21 21 22/stopAnimation Kelpie/warp Kelpie -300 -300 0/warp Isla 52 22 0/emote farmer 16/speak Isla \"Who might you be? And why have you been following me?$6\"/question fork1 \"#You tell Isla who you are, and reassure her that you mean her no harm.#Say nothing.\"/fork SayNothing/friendship Isla 50/move farmer 0 4 2/speak Isla \"Well @, it's very nice to make your acquaintance.$h#$b#My name is Isla, and I'm one of the merpeople who live in the Gem Sea.$1\"/pause 500/speak Isla \"Perhaps I look familiar to you now.#$b#I'm a member of Galene, the famous mermaid musical troupe.#$b#We perform all around the Ferngill Republic, and you may have seen us at the Winter Market here in Pelican Town.#$b#In fact, I fell in love with your town when I was here last year for a show.$1#$b#Now, I like to come here on my days off.#$b#I apologise for having run off earlier. You see, I was quite startled to see you. I can be rather nervous around your kind.$2\"/pause 500/speak Isla \"You seem like a kind soul, though.#$b#I hope to see you around.$h\"/pause 200/globalFade/viewport -1000 -1000/end",
+
+	"SayNothing": "pause 500/emote Isla 40/pause 1000/speak Isla \"You humans puzzle me so.$2#$b#Well, if you don't wish to tell me, I politely ask that you leave me alone now.$2\"/pause 200/globalFade/viewport -1000 -1000/end",
+	}
+
+},
+		{
+//An Impasse (2 Heart Event)
+      "Action": "EditData",
+      "Target": "Data/Events/Beach",
+      "Entries": {
+	"8205021/f Isla 500/d Fri Sat Sun/e 8205020/t 900 1700/w sunny": "desolate/-500 -500/farmer 87 40 2 Isla 86 40 2/showframe Isla 21/skippable/viewport 86 42 true/pause 1000/faceDirection farmer 3/showFrame Isla 18/speak Isla \"Oh, hello @.#$b#I'm sorry, I didn't see you there.#$b#I'm just sitting here and pondering. Do come join me.$1\"/pause 500/showframe Isla 17/faceDirection farmer 2/pause 500/emote farmer 8/pause 500/speak Isla \"You're wondering if something's wrong?#$b#Thank you for asking. You have certainly shown yourself to be the kind soul I thought you to be.$8\"/pause 500/speak Isla \"Well, I've been feeling quite lost recently.$2#$b#I rarely speak of this, but I was abandoned as a baby.$2#$b#In fact, I'm not a mermaid at all.$6#$b#I'm a nixie, a kind of water spirit.#$b#I have the ability to shape-shift, and you saw me as a kelpie the first time we met.#$b#I've never met my parents, and I have no idea as to what became of them.$2#$b#My troupe found me on the shore of Saxifrage Island while they were touring in the North, and they adopted me.#$b#I've been with them ever since.\"/pause 200/emote Isla 40/pause 200/speak Isla \"I've been to many distant lands, and seen many beautiful things with them.#$b#I love them with all my heart, and consider them my family.\"/pause 200/emote Isla 40/pause 200/speak Isla \"But recently, I've been feeling unfulfilled, as though my heart is calling out for something more meaningful.$2#$b#What that something might be, I don't know.$2\"/pause 500/emote Isla 28/speak Isla \"All I know is that I've felt unable to express myself through performance the way I used to.$2#$b#I've lost the passion I once had for it. It feels as though I've lost my voice.$2\"/emote Isla 60/pause 500/speak Isla \"@, have you ever felt at an impasse in your life?\"/question fork1 \"#You tell Isla about being unhappy working for Joja Corporation, and leaving to live and work on your grandfather's farm.#Never, I've always been completely sure of myself and my decisions.\"/fork Arrogant/emote Isla 56/pause 200/speak Isla \"I see. That must have certainly taken courage.$1#$b#Change can be frightening, but often it must be done so that our hearts can truly be at peace.$1#$b#It seems that you have already understood that. Perhaps we could all learn from you.$1\"/emote Isla 20/pause 200/globalFade/viewport -1000 -1000/end dialogue Isla \"Thank you for sharing your story with me, @.$1\"", 
+
+"Arrogant": "pause 200/speak Isla \"I see. It must be nice to always be so sure of one's self.$2\"/pause 200/emote Isla 60/friendship Isla -100/pause 200/globalFade/viewport -1000 -1000/end", 
+ 
+	}
+
+},
+		{
+//A Discovery (4 Heart Event)
+      "Action": "EditData",
+      "Target": "Data/Events/Beach",
+      "Entries": {
+
+	"8205022/f Isla 1000/d Fri Sat Sun/e 8205021/t 900 1700/w sunny":"desolate/-500 -500/farmer 70 12 0 Isla 70 6 2/showFrame Isla 25/skippable/viewport 70 9 true/pause 1000/showFrame Isla 24/speak Isla \"@, I just discovered something wonderful. Please, I must tell you about it.$9\"/pause 200/move farmer 0 -5 0/pause 200/speak Isla \"Well, it's a bit of a story.$3#$b#Long ago, before the war, there was a bustling trade empire between the Ferngill Republic and the Gotoro Empire.$3#$b#But tragically, because of the frequent storms on the Gem Sea, many ships sunk on the voyage between the two nations.$10#$b#They now lie on the seabed, and the other merpeople and I often explore them.$3#$b#Yesterday I was exploring an old passenger liner with my friend Soraya, and while swimming through its chambers I came upon a wooden chest.$3#$b#When I brought it to the surface I found that it was full of beautiful things from long ago. There was silk clothing, jewellery, and several volumes of poetry.$9\"/pause 200/speak Isla \"I was intrigued, and immediately began reading them. I sat there, rapt, and soon lost track of time.$3#$b#I was incredibly moved by the poets' words, and felt like I was speaking to a friend from long ago.$3#$b#It was as though they had reached their hand through time just to take mine, and show me the world through their eyes.$9\"/pause 200/emote Isla 40/pause 200/speak Isla \"@, could I read you something?$3\"/question fork1 \"#That would be lovely!#Not now, I have to get back to my farm.\"/fork NotNow/friendship Isla 50/emote Isla 20/speak Isla \"Wonderful!$9\"/pause 200/showFrame Isla 25/pause 200/speak Isla \"'The Ocean', by Nathaniel Hawthorne.$9#$b#The Ocean has its silent caves,$3#$b#Deep, quiet, and alone;$3#$b#Though there be fury on the waves,$3#$b#Beneath them there is none...'$3\"/globalFade/viewport -100 -100/pause 200/viewport 70 9 true/pause 1000/speak Isla \"'...The earth has guilt, the earth has care$3#$b#Unquiet are its graves;$3#$b#But peaceful sleep is ever there,$3#$b#Beneath the dark blue waves.'$3\"/pause 200/showFrame Isla 24/speak Isla \"Thank you so much for listening, @. Aren't Hawthorne's words just so beautiful? He describes my beloved marine home in such an expressive way.$3#$b#If I didn't know otherwise, I'd almost think he was one of us merpeople himself!$9\"/pause 200/emote Isla 16/speak Isla \"Oh, and @, I also found something else that made me think of you!$9\"/pause 200/showFrame Isla 0/speak Isla \"Here it is.$8\"/emote farmer 20/pause 200/speak Isla \"It's just exquisite, isn't it? It's made of silk, and hand-painted with an intricate cherry blossom design by a Gotoran craftsman.$1#$b#I thought you could use it to keep yourself cool on your farm, especially during the hot summer months.$8#$b#And every time you use it, I hope you'll also think of me.[106]$4\"/pause 1000/globalFade/viewport -1000 -1000/end dialogue Isla \"Have you been able to use the fan yet? I hope it's been keeping you nice and cool!$8\"", 
+
+	"NotNow": "friendship Isla -100/emote Isla 28/pause 200/speak Isla \"Oh...okay. I understand.$10\"/pause 200/globalFade/viewport -1000 -1000/end", 
+
+    }
+
+},
+	{
+
+//Isla is seen reading her book and visiting Elliott after the player sees her 4 heart event. 
+
+	 "LogName": "Isla Reading",
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Isla",
+	 "When": { 
+	 "HasSeenEvent |contains=8205022": true,
+		},
+	 "Entries": {
+
+//New Spring Schedule: 
+
+"spring_Mon": "610 UnderwaterCove 2 6 1/700 UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\Isla:CoveExterior.001\"/730 UnderwaterCove_Exterior 43 11 2/800 ElliottHouse 1 6 0 \"Strings\\schedules\\Isla:Elliott.001\"/1000 Beach 84 40 2 \"Strings\\schedules\\Isla:Dock.001\"/1200 Beach 12 39 2 Isla_Reading \"Strings\\schedules\\Isla:Reading.001\"/1400 Beach 84 40 2 \"Strings\\schedules\\Isla:Dock.001\"/1700 UnderwaterCove_Exterior 46 7 2 Isla_Reading \"Strings\\schedules\\Isla:Reading.006\"/1900 UnderwaterCove 8 5 0 \"Strings\\schedules\\Isla:CoveInterior.001\"/2200 UnderwaterCove 2 6 1 Isla_Sleep",
+"spring_Tue": "610 UnderwaterCove 2 6 1/700 UnderwaterCove_Exterior 41 11 2 \"Strings\\schedules\\Isla:CoveExterior.001\"/800 UnderwaterCove_Exterior 43 11 2/900 Beach 12 39 2 \"Strings\\schedules\\Isla:Dock.002\"/1100 Beach 92 18 1/1300 Beach 78 24 2 Isla_Reading \"Strings\\schedules\\Isla:Reading.002\"/1700 UnderwaterCove_Exterior 39 6 2 Isla_Reading \"Strings\\schedules\\Isla:Reading.007\"/1900 UnderwaterCove 6 5 0 \"Strings\\schedules\\Isla:CoveInterior.002\"/2200 UnderwaterCove 2 6 1 Isla_Sleep",
+"spring_Wed": "610 UnderwaterCove 2 6 1/700 UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\Isla:CoveExterior.001\"/800 UnderwaterCove_Exterior 43 11 2/900 Beach 88 40 2/1200 Beach 19 24 2 Isla_Reading \"Strings\\schedules\\Isla:Reading.003\"/1500 Beach 90 22 1/1700 UnderwaterCove_Exterior 37 5 2/1900 UnderwaterCove 8 5 0 \"Strings\\schedules\\Isla:CoveInterior.001\"/2200 UnderwaterCove 2 6 1 Isla_Sleep",
+"spring_Thu": "610 UnderwaterCove 2 6 1/700 UnderwaterCove_Exterior 41 11 2 \"Strings\\schedules\\Isla:CoveExterior.001\"/800 UnderwaterCove_Exterior 43 11 2/900 Beach 42 36 2/1100 Beach 12 39 2 \"Strings\\schedules\\Isla:Dock.002\"/1400 Beach 84 40 2 \"Strings\\schedules\\Isla:Dock.001\"/1600 Beach 38 4 0 Isla_Reading \"Strings\\schedules\\Isla:Reading.004\"/1700 UnderwaterCove_Exterior 39 6 2 Isla_Reading \"Strings\\schedules\\Isla:Reading.007\"/1900 UnderwaterCove 6 5 0 \"Strings\\schedules\\Isla:CoveInterior.002\"/2200 UnderwaterCove 2 6 1 Isla_Sleep",
+
+//New Summer Schedule: 
+
+"summer_Mon": "610 UnderwaterCove 2 6 1/700 UnderwaterCove_Exterior 41 11 2 \"Strings\\schedules\\Isla:CoveExterior.001\"/800 UnderwaterCove_Exterior 43 11 2/900 Beach 42 36 2/1100 Beach 12 39 2 \"Strings\\schedules\\Isla:Dock.002\"/1400 Beach 84 40 2 \"Strings\\schedules\\Isla:Dock.001\"/1600 Beach 38 4 0 Isla_Reading \"Strings\\schedules\\Isla:Reading.004\"/1700 UnderwaterCove_Exterior 39 6 2 Isla_Reading \"Strings\\schedules\\Isla:Reading.007\"/1900 UnderwaterCove 6 5 0 \"Strings\\schedules\\Isla:CoveInterior.002\"/2200 UnderwaterCove 2 6 1 Isla_Sleep",
+"summer_Tue": "610 UnderwaterCove 2 6 1/700 UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\Isla:CoveExterior.001\"/800 UnderwaterCove_Exterior 43 11 2/900 Beach 12 39 2 \"Strings\\schedules\\Isla:Dock.002\"/1100 Beach 92 18 1/1300 Beach 78 24 2 Isla_Reading \"Strings\\schedules\\Isla:Reading.005\"/1700 UnderwaterCove_Exterior 46 7 2 Isla_Reading \"Strings\\schedules\\Isla:Reading.006\"/1900 UnderwaterCove 8 5 0 \"Strings\\schedules\\Isla:CoveInterior.001\"/2200 UnderwaterCove 2 6 1 Isla_Sleep",
+"summer_Wed": "610 UnderwaterCove 2 6 1/700 UnderwaterCove_Exterior 41 11 2 \"Strings\\schedules\\Isla:CoveExterior.001\"/730 UnderwaterCove_Exterior 43 11 2/800 ElliottHouse 1 6 0 \"Strings\\schedules\\Elliott.001\"/1000 Beach 84 40 2 \"Strings\\schedules\\Isla:Dock.001\"/1200 Beach 12 39 2 Isla_Reading \"Strings\\schedules\\Isla:Reading.001\"/1400 Beach 84 40 2 \"Strings\\schedules\\Isla:Dock.001\"/1700 UnderwaterCove_Exterior 39 6 2 Isla_Reading \"Strings\\schedules\\Isla:Reading.007\"/1900 UnderwaterCove 6 5 0 \"Strings\\schedules\\Isla:CoveInterior.002\"/2200 UnderwaterCove 2 6 1 Isla_Sleep",
+"summer_Thu": "610 UnderwaterCove 2 6 1/700 UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\Isla:CoveExterior.001\"/800 UnderwaterCove_Exterior 43 11 2/900 Beach 88 40 2/1200 Beach 19 24 2 Isla_Reading \"Strings\\schedules\\Isla:Reading.003\"/1500 Beach 90 22 1/1700 UnderwaterCove_Exterior 46 7 2 Isla_Reading \"Strings\\schedules\\Isla:Reading.006\"/1900 UnderwaterCove 8 5 0 \"Strings\\schedules\\Isla:CoveInterior.001\"/2200 UnderwaterCove 2 6 1 Isla_Sleep",
+
+//New Fall Schedule
+
+"fall_Mon": "610 UnderwaterCove 2 6 1/700 UnderwaterCove_Exterior 41 11 2 \"Strings\\schedules\\Isla:CoveExterior.001\"/800 UnderwaterCove_Exterior 43 11 2/900 Beach 12 39 2 \"Strings\\schedules\\Isla:Dock.002\"/1100 Beach 92 18 1/1300 Beach 78 24 2 Isla_Reading \"Strings\\schedules\\Isla:Reading.002\"/1700 UnderwaterCove_Exterior 39 6 2 Isla_Reading \"Strings\\schedules\\Isla:Reading.007\"/1900 UnderwaterCove 6 5 0 \"Strings\\schedules\\Isla:CoveInterior.002\"/2200 UnderwaterCove 2 6 1 Isla_Sleep",
+"fall_Tue": "610 UnderwaterCove 2 6 1/700 UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\Isla:CoveExterior.001\"/730 UnderwaterCove_Exterior 43 11 2/800 ElliottHouse 1 6 0 \"Strings\\schedules\\Elliott.001\"/1000 Beach 84 40 2 \"Strings\\schedules\\Isla:Dock.001\"/1200 Beach 12 39 2 Isla_Reading \"Strings\\schedules\\Isla:Reading.005\"/1400 Beach 84 40 2 \"Strings\\schedules\\Isla:Dock.001\"/1700 UnderwaterCove_Exterior 39 6 2 Isla_Reading \"Strings\\schedules\\Isla:Reading.007\"/1900 UnderwaterCove 6 5 0 \"Strings\\schedules\\Isla:CoveInterior.002\"/2200 UnderwaterCove 2 6 1 Isla_Sleep",
+"fall_Wed": "610 UnderwaterCove 2 6 1/700 UnderwaterCove_Exterior 41 11 2 \"Strings\\schedules\\Isla:CoveExterior.001\"/800 UnderwaterCove_Exterior 43 11 2/900 Beach 88 40 2/1200 Beach 19 24 2 Isla_Reading \"Strings\\schedules\\Isla:Reading.003\"/1500 Beach 90 22 1/1700 UnderwaterCove_Exterior 46 7 2 Isla_Reading \"Strings\\schedules\\Isla:Reading.006\"/1900 UnderwaterCove 8 5 0 \"Strings\\schedules\\Isla:CoveInterior.001\"/2200 UnderwaterCove 2 6 1 Isla_Sleep",
+"fall_Thu": "610 UnderwaterCove 2 6 1/700 UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\Isla:CoveExterior.001\"/800 UnderwaterCove_Exterior 43 11 2/900 Beach 42 36 2/1100 Beach 12 39 2 \"Strings\\schedules\\Isla:Dock.002\"/1400 Beach 84 40 2 \"Strings\\schedules\\Isla:Dock.001\"/1600 Beach 38 4 0 Isla_Reading \"Strings\\schedules\\Isla:Reading.004\"/1700 UnderwaterCove_Exterior 46 7 2 Isla_Reading \"Strings\\schedules\\Isla:Reading.006\"/1900 UnderwaterCove 8 5 0 \"Strings\\schedules\\Isla:CoveInterior.001\"/2200 UnderwaterCove 2 6 1 Isla_Sleep",
+
+//New Winter Schedule
+
+"winter_Mon": "610 UnderwaterCove 2 6 1/700 UnderwaterCove_Exterior 41 11 2 \"Strings\\schedules\\Isla:CoveExterior.001\"/800 UnderwaterCove_Exterior 43 11 2/900 Beach 88 40 2/1200 Beach 19 24 2 Isla_Reading \"Strings\\schedules\\Isla:Reading.003\"/1500 Beach 90 22 1/1700 UnderwaterCove_Exterior 46 7 2 Isla_Reading \"Strings\\schedules\\Isla:Reading.006\"/1900 UnderwaterCove 8 5 0 \"Strings\\schedules\\Isla:CoveInterior.001\"/2200 UnderwaterCove 2 6 1 Isla_Sleep",
+"winter_Tue": "610 UnderwaterCove 2 6 1/700 UnderwaterCove_Exterior 41 11 2 \"Strings\\schedules\\Isla:CoveExterior.001\"/800 UnderwaterCove_Exterior 43 11 2/900 Beach 42 36 2/1100 Beach 12 39 2 \"Strings\\schedules\\Isla:Dock.002\"/1400 Beach 84 40 2 \"Strings\\schedules\\Isla:Dock.001\"/1600 Beach 38 4 0 Isla_Reading \"Strings\\schedules\\Isla:Reading.004\"/1700 UnderwaterCove_Exterior 37 5 2/1900 UnderwaterCove 8 5 0 \"Strings\\schedules\\Isla:CoveInterior.002\"/2200 UnderwaterCove 2 6 1 Isla_Sleep",
+"winter_Wed": "610 UnderwaterCove 2 6 1/700 UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\Isla:CoveExterior.001\"/730 UnderwaterCove_Exterior 43 11 2/800 ElliottHouse 1 6 0 \"Strings\\schedules\\Elliott.001\"/1000 Beach 84 40 2 \"Strings\\schedules\\Isla:Dock.001\"/1200 Beach 12 39 2 Isla_Reading \"Strings\\schedules\\Isla:Reading.001\"/1400 Beach 84 40 2 \"Strings\\schedules\\Isla:Dock.001\"/1700 UnderwaterCove_Exterior 46 7 2 Isla_Reading \"Strings\\schedules\\Isla:Reading.006\"/1900 UnderwaterCove 8 5 0 \"Strings\\schedules\\Isla:CoveInterior.001\"/2200 UnderwaterCove 2 6 1 Isla_Sleep",
+"winter_Thu": "610 UnderwaterCove 2 6 1/700 UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\Isla:CoveExterior.001\"/800 UnderwaterCove_Exterior 43 11 2/900 Beach 12 39 2 \"Strings\\schedules\\Isla:Dock.002\"/1100 Beach 92 18 1/1300 Beach 78 24 2 Isla_Reading \"Strings\\schedules\\Isla:Reading.005\"/1700 UnderwaterCove_Exterior 39 6 2 Isla_Reading \"Strings\\schedules\\Isla:Reading.007\"/1900 UnderwaterCove 6 5 0 \"Strings\\schedules\\Isla:CoveInterior.002\"/2200 UnderwaterCove 2 6 1 Isla_Sleep",
+	}
+
+   },
+
+   {
+
+ //A Seed (6 Heart Event)
+      "Action": "EditData",
+      "Target": "Data/Events/Beach",
+      "Entries": {
+	"8205023/f Isla 1500/d Fri Sat Sun/e 8205022/t 900 1700/w sunny": "desolate/-500 -500/Isla 90 5 2 farmer 82 7 1/showFrame Isla 20/skippable/viewport 90 8 true/pause 1000/speak Isla \"Oh @, please come listen to this.$8\"/pause 200/showFrame Isla 17/pause 200/move farmer 8 0 1/faceDirection farmer 0/pause 200/showFrame Isla 25/speak Isla \"'I wandered lonely as a cloud$9#$b#That floats on high o'er vales and hills,$9#$b#When all at once I saw a crowd,$9#$b#A host of golden daffodils;$9#$b#Beside the lake, beneath the trees,$9#$b#Fluttering and dancing in the breeze...'$9\"/showFrame Isla 24/pause 500/speak Isla \"That's by William Wordsworth. Isn't it so beautiful and resonant?$9#$b#Loneliness is something we've all experienced, and it's certainly something I know all too well.$3#$b#But I've been thinking about how, like the daffodils did for William Wordsworth, you've shown me that there's joy and understanding to be had in the world.$9\"/showFrame Isla 27/speak Isla \"I've truly found a kindred spirit in you, @.$11\"/emote Isla 20/pause 500/showFrame Isla 24/speak Isla \"I've just become so captivated by my poetry books, and I've been reading them whenever I can find a free moment. They've become my closest companions.$3#$b#Well, aside from you.$11\"/pause 200/emote Isla 40/pause 200/speak Isla \"You know, I've been feeling so inspired that I've started writing some poems of my own.$3#$b#Just short ones so far, but the more I write, the more I have to say.$9#$b#The words have just been flowing from me like ink from a quill.$9\"/pause 200/emote farmer 20/pause 200/speak Isla \"Now that I think about it, writing is so much like farming.$9\"/emote farmer 8/pause 200/speak Isla \"It's taking a seed, the metaphorical seed of an idea, and nurturing it to life.$3\"/friendship Isla 50/pause 200/globalFade/viewport -1000 -1000/end",
+	}
+
+},
+		{
+//An Idea (8 Heart Event Pt. I)
+      "Action": "EditData",
+      "Target": "Data/Events/Beach",
+      "Entries": {
+	"8205024/f Isla 2000/d Fri Sat Sun/e 8205023/t 900 1700/w sunny": "desolate/-500 -500/farmer 70 12 0 Isla 70 6 2/showFrame Isla 25/skippable/viewport 70 9 true/pause 1000/showFrame Isla 24/speak Isla \"Hello, @! Do come over! It seems you've caught me reading, again!$9\"/pause 200/move farmer 0 -4 0/pause 200/speak Isla \"I've just been reading some poetic history, and I just came upon a particularly interesting fact.$9#$b#Long ago, in the Rosemary Republic, they used to hold events called literary salons.$9#$b#Poets, authors, and artists would gather and share their work and ideas with one another.$3#$b#Doesn't that just sound so wonderful?$9\"/pause 500/question fork1 \"#It sounds amazing! Maybe we could host our own salon together?#Say nothing.\"/fork Silent/friendship Isla 50/emote Isla 20/speak Isla \"Oh @, that is a wonderful idea! You know me so well, don't you? It will be a Pelican Townian Salon!$9#$b#We'll invite some of the others from the village, and we can all share our favourite poems and readings.$9#$b#Let's get planning it, and we'll hold it next Monday.$9\"/pause 200/globalFade/viewport -1000 -1000/end",
+
+"Silent": "pause 500/speak Isla \"Say...what if we were to host our own salon?$3#$b#It will be a Pelican Townian Salon! We'll invite some of the others from the village, and we can all share our favourite poems and readings.$9#$b#Let's get planning it, and we'll hold it next Monday.$9\"/pause 200/globalFade/viewport -1000 -1000/end",
+	}
+
+},
+		{
+//A Pelican Townian Salon (8 Heart Event Pt. II)
+      "Action": "EditData",
+      "Target": "Data/Events/SeedShop",
+      "Entries": {
+	"8205025/f Isla 2000/d Tue Wed Thu Fri Sat Sun/e 8205024/t 1900 2200": "50s/-500 -500/farmer 25 16 2 Isla 24 16 2 Penny 26 18 1 Sam 27 18 3 Abigail 22 20 2 Sebastian 21 21 1 Maru 23 21 3 Alex 25 21 1 Emily 27 21 3 Haley 26 20 2 Leah 22 18 1 Elliott 23 18 3/skippable/viewport 26 19 true/skippable/pause 2000/speak Isla \"Good evening everyone! May I have your attention please?$8\"/faceDirection Penny 0/faceDirection Sam 0/faceDirection Abigail 0/textAboveHead Abigail \"Hey!\"/faceDirection Sebastian 0/faceDirection Maru 0/faceDirection Elliott 0/faceDirection Leah 0/faceDirection Emily 0/textAboveHead Emily \"Yay!\"/faceDirection Haley 0/faceDirection Alex 0/pause 200/speak Isla \"To those of you who may not know me, my name is Isla, and I'm one of the merpeople from the Gem Sea.$1#$b#Perhaps you've encountered me down by the beach, or perhaps you may have seen me at the annual Galene show here in Pelican Town.$1#$b#@ and I planned this evening of poetry, and we hope you all find it thought-provoking and inspiring.$1#$b#Thank you all for coming, it means a great deal to us.$8\"/pause 500/speak Isla \"The Roman poet Horace one said that poetry is an art form that is meant 'either to please or to educate'.$1#$b#I hope the poems recited tonight will do both for all of you.$1#$b#Now just close your eyes and let the words wash over you. Feel their beauty and power resonate through your soul.\"/pause 500/speak Isla \"I would like to begin with one of my very favourite poems, 'The Paper Nautilus', by the Ferngill Republic's own Marianne Moore.$1\"/pause 200/speak Isla \"'For authorities whose hopes$1#$b#are shaped by mercenaries?$1#$b#Writers entrapped by teatime fame and by$1#$b#commuters' comforts?$1#$b#Not for these$1#$b#the paper nautilus$1#$b#constructs her thin glass shell...'$1\"/globalFade/viewport -100 -100/warp Abigail 24 16 2/faceDirection Abigail 2/warp farmer 24 23/faceDirection farmer 0/warp Isla 25 23/faceDirection Isla 0/pause 100/viewport 26 19 true/pause 1000/speak Abigail \"Hey everyone, I brought 'The Raven', by Edgar Allan Poe.$1#$b#It's moody and atmospheric, and reminds me of how the most extraordinary things can happen when you least expect it.$9\"/pause 100/speak Abigail \"'Once upon a midnight dreary, while I pondered, weak and weary,#$b#Over many a quaint and curious volume of forgotten lore—#$b#While I nodded, nearly napping, suddenly there came a tapping,#9#$b#As of some one gently rapping, rapping at my chamber door...'\"/globalFade/viewport -100 -100/warp Abigail 22 20/faceDirection Abigail 0/warp Emily 24 16 2/faceDirection Emily 2/pause 100/viewport 26 19 true/pause 1000/speak Emily \"Hello my lovely fellow humans! I brought the delightful poem 'Ella Mason and Her Eleven Cats', by Sylvia Plath!#$b#I hope you all love it as much as I do!\"/pause 200/speak Emily \"'Old Ella Mason keeps cats, eleven at last count,$1#$b#In her ramshackle house off Somerset Terrace;$1#$b#People make queries$1#$b#On seeing our neighbor's cat-haunt,$1#$b#Saying: 'Something's addled in a woman who accommodates$1#$b#That many cats...'$1\"/globalFade/viewport -100 -100/warp Emily 27 21 0/faceDirection Emily 0/warp Elliott 24 16 2/faceDirection Elliott 2/pause 100/viewport 26 19 true/pause 1000/speak Elliott \"Good evening to all. I have brought with me the lyrical, evocative 'Sonnet 106'.#$b#It's penned by the most sublime auteur to have ever emerged from the Foxglove Kingdom: the one and only William Shakespeare.$1#$b#Now without further ado.\"/pause 200/speak Elliott \"'When in the chronicle of wasted time$1#$b#I see descriptions of the fairest wights,$1#$b#And beauty making beautiful old rhyme#$b#In praise of ladies dead, and lovely knights,#$b#Then, in the blazon of sweet beauty's best,#$b#Of hand, of foot, of lip, of eye, of brow,#$b#I see their antique pen would have express'd#$b#Even such a beauty as you master now...'$4\"/globalFade/viewport -100 -100/warp Elliott 23 18 0/faceDirection Elliott 0/warp Penny 24 16 2/faceDirection Penny 2/pause 100/viewport 26 19 true/pause 1000/speak Penny \"I would like to close the evening with the maritime poem 'By the Sea', by Emily Dickinson. I thought it would be a fitting tribute to our marine friend Isla.$1\"/pause 200/speak Penny \"'I started early, took my dog#$b#And visited the sea#$b#The mermaids in the basement#$b#Came out to look at me...'$1\"/globalFade/viewport -100 -100/warp Penny 26 18/faceDirection Penny 0/warp Isla 24 16/faceDirection Isla 2/warp farmer 25 16/faceDirection farmer 2/positionOffset farmer 4 0/pause 200/viewport 26 19 true/pause 1000/speak Isla \"Well, that was a wonderful evening, wasn't it? Thank you all again, from the bottom of my heart.$1#$b#We must do it again some time soon. I bid you all goodnight.$1\"/globalFade/viewport -100 -100/pause 100/warp Penny -1001 -1001/warp Sam -1001 -1001/warp Abigail -1001 -1001 /warp Sebastian -1001 -1001/warp Maru -1001 -1001/warp Alex -1001 -1001/warp Emily -1001 -1001/warp Haley -1001 -1001/warp Leah -1000 -1000/warp Elliott -1000 -1000/warp Isla 24 20/faceDirection Isla 2/warp farmer 24 21/faceDirection farmer 0/viewport 26 19 true/pause 1000/speak Isla \"I wanted to say a special thank to you, @. This salon couldn't have happened without you.$8#$b#Thank you for being such a wonderful friend to me.$4\"/emote Isla 20/friendship Isla 50/pause 200/globalFade/viewport -301 -301/end dialogue Isla \"The salon was just wonderful, wasn't it? Certainly a night to remember.$4\"/end", 
+ 	}
+
+},
+		{
+//A Confession (10 Heart Event)
+      "Action": "EditData",
+      "Target": "Data/Events/Beach",
+      "Entries": {
+"8205026/f Isla 2500/d Fri Sat Sun/e 8205025/t 2200 2300/w sunny/n IslaLetter":"ocean/-500 -500/farmer 53 17 2 Isla 52 22 2/addLantern 735 50 23 2/skippable/viewport 56 24 true/pause 1000/faceDirection Isla 0/speak Isla  \"Oh, hello @. You made it.$8\"/emote Isla 56/move farmer 0 5 3/pause 500/faceDirection Isla 1/speak Isla \"You may be wondering why I wanted to meet with you tonight.#$b#Well, I wanted to bring you back to where we first met, because I have something important I need to tell you. Something that I've wanted to tell you for some time.\"/pause 1000/speak Isla \"Let me preface with a story.\"/pause 200/faceDirection Isla 2/faceDirection farmer 2/pause 500/speak Isla \"A few weeks ago, I was sitting on a rocky outcrop in the middle of the sea, as I often do. It was dusk, and the sky still held the last faint glimmerings of the sunset.#$b#It was so peaceful, but strangely melancholy as well.#$b#I suddenly wished that at that moment, I had someone I cared about to talk with. Or even just to share the beautiful silence.#$b#But there was no one, and that was a sad feeling.\"/emote Isla 40/pause 1000/speak Isla \"I enjoy solitude. I love the peacefulness of silence, and the tranquility of swimming through the silent sea.#$b#But for some time now, all I've found myself thinking about is how much I want to be with you.$4#$b#I never thought I would feel this way about someone else, let alone a human.#$b#But I was wrong.$4\"/pause 200/faceDirection Isla 1/faceDirection farmer 3/speak Isla \"@, I was hoping that you felt the same way about me.$4\"/question fork1 \"#Of course I feel the same way about you.#I'm sorry, I don't.\"/fork Rejection/emote Isla 20/speak Isla \"Oh, I am so glad.$4\"/emote Isla 20/pause 200/faceDirection Isla 2/faceDirection farmer 2/speak Isla \"Remember how I told you I've been writing some of my own poems? Well...I've been working on this little piece for you.$4#$b#And I'd like for you to hear it.$7\"/pause 500/faceDirection Isla 2/pause 200/speak Isla \"'Ode for @'#$b#Deep in the dewey valley of stars#$b#Over the vast green hills...'$1\"/pause 200/globalFade/viewport -1000 -1000/message \"Thank you for listening to me. Thank you for helping me find my voice. It means the world to me. And so do you.\"/pause 500/end newDay", 
+
+
+"Rejection": "friendship Isla -1000/emote Isla 60/speak Isla \"I...I see. I'm certainly disappointed, but I respect how you feel.$2#$b#I'm sorry to have misinterpreted your feelings for me.$2\"/pause 200/globalFade/viewport -1000 -1000/end newDay", 
+ 	}
+
+},
+		{
+
+//A Reunion (14 Heart Event)
+      "Action": "EditData",
+      "Target": "Data/Events/Beach",
+      "Entries": {
+"8205027/f Isla 3500/t 2200 2300/w sunny/z spring/z summer/e 8205026/n IslaInvitation/": "night_market/-500 -500/farmer 20 12 3 Isla 20 13 3/addTemporaryActor Soraya 16 32 9 12 1/addTemporaryActor Marika 16 32 11 10 2/addTemporaryActor Elysa 16 32 11 14 0/changeToTemporaryMap MermaidBeachEvent/skippable/viewport 14 12 true/pause 1000/textAboveHead Soraya \"Good evening!\"/faceDirection Marika 1/faceDirection Elysa 1/textAboveHead Marika \"Hello!\"/textAboveHead Elysa \"Salutations!\"/emote Isla 20/emote farmer 20/pause 200/move Isla -5 0 3/move farmer -5 0 3/speak Soraya \"Oh Isla, we've missed you!$1#$b#But it's so wonderful to see you two together!$3#$b#We've been waiting so long to meet you, @!$3\"/emote Soraya 20/emote Marika 20/emote Elysa 20/pause 500/speak Soraya \"Please, do come sit down, we've prepared a delicious feast.$3#$b#And we made Isla's favourite, seafoam pudding, especially for the occasion!$3\"/emote Isla 20/pause 500/globalFade/viewport -1000 -1000/warp Isla 13 10/showFrame Isla 17/warp farmer 13 14/faceDirection farmer 0/showFrame farmer 62/faceDirection Marika 2/viewport 14 12 true/pause 1000/speak Elysa \"Thank you ever so much for telling us about your experiences on your farm, @.$3\"/faceDirection Elysa 0/speak Elysa \"As for us, Galene recently had the pleasure of performing in the Fern Islands again. As we sang, the warm breezes carried our songs across the island and beyond.$1#$b#Oh, how wonderful it was!$3\"/emote Elysa 56/speak Elysa \"Please, do tell us about how you have been, dear Isla.$1\"/pause 500/speak Isla \"Well, I've begun working at the library here in Pelican Town. I've discovered more books than I could have ever imagined!$8\"/emote Elysa 20/speak Elysa \"Oh, Isla. We are elated that you two have created such a wonderful life together.$3\"/pause 500/globalFade/viewport -1000 -1000/message \"It was a wonderful night, filled with laughter and delicious food. We talked about our lives, and Soraya, Marika, and Elysa were so kind to me.#$b#I truly feel like I've become a part of Isla's world.\"/pause 200/end newDay", 
+
+        }
+},
+
+{   
+
+	  "LogName": "Isla movie invitation",
+	  "Action": "EditData",
+	  "Target": "Strings/Characters",
+	  "Entries": { 
+	 "MovieInvite_Spouse_Isla": "Oh, I'd just love to see a film with you!$4",
+
+	 }
+},
+
+   {
+	  "LogName": "Concessions Tastes",
+	  "Action": "EditData",
+	  "Target": "Data/Concessions",
+	  "Entries": {
+	  "Isla": {
+		"LovedTags": [
+		  "Healthy"
+		],
+		"LikedTags": [
+		  "Star Cookies",
+		  "Kale Smoothie",
+		  "Stardrop Sorbet",
+		  "Jasmine Tea"
+		],
+		"DislikedTags": [
+		  "Fatty",
+		  "Joja",
+		  "Sweet"
+		]
+		}
+		},
+	},
+	{
+	  "LogName": "Movie Tastes",
+	  "Action": "EditData",
+	  "Target": "Data/MoviesReactions",
+	  "Entries": {
+	  "Isla": {
+        "NPCName": "Isla",
+        "Reactions": [
+          {
+          "Tag": "*",
+          "Response": "love",
+          "Whitelist": [
+          ],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I haven't been to the theatre in quite some time! I'm looking forward to it! Especially because I get to go with you.$8"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"Isla is watching with fascination.\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I enjoyed that a lot! Perhaps we could do this again sometime soon."
+          }
+        },
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "spring_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Oh! This looks like it's a delightful film.#$b#Shall we go?$1"
+          },
+          "DuringMovie": {
+            "ResponsePoint": "sprout_leave",
+            "Script": "/shake Isla 1000/pause 1000/message \"Isla seems moved by the film...",
+            "Text": "Wow, how touching$2"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Wow, what a wonderful, heartfelt film! It gets me right into the springtime spirit!$8"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "spring_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "romance",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I do love a romantic film. And I can't think of anyone I'd rather see it with.$8"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"(Isla is staring starry-eyed at the film.)\"",
+            "Text": "Oh, how beautiful...$4"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "That was such a beautiful romance. I was incredibly moved. Thank you for inviting me to see it, @.$8"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "comedy",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Oh, I do enjoy a comedy!$8"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Oh my goodness!$8"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Haha, that film was absolutely hilarious! I loved it!$8"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "horror",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Oh dear, this film looks quite frightening.$2"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/shake Isla 3000",
+            "Text": "This film is scaring me.$2"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I...I didn't enjoy that film. But at least you were there to hold my hand.$1"
+          }
+        },
+        "ID": "reaction_5"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Oh, I've been wanting to see this film for ever so long!$7"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "This film is incredible! As I anticipated.$8"
+          }
+        },
+        "ID": "reaction_6"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "This film looks quite good!$8"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "That was wonderful! Thank you for coming with me!$4"
+          }
+        },
+        "ID": "reaction_7"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Oh, I'm...not sure about this one. We can see it if you'd like, though.$2"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Oh..."
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Oh, I didn't enjoy that film at all.$2#$b#I did enjoy spending time with you, though.$1"
+          }
+        },
+        "ID": "reaction_8"
+      },
+      {
+        "Tag": "seen_love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "'Oh, {0}'?! I saw this film with {2}!$7"
+          },
+          "DuringMovie": null,
+          "AfterMovie": null
+        },
+        "ID": "reaction_9"
+      },
+      {
+        "Tag": "seen_like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I've actually seen this film with {2}! I enjoyed it a lot!$1"
+          },
+          "DuringMovie": null,
+          "AfterMovie": null
+        },
+        "ID": "reaction_10"
+      },
+      {
+        "Tag": "seen_dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Oh, I saw this film with {2}...$2"
+          },
+          "DuringMovie": null,
+          "AfterMovie": null
+        },
+        "ID": "reaction_11"
+      }
+    ]
+    }
+	}
+  }
+  ]
+}

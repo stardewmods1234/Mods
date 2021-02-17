@@ -1,0 +1,11 @@
+{
+  "Name": "Isla Festival Locations",
+  "Author": "PaperNautilus",
+  "Version": "1.0.5",
+  "Description": "Isla Festival Locations",
+  "UniqueID": "PaperNautilus.Festivals.Isla",
+  "UpdateKeys": [ "" ],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Name": "NPC_Caleb",
+  "Author": "Claridel",
+  "Description": "Includes a new Custom NPC known as Caleb di Flagro.",
+  "Version": "1.0.4",
+  "UniqueID": "claridel.caleb.mod",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "UpdateKeys": [ "Nexus:5980" ]
+}

@@ -1,0 +1,20 @@
+{
+  "VanillaShops": [
+    {
+      "ShopName": "MarnieShop",
+
+        "ItemStocks": [
+        {
+          "ItemType": "BigCraftable",
+		  "StockPrice": 65000,
+          "ItemIDs": [         
+			272
+          ],
+		  "When": [
+			"n AP_Marnie"
+		  ]
+        },
+		],
+    }
+  ]
+}

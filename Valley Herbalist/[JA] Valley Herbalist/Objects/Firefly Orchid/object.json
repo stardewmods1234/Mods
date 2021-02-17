@@ -1,0 +1,19 @@
+{
+  "Name": "Firefly Orchid",
+  "Description": "A cluster of summer flowers with bright colour.",
+  "Category": "Flower",
+  "Edibility": -5,
+  "Price": 90,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+	"Like": ["Haley", "Emily", "Jas"],
+	"Love": ["Alex"],
+	"Hate": ["Sebastian", "Marnie", "Shane"]
+  },
+  "ContextTags": [
+    	"flower_item",
+    	"season_summer",
+    	"color_orange"
+    ]
+}

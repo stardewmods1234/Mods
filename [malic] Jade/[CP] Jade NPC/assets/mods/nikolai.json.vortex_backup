@@ -1,0 +1,30 @@
+// Nikolai patchfile
+
+{
+	"Changes": [
+		// Marketpalooza
+		{
+			"LogName": "Jade - Festival - NikolaiMarketpalooza",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall3",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+					"Value": "Jade 8 14 0",
+					"Delimiter": "/"
+				}
+			]
+		},
+		
+		{ // Marketpalooza dialogue
+			"LogName": "Jade - Festival Dialogue - NikolaiMarketpalooza",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall3",
+			"Entries": {
+				// show the first translation found from 'spring13.dating', 'spring13', or 'festival-default'
+				"Jade": "{{i18n:{{TargetWithoutPath}}.{{Relationship:Jade}} |default={{i18n:{{TargetWithoutPath}} |default={{i18n:festival-default}} }} }}"
+			}
+		},
+	]
+}

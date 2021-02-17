@@ -1,0 +1,8 @@
+{
+	"Name": "Iceberg Lettuce",
+	"Price": 80,
+	"Description": "A crisp ball of fresh lettuce leaves.",
+	"Category": "Vegetable",
+	"Edibility": 25,
+	"Recipe": null,
+}

@@ -1,0 +1,456 @@
+{
+  "Format": "1.10.0",
+  "Changes": [
+    {
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "FromFile": null,
+      "Entries": {
+        "Delores": "adult/polite/shy/neutral/female/datable/null/Town/winter 15//BusStop 31 8/Delores"
+      }
+    },
+    {
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "FromFile": null,
+      "Entries": {
+        "Delores": "How'd you know I loved this? Thank you so much!/62 196 200 230 244 250 258 349 351 614/Thank you! I'll put this to good use!/188 190 216 259 266 404 22 593/Hmm. Not my first pick./176 180 182 184 186 194 195 198 202 206 209 212 214 219 225 226 227 228 231 346 807/Why would you even think to give me this??/303 436 438 426 442 444 445 446 447 306 307 395 727 728 729 730 732 733/A gift! I appreciate the thought!/119 74 211/"
+      }
+    },
+    {
+      "LogName": "Animations",
+      "Action": "EditData",
+      "Target": "Data/animationdescriptions",
+      "Entries": {
+        "delores_jacks": "16/17 18 18 19 16 16 17 18 18 19 16 16 17 18 18 17/16",
+        "delores_stretch": "24/24 24 24 25 25 26 26 25 25 26 26 25 24 24 24 29 29 30 30 29 29 30 30 29 24 24 24/24",
+        "delores_squat": "48/48 48 48 49 50 50 50 49 48 48 48 49 50 50 50 49 48 48 48 49 50 50 50 49 48 48 48/48",
+        "delores_rope": "53/54 55 55 52/53",
+        "delores_sit": "22/22 22 22/22"
+      }
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Delores",
+      "FromFile": "assets/img/spritesheet.png",
+      "Entries": null
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Delores",
+      "FromFile": "assets/img/delores_sport_spritesheet.png",
+      "When": {
+          "LocationName": "Forest, Beach, Hospital",
+        }
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Delores",
+      "FromFile": "assets/img/portrait.png",
+      "Entries": null
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Delores",
+      "FromFile": "assets/img/delores_sport_portrait.png",
+      "When": {
+          "LocationName": "Forest, Beach, Hospital",
+        }
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Delores",
+      "FromFile": "assets/schedules/Schedule.json",
+      "Entries": null
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Delores",
+      "FromFile": "assets/dialogue/Dialogue.json",
+      "Entries": null
+    },
+    {
+      "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "FromFile": null,
+      "Entries": {
+        "Delores0": "Oh man, I can't believe we're going to get married, I am so so so happy!$1",
+        "Delores1": "My stomach's bouncing around, I'm so anxious!! Tomorrow's going to be the best day of my life.$8"
+      }
+    },
+	{
+      "Action": "EditData",
+      "Target": "strings/StringsFromCSFiles",
+      "Entries": {
+      "Utility.cs.5367": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Delores in the bonds of marriage.",
+      "Utility.cs.5369": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Delores in the bonds of marriage.",
+	  "Utility.cs.5371": "@... Delores... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$h",
+      "Utility.cs.5377": "@... Delores... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you wife and..., well, wife!$h",
+      },
+      "When": {
+      "Relationship:Delores": "Engaged"
+      },
+    },
+    {
+      "LogName": "Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueDelores",
+      "FromFile": "assets/dialogue/MarriageDialogue.json",
+      "Entries": null
+    },
+	{
+
+      "LogName": "DeloresEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Forest",
+      "Entries": {
+        "00981708/f Delores 500/t 800 1700/w sunny/p Delores": "SunRoom/64 41/farmer 78 39 1 Delores 64 39 2/skippable/animate Delores false true 200 16 16 17 18 18 19/pause 1000/speak Delores \"23... 24... 25... 26...\"/move farmer -13 0 3/stopAnimation Delores/jump Delores 6/emote Delores 16/faceDirection Delores 1/speak Delores \"Oh! @! You scared me!$6#$b#I was super focused on my side-straddle hops!\"/pause 500/emote farmer 8/speak Delores \"Uhh... Jumping jacks.#$b#Sorry. Did I sound pretentious?$2\"/faceDirection Delores 2/faceDirection farmer 2/pause 1500/speak Delores \"How's the farm been going?#$b#Lots of plants to harvest, huh?$2\"/emote Delores 40/pause 2000/emote Delores 28/speak Delores \"Sorry. I'm kind of awkward...$2\"/pause 2000/speak Delores \"You know, the forest is really pretty this time of year...#$b#It's no question why I love to hang out here, the fresh forest air is great for my lungs.\"/pause 1000/speak Delores \"Hey, @...\"/stopMusic/faceDirection Delores 1/faceDirection farmer 3/speak Delores \"Do you think we'll ever be able to see lost family members again?\"/question fork1 \"#I'm sure we will.#I don't think so...\"/fork DontThinkSo/pause 1500/speak Delores \"...I think so too.\"/pause 500/jump Delores 6/speak Delores \"Oh! I've gotta get back to exercising!$6#$b#It was a nice talk, @. We should talk more in the future.#$b#I'll try to be less awkward too!$7\"/animate Delores false true 200 16 16 17 18 18 19/move farmer 13 0 1 true/pause 250/speak Delores \"27... 28... 29...\"/globalFade/stopAnimation Delores/viewport -1000 -1000/end",
+        "DontThinkSo": "pause 1000/speak Delores \"I don't know...#$b#I have the feeling we will...\"/pause 500/jump Delores 6/speak Delores \"Oh! I've gotta get back to exercising!$6#$b#It was a nice talk, @. We should talk more in the future.#$b#I'll try to be less awkward too!$7\"/animate Delores false true 200 16 16 17 18 18 19/move farmer 13 0 1 true/pause 250/speak Delores \"27... 28... 29...\"/globalFade/stopAnimation Delores/viewport -1000 -1000/end"
+      }
+    },
+	{
+	  "LogName": "DeloresEvent",
+	  "Action": "EditData",
+	  "Target": "Data/Events/Town",
+	  "Entries": {
+	    "00981709/f Delores 1000/t 800 1700/w sunny": "movieTheaterAfter/41 59/farmer 28 57 1 Delores 41 57 0/skippable/pause 1000/move farmer 12 0 1 true/emote Delores 12/speak Delores \"What am I going to do?...$2\"/emote farmer 8/jump Delores 6/emote Delores 16/faceDirection Delores 3/pause 250/speak Delores \"@! Wow!$6#$b#You've gotta stop scaring me like that!$5\"/emote farmer 28/pause 500/speak Delores \"It's okay, @. I'm not angry, you just gave me a fright!\"/faceDirection Delores 0/faceDirection farmer 0/speak Delores \"I'm looking at the bulletin.#$b#I've been thinking I need to do something other than exercise all the time, but I don't know what.\"/pause 500/speak Delores \"It's like I don't have a purpose here...$2#$b#...or anywhere, for that matter.$2\"/stopMusic/pause 500/emote farmer 8/pause 500/speak Delores \"Why do I exercise all the time?\"/faceDirection Delores 3/faceDirection farmer 1/speak Delores \"Well, when I was a kid, my dad would always tell me to reach for the stars...#$b#And ever since I was a kid, I liked to exercise, so... I thought I could've done anything.$1\"/faceDirection Delores 0/faceDirection farmer 0/pause 500/speak Delores \"Like beating a world record, or something...$2\"/pause 1000/emote Delores 16/playSound crystal/speak Delores \"Wait! @!$6\"/faceDirection Delores 3/faceDirection farmer 1/speak Delores \"Maybe I could beat a world record?!$1\"/playMusic 50s/emote farmer 16/emote Delores 20/pause 500/speak Delores \"If I beat a world record, then everyone would definitely acknowledge me!$1#$b#My roommates, the villagers here, everyone!$1\"/emote Delores 32/speak Delores \"Thank you for helping me reach that conclusion, @! I'll update you on how it's going later!$1\"/emote farmer 32/pause 500/speak Delores \"And sorry for being pessimistic. It's hard to get out of that mindset.$2\"/faceDirection Delores 0/faceDirection farmer 0/speak Delores \"But I know I can do this.\"/emote farmer 32/globalFade/viewport -1000 -1000/end",
+	  }
+	},
+	{
+	  "LogName": "DeloresEvent",
+	  "Action": "EditData",
+	  "Target": "Data/Events/Forest",
+	  "Entries":  {
+	    "00981710/f Delores 1500/t 800 1700/z spring/z summer/z winter/d Mon Tue Wed Thu Fri Sat/p Delores": "fall_day_ambient/33 21/farmer 41 17 3 Delores 33 25 2/skippable/showFrame Delores 22/move farmer -7 0 3/textAboveHead Delores \"*sniff* *sniff*\"/shake Delores 200/faceDirection farmer 2/emote farmer 16/viewport move 0 2 3000/move farmer 0 8 2/faceDirection farmer 3/emote farmer 8/speak Delores \"*sniff*... oh, hi, @.$9\"/pause 500/speak Delores \"I'm okay, really. Don't worry.$9\"/pause 500/emote farmer 40/speak Delores \"Yeah, I guess I'm that easy to read, huh?$9#$b#It's a bad day, @...$2\"/stopMusic/pause 500/emote farmer 4/shake Delores 1000/speak Delores \"I'm crying because...$2#$b#...my dad died, 3 years ago today.$9\"/playMusic desolate/pause 500/emote farmer 28/pause 1000/faceDirection farmer 2/speak Delores \"When I was 5, my mom and dad divorced because she was drinking her life away.$2#$b#I haven't heard from my mom since. Never for the Feast of the Winter Star, nor for my birthday, nothing.$2#$b#So, it was my dad taking care of me for most of my life.$9\"/pause 1000/speak Delores \"He was diagnosed with cancer when I was 14.$2#$b#He beat it, but that was only the first bout. I had to get a job to even keep our apartment.$2#$b#After I finished high school, it came back, but...$2\"/pause 500/shake Delores 500/speak Delores \"It was too late at that point...$9\"/pause 500/emote farmer 40/pause 250/speak Delores \"I was visiting him every Sunday, that was the only day I could take off weekly.$2#$b#And 3 years ago today, he... left us.$9\"/pause 1500/speak Delores \"He told me to reach for the stars, right before...$9\"/pause 1500/speak Delores \"Ever since then, I've been exercising to try and make him proud, to be the successful girl that he wanted to see.$2#$b#That's when I started blocking everyone out. My roommates helped at first, but their partying reminds me too much of my mom...$2#$b#I don't know if I'm making him proud, @. I don't know.$9\"/pause 500/emote farmer 40/pause 1000/question fork2 \"What can you say?#I'm so sorry...#He would be proud.#Why aren't you over it already? It's been 3 years.\"/fork DickHeadWtf/pause 1000/speak Delores \"Thank you, @. Thanks for listening to me ramble about this.$9\"/pause 1000/speak Delores \"I hope I can help you like you helped me today.\"/faceDirection farmer 3/emote farmer 20/stopAnimation Delores/showFrame Delores 23/positionOffset Delores 2 0/pause 50/positionOffset Delores 2 0/pause 50/positionOffset Delores 2 0/pause 50/positionOffset Delores 2 0/pause 50/positionOffset Delores 2 0/pause 50/positionOffset Delores 2 1/pause 50/positionOffset Delores 2 1/pause 50/positionOffset Delores 2 1/pause 50/positionOffset Delores 2 1/pause 50/eyes 1 -5000/pause 50/positionOffset Delores 2 0/pause 50/positionOffset Delores 2 0/pause 50/positionOffset Delores 2 0/pause 2000/globalFade/viewport -1000 -1000/end dialogue Delores \"It feels better getting that off my chest. Thank you, @.\"",
+		"DickHeadWtf": "stopMusic/pause 2000/shake Delores 1000/speak Delores \"...please leave me be...$9\"/emote farmer 12/friendship Delores -500/end dialogue Delores \"...please...$9\""
+		}
+	},
+	{
+	  "LogName": "DeloresEvent",
+	  "Action": "EditData",
+	  "Target": "Data/Events/Beach",
+	  "Entries":  {
+	    "00981711/f Delores 2000/t 800 1700/e 00981709": "ocean/38 11/farmer 38 2 2 Delores 32 9 3 Harvey -3000 -3000 0/skippable/animate Delores false false 200 24 24 24 25 25 26 26 25 25 26 26 25/move farmer 0 7 2/jump Delores 6/emote Delores 16/faceDirection Delores 1/speak Delores \"@! I'm so happy to see you!$8\"/move Delores 5 0 1 true/faceDirection farmer 3/emote farmer 32/pause 500/speak Delores \"So, I came here to train for the... drum roll please...#$b#...world record of most rope jumps in one minute!$1#$b#The beach is a pleasant change of scenery, don't cha think?$7#$b#The current record is 195. With my math skills, that means I'll have to jump more than 3.25 times in 1 second.\"/emote farmer 16/pause 500/emote Delores 28/speak Delores \"I can do it, right, @? I mean, I've been training for... well... SOMETHING my entire life.\"/stopMusic/pause 500/emote farmer 20/playMusic shimmeringbastion/speak Delores \"AWESOME!!$1#$b#And, since you're here...$4#$b#...you can help me train!$7#$b#Come on, @! Let's go!$8\"/emote farmer 16/move Delores -2 0 3 true/move farmer -2 0 3 true/fade true/viewport -1000 -1000/pause 500/faceDirection Delores 2/warp Delores 15 9/warp farmer 16 9/viewport 15 11 true/animate Delores false true 150 16 16 17 18 18 19/pause 1500/textAboveHead Delores \"30, 31, 32, 33...\"/pause 3000/fade true/viewport -1000 -1000/stopAnimation Delores/warp Delores 43 21/warp farmer 42 21/viewport 43 23 true/faceDirection farmer 1/animate Delores false true 100 48 48 48 49 50 50 50 49/pause 1500/textAboveHead Delores \"56, 57, 58, 59...\"/pause 3000/fade true/viewport -1000 -1000/stopAnimation Delores/warp Delores 53 13/warp farmer 54 13/viewport 53 15 true/faceDirection farmer 3/animate Delores false true 100 53 54 55 52/pause 1500/textAboveHead Delores \"108, 109, 110, 111...\"/pause 3000/textAboveHead Delores \"How am I doing, stud?\"/pause 1000/jump farmer 6/pause 500/emote farmer 16/pause 500/emote farmer 60/pause 500/emote Delores 32/pause 1500/fade true/viewport -1000 -1000/stopAnimation Delores/warp Delores 46 12/warp farmer 47 12/viewport 39 14 true/stopMusic/move Delores -3 0 3 true/move farmer -3 0 3 true/pause 1500/faceDirection Delores 1/speak Delores \"Well, that was a good day of training. Tomorrow, we'll train again, and soon, the record!$1#$b#Of course, I couldn't have done this level of exercise without you.$4#$b#I appreciate everything, @.$8\"/pause 450/emote farmer 32/faceDirection Delores 3/move Delores -4 0 3 true/move farmer -4 0 3 true/pause 2050/showFrame Delores 32/playSound ow/jump Delores 8/emote Delores 16/speak Delores \"OW!!$6\"/showFrame Delores 33/emote Delores 12/jump Delores 8/pause 500/jump Delores 8/pause 500/jump Delores 8/speak Delores \"@, it hurts, my ankle!!$9#$b#I must have stepped wrong... this sand... ow....$9\"/emote farmer 16/pause 500/emote farmer 28/speak Delores \"Take me to the doctor, quick!!$9\"/globalFade/viewport -1000 -1000/playMusic none/changeLocation Hospital/playMusic Hospital_Ambient/warp farmer 20 12/faceDirection farmer 3/warp Delores 19 12/showFrame Delores 21/positionOffset Delores -30 20/warp Harvey 22 8/viewport 19 14 true/move Harvey 0 4 2/faceDirection farmer 1/move Harvey -1 0 3/speak Delores \"...so what is it, doc? Did I tear a tendon?$2\"/pause 1000/speak Harvey \"Oh, goodness, no, it's only a sprain.\"/pause 500/emote Delores 28/speak Delores \"Only a sprain? Why am I in so much pain then?$9\"/pause 500/speak Harvey \"It's a grade 2 ankle sprain. I'd recommend refraining from physical activities for awhile to let it recover.\"/pause 500/shake Delores 500/emote Delores 16/speak Delores \"A... while? What if I don't have 'awhile'?$9#$b#I... don't know if I can go... 'awhile'...$2\"/pause 2000/speak Harvey \"I recommend applying ice daily. That will help the swelling go down. After that, you'll be able to continue your exercise.\"/pause 1000/emote Harvey 28/speak Harvey \"...I'm sorry, Delores...$2#$b#...but you'll be back to it soon. I promise.$1#$b#I hope the two of you have a nice day.$1\"/faceDirection farmer 3/move Harvey 1 0 1/move Harvey 0 -2 0/faceDirection Harvey 2/speak Harvey \"And, Delores...#$b#If you need to talk to anyone, I know an excellent counselor in ZuZu City that you could talk to.#$b#Life... gets better.\"/move Harvey 0 -2 0/move Harvey -7 0 3 true/emote farmer 28/move Harvey 0 -2 0/stopMusic/playMusic desolate/shake Delores 1000/speak Delores \"@, I wanted to have this done by the end of this week...$2#$b#But because of the stupid sand, I'm not able to do what I love most for 'AWHILE'.$2#$b#What am I even going to do? I don't have any other hobbies, and my roommates won't help me...$2\"/pause 1000/emote farmer 40/speak Delores \"Thank you, anyways, @. You're still a true friend. Probably the only friend I have right now.$9#$b#I'm lucky you're around to care about me.$9\"/emote farmer 20/pause 1000/emote Delores 20/speak Delores \"I'll catch up with you soon, alright @-inator?$4\"/pause 500/emote farmer 32/globalFade/viewport -1000 -1000/end invisibleWarpOut Delores"
+		}
+	},
+	{
+	  "LogName": "DeloresEvent",
+	  "Action": "EditData",
+	  "Target": "Data/mail",
+	  "Entries": {
+	    "DeloresHospital": "@,^This is Harvey from the hospital. Leah brought in your friend, Delores. She found Delores unable to walk and holding onto her ankle.^Delores asked that I let you know, but please, come talk to her about this.^Her constant pushing is unhealthy. I've already lectured her about it, but she'd probably listen to you more.^^-Dr. Harvey[#]Delores in the Hospital"
+		}
+	},
+	{
+	  "LogName": "DeloresEvent",
+	  "Action": "EditData",
+	  "Target": "Data/Events/Farm",
+	  "Entries": {
+	    "00981712/f Delores 2500/x DeloresHospital/e 00981711": "null"
+		}
+	},
+	{
+	  "LogName": "DeloresEvent",
+	  "Action": "EditData",
+	  "Target": "Data/Events/Hospital",
+	  "Entries": {
+	    "00981713/f Delores 2500/t 800 1700/n DeloresHospital": "desolate/19 14/farmer 17 8 1 Delores 19 12 2 Harvey 20 11 2/skippable/showFrame Delores 21/positionOffset Delores -30 20/setRunning/move farmer 5 0 1/move farmer 0 4 2/stopRunning/move farmer -2 0 3/speak Harvey \"Good, you're here.#$b#Delores, I hope you listen to @ now.#$b#I'll let you two be.\"/move Harvey 2 0 1/move Harvey 0 -3 0/move Harvey -7 0 3 true/emote farmer 28/move Harvey 0 -2 0/speak Delores \"I'm sorry, @. I already know for a fact that I worried you.$2#$b#I pushed myself too hard... I thought I could get away with a bit of light exercise, but apparently not.$2\"/pause 1000/emote farmer 40/pause 500/stopMusic/speak Delores \"I can probably walk today, but I wanted you here because I...$2#$b#...oh boy, here we go.$4#$b#I need to tell you something.$4\"/pause 500/emote farmer 8/pause 1000/textAboveHead Delores \"Oh man, I'm so anxious\"/pause 2500/shake Delores 2000/textAboveHead Delores \"Okay, breathe in, breathe out. You can do this.\"/pause 2500/emote farmer 40/pause 500/emote farmer 8/pause 500/playMusic sappypiano/speak Delores \"Okay, so...$4#$b#I've been thinking.$4#$b#Especially when I was lying on the ground in the forest when Leah found me...$2#$b#I realized that, there's more to who I am than just exercising, or breaking a world record.$4#$b#I can do so much more.\"/pause 500/emote farmer 16/pause 1500/shake Delores 500/speak Delores \"I know, incredible, right?$7#$b#People do know who I am here. Leah helped me here, Harvey cares enough to lecture me about this...$1#$b#Everything you've done, especially.$8#$b#So, I guess what I'm trying to say is...$4#$b#Thank you for helping me realize that people care. That people notice me, that they acknowledge me, and that I don't need a world record to validate my existence.$8\"/pause 500/emote farmer 20/shake Delores 500/pause 500/shake Delores 500/speak Delores \"And I've been thinking about what my dad said. 'Reach for the Stars'.$2#$b#Maybe he didn't need me to become a super famous professional athlete, maybe he just wanted me to be happy.$4#$b#And that brings me to you, @.$8#$b#You're an amazing dude, @...$8^You're an amazing gal, @...$8#$b#And... I didn't think I could love anything ever again after I lost my dad, but...$4#$b#...$4#$b#GAH! This is so hard to say!$4\"/stopMusic/pause 1000/emote farmer 8/speak Delores \"I think you're the star that I need to reach for, @.$4#$b#...I...I love you, @.$8\"/pause 500/emote farmer 16/jump farmer 8/pause 500/question fork1 \"#...I love you too.#I... don't think I can say the same...\"/fork RejectedDelores/playMusic musicboxsong/pause 1000/shake Delores 1000/speak Delores \"...$4#$b#!!!$8\"/positionOffset farmer 16 0 true/animate farmer true true 100 101/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/pause 50/showFrame Delores 28/pause 500/positionOffset Delores 5 -4/pause 50/positionOffset farmer -2 0/positionOffset Delores 5 -4/pause 50/positionOffset farmer -2 0/positionOffset Delores 5 -4/pause 50/positionOffset farmer -2 0/positionOffset Delores 5 -4/pause 50/positionOffset farmer -2 0/positionOffset Delores 5 -4/pause 50/positionOffset farmer -2 0/positionOffset Delores 5 -4/pause 50/positionOffset farmer -2 0/positionOffset Delores 5 -4/pause 50/positionOffset farmer -2 0/positionOffset Delores 4 -2/pause 50/pause 700/playSound dwop/specificTemporarySprite heart 2 4/pause 3000/speak Delores \"Let's be each other's stars, okay, @?$8#$b#...I love you.$8#$b#...$4#$b#...$4#$b#...you know, Harvey's not here, right now.$7\"/pause 500/showFrame Delores 4/stopAnimation farmer/faceDirection farmer 3/jump farmer 8/emote farmer 16/pause 500/emote farmer 32/emote Delores 32/globalFade/viewport -1000 -1000/speak Delores \"...$8\"/end dialogue Delores \"...Wow...$4#$b#Farming really does improve your endurance, huh?$8\"",
+		"RejectedDelores": "pause 2000/shake Delores 1000/pause 1000/emote Delores 28/speak Delores \"I...$2#$b#I understand, @.$2\"/shake Delores 1000/pause 1000/speak Delores \"I... don't know if we can be friends, though, @.$2#$b#I think my feelings are too strong. They'd... ruin me.$2#$b#I'm glad you let me down gently, @. I'm glad I met you, and you helped me realize something about myself.#$b#I'll never forget that.$1\"/pause 1000/emote Delores 28/shake Delores 1000/speak Delores \"...$2#$b#I'm going to need some time alone...$9\"/move farmer 2 0 1/move farmer 0 4 0/globalFade/viewport -1000 -1000/friendship Delores -1250/end dialogue Delores \"Please, just let me be for awhile...$9\""
+		}
+	},
+	{
+	  "LogName": "DeloresEvent",
+	  "Action": "EditData",
+	  "Target": "Data/Events/FarmHouse",
+	  "Entries": {
+	    "00981714/f Delores 3500/O Delores/t 610 1700/p Delores/L": "sadpiano/7 16/farmer 12 14 3 Delores 7 14 2/skippable/move Delores 2 0 2/pause 500/move Delores -4 0 2 true/emote farmer 8/pause 1000/move Delores 2 0 1/emote Delores 16/move farmer -4 0 3/speak Delores \"Oh, hey hun! I'm uh... fine.$2\"/pause 1000/emote farmer 40/pause 1000/speak Delores \"Jeez, @, you really can read me like a book.$4#$b#I... It's my mom... I got a letter from her yesterday, and it's bothering me so badly...$2\"/pause 500/emote farmer 8/pause 500/speak Delores \"I don't know what to think, @. It's been almost 20 years since I've last heard from her, but suddenly I'm married, and she wants to reach out?$2#$b#Not even to mention, how did she find where we lived? Is there like a marriage registry online or something?\"/stopMusic/pause 1000/emote farmer 40/emote Delores 40/pause 1000/speak Delores \"I... don't want to see her, @...$2\"/question fork1 \"Should I write back?#Don't do it, Dee.#You should.\"/fork WriteBack/pause 1000/speak Delores \"You're probably right... she hasn't been a part of my life for as long as I can remember, and the parts I can remember...$2#$b#In a way, she isn't truly my mother, if you think about it.#$b#Just because she gave birth to me, doesn't mean that she has a right to intrude on my life after leaving... right?$2\"/pause 1000/emote Delores 28/pause 1000/speak Delores \"Well, either way, that's a whole different humanitarian discussion and one I don't want to have right now.#$b#You hungry for something? I can cook something for you!$1\"/jump farmer 4/emote farmer 20/globalFade/viewport -1000 -1000/speak Delores \"Thanks again, @, you always keep my head on straight.$4\"/end",
+		"WriteBack": "pause 1000/speak Delores \"I think you're right. I'll write a letter and send it today or tomorrow.#$b#If I get a response, would you be able to tell me what it is? That's only if I don't get to it first.\"/pause 500/emote farmer 20/pause 500/speak Delores \"Thanks dear. Now, are you hungry? I can cook you something!\"/jump farmer 4/emote farmer 20/globalFade/viewport -1000 -1000/speak Delores \"Thanks again, @, you always keep my head on straight.$4\"/mail DeloresMother/end"
+		}
+	},
+	{
+	  "LogName": "DeloresEvent",
+	  "Action": "EditData",
+	  "Target": "Data/mail",
+	  "Entries": {
+	    "DeloresMother": "Delores,^^Thank you for the response. I found you by scouring through marriage registries online, yes.^^I don't know who @ is, but they sound like a very charming person. Do they earn a lot of money?^^Your half brother and I have recently fallen on some hard times, and it's hard to pay bills.^^If you love me and miss me like you say you do, you would help us financially, in addition to giving us a place to stay.^If you won't, then I will no longer contact you.^^Please think about this.^^^- Shirley[#]Delores's Mother"
+		}
+	},
+	{
+	  "LogName": "DeloresEvent",
+	  "Action": "EditData",
+	  "Target": "Data/Events/FarmHouse",
+	  "Entries": {
+	    "00981716/t 610 1700/n DeloresMother/p Delores": "continue/7 16/farmer 12 14 3 Delores 7 14 0/skippable/move farmer -4 0 3/faceDirection Delores 1/emote Delores 20/speak Delores \"Hey cutie-pie, what's up?\"/stopMusic/pause 1000/emote farmer 28/pause 1000/emote Delores 8/speak Delores \"What's wrong? You look like you've seen a ghost.\"/pause 1500/emote Delores 40/pause 1500/emote farmer 40/playMusic sadpiano/pause 500/emote Delores 16/speak Delores \"So you got the letter from my mom? Can I see it?$1\"/pause 1000/speak Delores \"Mhm, marriage registry...$1#$b#...$1#$b#...lots of money?...#$b#...#$b#...half brother? Hard times?...$3#$b#...$3#$b#...$2#$b#...Shirley...$2\"/pause 2000/emote farmer 28/pause 2000/speak Delores \"Well, damn. My mom's a narcissist.$2\"/stopMusic/pause 1000/emote Delores 28/pause 1000/speak Delores \"...you know, I should have seen this coming...$2#$b#...bah. No bother. Screw her.\"/jump farmer 6/emote farmer 16/pause 500/speak Delores \"I know, I'm a whole box full of surprises.$7#$b#But I didn't need her in my life for the past 20 or so years. Why would I need her now?#$b#If anything, this makes it easier.$7\"/playMusic jaunty/pause 1000/speak Delores \"Thank you for bringing the letter to me, sweetie-pie. I really appreciate you.$4#$b#And now it's time to move onto other, more important things!\"/pause 500/emote farmer 20/emote Delores 32/speak Delores \"What are you hungry for today, honey? I can make you anything!\"/globalFade/viewport -1000 -1000/end"
+		}
+	},
+    {
+	  "LogName": "Concessions Tastes",
+	  "Action": "EditData",
+	  "Target": "Data/ConcessionsTastes",
+	  "Entries": {
+	    "Name": "Delores",
+		"LovedTags": [
+		  "Healthy"
+		],
+		"LikedTags": [
+		  "Sour Slimes",
+		  "Black Licorice",
+		  "Truffle Popcorn"
+		],
+		"DislikedTags": [
+		  "Fatty",
+		  "Joja",
+		  "Sweet"
+		]
+		},
+	},
+	{
+	  "LogName": "Movie Tastes",
+	  "Action": "EditData",
+	  "Target": "Data/MoviesReactions",
+	  "Entries": {
+	  "Delores": {
+        "NPCName": "Delores",
+        "Reactions": [
+          {
+          "Tag": "*",
+          "Response": "love",
+          "Whitelist": [
+          ],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "It's been so long since I've been to the theatre! I'm so excited!!"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"Delores is watching intently!\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "That was so much fun! We should do this again soon!"
+          }
+        },
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "spring_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Oh! This seems like a cute little movie.#$b#Well, what are you waiting for, let's go!$1"
+          },
+          "DuringMovie": {
+            "ResponsePoint": "sprout_leave",
+            "Script": "/shake Delores 1000/pause 1000/message \"You see tears on Delores's cheeks...",
+            "Text": "...Oh, man...$2"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "That was such a good film! It might not be 'kino', but I cried, so it must be good.$7"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "spring_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "romance",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "There's nothing I love more than a cheesy ol' romance film! I can't wait to see this.$1"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"(Delores is chuckling slightly.)\"",
+            "Text": "Ohhhh, man, that's SOOO cheesy.$4"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Aww, so romantic. I always enjoy these films way more than I should, haha.$8"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "comedy",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I think comedy flicks are my favorite. I just love to laugh!"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hahaha, oh man!! I can't believe that happened!!"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ohhh, man, my stomach... that was good, though! I loved it!"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "horror",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I hope I don't cry like the last time I saw a horror movie. That'd be embarrassing.$2"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/shake Delores 2000/pause 500/jump Delores 6",
+            "Text": "YIKES! WHAT IS THAT THING?!$6"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "That was an experience... at least I didn't cry.$2"
+          }
+        },
+        "ID": "reaction_5"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Oh man, I've been wanting to see this one since I saw the trailer!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Impeccable. Simply impeccable.$1"
+          }
+        },
+        "ID": "reaction_6"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hey, I've heard some good things about this one!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "That was great! Thanks for seeing this with me!"
+          }
+        },
+        "ID": "reaction_7"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ah, well, I dunno about this one, to be frank.$2"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "..."
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Man, I dunno, that was kind of garbage... It's fine if you enjoyed it, though.$2"
+          }
+        },
+        "ID": "reaction_8"
+      },
+      {
+        "Tag": "seen_love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ooh, '{0}'! I saw this one with {2}!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": null
+        },
+        "ID": "reaction_9"
+      },
+      {
+        "Tag": "seen_like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I saw this with {2}, it was pretty good!"
+          },
+          "DuringMovie": null,
+          "AfterMovie": null
+        },
+        "ID": "reaction_10"
+      },
+      {
+        "Tag": "seen_dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hmm, I think {2} took me to see this..."
+          },
+          "DuringMovie": null,
+          "AfterMovie": null
+        },
+        "ID": "reaction_11"
+      }
+    ]
+    }
+	}
+  }
+  ]
+}

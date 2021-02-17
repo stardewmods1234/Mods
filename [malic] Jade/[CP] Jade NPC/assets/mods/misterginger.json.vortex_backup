@@ -1,0 +1,16 @@
+// misterginger patchfile
+// other references - i18n
+
+{
+	"Changes": [
+		{
+			"LogName": "Jade - Dialogue - MisterGinger",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jade",
+			"Entries": {
+				"summer_Sat": "{{i18n:misterginger.summer_Sat}}",
+				"spring_Mon": "{{i18n:misterginger.spring_Mon}}",
+			}
+		},
+	]
+}

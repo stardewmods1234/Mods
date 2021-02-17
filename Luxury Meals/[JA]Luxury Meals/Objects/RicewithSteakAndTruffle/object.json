@@ -1,0 +1,55 @@
+{
+  "Name": "Rice with Steak And Truffle",
+  "Description": "It smells and tastes first-class!",
+  "Category": "Cooking",
+  "Edibility": 150,
+  "EdibleIsDrink": false,
+  "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 2,
+        "Attack": 4,
+        "Duration": 300,
+    },
+  "Price": 1125,
+  "IsColored": false,
+  "GiftTastes": {
+	"Love": ["Emily","Jodi","Penny","Robin","Pierre","Haley","Lewis","Leah","Gus"],
+	"Like": ["Willy", "Linus","Sandy","Abigail", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Evelyn", "George", "Kent", "Krobus",  "Maru", "Pam",  "Sam",  "Shane",  "Wizard","Vincent",   "Jas",  "Sebastian","Harvey","Alex","Marnie"],
+	"Neutral": [],
+	"Dislike": [],
+	"Hate": [],
+  },
+  "Recipe": {
+    "ResultCount": 1,
+	"IsDefault": false,
+    "Ingredients": [
+      {
+        "Object": "Raw Steak",
+        "Count": 1,
+      },
+      {
+        "Object": 430,
+        "Count": 1,
+      },
+	  {
+        "Object": 423,
+        "Count": 1,
+      }
+    ],
+  },
+
+ "NameLocalization": { 
+    "zh": "牛排松露拌饭",
+  },
+ "DescriptionLocalization": { 
+    "zh": "闻起来和尝起来都是一流的味道！",
+  }
+}

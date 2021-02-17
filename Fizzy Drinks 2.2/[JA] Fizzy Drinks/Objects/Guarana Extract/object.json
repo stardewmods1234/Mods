@@ -1,0 +1,38 @@
+﻿{
+  "Name": "Guarana Extract",
+  "Description": "Made from Guarana. Used to make Guarana Soda.",
+  "Category": "ArtisanGoods",
+  "Edibility": 20,
+  "Price": 250,
+  "IsColored": false,
+  "CanPurchase": true,
+  "PurchasePrice": 400,
+  "Recipe": null,
+"NameLocalization": { 
+    // "es": "",
+    "ko": "과라나 익스트렉",
+    // "de": "",
+    // "fr": "",
+    // "hu": "",
+    // "it": "",
+    // "ja": "",
+    // "pt": "",
+    // "ru": "",
+    // "tr": "",
+   "zh": "瓜拉纳提取物",
+     },
+ "DescriptionLocalization": { 
+    // "es": "",
+    "ko": "과라나 추출물. 과라나 소다를 만들 때 사용합니다.",
+    // "de": "",
+    // "fr": "",
+    // "hu": "",
+    // "it": "",
+    // "ja": "",
+    // "pt": "",
+    // "ru": "",
+    // "tr": "",
+    "zh": "瓜拉纳提取物。用于制作瓜拉纳苏打水。",
+    }
+}
+

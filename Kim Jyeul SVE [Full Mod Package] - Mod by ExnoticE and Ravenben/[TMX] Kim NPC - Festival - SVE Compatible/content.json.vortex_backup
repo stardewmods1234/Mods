@@ -1,0 +1,79 @@
+{
+  "name": "Kim Festival Locations",
+  "version": "1.0.0",
+  "author": "ExnoticE",
+  "festivalSpots": [
+    {
+      "name": "Kim",
+      "map": "Town-EggFestival",
+      "position": [
+        46,
+        56
+      ],
+      "direction": 2
+    },
+    {
+      "name": "Kim",
+      "map": "Forest-FlowerFestival",
+      "position": [
+        7,
+        41
+      ],
+      "direction": 2
+    },
+    {
+      "name": "Kim",
+      "map": "Beach-Luau",
+      "position": [
+        37,
+        24
+      ],
+      "direction": 2
+    },
+    {
+      "name": "	Kim",
+      "map": "Beach-Jellies",
+      "position": [
+        28,
+        36
+      ],
+      "direction": 2
+    },
+    {
+      "name": "Kim",
+      "map": "Town-Fair",
+      "position": [
+        22,
+        48
+      ],
+      "direction": 2
+    },
+    {
+      "name": "Kim",
+      "map": "Town-Halloween",
+      "position": [
+        15,
+        25
+      ],
+      "direction": 3
+    },
+    {
+      "name": "Kim",
+      "map": "Forest-IceFestival",
+      "position": [
+        45,
+        58
+      ],
+      "direction": 2
+    },
+    {
+      "name": "Kim",
+      "map": "Town-Christmas",
+      "position": [
+        24,
+        62
+      ],
+      "direction": 2
+    }
+  ]
+}

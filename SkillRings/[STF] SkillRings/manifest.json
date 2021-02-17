@@ -1,0 +1,12 @@
+{
+	"Name": "Shops for Skill Rings",
+	"Author": "AlphaMeece",
+	"Description": "Edits shop items for Skill Rings.",
+	"Version": "1.0.0",
+	"UniqueID": "AlphaMeece.STF.SkillRings",
+	"UpdateKeys": [],
+	"MinimumApiVersion": "3.4.0",
+	"ContentPackFor": {
+		"UniqueID": "Cherry.ShopTileFramework",
+	},
+}

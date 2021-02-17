@@ -1,0 +1,20 @@
+{
+  "Mon": "610 WilfordHouse 27 5 Wilford_Sleep/800 Forest 112 36 2/1500 Forest 45 42 0/1900 Town 31 56 2/2100 WilfordHouse 27 5 Wilford_Sleep",
+  "Tue": "610 WilfordHouse 27 5 Wilford_Sleep/800 SeedShop 5 22 3/1000 SeedShop 2 19 3/1030 SeedShop 5 22 3/1100 SeedShop 2 19 3/1130 SeedShop 5 22 3/1200 SeedShop 9 17 3/1230 SeedShop 3 26 2/1300 SeedShop 2 18 1/1600 Town 24 97 2/2100 WilfordHouse 27 5 Wilford_Sleep",
+  "Wed": "610 WilfordHouse 27 5 Wilford_Sleep/700 Beach 20 5 2/1100 Beach 5 7 2 \"Strings\\schedules\\Wilford:120936\"/1800 Beach 45 25 2/2100 WilfordHouse 27 5 Wilford_Sleep",
+  "Thu": "610 WilfordHouse 27 5 Wilford_Sleep/800 Forest 41 10 2/1500 Forest 48 27 3/1900 Town 31 56 2/2100 WilfordHouse 27 5 Wilford_Sleep",
+  "Fri": "610 WilfordHouse 27 5 Wilford_Sleep/800 Mountain 26 7 2/1400 Mountain 39 5 1/1630 Saloon 1 18 1/1830 Saloon 6 17 Wilford_Drinking/2300 WilfordHouse 27 5 Wilford_Sleep",
+  "Sat": "610 WilfordHouse 27 5 Wilford_Sleep/730 EastWoods 34 27 Wilford_Garden/1000 EastWoods 56 37/1300 Town 71 101 2/1600 WilfordHouse 2 5 0/1700 WilfordHouse 21 5 0/1730 WilfordHouse 21 12 3/1800 WilfordHouse 24 12 0/1830 WilfordHouse 21 12 3/1900 WilfordHouse 24 12 0/1930 WilfordHouse 21 5 0/2000 WilfordHouse 27 5 Wilford_Sleep",
+  "Sun": "610 WilfordHouse 27 5 Wilford_Sleep/800 WilfordHouse 2 5 0/1100 EastWoods 22 15 Wilford_Garden/1400 Forest 112 36 2/1900 WilfordHouse 21 5 0/2200 WilfordHouse 27 5 Wilford_Sleep",
+  "summer_9": "610 WilfordHouse 27 5 Wilford_Sleep/800 Town 71 101 2/1300 Town 87 103 2/1730 Town 85 51 0/1830 Town 31 56 2/2130 WilfordHouse 27 5 Wilford_Sleep",
+  "fall_Thu": "610 WilfordHouse 27 5 Wilford_Sleep/800 Forest 48 27 3/1200 Forest 43 18 2 Wilford_Snail/1700 Forest 34 25 2/2000 WilfordHouse 27 5 Wilford_Sleep",
+  "summer_Mon": "610 WilfordHouse 27 5 Wilford_Sleep/800 Forest 41 10 2/1500 Forest 70 40 2 Wilford_Flowers/1830 Town 31 56 2/2100 WilfordHouse 27 5 Wilford_Sleep",
+  "fall_2": "610 WilfordHouse 27 5 Wilford_Sleep/800 Town 31 56 2/1400 Town 70 69 2/1800 Saloon 6 17 Wilford_Drinking/2130 WilfordHouse 27 5 Wilford_Sleep", 
+  "winter_22": "610 WilfordHouse 27 5 Wilford_Sleep/700 Town 51 88 0 \"Strings\\schedules\\Wilford:120933\"/1000 Forest 112 36 2/1600 WilfordHouse 2 5 0/1900 WilfordHouse 21 5 0/2200 WilfordHouse 27 5 Wilford_Sleep",
+  "fall_Tue": "610 WilfordHouse 27 5 Wilford_Sleep/800 Town 23 100 2 \"Strings\\schedules\\Wilford:120935\"/1200 SeedShop 2 18 1/1500 SeedShop 25 15 0/1800 WilfordHouse 21 12 3/2000 WilfordHouse 27 5 Wilford_Sleep",
+  "winter_Sun": "610 WilfordHouse 27 5 Wilford_Sleep/900 SeedShop 23 14 0/1200 SeedShop 26 15 0/1400 Town 24 97 2/1630 EastWoods 56 37/2000 WilfordHouse 27 5 Wilford_Sleep",
+  "rain": "610 WilfordHouse 27 5 Wilford_Sleep/800 WilfordHouse 21 5 0/930 WilfordHouse 21 12 3/1000 WilfordHouse 24 12 0/1030 WilfordHouse 21 12 3/1100 WilfordHouse 24 12 0/1200 WilfordHouse 21 5 0/1600 Saloon 20 17 3/2100 WilfordHouse 27 5 Wilford_Sleep",
+  "winter_16": "610 WilfordHouse 27 5 Wilford_Sleep/800 WilfordHouse 2 5 0/1400 Beach 13 30 1 \"Strings\\schedules\\Wilford:120937\"/1800 Beach 20 24 2 \"Strings\\schedules\\Wilford:120938\"/2100 WilfordHouse 27 5 Wilford_Sleep",
+  "marriage_Mon": "800 Forest 41 10 2 \"Strings\\schedules\\Wilford:marriage.000\"/1300 Saloon 12 20 0 \"Strings\\schedules\\Wilford:marriage.001\"/1600 SeedShop 2 23 3 \"Strings\\schedules\\Wilford:marriage.002\"/1730 SeedShop 3 26 2 \"Strings\\schedules\\Wilford:marriage.003\"/1830 Town 29 56 2 \"Strings\\schedules\\Wilford:marriage.004\"/2100 BusStop -1 23 3",
+  "marriage_Fri": "800 Mountain 26 7 2 \"Strings\\schedules\\Wilford:marriage.005\"/1400 Mountain 39 5 1/1630 Saloon 1 18 1 \"Strings\\schedules\\Wilford:marriage.006\"/1900 Saloon 6 17 2 \"Strings\\schedules\\Wilford:marriage.007\"/2000 BusStop -1 23 3"
+}

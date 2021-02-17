@@ -1,0 +1,42 @@
+{
+  "Name": "White Tea Leaves",
+  "Description": "A kind of micro-fermented tea leaf. It has a long history. ",
+  "Category": "vegetable",
+  "Edibility": 20,
+  "Price": 80,
+  "IsColored": false,
+  "GiftTastes":
+  {
+        "Love": ["Caroline", "Evelyn", "Linus", "Sandy"],
+        "Like": ["Elliott", "Harvey", "Abigail", "Leah", "Emily", "Penny", "Demetrius", "Dwarf", "Pam", "Robin", "Marlon", "Olivia", "Victor", "Jodi", "Kent", "Lewis", "Linus", "Susan", "Marlon"],
+        "Neutral": ["Alex", "Sam", "Shane", "Maru", "Clint", "Krobus", "George", "Marnie", "Pierre", "Vincent", "Willy", "Sophia", "Gus", "Wizard", "Haley", "Jas"],
+        "Dislike": ["Sebastian", "Andy"],
+  },
+  "Recipe": null,
+  "NameLocalization": { 
+    //"es": "",
+    "ko": "백찻잎",
+   /* "de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",*/
+    "zh": "白茶叶",
+  },
+ "DescriptionLocalization": { 
+    //"es": "",
+    "ko": "미발효 찻잎의 일종으로, 오랜 역사를 가지고 있다.",
+   /* "de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",*/
+    "zh": "一种微发酵茶叶，它具有悠久的历史",
+  },
+}

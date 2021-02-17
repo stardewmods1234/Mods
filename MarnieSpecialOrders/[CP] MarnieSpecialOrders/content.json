@@ -1,0 +1,133 @@
+{
+   "Format": "1.18.0",
+      "Changes": [
+	  {
+	  "Action": "EditData",
+	  "Target": "Data/SpecialOrders",
+	  "Entries": {
+		"Marnie": {
+			"Name": "[Marnie_Name]",
+			"Requester": "Marnie",
+			"Duration": "TwoWeeks",
+			"Repeatable": "True",
+			"RequiredTags": "season_summer",
+			"OrderType": "", //Qi only
+			"SpecialRule": "", // Qi only
+			"Text": "[Marnie_Text]",
+			"ItemToRemoveOnEnd": null,
+			"MailToRemoveOnEnd": null,
+			"Objectives": [
+			  {
+				"Type": "Collect",
+				"Text": "[Marnie_Objective_0_Text]",
+				"RequiredCount": "10",
+				"Data": {
+				  "AcceptedContextTags": "item_melon"
+				}
+			  },
+			  {
+				"Type": "Deliver",
+				"Text": "[Marnie_Objective_1_Text]",
+				"RequiredCount": "10",
+				"Data": {
+				  "AcceptedContextTags": "item_pink_cake",
+				  "TargetName": "Marnie",
+				  "Message": "[Marnie_Objective_1_Message]"
+				}
+			  }
+			],
+			"Rewards": [
+			  {
+				"Type": "Money",
+				"Data": {
+				  "Amount": "5500"
+				}
+			  },
+			  {
+				"Type": "Mail",
+				"Data": {
+				  "MailReceived": "AP_Marnie",
+				  "Host": "true",
+				  "NoLetter": "false"
+				}
+			  }
+			]
+		  },
+		  "Marnie2": {
+			"Name": "[Marnie2_Name]",
+			"Requester": "Marnie",
+			"Duration": "TwoWeeks",
+			"Repeatable": "True",
+			"RequiredTags": "season_fall",
+			"OrderType": "", //Qi only
+			"SpecialRule": "", // Qi only
+			"Text": "[Marnie2_Text]",
+			"ItemToRemoveOnEnd": null,
+			"MailToRemoveOnEnd": null,
+			"Objectives": [
+			  {
+				"Type": "Collect",
+				"Text": "[Marnie2_Objective_0_Text]",
+				"RequiredCount": "10",
+				"Data": {
+				  "AcceptedContextTags": "item_pumpkin"
+				}
+			  },
+			  {
+				"Type": "Deliver",
+				"Text": "[Marnie2_Objective_1_Text]",
+				"RequiredCount": "10",
+				"Data": {
+				  "AcceptedContextTags": "item_pumpkin_pie",
+				  "TargetName": "Marnie",
+				  "Message": "[Marnie2_Objective_1_Message]"
+				}
+			  },
+			],
+			"Rewards": [
+			  {
+				"Type": "Money",
+				"Data": {
+				  "Amount": "4500"
+				}
+			  },
+			  {
+				"Type": "Mail",
+				"Data": {
+				  "MailReceived": "AP_Marnie",
+				  "Host": "true",
+				  "NoLetter": "false"
+				}
+			  }
+			]
+		  }
+	  },
+	  "When": {
+		"IsCommunityCenterComplete": true
+	  },
+	  },
+	  {
+		  "Action": "EditData",
+		  "Target": "Strings/SpecialOrderStrings",
+		  "Entries": {
+			"Marnie_Name": "{{i18n:specialorder.cake-title}}",
+			"Marnie_Text": "{{i18n:specialorder.cake-text}}",
+			"Marnie_Objective_0_Text": "{{i18n:specialorder.cake-objective0}}",
+			"Marnie_Objective_1_Text": "{{i18n:specialorder.cake-objective1}}",
+			"Marnie2_Name": "{{i18n:specialorder.pie-title}}",
+			"Marnie2_Text": "{{i18n:specialorder.pie-text}}",
+			"Marnie2_Objective_0_Text": "{{i18n:specialorder.pie-objective0}}",
+			"Marnie2_Objective_1_Text": "{{i18n:specialorder.pie-objective1}}",
+			"Marnie_Objective_1_Message": "{{i18n:specialorder.cake-success}}",
+			"Marnie2_Objective_1_Message": "{{i18n:specialorder.pie-success}}",
+		  }
+	  },
+	  {
+		"Action": "EditData",
+		  "Target": "Data/mail",
+		  "Entries": {
+		  "AP_Marnie": "{{i18n:mail.auto-petter}}"
+		  }
+	  }
+	  ]
+  }

@@ -1,0 +1,12 @@
+{
+    "loadLate": true,
+	"addMaps": [{
+			"name": "EastWoods",
+			"file": "assets/EastWoods.tmx"
+		},
+		{
+			"name": "WilfordHouse",
+			"file": "assets/WilfordHouse.tmx"
+		}
+	]
+}

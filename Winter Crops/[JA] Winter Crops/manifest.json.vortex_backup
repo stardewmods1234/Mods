@@ -1,0 +1,11 @@
+{
+   "Name": "[JA] Winter Crops",
+   "Author": "uberkwefty",
+   "Description": "Adds Winter themed crops and etc",
+   "Version": "1.1.2",
+   "UniqueID": "uberkwefty.wintercrops",
+   "UpdateKeys": ["Nexus:5976"],
+   "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+}

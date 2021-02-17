@@ -1,0 +1,12 @@
+{
+    "Name": "Moonlight Orchid Tree",
+    "Product": "Moonlight Orchid",
+    "SaplingName": "Moonlight Orchid Sapling",
+    "SaplingDescription": "Takes 28 days to produce a mature Moonlight Orchid tree. Bears flowers in the summer. Only grows if the 8 surrounding \"tiles\" are empty.",
+
+    "Season": "summer",
+
+    "SaplingPurchasePrice": 6250,
+    "SaplingPurchaseRequirements": null,
+	"SaplingPurchaseFrom": "Sandy",
+}

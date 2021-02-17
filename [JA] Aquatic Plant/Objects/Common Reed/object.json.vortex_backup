@@ -1,0 +1,49 @@
+{
+	"Name": "Common Reed",
+	"Description": "The flowers native to the United States turn pink in fall.",
+	"Category": "Vegetable",
+    "CategoryTextOverride": "Fiber Resources",
+    "CategoryColorOverride": "55, 130, 35, 255",
+	"Edibility": 13,
+	"Price": 40,
+	"IsColored": false,
+	"Recipe": null,
+    "GiftTastes":
+	{
+		"Neutral": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+	},
+	"NameLocalization":
+	{ 
+		//"es": "",
+		"ko": "갈대",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		//"zh": "",
+	},
+	"DescriptionLocalization":
+	{ 
+		//"es": "",
+		"ko": "분홍쥐꼬리새라고도 한다. 미국이 원산지이며 가을에 분홍빛으로 물든다.",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		//"zh": "",
+	},
+    "ContextTags":
+	[
+    	"season_fall",
+    	"fiber_resources_item",
+    	"color_brown"
+    ]
+}

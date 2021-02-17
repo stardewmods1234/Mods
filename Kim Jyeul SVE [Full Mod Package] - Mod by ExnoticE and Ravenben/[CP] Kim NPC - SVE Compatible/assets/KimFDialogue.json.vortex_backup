@@ -1,0 +1,101 @@
+{
+     "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring13",
+      "Entries": {
+          "Kim": "Ew, the eggs smell rotten.$2#$b#This is a nice festival though.$h"
+       }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "Entries": {
+          "Kim": "Hi, @.$0#$b#I don't like to dance, I'm too shy.$2#$b#Lewis makes us come here anyway."
+       }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer5",
+      "Entries": {
+          "Kim": "Hi @!$h#$b#Are you going to surf today?"
+       },
+      "When": 
+       {
+           "HasMod |contains=spacechase0.SurfingFestival": true,
+       }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "Entries": {
+          "Kim": "I don't like soup, it's gross to me.$2"
+       }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "Entries": {
+          "Kim": "The moonlight jellies look nice.$h#$e#I like their colors."
+       }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "Entries": {
+          "Kim": "I don't love coming here, Lewis forces everyone to attend.$2#$b#But it's nice to see you here.$h"
+       },
+      "When": 
+       {
+           "HasMod |contains=malic.cp.jadeNPC": false
+       }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "Entries": {
+          "Kim": "I don't love coming here, Lewis forces everyone to attend.$2#$b#It's probably good to catch up with Jade though.$h"
+       },
+      "When": 
+       {
+           "HasMod |contains=malic.cp.jadeNPC": true
+       }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall27",
+      "Entries": {
+          "Kim": "I'm scared...$2"
+       }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter8",
+      "Entries": {
+          "Kim": "It's very cold out here. I should've wore a jacket...$2"
+       }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "Entries": {
+          "Kim": "Hi @!$h#$b#I can't wait to see my gift!"
+       },
+      "When": 
+       {
+           "HasMod |contains=malic.cp.jadeNPC": false
+       }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "Entries": {
+          "Kim": "Hi @!$h#$b#I hope my gift giver is Jade. She knows me very well."
+       },
+      "When": 
+       {
+           "HasMod |contains=malic.cp.jadeNPC": true
+       }
+    }
+  ]
+}

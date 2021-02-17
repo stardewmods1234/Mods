@@ -1,0 +1,12 @@
+{
+  "Name": "Jade NPC - Locations",
+  "Author": "Malic",
+  "Version": "1.2.0",
+  "Description": "Adds spouse room for Jade",
+  "UniqueID": "malic.tmx.jadeNPC",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.4.0"
+  }
+}

@@ -1,0 +1,49 @@
+{
+	"Name": "Bulrush",
+	"Description": "Aquatic plant with brownish flower beds running on its narrow leaves.",
+	"Category": "Vegetable",
+    "CategoryTextOverride": "Fiber Resources",
+    "CategoryColorOverride": "55, 130, 35, 255",
+	"Edibility": 13,
+	"Price": 40,
+	"IsColored": false,
+	"Recipe": null,
+    "GiftTastes":
+	{
+		"Neutral": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+	},
+	"NameLocalization":
+	{ 
+		//"es": "",
+		"ko": "부들",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		//"zh": "",
+	},
+	"DescriptionLocalization":
+	{ 
+		//"es": "",
+		"ko": "잎이 좁다랗고 긴, 갈색의 기다란 꽃대가 달리는 수생식물.",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		//"zh": "",
+	},
+    "ContextTags":
+	[
+    	"season_fall",
+    	"fiber_resources_item",
+    	"color_brown"
+    ]
+}

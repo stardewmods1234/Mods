@@ -1,0 +1,11 @@
+{	
+    "rain": "830 HarveyRoom 22 17 0/930 HarveyRoom 21 8 1 orion_tinker/1200 HarveyRoom 2 18 1 orion_read/1430 HarveyRoom 11 18 2/1600 HarveyRoom 9 17 0/1800 HarveyRoom 21 8 1 orion_tinker/2100 HarveyRoom 19 5 1 orion_sleep",
+    "Tue": "830 Hospital 2 7 0/1200 Hospital 12 16 1 orion_read/1500 HarveyRoom 9 17 0/1800 HarveyRoom 21 8 1 orion_tinker/2100 HarveyRoom 19 5 1 orion_sleep",
+    "Fri": "830 HarveyRoom 22 17 0/930 ScienceHouse 21 18 0/1500 HarveyRoom 9 17 0/1800 HarveyRoom 2 18 1 orion_read/2100 HarveyRoom 19 5 1 orion_sleep",
+    "Sat": "820 ArchaeologyHouse 10 10 1 orion_read/1500 Town 64 100 2/1800 HarveyRoom 21 8 1 orion_tinker/2100 HarveyRoom 19 5 1 orion_sleep",
+    "summer": "830 HarveyRoom 22 17 0/930 HarveyRoom 2 18 1 orion_read/1200 Town 30 21 2/1900 Mountain 7 22 2/2310 HarveyRoom 19 5 1 orion_sleep",
+    "fall": "830 HarveyRoom 22 17 0/930 HarveyRoom 2 18 1 orion_read/1100 ScienceHouse 2 18 1 orion_read/1700 SebastianRoom 1 8 1/1930 HarveyRoom 21 8 1 orion_tinker/2100 HarveyRoom 19 5 1 orion_sleep",
+    "spring": "830 HarveyRoom 23 17 0/930 HarveyRoom 21 8 1 orion_tinker/1150 Town 9 65 2 square_2_3/1740 HarveyRoom 9 17 0/1830 HarveyRoom 2 18 1 orion_read/2130 HarveyRoom 19 5 1 orion_sleep", 
+    "winter": "830 HarveyRoom 23 17 0/930 HarveyRoom 21 8 1 orion_tinker/1200 HarveyRoom 6 7 2/1600 HarveyRoom 2 18 1 orion_read/1730 HarveyRoom 21 8 1 orion_tinker/2100 HarveyRoom 19 5 1 orion_sleep",
+    "22": "830 HarveyRoom 23 17 0/930 HarveyRoom 21 8 1 orion_tinker/1150 Town 9 65 2 square_2_3/1740 Saloon 9 6 0 \"Strings\\schedules\\Orion:familydinner.001\"/2230 HarveyRoom 19 5 1 orion_sleep"	
+}

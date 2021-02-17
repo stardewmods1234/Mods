@@ -1,0 +1,27 @@
+{
+  "Name": "Rider's Punch",
+  "Description": "Popular spicy and energizing drink among desert travelers. It really packs a punch!",
+  "Edibility": 21,
+  "EdibleIsDrink": true,
+  "Category": "ArtisanGoods",
+  "GiftTastes": {
+	"Love": ["Sam", "Sandy"],
+	"Like": ["Shane", "Emily"],
+	"Hate": ["Jas", "Vincent", "Sebastian"],
+  },
+  "EdibleBuffs": {
+    "Farming": 0,
+    "Fishing": 0,
+    "Mining": 0,
+    "Luck": 0,
+	"Foraging": 1,
+	"MaxStamina": 0,
+    "MagnetRadius": 0,
+	"Speed": 2,
+	"Attack": 0,
+	"Defense": 0,
+    "Duration": 445,
+  },
+  "Price": 415,
+  "IsColored": false,
+}

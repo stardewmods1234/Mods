@@ -1,0 +1,53 @@
+﻿{
+    "Name": "Guarana Seeds",
+    "Product": "Guarana",
+    "SeedName": "Guarana Seeds",
+    "SeedDescription": "Plant these in summer. Takes 7 days to mature and produces multiple harvests every few days.",
+    "Type": "Fruit",
+
+    "Seasons": ["summer"],
+    "Phases": [1, 2, 2, 2, 1],
+    "RegrowthPhase": 3,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus":
+    {
+        "MinimumPerHarvest": 3,
+        "MaximumPerHarvest": 5,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.2,
+    },
+	"SeedPurchaseFrom": "Pierre",
+
+    "SeedPurchasePrice": 50,
+    "SeedPurchaseRequirements": null,
+	"SeedNameLocalization":
+    {
+		// "es": "",
+        "ko": "과라나 씨앗",
+		//"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+       "zh": "瓜拉那种子",
+    },
+    "SeedDescriptionLocalization":
+    {
+		// "es": "",
+        "ko": "여름에 심는다. 성장하는 데 7일 걸리며 계속 수확할 수 있습니다.",
+		// "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "在夏季播种。 需要7天才能成熟，每隔几天就会收获多次。",
+},
+}

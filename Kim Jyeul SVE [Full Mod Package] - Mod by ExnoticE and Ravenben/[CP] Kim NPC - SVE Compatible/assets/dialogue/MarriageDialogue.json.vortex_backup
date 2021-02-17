@@ -1,0 +1,52 @@
+/************************************************************************************************************************************************************
+*																																							*
+*																Marriage Dialogue																			*
+*			These are specific to the spouse and are nearly all needed.... Just fill it in.																	*
+*																																							*
+*************************************************************************************************************************************************************/
+{    
+    "Rainy_Day_0": "It is really wet outside, I hope the crops don't get flooded!$6",
+    "Rainy_Day_1": "Ah, rain.$h#$b#It feels nice for it to drop on your skin.$b#But thunder and lightning scare me!$2",
+    "patio_Kim": "Nice day, right %endearment?$h#$b#Good day to get out of the stuffy house for a change.",
+    "Rainy_Day_Kim": "I remember jumping in puddles during rain.$h#$b#Those were good times.",
+    "Rainy_Night_0": "I might not be able to sleep with all that rain.$2",
+    "Rainy_Night_1": "Hey @, it's cold.$2#b#Do you want to cuddle?$l",
+    "Rainy_Night_2": "Hope you have a good sleep, @!$h",
+    "Rainy_Night_3": "I might not be able to sleep with all that rain.$2",
+    "Rainy_Night_4": " Hope you have a good sleep, @!$h",
+    "Rainy_Night_5": "Hey @, it's cold.$2#b#Do you want to cuddle?$l",
+    "Rainy_Night_Kim": "I'm getting a bit tired...",
+    "Indoor_Day_0": "Love you %endearment.$l",
+    "Indoor_Day_1": "Hey @, what's up?$h",
+    "Indoor_Day_2": "Breakfast! [194]$h",
+    "Indoor_Day_3": "Hey %endearment.$l",
+    "Indoor_Day_4": "Breakfast! [201]$h",
+    "Indoor_Day_Kim": "Hey @, what's up?$h",
+    "Indoor_Night_0": "Hey @, it's cold.$2#b#Do you want to cuddle?$l",
+    "Indoor_Night_1": "Hope you have a good sleep, @!$h",
+    "Indoor_Night_2": "$c0.5#Hey @, made some dinner. [215]#Hey @, made some eats. [224]",
+    "Indoor_Night_3": Hope you have a good sleep, @!$h",
+    "Indoor_Night_4": "Hey @, it's cold.$2#b#Do you want to cuddle?$l",
+    "Indoor_Night_Kim": "I'm getting a bit tired...",
+    "Outdoor_0": "Lovely breeze today...$h",
+    "Outdoor_1": "Ah, the great outdoors.$h",
+    "Outdoor_2": "Lovely breeze today...$h",
+    "Outdoor_3": "Lovely day today!$h",
+    "Outdoor_4": "Lovely breeze today...$h",
+    "Outdoor_Kim": "Ah, the lovely outdoors!$h",
+    "funLeave_Kim": "Hey, @!$h#$b#Going out today, see ya!",
+    "funReturn_Kim": "Hey, %endearment!$h",
+    "OneKid_3": "I'm so glad we have %kid1.$h",
+    "TwoKids_0": "I'm so glad we have %kid1 and %kid2!$h",
+    "TwoKids_1": "Will %kid1 and %kid2 grow up to be a farmer like you?$0",
+    "TwoKids_2": "%kid2 really loves walking around!$h",
+    "Good_1": "Hey %endearment!$h",
+    "Good_2": "Hi @!$h#$b#What are you up to?",
+    "Good_3": "Hey %endearment! Nice day today, isn't it?$h",
+    "Neutral_0": "Hi @.$3",
+    "Neutral_1": "Hey @.$3",
+    "Bad_0": "Why are we even married, @?$2#$b#I would rather marry Jade, you and I obviously don't like each other.",
+    "Bad_1": "I know we hate each other @.$5#$b#Why are we even together?$2",
+    "Bad_2": "I would leave if I could @, but it would be too much money.$5#$b#Why did we get married if we don't even like each other?$s",
+
+}

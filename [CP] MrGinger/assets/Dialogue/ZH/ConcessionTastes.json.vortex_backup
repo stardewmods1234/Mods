@@ -1,0 +1,25 @@
+
+
+{  "Entries": { 
+	"MisterGinger": {
+	"Name": "MisterGinger",
+	"LovedTags": [
+		"Fries",
+		"Personal Pizza",
+		"Salmon Burger",
+		"Stardrop Sorbet"
+	 
+	],
+	"LikedTags": [
+	  "Ice Cream Sandwich",
+	  "Nachos",
+	  "Hummus Snack Pack"
+	],
+	"DislikedTags": [
+	  "Jawbreaker",
+	  "Kale Smoothie",
+	  "Panzanella Salad"
+	]
+  } 
+ }
+}

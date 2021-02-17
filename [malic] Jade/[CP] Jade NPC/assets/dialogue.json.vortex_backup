@@ -1,0 +1,247 @@
+{
+	"Changes": [
+		{ // load blank first
+			"LogName": "Jade - Dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Jade",
+			"FromFile": "{{blankFile}}"
+		},
+		
+		{ // then edit
+			"LogName": "Jade - Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jade",
+			"Entries": {
+				"Introduction": "{{i18n:dialogue.introduction}}",
+				"danceRejection": "{{i18n:dialogue.danceRejection}}",
+				"Divorced": "{{i18n:dialogue.Divorced}}",
+				"secondChance_Girls": "{{i18n:dialogue.secondChance_Girls}}",
+				"Mon": "{{i18n:dialogue.Mon}}",
+				"Tue": "{{i18n:dialogue.Tue}}",
+				"Wed": "{{i18n:dialogue.Wed}}",
+				"Thu": "{{i18n:dialogue.Thu}}",
+				"Fri": "{{i18n:dialogue.Fri}}",
+				"Sat": "{{i18n:dialogue.Sat}}",
+				"Sun": "{{i18n:dialogue.Sun}}",
+				"Saloon_Entry": "{{i18n:dialogue.Saloon_Entry}}",
+				"spring_12": "{{i18n:dialogue.spring_12}}",
+				"spring_23": "{{i18n:dialogue.spring_23}}",
+				"summer_Mon": "{{i18n:dialogue.summer_Mon}}",
+				"summer_Wed": "{{i18n:dialogue.summer_Wed}}",
+				"summer_Sat": "{{i18n:dialogue.summer_Sat}}",
+				"summer_Thu": "{{i18n:dialogue.summer_Thu}}",
+				"summer_Sun": "{{i18n:dialogue.summer_Sun}}",
+				"summer_Fri": "{{i18n:dialogue.summer_Fri}}",
+				"summer_10": "{{i18n:dialogue.summer_10}}",
+				"summer_27": "{{i18n:dialogue.summer_27}}",
+				"fall_Mon": "{{i18n:dialogue.fall_Mon}}",
+				"fall_Tue": "{{i18n:dialogue.fall_Tue}}",
+				"fall_Wed": "{{i18n:dialogue.fall_Wed}}",
+				"fall_Thu": "{{i18n:dialogue.fall_Thu}}",
+				"fall_Fri": "{{i18n:dialogue.fall_Fri}}",
+				"fall_Sat": "{{i18n:dialogue.fall_Sat}}",
+				"fall_Sun": "{{i18n:dialogue.fall_Sun}}",
+				"fall_15": "{{i18n:dialogue.fall_15}}",
+				"fall_26": "{{i18n:dialogue.fall_26}}",
+				"winter_Tue": "{{i18n:dialogue.winter_Tue}}",
+				"winter_Wed": "{{i18n:dialogue.winter_Wed}}",
+				"winter_Thu": "{{i18n:dialogue.winter_Thu}}",
+				"winter_Fri": "{{i18n:dialogue.winter_Fri}}",
+				"winter_Sat": "{{i18n:dialogue.winter_Sat}}",
+				"winter_Sun": "{{i18n:dialogue.winter_Sun}}",
+				"winter_4": "{{i18n:dialogue.winter_4}}",
+				"winter_7": "{{i18n:dialogue.winter_7}}",
+				"winter_24": "{{i18n:dialogue.winter_24}}",
+				
+				"stardrop_gift": "{{i18n:courtship.stardrop_gift}}",
+				"give_flowersA": "{{i18n:courtship.give_flowersA}}",
+				"give_flowersB": "{{i18n:courtship.give_flowersB}}",
+				"give_pendant": "{{i18n:courtship.give_pendant}}",
+				"reject_two_heartA": "{{i18n:courtship.reject_two_heartA}}",
+				"reject_two_heartB": "{{i18n:courtship.reject_two_heartB}}",
+				"reject_four_heartA": "{{i18n:courtship.reject_four_heartA}}",
+				"reject_four_heartB": "{{i18n:courtship.reject_four_heartB}}",
+				"engageA": "{{i18n:courtship.engageA}}",
+				"engageB": "{{i18n:courtship.engageB}}",
+				"marriedA": "{{i18n:courtship.marriedA}}",
+				"marriedB": "{{i18n:courtship.marriedB}}",
+				"refusal_no_heartsA": "{{i18n:courtship.refusal_no_heartsA}}",
+				"refusal_no_heartsB": "{{i18n:courtship.refusal_no_heartsB}}",
+				"refusal_knownA": "{{i18n:courtship.refusal_knownA}}",
+				"refusal_knownB": "{{i18n:courtship.refusal_knownB}}",
+				"refusal_botherA": "{{i18n:courtship.refusal_botherA}}",
+				"refusal_botherB": "{{i18n:courtship.refusal_botherB}}",
+				
+				// event dialogue
+				"prayWithJade": "{{i18n:4heart.prayWithJade}}",
+				"prayMock": "{{i18n:4heart.prayMock}}",
+				"praySilent": "{{i18n:4heart.praySilent}}",
+				"romanceJade": "{{i18n:8heart.romanceJade}}",
+				"platonicJade": "{{Token.8heart.platonicJade}}", // dynamic token
+				"kissJade": "{{i18n:10heart.kissJade}}",
+				"rejectJade": "{{i18n:10heart.rejectJade}}",
+			}
+		},
+		
+		// resort dialogue
+		{
+			"LogName": "Jade - Resort Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jade",
+			"Entries": {
+				"Resort_Entering": "{{i18n:resort.entering}}",
+				"Resort_Leaving": "{{i18n:resort.leaving}}",
+				"Resort_Shore": "{{i18n:resort.shore}}",
+				"Resort_Umbrella": "{{i18n:resort.umbrella}}",
+				"Resort_Chair": "{{i18n:resort.chair}}",
+				"Resort_Wander": "{{i18n:resort.wander}}",
+				"Resort_Bar": "{{i18n:resort.bar}}",
+				"Resort": "{{i18n:resort.generic}}",
+			}
+		},
+		
+		// engagement dialogue
+		{
+			"LogName": "Engagement Dialogue",
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+				"Jade0": "{{i18n:engagement.0}}",
+				"Jade1": "{{i18n:engagement.1}}",
+			}
+		},
+		
+		// strings from maps
+		{
+			"LogName": "Map Strings Edit",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+                "JadeHouse.1": "{{i18n:maps.JadeHouse.1}}",
+				"JadeHouse.2": "{{i18n:maps.JadeHouse.2}}",
+				"JadeHouse.3": "{{i18n:maps.JadeHouse.3}}",
+			}
+		},
+		
+		// marriage fix
+		{
+			"LogName": "Jade - Marriage Fix",
+			"Action": "EditData",
+			"Target": "strings/StringsFromCSFiles",
+			"Entries": {
+				"Utility.cs.5371": "{{i18n:marriage.Utility.cs.5371}}",
+				"Utility.cs.5377": "{{i18n:marriage.Utility.cs.5377}}",
+				"Utility.cs.5367": "{{i18n:marriage.Utility.cs.5367}}",
+				"Utility.cs.5369": "{{i18n:marriage.Utility.cs.5369}}",
+			},
+			"When": {
+				"Relationship:Jade": "Engaged, Married"
+			}
+		},
+		
+		// marriage dialogue
+		{ // load blank first
+			"LogName": "Jade - Marriage Dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueJade",
+			"FromFile": "{{blankFile}}"
+		},
+		{
+			"LogName": "Jade - Marriage Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueJade",
+			"Entries": {
+				"Rainy_Day_0": "{{i18n:marriage.Rainy_Day_0}}",
+				"Rainy_Day_1": "{{i18n:marriage.Rainy_Day_1}}",
+				"Rainy_Day_2": "{{i18n:marriage.Rainy_Day_2}}",
+				"Rainy_Day_3": "{{i18n:marriage.Rainy_Day_3}}",
+				"Rainy_Day_4": "{{i18n:marriage.Rainy_Day_4}}",
+				"Rainy_Night_0": "{{i18n:marriage.Rainy_Night_0}}",
+				"Rainy_Night_3": "{{i18n:marriage.Rainy_Night_3}}",
+				"Rainy_Night_4": "{{i18n:marriage.Rainy_Night_4}}",
+				"Rainy_Night_5": "{{i18n:marriage.Rainy_Night_5}}",
+				"Indoor_Day_0": "{{i18n:marriage.Indoor_Day_0}}",
+				"Indoor_Day_1": "{{i18n:marriage.Indoor_Day_1}}",
+				"Indoor_Day_2": "{{i18n:marriage.Indoor_Day_2}}",
+				"Indoor_Day_3": "{{i18n:marriage.Indoor_Day_3}}",
+				"Indoor_Day_4": "{{i18n:marriage.Indoor_Day_4}}",
+				"Indoor_Night_0": "{{i18n:marriage.Indoor_Night_0}}",
+				"Indoor_Night_1": "{{i18n:marriage.Indoor_Night_1}}",
+				"Indoor_Night_2": "{{i18n:marriage.Indoor_Night_2}}",
+				"Indoor_Night_3": "{{i18n:marriage.Indoor_Night_3}}",
+				"Indoor_Night_4": "{{i18n:marriage.Indoor_Night_4}}",
+				"Outdoor_0": "{{i18n:marriage.Outdoor_0}}",
+				"Outdoor_1": "{{i18n:marriage.Outdoor_1}}",
+				"Outdoor_2": "{{i18n:marriage.Outdoor_2}}",
+				"Outdoor_3": "{{i18n:marriage.Outdoor_3}}",
+				"Outdoor_4": "{{i18n:marriage.Outdoor_4}}",
+				"OneKid_0": "{{i18n:marriage.OneKid_0}}",
+				"OneKid_1": "{{i18n:marriage.OneKid_1}}",
+				"OneKid_2": "{{i18n:marriage.OneKid_2}}",
+				"OneKid_3": "{{i18n:marriage.OneKid_3}}",
+				"TwoKids_0": "{{i18n:marriage.TwoKids_0}}",
+				"TwoKids_1": "{{i18n:marriage.TwoKids_1}}",
+				"TwoKids_2": "{{i18n:marriage.TwoKids_2}}",
+				"TwoKids_3": "{{i18n:marriage.TwoKids_3}}",
+				"Good_0": "{{i18n:marriage.Good_0}}",
+				"Good_1": "{{i18n:marriage.Good_1}}",
+				"Good_2": "{{i18n:marriage.Good_2}}",
+				"Good_3": "{{i18n:marriage.Good_3}}",
+				"Good_4": "{{i18n:marriage.Good_4}}",
+				"Good_5": "{{i18n:marriage.Good_5}}",
+				"Good_6": "{{i18n:marriage.Good_6}}",
+				"Good_7": "{{i18n:marriage.Good_7}}",
+				"Good_8": "{{i18n:marriage.Good_8}}",
+				"Good_9": "{{i18n:marriage.Good_9}}",
+				"Neutral_0": "{{i18n:marriage.Neutral_0}}",
+				"Neutral_1": "{{i18n:marriage.Neutral_1}}",
+				"Neutral_2": "{{i18n:marriage.Neutral_2}}",
+				"Neutral_3": "{{i18n:marriage.Neutral_3}}",
+				"Neutral_4": "{{i18n:marriage.Neutral_4}}",
+				"Neutral_5": "{{i18n:marriage.Neutral_5}}",
+				"Neutral_6": "{{i18n:marriage.Neutral_6}}",
+				"Neutral_7": "{{i18n:marriage.Neutral_7}}",
+				"Neutral_8": "{{i18n:marriage.Neutral_8}}",
+				"Neutral_9": "{{i18n:marriage.Neutral_9}}",
+				"Bad_0": "{{i18n:marriage.Bad_0}}",
+				"Bad_1": "{{i18n:marriage.Bad_1}}",
+				"Bad_2": "{{i18n:marriage.Bad_2}}",
+				"Bad_3": "{{i18n:marriage.Bad_3}}",
+				"Bad_4": "{{i18n:marriage.Bad_4}}",
+				"Bad_5": "{{i18n:marriage.Bad_5}}",
+				"Bad_6": "{{i18n:marriage.Bad_6}}",
+				"Bad_7": "{{i18n:marriage.Bad_7}}",
+				"Bad_8": "{{i18n:marriage.Bad_8}}",
+				"Bad_9": "{{i18n:marriage.Bad_9}}",
+				"spring_1": "{{i18n:marriage.spring_1}}",
+				"spring_8": "{{i18n:marriage.spring_8}}",
+				"spring_23": "{{i18n:marriage.spring_23}}",
+				"summer_1": "{{i18n:marriage.summer_1}}",
+				"summer_8": "{{i18n:marriage.summer_8}}",
+				"summer_15": "{{i18n:marriage.summer_15}}",
+				"fall_1": "{{i18n:marriage.fall_1}}",
+				"fall_8": "{{i18n:marriage.fall_8}}",
+				"fall_15": "{{i18n:marriage.fall_15}}",
+				"fall_26": "{{i18n:marriage.fall_26}}",
+				"winter_1": "{{i18n:marriage.winter_1}}",
+				"winter_7": "{{i18n:marriage.winter_7}}",
+				"winter_28": "{{i18n:marriage.winter_28}}",
+				"patio_Jade": "{{i18n:marriage.patio_Jade}}",
+				"spouseRoom_Jade": "{{i18n:marriage.spouseRoom_Jade}}",
+				"funLeave_Jade": "{{i18n:marriage.funLeave_Jade}}",
+				"funReturn_Jade": "{{i18n:marriage.funReturn_Jade}}",
+			}
+		},
+		
+		// festival dialogue, based on John's by fellowclown
+		{
+			"LogName": "Jade - Festival Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13, Data/Festivals/spring24, Data/Festivals/summer11, Data/Festivals/summer28, Data/Festivals/fall1, Data/Festivals/fall16, Data/Festivals/fall27, Data/Festivals/winter8, Data/Festivals/winter25",
+			"Entries": {
+				// show the first translation found from 'spring13.dating', 'spring13', or 'festival-default'
+				"Jade": "{{i18n:{{TargetWithoutPath}}.{{Relationship:Jade}} |default={{i18n:{{TargetWithoutPath}} |default={{i18n:festival-default}} }} }}"
+			}
+		},
+	]
+}

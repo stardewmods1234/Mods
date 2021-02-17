@@ -1,0 +1,21 @@
+{
+	"Name": "Winter Squash Noodles",
+	"Category": "Cooking",
+	"Price": 150,
+	"Description": "Noodles made from a winter squash.",
+	"Edibility": 55,
+	"Recipe":{
+      "ResultCount": 1,
+      "Ingredients": [
+		{
+		"Object": "Winter Squash", "Count": 1,
+		},
+		{
+		"Object": 247, "Count": 1,
+		},
+		
+       ],
+      "CanPurchase": false,
+      "IsDefault": false,
+    },
+}

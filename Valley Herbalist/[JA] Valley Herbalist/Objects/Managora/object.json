@@ -1,0 +1,20 @@
+{
+    "Name": "Managora",
+    "Description": "Weird-looking roots that seem magical.",
+    "Category": "Vegetable",
+    "Edibility": -5,
+    "Price": 75,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Like": ["Wizard", "Abigail"],
+        "Dislike": ["Elliott", "Harvey", "Sam", "Emily", "Haley", "Leah", "Penny", "Demetrius", "Evelyn", "Jas", "Jodi", "Kent", "Lewis", "Linus", "Marnie", "Sebastian", "Sandy", "Caroline", "Alex", "Shane", "Maru", "Dwarf", "Gus", "Krobus", "Pam", "Pierre", "Vincent", "Willy", "Robin", "Clint", "George"],
+    },
+    "ContextTags": [
+    	"season_fall",
+		"season_spring",
+    	"brewing_material",
+    	"color_cyan"
+    ]
+}

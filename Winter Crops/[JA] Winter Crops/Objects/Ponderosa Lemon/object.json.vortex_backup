@@ -1,0 +1,8 @@
+{
+	"Name": "Ponderosa Lemon",
+	"Price": 100,
+	"Description": "An acidic citrus fruit, which is a hybrid of a normal lemon and a pomelo.",
+	"Category": "Fruit",
+	"Edibility": 14,
+	"Recipe": null,
+}

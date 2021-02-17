@@ -1,0 +1,17 @@
+﻿{
+	"Name": "[CKM] Jade Kiss",
+	"Author": "Malic",
+	"Version": "1.0.0",
+	"Description": "Allows for kissing Jade with Custom Kissing Mod",
+	"UniqueID": "malic.ckm.jade",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [],
+	"Dependencies": [
+		{
+			"UniqueID": "Digus.CustomKissingMod"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "Digus.CustomKissingMod"
+	}
+}

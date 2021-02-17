@@ -1,0 +1,12 @@
+{
+    "Name": "Haste Milk",
+    "Author": "JorisFort",
+    "Version": "1.1.0",
+    "Description": "A special milk that has a chance to be replaced with large milk",
+    "UniqueID": "JorisFort.HasteMilk",
+    "MinimumApiVersion": "3.0.0",
+    "UpdateKeys": [ "Nexus:7505" ],
+    "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+    }
+  }

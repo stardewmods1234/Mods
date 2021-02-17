@@ -1,0 +1,12 @@
+{
+  "Name": "Vanilla Artisan Good Icons",
+  "Author": "Riibu",
+  "Version": "1.0.1",
+  "Description": "Adds color to vanilla additions not yet included in main mod.",
+  "UniqueID": "Riibu.VanillaArtisanGoodIcons",
+  "ContentPackFor": {
+	"UniqueID": "cat.betterartisangoodicons"
+	},
+  "MinimumApiVersion": "3.8.3",
+  "UpdateKeys": [ "Nexus:7604" ],
+}

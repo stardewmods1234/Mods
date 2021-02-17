@@ -1,0 +1,11 @@
+{
+	"Name": "[MFM]More tea",
+	"Author": "vNIANHUAv",
+	"Version": "1.0.0",
+	"Description": "Adds mails.",
+	"UniqueID": "vNIANHUAv.MoreTeaMFM",
+	"UpdateKeys": [],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod",
+	}
+}

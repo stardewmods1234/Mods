@@ -1,0 +1,29 @@
+﻿[
+	{ 
+		"ProducerName": "Keg", 
+		"InputIdentifier": "Nettle Leaves", 
+		"InputStack": 1, 
+		"Sounds": ["Ship"],
+		"MinutesUntilReady": 300, 
+		"OutputIdentifier": "Nettle Tea", 
+		
+	},
+	{ 
+		"ProducerName": "Keg", 
+		"InputIdentifier": "Christmas Rose", 
+		"Sounds": ["Ship"],
+		"InputStack": 1, 
+		"MinutesUntilReady": 360, 
+		"OutputIdentifier": "Christmas Rose Tea", 
+		
+	},
+	{ 
+		"ProducerName": "Keg", 
+		"InputIdentifier": "Mahonia", 
+		"Sounds": ["Ship"],
+		"InputStack": 1, 
+		"MinutesUntilReady": 300, 
+		"OutputIdentifier": "Mahonia Tea", 
+		
+	}
+]
