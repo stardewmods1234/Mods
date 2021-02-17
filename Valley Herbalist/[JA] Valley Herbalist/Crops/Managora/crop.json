@@ -1,0 +1,23 @@
+{
+    "Name": "Managora",
+    "Product": "Managora",
+    "SeedName": "Managora Starter",
+    "SeedDescription": "Plant in the spring or fall. Takes 6 days to fully grow Managora roots.",
+    "Type": "Vegetable",
+
+    "Seasons": ["spring", "fall"],
+    "Phases": [2, 2, 2],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Bonus":
+    {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 2,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.1,
+    },
+    "SeedPurchaseRequirements": null,
+    "SeedPurchasePrice": 60,
+	"SeedPurchaseFrom": "Marlon",
+}

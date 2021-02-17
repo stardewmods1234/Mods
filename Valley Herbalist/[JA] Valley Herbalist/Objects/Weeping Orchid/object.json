@@ -1,0 +1,15 @@
+{
+  "Name": "Weeping Orchid",
+  "Description": "Many folktales tell about the origin of it's name but none ends happy.",
+  "Category": "Flower",
+  "Edibility": 5,
+  "Price": 180,
+  "IsColored": false,
+  "Recipe": null,
+  "ContextTags": [
+    	"fruit_tree_flower_item",
+    	"flower_item",
+    	"season_spring",
+    	"color_white"
+    ]
+}

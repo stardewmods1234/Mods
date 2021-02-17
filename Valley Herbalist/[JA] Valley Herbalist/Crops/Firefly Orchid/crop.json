@@ -1,0 +1,23 @@
+{
+    "Name": "Firefly Orchid",
+    "Product": "Firefly Orchid",
+    "SeedName": "Firefly Orchid Bulb",
+    "SeedDescription": "Plant in summer. Takes 8 days to produce clusters of flowers.",
+    "Type": "Flower",
+
+    "Seasons": ["summer"],
+    "Phases": [2, 2, 2, 2],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Bonus":
+    {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+        "MaxIncreasePerFarmLevel": 8,
+        "ExtraChance": 0.0,
+    },
+
+    "SeedPurchaseRequirements": null,
+    "SeedPurchasePrice": 30,
+}
