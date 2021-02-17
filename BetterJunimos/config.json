@@ -40,7 +40,7 @@
     "InfiniteJunimoInventory": false
   },
   "Other": {
-    "SpawnJunimoKeybind": "J",
+    "SpawnJunimoKeybind": "O",
     "ReceiveMessages": true
   }
 }

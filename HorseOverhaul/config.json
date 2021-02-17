@@ -8,7 +8,7 @@
   "Water": true,
   "Feeding": true,
   "PetFeeding": true,
-  "HorseMenuKey": "H",
+  "HorseMenuKey": "E",
   "PetMenuKey": "P",
   "DisableStableSpriteChanges": false
 }

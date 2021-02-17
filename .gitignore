@@ -3,3 +3,4 @@ vortex.deployment.json
 **/._.DS_Store
 .idea
 **/*.save
+.idea/**

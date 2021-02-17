@@ -2,162 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a264c3-5969-4de6-9ef0-ed2ce2dec00e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AdvancedLootFramework/AdvancedLootFramework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedLootFramework/AdvancedLootFramework.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedLootFramework/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FishingChestsExpanded/FishingChestsExpanded.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FishingChestsExpanded/FishingChestsExpanded.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FishingChestsExpanded/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TreasureChestsExpanded/TreasureChestsExpanded.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TreasureChestsExpanded/TreasureChestsExpanded.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TreasureChestsExpanded/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Crab Pot/clam.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Crab Pot/cockle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Crab Pot/crab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Crab Pot/crayfish.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Crab Pot/lobster.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Crab Pot/mussel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Crab Pot/oyster.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Crab Pot/periwinkle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Crab Pot/shrimp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Crab Pot/snail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/anchovy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/angler.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/bream.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/crimsonfish.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/eel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/ghostfish.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/glacerfish.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/icepip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/largemouthbass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/lavaeel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/legend.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/midnightcarp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/midnightsquid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/mutantcarp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/octopus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/pufferfish.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/rainbowtrout.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/salmon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/sandfish.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/sardine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/scorpioncarp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/seacucumber.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/slimejack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/smallmouthbass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/squid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/stonefish.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/supercucumber.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/tuna.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/voidsalmon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Fishing/walleye.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Foraging/coral.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Foraging/nautilusshell.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Foraging/rainbowshell.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Foraging/seaurchin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Foraging/seaweed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Misc/greenalgae.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Misc/pearl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Misc/squidink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Assets/Misc/whitealgae.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Foraging/._content.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Foraging/._manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Foraging/Assets/Crab Pot/._clam.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Foraging/Assets/Crab Pot/._cockle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Foraging/Assets/Crab Pot/._crayfish.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Foraging/Assets/Crab Pot/._lobster.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Foraging/Assets/Crab Pot/._mussel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Foraging/Assets/Crab Pot/._oyster.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Foraging/Assets/Crab Pot/._periwinkle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Foraging/Assets/Foraging/._coral.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Foraging/Assets/Foraging/._nautilusshell.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Foraging/Assets/Foraging/._rainbowshell.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Foraging/Assets/Foraging/._seaweed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Foraging/Assets/Misc/._greenalgae.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Foraging/Assets/Misc/._pearl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/Foraging/Assets/Misc/._whitealgae.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/content.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[CP] Better Fishing and Beach Foraging/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/fall/grass_fall_1_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/fall/grass_fall_1_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/fall/grass_fall_1_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/fall/grass_fall_1_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/fall/grass_fall_1_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/fall/grass_fall_2_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/fall/grass_fall_2_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/fall/grass_fall_2_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/fall/grass_fall_2_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/fall/grass_fall_2_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/fall/grass_fall_3_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/fall/grass_fall_3_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/fall/grass_fall_3_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/spring/grass_spring_1_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/spring/grass_spring_1_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/spring/grass_spring_1_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/spring/grass_spring_1_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/spring/grass_spring_1_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/spring/grass_spring_2_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/spring/grass_spring_2_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/spring/grass_spring_2_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/spring/grass_spring_2_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/spring/grass_spring_2_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/spring/grass_spring_3_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/spring/grass_spring_3_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/spring/grass_spring_3_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/summer/grass_summer_1_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/summer/grass_summer_1_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/summer/grass_summer_1_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/summer/grass_summer_1_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/summer/grass_summer_1_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/summer/grass_summer_2_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/summer/grass_summer_2_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/summer/grass_summer_2_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/summer/grass_summer_2_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/summer/grass_summer_2_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/summer/grass_summer_3_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/summer/grass_summer_3_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/summer/grass_summer_3_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/winter/grass_winter_1_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/winter/grass_winter_1_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/winter/grass_winter_1_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/winter/grass_winter_1_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/winter/grass_winter_1_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/winter/grass_winter_2_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/winter/grass_winter_2_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/winter/grass_winter_2_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/winter/grass_winter_2_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/winter/grass_winter_2_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/winter/grass_winter_3_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/winter/grass_winter_3_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/[MG] Wildflower Grass Field/winter/grass_winter_3_2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/East Scarpe/[FTM] East Scarpe/data/Hardcore_453453453_SaveData.save" beforeDir="false" afterPath="$PROJECT_DIR$/East Scarpe/[FTM] East Scarpe/data/Hardcore_453453453_SaveData.save" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FarmTypeManager/data/Hardcore_453453453_SaveData.save" beforeDir="false" afterPath="$PROJECT_DIR$/FarmTypeManager/data/Hardcore_453453453_SaveData.save" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[FTM] Fizzy Drinks/data/Hardcore_453453453_SaveData.save" beforeDir="false" afterPath="$PROJECT_DIR$/Fizzy Drinks 2.2/[FTM] Fizzy Drinks/data/Hardcore_453453453_SaveData.save" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Grandpa's Farm/[FTM] Grandpa's Farm/data/Hardcore_453453453_SaveData.save" beforeDir="false" afterPath="$PROJECT_DIR$/Grandpa's Farm/[FTM] Grandpa's Farm/data/Hardcore_453453453_SaveData.save" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LASV 3.3.0/[FTM] Lunna [Required]/data/Hardcore_453453453_SaveData.save" beforeDir="false" afterPath="$PROJECT_DIR$/LASV 3.3.0/[FTM] Lunna [Required]/data/Hardcore_453453453_SaveData.save" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PNWMushrooms/[FTM]/data/Hardcore_453453453_SaveData.save" beforeDir="false" afterPath="$PROJECT_DIR$/PNWMushrooms/[FTM]/data/Hardcore_453453453_SaveData.save" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ridgeside Village Mod 1.2.7/[FTM] Ridgeside Village/data/Hardcore_453453453_SaveData.save" beforeDir="false" afterPath="$PROJECT_DIR$/Ridgeside Village Mod 1.2.7/[FTM] Ridgeside Village/data/Hardcore_453453453_SaveData.save" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShellCollection/FTM/[FTM] Beach/data/Hardcore_453453453_SaveData.save" beforeDir="false" afterPath="$PROJECT_DIR$/ShellCollection/FTM/[FTM] Beach/data/Hardcore_453453453_SaveData.save" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShellCollection/FTM/[FTM] East Scarpe/data/Hardcore_453453453_SaveData.save" beforeDir="false" afterPath="$PROJECT_DIR$/ShellCollection/FTM/[FTM] East Scarpe/data/Hardcore_453453453_SaveData.save" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShellCollection/FTM/[FTM] Mermaid Island/data/Hardcore_453453453_SaveData.save" beforeDir="false" afterPath="$PROJECT_DIR$/ShellCollection/FTM/[FTM] Mermaid Island/data/Hardcore_453453453_SaveData.save" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stardew Valley Expanded/[FTM] Stardew Valley Expanded/data/Hardcore_453453453_SaveData.save" beforeDir="false" afterPath="$PROJECT_DIR$/Stardew Valley Expanded/[FTM] Stardew Valley Expanded/data/Hardcore_453453453_SaveData.save" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Swim/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/Swim/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI Info Suite/Tesaskan_modData.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UI Info Suite/Tesaskan_modData.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WalkToDesert-1-1-1/[FTM] WalkToDesert/data/Hardcore_453453453_SaveData.save" beforeDir="false" afterPath="$PROJECT_DIR$/WalkToDesert-1-1-1/[FTM] WalkToDesert/data/Hardcore_453453453_SaveData.save" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[BH] Boarding House/[FTM] Boarding House/data/Hardcore_453453453_SaveData.save" beforeDir="false" afterPath="$PROJECT_DIR$/[BH] Boarding House/[FTM] Boarding House/data/Hardcore_453453453_SaveData.save" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[CP] Better Gems and Minerals/content.json" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Better Gems and Minerals/content.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[MNF] Island/[FTM] Island/data/Hardcore_453453453_SaveData.save" beforeDir="false" afterPath="$PROJECT_DIR$/[MNF] Island/[FTM] Island/data/Hardcore_453453453_SaveData.save" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[NPC] Juliet &amp; Jessie/[CP] Juliet &amp; Jessie/assets/schedules" beforeDir="false" afterPath="$PROJECT_DIR$/[NPC] Juliet &amp; Jessie/[CP] Juliet &amp; Jessie/assets/schedules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[NPC] Juliet &amp; Jessie/[CP] Juliet &amp; Jessie/assets/schedules/GremlinSchedule.json" beforeDir="false" afterPath="$PROJECT_DIR$/[NPC] Juliet &amp; Jessie/[CP] Juliet &amp; Jessie/assets/schedules/GremlinSchedule.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[NPC] Juliet &amp; Jessie/[CP] Juliet &amp; Jessie/assets/schedules/JulietSchedule.json" beforeDir="false" afterPath="$PROJECT_DIR$/[NPC] Juliet &amp; Jessie/[CP] Juliet &amp; Jessie/assets/schedules/JulietSchedule.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[NPC] Juliet &amp; Jessie/[CP] Juliet &amp; Jessie/assets/schedules/JulietScheduleJojaClosed.code-workspace" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/[NPC] Juliet &amp; Jessie/[CP] Juliet &amp; Jessie/assets/schedules/JulietScheduleJojaClosed.json" beforeDir="false" afterPath="$PROJECT_DIR$/[NPC] Juliet &amp; Jessie/[CP] Juliet &amp; Jessie/assets/schedules/JulietScheduleJojaClosed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[NPC] Juliet &amp; Jessie/[CP] Juliet &amp; Jessie/assets/schedules/JulietScheduleTheater.json" beforeDir="false" afterPath="$PROJECT_DIR$/[NPC] Juliet &amp; Jessie/[CP] Juliet &amp; Jessie/assets/schedules/JulietScheduleTheater.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BetterJunimos/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/BetterJunimos/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HorseOverhaul/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/HorseOverhaul/config.json" afterDir="false" />
     </list>
     <list id="df405b05-a641-4446-8c59-d3949be38b2b" name="Revert &quot;:tada: initial commit&quot;" comment="Revert &quot;:tada: initial commit&quot;&#10;&#10;This reverts commit 6b0926c7" />
     <option name="SHOW_DIALOG" value="false" />
@@ -213,7 +61,7 @@
       <workItem from="1613433921241" duration="2334000" />
       <workItem from="1613442523770" duration="2393000" />
       <workItem from="1613447402450" duration="620000" />
-      <workItem from="1613556748851" duration="2082000" />
+      <workItem from="1613556748851" duration="3037000" />
     </task>
     <task id="LOCAL-00001" summary=":tada: initial">
       <created>1613431689680</created>
