@@ -1,9 +1,0 @@
-{
-    "Name": "OctoFruit",
-    "Description": "This Strange Fruit has an Odd Glow. Although a Fruit, It's Shell is Impossible to Crack.",
-    "Category": "Fruit",
-    "Edibility": -300,
-    "Price": 1000,
-    "IsColored": false,
-    "Recipe": null,
-}

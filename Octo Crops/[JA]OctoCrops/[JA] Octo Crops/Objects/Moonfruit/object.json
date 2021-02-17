@@ -1,9 +1,0 @@
-{
-    "Name": "Moonfruit",
-    "Description": "Accorting to legend, Moonfruit only grows if given the blessing of the moon. It tastes amazing.",
-    "Category": "Fruit",
-    "Edibility": 15,
-    "Price": 500,
-    "IsColored": false,
-    "Recipe": null,
-}
