@@ -1,0 +1,43 @@
+{
+  "Name": "Golden Pancy Diamond Ring",
+  "Description": "An expensive golden colorful diamond ring with lovely engravings!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 2000,
+  "IsColored": true,
+  "Recipe": null,
+   "CanPurchase": false,
+   //"PurchaseFrom": "Robin",
+   //"PurchasePrice": 500,
+   //"PurchaseRequirements":
+   //[
+    //  "r 0.50"
+   // ]
+    "NameLocalization": { 
+		// "es": "",
+		"ko": "팬시 다이아몬드 금반지",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Anel de Diamante Pancy Dourado",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        "ko": "사랑스러운 조각때문에 값비싼 다이아몬드 금반지!",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Um caro anel de diamante dourado colorido com lindas gravuras!",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    }  
+}

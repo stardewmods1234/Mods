@@ -1,0 +1,17 @@
+﻿{
+	"Name": "[MFM] Winter Crops",
+	"Author": "uberkwefty",
+	"Version": "1.1.2",
+	"Description": "Adds custom mails for my mod.",
+	"UniqueID": "uberkwefty.wintercropsForMailFrameworkMod",
+	"MinimumApiVersion": "2.11.3",
+	"UpdateKeys": ["Nexus:5976"],
+	"Dependencies": [
+		{
+			"UniqueID": "uberkwefty.wintercrops"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod"
+	}
+}

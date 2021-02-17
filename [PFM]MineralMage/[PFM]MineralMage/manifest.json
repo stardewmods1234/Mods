@@ -1,0 +1,22 @@
+﻿{
+	"Name": "[PFM] Mineral Mage",
+	"Author": "Undare",
+	"Version": "1.0.1",
+	"Description": "Machines to work minerals, gems and other things",
+	"UniqueID": "Undare.MineralMageMachinesPFM",
+	"MinimumApiVersion": "3.3.2",
+	"UpdateKeys": [5678],
+	"Dependencies": [
+		{
+			"UniqueID": "Undare.MineralMageItems",
+      "IsRequired": true,
+		},
+				{
+			"UniqueID": "Undare.jewelcraftMachinePFM",
+      "IsRequired": true,
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

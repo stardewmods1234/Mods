@@ -1,0 +1,16 @@
+{
+"Name":"Dozen Red Roses",
+"Category":"Flower",
+"Description":"These roses symbolize romantic love. A great gift for a special friend!",
+"Price":2500,
+"Edibility":"-300",
+"CanSell": false,
+"IsColored":false,
+"Recipe":null,
+ "GiftTastes":
+    {
+        "Love": ["Abigail", "Evelyn", "Caroline", "Elliott", "Emily", "Haley", "Jodi", "Marnie", "Maru", "Penny", "Sam", "Sandy"],
+        "Like": ["Alex", "Demetrius", "Dwarf", "Gus", "Harvey", "Jas", "Kent", "Krobus", "Leah", "Lewis", "Linus",  "Pam", "Pierre", "Robin",  "Shane", "Vincent", "Willy", "Wizard"],
+        "Dislike": ["George", "Sebastian", "Clint"],
+    },
+}

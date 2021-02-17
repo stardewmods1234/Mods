@@ -1,0 +1,12 @@
+{
+  "Name": "Jacob and Eloise Locations",
+  "Author": "LemurKat",
+  "Version": "1.6.4",
+  "Description": "Festival Positions.",
+  "UniqueID": "Lemurkat.JacobEloise",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.4.0"
+            }
+ 
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[STF] Garden Village Shops",
+  "Author": "Tarniyar",
+  "Version": "1.4.5",
+  "Description": "Adds shops to Garden Village",
+  "UniqueID": "Tarniyar.STF.GardenVillage",
+  "MinimumApiVersion": "2.0",
+  "UpdateKeys": [ "Nexus:6113" ],
+  "ContentPackFor": {
+    "UniqueID": "Cherry.ShopTileFramework",
+	"MinimumVersion": "1.0.1"
+  }
+}

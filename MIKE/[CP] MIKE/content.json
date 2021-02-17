@@ -1,0 +1,646 @@
+{
+  "Format": "1.13.0",
+  "Changes": [
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/Mike",
+      "FromFile": "assets/Image/Sprite.png"
+    },
+    {
+      "LogName": "Beach Sprites", 
+      "Action": "Load",
+      "Target": "Characters/Mike_Beach",
+      "FromFile": "assets/Image/Sprite_Beach.png"
+    },
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Mike",
+      "FromFile": "assets/Image/Mike.png"
+    },
+    {
+      "LogName": "Beach Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Mike_Beach",
+      "FromFile": "assets/Image/Mike_Beach.png"
+    },
+    {
+      "LogName": "Dialogue Jasper",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Mike",
+      "FromFile": "assets/Dialogue/JasperDialogue.json",
+      "When": {"HasMod:Lemurkat.NPCJasper": true}
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Mike",
+      "FromFile": "assets/Dialogue/Dialogue.json",
+      "When": {"HasMod:Lemurkat.NPCJasper": false}
+    },
+    {
+      "LogName": "Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueMike",
+      "FromFile": "assets/Dialogue/MarriageDialogue.json",
+      "When": 
+        {"Relationship:Mike": "Married"}
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Mike",
+      "FromFile": "assets/Schedule/Schedule.json",
+      "When": {
+        "HasMod:BusStopExpansion":false,
+        "HasMod:SYS.Rooms.Mike": false,
+        "HasMod:FlashShifter.SVECode": false
+      }
+    },
+    {
+			"LogName": "Boarding Schedule",
+			"Action": "Load",
+			"Target": "Characters/schedules/Mike",
+			"FromFile": "assets/Schedule/Schedule_Boarding.json",
+			"When": {
+        "HasMod:BusStopExpansion": true,
+        "HasMod:SYS.Rooms.Mike": false,
+        "HasMod:FlashShifter.SVECode": false
+      }
+    },
+    {
+      "LogName": "Room Schedule",
+			"Action": "Load",
+			"Target": "Characters/schedules/Mike",
+			"FromFile": "assets/Schedule/Schedule_Room.json",
+			"When": {
+        "HasMod:BusStopExpansion": false,
+        "HasMod:SYS.Rooms.Mike": true,
+        "HasMod:FlashShifter.SVECode": false
+      }
+    },
+    {
+      "LogName": "SVE Schedule",
+			"Action": "Load",
+			"Target": "Characters/schedules/Mike",
+			"FromFile": "assets/Schedule/Schedule_SVE.json",
+			"When": {
+        "HasMod:FlashShifter.SVECode": true
+      }
+    },
+    {
+      "LogName": "NPC Dispositions",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Mike": "adult/rude/neutral/neutral/male/datable/null/Town/summer 26/Gus 'uncle' Leah ''/BusStop 9 11/Mike"
+      },
+	  "Fields": {
+            "Gus": {
+               9: "Mike 'nephew' Emily '' Pam ''"
+            },
+			"Leah": {
+               9: "Mike ''"
+            }
+         }
+    },
+    {
+      "LogName": "Gift tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Mike": "Wow! Thanks! This is wonderful. How did you know I love this? You are the best!/192 210 213 342 636/Thanks, I really appreciate this./233 194/Okay...?/728/What is this? It looks disgusting./219/Oh, Thank you.//"
+      }
+    }, 
+    {
+      "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Mike0": "I never expected for this day to come. I am so happy that it came with you!$l",
+        "Mike1": "@, you can't imagine how happy I am. I am so thankful for this to happen."
+      }
+     },
+     {
+       "LogName": "Movie Invitation Spouse",
+       "Action": "EditData",
+       "Target": "Strings/Characters",
+      "Entries": {
+       "MovieInvite_Spouse_Mike": "You want to watch a movie with me? I would love to go!$h#$e#This is amazing! We will have so much fun tonight. I'll meet you at the theater soon.$h"
+      }
+     },
+     {
+       "LogName": "Schedule Dialogue",
+       "Action": "Load",
+       "Target": "Strings/schedules/Mike",
+       "FromFile": "assets/Schedule/ScheduleDialogue.json"
+      },
+     {
+       "LogName": "Animation Description Strings",
+       "Action": "EditData",
+       "Target": "Strings/animationDescriptions",
+       "Entries": {
+        "mike_read": "%Mike is too focused on his study to notice you.",
+        "mike_school": "%Mike is gone to college. He dropped some of his utensils on the ground.",
+        "mike_guitar": "Hey @, I am learning to play guitar. Just give me some time, I will play a song for you!$h"
+      }
+     },
+     {
+       "LogName": "Animation Description Data",
+       "Action": "EditData",
+       "Target": "Data/animationDescriptions",
+      "Entries": {
+        "mike_read": "16/16 16 16 17 17 17 18 18 18 17 17 17 18 18 18 17 17 17 16 16 16/16/Strings\\animationDescriptions:mike_read",
+        "mike_school": "19/19/19/Strings\\animationDescriptions:mike_school",
+        "mike_guitar": "24/24 24 24 25 25 25 24 24 24 25 25 25 24 24 24 25 25 25 24 24 24 25 25 25 24 24 24/24/Strings\\animationDescriptions:mike_guitar",
+        "mike_sleep": "51/51/51"
+      }
+    },
+    { 
+      "LogName": "Marriage",
+      "Action": "EditData",
+      "Target": "strings/StringsFromCSFiles",
+      "Entries": {
+        "Utility.cs.5371": "@... Mike... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$h",
+        "Utility.cs.5369": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Mike in the bonds of marriage."
+      },
+      "When": {
+        "Relationship:Mike": "Engaged, Married"
+      }
+    },
+     {  //Dialogues about Mike//
+       "LogName": "Gus",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Gus",
+       "Entries": {
+         "Mon": "Mike is my nephew. He is here with me for college. I am proud of him. He is pretty brilliant if you ask me.$h"
+       },
+      "When": {
+      "Relationship:Mike": "Unmet, Friendly, Dating"
+      }
+    },
+    {
+      "LogName": "Gus",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Gus",
+      "Entries": {
+        "Wed2": "Mike loves hashbrown. He finished all we had yesterday. But he seems to skip meals whenever we have trout soup."
+      }
+    },
+    {
+    "LogName": "Haley",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Haley",
+    "Entries": {
+      "Mon2": "Mike is a genius. He fixed my camera the other day. I am glad he was able to help me.$h"
+    },
+    "When": {
+      "Relationship:Mike": "Unmet, Friendly, Dating"
+      }
+    },
+    {
+    "LogName": "Leah",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Leah",
+    "Entries": {
+      "Tue2": "Mike is seems like a sweetheart. He gets me some materials that I need from the city once in a while.$h",
+      "Tue6": "Mike is one of my few good friends.#$b#But I rarely seem him. He is busy with school most of the time.$s",
+      "Sun2": "Mike got be a scupting knife the other day from the city. It works really well.$h",
+      "Sun4": "I always forget to write a thank you note for Mike. He does a lot for me.$h" 
+    },
+    "When": {
+      "Relationship:Mike": "Unmet, Friendly, Dating"
+      }
+    },
+    { //Dialogue for Rainy Days//
+      "Logname": "Rainy",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/rainy",
+      "Entries": {
+        "Mike": "I don't exactly enjoy getting wet but rain keeps you thinking.#$b#Wow, it is getting cold. Maybe I will ask Uncle Gus for a hot cup of coffee."
+      }
+    },
+    { //Events//
+    "LogName": "Event Birthday",
+    "Action": "EditData",
+    "Target": "Data/Events/Town",
+    "FromFile": "assets/Events/2.json",
+    "When": {
+      "HasMod:FlashShifter.StardewValleyExpandedALL": false
+      }
+    },
+    {
+    "LogName": "Event Birthday SVE",
+    "Action": "EditData",
+    "Target": "Data/Events/Town",
+    "FromFile": "assets/Events/2SVE.json",
+    "When": {
+      "HasMod:FlashShifter.StardewValleyExpandedALL": true
+      }
+    },
+    {
+      "LogName": "Event Beach",
+      "Action": "EditData",
+      "Target": "Data/Events/Beach",
+      "FromFile": "assets/Events/4.json"
+    },
+    {
+      "LogName": "Event Saloon",
+      "Action": "EditData",
+      "Target": "Data/Events/Saloon",
+      "FromFile": "assets/Events/6.json"
+    },
+    {
+      "LogName": "Event Town",
+      "Action": "EditData",
+      "Target": "Data/Events/Town",
+      "FromFile": "assets/Events/8.json"
+    },
+    {
+      "LogName": "Event Bike",
+      "Action": "EditData",
+      "Target": "Data/Events/Saloon",
+      "FromFile": "assets/Events/10.json"
+    },
+    {
+      "LogName": "Event Marriage",
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "FromFile": "assets/Events/10m.json"
+    },
+    {
+      "LogName": "Event Marriage",
+      "Action": "EditData",
+      "Target": "Data/Events/BusStop",
+      "FromFile": "assets/Events/12m.json"
+    },
+    {
+      "LogName": "Event Marriage",
+      "Action": "EditData",
+      "Target": "Data/Events/Woods",
+      "FromFile": "assets/Events/14m.json"
+    },
+    { //Dialogue for Festivals//
+    "Action": "EditData",
+      "Target": "Data/Festivals/spring13",
+      "Entries": {
+        "Mike": "This punch is real nice! Wow, I wonder what they put in this?#$e#Hey, you should get some too!$h"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring13",
+      "Entries": {
+        "Mike": "Honey, the punch is very sweet. It tastes great just like you!$h"
+      },
+      "When": {
+        "Relationship:Mike": "Married"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "Entries": {
+        "Mike": "I am not a dancer, but it looks romantic for sure."
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "Entries": {
+        "Mike": "@, you look wonderful!$h#$b#...as always$l"
+      },
+      "When": {
+        "Relationship:Mike": "Married"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "Entries": {
+        "Mike": "The soup smells really nice! Hope you don't make a naughty choice.$u",
+        "Mike_spouse": "Soup! Are we going to put in anything?#$e#Hmm, that sounds exciting.$h"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "Entries": {
+        "Mike": "I am so ready for this. It is going to look marvelous!$h",
+        "Mike_spouse": "Babe, don't fall asleep yet. You are going to miss out on the great scene!$s"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "Entries": {
+        "Mike": "The moonlight jellies are almost as beautiful as you.$l"
+      },
+      "When": {
+        "Relationship:Mike": "Married"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "Entries": {
+        "Mike": "Hey, this is exciting! What should I do first?$h",
+        "Mike_spouse": "Honey! What do you want to do?$h"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "Entries": {
+        "Mike": "Today was a great day. Fun, wasn't it?"
+      },
+      "When": {
+        "Relationship:Mike": "Married"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall27",
+      "Entries": {
+        "Mike": "Okay, I am not a big fan of this kind of stuff.$a",
+        "Mike_spouse": "Woah! Darling, you sccared me!$5"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter8",
+      "Entries": {
+        "Mike": "How many fish will you catch?"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter8",
+      "Entries": {
+        "Mike": "You got this! I believe in you!$h"
+      },
+      "When": {
+        "Relationship:Mike": "Married"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "Entries": {
+        "Mike": "This is my favorite holiday! Everything is so perfect, isn't it?$h"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "Entries": {
+        "Mike": "You know, today is my favorite holiday and you make it even more perfect. Thank you.$l"
+      },
+      "When": {
+        "Relationship:Mike": "Married"
+      }
+    },
+    { //Mails//
+      "LogName": "Birthday",
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "Entries": {
+        "mikebirthday": "Hello, @.^^I am going to have a birthday party and I wanted to invite you.^^Come to town on 26th afternoon. Hope to see you there!^^From, Mike[#]Mike's Birthday" 
+      }
+    },
+    {
+      "LogName": "Birthday",
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        "68261001/f Mike 500/z spring/z fall/z winter/u 25/x mikebirthday": "null"
+      }
+    },
+    { //Movies//
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+      "Mike": {"Name": "Mike",
+        "LovedTags": [
+        "Apple Slices", "Fries", "Joja Cola", "Nachos", "Personal Pizza", "Stardrop Sorbet"
+        ],
+        "LikedTags": [
+        "Cappuccino Mousse Cake", "Chocolate Popcorn", "Cotton Candy", "Hummus Snack Pack", "Ice Cream Sandwich", "JojaCorn", "Salmon Burger", "Star Cookie"
+        ],
+        "DislikedTags": [
+        "Black Licorice", "Jasmine Tea", "Jawbreaker", "Kale Smoothie", "Panzanella Salad", "Popcorn", "Rock Candy", "Salted Peanuts", "Sour Slimes", "Truffle Popcorn"
+        ]
+      }
+      }
+    },
+    {"Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+      "Mike": {
+      "NPCName": "Mike",
+      "Reactions": [
+        {
+          "Tag": "family",
+          "Response": "love",
+          "Whitelist": [],
+          "SpecialResponses": null,
+          "ID": "reaction_0"
+        },
+        {
+          "Tag": "horror",
+          "Response": "dislike",
+          "Whitelist": [],
+          "SpecialResponses": null,
+          "ID": "reaction_1"
+        },
+        {
+          "Tag": "spring_movie_0",
+          "Response": "like",
+          "Whitelist": [],
+          "SpecialResponses": {
+            "BeforeMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "Interesting. Isn't this for children?"
+            },
+            "DuringMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "Haha, funny.$h#$b#That's cute.$h"
+            },
+            "AfterMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "Well, that wasn't too bad as I though.$h"
+            }
+          },
+          "ID": "reaction_2"
+        },
+        {
+          "Tag": "summer_movie_0",
+          "Response": "love",
+          "Whitelist": [],
+          "SpecialResponses": {
+            "BeforeMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "I played this video game when I was younger. Of course I beat it!$h#$b#I wonder how they made it into a movie."
+            },
+            "DuringMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "Haha, nice. It is making me want to play that game again.$h"
+            },
+            "AfterMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "I loved that! Wasn't that fun?$h"
+            }
+          },
+          "ID": "reaction_3"
+        },
+        {
+          "Tag": "fall_movie_0",
+          "Response": "dislike",
+          "Whitelist": [],
+          "SpecialResponses": {
+            "BeforeMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "Not exactly my type of movie, but sure. Why not."
+            },
+            "DuringMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "I mean... not too bad."
+            },
+            "AfterMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "I really don't know what is fun about horror. Well, I don't hate it though."
+            }
+          },
+          "ID": "reaction_4"
+        },
+        {
+          "Tag": "winter_movie_0",
+          "Response": "love",
+          "Whitelist": [],
+          "SpecialResponses": {
+            "BeforeMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "Oh, seems like it will be heart warming.$h"
+            },
+            "DuringMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "...Family is always nice to have around..."
+            },
+            "AfterMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "That was a good movie...$h#$b#I'm missing my family a bit."
+            }
+          },
+          "ID": "reaction_5"
+        },
+        {
+          "Tag": "spring_movie_1",
+          "Response": "hate",
+          "Whitelist": [],
+          "SpecialResponses": {
+            "BeforeMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "Isn't this like a documentary?"
+            },
+            "DuringMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": ""
+            },
+            "AfterMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "Sorry, the movie was, well. Kind of boring for me."
+            }
+          },
+          "ID": "reaction_6"
+        },
+        {
+          "Tag": "summer_movie_1",
+          "Response": "love",
+          "Whitelist": [],
+          "SpecialResponses": {
+            "BeforeMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "Yes, I am so ready for this movie!$h"
+            },
+            "DuringMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "That's weird...#$b#But funny!$h"
+            },
+            "AfterMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "Dude, let's watch it again!$h"
+            }
+          },
+          "ID": "reaction_7"
+        },
+        {
+          "Tag": "fall_movie_1",
+          "Response": "love",
+          "Whitelist": [],
+          "SpecialResponses": {
+            "BeforeMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "Now this seems like a good movie.$h"
+            },
+            "DuringMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "Nice plot... I am loving it.$h"
+            },
+            "AfterMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "Okay. I have to say, that is the best movie I have watched so far.$h"
+            }
+          },
+          "ID": "reaction_8"
+        },
+        {
+          "Tag": "winter_movie_1",
+          "Response": "like",
+          "Whitelist": [],
+          "SpecialResponses": {
+            "BeforeMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "Looks great. My mom loves this movie.$h"
+            },
+            "DuringMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "This is sweet."
+            },
+            "AfterMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "Thanks for inviting me. That was fun.$h"
+            }
+          },
+          "ID": "reaction_9"
+        }
+      ]
+   }
+   }
+}
+  ]
+}

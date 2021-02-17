@@ -1,0 +1,32 @@
+{
+	"Name": "Urchin Vase",
+	"Description": "Made to make a spiky statement.",
+	"Price": 1,
+	"ProvidesLight": false,
+	"NameLocalization": {
+		// "es": "",
+		"ko": "성게 화병",
+		// "de": "",
+		// "fr": "",
+		// "hu": "",
+		// "it": "",
+		// "ja": "",
+		// "pt": "",
+		// "ru": "",
+		// "tr": "",
+		// "zh": "",
+	},
+	"DescriptionLocalization": {
+		// "es": "",
+		"ko": "뾰족뾰족한 표면을 절묘하게 다듬었습니다.",
+		// "de": "",
+		// "fr": "",
+		// "hu": "",
+		// "it": "",
+		// "ja": "",
+		// "pt": "",
+		// "ru": "",
+		// "tr": "",
+		// "zh": "",
+	}
+}

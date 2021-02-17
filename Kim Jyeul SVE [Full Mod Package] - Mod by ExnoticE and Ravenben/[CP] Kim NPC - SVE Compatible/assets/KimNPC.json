@@ -1,0 +1,82 @@
+{
+     "Changes": [
+    {
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "When": 
+       {
+           "HasMod |contains=malic.cp.jadeNPC": false
+       },
+      "Entries": {
+        "Kim": "teen/polite/shy/positive/female/datable/Sophia/Other/fall 3//BusStop 8 13 2/Kim"
+      }
+    },
+    {
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "When": 
+       {
+           "HasMod |contains=malic.cp.jadeNPC": true
+       },
+      "Entries": {
+        "Kim": "teen/polite/shy/positive/female/datable/Jade/Other/fall 3//BusStop 8 13 2/Kim"
+      }
+    },
+    {
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Kim":"Oh @, thank you!$h/72 234 18/Thanks! This is a nice gift.$h/611 597 62 595 227/Thanks, I guess.$0/22 376 591 608/Get that away from me.$2/241 404 420 422 205/Oh...um...thanks.$0/167/"
+      }
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/Schedules/Kim",
+      "FromFile": "assets/schedules/Schedule-SVE.json",
+      "When": 
+       {
+           "HasMod |contains=malic.cp.jadeNPC": false,
+       }
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/Schedules/Kim",
+      "FromFile": "assets/schedules/Schedule-Jade-SVE.json",
+      "When": 
+       {
+           "HasMod |contains=malic.cp.jadeNPC": true,
+       }
+    },
+    {
+      "LogName": "Strings",
+      "Action": "Load",
+      "Target": "Strings/schedules/Kim",
+      "FromFile": "assets/KimStrings.json"
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Kim",
+      "FromFile": "assets/dialogue/Dialogue.json",
+      "When": 
+       {
+           "HasMod |contains=malic.cp.jadeNPC": false
+       }
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Kim",
+      "FromFile": "assets/dialogue/Dialogue-Jade.json",
+      "When": 
+       {
+           "HasMod |contains=malic.cp.jadeNPC": true
+       }
+    }
+  ]
+}

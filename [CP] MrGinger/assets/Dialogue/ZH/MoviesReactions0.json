@@ -1,0 +1,263 @@
+{
+	"Entries": {
+		"MisterGinger": {
+		"NPCName": "MisterGinger",
+		"Reactions": [
+	  	{
+			"Tag": "*",
+			"Response": "爱",
+			"Whitelist": [],
+			"SpecialResponses": {
+		  	"BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "喵呜!"
+		  	},
+		  	"DuringMovie": {
+			"ResponsePoint": null,
+			"Script": "/message \"姜先生盯着屏幕.\"",
+			"Text": ""
+		  	},
+		  	"AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "喵嗷!$3#$b#%姜先生对你选择的电影似乎很满意."
+		  }
+		},
+		"ID": "reaction_0"
+	  },
+	  {
+		"Tag": "spring_movie_0",
+		"Response": "喜欢",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "喵嗷呜!"
+		  },
+		  "DuringMovie": {
+			"ResponsePoint": "sprout_leave",
+			"Script": "pause 500/message \"姜先生看起来很伤心.\"",
+			"Text": "喵呜.$2"
+		  },
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "喵嗷?$1"
+		  }
+		},
+		"ID": "reaction_1"
+	  },
+	  {
+		"Tag": "spring_movie_1",
+		"Response": "爱",
+		"Whitelist": [],
+		"SpecialResponses": {
+			"BeforeMovie": {
+			  "ResponsePoint": null,
+			  "Script": "",
+			  "Text": "喵嗷呜!"
+			},
+			"DuringMovie": {
+			  "ResponsePoint": null,
+			  "Script": "/message \"姜先生聚精会神.\"",
+			  "Text": ""
+			},
+			"AfterMovie": {
+			  "ResponsePoint": null,
+			  "Script": "",
+			  "Text": "好吧,我承认,很漂亮."
+			}
+		},
+		"ID": "reaction_2"
+	  },
+	  {
+		"Tag": "winter_movie_0",
+		"Response": "不喜欢",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "喵呜..."
+		  },
+		  "DuringMovie": {
+			"ResponsePoint": null,
+			"Script": "/message \"姜先生看起来很无聊.\"",
+			"Text": ""
+		  },
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "不,不是我的那壶鱼.嗯,鱼...我们能吃午饭吗?"
+		  }
+		},
+		"ID": "reaction_3"
+	  },
+	  {
+		"Tag": "summer_movie_1",
+		"Response": "爱",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "喵嗷呜!$1"
+		  },
+		  "DuringMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "%姜先生在咕噜咕噜."
+		  },
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "%姜先生似乎玩得很开心"
+		  }
+		},
+		"ID": "reaction_4"
+	  },
+	  {
+		"Tag": "fall_movie_1",
+		"Response": "不喜欢",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "喵呜!"
+		  },
+		  "DuringMovie": {
+			"ResponsePoint": null,
+			"Script": "/shake MisterGinger 3000/pause 500/",
+			"Text": "喵~~呜...$2"
+		  },
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "%姜先生的毛还有些蓬松."
+		  }
+		},
+		"ID": "reaction_5"
+	  },
+	  {
+		"Tag": "winter_movie_1",
+		"Response": "喜欢",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "%姜先生对你的选择很不满意."
+		},
+		"DuringMovie": {
+		  "ResponsePoint": null,
+		  "Script": "/message \"姜先生眼里的泪水?",
+		  "Text": ""
+		},
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "喵嗷呜?$2"
+		  }
+		},
+		"ID": "reaction_6"
+	  },
+	  {
+		"Tag": "summer_movie_1",
+		"Response": "不喜欢",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "喵呜!"
+		},
+		"DuringMovie": {
+		  "ResponsePoint": null,
+		  "Script": "/message \"姜先生蹲在椅子上.",
+		  "Text": ""
+		},
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "%姜先生看起来很疲惫."
+		  }
+		},
+		"ID": "reaction_7"
+	  },
+	  {
+		"Tag": "fall_movie_1",
+		"Response": "不喜欢",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "喵嗷!"
+		  },
+		  "DuringMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "..."
+		  },
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "喵.$5"
+		  }
+		},
+		"ID": "reaction_8"
+	  },
+	  {
+		"Tag": "seen_love",
+		"Response": "喜欢",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "喵呜!"
+		  },
+		  "DuringMovie": null,
+		  "AfterMovie": null
+		},
+		"ID": "reaction_9"
+	  },
+	  {
+		"Tag": "seen_like",
+		"Response": "喜欢",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "喵呜."
+		  },
+		  "DuringMovie": null,
+		  "AfterMovie": null
+		},
+		"ID": "reaction_10"
+	  },
+	  {
+		"Tag": "seen_dislike",
+		"Response": "喜欢",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "喵嗷呜!$5"
+		  },
+		  "DuringMovie": null,
+		  "AfterMovie": null
+		},
+		"ID": "reaction_11"
+		}
+		]
+        }
+    }
+}
+	  
+

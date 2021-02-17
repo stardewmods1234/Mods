@@ -1,0 +1,46 @@
+{
+    "Name": "Sapphire",
+    "Description": "A precious stone with a brilliant blue color.",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
+    "Edibility": -300,
+    "Price": 250,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "사파이어",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Safira",
+        // "ru": "",
+        // "tr": "",
+        "zh": "蓝宝石",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "화려한 푸른색의 보석.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Uma pedra preciosa com uma cor azul brilhante.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "一种明亮的蓝色珍贵矿石。注：蓝宝石是一种刚玉宝石，但除红宝石之外，其他颜色的刚玉宝石也可以被通称为蓝宝石。",
+    },
+	
+    "ContextTags": [
+        "color_blue", "sapphire_item", "blue_gem",  
+    ],
+}

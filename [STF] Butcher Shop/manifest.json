@@ -1,0 +1,26 @@
+{
+  "Name": "[STF] Butcher Shop",
+  "Author": "KAYA",
+  "Version": "1.0.0",
+  "Description": "Butcher shop function.",
+  "MinimumApiVersion": "3.0.1",
+  "UniqueID": "KAYA.STF.ButcherShop",
+   "UpdateKeys": ["Nexus:7087"],
+  "ContentPackFor": {
+    "UniqueID": "Cherry.ShopTileFramework"
+  },
+  "Dependencies": [
+		{	
+			"UniqueID": "coco.meatshop",
+			"IsRequired": true
+		},
+		{	
+			"UniqueID": "DIGUS.ANIMALHUSBANDRYMOD",
+			"IsRequired": false
+		},
+		{	
+			"UniqueID": "paradigmnomad.freshmeat",
+			"IsRequired": false
+		},
+	]
+}

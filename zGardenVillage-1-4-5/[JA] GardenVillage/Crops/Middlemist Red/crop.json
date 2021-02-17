@@ -1,0 +1,32 @@
+{
+    "Name": "MiddlemistRed",
+    "Product": "Middlemist Red",
+    "SeedName": "Middlemist Red Seeds",
+    "SeedDescription": "The rarest flower in the world, and the most finicky to grow. Plant indoors only. Takes 24 days to produce a full blossom, then keeps producing after the first harvest.",
+    "Type": "Flower",
+	"CropType": "IndoorsOnly",
+    "Seasons": ["winter"],
+    "Phases": [6, 8, 8, 2, 7],
+    "RegrowthPhase": 5,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus":
+    {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+        "MaxIncreasePerFarmLevel": 45,
+        "ExtraChance": 0.0,
+    },
+    "SeedPurchaseFrom": "STF.GVFlorist",
+    "SeedPurchasePrice": 500000,
+	"SeedPurchaseRequirements": ["y 3"],
+    "SeedNameLocalization":
+    {
+        
+    },
+    "SeedDescriptionLocalization":
+    {
+        
+    }
+}

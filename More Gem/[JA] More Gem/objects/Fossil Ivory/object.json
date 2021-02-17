@@ -1,0 +1,47 @@
+{
+    "Name": "Ivory",
+    "Description": "Well-preserved ivory from an ancient creature.",
+    "Category": "-15",
+	"CategoryTextOverride": "Jewel",
+    "CategoryColorOverride": "90, 150, 80, 255",
+    "Edibility": -300,
+    "Price": 100,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "상아",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Marfim",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "잘 보존된 공룡의 상아를 세공했습니다.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Um marfim de dinossauro bem preservado.",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+	
+    "ContextTags": [
+        "color_sand", "fossil_item", "bone_item",
+    ],
+}

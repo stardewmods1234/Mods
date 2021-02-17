@@ -1,0 +1,31 @@
+﻿{
+	"maps":[
+		{
+			"Name":"UnderwaterEastScarpe",
+			"Features":[
+				"SmolFishies",
+				"Crabs",
+				"OceanTreasure",
+				"OceanResources",
+				"Underwater",
+				"FixWaterTiles"
+			],
+			"DiveLocations": [
+				{
+					"OtherMapName":"EastScarpe",
+				},
+			],
+		},
+		{
+			"Name":"EastScarpe",
+			"Features":[
+				"FixWaterTiles"
+			],
+			"DiveLocations": [
+				{
+					"OtherMapName":"UnderwaterEastScarpe",
+				},
+			],
+		},
+	]
+}

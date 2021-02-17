@@ -1,0 +1,5722 @@
+﻿[
+    // Nevaliz Condensator
+
+    {
+        "ProducerName": "Nevaliz Condensator",
+        "InputIdentifier": "768", ///solar
+        "InputStack": 1,
+        "MinutesUntilReady": 20,
+        "OutputIdentifier": "382", //coal
+		"OutputStack": 1,
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.001, 
+				"OutputIdentifier": "74", 
+				"MinutesUntilReady": 1200, 
+			},
+			{
+				"OutputProbability": 0.007, 
+				"OutputIdentifier": "336", 
+				"MinutesUntilReady": 300, 
+			},
+			{
+				"OutputProbability": 0.12, 
+				"OutputIdentifier": "80", //quartz
+				"OutputStack": 1,
+			    "OutputMaxStack": 3,
+				"MinutesUntilReady": 120, 
+			},
+			{
+				"OutputProbability": 0.008, 
+				"OutputIdentifier": "60", 
+				"MinutesUntilReady": 300, 
+			},
+			{
+				"OutputProbability": 0.008, 
+				"OutputIdentifier": "62",
+				"OutputStack": 1,
+				"OutputMaxStack": 2,			
+				"MinutesUntilReady": 300, 
+			},
+			{
+				"OutputProbability": 0.008, 
+				"OutputIdentifier": "64",
+				"OutputStack": 1,
+				"OutputMaxStack": 2,				
+				"MinutesUntilReady": 300, 
+			},
+			{
+				"OutputProbability": 0.008, 
+				"OutputIdentifier": "66", 
+				"OutputStack": 1,
+				"OutputMaxStack": 2,
+				"MinutesUntilReady": 300, 
+			},
+			{
+				"OutputProbability": 0.008, 
+				"OutputIdentifier": "68",
+				"OutputStack": 1,
+				"OutputMaxStack": 2,
+				"MinutesUntilReady": 300, 
+			},
+			{
+				"OutputProbability": 0.008, 
+				"OutputIdentifier": "70",
+				"OutputStack": 1,
+				"OutputMaxStack": 2,
+				"MinutesUntilReady": 300, 
+			},
+			{
+				"OutputProbability": 0.004, 
+				"OutputIdentifier": "72",
+				"OutputStack": 1,
+				"OutputMaxStack": 2,
+				"MinutesUntilReady": 900, 
+			},
+		],
+        "Sounds": ["shadowHit"],
+    },
+    {
+        "ProducerName": "Nevaliz Condensator",
+        "InputIdentifier": "769", //void
+        "InputStack": 1,
+        "MinutesUntilReady": 20,
+        "OutputIdentifier": "382", //coal
+		"OutputStack": 1,
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.009, 
+				"OutputIdentifier": "386", //iridium ore
+				"OutputStack": 1,
+				"OutputMaxStack": 3,			
+				"MinutesUntilReady": 300, 
+			},
+			{
+				"OutputProbability": 0.1, 
+				"OutputIdentifier": "766", //slime
+				"OutputStack": 5,
+				"OutputMaxStack": 22,
+				"MinutesUntilReady": 300, 
+			},
+			{
+				"OutputProbability": 0.1, 
+				"OutputIdentifier": "771", //Fiber
+				"OutputStack": 5,
+			    "OutputMaxStack": 25,
+				"MinutesUntilReady": 120, 
+			},
+			{
+				"OutputProbability": 0.08, //batwings
+				"OutputIdentifier": "767", 
+				"OutputStack": 1,
+			    "OutputMaxStack": 4,
+				"MinutesUntilReady": 300, 
+			},
+			{
+				"OutputProbability": 0.07, 
+				"OutputIdentifier": "684",//bugMeat
+				"OutputStack": 2,
+				"OutputMaxStack": 9,			
+				"MinutesUntilReady": 300, 
+			},
+			{
+				"OutputProbability": 0.09, 
+				"OutputIdentifier": "709", //Hardwood
+				"OutputStack": 2,
+				"OutputMaxStack": 4,				
+				"MinutesUntilReady": 300, 
+			},
+			{
+				"OutputProbability": 0.09, 
+				"OutputIdentifier": "388", //wood
+				"OutputStack": 9,
+				"OutputMaxStack": 32,
+				"MinutesUntilReady": 300, 
+			},
+			{
+				"OutputProbability": 0.005, 
+				"OutputIdentifier": "575", //Obsidian
+				"OutputStack": 1,
+				"OutputMaxStack": 3,
+				"MinutesUntilReady": 300, 
+			},
+		],
+        "Sounds": ["shadowHit"],
+    },
+ {
+        "ProducerName": "Nevaliz Separator",  ///separate Stone
+        "InputIdentifier": "390", //Stone
+        "InputStack": 10,
+        "MinutesUntilReady": 60,
+        "OutputIdentifier": "390", //Stone
+		"OutputStack": 5,
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.32, 
+				"OutputIdentifier": "378", //copper ore
+				"OutputStack": 1,
+				"OutputMaxStack": 4,
+				"MinutesUntilReady": 300, 
+			},
+			{
+				"OutputProbability": 0.2, 
+				"OutputIdentifier": "382", //coal
+				"OutputStack": 1,
+				"OutputMaxStack": 2,
+				"MinutesUntilReady": 120, 
+			},
+			{
+				"OutputProbability": 0.13, 
+				"OutputIdentifier": "380", //iron ore
+				"OutputStack": 1,
+			    "OutputMaxStack": 4,
+				"MinutesUntilReady": 300, 
+			},
+			{
+				"OutputProbability": 0.06, 
+				"OutputIdentifier": "384", //gold ore
+				"OutputStack": 1,
+			    "OutputMaxStack": 3,
+				"MinutesUntilReady": 300, 
+			},
+			{
+				"OutputProbability": 0.003, 
+				"OutputIdentifier": "386", //iridium ore
+				"OutputStack": 1,
+				"OutputMaxStack": 2,			
+				"MinutesUntilReady": 300, 
+			},
+			{
+				"OutputProbability": 0.06, 
+				"OutputIdentifier": "768", //Solar
+				"OutputStack": 1,
+				"MinutesUntilReady": 300, 
+			},
+			{
+				"OutputProbability": 0.06, 
+				"OutputIdentifier": "769", //Void
+				"OutputStack": 1,
+				"MinutesUntilReady": 500, 
+			},
+		],
+        "Sounds": ["breakingGlass"],
+    },
+{
+        "ProducerName": "Nevaliz Separator",  ///separate Fiber
+        "InputIdentifier": "771", //fiber
+        "InputStack": 10,
+        "MinutesUntilReady": 60,
+        "OutputIdentifier": "771", //MoreFiber
+		"OutputStack": 5,
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.4, 
+				"OutputIdentifier": "768", //Solar
+				"OutputStack": 1,
+				"OutputMaxStack": 2,
+				"MinutesUntilReady": 300, 
+			},
+			{
+				"OutputProbability": 0.1, 
+				"OutputIdentifier": "382", //coal
+				"OutputStack": 1,
+				"OutputMaxStack": 2,
+				"MinutesUntilReady": 120, 
+			},
+		],
+        "Sounds": ["breakingGlass"],
+    },
+{
+        "ProducerName": "Nevaliz Separator",  ///separate Slime
+        "InputIdentifier": "766", //Slime
+        "InputStack": 10,
+        "MinutesUntilReady": 60,
+        "OutputIdentifier": "766", //LessSlime
+		"OutputStack": 5,
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.35, 
+				"OutputIdentifier": "769", //Void
+				"OutputStack": 1,
+				"OutputMaxStack": 3,
+				"MinutesUntilReady": 500, 
+			},
+			{
+				"OutputProbability": 0.16, 
+				"OutputIdentifier": "80", //Quartz
+				"OutputStack": 1,
+				"OutputMaxStack": 2,
+				"MinutesUntilReady": 240, 
+			},
+			{
+				"OutputProbability": 0.009, 
+				"OutputIdentifier": "557", //PetrifiedSlime
+				"OutputStack": 1,
+				"OutputMaxStack": 3,
+				"MinutesUntilReady": 300, 
+			},
+		],
+        "Sounds": ["breakingGlass"],
+    },
+{
+        "ProducerName": "Nevaliz Separator",  ///separate Special
+        "InputIdentifier": "74", //
+        "InputStack": 10,
+        "MinutesUntilReady": 60,
+        "OutputIdentifier": "Prismatic Fragment", //
+		"OutputStack": 4,
+		"OutputMaxStack": 8,
+        "Sounds": ["breakingGlass"],
+    },
+    ///Estorial Deflowerizer
+{
+        "ProducerName": "Estorial Deflowerizer",  ///Extract ores from flowers
+        "InputIdentifier": "-80", //AnyFlower
+        "InputStack": 1,
+        "MinutesUntilReady": 240,
+        "OutputIdentifier": "378", //copper ore
+		"OutputStack": 3,
+		"OutputMaxStack": 7,
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.3, 
+				"OutputIdentifier": "380", //IronOre
+				"OutputStack": 3,
+				"OutputMaxStack": 7,
+				"MinutesUntilReady": 240, 
+			},
+			{
+				"OutputProbability": 0.12, 
+				"OutputIdentifier": "384", //GoldOre
+				"OutputStack": 3,
+				"OutputMaxStack": 6,
+				"MinutesUntilReady": 240, 
+			},
+			{
+				"OutputProbability": 0.005, 
+				"OutputIdentifier": "386", //IridiumOre
+				"OutputStack": 1,
+				"OutputMaxStack": 3,
+				"MinutesUntilReady": 360, 
+			},
+		],
+        "Sounds": ["grassyStep"],
+    },
+    //Estorial Defisher
+{
+        "ProducerName": "Estorial Defisher",  ///Transform Fish into stone
+        "InputIdentifier": "-4", //AnyFish
+        "InputStack": 1,
+        "MinutesUntilReady": 60,
+        "OutputIdentifier": "390", //Stone
+		"OutputStack": 10,
+		"OutputMaxStack": 40,
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.003, 
+				"OutputIdentifier": "166", // Treasure!
+				"OutputStack": 1,
+				"MinutesUntilReady": 2400, 
+			},
+			{
+				"OutputProbability": 0.007, 
+				"OutputIdentifier": "390", //Large stone stack
+				"OutputStack": 50,
+				"OutputMaxStack": 100,
+				"MinutesUntilReady": 120, 
+			},
+		],
+        "Sounds": ["slimeHit"],
+    },
+	///Estorial Fruit Experiment
+{
+        "ProducerName": "Estorial Fruit Experiment",  ///Transform Fruits into Fish
+        "InputIdentifier": "-79", //AnyFruit
+        "InputStack": 1,
+        "MinutesUntilReady": 1200,
+        "OutputIdentifier": "144", //Pike
+		"OutputStack": 1,
+		"OutputMaxStack": 4,
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.1, 
+				"OutputIdentifier": "137", // SmallmouthBass
+				"OutputStack": 2,
+				"OutputMaxStack": 3,
+				"MinutesUntilReady": 1200, 
+			},
+			{
+				"OutputProbability": 0.1, 
+				"OutputIdentifier": "150", //RedSnapper
+				"OutputStack": 2,
+				"OutputMaxStack": 4,
+				"MinutesUntilReady": 1200,
+			},
+			{
+				"OutputProbability": 0.1, 
+				"OutputIdentifier": "139", //Salmon
+				"OutputStack": 2,
+				"OutputMaxStack": 3,
+				"MinutesUntilReady": 1200, 
+			},
+			{
+				"OutputProbability": 0.1, 
+				"OutputIdentifier": "138", //RainbowTrout
+				"OutputStack": 2,
+				"OutputMaxStack": 3,
+				"MinutesUntilReady": 1200, 
+			},
+			{
+				"OutputProbability": 0.1, 
+				"OutputIdentifier": "145", //Sunfish
+				"OutputStack": 2,
+				"OutputMaxStack": 3,
+				"MinutesUntilReady": 1200, 
+			},
+			{
+				"OutputProbability": 0.1, 
+				"OutputIdentifier": "132", //Bream
+				"OutputStack": 2,
+				"OutputMaxStack": 6,
+				"MinutesUntilReady": 1200, 
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+	//Estorial Sap Still
+{
+        "ProducerName": "Estorial Sap Still",  ///Age Sap into SlimeX2
+        "InputIdentifier": "92", //Sap
+        "InputStack": 100,
+        "MinutesUntilReady": 6400,
+        "OutputIdentifier": "766", //Slime
+		"OutputStack": 190,
+		"OutputMaxStack": 230,
+        "Sounds": ["slimeHit"],
+    },
+	
+	///Sigoboronte Egg Fosilizer
+{
+        "ProducerName": "Sigoboronte Egg Fosilizer",  ///Transform Eggs into geodes
+        "InputIdentifier": "-5", //AnyEgg
+        "InputStack": 1,
+        "MinutesUntilReady": 2000,
+        "OutputIdentifier": "535", //Geode
+		"OutputStack": 1,
+		"OutputMaxStack": 2,
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.2, 
+				"OutputIdentifier": "536", // Frozen Geode
+				"OutputStack": 1,
+				"OutputMaxStack": 3,
+				"MinutesUntilReady": 2000, 
+			},
+			{
+				"OutputProbability": 0.15, 
+				"OutputIdentifier": "537", //Magma Geode
+				"OutputStack": 1,
+				"OutputMaxStack": 3,
+				"MinutesUntilReady": 2000, 
+			},
+			{
+				"OutputProbability": 0.08, 
+				"OutputIdentifier": "749", //OMni Geode
+				"OutputStack": 1,
+				"OutputMaxStack": 3,
+				"MinutesUntilReady": 2000, 
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+	///Sigoboronte Coal Shrine
+{
+        "ProducerName": "Sigoboronte Coal Shrine",  ///Transform Coal into almost anything
+        "InputIdentifier": "382", //Coal
+        "InputStack": 1,
+        "MinutesUntilReady": 300,
+        "OutputIdentifier": "382", //More coal... sight...
+		"OutputStack": 1,
+		"OutputMaxStack": 2,
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.05, 
+				"OutputIdentifier": "536", // Frozen Geode
+				"OutputStack": 1,
+				"OutputMaxStack": 3,
+				"MinutesUntilReady": 3600, 
+			},
+			{
+				"OutputProbability": 0.05, 
+				"OutputIdentifier": "537", //Magma Geode
+				"OutputStack": 1,
+				"OutputMaxStack": 3,
+				"MinutesUntilReady": 3600, 
+			},
+			{
+				"OutputProbability": 0.05, 
+				"OutputIdentifier": "749", //OMni Geode
+				"OutputStack": 1,
+				"OutputMaxStack": 3,
+				"MinutesUntilReady": 3600, 
+			},
+						{
+				"OutputProbability": 0.001, 
+				"OutputIdentifier": "166", // Treasure!
+				"OutputStack": 1,
+				"MinutesUntilReady": 3600, 
+			},
+			{
+				"OutputProbability": 0.004, 
+				"OutputIdentifier": "384", //Slightlybigger goldOre stack
+				"OutputStack": 7,
+				"OutputMaxStack": 120,
+				"MinutesUntilReady": 3600, 
+			},
+						{
+				"OutputProbability": 0.04, 
+				"OutputIdentifier": "380", //IronOre
+				"OutputStack": 3,
+				"OutputMaxStack": 7,
+				"MinutesUntilReady": 3600, 
+			},
+			{
+				"OutputProbability": 0.04, 
+				"OutputIdentifier": "384", //GoldOre
+				"OutputStack": 3,
+				"OutputMaxStack": 6,
+				"MinutesUntilReady": 3600, 
+			},
+			{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": "386", //IridiumOre
+				"OutputStack": 1,
+				"OutputMaxStack": 3,
+				"MinutesUntilReady": 3600, 
+			},
+			{
+				"OutputProbability": 0.05, 
+				"OutputIdentifier": "769", //Void
+				"OutputStack": 1,
+				"OutputMaxStack": 2,
+				"MinutesUntilReady": 3600, 
+			},
+			{
+				"OutputProbability": 0.04, 
+				"OutputIdentifier": "80", //Quartz
+				"OutputStack": 1,
+				"OutputMaxStack": 4,
+				"MinutesUntilReady": 3600, 
+			},			
+{
+				"OutputProbability": 0.06, 
+				"OutputIdentifier": "60", 
+				"MinutesUntilReady": 3600, 
+			},
+			{
+				"OutputProbability": 0.06, 
+				"OutputIdentifier": "62",
+				"OutputStack": 1,
+				"OutputMaxStack": 2,			
+				"MinutesUntilReady": 3600, 
+			},
+			{
+				"OutputProbability": 0.06, 
+				"OutputIdentifier": "64",
+				"OutputStack": 1,
+				"OutputMaxStack": 2,				
+				"MinutesUntilReady": 3600, 
+			},
+			{
+				"OutputProbability": 0.06, 
+				"OutputIdentifier": "66", 
+				"OutputStack": 1,
+				"OutputMaxStack": 2,
+				"MinutesUntilReady": 3600, 
+			},
+			{
+				"OutputProbability": 0.06, 
+				"OutputIdentifier": "68",
+				"OutputStack": 1,
+				"OutputMaxStack": 2,
+				"MinutesUntilReady": 3600, 
+			},
+			{
+				"OutputProbability": 0.06, 
+				"OutputIdentifier": "70",
+				"OutputStack": 1,
+				"OutputMaxStack": 2,
+				"MinutesUntilReady": 3600, 
+			},
+			{
+				"OutputProbability": 0.03, 
+				"OutputIdentifier": "72",
+				"OutputStack": 1,
+				"OutputMaxStack": 2,
+				"MinutesUntilReady": 3600, 
+			},			
+			{
+				"OutputProbability": 0.1, 
+				"OutputIdentifier": "771", //Fiber
+				"OutputStack": 5,
+			    "OutputMaxStack": 20,
+				"MinutesUntilReady": 3600, 
+			},
+			{
+				"OutputProbability": 0.04, //batwings
+				"OutputIdentifier": "767", 
+				"OutputStack": 1,
+			    "OutputMaxStack": 3,
+				"MinutesUntilReady": 3600, 
+			},
+			{
+				"OutputProbability": 0.04, 
+				"OutputIdentifier": "684",//bugMeat
+				"OutputStack": 1,
+				"OutputMaxStack": 4,			
+				"MinutesUntilReady": 3600, 
+			},
+			{
+				"OutputProbability": 0.04, 
+				"OutputIdentifier": "709", //Hardwood
+				"OutputStack": 1,
+				"OutputMaxStack": 4,				
+				"MinutesUntilReady": 3600, 
+			},
+			{
+				"OutputProbability": 0.04, 
+				"OutputIdentifier": "388", //wood
+				"OutputStack": 9,
+				"OutputMaxStack": 25,
+				"MinutesUntilReady": 3600, 
+			},			
+			{
+				"OutputProbability": 0.05, 
+				"OutputIdentifier": "768", //Solar
+				"OutputStack": 1,
+				"MinutesUntilReady": 3600, 
+			},
+			{
+				"OutputProbability": 0.06, 
+				"OutputIdentifier": "766", //slime
+				"OutputStack": 5,
+				"OutputMaxStack": 20,
+				"MinutesUntilReady": 3600, 
+			},
+			
+		],
+        "Sounds": ["breakingGlass"],
+    },
+	///Slime Polisher
+	
+	{
+        "ProducerName": "Slime Polisher",  ///Polish Ruby
+        "InputIdentifier": "64", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "64", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "64", //
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "64", //
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+				////Quality 3 is cursed 1.75 - Works but Not cannon
+			///Quality 4 is not accepted. to prevent endless cycle with pfmAutomate. odd behavior if inputs are not aligned correctly on chest..
+
+		],
+
+	
+        "Sounds": ["Ship"],
+    },
+{
+        "ProducerName": "Slime Polisher",  ///Polish Amethyst
+        "InputIdentifier": "66", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "66", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "66", //
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "66", //
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+
+	
+        "Sounds": ["Ship"],
+    },
+{
+        "ProducerName": "Slime Polisher",  ///Polish Topaz
+        "InputIdentifier": "68", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "68", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "68", //
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "68", //
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+
+		],
+
+	
+        "Sounds": ["Ship"],
+    },
+{
+        "ProducerName": "Slime Polisher",  ///Polish Jade
+        "InputIdentifier": "70", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "70", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "70", //
+				"MinutesUntilReady": 1600, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "70", //
+				"MinutesUntilReady": 4000, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+
+	
+        "Sounds": ["Ship"],
+    },
+{
+        "ProducerName": "Slime Polisher",  ///Polish Diamond
+        "InputIdentifier": "72", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "72", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "72", //
+				"MinutesUntilReady": 2200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "72", //
+				"MinutesUntilReady": 5700, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+
+	
+        "Sounds": ["Ship"],
+    },
+{
+        "ProducerName": "Slime Polisher",  ///Polish Emerald
+        "InputIdentifier": "60", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "60", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "60", //
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "60", //
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+
+	
+        "Sounds": ["Ship"],
+    },
+{
+        "ProducerName": "Slime Polisher",  ///Polish Aquamarine
+        "InputIdentifier": "62", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "62", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "62", //
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "62", //
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+
+	
+        "Sounds": ["Ship"],
+    },
+{
+        "ProducerName": "Slime Polisher",  ///Polish PrismaticShard
+        "InputIdentifier": "74", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "74", //Silver
+				"MinutesUntilReady": 1600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "74", //
+				"MinutesUntilReady": 4100, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "74", //
+				"MinutesUntilReady": 5200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+
+	
+        "Sounds": ["Ship"],
+    },
+{
+        "ProducerName": "Slime Polisher",  ///Polish Quartz
+        "InputIdentifier": "80", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "80", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "80", //
+				"MinutesUntilReady": 900, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "80", //
+				"MinutesUntilReady": 1100, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+
+	
+        "Sounds": ["Ship"],
+    },
+{
+        "ProducerName": "Slime Polisher",  ///Polish Fire Quartz
+        "InputIdentifier": "82", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "82", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "82", //
+				"MinutesUntilReady": 900, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "82", //
+				"MinutesUntilReady": 1100, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+
+	
+        "Sounds": ["Ship"],
+    },
+{
+        "ProducerName": "Slime Polisher",  ///Polish Earth Crystal
+        "InputIdentifier": "86", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "86", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "86", //
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "86", //
+				"MinutesUntilReady": 2200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+
+		],
+
+	
+        "Sounds": ["Ship"],
+    },
+{
+        "ProducerName": "Slime Polisher",  ///Polish Frozen Tear
+        "InputIdentifier": "84", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "84", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "84", //
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "84", //
+				"MinutesUntilReady": 2200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+
+		],
+
+	
+        "Sounds": ["Ship"],
+    },
+///////////////Polish Jewelcraf jewels
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Aerinite Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Aerinite Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Aerinite Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Aerinite Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Aerinite Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Aerinite Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Aerinite Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Aerinite Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Alamite Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Alamite Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Alamite Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Alamite Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Alamite Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Alamite Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Alamite Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Alamite Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Enchanted Golden Amethyst Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Amethyst Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Amethyst Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Amethyst Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Amethyst Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Amethyst Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Amethyst Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Amethyst Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Amethyst Pin", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Amethyst Pin", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Amethyst Pin", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Amethyst Pin", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Enchanted Golden Amethyst Pin", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Amethyst Pin", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Amethyst Pin", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Amethyst Pin", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Ancient Drum Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Ancient Drum Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Ancient Drum Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Ancient Drum Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Ancient Drum Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Ancient Drum Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Ancient Drum Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Ancient Drum Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Aquamarine Earrings", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Aquamarine Earrings", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Aquamarine Earrings", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Aquamarine Earrings", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Enchanted Golden Aquamarine Earrings", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Aquamarine Earrings", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Aquamarine Earrings", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Aquamarine Earrings", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Enchanted Golden Aquamarine Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Aquamarine Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Aquamarine Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Aquamarine Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Aquamarine Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Aquamarine Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Aquamarine Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Aquamarine Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Baryte Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Baryte Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Baryte Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Baryte Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Baryte Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Baryte Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Baryte Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Baryte Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Basalt Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Basalt Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Basalt Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Basalt Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Basalt Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Basalt Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Basalt Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Basalt Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Bixite Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Bixite Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Bixite Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Bixite Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Bixite Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Bixite Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Bixite Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Bixite Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Calcite Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Calcite Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Calcite Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Calcite Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Calcite Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Calcite Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Calcite Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Calcite Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Celestine Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Celestine Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Celestine Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Celestine Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Celestine Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Celestine Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Celestine Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Celestine Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Enchanted Golden Diamond Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Diamond Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Diamond Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Diamond Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Diamond Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Diamond Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Diamond Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Diamond Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Diamond Ring", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Diamond Ring", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Diamond Ring", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Diamond Ring", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Enchanted Golden Diamond Ring", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Diamond Ring", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Diamond Ring", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Diamond Ring", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Dolomite Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Dolomite Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Dolomite Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Dolomite Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Dolomite Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Dolomite Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Dolomite Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Dolomite Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Dwarf Gadget Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Dwarf Gadget Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Dwarf Gadget Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Dwarf Gadget Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Dwarf Gadget Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Dwarf Gadget Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Dwarf Gadget Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Dwarf Gadget Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Dwarvish Helm Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Dwarvish Helm Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Dwarvish Helm Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Dwarvish Helm Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Dwarvish Helm Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Dwarvish Helm Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Dwarvish Helm Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Dwarvish Helm Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Earth Crystal Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Earth Crystal Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Earth Crystal Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Earth Crystal Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Earth Crystal Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Earth Crystal Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Earth Crystal Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Earth Crystal Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Enchanted Golden Emerald Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Emerald Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Emerald Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Emerald Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Emerald Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Emerald Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Emerald Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Emerald Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Emerald Ring", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Emerald Ring", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Emerald Ring", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Emerald Ring", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Enchanted Golden Emerald Ring", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Emerald Ring", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Emerald Ring", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Emerald Ring", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Esperite Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Esperite Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Esperite Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Esperite Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Esperite Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Esperite Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Esperite Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Esperite Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Fairy Stone Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Fairy Stone Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Fairy Stone Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Fairy Stone Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Fairy Stone Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Fairy Stone Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Fairy Stone Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Fairy Stone Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Fire Opal Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Fire Opal Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Fire Opal Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Fire Opal Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Fire Opal Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Fire Opal Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Fire Opal Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Fire Opal Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Fire Quartz Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Fire Quartz Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Fire Quartz Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Fire Quartz Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Fire Quartz Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Fire Quartz Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Fire Quartz Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Fire Quartz Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Fluorapatite Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Fluorapatite Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Fluorapatite Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Fluorapatite Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Fluorapatite Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Fluorapatite Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Fluorapatite Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Fluorapatite Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Frozen Tear Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Frozen Tear Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Frozen Tear Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Frozen Tear Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Frozen Tear Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Frozen Tear Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Frozen Tear Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Frozen Tear Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Geminite Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Geminite Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Geminite Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Geminite Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Geminite Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Geminite Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Geminite Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Geminite Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Ghost Crystal Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Ghost Crystal Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Ghost Crystal Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Ghost Crystal Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Ghost Crystal Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Ghost Crystal Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Ghost Crystal Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Ghost Crystal Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Enchanted Golden Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Granite Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Granite Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Granite Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Granite Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Granite Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Granite Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Granite Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Granite Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Helvite Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Helvite Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Helvite Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Helvite Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Helvite Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Helvite Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Helvite Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Helvite Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Hematite Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Hematite Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Hematite Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Hematite Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Hematite Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Hematite Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Hematite Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Hematite Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Jade Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Jade Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Jade Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Jade Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Jade Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Jade Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Jade Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Jade Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Jagoite Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Jagoite Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Jagoite Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Jagoite Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Jagoite Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Jagoite Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Jagoite Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Jagoite Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Jamborite Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Jamborite Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Jamborite Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Jamborite Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Jamborite Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Jamborite Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Jamborite Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Jamborite Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Jasper Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Jasper Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Jasper Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Jasper Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Jasper Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Jasper Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Jasper Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Jasper Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Kyanite Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Kyanite Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Kyanite Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Kyanite Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Kyanite Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Kyanite Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Kyanite Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Kyanite Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Lemon Stone Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Lemon Stone Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Lemon Stone Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Lemon Stone Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Lemon Stone Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Lemon Stone Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Lemon Stone Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Lemon Stone Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Limestone Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Limestone Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Limestone Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Limestone Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Limestone Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Limestone Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Limestone Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Limestone Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Lunarite Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Lunarite Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Lunarite Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Lunarite Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Lunarite Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Lunarite Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Lunarite Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Lunarite Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Malachite Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Malachite Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Malachite Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Malachite Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Malachite Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Malachite Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Malachite Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Malachite Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Marble Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Marble Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Marble Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Marble Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Marble Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Marble Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Marble Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Marble Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Mudstone Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Mudstone Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Mudstone Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Mudstone Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Mudstone Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Mudstone Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Mudstone Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Mudstone Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Nekoite Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Nekoite Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Nekoite Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Nekoite Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Nekoite Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Nekoite Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Nekoite Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Nekoite Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Neptunite Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Neptunite Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Neptunite Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Neptunite Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Neptunite Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Neptunite Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Neptunite Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Neptunite Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Obsidian Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Obsidian Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Obsidian Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Obsidian Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Obsidian Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Obsidian Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Obsidian Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Obsidian Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Ocean Stone Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Ocean Stone Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Ocean Stone Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Ocean Stone Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Ocean Stone Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Ocean Stone Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Ocean Stone Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Ocean Stone Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Opal Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Opal Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Opal Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Opal Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Opal Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Opal Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Opal Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Opal Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Orpiment Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Orpiment Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Orpiment Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Orpiment Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Orpiment Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Orpiment Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Orpiment Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Orpiment Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Petrified Slime Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Petrified Slime Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Petrified Slime Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Petrified Slime Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Petrified Slime Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Petrified Slime Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Petrified Slime Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Petrified Slime Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Pyrite Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Pyrite Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Pyrite Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Pyrite Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Pyrite Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Pyrite Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Pyrite Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Pyrite Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Ruby Brooch", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Ruby Brooch", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Ruby Brooch", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Ruby Brooch", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Enchanted Golden Ruby Brooch", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Ruby Brooch", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Ruby Brooch", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Ruby Brooch", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Enchanted Golden Ruby Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Ruby Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Ruby Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Ruby Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Ruby Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Ruby Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Ruby Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Ruby Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Sandstone Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Sandstone Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Sandstone Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Sandstone Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Sandstone Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Sandstone Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Sandstone Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Sandstone Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Slate Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Slate Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Slate Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Slate Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Slate Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Slate Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Slate Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Slate Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Soapstone Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Soapstone Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Soapstone Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Soapstone Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Soapstone Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Soapstone Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Soapstone Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Soapstone Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Star Shards Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Star Shards Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Star Shards Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Star Shards Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Star Shards Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Star Shards Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Star Shards Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Star Shards Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Thunder Egg Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Thunder Egg Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Thunder Egg Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Thunder Egg Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Thunder Egg Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Thunder Egg Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Thunder Egg Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Thunder Egg Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Tigerseye Enchanted Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Tigerseye Enchanted Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Tigerseye Enchanted Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Tigerseye Enchanted Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Tigerseye Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Tigerseye Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Tigerseye Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Tigerseye Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Topaz Bracelet", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Topaz Bracelet", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Topaz Bracelet", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Topaz Bracelet", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Enchanted Golden Topaz Bracelet", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Topaz Bracelet", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Topaz Bracelet", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Topaz Bracelet", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Enchanted Golden Topaz Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Topaz Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Topaz Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Enchanted Golden Topaz Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+{
+        "ProducerName": "Slime Polisher",  ///
+        "InputIdentifier": "Golden Topaz Faberge", //
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Topaz Faberge", //Silver
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Topaz Faberge", //Gold
+				"MinutesUntilReady": 1200, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Golden Topaz Faberge", //Iridium
+				"MinutesUntilReady": 2400, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+
+]

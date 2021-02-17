@@ -1,0 +1,66 @@
+{
+    "Name": "Aeroponics Tower - Coffee",
+    "Description": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Coffee.",
+    "Price": 100,
+    "ProvidesLight": false,
+	"ReserveExtraIndexCount": 2,
+    "Recipe":
+    { 
+        "ResultCount": 1,
+        "Ingredients": [
+			{
+				"Object": "Aeroponics Tower Base", 
+				"Count": 1
+			},
+			{
+				"Object": "Aeroponics Tower Frame", 
+				"Count": 2
+			},
+			{
+				"Object": "Water Pump", 
+				"Count": 1
+			},
+			{
+				"Object": "Pipes", 
+				"Count": 4
+			},
+			{
+				"Object": "Coffee Bean Seedlings", //Stone
+				"Count": 1
+			}
+		],
+		
+		"CanPurchase": true, 
+		"PurchaseFrom": "Robin",
+		"PurchasePrice": 350,
+		"PurchaseRequirements": ["j 336", "f Demetrius 2000"],
+    },
+        "NameLocalization": //Used for localization. 
+        { 
+            "es": "Aeroponics Tower - Coffee", //Spansih
+            "ko": "Aeroponics Tower - Coffee", //Korean
+            "de": "Aeroponics Tower - Coffee", //German
+            "fr": "Aeroponics Tower - Coffee", //French
+            "hu": "Aeroponics Tower - Coffee", //Hungarian
+            "it": "Aeroponics Tower - Coffee", //Italian
+            "ja": "Aeroponics Tower - Coffee", //Japanese
+            "pt": "Aeroponics Tower - Coffee", //Portuguese
+            "ru": "Aeroponics Tower - Coffee", //Russian
+            "tr": "Aeroponics Tower - Coffee", //Turkish
+            "zh": "气雾栽培塔-咖啡" //Chinese (Simplified)
+        },
+        "DescriptionLocalization": //Used for localization. 
+        { 
+            "es": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Coffee.", //Spansih
+            "ko": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Coffee.", //Korean
+            "de": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Coffee.", //German
+            "fr": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Coffee.", //French
+            "hu": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Coffee.", //Hungarian
+            "it": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Coffee.", //Italian
+            "ja": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Coffee.", //Japanese
+            "pt": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Coffee.", //Portuguese
+            "ru": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Coffee.", //Russian
+            "tr": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Coffee.", //Turkish
+            "zh": "一个气雾栽培塔，外部装有种植槽，内部装有喷嘴，用于喷洒营养液。 配置为种植咖啡。" //Chinese (Simplified)
+        }
+    }

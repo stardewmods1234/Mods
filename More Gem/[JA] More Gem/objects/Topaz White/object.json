@@ -1,0 +1,46 @@
+{
+    "Name": "White Topaz",
+    "Description": "Colorless topaz.",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
+    "Edibility": -300,
+    "Price": 80,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "화이트 토파즈",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Topázio Branco",
+        // "ru": "",
+        // "tr": "",
+        "zh": "白色托帕石",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "무색의 토파즈.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Um topázio incolor.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "没有颜色的透明托帕石。",
+    },
+	
+    "ContextTags": [
+        "color_white", "topaz_item", "white_gem", 
+    ],
+}

@@ -1,0 +1,2789 @@
+{
+  "Format": "1.19.0",
+   "ConfigSchema": {
+		"UseLegacyLionfish": {
+			"AllowValues": "true, false",
+			"Default": "false"
+			},
+		"EasyFishing": {
+			"AllowValues": "true, false",
+			"Default": "false"
+			},
+		"EnableWillyDialogues": {
+		"AllowValues": "true, false",
+		"Default": "true"
+			},
+		"EnableGiftTastes": {
+		"AllowValues": "true, false",
+		"Default": "true"
+			},
+		},
+  "Changes": [
+    {
+      "Action": "EditData",
+	  "LogName": "Fish Location Data",
+      "Target": "Data/Locations",
+      "Entries": {
+	 "UndergroundMine": "-1/-1/-1/-1/153 -1 156 -1 157 -1 1145 -1 1062 -1 1075 -1 1095 -1 1184 -1 1185 -1 1114 -1/153 -1 156 -1 157 -1 1145 -1 1062 -1 1075 -1 1095 -1 1184 -1 1185 -1 1114 -1/153 -1 156 -1 157 -1 1145 -1 1062 -1 1075 -1 1095 -1 1184 -1 1185 -1 1114 -1/153 -1 156 -1 157 -1 1145 -1 1062 -1 1075 -1 1095 -1 1184 -1 1185 -1 1114 -1/107 .01",
+	  "Desert": "88 .5 90 .5/88 .5 90 .5/88 .5 90 .5/88 .5 90 .5/153 -1 164 -1 165 -1 1142 -1 1153 -1 1154 -1 1155 -1/153 -1 164 -1 165 -1 1142 -1 1153 -1 1154 -1 1155 -1/153 -1 164 -1 165 -1 1142 -1 1153 -1 1154 -1 1155 -1/153 -1 164 -1 165 -1 1142 -1 1153 -1 1154 -1 1155 -1/390 .25 330 1",
+	  "Forest": "16 .9 22 .9/396 .6 402 .9/404 .9 410 .9/418 .9 414 .9 283 .5/153 -1 145 0 143 0 137 1 132 0 706 0 702 0 1146 1 1147 1 1057 1 1074 1 1084 1 1086 0 1088 1 1091 1 1092 0/153 -1 145 0 144 -1 138 0 132 0 706 0 704 0 702 0 701 -1 1146 1 1148 1 1125 0 1057 1 1063 0 1074 1 1084 1 1086 0 1092 0 1087 1 1091 1/143 0 153 -1 140 -1 139 0 137 1 132 0 706 0 702 0 699 0 701 -1 269 1 1146 1 1149 1 1134 1 1057 1 1083 1 1086 0 1087 1 1091 1/699 0 143 0 153 -1 144 -1 141 -1 140 -1 132 0 707 0 702 0 269 1 1133 0 1134 1 1146 1 1150 1 1085 1 1089 1 1090 1/378 .08 579 .1 588 .1 102 .15 390 .25 330 1",
+	  "Beach": "372 .9 718 .1 719 .3 723 .3 1096 .4 1097 .3/372 .9 394 .5 718 .1 719 .3 723 .3 1096 .5 1098 .1/372 .9 718 .1 719 .3 723 .3 1096 .5 1099 .1/372 .4 392 .8 718 .05 719 .2 723 .2 1096 .5 1100 .1/129 -1 131 -1 147 -1 148 -1 152 -1 708 -1 1120 -1 1137 -1 1139 -1 1143 -1 1058 -1 1071 -1 1076 -1 267 -1/128 -1 130 -1 146 -1 149 -1 150 -1 152 -1 155 -1 708 -1 267 -1 1120 -1 1129 -1 1143 -1 1068 -1 1070 -1 1071 -1/129 -1 131 -1 148 -1 150 -1 152 -1 154 -1 155 -1 705 -1 1135 -1 1136 -1 1059 -1 1069 -1/708 -1 130 -1 131 -1 146 -1 147 -1 150 -1 151 -1 152 -1 154 -1 705 -1 1135 -1 1138 -1 1126 -1 1060 -1 1061 -1 1072 -1 1080 -1 1109 -1 1119 -1/384 .08 589 .09 102 .15 390 .25 330 1",
+	  "Town": "18 .9/402 .9/410 .6/418 .7 414 .1 283 .5/137 -1 132 -1 143 -1 145 -1 153 -1 706 -1 1073 -1 1086 -1 1088 -1 1092 -1/138 -1 132 -1 144 -1 145 -1 153 -1 706 -1 701 -1 1073 -1 1086 -1 1092 -1 1063 -1 1087 -1/139 -1 137 -1 132 -1 140 -1 143 -1 153 -1 706 -1 699 -1 701 -1 1086 -1 1092 -1 1087 -1/132 -1 140 -1 141 -1 143 -1 144 -1 153 -1 707 -1 699 -1 1089 -1/378 .2 110 .2 583 .1 102 .2 390 .25 330 1",
+	  "Woods": "257 .5 404 .25 16 .8/259 .9 420 .25/281 .5 404 .6 420 .2/283 .9/734 -1 142 -1 143 -1 1122 -1 1077 -1/734 -1 142 -1 143 -1 1123 -1 1082 -1/734 -1 142 -1 143 -1 1121 -1 1078 -1/734 -1 142 -1 143 -1 1127 -1 1128 -1 1079 -1 1081 -1/390 .25 330 1",
+      "Mountain": "20 .7 16 .5/396 .5 398 .8/404 .4 406 .4 408 .9/414 .85 418 .9 283 .5/136 -1 142 -1 153 -1 702 -1 700 -1 163 -1 1132 -1 1124 -1 1074 -1 1084 -1 1086 -1 1088 -1 1091 -1 1092 -1/136 -1 142 -1 153 -1 138 -1 702 -1 700 -1 698 -1 1124 -1 1074 -1 1084 -1 1086 -1 1091 -1 1092 -1/136 -1 140 -1 142 -1 153 -1 702 -1 700 -1 1132 -1 1134 -1 1056 -1 1083 -1 1086 -1 1087 -1 1091 -1 1092 -1 269 -1/136 -1 140 -1 141 -1 153 -1 707 -1 702 -1 700 -1 698 -1 1134 -1 1085 -1 1089 -1 1090 -1 269 -1/382 .06 581 .1 378 .1 102 .15 390 .25 330 1",
+      "Sewer": "-1/-1/-1/-1/142 -1 153 -1 157 -1 1131 -1 1092 -1 1110 -1/142 -1 153 -1 157 -1 1131 -1 1092 -1 1110 -1/142 -1 153 -1 157 -1 1131 -1 1092 -1 1110 -1/142 -1 153 -1 157 -1 1131 -1 1092 -1 1110 -1/-1",
+      "BugLand": "-1/-1/-1/-1/796 -1 142 -1 153 -1 157 -1 1130 -1 1067 -1 1092 -1/796 -1 142 -1 153 -1 157 -1 1130 -1 1067 -1 1092 -1/796 -1 142 -1 153 -1 157 -1 1130 -1 1067 -1 1092 -1/796 -1 142 -1 153 -1 157 -1 1130 -1 1067 -1 1092 -1/-1",
+      "WitchSwamp": "-1/-1/-1/-1/795 -1 153 -1 143 -1 157 -1 1140 -1 1141 -1 1064 -1 1065 -1 1066 -1 1111 -1/795 -1 153 -1 143 -1 157 -1 1140 -1 1141 -1 1064 -1 1065 -1 1066 -1 1111 -1/795 -1 153 -1 143 -1 157 -1 1140 -1 1141 -1 1064 -1 1065 -1 1066 -1 1111 -1/795 -1 153 -1 143 -1 157 -1 1140 -1 1141 -1 1064 -1 1065 -1 1066 -1 1111 -1/-1",
+	    "IslandNorth": "-1/-1/-1/-1/701 -1 838 -1 269 -1 1201 -1/701 -1 838 -1 269 -1 1201 -1/701 -1 838 -1 269 -1 1201 -1/701 -1 838 -1 269 -1 1201 -1/791 .05 292 .05 774 .1 749 1",
+		"IslandSouth": "-1/-1/-1/-1/155 -1 130 -1 128 -1 267 -1 837 -1 1202 -1/155 -1 130 -1 128 -1 267 -1 837 -1 1202 -1/155 -1 130 -1 128 -1 267 -1 837 -1 1202 -1/155 -1 130 -1 128 -1 267 -1 837 -1 1202 -1/791 .05 292 .05 774 .1 749 1",
+		"IslandWest": "-1/-1/-1/-1/149 1 155 1 130 1 128 1 267 1 837 1 701 2 838 2 269 2 1202 1 1201 2/149 1 155 1 130 1 128 1 267 1 837 1 701 2 838 2 269 2 1202 1 1201 2/149 1 155 1 130 1 128 1 267 1 837 1 701 2 838 2 269 2 1202 1 1201 2/149 1 155 1 130 1 128 1 267 1 837 1 701 2 838 2 269 2 1202 1 1201 2/791 .05 292 .05 774 .1 749 1",
+		"IslandSouthEast": "-1/-1/-1/-1/155 -1 130 -1 128 -1 267 -1 837 -1 1202 -1/155 -1 130 -1 128 -1 267 -1 837 -1 1202 -1 1203 -1/155 -1 130 -1 128 -1 267 -1 837 -1 1202 -1/155 -1 130 -1 128 -1 267 -1 837 -1 1202 -1/791 .05 292 .05 774 .1 749 1",
+		"IslandSouthEastCave": "-1/-1/-1/-1/155 -1 130 -1 128 -1 267 -1 836 -1 1203 -1/155 -1 130 -1 128 -1 267 -1 836 -1 1203 -1/155 -1 130 -1 128 -1 267 -1 836 -1 1203 -1/155 -1 130 -1 128 -1 267 -1 836 -1 1203 -1/791 .05 292 .05 774 .1 749 1",
+		"IslandSecret": "372 .6 397 .5 394 .5 393 .3 718 .2 719 .3 723 .3/372 .6 397 .5 394 .5 393 .3 718 .2 719 .3 723 .3/372 .6 397 .5 394 .5 393 .3 718 .2 719 .3 723 .3/372 .6 397 .5 394 .5 393 .3 718 .2 719 .3 723 .3/836 -1 267 -1 151 -1 708 -1 146 -1 155 -1 130 -1 1203 -1/836 -1 267 -1 151 -1 708 -1 146 -1 155 -1 130 -1 1203 -1/836 -1 267 -1 151 -1 708 -1 146 -1 155 -1 130 -1 1203 -1/836 -1 267 -1 151 -1 708 -1 146 -1 155 -1 130 -1 1203 -1/791 .05 292 .05 774 .1 749 1",
+	    }
+        },
+		//EPIC DATA
+	{
+   "Action": "EditData",
+   "Target": "Data/Locations",
+   "LogName": "Vampire Fish",
+   "When": {"Weather":"Storm"},
+   "Entries": {
+    "BugLand": "-1/-1/-1/-1/796 -1 142 -1 153 -1 157 -1 1130 -1 1067 -1 1092 -1 1152 -1/796 -1 142 -1 153 -1 157 -1 1130 -1 1067 -1 1092 -1 1152 -1/796 -1 142 -1 153 -1 157 -1 1130 -1 1067 -1 1092 -1 1152 -1/796 -1 142 -1 153 -1 157 -1 1130 -1 1067 -1 1092 -1/-1",
+    }
+    },
+	{
+   "Action": "EditData",
+   "Target": "Data/Locations",
+   "LogName": "Shinidamachu",
+   "When": {"DayEvent": "spirit's eve"},
+   "Entries": {
+   	 "UndergroundMine": "-1/-1/-1/-1/153 -1 156 -1 157 -1 1145 -1 1062 -1 1075 -1 1095 -1 1184 -1 1185 -1 1114 -1/153 -1 156 -1 157 -1 1145 -1 1062 -1 1075 -1 1095 -1 1184 -1 1185 -1 1114 -1/153 -1 156 -1 157 -1 1145 -1 1062 -1 1075 -1 1095 -1 1184 -1 1185 -1 1114 -1 1118 -1/153 -1 156 -1 157 -1 1145 -1 1062 -1 1075 -1 1095 -1 1184 -1 1185 -1 1114 -1/107 .01",
+	  "Desert": "88 .5 90 .5/88 .5 90 .5/88 .5 90 .5/88 .5 90 .5/153 -1 164 -1 165 -1 1142 -1 1153 -1 1154 -1 1155 -1/153 -1 164 -1 165 -1 1142 -1 1153 -1 1154 -1 1155 -1/153 -1 164 -1 165 -1 1142 -1 1118 -1 1153 -1 1154 -1 1155 -1/153 -1 164 -1 165 -1 1142 -1 1153 -1 1154 -1 1155 -1/390 .25 330 1",
+	  "Forest": "16 .9 22 .9/396 .6 402 .9/404 .9 410 .9/418 .9 414 .9 283 .5/153 -1 145 0 143 0 137 1 132 0 706 0 702 0 1146 1 1147 1 1057 1 1074 1 1084 1 1086 0 1088 1 1091 1 1092 0/153 -1 145 0 144 -1 138 0 132 0 706 0 704 0 702 0 701 -1 1146 1 1148 1 1125 0 1057 1 1063 0 1074 1 1084 1 1086 0 1092 0 1087 1 1091 1/143 0 153 -1 140 -1 139 0 137 1 132 0 706 0 702 0 699 0 701 -1 1146 1 1149 1 1134 1 1057 1 1083 1 1086 0 1087 1 1091 1 1118 -1/699 0 143 0 153 -1 144 -1 141 -1 140 -1 132 0 707 0 702 0 1133 0 1134 1 1146 1 1150 1 1085 1 1089 1 1090 1/378 .08 579 .1 588 .1 102 .15 390 .25 330 1",
+	  "Beach": "372 .9 718 .1 719 .3 723 .3 1096 .4 1097 .3/372 .9 394 .5 718 .1 719 .3 723 .3 1096 .5 1098 .1/372 .9 718 .1 719 .3 723 .3 1096 .5 1099 .1/372 .4 392 .8 718 .05 719 .2 723 .2 1096 .5 1100 .1/129 -1 131 -1 147 -1 148 -1 152 -1 708 -1 1120 -1 1137 -1 1139 -1 1143 -1 1058 -1 1071 -1 1076 -1/128 -1 130 -1 146 -1 149 -1 150 -1 152 -1 155 -1 708 -1 1120 -1 1129 -1 1143 -1 1068 -1 1070 -1 1071 -1/129 -1 131 -1 148 -1 150 -1 152 -1 154 -1 155 -1 705 -1 1135 -1 1136 -1 1059 -1 1069 -1 1118 -1/708 -1 130 -1 131 -1 146 -1 147 -1 150 -1 151 -1 152 -1 154 -1 705 -1 1135 -1 1138 -1 1126 -1 1060 -1 1061 -1 1072 -1 1080 -1 1109 -1/384 .08 589 .09 102 .15 390 .25 330 1",
+	  "Town": "18 .9/402 .9/410 .6/418 .7 414 .1 283 .5/137 -1 132 -1 143 -1 145 -1 153 -1 706 -1 1073 -1 1086 -1 1092 -1/138 -1 132 -1 144 -1 145 -1 153 -1 706 -1 701 -1 1073 -1 1086 -1 1092 -1/139 -1 137 -1 132 -1 140 -1 143 -1 153 -1 706 -1 699 -1 701 -1 1086 -1 1092 -1 1118 -1/132 -1 140 -1 141 -1 143 -1 144 -1 153 -1 707 -1 699 -1/378 .2 110 .2 583 .1 102 .2 390 .25 330 1",
+	  "Woods": "257 .5 404 .25 16 .8/259 .9 420 .25/281 .5 404 .6 420 .2/283 .9/734 -1 142 -1 143 -1 1123 -1 1077 -1/734 -1 142 -1 143 -1 1122 -1 1082 -1/734 -1 142 -1 143 -1 1121 -1 1078 -1 1118 -1/734 -1 142 -1 143 -1 1127 -1 1128 -1 1079 -1 1081 -1/390 .25 330 1",
+      "Mountain": "20 .7 16 .5/396 .5 398 .8/404 .4 406 .4 408 .9/414 .85 418 .9 283 .5/136 -1 142 -1 153 -1 702 -1 700 -1 163 -1 1132 -1 1124 -1 1074 -1 1084 -1 1086 -1 1088 -1 1091 -1 1092 -1/136 -1 142 -1 153 -1 138 -1 702 -1 700 -1 698 -1 1124 -1 1074 -1 1084 -1 1086 -1 1091 -1 1092 -1/136 -1 140 -1 142 -1 153 -1 702 -1 700 -1 1132 -1 1134 -1 1056 -1 1083 -1 1086 -1 1087 -1 1091 -1 1092 -1 1118 -1/136 -1 140 -1 141 -1 153 -1 707 -1 702 -1 700 -1 698 -1 1134 -1 1085 -1 1089 -1 1090 -1/382 .06 581 .1 378 .1 102 .15 390 .25 330 1",
+      "Sewer": "-1/-1/-1/-1/142 -1 153 -1 157 -1 1131 -1 1092 -1 1110 -1/142 -1 153 -1 157 -1 1131 -1 1092 -1 1110 -1/142 -1 153 -1 157 -1 1131 -1 1092 -1 1110 -1 1118 -1/142 -1 153 -1 157 -1 1131 -1 1092 -1 1110 -1/-1",
+      "BugLand": "-1/-1/-1/-1/796 -1 142 -1 153 -1 157 -1 1130 -1 1067 -1 1092 -1/796 -1 142 -1 153 -1 157 -1 1130 -1 1067 -1 1092 -1/796 -1 142 -1 153 -1 157 -1 1130 -1 1067 -1 1092 -1 1118 -1/796 -1 142 -1 153 -1 157 -1 1130 -1 1067 -1 1092 -1/-1",
+      "WitchSwamp": "-1/-1/-1/-1/795 -1 153 -1 143 -1 157 -1 1140 -1 1141 -1 1064 -1 1065 -1 1066 -1 1111 -1/795 -1 153 -1 143 -1 157 -1 1140 -1 1141 -1 1064 -1 1065 -1 1066 -1 1111 -1/795 -1 153 -1 143 -1 157 -1 1140 -1 1141 -1 1064 -1 1065 -1 1066 -1 1111 -1 1118 -1/795 -1 153 -1 143 -1 157 -1 1140 -1 1141 -1 1064 -1 1065 -1 1066 -1 1111 -1/-1",
+	  }
+    },
+	//Boarding House Data
+	{
+   "Action": "EditData",
+   "Target": "Data/Locations",
+   "LogName": "Lost Valley Fish",
+   "When": {"HasMod":"BusStopExpansion"},
+   "Entries": {
+     "TheLostValley": "-1/-1/-1/-1/1145 -1 1062 -1 1075 -1 1095 -1 1184 -1 1185 -1 1114 -1/1145 -1 1062 -1 1075 -1 1095 -1 1184 -1 1185 -1 1114 -1/1145 -1 1062 -1 1075 -1 1095 -1 1184 -1 1185 -1 1114 -1/1145 -1 1062 -1 1075 -1 1095 -1 1184 -1 1185 -1 1114 -1/-1",
+    },
+    },
+	{
+   "Action": "EditData",
+   "Target": "Data/Locations",
+   "LogName": "Lost Valley Shinimadachu",
+   "When": {"HasMod":"BusStopExpansion","DayEvent": "spirit's eve"},
+   "Entries": {
+     "TheLostValley": "-1/-1/-1/-1/1145 -1 1062 -1 1075 -1 1095 -1 1184 -1 1185 -1 1114 -1/1145 -1 1062 -1 1075 -1 1095 -1 1184 -1 1185 -1 1114 -1/1145 -1 1062 -1 1075 -1 1095 -1 1184 -1 1185 -1 1114 -1 1118 -1/1145 -1 1062 -1 1075 -1 1095 -1 1184 -1 1185 -1 1114 -1/-1",
+    },
+    },
+	{
+   "Action": "EditData",
+   "Target": "Data/Locations",
+   "LogName": "Frilled Shark",
+   "When": {"HasMod":"BusStopExpansion",
+   "SkillLevel:Combat":"8,9,10,11,12,13,14,15,16,17,18,19,20"},
+   "Entries": {
+    "TheLostValley": "-1/-1/-1/-1/1145 -1 1062 -1 1075 -1 1095 -1 1184 -1 1185 -1 1114 -1 1183 -1/1145 -1 1062 -1 1075 -1 1095 -1 1184 -1 1185 -1 1114 -1 1183 -1/1145 -1 1062 -1 1075 -1 1095 -1 1184 -1 1185 -1 1114 -1 1183 -1/1145 -1 1062 -1 1075 -1 1095 -1 1184 -1 1185 -1 1114 -1 1183 -1/-1",
+    },
+    },
+	{
+   "Action": "EditData",
+   "Target": "Data/Locations",
+   "LogName": "Frilled Shark & Shinimadachu",
+   "When": {"HasMod":"BusStopExpansion","Day": "27",
+  "Season":"fall" },
+   "Entries": {
+     "LostValley": "-1/-1/-1/-1/1145 -1 1062 -1 1075 -1 1095 -1 1184 -1 1185 -1 1114 -1 1183 -1/1145 -1 1062 -1 1075 -1 1095 -1 1184 -1 1185 -1 1114 -1 1183 -1/1145 -1 1062 -1 1075 -1 1095 -1 1184 -1 1185 -1 1114 -1 1118 -1 1183 -1/1145 -1 1062 -1 1075 -1 1095 -1 1184 -1 1185 -1 1114 -1 1183 -1/-1",
+    },
+    },
+	//Mermaid Island Data
+	{
+   "Action": "EditData",
+   "Target": "Data/Locations",
+   "LogName": "Great Firefly Squid",
+   "When": {
+   "Season |contains=summer":true,
+   "Day |contains=26,27,28":true,
+   "HasMod":"IslandTMX",
+   },
+    "Entries": {
+	"Island": "1096 .6 1097 .5/1096 .7 1098 .4 88.35/1096 .8 1099 .3/1096 .9 1100 .2/1169 -1 1170 -1 1175 -1 1162 -1 1157 -1 1161 -1 1165 -1 1164 -1 1186 -1 1076 -1 1071 -1/1168 -1 1171 -1 1173 -1 1175 -1 1159 -1 1158 -1 1166 -1 1160 -1 1177 -1 1068 -1 1071 -1 1188 -1/1172 -1 1174 -1 1175 -1 1156 -1 1163 -1 1187 -1 1179 -1 1182 -1 1167 -1 1059 -1 1069 -1/1181 -1 1176 -1 1178 -1 1180 -1 1182 -1 1167 -1 1060 -1 1080 -1 1061 -1/384 .08 589 .09 102 .15 390 .25 330 1",
+	},
+	},
+	{
+   "Action": "EditData",
+   "Target": "Data/Locations",
+   "LogName": "Island Fish",
+   "When": {
+    "Season |contains=summer":true,
+   "Day |contains=26,27,28":false,
+  "HasMod":"IslandTMX",
+   },
+    "Entries": {
+	"Island": "1096 .6 1097 .5/1096 .7 1098 .4 88.35/1096 .8 1099 .3/1096 .9 1100 .2/1169 -1 1170 -1 1175 -1 1162 -1 1157 -1 1161 -1 1165 -1 1164 -1 1186 -1 1076 -1 1071 -1/1168 -1 1171 -1 1173 -1 1175 -1 1159 -1 1158 -1 1166 -1 1160 -1 1177 -1 1068 -1 1071 -1/1172 -1 1174 -1 1175 -1 1156 -1 1163 -1 1187 -1 1179 -1 1182 -1 1167 -1 1059 -1 1069 -1/1181 -1 1176 -1 1178 -1 1180 -1 1182 -1 1167 -1 1060 -1 1080 -1 1061 -1/384 .08 589 .09 102 .15 390 .25 330 1",
+	},
+	},
+	{
+   "Action": "EditData",
+   "Target": "Data/Locations",
+   "LogName": "Island Fish",
+   "When": {
+  "Season": "spring, fall, winter",
+  "HasMod":"IslandTMX",
+   },
+    "Entries": {
+	"Island": "1096 .6 1097 .5/1096 .7 1098 .4 88.35/1096 .8 1099 .3/1096 .9 1100 .2/1169 -1 1170 -1 1175 -1 1162 -1 1157 -1 1161 -1 1165 -1 1164 -1 1186 -1 1076 -1 1071 -1/1168 -1 1171 -1 1173 -1 1175 -1 1159 -1 1158 -1 1166 -1 1160 -1 1177 -1 1068 -1 1071 -1/1172 -1 1174 -1 1175 -1 1156 -1 1163 -1 1187 -1 1179 -1 1182 -1 1167 -1 1059 -1 1069 -1/1181 -1 1176 -1 1178 -1 1180 -1 1182 -1 1167 -1 1060 -1 1080 -1 1061 -1/384 .08 589 .09 102 .15 390 .25 330 1",
+	},
+	},
+	{
+   "Action": "EditData",
+   "Target": "Data/Locations",
+   "LogName": "Shinidamachu Island",
+   "When": {
+  "HasMod":"IslandTMX",
+  "Day": "27",
+  "Season":"fall"
+   },
+    "Entries": {
+	"Island": "1096 .6 1097 .5/1096 .7 1098 .4 88.35/1096 .8 1099 .3/1096 .9 1100 .2/1169 -1 1170 -1 1175 -1 1162 -1 1157 -1 1161 -1 1165 -1 1164 -1 1186 -1 1076 -1 1071 -1 1111 -1/1168 -1 1171 -1 1173 -1 1175 -1 1159 -1 1158 -1 1166 -1 1160 -1 1177 -1 1068 -1 1071 -1 1111 -1/1172 -1 1174 -1 1175 -1 1156 -1 1163 -1 1187 -1 1179 -1 1182 -1 1167 -1 1059 -1 1069 -1 1111 -1/1181 -1 1176 -1 1178 -1 1180 -1 1182 -1 1167 -1 1060 -1 1080 -1 1061 -1 1111 -1/384 .08 589 .09 102 .15 390 .25 330 1",
+	},
+	},
+	//SVE Compat
+		{
+   "Action": "EditData",
+   "Target": "Data/Locations",
+   "LogName": "SVE Compat",
+   "When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP":true,"HasMod |contains=spacechase0.JsonAssets":true},
+   "Entries": {
+    "Forest": "16 .9 22 .9/396 .6 402 .9/404 .9 410 .9/418 .9 414 .9 283 .5/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 153 -1 145 0 143 0 137 1 132 0 706 0 702 0 1146 1 1147 1 1057 1 1074 1 1084 1 1086 0 1088 1 1091 1 1092 0/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 153 -1 145 0 144 -1 138 0 132 0 706 0 704 0 702 0 701 -1 1146 1 1148 1 1125 0 1057 1 1063 0 1074 1 1084 1 1086 0 1092 0 1087 1 1091 1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 143 0 153 -1 140 -1 139 0 137 1 132 0 706 0 702 0 699 0 701 -1 269 1 1146 1 1149 1 1134 1 1057 1 1083 1 1086 0 1087 1 1091 1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 699 0 143 0 153 -1 144 -1 141 -1 140 -1 132 0 707 0 702 0 269 1 1133 0 1134 1 1146 1 1150 1 1085 1 1089 1 1090 1/378 .08 579 .1 588 .1 102 .15 390 .25 330 1",
+	"Town": "18 .9/402 .9/410 .6/418 .7 414 .1 283 .5/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 137 -1 132 -1 143 -1 145 -1 153 -1 706 -1 1073 -1 1086 -1 1088 -1 1092 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 138 -1 132 -1 144 -1 145 -1 153 -1 706 -1 701 -1 1073 -1 1086 -1 1092 -1 1063 -1 1087 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 139 -1 137 -1 132 -1 140 -1 143 -1 153 -1 706 -1 699 -1 701 -1 1086 -1 1092 -1 1087 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 132 -1 140 -1 141 -1 143 -1 144 -1 153 -1 707 -1 699 -1 1089 -1/378 .2 110 .2 583 .1 102 .2 390 .25 330 1",
+	"LostWoods": "257 .5 404 .25 16 .8/259 .9 420 .25/281 .5 404 .6 420 .2/283 .9/734 -1 142 -1 143 -1 1123 -1 1077 -1/734 -1 142 -1 143 -1 1122 -1 1082 -1/734 -1 142 -1 143 -1 1121 -1 1078 -1/734 -1 142 -1 143 -1 1079 -1 1081 -1/390 .25 330 1",
+	 "BugLand": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Void Eel}} -1 796 -1 142 -1 153 -1 157 -1 1130 -1 1067 -1 1092 -1/{{spacechase0.JsonAssets/ObjectId:Void Eel}} -1 796 -1 142 -1 153 -1 157 -1 1130 -1 1067 -1 1092 -1/{{spacechase0.JsonAssets/ObjectId:Void Eel}} -1 796 -1 142 -1 153 -1 157 -1 1130 -1 1067 -1 1092 -1/{{spacechase0.JsonAssets/ObjectId:Void Eel}} -1 796 -1 142 -1 153 -1 157 -1 1130 -1 1067 -1 1092 -1/-1",
+	 "Mountain": "20 .7 16 .5/396 .5 398 .8/404 .4 406 .4 408 .9/414 .85 418 .9 283 .5/{{spacechase0.JsonAssets/ObjectId:Frog}} -1 {{spacechase0.JsonAssets/ObjectId:Minnow}} -1 136 -1 142 -1 153 -1 702 -1 700 -1 163 -1 1132 -1 1124 -1 1074 -1 1084 -1 1086 -1 1088 -1 1091 -1 1092 -1/{{spacechase0.JsonAssets/ObjectId:Frog}} -1 {{spacechase0.JsonAssets/ObjectId:Minnow}} -1 136 -1 142 -1 153 -1 138 -1 702 -1 700 -1 698 -1 1124 -1 1074 -1 1084 -1 1086 -1 1091 -1 1092 -1/{{spacechase0.JsonAssets/ObjectId:Minnow}} -1 136 -1 140 -1 142 -1 153 -1 702 -1 700 -1 1132 -1 1134 -1 1056 -1 1083 -1 1086 -1 1087 -1 1091 -1 1092 -1 269 -1/136 -1 140 -1 141 -1 153 -1 707 -1 702 -1 700 -1 698 -1 1134 -1 1085 -1 1089 -1 1090 -1 269 -1/382 .06 581 .1 378 .1 102 .15 390 .25 330 1",
+	  "Beach": "372 .9 718 .1 719 .3 723 .3 1096 .4 1097 .3/372 .9 394 .5 718 .1 719 .3 723 .3 1096 .5 1098 .1/372 .9 718 .1 719 .3 723 .3 1096 .5 1099 .1/372 .4 392 .8 718 .05 719 .2 723 .2 1096 .5 1100 .1/129 -1 131 -1 147 -1 148 -1 152 -1 708 -1 1120 -1 1137 -1 1139 -1 1143 -1 1058 -1 1071 -1 1076 -1 267 -1/128 -1 130 -1 146 -1 149 -1 150 -1 152 -1 155 -1 708 -1 267 -1 1120 -1 1129 -1 1143 -1 1068 -1 1070 -1 1071 -1/129 -1 131 -1 148 -1 150 -1 152 -1 154 -1 155 -1 705 -1 1135 -1 1136 -1 1059 -1 1069 -1/708 -1 130 -1 131 -1 146 -1 147 -1 150 -1 151 -1 152 -1 154 -1 705 -1 1135 -1 1138 -1 1126 -1 1060 -1 1061 -1 1072 -1 1080 -1 1109 -1/384 .08 589 .09 102 .15 390 .25 330 1",
+   "WitchSwamp": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Void Eel}} -1 795 -1 153 -1 143 -1 157 -1 1140 -1 1141 -1 1064 -1 1065 -1 1066 -1 1111 -1/{{spacechase0.JsonAssets/ObjectId:Void Eel}} -1 795 -1 153 -1 143 -1 157 -1 1140 -1 1141 -1 1064 -1 1065 -1 1066 -1 1111 -1/{{spacechase0.JsonAssets/ObjectId:Void Eel}} -1 795 -1 153 -1 143 -1 157 -1 1140 -1 1141 -1 1064 -1 1065 -1 1066 -1 1111 -1/{{spacechase0.JsonAssets/ObjectId:Void Eel}} -1 795 -1 153 -1 143 -1 157 -1 1140 -1 1141 -1 1064 -1 1065 -1 1066 -1 1111 -1/-1",
+    "BlueMoonVineyard": "18 .9/402 .9/410 .6/418 .7 414 .1 283 .5/137 -1 132 -1 143 -1 145 -1 153 -1 706 -1 1073 -1 1086 -1 1092 -1/138 -1 132 -1 144 -1 145 -1 153 -1 706 -1 701 -1 1073 -1 1086 -1 1092 -1/139 -1 137 -1 132 -1 140 -1 143 -1 153 -1 706 -1 699 -1 701 -1 1086 -1 1092 -1/132 -1 140 -1 141 -1 143 -1 144 -1 153 -1 707 -1 699 -1/378 .2 110 .2 583 .1 102 .2 390 .25 330 1",
+    }
+    },
+	{
+   "Action": "EditData",
+   "Target": "Data/Locations",
+   "LogName": "Vampire Fish SVE",
+   "When": {"Weather":"Storm","HasMod |contains=FlashShifter.StardewValleyExpandedCP":true,"HasMod |contains=spacechase0.JsonAssets":true},
+   "Entries": {
+    "BugLand": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Void Eel}} -1 796 -1 142 -1 153 -1 157 -1 1130 -1 1067 -1 1092 -1 1152 -1/{{spacechase0.JsonAssets/ObjectId:Void Eel}} -1 796 -1 142 -1 153 -1 157 -1 1130 -1 1067 -1 1092 -1 1152 -1/{{spacechase0.JsonAssets/ObjectId:Void Eel}} -1 796 -1 142 -1 153 -1 157 -1 1130 -1 1067 -1 1092 -1 1152 -1/{{spacechase0.JsonAssets/ObjectId:Void Eel}} -1 796 -1 142 -1 153 -1 157 -1 1130 -1 1067 -1 1092 -1/-1",
+    }
+    },
+	// Sprites
+		{
+        "Action": "EditImage",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/new_fish.png",
+	"FromArea": { "X": 0, "Y": 704, "Width": 384, "Height": 32 }, 
+        "ToArea": { "X": 0, "Y": 704, "Width": 384, "Height": 32 },
+	   },
+	   {
+        "Action": "EditImage",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/new_fish.png",
+	"FromArea": { "X": 0, "Y": 736, "Width": 128, "Height": 16 }, 
+        "ToArea": { "X": 0, "Y": 736, "Width": 128, "Height": 16 },
+	   },
+	   {
+        "Action": "EditImage",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/new_fish.png",
+	"FromArea": { "X": 160, "Y": 736, "Width": 224, "Height": 16 }, 
+        "ToArea": { "X": 160, "Y": 736, "Width": 224, "Height": 16 },
+	   },
+	   {
+        "Action": "EditImage",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/new_fish.png",
+	"FromArea": { "X": 0, "Y": 752, "Width": 384, "Height": 64 }, 
+        "ToArea": { "X": 0, "Y": 752, "Width": 384, "Height": 64 },
+	   },
+	   {
+        "Action": "EditImage",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/new_fish.png",
+	"FromArea": { "X": 16, "Y": 800, "Width": 128, "Height": 16 }, 
+        "ToArea": { "X": 16, "Y": 800, "Width": 128, "Height": 16 },
+	   },
+	   {
+        "Action": "EditImage",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/lionfish_legacy.png",
+		"When": {"UseLegacyLionfish":"true"},
+		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }, 
+        "ToArea": { "X": 336, "Y": 544, "Width": 16, "Height": 16 },
+	   },
+	// Fish.json
+		 {
+          "Action": "EditData",
+		  "LogName": "Fish Object Data",
+          "Target": "Data/ObjectInformation",
+          "Entries": {
+             "1120": "Ladyfish/80/8/Fish -4/Ladyfish/This saltwater fish prefers temperate waters and feeds in large schools.",
+			 "1121": "Tancho Koi/150/5/Fish -4/Tancho Koi/A white carp with a red spot on its head. People appreciate their beauty and usually keep them in aquariums. It would be such a waste to eat or turn into fertilizer./Day Night^Fall",
+			 "1123": "Sanke Koi/150/5/Fish -4/Sanke Koi/A tricolored carp. People appreciate their beauty and usually keep them in aquariums. It would be such a waste to eat or turn into it fertilizer./Day Night^Summer",
+			 "1122": "Kohaku Koi/150/5/Fish -4/Kohaku Koi/A white and red carp. People appreciate their beauty and usually keep them in aquariums. It would be such a waste to eat or turn into fertilizer./Day Night^Spring",
+			 "1124": "Zebra Tilapia/120/10/Fish -4/Zebra Tilapia/This is a vicious and territorial cichlid.",
+			 "1125": "Tucunare/225/13/Fish -4/Tucunare/A diurnal and predatory freshwater fish that lives in forest rivers.",
+			 "1126": "Small Goblin Shark/750/18/Fish -4/Small Goblin Shark/This is a frightening deep water shark. Be careful when handling it.",
+			 "1127": "Tui/7500/80/Fish -4/Tui/It glows with magical powers.",
+			 "1128": "La/7500/80/Fish -4/La/It glows with magical powers.",
+			 "1129": "Small Mantaray/750/42/Fish -4/Small Manta Ray/A small manta ray. If this is small, how big is a big one?!",
+			 "1130": "Piranha/200/10/Fish -4/Piranha/A carnivorous fish with very sharp teeth.",
+			 "1131": "Blinky/10/0/Fish -4/Blinky/Why does it have 3 eyes? Maybe I can sell it to scientists.",
+			 "1132": "Arowana/225/18/Fish -4/Arowana/A carnivorous fish that can jump up to 6 ft out of the water.",
+			 "1133": "Arctic Char/225/15/Fish -4/Arctic Char/A cold water type of trout.",
+			 "1134": "Tench/65/8/Fish -4/Tench/It prefers still waters, with muddy substrate and full of vegetation rather than clear waters.",
+			 "1135": "Haddock/175/15/Fish -4/Haddock/A saltwater fish that is very popular as food.",
+			 "1136": "Small Swordfish/750/22/Fish -4/Swordfish/This incrediblly fast fish uses its sword to slash its prey.",
+			 "1137": "Barracuda/200/17/Fish -4/Barracuda/A deep water predator that sometimes attack humans.",
+			 "1138": "Longfin Icedevil/150/13/Fish -4/Longfin Icedevil/Despite its name, this deep water fish feeds on plankton.",
+			 "1139": "Spinny Dogfish/750/25/Fish -4/Spiny Dogfish/A slender type of shark.",
+			 "1140": "Void Carp/60/-75/Fish -4/Void Carp/A carp twisted by void energy. Its scales have lost their light.",
+			 "1141": "Water Snake/80/5/Fish -4/Water Snake/An aquatic snake that preys on frogs.",
+			 "1142": "Electric Catfish/500/22/Fish -4/Electric Catfish/An electric catfish that stuns predators with an electrical discharge.",
+			 "1143": "Sea Snake/100/7/Fish -4/Sea Snake/A marine snake with a very potent venom that it uses to prey upon smaller fish and eels.",
+			 "1144": "Swimmer Crab/125/-300/Fish -4/Swimmer Crab/A crab able to swim in the ocean. It has spikes on its shell.",
+			 "1145": "Glassfish/90/2/Fish -4/Glassfish/A translucent fish, you can see right through it.",
+			 "1146": "Goldfish/30/3/Fish -4/Goldfish/A goldfish usually kept in aquariums.",
+			 "1147": "Lionhead/40/4/Fish -4/Lionhead/A hooded variant of goldfish.",
+			 "1148": "Comet/75/5/Fish -4/Comet/This variant of goldfish is know for being slender and having only one tail.",
+			 "1149": "Telescope/40/4/Fish -4/Telescope/It's a fancy goldfish characterised by its protruding eyes.",
+			 "1150": "Celestial Eye/80/5/Fish -4/Celestial Eye/It was given this name because its eyes are facing towards the sky.",
+			 "1151": "Jellyfish/35/-25/Fish -4/Jellyfish/A jellyfish that stings and is poisonous.",
+			 "1056": "Clown Knifefish/125/10/Fish -4/Clown Knifefish/It looks like a knife.",
+			 "1057": "Freshwater Butterflyfish/85/5/Fish -4/Freshwater Butterflyfish/A very exotic pond fish that is known for jumping out of aquariums.",
+			 "1058": "Mimic Octopus/175/18/Fish -4/Mimic Octopus/This octopus can mimic other animals' color patterns to defend itself or to lure its prey.",
+			 "1059": "Blue-Ringed Octopus/185/-90/Fish -4/Blue-Ringed Octopus/It is extremely poisonous, be careful.",
+			 "1060": "Stubby Squid/90/5/Fish -4/Stubby Squid/A small squid that leaves an ink trail behind itself to escape its predators.",
+			 "1061": "Dumbo Octopus/250/5/Fish -4/Dumbo Octopus/A colorful octopus with ears.",
+			 "1062": "Barreleye/120/8/Fish -4/Barreleye/This tubular fish can look forward as well as upward.",
+			 "1063": "Freshwater Pufferfish/150/7/Fish -4/Freshwater Pufferfish/Inflates when threatened. Not poisonous, unlike its saltwater counterpart.",
+			 "1064": "Void Algae/15/-45/Fish/Void Algae/A black and slimy algae, looks poisonous and moves occaisonally.",
+			 "1065": "Void Evilpus/250/-75/Fish -4/Void Evilpus/This is the guardian of trapped souls. Better get rid of it as soon as possible!",
+			 "1066": "Trapped Soul/350/-300/Fish -4/Trapped Soul/Looks like the witch learned a new trick from her cousin Ursula. Don't eat this fish.",
+			 "1067": "Lamprey/20/-5/Fish -4/Lamprey/It looks like a leech with many teeth.",
+			 "1068": "Ribbon Eel/150/15/Fish -4/Ribbon Eel/A blue and yellow moray eel. Should not be kept in an aquarium.",
+			 "1069": "Ghost Eel/100/14/Fish -4/Ghost Eel/A small type of moray with a white body.",
+			 "1070": "Robalo/85/12/Fish -4/Robalo/A very flavorful fish.",
+			 "1071": "Anchoviella/25/2/Fish -4/Anchoviella/It reproduces during rainy days.",
+			 "1072": "Hagfish/65/7/Fish -4/Hagfish/It's a slimy eel shaped fish.",
+			 "1073": "Green Terror/70/3/Fish -4/Green Terror/It's an aggressive and colorful fish.",
+			 "1074": "Clown Loach/100/4/Fish -4/Clown Loach/This very beautiful fish is usually sold to fish breeders rather than eaten.",
+			 "1075": "Brain Slug/15/-300/Fish -4/Brain Slug/This can't be from this planet.",
+			 "1076": "Zebra Eel/125/13/Fish -4/Zebra Eel/A black and white moray eel found in temperate water.",
+			 "1077": "Yamabuki Koi/150/5/Fish -4/Yamabuki Koi/A white and yellow carp. People appreciate their beauty and usually keep them in aquariums. It would be such a waste to eat or turn into fertilizer.",
+			 "1078": "Ghost Koi/150/5/Fish -4/Ghost Koi/A black and orange carp. People appreciate their beauty and usually them them in aquariums. It would be such a waste to eat or turn into fertilizer.",
+			 "1079": "Hi Utsuri Koi/150/5/Fish -4/Hi Utsuri Koi/A carp with black and red coloration. People appreciate their beauty and usually them them in aquariums, it would be such a waste to eat or turn into fertilizer.",
+			 "1080": "Conger/250/17/Fish -4/Conger/The largest type of eel. It hunts in cold waters.",
+			 "1081": "Shiro Utsuri Koi/150/5/Fish -4/Shiro Utsuri Koi/A black and white carp. People appreciate their beauty and usually them them in aquariums. It would be such a waste to eat or turn into fertilizer.",
+			 "1082": "Ki Utsuri Koi/150/5/Fish -4/Ki Utsuri Koi/A black and yellow carp. People appreciate their beauty and usually them them in aquariums. It would be such a waste to eat or turn into fertilizer.",
+			 "1083": "Redtail Shark/70/5/Fish -4/Redtail Shark/Despite its name, it's actually in the carp family.",
+			 "1084": "Elephantfish/90/12/Fish -4/Elephantfish/It's a beautiful and unusual fish usually kept in aquariums.",
+			 "1085": "Sauger/90/10/Fish -4/Sauger/A small fish of walleye family.",
+			 "1086": "Pacu/60/10/Fish -4/Pacu/A fish related to the piranha with less sharp teeth, catering to its omnivorous diet. Very common in rivers.",
+			 "1087": "Common Pleco/70/6/Fish -4/Common Pleco/Its mouth is under its hard-scaled body, it eats algae and other fish leftovers. It's a nocturnal fish.",
+			 "1088": "Siamese Algae Eater/80/4/Fish -4/Siamese Algae Eater/A small type of algae eater.",
+			 "1089": "Snowball Pleco/100/4/Fish -4/Snowball Pleco/A very rare type of pleco with a sell price higher than other breeds.",
+			 "1090": "Ide/50/8/Fish -4/Ide/An ornamental fish that prefers cold waters.",
+			 "1091": "Pangasius/220/20/Fish -4/Pangasius/Although it looks like a shark, it is very peaceful. It has leathery hide instead of scales.",
+			 "1092": "Trahira/65/8/Fish -4/Trahira/A carnivorous fish that inhabits most freshwater locations.",
+			 "1093": "Blue Dragon Slug/175/-300/Fish -4/Blue Dragon Slug/A very beautiful blue sea slug that feeds on poisonous jellyfish. It is known to sting.",
+			 "1094": "Nautilus/150/-300/Fish -4/Nautilus/A marine crustacean nearly extinct.",
+			 "1095": "Cyclops Shark/500/22/Fish -4/Cyclops Shark/This small shark only has one eye. It's been found only a few times in nature.",
+			 "1096": "Starfish/60/-300/Fish -4/Starfish/A regular red starfish.",
+			 "1097": "Blue Starfish/75/-300/Fish -4/Blue Starfish/A blue starfish that can only be found in Spring.",
+			 "1098": "Royal Starfish/90/-300/Fish -4/Royal Starfish/It's mouth contains jaws that is used to feed on clams.",
+			 "1099": "Crown of Thorns Starfish/100/-300/Fish -4/Crown of Thorns Starfish/A rare and very distinct type of starfish. It is also poisonous.",
+			 "1100": "Holy Grenade Starfish/125/-300/Fish -4/Holy Grenade Starfish/A rare and big type of starfish, can reach up to 11 inches.",
+			 "1101": "Freshwater Shrimp/50/-300/Fish -4/Freshwater Shrimp/A small freshwater shrimp.",
+			 "1102": "Red Freshwater Shrimp/60/-300/Fish -4/Red Freshwater Shrimp/A red freshwater shrimp usually kept in aquariums.",
+			 "1103": "Blue Freshwater Shrimp/60/-300/Fish -4/Blue Freshwater Shrimp/A blue freshwater shrimp usually kept in aquariums.",
+			 "1104": "Harlequin Freshwater Shrimp/75/-300/Fish -4/Harlequin Freshwater Shrimp/A very rare type of freshwater shrimp, usually kept in aquariums.",
+			 "1105": "Red Harlequin Freshwater Shrimp/75/-300/Fish -4/Red Harlequin Freshwater Shrimp/A red variant of harlequin freshwater shrimp.",
+			 "1106": "Brief Squid/95/-300/Fish -4/Brief Squid/A small type of squid.",
+			 "1107": "Prawn/85/-300/Fish -4/Prawn/A large type of shrimp.",
+			 "1108": "Sand Dollar/20/-300/Fish -4/Sand Dollar/It's usually washed to the shore by the tide.",
+			 "1109": "King Crab/250/-300/Fish -4/King Crab/The largest crab found in nature, it lives in cold water.",
+			 "1110": "Decapod/125/-300/Fish -4/Decapod/A strange type of crustacean, doesn't look like it's from this planet.",
+			 "1111": "Mudskipper/80/8/Fish -4/Mudskipper/This fish can actually walk and breath in soil, it prefers muddy surfaces.",
+			 "1184": "Coelacanth/350/25/Fish -4/Coelacanth/It's considered a living fossil.",
+			 "1185": "Cavefish/60/3/Fish -4/Cavefish/Where are its eyes?",
+			 "1114": "Cave Lobster/175/-300/Fish -4/Cave Lobster/It's a whitish lobster found in caves.",
+			 "1115": "Freshwater Crab/80/-300/Fish -4/Freshwater Crab/A small freshwater crab found in muddy waters.",
+			 "1116": "Fishing Elixir/4500/50/Crafting/Fishing Elixir/Drink this and you will be granted with the knowledge of the greatest anglers from history./drink/0 5 0 0 3 0 0 0 0 0 0/6000",
+			 "1117": "Warrior Elixir/1500/10/Crafting/Warrior Elixir/It tastes awful, but you'll feel much stronger later./drink/0 0 0 0 3 0 0 0 0 3 5/6000",
+			 "1118": "Shinidamachu/2500/-300/Fish -4/Shinidamachu/They appear once a year to guide wandering souls back to the otherworld.",
+			 "1119": "Vampire Squid/1200/-300/Fish -4/Vampire Squid/It looks like something that came out of a nightmare!",
+			 "1152": "Vampire Fish/850/-2/Fish -4/Vampire Fish/This little fish eats larger prey from inside out.",
+			 "1153": "Lungfish/100/15/Fish -4/Lungfish/This fish can actually breath out of water like a mammal which made it very resistent to periods of draught.",
+			 "1154": "Tigerfish/60/10/Fish -4/Tigerfish/It's called tigerfish for its teeth, they are known to attack humans.",
+			 "1155": "Longnose Gar/200/18/Fish -4/Longnose Gar/Its eggs are covered with a toxin.",	
+			 "1201": "Black Ghost Knifefish/160/10/Fish -4/Black Ghost Knifefish/A nocturnal fish that uses an electric organ and receptors distributed over the length of their body in order to locate insect larvae.",
+			 "1202": "Clown Triggerfish/120/-8/Fish -4/Clown Triggerfish/Because of its coloration, the clown triggerfish is highly prized as an aquarium fish. It's poisonous and unsafe for consumption.",
+			 "1203": "Bonnethead/750/23/Fish -4/Bonnethead/A small member of the hammerhead shark family.",
+			 "1204": "Goblin Shark Pup/50/-300/Basic/Goblin Shark Pup/A pup goblin shark. It needs a safe environment to grow.",
+			 "1205": "Bonnethead Pup/50/-300/Basic/Bonnethead Pup/A pup bonnethead. It needs a safe environment to grow.",
+			 "1206": "Spiny Dogfish Pup/50/-300/Basic/Spiny Dogfish Pup/A pup spiny dogfish.It needs a safe environment to grow.",
+			 "1208": "Manta Ray Pup/50/-300/Basic/Manta Ray Pup/A pup manta ray.It needs a safe environment to grow.",
+		}
+        },
+		{
+          "Action": "EditData",
+          "Target": "Data/ObjectInformation",
+		  "LogName": "Frilled Shark",
+		  "When": {"HasMod":"BusStopExpansion"},
+          "Entries": {
+			 "1183": "Frilled Shark/3000/45/Fish -4/Frilled Shark/A shark with an eel-like body, it's teeth are fearsome.", 
+		}
+        },
+		 {
+          "Action": "EditData",
+		  "LogName": "Tropical Fish Objects",
+          "Target": "Data/ObjectInformation",
+		  "When": {"HasMod":"IslandTMX"},
+          "Entries": {
+
+		"1169": "Moorish Idol/180/8/Fish -4/Moorish Idol/It's a tropical fish that mates for life.",
+        "1170": "Royal Angelfish/175/7/Fish -4/Royal Angelfish/A very beautiful tropical angelfish with a very colorful body.",
+        "1172": "Banded Angelfish/170/6/Fish -4/Banded Angelfish/It's also known as the bandit angelfish, would the 'mask' have something to do with it?",
+        "1174": "Flame Angelfish/180/8/Fish -4/Flame Angelfish/A very small and beautiful type of angelfish. Due to its beauty it has very high commercial value for aquarists.",
+        "1162": "Maroon Clownfish/170/3/Fish -4/Maroon Clownfish/It hides from predators inside sea anemone. A dark red variant of clownfish.",
+        "1156": "Sebae Clownfish/170/4/Fish -4/Sebae Clownfish/It hides from predators inside sea anemone. Most commonly found in the saddle sea anemone.",
+        "1157": "Wide-band Clownfish/165/5/Fish -4/Wide-band Clownfish/It hides from predators inside sea anemone. It has this name as its body white band is wider than most other clownfish.",
+        "1161": "Pink Skunk Clownfish/160/5/Fish -4/Pink Skunk Clownfish/It hides from predators inside sea anemone. It's called pink skunk because of its white stripe on upper part of its pink body.",
+        "1165": "Two-Band Clownfish/165/5/Fish -4/Two-Band Clownfish/It hides from predators inside sea anemone. As the name suggests, the two-banded sea anemonefish has two white bands or bars, with black edges.",
+        "1163": "Whitesnout Clownfish/160/5/Fish -4/Whitesnout Clownfish/It hides from predators inside sea anemone. It's not as colorful as the other clownfish variants.",
+        "1164": "Fire Clownfish/170/4/Fish -4/Fire Clownfish/It hides from predators inside sea anemone. A black and red variant of clownfish.",
+        "1187": "Tiger Puffer/360/-125/Fish -4/Tiger Puffer/A very large and poisonous type of puffer fish, very few chefs can prepare it!",
+        "1186": "Mandarinfish/160/-25/Fish -4/Mandarinfish/It may look pretty, but this fish uses both poison and a foul stench to keep predators at bay.",
+        "1179": "Soldierfish/180/10/Fish -4/Soldierfish/A nocturnal fish with big eyes.",
+        "1181": "Thread-Sail Filefish/180/12/Fish -4/Thread-Sail Filefish/The fin on its head is actually a parasite.",
+        "1176": "Monkfish/360/20/Fish -4/Monkfish/A deep sea fish from the anglerfish family.",
+        "1178": "Icefish/140/15/Fish -4/Icefish/This slender fish has few to none scales.",
+        "1180": "False Kelpfish/210/-300/Fish -4/False Kelpfish/A fish from rockfish family, it also has posion glands.",
+		"1182": "Wolffish/210/22/Fish -4/Wolffish/This fish produces a natural antifreeze subtance that keeps its blood from freezing in extreme cold temperatures.",
+		"1167": "Pollock/135/18/Fish -4/Pollock/A whitefish considered a cheaper replacement for Haddock or Cod.",
+		"1188": "Great Firefly Squid/3000/-300/Fish -4/Great Firefly Squid/A bioluminescent squid that should be really small...Why is this one so big?",
+		},
+		},
+		{
+          "Action": "EditData",
+		  "LogName": "East Scarpes Integration",
+          "Target": "Data/ObjectInformation",
+		  "When": {"HasMod":"IslandTMX,LemurKat.EastScarpe.CP"},
+          "Entries": {
+		
+		"1168": "Blue Tang/180/8/Fish -4/Blue Tang/A blue tropical fish very popular among kids.",
+        "1171": "Ornate Angelfish/165/6/Fish -4/Ornate Angelfish/A small tropical angelfish. Females and males have different colors.",
+        "1173": "Threespot Angelfish/185/8/Fish -4/Threespot Angelfish/It looks like it's wearing lipstick.",
+        "1175": "Dwarf Stingray/360/12/Fish -4/Dwarf Stingray/A small diamond shaped stingray that's usually caught and sold for its meat",
+        "1159": "Orange Clownfish/160/3/Fish -4/Orange Clownfish/It hides from predators inside sea anemone. These fish are very popular with kids.",
+        "1158": "Saddleback Clownfish/165/3/Fish -4/Saddleback Clownfish/It hides from predators inside sea anemone. A black and white variant of clownfish.",
+        "1166": "Yellowtail Clownfish/165/4/Fish -4/Yellowtail Clownfish/It hides from predators inside sea anemone. A yellow and white variant of clownfish.",
+        "1160": "Skunk Clownfish/160/5/Fish -4/Skunk Clownfish/It hides from predators inside sea anemone. It's called skunk because of its white stripe on upper part of its body.",
+        "1177": "Squirrelfish/180/10/Fish -4/Squirrelfish/This fish uses sounds to intidimate predators.",
+		"1207": "Dwarf Stingray Pup/50/-300/Basic/Dwarf Stingray Pup/A pup dwarf stingray.It needs a safe environment to grow.",
+		},
+		},
+		  {
+	      "Action": "EditData",
+		  "LogName": "Fish Data",
+          "Target": "Data/Fish",
+          "Entries": {
+		  "1120": "Ladyfish/50/dart/10/39/600 1900/spring summer/sunny/681 .35/2/.3/.2/0",
+		  "1121": "Tancho Koi/45/mixed/15/50/600 2600/fall/both/682 .2/1/.10/.1/0",
+		  "1122": "Sanke Koi/45/mixed/15/50/600 2600/summer/both/682 .2/1/.10/.1/0",
+		  "1123": "Kohaku Koi/45/mixed/15/50/600 2600/spring/both/682 .2/1/.10/.1/0",
+		  "1124": "Zebra Tilapia/70/mixed/5/12/800 1600/spring summer/sunny/682 .2/2/.35/.25/0",
+		  "1125": "Tucunare/70/mixed/10/80/600 1600/summer/sunny/689 .35/2/.25/.2/0",
+		  "1126": "Small Goblin Shark/90/sinker/35/60/2000 2600/winter/both/685 .35/3/.15/.15/0",
+		  "1127": "Tui/120/floater/10/10/2200 2600/winter/both/685 .35/4/.05/.1/10",
+		  "1128": "La/120/sinker/10/10/2200 2600/winter/both/685 .35/4/.05/.1/10",
+		  "1129": "Small Mantaray/85/floater/26/52/800 1400/summer/both/685 .35/3/.15/.15/0",
+		  "1130": "Piranha/75/sinker/5/20/600 2600/spring summer fall winter/both/685 .35/2/.33/.1/0",
+		  "1131": "Blinky/10/floater/1/10/600 2600/spring summer fall winter/both/685 .35/1/.65/.2/0",
+		  "1132": "Arowana/80/floater/10/36/600 1600/spring summer/rainy/685 .35/2/.30/.25/0",
+		  "1133": "Arctic Char/80/mixed/8/23/800 1800/winter/both/690 .4/3/.30/.2/0",
+		  "1134": "Tench/45/sinker/5/27/600 1600/fall winter/both/685 .35/1/.40/.2/0",
+		  "1135": "Haddock/70/dart/10/37/1000 2000/fall winter/both/685 .35/2/.30/.2/0",
+		  "1136": "Small Swordfish/85/dart/37/62/1200 1800/fall/both/685 .35/3/.15/.15/0",
+		  "1137": "Barracuda/80/floater/15/78/1000 1900/spring/sunny/685 .35/3/.25/.20/0",
+		  "1138": "Longfin Icedevil/65/sinker/5/17/1800 2600/winter/both/685 .35/3/.30/.3/0",
+		  "1139": "Spinny Dogfish/85/mixed/24/62/1400 2000/spring/both/685 .35/3/.15/.15/0",
+		  "1140": "Void Carp/30/smooth/15/50/600 2600/spring summer fall winter/both/685 .35/1/.45/.2/0",
+		  "1141": "Water Snake/50/mixed/15/31/600 2600/spring summer fall winter/both/685 .35/2/.30/.1/0",
+		  "1142": "Electric Catfish/90/sinker/10/47/600 2600/spring summer fall winter/both/683 .4/2/.15/.15/0",
+		  "1143": "Sea Snake/75/mixed/22/56/600 2200/spring summer/rainy/685 .35/3/.25/.1/0",
+		  "1145": "Glassfish/65/smooth/3/10/600 2600/spring summer fall winter/both/685.35/1/.25/.2/0",
+		  "1146": "Goldfish/15/smooth/1/5/600 2600/spring summer fall winter/both/682 .2/1/.60/.2/0",
+		  "1147": "Lionhead/40/smooth/1/6/800 1600/spring/sunny/682 .2/1/.15/.15/0",
+		  "1148": "Comet/50/smooth/1/12/800 1600/summer/both/682 .2/1/.15/.15/0",
+		  "1149": "Telescope/40/smooth/1/5/600 1800/fall/both/682 .2/1/.15/.15/0",
+		  "1150": "Celestial Eye/45/smooth/1/4/1600 2000/winter/both/682 .2/1/.15/.15/0",
+		  "1056": "Clown Knifefish/70/floater/6/40/1200 2400/fall/both/682 .2/2/.25/.20/0",
+		  "1057": "Freshwater Butterflyfish/60/floater/1/5/600 1800/spring summer fall/sunny/682 .2/2/.25/.15/0",
+		  "1058": "Mimic Octopus/70/mixed/12/24/1600 2100/spring/both/682 .2/3/.15/.15/0",
+		  "1059": "Blue-Ringed Octopus/60/sinker/4/8/600 1200/fall/both/682 .2/3/.15/.15/0",
+		  "1060": "Stubby Squid/60/smooth/1/5/600 1800/winter/both/682 .2/2/.15/.15/0",
+		  "1061": "Dumbo Octopus/85/sinker/1/70/1800 2600/winter/both/682 .2/3/.15/.15/0",
+		  "1062": "Barreleye/50/sinker/1/6/2000 2600/winter/both/682 .2/3/.10/.25/0",
+		  "1063": "Freshwater Pufferfish/70/floater/9/26/600 2600/summer/rainy/682 .2/2/.25/.20/0",
+		  "1064": "Void Algae/5/floater/5/30/600 2600/spring summer fall winter/both/-1/0/.3/0/0",
+		  "1065": "Void Evilpus/95/sinker/18/75/600 2600/spring summer fall winter/both/682 .2/3/.15/.15/0",
+		  "1066": "Trapped Soul/95/dart/12/60/600 2600/spring summer fall winter/both/682 .2/3/.15/.15/0",
+		  "1067": "Lamprey/50/mixed/5/40/600 2600/spring summer fall winter/both/682 .2/1/.30/.15/0",
+		  "1068": "Ribbon Eel/80/smooth/22/37/2000 2600/summer/sunny/682 .2/1/.20/.15/0",
+		  "1069": "Ghost Eel/60/smooth/8/40/2000 2600/fall/both/682 .2/1/.20/.15/0",
+		  "1070": "Robalo/60/dart/19/55/600 1600/summer/sunny/682 .2/1/.30/.15/0",
+		  "1071": "Anchoviella/10/dart/1/5/600 1600/spring summer/rainy/682 .2/1/.35/.10/0",
+		  "1072": "Hagfish/50/mixed/12/30/800 1800/winter/both/682 .2/1/.25/.25/0",
+		  "1073": "Green Terror/55/dart/4/12/600 1800/spring summer/sunny/682 .2/1/.20/.15/0",
+		  "1074": "Clown Loach/55/sinker/4/8/600 2600/spring summer/both/682 .2/1/.20/.15/0",
+		  "1075": "Brain Slug/60/smooth/1/6/600 2600/spring summer fall winter/both/682 .2/1/.20/.15/0",
+		  "1076": "Zebra Eel/75/smooth/19/60/1800 2600/spring/sunny/682 .2/1/.15/.15/0",
+		  "1077": "Yamabuki Koi/50/mixed/15/50/600 2400/spring/rainy/682 .2/1/.10/.1/0",
+		  "1078": "Ghost Koi/50/mixed/15/50/600 2400/fall/rainy/682 .2/1/.10/.1/0",
+		  "1079": "Hi Utsuri Koi/50/mixed/15/50/600 2400/winter/both/682 .2/1/.10/.1/0",
+		  "1080": "Conger/85/smooth/32/120/1600 2600/winter/both/682 .2/1/.10/.1/0",
+		  "1081": "Shiro Utsuri Koi/50/mixed/15/50/600 2600/winter/both/682 .2/1/.10/.1/0",
+		  "1082": "Ki Utsuri Koi/50/mixed/15/50/600 2600/summer/rainy/682 .2/1/.10/.1/0",
+		  "1083": "Redtail Shark/40/sinker/2/6/1000 2000/fall/both/682 .2/1/.10/.1/0",
+		  "1084": "Elephantfish/65/smooth/4/54/800 2000/spring summer/sunny/682 .2/2/.25/.2/0",
+		  "1085": "Sauger/40/dart/10/18/800 1800/winter/both/682 .2/1/.30/.2/0",
+		  "1086": "Pacu/40/mixed/8/42/600 2600/spring summer fall/both/682 .2/1/.3/.2/0",
+		  "1087": "Common Pleco/55/sinker/8/20/0600 1800/summer fall/rainy/682 .2/1/.40/.2/0",
+		  "1088": "Siamese Algae Eater/50/sinker/4/11/1800 2600/spring/rainy/682 .2/1/.40/.2/0",
+		  "1089": "Snowball Pleco/45/sinker/3/5/1800 2600/winter/both/682 .2/1/.10/.1/0",
+		  "1090": "Ide/30/mixed/4/24/600 1800/winter/both/682 .2/1/.50/.2/0",
+		  "1091": "Pangasius/70/dart/8/47/600 2600/spring summer fall/both/682 .2/3/.3/.15/0",
+		  "1092": "Trahira/50/dart/7/35/600 2600/spring summer fall/both/682 .2/1/.3/.2/0",
+		  "1095": "Cyclops Shark/90/dart/15/22/600 2600/spring summer fall winter/both/682 .2/3/.10/.1/0",
+		  "1101": "Freshwater Shrimp/trap/.55/682 .35/freshwater/1/3", 
+		  "1109": "King Crab/80/sinker/11/60/800 2200/winter/both/682 .2/3/.15/.1/0",
+	      "1110": "Decapod/70/sinker/12/40/600 2600/spring summer fall winter/both/682 .2/3/.25/.15/0",
+		  "1111": "Mudskipper/60/floater/3/10/600 2600/spring summer fall winter/both/682 .2/2/.40/.2/0",
+		  "1115": "Freshwater Crab/trap/.35/682 .4/freshwater/1/8", 
+		  "1184": "Coelacanth/80/sinker/23/78/600 2600/spring summer fall winter/both/682 .2/3/.20/.15/0",
+		  "1185": "Cavefish/30/smooth/8/16/600 2600/spring summer fall winter/both/682 .2/3/.25/.15/0",
+		  "1114": "Cave Lobster/60/sinker/2/4/600 2600/spring summer fall winter/both/682 .2/3/.10/.1/0",
+		  "1118": "Shinidamachu/95/floater/32/120/800 2600/fall/both/685 .35/4/.1/.1/10",
+		  "1119": "Vampire Squid/90/sinker/6/12/2000 2600/winter/rainy/685 .35/4/.1/.2/10",
+		  "1152": "Vampire Fish/85/dart/8/16/800 2600/spring summer fall/both/685 .35/4/.1/.1/10",
+		  "1153": "Lungfish/60/floater/20/78/800 2600/spring summer fall winter/both/682 .2/2/.15/.15/0",
+		  "1154": "Tigerfish/45/floater/15/41/800 2600/spring summer fall winter/both/682 .2/2/.30/.2/0",
+		  "1155": "Longnose Gar/70/floater/20/70/800 2600/spring summer fall winter/both/682 .2/2/.15/.1/0",
+		  "1201": "Black Ghost Knifefish/60/sinker/10/20/1800 2600/spring summer/both/682 .2/2/.15/.1/0",
+		  "1202": "Clown Triggerfish/65/floater/8/20/600 1800/spring summer/both/682 .2/2/.15/.1/0",
+		  "1203": "Bonnethead/95/dart/24/60/1800 2600/spring summer/both/682 .2/3/.1/.1/0",
+		  },
+		  },
+		  {
+	      "Action": "EditData",
+		  "LogName": "Crabpot Spring",
+          "Target": "Data/Fish",
+		  "When": {"Season":"spring",},
+          "Entries": {
+		  "1144": "Swimmer Crab/trap/.1/682 .45/ocean/1/20", //spring
+		  "1097": "Blue Starfish/trap/.20/682 .45/ocean/2/20", //spring
+		  "1102": "Red Freshwater Shrimp/trap/.25/680 .35/freshwater/1/5", //spring
+		  "1107": "Prawn/trap/.15/682 .35/ocean/1/5", //spring
+		  },
+		  },
+		  {
+	      "Action": "EditData",
+		  "LogName": "Crabpot Summer",
+          "Target": "Data/Fish",
+		  "When": {"Season":"summer",},
+          "Entries": {
+		  "1098": "Royal Starfish/trap/.15/682 .45/ocean/2/20", //summer
+		  "1096": "Starfish/trap/.25/682 .45/ocean/2/20", //summer
+		  "1093": "Blue Dragon Slug/trap/.05/682 .45/ocean/2/20", //summer
+		  "1105": "Red Harlequin Freshwater Shrimp/trap/.35/682 .4/freshwater/1/8", //summer
+		   },
+		  },
+		  {
+	      "Action": "EditData",
+		  "LogName": "Crabpot Fall",
+          "Target": "Data/Fish",
+		  "When": {"Season":"fall",},
+          "Entries": {
+		  "1151": "Jellyfish/trap/.2/681 .35/ocean/1/3", //fall
+		  "1108": "Sand Dollar/trap/.35/682 .15/ocean/1/5", //fall
+		  "1099": "Crown of Thorns Starfish/trap/.10/682 .45/ocean/2/20", //fall
+		  "1104": "Harlequin Freshwater Shrimp/trap/.35/682 .4/freshwater/1/8", //fall
+ },
+		  },
+		  {
+	      "Action": "EditData",
+		  "LogName": "Crabpot Winter",
+          "Target": "Data/Fish",
+		  "When": {"Season":"winter",},
+          "Entries": {
+		  "1094": "Nautilus/trap/.1/682 .45/ocean/2/20", //winter
+		  "1100": "Holy Grenade Starfish/trap/.10/682 .45/ocean/2/20", //winter
+		  "1106": "Brief Squid/trap/.2/682 .35/ocean/1/5", //winter
+		  "1103": "Blue Freshwater Shrimp/trap/.25/680 .35/freshwater/1/5", //winter
+		  },
+		  },
+		  {
+	      "Action": "EditData",
+          "Target": "Data/Fish",
+		  "LogName": "Easy Fish Data",
+          "Fields": {
+			"1120": {1:"20"},
+			"1121": {1:"15"},
+			"1122": {1:"15"},
+			"1123": {1:"15"},
+			"1124": {1:"25"},
+			"1125": {1:"25"},
+			"1126": {1:"40"},
+			"1127": {1:"40"},
+			"1128": {1:"40"},
+			"1129": {1:"40"},
+			"1130": {1:"35"},
+			"1131": {1:"5"},
+			"1132": {1:"40"},
+			"1133": {1:"40"},
+			"1134": {1:"15"},
+			"1135": {1:"25"},
+			"1136": {1:"40"},
+			"1137": {1:"40"},
+			"1138": {1:"20"},
+			"1139": {1:"40"},
+			"1140": {1:"10"},
+			"1141": {1:"20"},
+			"1142": {1:"40"},
+			"1143": {1:"25"},
+			"1145": {1:"25"},
+			"1146": {1:"5"},
+			"1147": {1:"10"},
+			"1148": {1:"15"},
+			"1149": {1:"10"},
+			"1150": {1:"15"},
+			"1056": {1:"25"},
+			"1057": {1:"20"},
+			"1058": {1:"35"},
+			"1059": {1:"30"},
+			"1060": {1:"30"},
+			"1061": {1:"35"},
+			"1062": {1:"20"},
+			"1063": {1:"30"},
+			"1064": {1:"5"},
+			"1065": {1:"40"},
+			"1066": {1:"40"},
+			"1067": {1:"15"},
+			"1068": {1:"40"},
+			"1069": {1:"30"},
+			"1070": {1:"30"},
+			"1071": {1:"5"},
+			"1072": {1:"25"},
+			"1073": {1:"25"},
+			"1074": {1:"25"},
+			"1075": {1:"30"},
+			"1076": {1:"35"},
+			"1077": {1:"20"},
+			"1078": {1:"20"},
+			"1079": {1:"20"},
+			"1080": {1:"40"},
+			"1081": {1:"15"},
+			"1082": {1:"15"},
+			"1083": {1:"10"},
+			"1084": {1:"25"},
+			"1085": {1:"10"},
+			"1086": {1:"10"},
+			"1087": {1:"15"},
+			"1088": {1:"15"},
+			"1089": {1:"15"},
+			"1090": {1:"10"},
+			"1091": {1:"35"},
+			"1092": {1:"25"},
+			"1095": {1:"40"},
+			"1109": {1:"40"},
+			"1110": {1:"30"},
+			"1111": {1:"25"},
+			"1184": {1:"40"},
+			"1185": {1:"10"},
+			"1114": {1:"20"},
+			"1118": {1:"50"},
+			"1119": {1:"40"},
+			"1152": {1:"50"},
+			"1153": {1:"40"},
+			"1154": {1:"25"},
+			"1155": {1:"40"},
+			"1201": {1:"40"},
+			"1202": {1:"40"},
+			"1203": {1:"40"},
+			 
+		  },
+		  "When": {
+         "EasyFishing":"true"},
+        },
+		  {
+		  "Action": "EditData",
+		  "LogName": "Frilled Shark Data",
+          "Target": "Data/Fish",
+          "Entries": {
+		  "1183": "Frilled Shark/100/dart/10/75/2600 2600/winter/rainy/681 .35/2/.05/.1/0"},
+		  "When": {
+		 "HasMod":"BusStopExpansion",
+		},
+		},
+		{
+		  "Action": "EditData",
+          "Target": "Data/Fish",
+          "Fields": {
+		  "1183": {1:"50"},
+          },
+		  "When": {
+		"EasyFishing":"true",
+		 "HasMod":"BusStopExpansion",
+		},
+		},
+		{
+		  "Action": "EditData",
+		  "LogName": "Tropical Fish Location Data",
+          "Target": "Data/Fish",
+          "Entries": {
+		"1168": "Blue Tang/45/mixed/3/9/0600 2600/summer/both/682 .2/1/.4/.2/0",
+		"1169": "Moorish Idol/45/mixed/3/9/0600 2600/spring/both/682 .2/1/.4/.2/0",
+        "1170": "Royal Angelfish/40/mixed/3/10/0600 2600/spring/both/682 .2/1/.4/.2/0",
+        "1171": "Ornate Angelfish/30/mixed/3/7/0600 2600/summer/both/682 .2/1/.4/.2/0",
+        "1172": "Banded Angelfish/35/mixed/3/7/0600 2600/fall/both/682 .2/1/.4/.2/0",
+        "1173": "Threespot Angelfish/50/mixed/5/11/0600 2600/summer/both/682 .2/1/.4/.2/0",
+        "1174": "Flame Angelfish/55/mixed/3/6/0600 2600/fall/both/682 .2/1/.4/.2/0",
+        "1175": "Dwarf Stingray/65/sinker/12/20/0900 1700/spring summer fall/both/682 .2/3/.2/.15/0",
+        "1162": "Maroon Clownfish/25/smooth/3/6/0600 1800/spring/sunny/682 .2/1/.4/.2/0",
+        "1156": "Sebae Clownfish/30/smooth/3/6/0600 1800/fall/sunny/682 .2/1/.4/.2/0",
+        "1157": "Wide-band Clownfish/35/smooth/3/5/0600 1800/spring/sunny/682 .2/1/.4/.2/0",
+        "1161": "Pink Skunk Clownfish/35/smooth/3/5/0600 1800/spring/sunny/682 .2/1/.4/.2/0",
+        "1159": "Orange Clownfish/25/smooth/3/6/0600 1800/summer/sunny/682 .2/1/.4/.2/0",
+        "1158": "Saddleback Clownfish/25/smooth/3/5/0600 1800/summer/sunny/682 .2/1/.4/.2/0",
+        "1165": "Two-Band Clownfish/35/smooth/3/6/0600 1800/spring/sunny/682 .2/1/.4/.2/0",
+        "1163": "Whitesnout Clownfish/35/smooth/3/6/0600 1800/fall/sunny/682 .2/1/.4/.2/0",
+        "1164": "Fire Clownfish/30/smooth/3/5/0600 1800/spring/sunny/682 .2/1/.4/.2/0",
+        "1166": "Yellowtail Clownfish/30/smooth/3/5/0600 1800/summer/sunny/682 .2/1/.4/.2/0",
+        "1160": "Skunk Clownfish/35/smooth/3/5/0600 1800/summer/sunny/682 .2/1/.4/.2/0",
+        "1187": "Tiger Puffer/75/floater/12/31/1600 2600/fall/both/682 .2/3/.2/.15/0",
+        "1186": "Mandarinfish/60/sinker/1/5/1600 2600/spring/both/682 .2/2/.4/.2/0",
+        "1177": "Squirrelfish/50/dart/4/8/1600 2600/summer/both/682 .2/2/.4/.2/0",
+        "1179": "Soldierfish/50/dart/4/12/1600 2600/fall/both/682 .2/2/.4/.2/0",
+        "1181": "Thread-Sail Filefish/50/floater/5/12/0600 2600/winter/both/682 .2/2/.3/.2/0",
+        "1176": "Monkfish/80/sinker/25/70/1800 2600/winter/both/682 .2/3/.2/.15/0",
+        "1178": "Icefish/45/dart/3/9/1800 2600/winter/both/682 .2/2/.3/.2/0",
+        "1180": "False Kelpfish/60/floater/4/12/0600 2600/winter/both/682 .2/2/.3/.2/0",
+		"1182": "Wolffish/70/smooth/30/60/1800 2600/fall winter/both/682 .2/2/.3/.2/0",
+		"1167": "Pollock/40/mixed/18/42/0600 1800/fall winter/both/682 .2/1/.4/.2/0",
+		"1188": "Great Firefly Squid/90/sinker/15/30/2100 2600/summer/both/682 .2/4/.1/.1/10",
+		  },
+		  "When": {
+		 "HasMod":"IslandTMX,LemurKat.EastScarpe.CP",
+		},
+		},
+		{
+		  "Action": "EditData",
+		  "LogName": "Tropical Fish Location Data Easy Fishing",
+          "Target": "Data/Fish",
+          "Fields": {
+		"1168": {1:"30"},
+		"1169": {1:"30"},
+        "1170": {1:"30"},
+        "1171": {1:"30"},
+        "1172": {1:"30"},
+        "1173": {1:"30"},
+        "1174": {1:"30"},
+        "1175": {1:"40"},
+        "1162": {1:"25"},
+        "1156": {1:"30"},
+        "1157": {1:"35"},
+        "1161": {1:"35"},
+        "1159": {1:"25"},
+        "1158": {1:"25"},
+        "1165": {1:"35"},
+        "1163": {1:"35"},
+        "1164": {1:"30"},
+        "1166": {1:"30"},
+        "1160": {1:"35"},
+        "1187": {1:"40"},
+        "1186": {1:"40"},
+        "1177": {1:"40"},
+        "1179": {1:"40"},
+        "1181": {1:"50"},
+        "1176": {1:"40"},
+        "1178": {1:"40"},
+        "1180": {1:"40"},
+		"1182": {1:"40"},
+		"1167": {1:"40"},
+		"1188": {1:"50"},
+		  },
+		  "When": {
+         "EasyFishing":"true",
+		 "HasMod":"IslandTMX,LemurKat.EastScarpe.CP",
+		},
+		},		
+		 {
+	   "Action": "EditData",
+	   "LogName": "TV Channel Easter Egg",
+     "Target": "Data/TV/TipChannel",
+     "Entries": {
+		 "221": "Folks, I've got an announcement to make. This is the last new episode of Livin' Off The Land before my retirement. I've had a good time, and I'll miss you folks. But before going, let me tell you about the legend of the magic fish. It is said that they live in a secret pond and can be found only during winter. Oh, and I've been told the station's going to start playing reruns next year. ^^Take care!",
+		 }
+		 },
+		{       
+	 "Action": "EditData",
+	 "LogName": "Craftables Elixirs",
+	 "Target": "Data/CraftingRecipes",
+	 "Entries": {		
+		"Warrior Elixir": "1064 1 1145 1 1067 1 1151 1 796 1/Home/1117 1/false/null",
+		"Fishing Elixir": "1139 1 1126 1 1129 1 1136 1 1203 1/Home/1116 1/false/null",
+			 },
+},
+		{       
+	 "Action": "EditData",
+	 "LogName": "Tainted Algae Event",
+	 "Target": "data/events/railroad",
+	 "Entries": {
+     "529955/i 1064/t 1400 2000/y 4":"continue/54 36/farmer 54 36 2 Demetrius 53 38 0/speak Demetrius \"Hey @. Have you seen the latest edition of the Angler's Guide?.\"/pause 50/speak Demetrius \"It speaks about tainted algae and fish.#$b#I see you have come accross some Tainted Algae. Do you mind letting me run some tests to learn more about this substance?\"/addObject 53 36 1064/removeItem 1064/pause 25/removeObject 54 37/speak Demetrius \"Thanks a lot.$h This could be a new scientific breakthrough!\"/end",
+	 },
+},
+{       
+	 "Action": "EditData",
+	 "LogName": "Farm Events",
+	 "Target": "data/events/farm",
+	 "Entries": {
+     "529956/e 529955/t 600 1200":"continue/64 15/farmer 64 16 2 Demetrius 64 18 0/pause 500/speak Demetrius \"Hi @! I have some bad news for you...$s#$b#I couldn't identify what substance is turning the algae black... My research showed me that the algae sample is toxic and despite lacking a nervous system, still reacts to human touch.$s I am sorry this was not the scientific breakthrough I was hoping for, but perhaps someone who likes to study the arcane arts might have some more insight.#$b# Well, I'll hang onto the sample for further study. Let me know if you find anything new.\"/addQuest 231/end",
+	 "529960/z spring/z summer/y 2":"continue/64 15/farmer 64 16 2 Willy 64 18 0/pause 500/speak Willy \"Hey @, it's been such a long time since I've seen this farm!#$b#I found a recipe from my ol' Pappy and I wanted to try it. Could you bring me a Bonnethead, a Spiny Dogfish, a Manta Ray, a Goblin Shark, and a Swordfish so we can try it out? If it works, it may reveal ol' Pappy's fishing secret. I know the ingredients are not easy to obtain, but if you manage to find them, bring them to my shop so we can give it a taste. Thanks!$h\"/addQuest 233/end",
+	 },
+},
+{       
+	 "Action": "EditData",
+	 "LogName": "Tainted Algae Chained Event",
+	 "Target": "data/events/wizardhouse",
+	 "Entries": {
+     "529957/e 529956/i 1064": "WizardSong/2 14/farmer 3 14 3 Wizard 1 14 1/removeQuest 231/pause 500/speak Wizard \"Oh, what have you got in here?\"/pause 50/addObject 2 14 1064/removeItem 1064/pause 500/speak Wizard \"So, your scientist friend could not explain what caused this algae to turn corrupt? Well, there are mysteries in this world that science simply cannot explain.#$b# Please, tell him he should be careful when handling these substances. They have been corrupted by the dark arts and are harmful to humans, but you can still extract some useful things from it.\"/removeTemporarySprites/pause 500/addObject 2 14 451/speak Wizard \"This scroll contains a recipe for an elixir made to strenghthen the body of its consumer. Take this recipe. It shall prove useful when fighting monsters.\"/removeTemporarySprites/playSound reward/message \"Learned how to craft 'Warrior Elixir'\"/addCraftingRecipe Warrior Elixir/pause 500/speak Wizard \"May this new knowledge help you through your journey!\"/emote farmer 32/end",
+	 },
+},
+{       
+	 "Action": "EditData",
+	 "LogName": "Fishing Elixir Event",
+	 "Target": "data/events/beach",
+	 "Entries": {
+ "529958/e 529960/i 1139 1/i 1126 1/i 1129 1/i 1136 1/i 1203 1/t 600 1710": "ocean/44 35/farmer 42 35 1 Willy 44 35 1/removeQuest 233/animate Willy false true 250 28 29 30 31/playSound seagulls/pause 2000/stopAnimation Willy/playSound dwop/faceDirection Willy 3/speak Willy \"Hey @.$h#$b#Oh, you brought everything I asked for? This is great!\"/emote Willy 20/pause 500/playSound seagulls/speak Willy \"Ahh, let's give this a try then.$h\"/addObject 43 35 451/speak Willy \"Here it is, the recipe. He would make this before long fishing trips and always seemed to catch a lot of fish.\"/removeTemporarySprites/playSound reward/message \"Learned how to craft 'Fishing Elixir'\"/addCraftingRecipe Fishing Elixir/pause 500/friendship Willy 500/pause 500/playSound seagulls/addQuest 234/speak Willy \"Ok, now that you know the recipe, try preparing one and let me see if it works!$h\"/end",
+   },
+   },
+ {       
+	 "Action": "EditData",
+	 "LogName": "Island Opener",
+	 "Target": "data/events/BoatTunnel",
+	 "When":{"HasMod":"IslandTMX"},
+	 "Entries": {
+ "9348571/Hl willyBoatFixed": "ocean/6 8/farmer -1000 -1000 0 Willy -1000 -1000 0/skippable/pause 4000/warp farmer 6 12/playSound doorClose/move farmer 0 -2 0/emote farmer 8/pause 1500/warp Willy 6 12/playSound doorClose/move Willy 0 -1 0/pause 500/emote Willy 28/pause 250/move farmer 1 0 0/move Willy 0 -1 0/pause 700/speak Willy \"Aye... a sad sight, isn't she?\"/pause 500/speak Willy \"She was me father's boat... Served him well for over 50 years.#$b#But now she can barely stay afloat.$s\"/faceDirection Willy 1/faceDirection farmer 3/speak Willy \"I'd repair her myself, but I don't have the right materials, lad.^I'd repair her myself, but I don't have the right materials, miss.\"/faceDirection Willy 0/speak Willy \"Aye... 200 pieces of hardwood to patch the hull would be a good start.#$b#But we'll also need to get the ticket machine back up, and the iridium anchor repaired.\"/faceDirection farmer 0/pause 400/speak Willy \"If I could get me hands on the right materials, and repair the ol' girl... well, then I could take you to the Fern Islands or other islands you want.\"/faceDirection Willy 1/faceDirection farmer 3/speak Willy \"Fern Islands are volcanic islands full of strange parrots, they say...\"/pause 400/quickQuestion #I'd like to help#Nah, I'll pass...(break)emote Willy 32\\speak Willy \"Aye... I thought you would, lad.$h^Aye... I thought you would, miss.$h\"\\speak Willy \"I'll leave this door unlocked for ya... you can come drop off the materials whenever you like.\"(break)emote Willy 28\\speak Willy \"Alright, suit yourself...$s#$b#If you have a change of heart, you can always come back and help out. I'll leave this door unlocked, anyhow.\"/pause 2000/end",
+  },
+},
+		{
+		"Action": "EditData",
+		"LogName": "Quests",
+      "Target": "Data/Quests",
+      "Entries": {
+	  "228": "ItemDelivery/Sewer Research/Demetrius is studying the possible mutations of the local fish found in the sewers. He'd like you to bring him one specimen of a mutant three-eyed fish./Bring Demetrius a Blinky./Demetrius 1131/-1/1000/-1/true/There you are. The specimen looks perfect. I'm going to get it on ice straight away. Thanks, @!",
+        "230": "ItemDelivery/A Star for Vincent/Kent wants to give Vincent a Starfish for his birthday./Bring Kent a Starfish./Kent 1096/-1/150/-1/true/Hey @, thanks a lot.$h#$b#I bet Vincent will love it. Thanks again!",
+		"231": "Basic/Void Samples/Demetrius' research was inconclusive. Find someone who might be able to help./Bring a Void Algae to the Wizard./-1/-1/-1/-1/false",
+		"232": "ItemDelivery/Trapped Soul/The Wizard wants to research the trapped souls found in Witch Swamp./Bring a Trapped Soul to the Wizard./Wizard 1066/-1/2500/-1/true/Explendid, @. You have my gratitude. Now, leave.",
+		"233": "Basic/Ol' Pappy Elixir/Willy wants to try a recipe he received from his ol' Pappy./Bring a Bonnethead, Small Manta Ray, Small Goblin Shark, Spiny Dogfish and a Swordfish to Willy./-1/-1/-1/-1/true.",
+		"234": "ItemDelivery/Craft a Fishing Elixir/Willy wants to try his ol' Pappy's Elixir./Bring a Fishing Elixir to Willy./Willy 1116/-1/8000/-1/true/Oh @,$h#$b# Is that it? I can't believe it!!!$h#$b# Skipper, this is incredible. I don't know how to thank you enough. Please take this. It's not much, but it's the least I can do to repay you for your help in retrieving me ol' Pappy's legacy.",
+        },
+        },
+	 {
+	 "Action": "EditData",
+	 "LogName": "Willy Dialogues",
+	 "When": {"EnableWillyDialogues":"true"},
+ 	 "Target": "Characters/Dialogue/Willy",
+	 "Entries": {
+	 "Mon8": "Hey @, if you are struggling with fierce fish, try using Trap Bobber. It is really helpfull!",
+	 "spring_Tue": "@, have you tried fishing in the pond in the forest?#$b# There are a lot of goldfish there. Good for practing, but not very challenging.",
+	 "spring_Tue8": "Hey @, I tried fishing in the pond and got a huge Pangasius.$h#$b# They are very strong swimmers and their meat is delicious.",
+	 "spring_Wed": "I was fihing in town one day and all I caught was Trahiras and Pacus, then I went to the forest and all I caught was Chubs.$s#$b# Not cool.$s",
+	 "spring_Wed8": "Arowanas are as fierce as they are beautiful. It's too bad that they prefer rainy weather.",
+	 "spring_Mon": "Oh @, have you tried fishing while it's raining? Some species like Shad, Anchoviella, and Pleco will only come out while raining.",
+	 "spring_Mon8": "Oh @, have you tried fishing while it's raining? Some species like Arowana, Eel, and Catfish can only be caught during the rain.",
+	 "spring_Thu": "Hey @, caught a Zebra Tilapia in the lake the other day.$h#$b# They are fierce, but make for good money. They usually come out on sunny days.",
+	 "spring_Thu8": "Hey @, caught some Barracudas at the ocean the other day.$h#$b# They are really tough to catch, but can really turn a profit. They usually come out on sunny days.",
+	 "spring_Fri": "Hello @. $s#$b# Be careful with sea snakes.$s#$b# Almost got bitten by one the other day! ",
+	 "summerBeach": "Good morning!$h#$b# Nice day for fishing, ain't it?$h#$b# Hu ha!",
+	 "summer_Mon": "Ahoy @.$h#$b# It's funny, saltwater pufferfish prefer sunny days, but freshwater ones prefer the rain.",
+	 "summer_Mon8": "Ahoy Skipper.$h#$b# It's funny, common octopi like warmer waters, but there are some species that prefer a more mild climate.",
+	 "summer_Sun": "Hey.$h#$b# Ladyfish will be out out of season soon. Try cathing one while you can.",
+	 "summer_Sun8": "Hey.$h#$b# Robalo will be out out of season soon. Try to catch one while you still can!",
+	 "summer_Fri": "Hello @.$h#$b# Did you know there are several types of Carp?$h#$b# Each prefer a different season or different weather.",
+	 "summer_Fri8": "Hello @.$h#$b# Did you know there are several types of Eel?$h#$b# Each prefer a different season or different weather. Not all of them like rainy weather.",
+	 "fall_Tue": "Hello @.$h#$b# Caught a very beautiful Clown Knifefish in the lake just yesterday. What a fish!",
+	 "fall_Sun": "Oh @.$h#$b# Did you know that Redtail Shark is actually a type of loach, not a shark?$eThey are usually found in ponds.",
+	 "winter_Sat": "Ahoy @.#$b# This isn't the best weather for fishing, but several fish come to these waters around this time of year. If you can brave the cold, you can find some very interesting fish!",
+	 "winter_Fri": "Hey @.#$b# Try catching a Lingcod in the river. They're hard to catch, but it's nice money.",
+	 "winter_Fri8": "Hey @.#$b# Have you tried catching an Arctic Char? They're very hard to catch and worth quite a lot, but even if they weren't, they're simply beautiful!",
+	 "winter_Tue": "Hello @. How are ya?#$b# Why do people call the Icedevil a vegetarian fish? I have no idea.",
+	 "winter_Thu": "Ahoy.#$b# Pike, Perch, Tench, Walleye, Sauger, and Ide make for some very diverse fishing in the pond this time of year.",
+	 "winter_Wed": "Hey @.#$b# I would definitely raise Sturgeons in a fish pond. They're very lucrative fish.#$b# Though it's been a while since I last went fishing in the mountains. I should get out there soon",
+	 "winter_Sun": "Hey.$h#$b# Haddock will be out out of season soon. If you haven't caught one yet this Winter, you probably should.",
+	 },
+	 },
+	 {    
+	 "Action": "EditData",
+	 "Target": "Characters/Dialogue/rainy",
+	 "LogName": "Willy Raining Dialogue",
+	 "When": {"EnableWillyDialogues":"true"},
+	 "Entries": {
+	 "Willy": "If I wasn't putting myself at risk of getting a cold, I would definitely stay out all day fishing.$h#$b# Some fish are only happy when it rains.",
+	 },
+	 },
+	 {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+	  "LogName": "GiftTastes",
+	  "When": {"EnableGiftTastes":"true"},
+      "Fields": {
+	  "Demetrius": {1:"207 232 233 400 1094 1095 1184",3:"-5 -79 422 1131 1145 1075 1110 1185"},
+	  "Maru": {3:"-260 62 64 66 68 70 334 335 725 726 909 1131 1145 1075 1110 1185"},
+	  "Haley": {1:"221 421 610 88 1148 1147",3:"18 60 62 64 70 88 222 223 232 233 234 402 418 1146 1097 1098"},
+	  "Jas": {1:"221 595 604 1148 1147",3:"18 60 64 70 88 232 233 234 222 223 340 344 402 418 903 1146"},
+      "Elliott": {1:"715 732 218 444 637 814 1132 1121 1123 1122 1100 1104 1105 1099"},
+      "Vincent": {1:"221 398 612 721 903 1149 1150",3:"18 60 64 70 88 232 233 234 222 223 340 344 402 418 1146"},
+	  "Willy": {1:"172 143 149 154 276 337 698 459 1129 1139 1136 1126 1142"},
+	  "Abigail": {1:"66 128 220 226 276 611 1078 1079 1061 1069 1093"},
+      "Alex": {1:"201 212 662 664 1091"},
+      "Sam": {1:"90 206 655 658 562 731 1081 1082"},
+	  "Leah": {1:"196 200 348 606 651 650 426 430 1074 1083"},
+	  "Harvey": {1:"348 237 432 395 342 1089 1077"},
+	  "Wizard": {1:"155 422 769 768 1065 1066"},
+	  "Penny": {1:"60 376 651 72 164 218 230 244 254 1057"},
+	  "Krobus": {1:"72 16 276 337 305 308 1064", 3:"66 336 340 1140"},
+	  "Sebastian": {1:"84 227 236 575 305 1056 1109 1076",3:"267 614 276 1141 1072"},
+	  "Linus": {1:"88 90 234 242 280 1091 1133 1125",3:"-5 -6 -79 -81 1086 1070 1135"},
+	  "Gus": {1:"72 213 635 729 907 1071",3:"348 303 -7 18 1135 1070"},
+      },
+	  },
+	  //FISHPOND DATA
+	  {   
+	 "Action": "EditData",
+	 "LogName": "Fishpond",
+	 "Target": "Data/FishPondData",
+	 "Entries": { 
+	 "fish_alien": {
+		"RequiredTags": [
+		"fish_alien"
+		],
+		"SpawnTime": -1,
+		"ProducedItems": [
+		{
+			"RequiredPopulation": 9,
+			"Chance": 0.02,
+			"ItemID": 349,
+			"MinQuantity": 1,
+			"MaxQuantity": 1
+		},
+		{
+			"RequiredPopulation": 5,
+			"Chance": 0.02,
+			"ItemID": 351,
+			"MinQuantity": 1,
+			"MaxQuantity": 1
+		},
+		{
+			"RequiredPopulation": 0,
+			"Chance": 0.5,
+			"ItemID": 812,
+			"MinQuantity": 1,
+			"MaxQuantity": 2
+		}
+		],
+		"PopulationGates": {
+		"4": [
+			"168 15",
+			"167 15",
+			"170 15",
+			"171 15",
+		],
+		"8": [
+			"457 10",
+			"220 3",
+			"203 3"
+		],
+			},
+			},
+		"fish_mudskipper": {
+		"RequiredTags": [
+		"fish_mudskipper"
+		],
+		"SpawnTime": -1,
+		"ProducedItems": [
+		{
+			"RequiredPopulation": 8,	
+			"Chance": 0.01,
+			"ItemID": 275,
+			"MinQuantity": 1,
+			"MaxQuantity": 1
+		},
+		{
+			"RequiredPopulation": 5,
+			"Chance": 0.1,
+			"ItemID": 774,
+			"MinQuantity": 1,
+			"MaxQuantity": 10
+		},
+		{
+			"RequiredPopulation": 3,
+			"Chance": 0.1,
+			"ItemID": 330,
+			"MinQuantity": 1,
+			"MaxQuantity": 3
+		},
+		{
+			"RequiredPopulation": 1,
+			"Chance": 0.1,
+			"ItemID": 574,
+			"MinQuantity": 1,
+			"MaxQuantity": 1
+		},
+		{
+			"RequiredPopulation": 0,
+			"Chance": 0.5,
+			"ItemID": 812,
+			"MinQuantity": 1,
+			"MaxQuantity": 2
+		}
+		],
+		"PopulationGates": {
+		"4": [
+			"330 15"
+		],
+		"8": [
+			"721 5"
+		],
+			},
+			},
+			
+		"fish_koi": {
+		"RequiredTags": [
+		"fish_koi"
+		],
+		"SpawnTime": -1,
+		"ProducedItems": [
+		{
+			"RequiredPopulation": 10,
+			"Chance": 0.02,
+			"ItemID": 628, //Cherry Sappling
+			"MinQuantity": 1,
+			"MaxQuantity": 1
+		},
+		{
+			"RequiredPopulation": 7,
+			"Chance": 0.05,
+			"ItemID": 70, //jade
+			"MinQuantity": 1,
+			"MaxQuantity": 1
+		},
+		{
+			"RequiredPopulation": 5,
+			"Chance": 0.05,
+			"ItemID": 566, //Celestine
+			"MinQuantity": 1,
+			"MaxQuantity": 1
+		},
+		{
+			"RequiredPopulation": 4,
+			"Chance": 0.1,
+			"ItemID": 273, //rice shoot
+			"MinQuantity": 5,
+			"MaxQuantity": 10
+		},
+		{
+			"RequiredPopulation": 0,
+			"Chance": 0.5,
+			"ItemID": 812, //roe
+			"MinQuantity": 1,
+			"MaxQuantity": 1
+		},
+          ],
+		"PopulationGates": {
+		"4": [
+        "216 1 2", //Bread
+        "423 1 2", //Rice
+		],
+		"8": [
+        "229 2", //Tortilla
+        "270 2 3", //Corn
+		],
+			},
+			},
+			"fish_swordfish": {
+		"RequiredTags": [
+		"fish_swordfish"
+		],
+		"SpawnTime": 4,
+		"ProducedItems": [
+		{
+			"RequiredPopulation": 10,
+			"Chance": 0.05,
+			"ItemID": 337, //Iridium Bar
+			"MinQuantity": 1,
+			"MaxQuantity": 3
+		},
+		{
+			"RequiredPopulation": 8,
+			"Chance": 0.10,
+			"ItemID": 684, //Bug Meat
+			"MinQuantity": 20,
+			"MaxQuantity": 20
+		},
+		{
+			"RequiredPopulation": 6,
+			"Chance": 0.02,
+			"ItemID": 109, //Ancient Sword
+			"MinQuantity": 1,
+			"MaxQuantity": 1
+		},
+		{
+			"RequiredPopulation": 4,
+			"Chance": 0.5,
+			"ItemID": 812, //Roe
+			"MinQuantity": 1,
+			"MaxQuantity": 2
+		},
+		{
+			"RequiredPopulation": 0,
+			"Chance": 0.5,
+			"ItemID": 812, //Roe
+			"MinQuantity": 1,
+			"MaxQuantity": 1
+		}
+		],
+		"PopulationGates": {
+		"5": [
+			"1135 5", //Haddock
+		],
+		"7": [
+			"1069 5" //Ghost Eel
+		],
+			},
+			},
+			"fish_cave": {
+			"RequiredTags": [
+		"fish_cave"
+		],
+		"SpawnTime": -1,
+        "ProducedItems": [
+		{
+        "RequiredPopulation": 10,
+        "Chance": 0.066,
+        "ItemID": 693, //Treasure Hunter
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      },
+      {
+        "RequiredPopulation": 9,
+        "Chance": 0.01,
+        "ItemID": 749, //Omni Geode
+        "MinQuantity": 1,
+        "MaxQuantity": 5
+      },
+      {
+        "RequiredPopulation": 5,
+        "Chance": 0.1,
+        "ItemID": 535, //Geode
+        "MinQuantity": 1,
+        "MaxQuantity": 5
+      },
+      {
+        "RequiredPopulation": 0,
+        "Chance": 0.5,
+        "ItemID": 812, //roe
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      }
+    ],
+		"PopulationGates": {
+		"4": [
+			"535 5"
+		],
+		"8": [
+			"749 5"
+		],
+			},
+			},
+	"fish_electric_catfish": {
+	"RequiredTags": [
+		"fish_electric_catfish"
+		],
+		"SpawnTime": -1,
+      "ProducedItems": [
+		{
+        "RequiredPopulation": 9,
+        "Chance": 0.01,
+        "ItemID": 787,
+        "MinQuantity": 3,
+        "MaxQuantity": 5
+      },
+      {
+        "RequiredPopulation": 8,
+        "Chance": 0.01,
+        "ItemID": 787,
+        "MinQuantity": 1,
+        "MaxQuantity": 2
+      },
+      {
+        "RequiredPopulation": 5,
+        "Chance": 0.25,
+        "ItemID": 812,
+        "MinQuantity": 2,
+        "MaxQuantity": 3
+      },
+      {
+        "RequiredPopulation": 0,
+        "Chance": 0.5,
+        "ItemID": 812,
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      }
+    ],
+		"PopulationGates": {
+		"4": [
+			"164 2"
+		],
+		"8": [
+			"787 5"
+		],
+			},
+			},
+		"fish_vampire_fish": {
+		"RequiredTags": [
+		"fish_vampire_fish"
+		],
+		"SpawnTime": -1,
+          "ProducedItems": [
+		{
+        "RequiredPopulation": 9,
+        "Chance": 0.02,
+        "ItemID": 373, //Golden Pumpkin
+        "MinQuantity": 1,
+        "MaxQuantity": 2
+      },
+      {
+        "RequiredPopulation": 5,
+        "Chance": 0.01,
+        "ItemID": 879, //Monster Musk
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      },
+      {
+        "RequiredPopulation": 1,
+        "Chance": 0.02,
+        "ItemID": 767, //Bat Wings
+        "MinQuantity": 30,
+        "MaxQuantity": 30
+      },
+      {
+        "RequiredPopulation": 0,
+        "Chance": 0.5,
+        "ItemID": 812, //Roe
+        "MinQuantity": 1,
+        "MaxQuantity": 3
+      }
+    ],
+		"PopulationGates": {
+		"4": [
+			"746 10" //Jack-O-Latern
+		],
+		"6": [
+			"1126 3", //Goblin Shark
+			"1139 3" //Spiny Dogfish
+		],
+			},
+			},
+		"fish_magic": {
+		"RequiredTags": [
+		"fish_magic"
+		],
+		"SpawnTime": 8,
+        "ProducedItems": [
+		{
+        "RequiredPopulation": 10,
+        "Chance": 0.01,
+        "ItemID": 279, //Magic Rock Candy
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      },
+      {
+        "RequiredPopulation": 8,
+        "Chance": 0.05,
+        "ItemID": 872, //Fairy Dust
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      },
+	  {
+        "RequiredPopulation": 8,
+        "Chance": 0.1,
+        "ItemID": 773, //Life Elixir
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      },
+      {
+        "RequiredPopulation": 1,
+        "Chance": 0.02,
+        "ItemID": 577, //Fairy Stone
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      },
+      {
+        "RequiredPopulation": 0,
+        "Chance": 0.5,
+        "ItemID": 812, //Roe
+        "MinQuantity": 1,
+        "MaxQuantity": 2
+      }
+    ],
+		"PopulationGates": {
+		"4": [
+			"422 5" //Purple Mushroom
+		],
+		"5": [
+			"768 50", //Solar Essence
+		],
+		"7": [
+			"872 5", //Fairy Dust
+		],
+		"9": [
+			"74", //Prismatic Shard
+		],
+			},
+			},
+			"fish_vampire_squid": {
+		"RequiredTags": [
+		"fish_vampire_squid"
+		],
+		"SpawnTime": -1,
+              "ProducedItems": [
+      {
+        "RequiredPopulation": 8,
+        "Chance": 0.02,
+        "ItemID": 797, //Pearl
+        "MinQuantity": 1,
+        "MaxQuantity": 2
+      },
+	  {
+        "RequiredPopulation": 6,
+        "Chance": 0.25,
+        "ItemID": 814, //Squid Ink
+        "MinQuantity": 6,
+        "MaxQuantity": 10
+      },
+      {
+        "RequiredPopulation": 4,
+        "Chance": 0.5,
+        "ItemID": 814, //Squid Ink
+        "MinQuantity": 3,
+        "MaxQuantity": 6
+      },
+      {
+        "RequiredPopulation": 0,
+        "Chance": 0.5,
+        "ItemID": 814, //Squid Ink
+        "MinQuantity": 2,
+        "MaxQuantity": 2
+      }
+    ],
+		"PopulationGates": {
+		"4": [
+			"375 5", //Clam
+		],
+		"6": [
+			"1096 10",//Starfish
+		],
+		"8": [
+			"1097 4", //Blue Starfish
+			"1098 3", // Royal Starfish
+			"1099 2", //Crown of Thorns Starfish
+			"1100 1 2", // Holy Grenade Starfish
+		],
+			},
+			},
+			"fish_goldfish": {
+		"RequiredTags": [
+		"fish_goldfish"
+		],
+		"SpawnTime": 1,
+              "ProducedItems": [
+		{
+        "RequiredPopulation": 10,
+        "Chance": 0.01,
+        "ItemID": 124, //Golden Mask
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      },
+	   {
+        "RequiredPopulation": 9,
+        "Chance": 0.02,
+        "ItemID": 104,//Elvish Jewlry
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      },
+		 {
+        "RequiredPopulation": 8,
+        "Chance": 0.02,
+        "ItemID": 125, //Golden Relic
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      },
+      {
+        "RequiredPopulation": 6,
+        "Chance": 0.25,
+        "ItemID": 812,
+        "MinQuantity": 4,
+        "MaxQuantity": 10
+      },
+      {
+        "RequiredPopulation": 4,
+        "Chance": 0.25,
+        "ItemID": 812,
+        "MinQuantity": 2,
+        "MaxQuantity": 4
+      },
+      {
+        "RequiredPopulation": 0,
+        "Chance": 0.25,
+        "ItemID": 812,
+        "MinQuantity": 1,
+        "MaxQuantity": 2
+      }
+    ],
+		"PopulationGates": {
+      "5": [
+        "571 5", //Limestone
+      ],
+      "7": [
+        "576 5", //Slate
+      ]
+    }
+  },
+  "fish_great_firefly_squid": {
+		"RequiredTags": [
+		"fish_great_firefly_squid"
+		],
+		"SpawnTime": -1,
+    "ProducedItems": [
+		{
+        "RequiredPopulation": 9,
+        "Chance": 0.02,
+        "ItemID": 74, //Prismatic Shard
+        "MinQuantity": 1,
+        "MaxQuantity": 2
+      },
+		 {
+        "RequiredPopulation": 6,
+        "Chance": 0.02,
+        "ItemID": 64, //Ruby
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      },
+      {
+        "RequiredPopulation": 4,
+        "Chance": 0.03,
+        "ItemID": 563, //Jasper
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      },
+      {
+        "RequiredPopulation": 0,
+        "Chance": 0.1,
+        "ItemID": 766, //Slime
+        "MinQuantity": 40,
+        "MaxQuantity": 40
+      },
+      {
+        "RequiredPopulation": 0,
+        "Chance": 0.5,
+        "ItemID": 814,
+        "MinQuantity": 1,
+        "MaxQuantity": 5
+      }
+    ],
+		"PopulationGates": {
+      "4": [
+        "1108 5" //Sand Dollar
+      ],
+      "6": [
+        "1151 5",//Jellyfish
+		"1107 3" //Prawn 
+      ],
+      "8": [
+        "1093 1", //Blue Dragon Slug
+		"1094 1 2", //Nautilus
+      ]
+    }
+  },
+	"fish_octopi": {
+	"RequiredTags": [
+      "fish_octopi"
+    ],
+    "SpawnTime": -1,
+    "ProducedItems": [
+      {
+        "RequiredPopulation": 9,
+        "Chance": 0.066,
+        "ItemID": 749,
+        "MinQuantity": 3,
+        "MaxQuantity": 3
+      },
+      {
+        "RequiredPopulation": 9,
+        "Chance": 0.01,
+        "ItemID": 749,
+        "MinQuantity": 10,
+        "MaxQuantity": 10
+      },
+      {
+        "RequiredPopulation": 9,
+        "Chance": 0.1,
+        "ItemID": 749,
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      },
+      {
+        "RequiredPopulation": 0,
+        "Chance": 1.0,
+        "ItemID": 812,
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      }
+    ],
+    "PopulationGates": {
+      "4": [
+        "338 3",
+        "340",
+        "393 3",
+        "723"
+      ],
+      "6": [
+        "422 2 3",
+        "60 2",
+        "749 2 3",
+        "116"
+      ],
+      "8": [
+        "614"
+      ]
+    },	
+	},
+	"fish_starfish": {
+		"RequiredTags": [
+		"fish_starfish"
+		],
+		"SpawnTime": -1,
+    "ProducedItems": [
+	 {
+        "RequiredPopulation": 10,
+        "Chance": 0.01,
+        "ItemID": 486, //Starfruit Seeds
+        "MinQuantity": 3,
+        "MaxQuantity": 10
+      },
+      {
+        "RequiredPopulation": 0,
+        "Chance": 0.5,
+        "ItemID": 812,
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+		}
+    ],
+		"PopulationGates": {
+		"4": [
+        "718", //Cockle
+		"375" //Clam
+      ],
+	  "8": [
+        "723 5", //Oyster
+		"721 5"  //Snail
+      ]
+    },
+	},
+	"item_snake": {
+		"RequiredTags": [
+		"item_snake"
+		],
+		"SpawnTime": -1,
+    "ProducedItems": [
+	 {
+        "RequiredPopulation": 5,
+        "Chance": 0.15,
+        "ItemID": 828, //Mummified Frog
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+		},
+	{
+        "RequiredPopulation": 5,
+        "Chance": 0.15,
+        "ItemID": 827, //Mummified Bat
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      },
+	 {
+        "RequiredPopulation": 5,
+        "Chance": 0.15,
+        "ItemID": 826, //Snake Vertebra
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      },
+      {
+        "RequiredPopulation": 5,
+        "Chance": 0.15,
+        "ItemID": 825, //Snake Skull
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+		},
+    ],
+		"PopulationGates": {
+		"4": [
+        "838", //Blue Discus
+		"1201" //Black Ghost Knifefish
+      ],
+    },
+	},	
+	"fish_mantaray": {
+		"RequiredTags": [
+		"fish_mantaray"
+		],
+		"SpawnTime": -1,
+    "ProducedItems": [
+	 {
+        "RequiredPopulation": 10,
+        "Chance": 0.02,
+        "ItemID": 439, //Purple Slime Egg
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+		},
+	{
+        "RequiredPopulation": 6,
+        "Chance": 0.10,
+        "ItemID": 1208, //Manta Ray Pup
+        "MinQuantity": 4,
+        "MaxQuantity": 4
+      },
+	 {
+        "RequiredPopulation": 4,
+        "Chance": 0.10,
+        "ItemID": 1208, //Manta Ray Pup
+        "MinQuantity": 2,
+        "MaxQuantity": 2
+      },
+      {
+        "RequiredPopulation": 1,
+        "Chance": 0.10,
+        "ItemID": 1208, //Manta Ray Pup
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+		},
+    ],
+		"PopulationGates": {
+		"5": [
+        "393 20", //Coral
+      ],
+	  "9": [
+        "394 5", //Rainbow Shell
+      ],
+    },
+	},
+	"fish_coelacanth": {
+		"RequiredTags": [
+		"fish_coelacanth"
+		],
+		"SpawnTime": -1,
+    "ProducedItems": [
+	 {
+        "RequiredPopulation": 10,
+        "Chance": 0.03,
+        "ItemID": 275, //Artifact Trove
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+		},
+		 {
+        "RequiredPopulation": 8,
+        "Chance": 0.01,
+        "ItemID": 107, //Dinosaur Egg
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+		},
+	 {
+        "RequiredPopulation": 6,
+        "Chance": 0.01,
+        "ItemID": 587, //Amphibian Fossil
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+		},
+	{
+        "RequiredPopulation": 5,
+        "Chance": 0.01,
+        "ItemID": 586, //Nautilus Fossil
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      },
+	 {
+        "RequiredPopulation": 2,
+        "Chance": 0.10,
+        "ItemID": 78, //Cave Carrot
+        "MinQuantity": 5,
+        "MaxQuantity": 5
+      },
+      {
+        "RequiredPopulation": 1,
+        "Chance": 0.50,
+        "ItemID": 812, //Roe
+        "MinQuantity": 1,
+        "MaxQuantity": 2
+		},
+    ],
+		"PopulationGates": {
+		"3": [
+        "158 5", //Stonefish
+      ],
+	  "9": [
+        "1114 3", //Cave Lobster
+      ],
+    },
+	},
+	"fish_arowana": {
+		"RequiredTags": [
+		"fish_arowana"
+		],
+		"SpawnTime": -1,
+    "ProducedItems": [
+		 {
+        "RequiredPopulation": 10,
+        "Chance": 0.01,
+        "ItemID": 74, //Prismatic Shard
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+		},
+	{
+        "RequiredPopulation": 4,
+        "Chance": 0.51,
+        "ItemID": 812, //Roe
+        "MinQuantity": 2,
+        "MaxQuantity": 2
+      },
+	 {
+        "RequiredPopulation": 2,
+        "Chance": 0.5,
+        "ItemID": 812, //Roe
+        "MinQuantity": 1,
+        "MaxQuantity": 2
+      },
+      {
+        "RequiredPopulation": 1,
+        "Chance": 0.50,
+        "ItemID": 812, //Roe
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+		},
+    ],
+		"PopulationGates": {
+		"3": [
+        "1102 5",//Red Freshwater Shrimp
+		"1103 5" //Blue Freshwater Shrimp
+      ],
+	  "9": [
+        "138 5", //Rainbow Trout
+      ],
+    },
+	},
+	"fish_triggerfish": {
+		"RequiredTags": [
+		"fish_triggerfish"
+		],
+		"SpawnTime": -1,
+    "ProducedItems": [
+	 {
+        "RequiredPopulation": 10,
+        "Chance": 0.05,
+        "ItemID": 886, //Warp Totem: Island
+        "MinQuantity": 5,
+        "MaxQuantity": 5
+		},
+		{
+        "RequiredPopulation": 8,
+        "Chance": 0.02,
+        "ItemID": 835, //Mango Sappling
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+		},
+	 {
+        "RequiredPopulation": 4,
+        "Chance": 0.15,
+        "ItemID": 834, //Mango
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      },
+      {
+        "RequiredPopulation": 1,
+        "Chance": 0.50,
+        "ItemID": 812, //Roe
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+		},
+    ],
+		"PopulationGates": {
+		"3": [
+        "91 2",//Banana
+      ],
+	  "9": [
+        "791 2", //Golden Coconut
+      ],
+    },
+	},
+	"fish_blackghostfish": {
+		"RequiredTags": [
+		"fish_blackghostfish"
+		],
+		"SpawnTime": -1,
+    "ProducedItems": [
+		{
+        "RequiredPopulation": 10,
+        "Chance": 0.05,
+        "ItemID": 917, //Qi Seasoning
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+		},
+		{
+        "RequiredPopulation": 8,
+        "Chance": 0.10,
+        "ItemID": 681, //Rain Totem
+        "MinQuantity": 1,
+        "MaxQuantity": 2
+		},
+	 {
+        "RequiredPopulation": 4,
+        "Chance": 0.2,
+        "ItemID": 829, //Ginger
+        "MinQuantity": 1,
+        "MaxQuantity": 3
+      },
+      {
+        "RequiredPopulation": 1,
+        "Chance": 0.50,
+        "ItemID": 812, //Roe
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+		},
+    ],
+		"PopulationGates": {
+		"3": [
+        "1101 5",//Freshwater Shrimp
+      ],
+	  "9": [
+        "908 5", //Magic Bait
+      ],
+    },
+	},
+	"fish_bonnethead": {
+		"RequiredTags": [
+		"fish_bonnethead"
+		],
+		"SpawnTime": -1,
+    "ProducedItems": [
+		{
+        "RequiredPopulation": 10,
+        "Chance": 0.01,
+        "ItemID": 857, //Tiger Slime Egg
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+		},
+		{
+        "RequiredPopulation": 8,
+        "Chance": 0.10,
+        "ItemID": 848, //Cinder Shard
+        "MinQuantity": 5,
+        "MaxQuantity": 10
+		},
+	 {
+        "RequiredPopulation": 6,
+        "Chance": 0.10,
+        "ItemID": 1205, //Bonnethead Pup
+        "MinQuantity": 4,
+        "MaxQuantity": 4
+      },
+	  {
+        "RequiredPopulation": 4,
+        "Chance": 0.10,
+        "ItemID": 1205, //Bonnethead Pup
+        "MinQuantity": 2,
+        "MaxQuantity": 2
+		},
+      {
+        "RequiredPopulation": 1,
+        "Chance": 0.10,
+        "ItemID": 1205, //Bonnethead Pup
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+		},
+    ],
+		"PopulationGates": {
+		"3": [
+        "128 5",//Pufferfish
+      ],
+	  "7": [
+        "155 5", //Super Cucumber
+      ],
+    },
+	},
+	"fish_goblinshark": {
+		"RequiredTags": [
+		"fish_goblinshark"
+		],
+		"SpawnTime": -1,
+    "ProducedItems": [
+		{
+        "RequiredPopulation": 10,
+        "Chance": 0.05,
+        "ItemID": 413, //Blue Slime Egg
+        "MinQuantity": 1,
+        "MaxQuantity": 2
+		},
+		{
+        "RequiredPopulation": 8,
+        "Chance": 0.05,
+        "ItemID": 856, //Curiosity Lure
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+		},
+	 {
+        "RequiredPopulation": 6,
+        "Chance": 0.10,
+        "ItemID": 1204, //Goblin Shark Pup
+        "MinQuantity": 4,
+        "MaxQuantity": 4
+      },
+	  {
+        "RequiredPopulation": 4,
+        "Chance": 0.10,
+        "ItemID": 1204, //Goblin Shark Pup
+        "MinQuantity": 2,
+        "MaxQuantity": 2
+		},
+      {
+        "RequiredPopulation": 1,
+        "Chance": 0.10,
+        "ItemID": 1204, //Goblin Shark Pup
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+		},
+    ],
+		"PopulationGates": {
+		"3": [
+        "1138 5",//Longfin Icedevil
+      ],
+	  "7": [
+        "1080 5", //Conger
+      ],
+    },
+	},
+	"fish_dogfish": {
+		"RequiredTags": [
+		"fish_dogfish"
+		],
+		"SpawnTime": -1,
+    "ProducedItems": [
+		{
+        "RequiredPopulation": 10,
+        "Chance": 0.01,
+        "ItemID": 166, //Treasure Chest
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+		},
+		{
+        "RequiredPopulation": 8,
+        "Chance": 0.05,
+        "ItemID": 881, //Bone Fragment
+        "MinQuantity": 10,
+        "MaxQuantity": 20
+		},
+	 {
+        "RequiredPopulation": 6,
+        "Chance": 0.10,
+        "ItemID": 1206, //Spiny Dogfish Pup
+        "MinQuantity": 4,
+        "MaxQuantity": 4
+      },
+	  {
+        "RequiredPopulation": 4,
+        "Chance": 0.10,
+        "ItemID": 1206, //Spiny Dogfish Pup
+        "MinQuantity": 2,
+        "MaxQuantity": 2
+		},
+      {
+        "RequiredPopulation": 1,
+        "Chance": 0.10,
+        "ItemID": 1206, //Spiny Dogfish Pup
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+		},
+    ],
+		"PopulationGates": {
+		"3": [
+        "1071 10",//Anchoviella
+      ],
+	  "7": [
+        "1137 5", //Barracuda
+      ],
+    },
+	},
+	"fish_cyclopshark": {
+		"RequiredTags": [
+		"fish_cyclopshark"
+		],
+		"SpawnTime": 999999,
+    "ProducedItems": [
+		{
+        "RequiredPopulation": 10,
+        "Chance": 0.10,
+        "ItemID": 275, //Artifact Trove
+        "MinQuantity": 5,
+        "MaxQuantity": 5
+		},
+	  {
+        "RequiredPopulation": 8,
+        "Chance": 0.25,
+        "ItemID": 749, //Omni Geode
+        "MinQuantity": 10,
+        "MaxQuantity": 10
+		},
+      {
+        "RequiredPopulation": 4,
+        "Chance": 0.25,
+        "ItemID": 535, //Geode
+        "MinQuantity": 10,
+        "MaxQuantity": 10
+		},
+    ],
+		"PopulationGates": null
+	},
+	"fish_dwarfstingray": {
+		"RequiredTags": [
+		"fish_dwarfstingray"
+		],
+		"SpawnTime": -1,
+    "ProducedItems": [
+	{
+        "RequiredPopulation": 10,
+        "Chance": 0.02,
+        "ItemID": 122, //Dwarf Gadget
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+		},
+		{
+        "RequiredPopulation": 8,
+        "Chance": 0.02,
+        "ItemID": 121, //Dwarvish Helmet
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+		},
+		{
+        "RequiredPopulation": 8,
+        "Chance": 0.02,
+        "ItemID": 112, //Rusty Cog
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+		},
+	 {
+        "RequiredPopulation": 6,
+        "Chance": 0.10,
+        "ItemID": 1207, //Dwarf Stingray Pup
+        "MinQuantity": 4,
+        "MaxQuantity": 4
+      },
+	  {
+        "RequiredPopulation": 4,
+        "Chance": 0.10,
+        "ItemID": 1207, //Dwarf Stingray Pup
+        "MinQuantity": 2,
+        "MaxQuantity": 2
+		},
+      {
+        "RequiredPopulation": 1,
+        "Chance": 0.10,
+        "ItemID": 1207, //Dwarf Stingray Pup
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+		},
+    ],
+		"PopulationGates": {
+		"5": [
+        "393 10", //Coral
+      ],
+    },
+	},
+	"fish_dumbooctopus": {
+	"RequiredTags": [
+      "fish_dumbooctopus"
+    ],
+    "SpawnTime": -1,
+    "ProducedItems": [
+      {
+        "RequiredPopulation": 9,
+        "Chance": 0.066,
+        "ItemID": 749,
+        "MinQuantity": 3,
+        "MaxQuantity": 3
+      },
+      {
+        "RequiredPopulation": 9,
+        "Chance": 0.01,
+        "ItemID": 749,
+        "MinQuantity": 10,
+        "MaxQuantity": 10
+      },
+      {
+        "RequiredPopulation": 9,
+        "Chance": 0.1,
+        "ItemID": 749,
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      },
+	   {
+        "RequiredPopulation": 6,
+        "Chance": 0.05,
+        "ItemID": 336,
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      },
+	   {
+        "RequiredPopulation": 4,
+        "Chance": 0.1,
+        "ItemID": 555,
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      },
+      {
+        "RequiredPopulation": 0,
+        "Chance": 1.0,
+        "ItemID": 812,
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      }
+    ],
+    "PopulationGates": {
+      "4": [
+        "338 3",
+        "340",
+        "393 3",
+        "723"
+      ],
+      "6": [
+        "422 2 3",
+        "60 2",
+        "749 2 3",
+        "116"
+      ],
+      "8": [
+        "614"
+      ]
+    },	
+	},
+			},
+		},
+	  {
+			"Action": "EditData",
+			"LogName": "Fishpond Entries Handler",
+			"Target": "Data/FishPondData",
+			"MoveEntries": [
+				{ "ID": "fish_alien", "ToPosition": "Top"},
+				{"ID": "fish_mudskipper", "AfterID": "fish_alien"},
+				 {"ID": "fish_koi", "AfterID": "fish_mudskipper"},
+				 {"ID": "fish_swordfish", "AfterID": "fish_koi"},
+				 {"ID": "fish_cave", "AfterID": "fish_swordfish"},
+				 {"ID": "fish_electric_catfish", "AfterID": "fish_cave"},
+				 {"ID": "fish_vampire_fish", "AfterID": "fish_electric_catfish"},
+				 {"ID": "fish_magic", "AfterID": "fish_vampire_fish"},
+				 {"ID": "fish_vampire_squid", "AfterID": "fish_magic"},
+				 {"ID": "fish_goldfish", "AfterID": "fish_vampire_squid"},
+				 {"ID": "fish_great_firefly_squid", "AfterID": "fish_goldfish"},
+				 {"ID": "fish_octopi", "AfterID": "fish_great_firefly_squid"},
+				 {"ID": "fish_starfish", "AfterID": "fish_octopi"},
+				 {"ID": "item_snake", "AfterID": "fish_starfish"},
+				 {"ID": "fish_mantaray", "AfterID": "item_snake"},
+				 {"ID": "fish_coelacanth", "AfterID": "fish_mantaray"},
+				 {"ID": "fish_arowana", "AfterID": "fish_coelacanth"},
+				 {"ID": "fish_triggerfish", "AfterID": "fish_arowana"},
+				 {"ID": "fish_blackghostfish", "AfterID": "fish_triggerfish"},
+				 {"ID": "fish_bonnethead", "AfterID": "fish_blackghostfish"},
+				 {"ID": "fish_goblinshark", "AfterID": "fish_bonnethead"},
+				 {"ID": "fish_dogfish", "AfterID": "fish_goblinshark"},
+				 {"ID": "fish_cyclopshark", "AfterID": "fish_dogfish"},
+				 {"ID": "fish_dwarfstingray", "AfterID": "fish_cyclopshark"},
+				 {"ID": "fish_dumbooctopus", "AfterID": "fish_dwarfstingray"},
+			],
+		},
+		 {   
+	 "Action": "EditData",
+	 "LogName": "Fishpond No Mermaid Island",
+	 "When": {"HasMod |contains=IslandTMX":false},
+	 "Target": "Data/FishPondData",
+	 "Entries": { 		
+		"fish_brainslug": {
+		"RequiredTags": [
+		"fish_brainslug"
+		],
+		"SpawnTime": -1,
+    "ProducedItems": [
+	  {
+        "RequiredPopulation": 10,
+        "Chance": 0.01,
+        "ItemID": 347, //Rare Seed
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      },
+	  {
+        "RequiredPopulation": 8,
+        "Chance": 0.1,
+        "ItemID": 369, //Quality Fertilizer
+        "MinQuantity": 1,
+        "MaxQuantity": 4
+      },
+	  {
+        "RequiredPopulation": 8,
+        "Chance": 0.1,
+        "ItemID": 466, //Deluxe Speed-Gro
+        "MinQuantity": 1,
+        "MaxQuantity": 4
+      },
+      {
+        "RequiredPopulation": 0,
+        "Chance": 0.5,
+        "ItemID": 812, 
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      }
+    ],
+		"PopulationGates": {
+      "4": [
+        "172 10" //Soggy Newspaper
+      ],
+      "8": [
+        "336 5" //Gold Bar
+      ]
+    },
+	},
+	"fish_blinky": {
+		"RequiredTags": [
+		"fish_blinky"
+		],
+		"SpawnTime": -1,
+    "ProducedItems": [
+	 {
+        "RequiredPopulation": 10,
+        "Chance": 0.05,
+        "ItemID": 909, //Reactive Ore
+        "MinQuantity": 1,
+        "MaxQuantity": 3
+      },
+	  {
+        "RequiredPopulation": 4,
+        "Chance": 0.1,
+        "ItemID": 766, //Slime
+        "MinQuantity": 3,
+        "MaxQuantity": 8
+      },
+	        {
+        "RequiredPopulation": 0,
+        "Chance": 0.1,
+        "ItemID": 766, //Slime
+        "MinQuantity": 1,
+        "MaxQuantity": 5
+      },
+      {
+        "RequiredPopulation": 0,
+        "Chance": 0.5,
+        "ItemID": 812,
+        "MinQuantity": 1,
+        "MaxQuantity": 20
+      }
+    ],
+		"PopulationGates": {
+		"9": [
+        "910" //Radioactive Bar
+      ]
+    },
+	},
+	},
+	},
+	 {   
+	 "Action": "EditData",
+	 "LogName": "Fishpond No Mermaid Island Handler",
+	 "When": {"HasMod |contains=IslandTMX":false},
+	 "Target": "Data/FishPondData",
+	"MoveEntries": [
+	{"ID": "fish_brainslug", "ToPosition": "Top"},
+	{"ID": "fish_blinky", "AfterID": "fish_brainslug"},
+	],
+	},
+		//FISH CONTEXT TAGS
+		{   
+	 "Action": "EditData",
+	 "LogName": "Context Tags",
+	 "Target": "Data/ObjectContextTags",
+	 "Entries": { 
+		 "Ladyfish": "color_iron,fish_ladyfish,fish_ocean",
+		 "Tancho Koi": "color_white,fish_koi",
+		 "Sanke Koi": "color_red,fish_koi",
+		 "Kohaku Koi": "color_yellow,fish_koi",
+		 "Zebra Tilapia": "color_brown,fish_lake",
+		 "Tucunare": "color_yellow,fish_river,fish_carnivorous",
+		 "Small Goblin Shark": "color_gray,fish_goblinshark",
+		 "Tui": "color_white,fish_legendary",
+		 "La": "color_black,fish_legendary",
+		 "Small Mantaray": "color_black,fish_mantaray",
+		 "Piranha": "color_green,fish_river",
+		 "Blinky": "color_orange,fish_blinky",
+		 "Arowana": "color_prismatic,fish_arowana",
+		 "Arctic Char": "color_red,fish_river",
+		 "Tench": "color_sand,fish_lake",
+		 "Haddock": "color_gray,fish_ocean",
+		 "Small Swordfish": "color_blue,fish_swordfish",
+		 "Barracuda": "color_cyan,fish_ocean,fish_carnivorous",
+		 "Longfin Icedevil": "color_gray,fish_ocean",
+		 "Spinny Dogfish": "color_green,fish_dogfish",
+		 "Void Carp": "color_dark_purple,item_void_salmon",
+		 "Water Snake": "color_green,item_snake",
+		 "Electric Catfish": "color_red,fish_electric_catfish",
+		 "Sea Snake": "color_white,item_snake",
+		 "Swimmer Crab": "color_gray,fish_ocean,fish_crabpot",
+		 "Glassfish": "color_light_cyan,fish_cave",
+		 "Goldfish": "color_orange,fish_goldfish",
+		 "Lionhead": "color_orange,fish_goldfish",
+		 "Comet": "color_gold,fish_goldfish",
+		 "Telescope": "color_orange,fish_goldfish",
+		 "Celestial Eye": "color_orange,fish_goldfish",
+		 "Jellyfish": "color_light_cyan,fish_ocean,fish_crabpot",
+		 "Clown Knifefish": "color_gray,fish_lake",
+		 "Freshwater Butterflyfish": "color_yellow,fish_lake",
+		 "Mimic Octopus": "color_sand,fish_octopi",
+		 "Blue-Ringed Octopus": "color_yellow,fish_octopi",
+		 "Stubby Squid": "color_purple,fish_squid",
+		 "Dumbo Octopus": "color_orange,fish_dumbooctopus",
+		 "Barreleye": "color_dark_green,fish_cave",
+		 "Freshwater Pufferfish": "color_green,fish_river,fish_carnivorous",
+		 "Void Algae": "color_red,fish_nonfish,algae_item",
+		 "Void Evilpus": "color_black,fish_magic",
+		 "Trapped Soul": "color_red,fish_magic",
+		 "Lamprey": "color_dark_green,fish_carnivorous",
+		 "Ribbon Eel": "color_blue,fish_ocean",
+		 "Ghost Eel": "color_sand,fish_ocean",
+		 "Robalo": "color_blue,fish_ocean,item_robalo",
+		 "Anchoviella": "color_sand,fish_ocean",
+		 "Hagfish": "color_pink,fish_ocean",
+		 "Green Terror": "color_green,fish_lake",
+		 "Clown Loach": "color_yellow,fish_lake",
+		 "Brain Slug": "color_green,fish_brainslug",
+		 "Zebra Eel": "color_white,fish_ocean",
+		 "Yamabuki Koi": "color_yellow,fish_koi",
+		 "Ghost Koi": "color_orange,fish_koi",
+		 "Hi Utsuri Koi": "color_dark_red,fish_koi",
+		 "Conger": "color_dark_brown,fish_ocean",
+		 "Shiro Utsuri Koi": "color_dark_gray,fish_koi",
+		 "Ki Utsuri Koi": "color_dark_yellow,fish_koi",
+		 "Redtail Shark": "color_black,fish_lake",
+		 "Elephantfish": "color_blue,fish_lake",
+		 "Sauger": "color_yellow,fish_river",
+		 "Pacu": "color_gray,fish_lake",
+		 "Common Pleco": "color_gold,fish_river",
+		 "Siamese Algae Eater": "color_sand,fish_river",
+		 "Snowball Pleco": "color_blue,fish_river",
+		 "Ide": "color_light_cyan,fish_lake",
+		 "Pangasius": "color_dark_blue,fish_lake",
+		 "Trahira": "color_blue,fish_carnivorous",
+		 "Blue Dragon Slug": "color_blue,fish_ocean,fish_crabpot",
+		 "Nautilus": "color_brown,fish_ocean,fish_crabpot",
+		 "Cyclops Shark": "color_sand,fish_cyclopshark",
+		 "Starfish": "color_red,fish_starfish",
+		 "Blue Starfish": "color_blue,fish_starfish",
+		 "Royal Starfish": "color_purple,fish_starfish",
+		 "Crown of Thorns Starfish": "color_purple,fish_starfish",
+		 "Holy Grenade Starfish": "color_sand,fish_starfish",
+		 "Freshwater Shrimp": "color_dark_yellow,fish_ocean,fish_crabpot",
+		 "Red Freshwater Shrimp": "color_dark_red,fish_ocean,fish_crabpot",
+		 "Blue Freshwater Shrimp": "color_blue,fish_ocean,fish_crabpot",
+		 "Harlequin Freshwater Shrimp": "color_iron,fish_ocean,fish_crabpot",
+		 "Red Harlequin Freshwater Shrimp": "color_iron,fish_ocean,fish_crabpot",
+		 "Brief Squid": "color_iron,fish_ocean,fish_crabpot",
+		 "Prawn": "color_pink,fish_ocean,fish_crabpot",
+		 "Sand Dollar": "color_dark_pink,fish_ocean,fish_crabpot",
+		 "King Crab": "color_orange,fish_kingcrab",
+		 "Decapod": "color_red,fish_alien",
+		 "Mudskipper": "color_green,fish_mudskipper",
+		 "Coelacanth": "color_dark_gray,fish_coelacanth",
+		 "Cavefish": "color_pink,fish_cave",
+		 "Cave Lobster": "color_sand,fish_cave",
+		 "Freshwater Crab": "color_yellow,fish_freshwater,fish_crabpot",
+		 "Shinidamachu": "color_white,fish_legendary",
+		 "Vampire Squid":"color_pale_violet_red,fish_vampire_squid",
+		 "Vampire Fish": "color_dark_red,fish_vampire_fish",
+		 "Lungfish": "color_purple,fish_desert",
+		 "Tigerfish": "color_prismatic,fish_desert,fish_carnivorous",
+		 "Longnose Gar": "color_gray,fish_desert,fish_carnivorous",
+		 "Black Ghost Knifefish": "color_dark_blue,fish_blackghostfish",
+		 "Clown Triggerfish": "color_prismatic,fish_triggerfish",
+		 "Bonnethead": "color_brown,fish_bonnethead",
+		 },
+		 },
+		 {
+		 "Action": "EditData",
+		 "Target": "Data/ObjectContextTags",
+		 "LogName": "MI Context Tags",
+		 "When": {"HasMod":"IslandTMX,LemurKat.EastScarpe.CP"},
+		 "Entries": { 		 
+		 "Blue Tang": "color_blue,fish_ocean",
+		 "Moorish Idol": "color_white,fish_ocean",
+		 "Royal Angelfish": "color_prismatic,fish_ocean",
+		 "Ornate Angelfish": "color_blue,fish_ocean",
+		 "Banded Angelfish": "color_white,fish_ocean",
+		 "Threespot Angelfish": "color_yellow,fish_ocean",
+		 "Flame Angelfish": "color_orange,fish_ocean",
+		 "Dwarf Stingray": "color_dark_brown,fish_ocean",
+		 "Maroon Clownfish": "color_dark_red,fish_ocean,item_clownfish",
+		 "Sebae Clownfish": "color_black,fish_ocean,item_clownfish",
+		 "Wide-band Clownfish": "color_white,fish_ocean",
+		 "Pink Skunk Clownfish": "color_pink,fish_ocean,item_skunkclownfish",
+		 "Orange Clownfish": "color_orange,fish_ocean,item_clownfish",
+		 "Saddleback Clownfish": "color_black,fish_ocean,item_clownfish",
+		 "Two-Band Clownfish": "color_orange,fish_ocean,item_clownfish",
+		 "Whitesnout Clownfish": "color_dark_gray,fish_ocean,item_skunkclownfish",
+		 "Fire Clownfish": "color_red,fish_ocean,item_skunkclownfish",
+		 "Yellowtail Clownfish": "color_yellow,fish_ocean,item_clownfish",
+		 "Skunk Clownfish": "color_orange,fish_ocean,item_skunkclownfish",
+		 "Tiger Puffer": "color_gray,fish_ocean",
+		 "Lionfish": "color_sand,fish_ocean",
+		 "Squirrelfish": "color_yellow,fish_ocean",
+		 "Soldierfish": "color_red,fish_ocean",
+		 "Thread-Sail Filefish": "color_gray,fish_ocean",
+		 "Monkfish": "color_dark_red,fish_ocean",
+		 "Icefish": "color_cyan,fish_ocean",
+		 "False Kelpfish": "color_red,fish_ocean",
+		 "Wolffish": "color_blue,fish_ocean",
+		 "Pollock": "color_brown,fish_ocean",
+		 "Great Firefly Squid": "color_jade,fish_great_firefly_squid",
+		 },
+		 },
+		 {
+		 "Action": "EditData",
+		 "Target": "Data/ObjectContextTags",
+		 "LogName": "BH Context Tags",
+		 "When": {"HasMod":"BusStopExpansion"},
+		 "Entries": { 
+		 "Frilled Shark": "color_dark_gray,fish_legendary",
+			},
+		},		
+		//SpecialOrders
+		{
+		"Action": "EditData",
+		"Target": "Data/SpecialOrders",
+			"Entries": {
+			"Name": "[MNF.RobaloOrder_Name]",
+			"Requester": "Willy",
+			"Duration": "Month",
+			"Repeatable": "false",
+			"RequiredTags": "season_summer",
+			"OrderType": "",
+			"SpecialRule": "",
+			"Text": "[MNF.RobaloOrder_Text]",
+			"ItemToRemoveOnEnd": null,
+			"MailToRemoveOnEnd": null,
+			"Objectives": [
+      {
+        "Type": "Fish",
+        "Text": "[MNF.RobaloOrder__Objective_0_Text]",
+        "RequiredCount": "20",
+        "Data": {
+          "AcceptedContextTags": "item_robalo"
+        }
+      },
+			{
+        "Type": "Donate",
+        "Text": "[MNF.RobaloOrder__Objective_1_Text]",
+        "RequiredCount": "24",
+        "Data": {
+          "DropBox": "GusFridge",
+          "DropBoxGameLocation": "Saloon",
+          "DropBoxIndicatorLocation": "18 15",
+          "MinimumCapacity": "20",
+          "AcceptedContextTags": "item_robalo"
+        }
+      },
+	  ],
+	  "Rewards": [
+	  {
+		"Type": "Money",
+		"Data": {
+		"Amount": "2000",
+						}
+					 },
+	  {
+		"Type": "Mail",
+		"Data": {
+		"MailReceived": "MNFSpecialOrder",
+		"NoLetter": "true"
+						}
+					  }
+					]
+	  },
+	  },
+			{
+		"Action": "EditData",
+		"Target": "Strings/SpecialOrderStrings",
+			"Entries": {
+				
+
+				"MNF.RobaloOrder_Name": "Gus' Robalo Stock",
+				"MNF.RobaloOrder_Text": "{Text} Gus asked a big order o' robalos, but I don't think I'll have enough time to catch'em all, I'm offering a reward for whoever can delivery 20 fresh robalo to Gus.",
+				"MNF.RobaloOrder__Objective_0_Text": "Fish 20 robalo.",
+				"MNF.RobaloOrder__Objective_1_Text": "Put 20 robalo in Gus' fridge.",							
+				}		
+          },
+	   // Spanish translation
+		 {
+   "Action": "EditData",
+   "Target": "Data/ObjectInformation",
+   "When": { "Language": "es" },
+   "Entries": {
+		"1120": "Ladyfish/80/8/Fish -4/Elopidae/Este pez de agua salada prefiere aguas templadas y se alimenta en grandes bancos.",
+		"1121": "Tancho Koi/150/5/Fish -4/Tancho Koi/Una carpa blanca con una mancha roja en la cabeza, las personas aprecian su belleza y generalmente las mantienen en acuarios. Sería un desperdicio comerolo o convertirlo en fertilizante./Day Night^Fall",
+		"1123": "Sanke Koi/150/5/Fish -4/Sanke Koi/Una carpa tricolor, las personas aprecian su belleza y generalmente las mantienen en acuarios. Sería un desperdicio comerlo o convertirlo en fertilizante./Day Night^Summer",
+		"1122": "Kohaku Koi/150/5/Fish -4/Kohaku Koi/Una carpa bicolor, la gente aprecia su belleza y generalmente los mantiene en acuarios, sería un desperdicio comerlo o convertirlo en fertilizante./Day Night^Spring",
+		"1124": "Zebra Tilapia/120/10/Fish -4/Tilapia Cebra/Es un pez arisco y territorial.",
+		"1125": "Tucunare/225/13/Fish -4/Tucunare/Un pez diurno, de agua dulce y depredador, que suele vivir en los ríos del bosque.",
+		"1126": "Small Goblin Shark/750/18/Fish -4/Tiburón duende pequeño/Este es un tiburón aterrador de aguas profundas. Tenga cuidado al manipularlo.",
+		"1127": "Tui/7500/80/Fish -4/Tui/Brilla con poderes mágicos.",
+		"1128": "La/7500/80/Fish -4/La/Brilla con poderes mágicos.",
+		"1129": "Small Mantaray/750/42/Fish -4/Mantarraya pequeña /Una mantarraya pequeña, ¿qué tan grande es una grande?",
+		"1130": "Piranha/200/10/Fish -4/Piraña/Un pez carnívoro con dientes muy afilados.",
+		"1131": "Blinky/10/0/Fish -4/Blinky/¿Por qué tiene 3 ojos? Tal vez pueda venderlo a los científicos.",
+		"1132": "Arowana/225/18/Fish -4/Arowana/Un pez carnívoro que puede saltar hasta 6 pies fuera del agua.",
+		"1133": "Arctic Char/225/15/Fish -4/Trucha alpina/Un tipo de trucha de agua fría.",
+		"1134": "Tench/65/8/Fish -4/Tenca/Prefiere aguas tranquilas, con sustrato fangoso y lleno de vegetación en lugar de aguas claras.",
+		"1135": "Haddock/175/15/Fish -4/Eglefino/Un pez de agua salada que es muy popular como alimento.",
+		"1136": "Small Swordfish/750/22/Fish -4/Pez espada pequeño/Este pez increíblemente rápido usa su espada para cortar a sus presas.",
+		"1137": "Barracuda/200/17/Fish -4/Barracuda/Un depredador de aguas profundas, a veces ataca a los humanos.",
+		"1138": "Longfin Icedevil/150/13/Fish -4/Bacalao de hielo/A pesar de su nombre, este pez de aguas profundas se alimenta de plancton.",
+		"1139": "Spinny Dogfish/750/25/Fish -4/Mielga/Un tipo delgado de tiburón.",
+		"1140": "Void Carp/60/-75/Fish -4/Carpa sombría/Una carpa corrupta por la energía sombría. Sus escamas han perdido su luz.",
+		"1141": "Water Snake/80/5/Fish -4/Serpiente de agua/Una serpiente acuática que se alimenta de ranas.",
+		"1142": "Electric Catfish/500/22/Fish -4/Bagre Eléctrico/Un bagre eléctrico que aturde a los depredadores con una descarga eléctrica.",
+		"1143": "Sea Snake/110/7/Fish -4/Serpiente de mar/Una serpiente marina con un veneno muy potente que utiliza para cazar peces y anguilas más pequeñas.",
+		"1144": "Swimmer Crab/125/-300/Fish -4/Cangrejo nadador/Un cangrejo capaz de nadar en el océano. Tiene picos en su caparazón.",
+		"1145": "Glassfish/90/2/Fish -4/Pez cristal/Un pez translúcido, se puede ver a través de él.",
+		"1146": "Goldfish/30/3/Fish -4/Pez dorado/Un pez de colores generalmente se mantiene en acuarios.",
+		"1147": "Lionhead/40/4/Fish -4/Cabeza de león/Una variante encapuchada de pez dorado.",
+		"1148": "Comet/75/5/Fish -4/Cometa/Esta variante del pez dorado es conocida por ser delgada y tener una sola cola.",
+		"1149": "Telescope/40/4/Fish -4/Ojo telescopio/Es un pez dorado elegante caracterizado por sus ojos saltones.",
+		"1150": "Celestial Eye/80/5/Fish -4/Ojo celestial/Se le dio este nombre porque sus ojos están mirando hacia el cielo.",
+		"1151": "Jellyfish/35/-25/Fish -4/Medusa/Una medusa que pica y es venenosa.",
+		"1056": "Clown Knifefish/125/10/Fish -4/Pez cuchillo payaso/Se parece a un cuchillo.",
+		"1057": "Freshwater Butterflyfish/85/5/Fish -4/Pez mariposa de agua dulce/Un pez de estanque muy exótico que se sabe que salta de los acuarios.",
+		"1058": "Mimic Octopus/175/18/Fish -4/Pulpo mímico/Este pulpo puede imitar los patrones de colores de otros animales para defenderse o atraer a sus presas.",
+		"1059": "Blue-Ringed Octopus/185/-90/Fish -4/Pulpo de anillos azules/Es extremadamente venenosa, ten cuidado.",
+		"1060": "Stubby Squid/90/5/Fish -4/Calamar rechoncho/Un pequeño calamar que deja un chorro de tinta para escapar de sus depredadores.",
+		"1061": "Dumbo Octopus/250/5/Fish -4/Pulpo Dumbo/ Un colorido pulpo con orejas.",
+		"1062": "Barreleye/120/8/Fish -4/Pez duende/Este pez tubular puede mirar hacia adelante y hacia arriba.",
+		"1063": "Freshwater Pufferfish/150/7/Fish -4/Pez globo de agua dulce/Se infla cuando está amenazado, no es venenoso.",
+		"1064": "Void Algae/15/-45/Fish/Alga sombría/Un alga negra y viscosa, se ve venenosa y se mueve ocasionalmente.",
+		"1065": "Void Evilpus/250/-75/Fish -4/Evilpus sombrío/Este es el guardián de las almas atrapadas. ¡Mejor deshazte de él lo antes posible!",
+		"1066": "Trapped Soul/350/-300/Fish -4/Alma atrapada/Parece que la bruja aprendió un nuevo truco de su prima Ursula. No te comas este pescado.",
+		"1067": "Lamprey/20/-5/Fish -4/Lamprea/Parece una sanguijuela con muchos dientes.",
+		"1068": "Ribbon Eel/150/15/Fish -4/Anguila de cinta/Una anguila morena azul y amarilla. No debe mantenerse en un acuario.",
+		"1069": "Ghost Eel/100/14/Fish -4/Anguila fantasma/Un pequeño tipo de anguila con cuerpo blanco.",
+		"1070": "Robalo/85/12/Fish -4/Lubina/Un pescado muy sabroso.",
+		"1071": "Anchoviella/25/2/Fish -4/Anchoviella/Se reproduce en días lluviosos.",
+		"1072": "Hagfish/65/7/Fish -4/Pez bruja/Es un pez viscoso en forma de anguila.",
+		"1073": "Green Terror/70/3/Fish -4/Terror verde/Es un pez agresivo y colorido.",
+		"1074": "Clown Loach/150/4/Fish -4/Locha payaso/Este hermoso pez generalmente se vende a los criadores de peces en lugar de ser comido.",
+		"1075": "Brain Slug/15/-300/Fish -4/Babosa Cerebral/Esto no puede ser de este planeta.",
+		"1076": "Zebra Eel/125/13/Fish -4/Anguila cebra/Un anguila morena con rayas negras y blancas que se encuentra en aguas templadas.",
+		"1077": "Yamabuki Koi/150/5/Fish -4/Yamabuki Koi/A bicolored carp. People appreciate their beauty and usually kept them in aquariums. It would be such a waste to eat or turn into fertilizer.",
+		"1078": "Ghost Koi/150/5/Fish -4/Ghost Koi/Una carpa bicolor, las personas aprecian su belleza y generalmente las mantienen en acuarios. Sería un desperdicio comerla o convertirla en fertilizante.",
+		"1079": "Hi Utsuri Koi/150/5/Fish -4/Hi Utsuri Koi/Una carpa bicolor, las personas aprecian su belleza y generalmente las mantienen en acuarios. Sería un desperdicio comerla o convertirla en fertilizante.",
+		"1080": "Conger/250/17/Fish -4/Congrio/La mayor de las anguilas. Caza en aguas frías.",
+		"1081": "Shiro Utsuri Koi/150/5/Fish -4/Shiro Utsuri Koi/Una carpa bicolor, las personas aprecian su belleza y generalmente las mantienen en acuarios. Sería un desperdicio comerla o convertirla en fertilizante.",
+		"1082": "Ki Utsuri Koi/150/5/Fish -4/Ki Utsuri Koi/Una carpa bicolor, las personas aprecian su belleza y generalmente las mantienen en acuarios. Sería un desperdicio comerla o convertirla en fertilizante.",
+		"1083": "Redtail Shark/85/5/Fish -4/Tiburón de cola roja/A pesar de su nombre, en realidad está en la familia de las carpas.",
+		"1084": "Elephantfish/110/12/Fish -4/Pez elefante/Es un pez hermoso que generalmente se mantiene en acuarios.",
+		"1085": "Sauger/90/10/Fish -4/Sauger/Un pequeño pez de familia de leucomas.",
+		"1086": "Pacu/60/10/Fish -4/Pacú/Un pariente de piraña con dientes menos afilados, muy común en los ríos. Es un pez omnívoro.",
+		"1087": "Common Pleco/70/6/Fish -4/Pleco común/Un pequeño pez come algas.",
+		"1088": "Siamese Algae Eater/80/4/Fish -4/Comedor de algas siamés/Comedor de algas siamés/",
+		"1089": "Snowball Pleco/100/4/Fish -4/Bola de nieve pleco/Un tipo muy raro de pleco que tiene un gran valor para el acuario.",
+		"1090": "Ide/50/8/Fish -4/Cacho/Un pez ornamental que prefiere aguas frías.",
+		"1091": "Pangasius/220/20/Fish -4/Pangasio/Aunque parece un tiburón, es muy pacífico. Tiene piel coriácea en lugar de escamas.",
+		"1092": "Trahira/65/8/Fish -4/Tararira/Un pez carnívoro que habita en la mayoría de los lugares de agua dulce.",
+		"1093": "Blue Dragon Slug/175/-300/Fish -4/Dragón azul/Una babosa de mar azul muy hermosa que se alimenta de medusas venenosas, se sabe que pica.",
+		"1094": "Nautilus/150/-300/Fish -4/Nautilus/Un crustáceo marino casi extinto.",
+		"1095": "Cyclops Shark/500/22/Fish -4/Tiburón Cíclope/Este pequeño tiburón solo tiene un ojo. Se ha encontrado muy pocas veces en la naturaleza.",
+		"1096": "Starfish/60/-300/Basic -23/Estrella de mar/Una estrella de mar roja.",
+		"1097": "Blue Starfish/75/-300/Basic -23/Estrella de mar azul/Una estrella de mar azul, muy hermosa.",
+		"1098": "Royal Starfish/90/-300/Basic -23/Estrella de mar real/Su boca contiene mandíbulas que utilizan para alimentarse de almejas.",
+		"1099": "Crown of Thorns Starfish/100/-300/Basic -23/Corona de espinas/Un tipo de estrella de mar venenosa, rara y muy distinta.",
+		"1100": "Holy Grenade Starfish/125/-300/Basic -23/Estrellas de mar granada/Un tipo raro y grande de estrella de mar, puede alcanzar hasta 11 pulgadas.", 
+		"1101": "Freshwater Shrimp/50/-300/Fish -4/Camarones de agua dulce/Un pequeño camarón de agua dulce.",
+		"1102": "Red Freshwater Shrimp/60/-300/Fish -4/Camarón rojo de agua dulce/Un camarón rojo de agua dulce generalmente se mantienen en acuarios.",
+		"1103": "Blue Freshwater Shrimp/60/-300/Fish -4/Camarón azul de agua dulce/Un camarón azul de agua dulce generalmente se mantienen en acuarios.",
+		"1104": "Harlequin Freshwater Shrimp/75/-300/Fish -4/Camarones arlequín de agua dulce/Un tipo muy raro de camarones de agua dulce, generalmente se mantienen en acuarios-",
+		"1105": "Red Harlequin Freshwater Shrimp/75/-300/Fish -4/Camarón arlequín rojo de agua dulce/Un tipo muy raro de camarones de agua dulce, generalmente se mantienen en acuarios.",
+		"1106": "Brief Squid/95/-300/Fish -4/Calamar diminuto/Un tipo pequeño de calamar.",
+		"1107": "Prawn/85/-300/Fish -4/Gamba/Un tipo grande de camarón.",
+		"1108": "Sand Dollar/20/-300/Fish -4/Dólar de arena/Usualmente es arrastrado a la orilla por la marea.",
+		"1109": "King Crab/250/-300/Fish -4/Cangrejo real/El cangrejo más grande que se encuentra en la naturaleza, vive en agua fría.",
+		"1110": "Decapod/125/-300/Fish -4/Decápodo/Un extraño tipo de crustáceo, no parece que sea de este planeta.",
+		"1111": "Mudskipper/80/8/Fish -4/Saltador de lodo/Este pez puede caminar y respirar en el suelo, prefiere superficies lodosas.",
+		"1184": "Coelacanth/350/25/Fish -4/Celacanto/Se considera un fósil viviente.",
+		"1185": "Cavefish/60/3/Fish -4/Pez cueva/¿Dónde están sus ojos?",
+		"1114": "Cave Lobster/175/-300/Fish -4/Langosta de cueva/Es una langosta blanquecina encontrada en cuevas.",
+		"1115": "Freshwater Crab/80/-300/Fish -4/Cangrejo de agua dulce/Un pequeño cangrejo de agua dulce.",
+		"1116": "Fishing Elixir/1500/50/Crafting/Elixir de pesca/Bebe esto y se te otorgará el conocimiento de los mejores pescadores de la historia./drink/0 5 0 0 3 0 0 0 0 0 0/6000",
+		"1117": "Warrior Elixir/1500/10/Crafting/Elixir del guerrero/Tiene un sabor horrible, pero luego te sentirás mucho más fuerte./drink/0 0 0 0 3 0 0 0 0 3 5/6000",
+		"1118": "Shinidamachu/2500/-300/Fish -4/Shinidamachu/Aparecen una vez al año para guiar a las almas errantes de regreso al otro mundo.",
+		"1119": "Vampire Squid/1200/-300/Fish -4/Calamar Vampiro/¡Parece salido de una pesadilla!",
+		"1152": "Vampire Fish/850/-2/Fish -4/Pez vampiro/Este pequeño pez come presas más grandes desde su interior.",
+		"1153": "Lungfish/100/15/Fish -4/Pez pulmonado/Este pez puede respirar fuera del agua como un mamífero, lo que lo hace muy resistente a los períodos de sequía.",
+		"1154": "Tigerfish/60/10/Fish -4/Pez tigre/Se le llama asi por sus dientes, se sabe que atacan a los humanos.",
+		"1155": "Longnose Gar/200/18/Fish -4/Gar de pico largo/Sus huevos están cubiertos con una toxina.",
+		"1201": "Black Ghost Knifefish/160/10/Fish -4/Pez cuchillo fantasma negro/Un pez nocturno que utiliza un órgano eléctrico y receptores distribuidos a lo largo de su cuerpo para localizar larvas de insectos.",
+		"1202": "Clown Triggerfish/120/-8/Fish -4/Pez ballesta payaso/Debido a su coloración, el pez ballesta payaso es muy apreciado como pez de acuario. Es venenoso e inseguro para el consumo.",
+		"1203": "Bonnethead/750/23/Fish -4/Tiburón pala/Un pequeño miembro de la familia del tiburón martillo.",		
+		"1204": "Goblin Shark Pup/50/-300/Basic/Cria de tiburón duende/Una cria de tiburón duende. Necesita un entorno seguro para crecer.",
+		"1205": "Bonnethead Pup/50/-300/Basic/Cria de tiburón pala/Una cria de tiburón pala. Necesita un entorno seguro para crecer.",
+		"1206": "Spiny Dogfish Pup/50/-300/Basic/Cria de cazón espinoso/Una cria de cazón espinoso. Necesita un entorno seguro para crecer.",
+		"1208": "Manta Ray Pup/50/-300/Basic/Cria de mantarraya/Una cria de mantarraya. Necesita un entorno seguro para crecer.",
+		},
+	},
+		 {
+   "Action": "EditData",
+   "Target": "Data/ObjectInformation",
+   "When": {"HasMod":"BusStopExpansion", "Language": "es"},
+   "Entries": {
+		"1183": "Frilled Shark/1200/45/Fish -4/Tiburón anguila/Un tiburón con un cuerpo parecido a una anguila, sus dientes son temibles.", 
+		},
+	},
+		 {
+   "Action": "EditData",
+   "Target": "Data/ObjectInformation",
+   "When": { "HasMod":"IslandTMX", "Language": "es"},
+   "Entries": {
+		"1169": "Moorish Idol/180/8/Fish -4/Ídolo moro/Un pez tropical y te acompañara de por vida.",
+        "1170": "Royal Angelfish/175/7/Fish -4/Pez ángel real/Es muy hermoso y con un cuerpo muy colorido.",
+        "1172": "Banded Angelfish/170/6/Fish -4/Pez ángel con banda/También se le conoce como el pez ángel bandido, ¿tendría algo que ver la 'máscara'?",
+        "1174": "Flame Angelfish/180/8/Fish -4/Pez ángel llama/Un tipo de pez ángel muy pequeño pero muy hermoso. Debido a su belleza tiene un valor comercial muy alto para los acuaristas.",
+        "1162": "Maroon Clownfish/170/3/Fish -4/Pez payaso granate/Se esconde de los depredadores dentro de anémonas. Una variante de color rojo oscuro del pez payaso.",
+        "1156": "Sebae Clownfish/170/4/Fish -4/Pez payaso sabae/Se esconde de los depredadores dentro de anémonas. Se encuentra más comúnmente en la anémona de silla.",
+        "1157": "Wide-band Clownfish/165/5/Fish -4/Pez payaso de banda ancha/Se esconde de los depredadores dentro de anémonas. Tiene este nombre ya que su banda blanca del cuerpo es más ancha que la mayoría de los otros peces payaso.",
+        "1161": "Pink Skunk Clownfish/160/5/Fish -4/Pez payaso rosa/Se esconde de los depredadores dentro de anémonas.Su nombre es debido a su franja blanca en la parte superior de su cuerpo rosado.",
+        "1165": "Two-Band Clownfish/165/5/Fish -4/Pez payaso de dos bandas/Se esconde de los depredadores dentro de anémonas. Como su nombre indica, tiene dos bandas o barras blancas, con bordes negros.",
+        "1163": "Whitesnout Clownfish/160/5/Fish -4/Pez payaso Mccullochi/Se esconde de los depredadores dentro de anémonas. No es tan colorido como las otras variantes de pez payaso.",
+        "1164": "Fire Clownfish/170/4/Fish -4/Pez payaso de fuego/Se esconde de los depredadores dentro de anémonas. Una variante negra y roja de pez payaso.",
+        "1187": "Tiger Puffer/360/-125/Fish -4/Takifugu/Un tipo de pez globo muy grande y venenoso, ¡muy pocos chefs pueden prepararlo!",
+        "1186": "Mandarinfish/210/-25/Fish -4/Pez Mandarín/Puede parecer bonito, pero este pez usa veneno y un hedor nauseabundo para mantener a raya a los depredadores",
+        "1179": "Soldierfish/180/10/Fish -4/Pez soldado/Un pez nocturno de ojos grandes.",
+        "1181": "Thread-Sail Filefish/180/12/Fish -4/Stephanolepis cirrhifer/La aleta en su cabeza es en realidad un parásito.",
+        "1176": "Monkfish/360/20/Fish -4/Lophius/Un pez de aguas profundas de la familia del rape.",
+        "1178": "Icefish/140/15/Fish -4/Pez hielo/Este pez delgado tiene pocas escamas o ninguna.",
+        "1180": "False Kelpfish/210/-300/Fish -4/Gallineta jaspeado/Un pez de la familia de peces de roca, también tiene glándulas venenosas.",
+		"1182": "Wolffish/210/22/Fish -4/Pez lobo/Este pez produce una sustancia anticongelante natural que evita que su sangre se congele en temperaturas extremadamente frías.",
+		"1167": "Pollock/135/18/Fish -4/Pollock / Un pescado blanco considerado un reemplazo más barato para el eglefino o el bacalao.",
+		"1188": "Great Firefly Squid/3000/-300/Fish -4/Gran calamar luciérnaga/Un calamar bioluminiscente que debería ser realmente pequeño, ¿por qué es tan grande?",
+		},
+	},
+	{
+          "Action": "EditData",
+		  "LogName": "East Scarpes Integration",
+          "Target": "Data/ObjectInformation",
+		  "When": {"HasMod":"IslandTMX,LemurKat.EastScarpe.CP", "Language": "es"},
+          "Entries": {
+		
+		"1168": "Blue Tang/180/8/Fish -4/Pez cirujano azul/Un pez tropical azul muy popular entre los niños.",
+        "1171": "Ornate Angelfish/165/6/Fish -4/Pez ángel adornado/Pequeño pez tropical. Las hembras y los machos tienen diferentes colores.",
+        "1173": "Threespot Angelfish/185/8/Fish -4/Pez ángel de tres puntos/Parece que está usando lápiz labial.",
+        "1175": "Dwarf Stingray/360/12/Fish -4/Raya enana/Una pequeña raya en forma de diamante que generalmente se captura para vender por su carne",
+        "1159": "Orange Clownfish/160/3/Fish -4/Pez payaso naranja/Se esconde de los depredadores dentro de anémonas. Estos peces son muy populares entre los niños.",
+        "1158": "Saddleback Clownfish/165/3/Fish -4/Pez anémona ensillado/Se esconde de los depredadores dentro de anémonas. Una variante en blanco y negro de pez payaso.",
+        "1166": "Yellowtail Clownfish/165/4/Fish -4/Pez payaso de cola amarilla/Se esconde de los depredadores dentro de anémonas. Una variante amarilla y blanca de pez payaso.",
+        "1160": "Skunk Clownfish/160/5/Fish -4/Pez payaso mofeta/Se esconde de los depredadores dentro de anémonas. Se llama mofeta debido a su franja blanca en la parte superior de su cuerpo.",
+        "1177": "Squirrelfish/180/10/Fish -4/Pez ardilla/Este pez usa sonidos para intimidar a los depredadores.",
+		"1207": "Dwarf Stingray Pup/50/-300/Basic/Cria de raya enana/Una cria de mantarraya enana. Necesita un entorno seguro para crecer.",
+		},
+		},
+		 {
+   "Action": "EditData",
+   "Target": "Data/TV/TipChannel",
+   "When": { "Language": "es" },
+   "Entries": {
+		"221": "Amigos, tengo un anuncio que hacer. Este es el último episodio de Vivir de la tierra antes de mi retiro. Lo he pasado bien y los extrañaré, amigos. Pero antes de irme, déjenme contarles sobre la leyenda del pez mágico, se dice que viven en un estanque secreto y se pueden encontrar durante el invierno. Ah, y me contaron que pronto podría reproducirse.^^¡Cuídate!",
+		},
+	},
+		 {
+   "Action": "EditData",
+   "Target": "Data/Mail",
+   "When": { "Language": "es" },
+   "Entries": {
+		"angler0": "Querido granjero,^^ Has ganado una suscripción a nuestra Guía del pescador con consejos de pesca para la temporada. Recibirá un número de nuestra revista el día 10 de cada mes.^^^^-¡Editores destacados de pesca!",
+		"angler1": "Queridos pescadores,^^ Para empezar, es posible que desee pescar en el Bosque Tizón. Puede encontrar algunos peces bastante fáciles de entrenar. Deben ser fácil pescar Lubinas y Peces dorados , a veces puede encontrar una variante rara de Pez dorado en cada temporada. El lago de la montaña es un gran lugar para pescar, ya que alberga una gran cantidad de especies diferentes. Se sabe de: Carpas, Barbos, Siluros y Percas, viven en esta área durante todo el año. Algunos otros, como Tilapias Cebra y Arowanas, solo se quedarán allí durante algunas temporadas.^Recuerde que algunos peces prefieren el clima lluvioso.^^-Buena suerte pescando![#]Guía del Pescador Ed.1",
+		"angler2": "Queridos pescadores,^^ El verano está aquí y muchos peces nuevos buscaran aguas cálidas, Tilapias y Lucios pueden estar migrando a los ríos de Pelican Town, algunos incluso han sido vistos en Bosque Tizón. Aprovecha para pescar en los ríos Dorados, Truchas arcoíris y Tucunares , ya que solo migran a aguas cálidas en esta época del año. También debería haber cosas bastante interesantes en el océano, como Salmonetes rojos, Robalos y Pargos rojos, si aún no ha atrapado una Elopidaes y Anchoviellas, aproveche la oportunidad porque pronto se irán, pero tenga cuidado con las serpientes marinas, en Los días lluviosos salen a cazar.^^-Buena suerte pescando![#]Guía del Pescador Ed. 2",
+		"angler3": "Queridos pescadores,^^ El otoño trae algunos peces raros como Pepinos de mar, Atún blanco y Eglefinos. Algunos peces oceánicos de primavera regresan a la ciudad en otoño, como las Anguilas, Anchoas y la Sardinas. Arowanas también deberían de estar de regreso en el lago. Generalmente vienen a estas partes para escapar del verano durante otoño e invierno.^ Cuidado con los Salmónes y Truchas tigre, si no ha capturado un peces Gato, mejor correr al río más cercano, pero sólo en días de lluvia e incluso se puede encontrar Lucios.^^-Buena suerte pescando![#]Guía del Pescador Ed. 3",
+		"angler4": "Queridos pescadores,^^ El invierno es probablemente una de las mejores estaciones para pescar, Bacalao largo, Cachos y Truchas alpina en los ríos, Atún en el océano. Para los más experimentados hay Esturiónes en los lagos o incluso Calamares en el océano.^ No se pierda el EglefinoS, Pez bruja, Cangrejo real, Pepinos de mar y Atún blanco, ya que solo se ven en otoño, pero si echa de menos los Arenques o Fletánes no hay problema, ya que no se irán por un tiempo.^^ ¡Te deseamos un feliz año nuevo!^^-Buena suerte pescando![#]Guía del Pescador Ed. 4",
+		"angler5": "Queridos pescadores, ^^ Espero que todos tengan a un gran año, ahora hablemos de cosas difíciles, Barracuda, un pez voraz, se puede encontrar en el océano en días soleados y las Anguila en días lluviosos. Si tienes la suerte, incluso puedes encontrarte con Mielgas en aguas profundas en cualquier clima.^ Uno de nuestros lectores nos escribió sobre peces realmente raros e interesantes en un estanque en algunos bosques infestados de Babas, si tienes una espada, podría valer la pena revisarlo. ^^ -Buena suerte pescando![#]Guía del Pescador Ed. 5",
+		"angler6": "Queridos pescadores,^^ Llega otro verano, la oportunidad perfecta para atrapar Superpepinos, Peces globo y Pulpos, solo asegúrate de llegar temprano si quieres encontrar Pulpos, generalmente salen después del almuerzo.^ Las Mantarrayas se pueden encontrar en el océano en aguas profundas, pero en realidad son difíciles de capturar.^ Un explorador nos ha escrito sobre algunos peces realmente interesantes y raros en las minas subterráneas, toma tu espada, tu pico y estamos seguros de que no te arrepentirás.^^-Buena suerte pescando![#]Guía del Pescador Ed. 6",
+		"angler7": "Queridos pescadores,^^ Este otoño no debes desperdiciar la oportunidad de pescar un Pez espada, se pueden encontrar en el océano en aguas profundas durante las tardes.^ Un subscriptor del Desierto de Calico nos ha dado un tip, no ha dicho de peces únicos que pueden encontrarse en el desierto, como el extraño Lenguado, la venenosa Carpa escorpión y el impactante Bagre Eléctrico. ^^-Buena suerte en la pesca[#]Guía del Pescador Ed. 7",
+		"angler8": "Queridos pescadores,^^ Otro invierno y probablemente haya experimentado lo suficiente como para enfrentar nuestro gran desafío, los Tiburones duende se pueden encontrar en el océano por las noches, son conocidos por ser feroces y extremadamente difíciles de pescar, además son feos.^ Las personas que lograron pescarlos y sobrevivieron dijeron que el dinero fue bastante bueno.^ Un subscriptor científico nos escribió para informarnos que a visto peces anormales en las alcantarillados, es posible que desees verificar eso.^ Les deseamos un feliz año nuevo y volveremos en primavera.^^-Buena suerte pescando![#]Guía del Pescador Ed. 8",
+		"vincegift": "Hey @,^Quería darle a Vincent una Estrella de mar para su cumpleaños. Le pregunté a Willy pero dijo que eres la mejor persona para ayudarme. Si me traes la estrella de mar te recompensaré.^  -Gracias,^Kent%item quest 230 %%",
+		"angler9": "Queridos pescadores,^^ Consejos avanzados de pesca en estanques: los Plecos y Comedores de algas se alimentan en el fondo del estanque durante las noches por lo general prefieren los días de lluvia, sin embargo algunos tipos prefieren aguas frías. El Pez elefante, Pez mariposa de agua dulce, Locha payaso y el Pangasio son peces comunes durante el clima cálido. El clima frío atrae a los Sauger y Cachos a los estanques y durante el otoño se pueden encontrar Tiburónes de cola roja, Pangasio y Pez mariposa de agua dulce, también se encuentran durante el otoño.^^-Buena suerte pescando![#]Guía del Pescador Ed. 9",
+		"blinky": "Se busca pescador^Necesito una buena muestra del pez mutante de tres ojos. Estoy realizando un experimento sobre los niveles de mutación de los peces que viven en las alcantarillas.^Recompensa: 1000g^ -Demetrius%item quest 228 %%",
+		"robalo": "Hey @^La temporada casi ha terminado y quería hacer un caldo de Lubina ya que están deliciosos y se me están acabando. Si me traes 20 de estos entonces te daré una recompensa muy generosa.^ -Gus%item quest 229 %%",
+		"angler10": "Queridos pescadores,^^ Ríos: algunos peces plegaran la mayoría de los lugares de agua dulce, este es el caso de Tararira y Pacú, se pueden encontrar en varios lugares de pesca y solo se irán durante el invierno, por cierto, es verano y esta es la temporada para el Pez globo de agua dulce, también aprovecha y captura el Terror Verde en los ríos que generalmente llegan en la primavera y se quedan durante el verano.^^-Buena suerte pescando![#]Guía del Pescador Ed. 10",
+		"angler11": "Queridos pescadores,^^ Vamos a hablar de anguilas y pulpos, solo se ven durante una temporada, pero los diferentes tipos prefieren diferentes condiciones climáticas. Las Anguilas son nocturnas y la mayoría de los Pulpos son diurnos, pero el Pulpo mímico se puede atrapar durante el amanecer en primavera.^^-Buena suerte pescando![#]Guía del Pescador Ed. 11",
+		"angler12": "Queridos pescadores,^^ Algunos peces prefieren lugares salvajes e inhabitados, como Babolínes, Lampreas y Pirañas, otros prefieren pantanos como el Saltador de lodo. Pero ten cuidado en los pantanos porque podrías encontrarte con Serpientes de agua.^ Hemos recibido informes no corroborados de algas y peces contaminados. En las creencias populares, la mancha se llama sombrío. Hasta que podamos confirmar cuál es la sustancia, tenga cuidado al encontrar con la flora y fauna acuáticas de aspecto sospechoso. También le aconsejamos que envíe muestras a su instituto de ciencias local, por supuesto, siguiendo los protocolos de seguridad.^^-Buena suerte pescando![#]Guía del Pescador Ed. 12",
+		"trapped": "@,^Estoy investigando un hechizo osbcuro que mi ex esposa ha lanzado a un alma pobre.^C¿Podrías traerme uno de los peces rojos que se pueden encontrar en su pantano? Creo que era un alma atrapada en un cuerpo de pez por algún encantamiento oscuro.^ -M. Rasmodius, Wizard %item quest 232 %%",
+		"angler13": "Queridos pescadores,^^ Si alguna vez tienes la oportunidad de visitar la isla Jengibre, ¡puedes intentar pescar algunos peces tropicales! En estanques y ríos puedes encontrar Disco azul y Pez cuchillo fantasma negro, en el mar Lionfish y Triggerfish y finalmente en algunos lugares ocultos, puede encontrar mantarrayas y tiburones pala. ^^ -Buena suerte pescando![#]Guía del Pescador Ed. 13",
+		"angler14": "Queridos pescadores,^^ Si alguna vez te acostumbras a la isla de las sirenas, es posible que encuentres algunos peces tropicales únicos allí, entre tipos de pez payaso y pez ángel de primavera a otoño, y algunos peces realmente raros y peculiares durante el invierno, como el rape y pez lobo. ^^ -Buena suerte pescando![#]Guía del Pescador Ed. 14",
+		"angler15": "Queridos pescadores,^^ No todos los peces son fáciles de pescar, algunos aparecen en condiciones muy específicas, aquí hay una guía completa de todos los llamados peces épicos que puede encontrar: Pez vampiro, solo durante las tormentas. Calamar vampiro, solo en el frío de días lluviosos. Gran Calamar Luciérnaga, se dice que aparece durante el verano, en una isla con una estatua de piedra de sirena, para guiar a las medusas luz de la luna en su patrón migratorio y por último, el Tiburón anguila el cual nunca ha sido capturado vivo pero se rumorea ser un 'fósil viviente'! ^^ -Buena suerte pescando![#]Guía del Pescador Ed. 15",
+		"angler16": "Queridos pescadores,^^ ¡Para convertirse en el maestro pescador, hay dos tipos de peces que no puede olvidar! Los peces espirituales y los legendarios, es posible que estén familiarizados con el libro Secretos del pez legendario, así que ahora ¡Te diré más sobre el pez espiritual! Hay momentos en que la influencia del mundo espiritual es más fuerte que nunca, durante este tiempo, algunos 'peces' del mundo espiritual pueden aparecer en nuestro mundo. Esto sucede generalmente durante el festival llamado la víspera de los espíritus , durante este tiempo, los pescadores expertos han informado de criaturas anormales parecidas a serpientes que acechan en casi todos los cuerpos de agua. Además, se dice que hay un oasis en un estanque secreto que alberga algunos kois del mundo espiritual, y que solo aparecen muy tarde en la noche durante el invierno. ^^ -Buena suerte pescando![#]Guía del Pescador Ed. 16",
+		"hatchery": "Ahoy patrón.^ Gracias por ayudar con el pedido de Gus, aquí hay una receta que puede resultarle útil para la cría de peces. Si separas las huevas o las crias de sus padres, ¡podrían crecer y convertirse en adultos!",
+		},
+	},
+		 {       
+   "Action": "EditData",
+   "Target": "data/events/railroad",
+   "When": { "Language": "es" },
+   "Entries": {
+		"529955/i 1064/t 1400 2000/y 4":"continue/54 36/farmer 54 36 2 Demetrius 53 38 0/speak Demetrius \"Hey @. ¿Has visto la última edición de la Guía del pescador?.\"/pause 50/speak Demetrius \"Habla de algas y peces contaminados.#$b#Veo que te has encontrado con un alga contaminada. ¿Te importaría dejarme hacer algunas pruebas para verificar qué es esta sustancia?\"/addObject 53 36 1064/removeItem 1064/pause 25/removeObject 54 37/speak Demetrius \"$hMuchas gracias. Esto podría ser un nuevo avance científico.\"/end",
+		},
+	},
+		 {        
+   "Action": "EditData",
+   "Target": "data/events/farm",
+   "When": { "Language": "es" },
+   "Entries": {
+		"529956/e 529955/t 600 1200":"continue/64 15/farmer 64 16 2 Demetrius 64 18 0/speak Demetrius \"Hi @! Tengo algunas malas noticias para ti...$s#$b#No pude identificar qué sustancia está volviendo las algas negras ... Mi investigación me mostró que la muestra de algas es tóxica, no contiene sistema nervioso pero aún reacciona al tacto humano.$s Lamento que esto no haya sido un avance científico, pero tal vez alguien a quien le guste estudiar las artes arcanas pueda tener alguna idea al respecto.#$b# Bueno, conservaré la muestra para seguir estudiando, avíseme si encuentra algo nuevo.\"/addQuest 231/end",
+		"529960/z fall/y 2":"continue/64 15/farmer 64 16 2 Willy 64 18 0/speak Willy \"Hey @, ¡Ha pasado tanto tiempo desde que vi esta granja!#$b#Encontré una receta de mi viejo Pappy y quería probarla. ¿Puedes traerme un fruto de Semilla Rara 'Baya de gema dulce', Mielga, una Mantarraya, un Tiburón duende pequeño y un Pez Espada para que podamos probarlo? Si funciona, puede revelar el secreto de pesca del viejo Pappy. Sé que los ingredientes no son fáciles de obtener, pero si logras encontrarlos, tráelos a mi tienda para que podamos probarlos. Gracias.$h\"/addQuest 233/end",
+	 },
+	},
+		 {       
+   "Action": "EditData",
+   "Target": "data/events/wizardhouse",
+   "When": { "Language": "es" },
+   "Entries": {
+		"529957/e 529956/i 1064": "WizardSong/2 14/farmer 3 14 3 Wizard 1 14 1/removeQuest 131/speak Wizard \"Oh, ¿qué tienes aquí?\"/pause 50/addObject 2 14 1064/removeItem 1064/pause 500/speak Wizard \"Entonces, tu amigo científico no pudo explicar qué causó que estas algas se corrompieran, bueno, hay misterios en este mundo que la ciencia no puede explicar.#$b# Por favor, dígale que debe tener cuidado al manipular estas sustancias. Han sido corrompidos por las artes oscuras y son perjudiciales para los humanos, pero aún puedes extraer algunas cosas útiles de estas.\"/removeTemporarySprites/pause 500/addObject 2 14 451/speak Wizard \"Este pergamino contiene una receta para un elixir hecho para fortalecer el cuerpo de su consumidor. Ten esta receta, será útil cuando luches contra monstruos.\"/removeTemporarySprites/playSound reward/message \"Has aprendido a fabricar 'Elixir del guerrero'\"/addCraftingRecipe Warrior Elixir/pause 500/speak Wizard \"¡Que este nuevo conocimiento te ayude en tu viaje!\"/emote farmer 32/end",
+		},
+	},
+		 {       
+   "Action": "EditData",
+   "Target": "data/events/beach",
+   "When": { "Language": "es" },
+   "Entries": {
+		"529958/i 1139 1 1126 1 1129 1 1136 1 417 1/t 600 1710": "ocean/44 35/farmer 42 35 1 Willy 44 35 1/removeQuest 133/animate Willy false true 250 28 29 30 31/playSound seagulls/pause 2000/stopAnimation Willy/playSound dwop/faceDirection Willy 3/speak Willy \"¿Hey @.$h#$b#Oh, trajiste todo lo que te pedí? Eso es genial\"/emote Willy 20/pause 500/playSound seagulls/speak Willy \"Ahh vamos a intentarlo.$h\"/addObject 43 35 451/speak Willy \"Aquí está la receta, úsala antes de largos viajes de pesca y pescaras mucho.\"/removeTemporarySprites/playSound reward/message \"Has aprendido a fabricar 'Elixir de pesca'\"/addCraftingRecipe Fishing Elixir/pause 500/friendship Willy 500/pause 500/playSound seagulls/addQuest 234/speak Willy \"$h Ok, ahora que conoces la receta, intenta preparar una y déjame intentar a ver si funciona.\"/end",
+		},
+	}, 
+		 {       
+   "Action": "EditData",
+   "Target": "data/events/beach",
+   "When":{"HasMod":"IslandTMX", "Language": "es" },
+   "Entries": {
+		
+ "16299300/z spring":"continue/64 15/farmer 64 16 2 Willy 64 18 0/pause 500/speak Willy \"Hola @.$h#$b#Yo dejé mi barco en la parte derecha de la playa pero la puente está rota.$s\"/pause 500/speak Willy \"Se tu reparar la dejaré usar mi barco para ir a una Isla onde...una amiga vives.$h\"/end",
+  },
+	},
+		 {
+   "Action": "EditData",
+   "Target": "Data/Quests",
+   "When": { "Language": "es" },
+   "Entries": {
+		"228": "ItemDelivery/Investigación del alcantarillado/Demetrius está estudiando las posibles mutaciones de los peces locales que se encuentran en las alcantarillas. Le gustaría que le trajeras una muestra de un pez mutante de tres ojos./Trae a Demetrius un Blinky./Demetrius 1131/-1/1000/-1/true/Ahí estás. El espécimen se ve perfecto. Voy a ponerlo en hielo de inmediato. Gracias, @!",
+		"229": "ItemDelivery/Llévale una Lubina a Gus/Gus quiere muchas Lubinas para renovar su capital./Trae a Gus 20 Lubinas./Gus 1070 20/-1/5000/-1/true/Wow, @. Esto es genial. ¡Eress el mejor!",
+		"230": "ItemDelivery/Una estrella para Vincent/Kent quiere darle a Vincent una Estrella de mar para cumpleaños./Trae a Kent una Estrella de mar./Kent 1096/-1/150/-1/true/Hey @, muchas gracias.$h#$b# Apuesto a que a Vincent le encantará. ¡Gracias!",
+		"232": "ItemDelivery/Alma atrapada/El Mago quiere investigar las almas atrapadas que se encuentran en el Pantano de la Bruja./Lleva un Alma atrapada al Mago./Wizard 1066/-1/2500/-1/true/Gracias @, Comenzaré a investigarlo lo antes posible.",		
+		"233": "Basic/Elixir del viejo Pappy/Willy quiere probar una receta que encontró de su viejo Pappy./Entrega una Baya de gema dulce, un Mielga, una Mantarraya, un Tiburón duende pequeño y un Pez Espada./-1/-1/-1/-1/true.",	
+		"234": "ItemDelivery/Crea un Elixir de pesca/Willy quiere probar el elixir del viejo Pappy./Lleva un Elixir de pesca a Willy./Willy 1116/-1/8000/-1/true/Oh @,$h#$b# ¿Es eso? ¡¡¡No me lo puedo creer!!!$h#$b# Skipper, esto es increíble. No sé cómo agradecerte lo suficiente. Por favor, tome esto, no es suficiente para pagar tu ayuda en la recuperación del legado del viejo Pappy.",
+		
+		},
+	}, 
+
+{
+		"Action": "EditData",
+		"Target": "Strings/SpecialOrderStrings",
+		"When": { "Language": "es" },
+			"Entries": {
+				
+
+				"MNF.RobaloOrder_Name": "El suministo de robalo de Gus",
+				"MNF.RobaloOrder_Text": "{Text} Gus hizo un gran pedido de robalos, pero no creo que tenga tiempo suficiente para atraparlos a todos, estoy ofreciendo una recompensa para quien pueda entregar 20 robalos frescos a Gus.",
+				"MNF.RobaloOrder__Objective_0_Text": "Pesca 20 robalos.",
+				"MNF.RobaloOrder__Objective_1_Text": "Pon 20 robalo en la nevera de Gus.",							
+				}		
+          },
+
+		 {    
+   "Action": "EditData",
+   "Target": "Characters/Dialogue/Willy",
+   "When": { "Language": "es" },
+   "Entries": {
+		"Mon8": "Hey @, si está luchando con peces feroces, intente usar Corcho trampa, es realmente útil.",
+		"spring_Tue": "@, ¿Has intentado pescar en el estanque?#$b# Hay muchos peces dorados allí, buenos para practicar pero no muy desafiantes.",
+		"spring_Tue8": "Hey @, Intenté pescar en el estanque y obtuve un enorme Pangaso.#$h# Son nadadores muy fuertes y su carne es deliciosa.",	
+		"spring_Wed": "Estaba pescando en la ciudad uno de estos días y todo lo que obtuve fue Tararira y Pacú, luego fui al bosque y lo único que obtuve fueron muchos Barbos.$s#$b# Nada genial.$s",
+		"spring_Wed8": "Los Arowanas son tan feroces como hermosos, lo malo es que prefieren el clima lluvioso.",
+		"spring_Mon": "Oh @, ¿Has intentado pescar mientras llueve? Algunas especies como Sábalo, Anchoviella y Pleco solo saldrán mientras llueve.",
+		"spring_Mon8": "Oh @, ¿Has intentado pescar mientras llueve? Algunas especies como Arowana, Anguilas y Pez gato solo saldrán mientras llueve.",
+		"spring_Thu": "Hey @, atrape una Tilapia Cebra en el lago el otro día.$h#$b# Son feroces, pero son buenos para hacer dinero. Suelen salir en días soleados.",
+		"spring_Thu8": "Hey @, atrape un Barracuda en el océano el otro día$h#$b# Son feroces, pero son buenos para hacer dinero. Suelen salir en días soleados.",
+		"spring_Fri": "Hola @. $s#$b#Ten cuidado con las serpientes marinas.$s#$b# Casi fue mordido por uno.",
+		"summerBeach": "¡Buenos días!$h#$b# Buen día para pescar, ¿no?h#$b# ¡Hu ja!",
+		"summer_Mon": "¡Ah! @.$h#$b# Es divertido, el pez globo de agua salada prefiere los días soleados, pero los de agua dulce prefieren la lluvia.",
+		"summer_Mon8": "Ah Skipper.$h#$b# Es divertido, al pulpo común le gustan las aguas más cálidas, pero hay algunas especies que prefieren un clima templado.",
+		"summer_Sun": "Hey.$h#$b# Los Elopidae estarán fuera de temporada pronto, intente pescarlos mientras pueda.",
+		"summer_Sun8": "Hey.$h#$b# Las Lubinas estarán fuera de temporada pronto, intente pescarlos mientras pueda.",
+		"summer_Fri": "Hola @.$h#$b#¿Sabías que hay varios tipos de Carpas?$h#$b# Cada uno prefiere una estación diferente o un clima diferente.",
+		"summer_Fri8": "Hola @.$h#$b#¿Sabías que hay varios tipos de anguilas?$h#$b# Cada uno prefiere una estación diferente o un clima diferente, no a todos les gusta el clima lluvioso.",
+		"fall_Tue": "Hola @.$h#$b# Atrape un Pez cuchillo payaso muy hermoso en el lago.",
+		"fall_Sun": "Oh @.$h#$b# ¿Sabías que el Tiburón de cola roja es en realidad un tipo de Locha en lugar de un tiburón?#$e# Generalmente se encuentran en estanques.",
+		"winter_Sat": "¡Ah! @.#$b# No es un buen clima para pescar, pero varios peces vienen a estas aguas en ese momento.#$e# Si manejas el frío puedes encontrar peces muy interesantes.",
+		"winter_Fri": "Hey @.#$b# Intenta atrapar un Bacalao largo en el río. Es difícil pero haras mucho dinero.",
+		"winter_Fri8": "Hey @.#$b# Intenta atrapar una Trucha alpina. Es difícil pero harás mucho dinero y es un pez muy hermoso, además del dinero, obviamente.",
+		"winter_Tue": "Hola @. ¿Cómo estás?$b ¿Por qué la gente llama a Bacalao de hielo un pez vegetariano?",
+		"winter_Thu": "¡Ah!.#$b# Sauri, Cachuelo, Tenca, Lucio, Sauger y Cacho hacen que la pesca en el estanque sea muy interesante en esta época del año.",
+
+		"winter_Wed": "Hey @.#$b# Definitivamente criaría esturiones en una pecera, un pez muy lucrativo.#$b# Aunque ha pasado un tiempo desde la última vez que fui a pescar a las montañas.",
+
+		"winter_Sun": "Hey.$h#$b# Los Eglefinos estarán fuera de temporada pronto, intente pescarlos mientras pueda.",
+		},
+	},
+		 {    
+   "Action": "EditData",
+   "Target": "Characters/Dialogue/rainy",
+   "When": { "Language": "es" },
+   "Entries": {
+		"Willy": "Si no corriese riego de resfriarme, definitivamente me quedaría todo el día pescando.$h#$b# Algunos peces solo son felices cuando llueve.",
+		},
+	},	  
+		]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[STF] Walk to the Desert Shops",
+  "Author": "Tarniyar",
+  "Version": "1.1.0",
+  "Description": "Adds shops to Walk to the Desert locations",
+  "UniqueID": "Tarniyar.STF.WalkToDesert",
+  "MinimumApiVersion": "2.0",
+  "UpdateKeys": [ ],
+  "ContentPackFor": {
+    "UniqueID": "Cherry.ShopTileFramework",
+	"MinimumVersion": "1.0.1"
+  }
+}

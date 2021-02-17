@@ -1,0 +1,64 @@
+{
+    "Changes": [
+        { //Moves Blanche spawn spot into room
+            "LogName": "Blanche Spawn Point",
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "Fields": {
+                "Blanche": {
+                    "10": "Museum2 9 4"
+                }
+            }
+        },
+        { //Adds Blanches room to the Archaeology House second storey
+            "Action": "EditMap",
+            "Target": "Maps/Museum2",
+            "FromFile": "assets/Maps/Museum2-Blanche.tmx",
+            "ToArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 11,
+                "Height": 9
+            }
+        },
+        { //New dialogue for Blanche referencing Jasper
+            "LogName": "Blanche Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Blanche",
+            "Entries": {
+                "Tue2": "{{i18n:blanche_jasper_tue2}}",
+                "JasperGone1": "{{i18n:blanche_jasper_gone1}}",
+                "TalkJasperHome": "{{i18n:blanche_jasper_jasperhome}}",
+                "JasperEngaged": "{{i18n:blanche_jasper_jasperengaged}}",
+                "fall_Tue": "{{i18n:blanche_jasper_fall_tue}}",
+                "fall_Tue_InLaw_Jasper": "{{i18n:blanche_jasper_fall_tue_inlaw}}",
+                "summer_Mon_InLaw_Jasper": "{{i18n:blanche_jasper_summer_tue_inlaw}}"
+            }
+        },
+        { //New dialogue for Jasper referencing Blanche 
+            "LogName": "Blanche Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jasper",
+            "Entries": {
+                "fall_Tue": "{{i18n:jasper_blanche_fall_tue}}",
+                "summer_Tue4": "{{i18n:jasper_blanche_summer_tue}}"
+            }
+        },
+        { //8+ heart event
+            "LogName": "Town events",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                "5599027/e 50709921/f Blanche 500/z winter/z fall/z spring/t 2000 2600": "nightTime/79 97/Jasper 78 95 2 Blanche 88 95 3 farmer -100 -100 2/skippable/addLantern 735 77 94 3/animate Jasper false true 1000 32/move Blanche -6 0 3/pause 500/emote Blanche 56/stopAnimation Jasper 0/faceDirection Jasper 1/speak Jasper \"Oh, good evening Miss Blanche.#$b#Can you not sleep either?$2\"/emote Blanche 36/speak Blanche \"It is too hot. Inside it is very stuffy.\"/emote Blanche 40/pause 2000/speak Blanche \"Do you mind if I join you?\"/emote Jasper 32/pause 1000/speak Jasper \"Please, I would be delighted for the company.$1\"/move Jasper -1 0 2/emote Blanche 56/move Blanche -3 0 2/pause 500/animate Jasper false true 1000 32/pause 5000/speak Blanche \"The night is so peaceful.$3\"/stopAnimation Jasper 0/emote Jasper 28/pause 1000/stopMusic/faceDirection Jasper 1/faceDirection Blanche 3/playMusic sappypiano/speak Jasper \"Yes... it is... and sometimes... I cannot bear to be in my room.$2#$b#I feel suffocated... trapped...$2#$b#I need to feel the brush of the breeze against my face.\"/pause 500/emote Jasper 40/pause 1000/faceDirection Jasper 2/speak Jasper \"I am not the man I once was, Miss Blanche. I am no hero... no warrior...#$b#I'm just a broken old man afraid of what lurks in the shadows.$2\"/pause 500/move Blanche -1 0 3/speak Blanche \"*giggles* You're not old, Professor!$1#$b#And not broken either. Just a little bit battered - like a tree in a storm.$9\"/faceDirection Jasper 1/emote Jasper 40/pause 1000/faceDirection Jasper 2/faceDirection Blanche 2/pause 500/speak Jasper \"You are kind, Miss Blanche.$1#$b#It was the loneliness that was the worst you know...$2#$b#Of not knowing if anyone would ever find me, and I would die beneath the earth... as my father did.$2\"/faceDirection Jasper 1/speak Jasper \"I wonder, do you know, how it feels to be utterly, completely... alone?$2\"/pause 500/emote Blanche 40/pause 1000/speak Blanche \"Lonely, yes. Lonely I know... but alone without the windsong and trees whisper?#$b#No... I think it would hurt. A lot. In my heart.$2\"/faceDirection Jasper 2/textAboveHead Jasper \"Yes...\"/pause 2000/speak Jasper \"It hurt a lot... in my heart...$2\"/pause 1500/end"
+            }
+        },
+        {
+            "LogName": "Schedule: Jasper and Blanche have breakfast on Saturdays",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Blanche",
+            "Entries": {
+                "Sat": "640 Museum2 18 13 1/930 ArchaeologyHouse 11 5 0/1030 ArchaeologyHouse 14 4 2 Blanche_read/1300 ArchaeologyHouse 39 4 3/1330 ArchaeologyHouse 28 4 3/1400 ArchaeologyHouse 27 18 3/1430 SeedShop 13 29 1/1700 Town 54 71 0/1800 Town 104 89 2/2000 ArchaeologyHouse 46 5 2 Blanche_sleep"
+            }
+        }
+    ]
+}

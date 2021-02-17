@@ -1,0 +1,43 @@
+{
+  "Name": "Spruce Tips",
+  "Description": "Rich in Vitamin C, spruce provided a basis for a healthy drink that have helped stave off long, hard winters for centuries.",
+  "Category": "Greens",
+  "CategoryTextOverride": "Herb",
+  "Edibility": 10,
+  "Price": 10,
+  "IsColored": false,
+  "Recipe": null,
+  "CanPurchase": false,
+  "PurchaseFrom": null,
+    "ContextTags": [
+    	"forage_item",
+    	
+    	"season_winter"
+    ],
+    "NameLocalization": { 
+    // "es": "",
+     "ko": "가문비나무 조각",
+    // "de": "",
+    // "fr": "",
+    // "hu": "",
+    // "it": "",
+    // "ja": "",
+    // "pt": "",
+    // "ru": "",
+    // "tr": "",
+     "zh": "云杉芽",
+     },
+ "DescriptionLocalization": { 
+    // "es": "",
+    "ko": "가문비나무로 만드는 음료엔 비타민C가 풍부하여 추운 겨울을 나는데 도움이 된다.",
+     //"de": "",
+    // "fr": "",
+    // "hu": "",
+    // "it": "",
+    // "ja": "",
+    // "pt": "",
+    // "ru": "",
+    // "tr": "",
+     "zh": "云杉抗寒耐冻，有丰富的营养，它帮助人们度过漫长而艰苦冬季的历史长达几个世纪。其富含的维生素C是也制作健康饮品的基础。",
+    },
+}

@@ -1,0 +1,86 @@
+{
+  "Format": "1.18.0",
+  "ConfigSchema": {
+	"ShopLocation": {
+		"AllowValues": "Vanilla, SVR, SVR2, SummitReborn",
+		"Default": "Vanilla"
+	},
+},
+  "Changes": [
+  //Map String
+	{
+		"Action": "EditData",
+		"Target": "Strings/StringsFromMaps",
+		"Entries": {
+		  "MeatShop.1": "{{i18n:meatshop.1}}",
+		  "MeatShop.2": "{{i18n:meatshop.2}}",
+		  "MeatShop.3": "{{i18n:meatshop.3}}"
+		}
+	},
+  //Map Merge
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Railroad",
+      "FromFile": "assets/Vanilla.tbin",
+      "FromArea": { "X": 0, "Y": 0, "Width": 6, "Height": 10 },
+      "ToArea": { "X": 14, "Y": 31, "Width": 6, "Height": 10 },
+	  "When": { "ShopLocation": "Vanilla"},
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/MeatShopin",
+      "MapProperties": {
+		"Warp": "5 15 Railroad 17 41 6 15 Railroad 17 41"
+	  },
+	  "When": { "ShopLocation": "Vanilla"},
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Railroad",
+      "FromFile": "assets/SVR.tbin",
+      "FromArea": { "X": 0, "Y": 0, "Width": 6, "Height": 10 },
+      "ToArea": { "X": 12, "Y": 32, "Width": 6, "Height": 10 },
+	  "When": { "ShopLocation": "SVR"},
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/MeatShopin",
+      "MapProperties": {
+		"Warp": "5 15 Railroad 15 41 6 15 Railroad 15 41"
+	  },
+	  "When": { "ShopLocation": "SVR"},
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Railroad",
+      "FromFile": "assets/SVR2.tbin",
+      "FromArea": { "X": 0, "Y": 0, "Width": 6, "Height": 10 },
+      "ToArea": { "X": 13, "Y": 31, "Width": 6, "Height": 10 },
+	  "When": { "ShopLocation": "SVR2"},
+    },  
+    {
+      "Action": "EditMap",
+      "Target": "Maps/MeatShopin",
+      "MapProperties": {
+		"Warp": "5 15 Railroad 16 41 6 15 Railroad 16 41"
+	  },
+	  "When": { "ShopLocation": "SVR2"},
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Railroad",
+      "FromFile": "assets/SummitReborn.tbin",
+      "FromArea": { "X": 0, "Y": 0, "Width": 6, "Height": 10 },
+      "ToArea": { "X": 13, "Y": 31, "Width": 6, "Height": 10 },
+	  "When": { "ShopLocation": "SummitReborn"},
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/MeatShopin",
+      "MapProperties": {
+		"Warp": "5 15 Railroad 16 41 6 15 Railroad 16 41"
+	  },
+	  "When": { "ShopLocation": "SummitReborn"},
+    },
+  ]
+}

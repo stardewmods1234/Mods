@@ -1,0 +1,44 @@
+{
+  "Name": "Birch Bark",
+  "Description": "Can be processed into an extract to make a spicy, herbal beverage.",
+  "Category": "Greens",
+  "CategoryTextOverride": "Bark",
+  "Edibility": 10,
+  "Price": 10,
+  "IsColored": false,
+  "Recipe": null,
+  "CanPurchase": false,
+  "PurchaseFrom": null,
+    "ContextTags": [
+    	"forage_item",
+    	"bark_item",
+    	"season_spring"
+    ],
+"NameLocalization": { 
+    // "es": "",
+     "ko": "자작나무 껍질",
+     "de": "Birkenrinde",
+    // "fr": "",
+    // "hu": "",
+    // "it": "",
+    // "ja": "",
+    // "pt": "",
+    // "ru": "",
+    // "tr": "",
+     "zh": "桦树皮",
+     },
+ "DescriptionLocalization": { 
+    // "es": "",
+    "ko": "추출물로 허브 음료를 만들 수 있다.",
+     "de": "Kann zu einem Extrakt verarbeitet werden, um ein würziges Kräutergetränk herzustellen.",
+    // "fr": "",
+    // "hu": "",
+    // "it": "",
+    // "ja": "",
+    // "pt": "",
+    // "ru": "",
+    // "tr": "",
+     "zh": "桦树皮提取物可以被制成辛辣的药饮。",
+    }
+}
+

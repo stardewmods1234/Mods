@@ -1,0 +1,11 @@
+{
+  "Name": "[CP] Life Cycle - Alex & Haley",
+  "Author": "nraittanna",
+  "Version": "3.2.2",
+  "Description": "A mod that makes Stardew Valley NPCs more lively | Alex and Haley version.",
+  "UniqueID": "nraittanna.LifeCycleAlexHaley",
+  "UpdateKeys": [ "Nexus:6200" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+  }
+}

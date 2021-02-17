@@ -1,0 +1,43 @@
+{
+  "Name": "Enchanted Golden Jewel Pin",
+  "Description": "A charming little jewel pin imbued with arcane magic!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 1200,
+  "IsColored": true,
+  "Recipe": null,
+   "CanPurchase": false,
+   //"PurchaseFrom": "Robin",
+   //"PurchasePrice": 500,
+   //"PurchaseRequirements":
+   //[
+    //  "r 0.50"
+   // ]
+    "NameLocalization": { 
+		// "es": "",
+		"ko": "마법의 황금 보석 핀",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Distintivo de Jóias Dourado Encantado",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        "ko": "신비로운 마력으로 가득 찬 매력적인 작은 보석 핀!",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Um pequeno encantador alfinete de jóias imbuído com magia arcana!",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    }  
+}

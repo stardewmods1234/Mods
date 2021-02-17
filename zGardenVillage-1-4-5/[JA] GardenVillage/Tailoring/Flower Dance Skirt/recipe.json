@@ -1,0 +1,6 @@
+{
+    "CraftedItems": [ "Flower Dance Skirt" ],
+    "FirstItemTags": [ "item_cloth" ],
+    "SecondItemTags": [ "item_pink_easter_mayonnaise" ],
+    "ConsumeSecondItem": true,
+}

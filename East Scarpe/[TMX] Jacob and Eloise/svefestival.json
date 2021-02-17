@@ -1,0 +1,189 @@
+  {
+      "hasMods": ["FlashShifter.StardewValleyExpandedALL"],
+  "festivalSpots": [
+    {
+      "name": "Jacob",
+      "map": "Beach-Luau",
+      "position": [
+        31,
+        34
+      ],
+      "direction": 2,
+      "position2": [
+        31,
+        34
+      ],
+      "direction2": 3
+    },
+    {
+      "name": "Eloise",
+      "map": "Beach-Luau",
+      "position": [
+        13,
+        14
+      ],
+      "direction": 1,
+      "position2": [
+        23,
+        23
+      ],
+      "direction2": 0
+    },
+    {
+      "name": "Jacob",
+      "map": "Beach-Jellies",
+      "position": [
+        4,
+        7
+      ],
+      "direction": 2
+    },
+    {
+      "name": "Eloise",
+      "map": "Beach-Jellies",
+      "position": [
+        5,
+        7
+      ],
+      "direction": 2
+    },
+    {
+      "name": "Jacob",
+      "map": "Town-Fair",
+      "position": [
+        64,
+        65
+      ],
+      "direction": 2
+    },
+    {
+      "name": "Eloise",
+      "map": "Town-Fair",
+      "position": [
+        63,
+        65
+      ],
+      "direction": 2
+    },
+    {
+      "name": "Jacob",
+      "map": "Town-Halloween",
+      "position": [
+        16,
+        51
+      ],
+      "direction": 2
+    },
+    {
+      "name": "Eloise",
+      "map": "Town-Halloween",
+      "position": [
+        16,
+        52
+      ],
+      "direction": 0
+    },
+    {
+      "name": "Jacob",
+      "map": "Forest-IceFestival",
+      "position": [
+        54,
+        52
+      ],
+      "direction": 1,
+      "position2": [
+        33,
+        25
+      ],
+      "direction2": 2
+    },
+    {
+      "name": "Eloise",
+      "map": "Forest-IceFestival",
+      "position": [
+        55,
+        51
+      ],
+      "direction": 2,
+      "position2": [
+        34,
+        25
+      ],
+      "direction2": 2
+    },
+    {
+      "name": "Eloise",
+      "map": "Town-EggFestival",
+      "position": [
+        8,
+        63
+      ],
+      "direction": 1,
+      "position2": [
+        35,
+        60
+      ],
+      "direction2": 2
+    },
+    {
+      "name": "Jacob",
+      "map": "Town-EggFestival",
+      "position": [
+        9,
+        63
+      ],
+      "direction": 3,
+      "position2": [
+        34,
+        60
+      ],
+      "direction2": 2
+    },
+    {
+      "name": "Eloise",
+      "map": "Forest-FlowerFestival",
+      "position": [
+        14,
+        30
+      ],
+      "direction": 3,
+      "position2": [
+        13,
+        30
+      ],
+      "direction2": 0
+    },
+    {
+      "name": "Jacob",
+      "map": "Forest-FlowerFestival",
+      "position": [
+        3,
+        30
+      ],
+      "direction": 1,
+      "position2": [
+         12,
+        32
+      ],
+      "direction2": 0
+    },
+    {
+      "name": "Eloise",
+      "map": "Town-Christmas",
+      "position": [
+        24,
+        49
+      ],
+      "direction": 1
+    },
+    {
+      "name": "Jacob",
+      "map": "Town-Christmas",
+      "position": [
+        37,
+        71
+      ],
+      "direction": 3
+    }
+  ]
+}

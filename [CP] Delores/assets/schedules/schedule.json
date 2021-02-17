@@ -1,0 +1,14 @@
+{
+  "spring": "610 Forest 64 39 0 delores_stretch/930 Forest 64 46 0 delores_jacks/1130 Forest 64 39 0 delores_squat/1230 Forest 64 46 0 delores_rope/1530 Saloon 6 17 2/1830 BusStop 19 11 0/1950 BusStop 31 8 1",
+  "summer": "610 Forest 64 39 0 delores_stretch/930 Forest 64 46 0 delores_jacks/1130 Forest 64 39 0 delores_squat/1230 Forest 64 46 0 delores_rope/1530 Saloon 6 17 2/1830 BusStop 19 11 0/1950 BusStop 31 8 1",
+  "fall": "610 Forest 64 39 0 delores_stretch/930 Forest 64 46 0 delores_jacks/1130 Forest 64 39 0 delores_squat/1230 Forest 64 46 0 delores_rope/1530 Saloon 6 17 2/1830 BusStop 19 11 0/1950 BusStop 31 8 1",
+  "winter": "610 Forest 64 39 0 delores_stretch/930 Forest 64 46 0 delores_jacks/1130 Forest 64 39 0 delores_squat/1230 Forest 64 46 0 delores_rope/1530 Saloon 6 17 2/1830 BusStop 19 11 0/1950 BusStop 31 8 1",
+  "Fri": "610 Forest 64 39 0 delores_stretch/830 Forest 64 46 0 delores_jacks/1030 Forest 64 39 0 delores_squat/1130 Forest 64 46 0 delores_rope/1530 BusStop 19 11 0/1650 BusStop 31 8 1",
+  "marriage_Wed": "800 Forest 64 39 0 delores_jacks/1130 Forest 64 39 0 delores_squat/1230 Forest 64 46 0 delores_rope/1530 Saloon 6 17 2/2030 BusStop -1 23 3",
+  "spring_13": "610 BusStop 31 8 1",
+  "spring_24": "610 BusStop 31 8 1",
+  "summer_11": "610 BusStop 31 8 1",
+  "fall_16": "610 BusStop 31 8 1",
+  "winter_8": "610 BusStop 31 8 1",
+  "winter_25": "610 BusStop 31 8 1"
+}

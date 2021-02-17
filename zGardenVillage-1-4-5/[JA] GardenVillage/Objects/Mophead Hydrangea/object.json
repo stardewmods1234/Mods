@@ -1,0 +1,27 @@
+{
+    "Name": "Mophead Hydrangea",
+    "Description": "More elegantly known as Hortensias, the mopheads are known for their full clusters of rough-edged blossoms.",
+    "Category": "Flower",
+    "Edibility": -25,
+    "Price": 300,
+    "IsColored": true,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "Haley", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Shane", "Vincent", "Willy", "Wizard", "Jas", "Sandy"],
+		"Dislike": [ "Clint", "George", "Sebastian"]
+    },
+    "NameLocalization":
+    {
+        
+    },
+    "DescriptionLocalization":
+    {
+        
+    },
+    "ContextTags": [
+        "season_summer",
+        "color_blue",
+        "flower_item",
+    ]
+}

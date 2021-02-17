@@ -1,0 +1,51 @@
+{
+  "Name": "Truffle Oil Steak",
+  "Description": "A rather luxurious steak.",
+  "Category": "Cooking",
+  "Edibility": 150,
+  "EdibleIsDrink": false,
+  "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 50,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 300,
+    },
+  "Price": 1500,
+  "IsColored": false,
+  "GiftTastes": {
+	"Love": ["Leah","Gus","Alex","Marnie"],
+	"Like": ["Willy","Pierre","Lewis", "Linus","Sandy","Abigail", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Evelyn", "George", "Kent", "Krobus",  "Maru", "Pam", "Jodi","Penny","Robin", "Sam",  "Shane",  "Wizard","Vincent","Emily", "Haley",  "Jas",  "Sebastian","Harvey"],
+	"Neutral": [],
+	"Dislike": [],
+	"Hate": [],
+  },
+  "Recipe": {
+    "ResultCount": 1,
+	"IsDefault": false,
+    "Ingredients": [
+      {
+        "Object": "Raw Steak",
+        "Count": 1,
+      },
+      {
+        "Object": 432,
+        "Count": 1,
+      }
+    ],
+  },
+
+ "NameLocalization": { 
+    "zh": "松露油牛排",
+  },
+ "DescriptionLocalization": { 
+    "zh": "一种相当豪华的牛排。",
+  }
+}

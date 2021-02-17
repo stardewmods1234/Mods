@@ -1,0 +1,46 @@
+{
+    "Name": "Onyx",
+    "Description": "Black agate.",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
+    "Edibility": -300,
+    "Price": 150,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "흑마노",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Ônix",
+        // "ru": "",
+        // "tr": "",
+        "zh": "黑玛瑙",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "검은색 마노.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Uma ágata negra.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "黑色玛瑙。",
+    },
+	
+    "ContextTags": [
+        "color_black", "agate_item", "black_gem",
+    ],
+}

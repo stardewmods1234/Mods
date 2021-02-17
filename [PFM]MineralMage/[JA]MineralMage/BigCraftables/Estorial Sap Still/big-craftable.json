@@ -1,0 +1,53 @@
+{
+    "Name": "Estorial Sap Still",
+    "Description": "Age large amounts of Sap (100), to get around 200 units of slime!.(Almost a week per batch).",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveExtraIndexCount": 6,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 80,
+            "Count": 1,
+        },
+        {
+            "Object": 334,
+            "Count": 4,
+        }, ],
+        "CanPurchase": false,
+        "IsDefault": false,
+    },
+    "CanPurchase": false,
+    //"PurchaseFrom": "Clint",
+    //"PurchasePrice": 1000,
+    "NameLocalization":
+    {
+        //"es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    }
+}

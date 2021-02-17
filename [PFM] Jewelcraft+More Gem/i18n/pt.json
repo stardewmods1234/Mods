@@ -1,0 +1,14 @@
+{
+    "Jewel.Pin": "Distintivo de {inputName} Dourado",
+    "Jewel.Bracelet": "Bracelete de {inputName} Dourado",
+    "Jewel.Earrings": "Brincos de {inputName} Dourado",
+    "Jewel.Ring": "Anel de {inputName} Dourado",
+    "Jewel.Brooch": "Broche de {inputName} Dourado",
+    "Jewel.Faberge": "Ovo Fabergé de {inputName}",
+    "Jewel.EnchantedPin": "Distintivo de {inputName} Dourado Encantado",
+    "Jewel.EnchantedBracelet": "Bracelete de {inputName} Dourado Encantado",
+    "Jewel.EnchantedEarrings": "Brincos de {inputName} Dourado Encantado",
+    "Jewel.EnchantedRing": "Anel de {inputName} Dourado Encantado",
+    "Jewel.EnchantedBrooch": "Broche de {inputName} Dourado Encantado",
+    "Jewel.EnchantedFaberge": "Ovo Fabergé de {inputName} Encantado",
+}

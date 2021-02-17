@@ -1,0 +1,18 @@
+﻿
+{
+  //SPECIAL DIALOGUE
+  Introduction: "Hello sir, my name is Adrian.^Hello ma'am, my name is Adrian.#$b#I live with my sister, mom and dad in the big grocery store.",
+    Resort_Entering: "Hurray!!",
+    Resort_Leaving: "But I don't want to go!",
+    Resort_Shore: "I want to build a sand castle!$h",
+    Resort: "I want to explore the forest.$h",
+    
+    Mon: "Today I wanted to hang out with my sister but she didn't want to take me with her.$h#$e#Thinks I should go to school!",
+    
+    Tue: "Sometimes I help my dad in the shop...$s" ,
+    Tue6: "Miss Penny is very kind.$u",
+    Wed: "My daddy said I can have the my favorite snack today.$u#$b#Do you want me to buy something for you...?",
+    Thu: "The boy living in the forest doesn't come to school.$s",
+    Thu2: "Hello, have you ever seen a rainbow?",
+    Fri: "Vincent is such a good friend.$s",
+}

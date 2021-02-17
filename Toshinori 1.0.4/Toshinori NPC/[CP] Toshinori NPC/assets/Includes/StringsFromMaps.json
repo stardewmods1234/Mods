@@ -1,0 +1,32 @@
+{   "Changes": [
+    {	"LogName": "Strings from Maps",
+		"Action": "EditData",
+		"Target": "strings/StringsFromMaps",
+		"Entries": {
+        "ToshiRoom.1": "{{i18n:ToshiRoom.1.s}}",
+        "ToshiRoom.2": "{{i18n:ToshiRoom.2.s}}",
+        "ToshiRoom.3": "{{i18n:ToshiRoom.3.s}}",
+        "ToshiRoom.4": "{{i18n:ToshiRoom.4.s}}",
+        "ToshiRoom.5": "{{i18n:ToshiRoom.5.s}}",
+        "ToshiRoom.6": "{{i18n:ToshiRoom.6.s}}",
+		"ToshiRoom.7": "{{i18n:ToshiRoom.7.s}}",
+		"ToshiRoom.8": "{{i18n:ToshiRoom.8.s}}",
+		"ToshiRoom.9": "{{i18n:ToshiRoom.9.s}}",
+		"ToshiRoom.10": "{{i18n:ToshiRoom.10.s}}",
+		"ToshiRoom.11": "{{i18n:ToshiRoom.11.s}}",
+	    "ToshiHospitalRoom.1": "{{i18n:ToshiHospitalRoom.1.s}}",
+        "ToshiHospitalRoom.2": "{{i18n:ToshiHospitalRoom.2.s}}",
+        "ToshiHospitalRoom.3": "{{i18n:ToshiHospitalRoom.3.s}}",
+        "ToshiHospitalRoom.4": "{{i18n:ToshiHospitalRoom.4.s}}",
+        "ToshiHospitalRoom.5": "{{i18n:ToshiHospitalRoom.5.s}}",
+        "ToshiHospitalRoom.6": "{{i18n:ToshiHospitalRoom.6.s}}",
+		"ToshiHospitalRoom.7": "{{i18n:ToshiHospitalRoom.7.s}}",
+		"ToshiHospitalRoom.8": "{{i18n:ToshiHospitalRoom.8.s}}",
+		"ToshiHospitalRoom.9": "{{i18n:ToshiHospitalRoom.9.s}}",
+		"ToshiHospitalRoom.10": "{{i18n:ToshiHospitalRoom.10.s}}",
+		"ToshiGravestone": "{{i18n:ToshiGravestone.s}}",
+		"Town.1": "{{i18n:Town.1.s}}",
+		},
+      }
+]
+}

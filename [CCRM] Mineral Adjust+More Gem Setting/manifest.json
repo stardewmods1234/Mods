@@ -1,0 +1,17 @@
+﻿{
+	"Name": "[CCRM] Mineral Adjust+More Gem Setting",
+	"Author": "KAYA",
+	"Version": "1.0.0",
+	"Description": "Adjust for Custom Crystalarium Mod.",
+	"UniqueID": "KAYA.CCRM.MoreGem",
+	"MinimumApiVersion": "3.9.0",
+	"UpdateKeys": [ "Nexus:8052" ],
+	"Dependencies": [
+		{
+			"UniqueID": "KAYA.JAMoreGem"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.CustomCrystalariumMod"
+	}
+}

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="7" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="24">
+ <tileset firstgid="1" source="townInterior.tsx"/>
+ <tileset firstgid="2177" source="sproomsts.tsx"/>
+ <tileset firstgid="4152" source="ToshiFurniture.tsx"/>
+ <layer id="1" name="BackSpouse" width="7" height="10">
+  <data encoding="csv">
+72,72,72,72,72,72,0,
+104,104,104,104,104,104,0,
+99,99,99,99,99,99,0,
+1274,1273,1274,1273,1273,1274,0,
+1305,1306,1305,1305,1305,1306,0,
+1337,1338,1305,1306,1305,1306,0,
+1305,1306,1337,1338,1337,1338,0,
+1369,4344,1370,1306,1305,1306,0,
+1305,1305,1337,1338,1337,1338,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="BuildingsSpouse" width="7" height="10">
+  <data encoding="csv">
+155,4280,4155,4157,4159,0,69,
+580,581,4217,4219,4221,0,69,
+612,613,0,552,490,0,69,
+644,645,3111,584,522,4214,69,
+0,0,0,0,0,682,69,
+0,0,0,0,0,714,69,
+589,590,3279,875,0,746,69,
+0,0,0,0,0,3062,69,
+4468,352,0,0,0,3087,168,
+1,1,1,1,1,1,1
+</data>
+ </layer>
+ <layer id="3" name="FrontSpouse" width="7" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,4216,0,4152,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,4401,0,
+557,558,3254,4153,0,4277,0,
+0,4338,0,4215,0,0,0,
+4406,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="AlwaysFrontSpouse" width="7" height="10">
+  <data encoding="csv">
+1427,1427,1427,1427,1427,1427,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,4276,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+166,166,166,166,166,167,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="AlwaysFront" width="7" height="10" visible="0" locked="1">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="BackSpouse"/>
+ <objectgroup id="7" name="BuildingsSpouse">
+  <object id="6" name="TileData" x="80" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ToshiRoom.2&quot;"/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="64" y="48" width="32" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ToshiRoom.1&quot;"/>
+   </properties>
+  </object>
+  <object id="10" name="TileData" x="32" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ToshiRoom.5&quot;"/>
+   </properties>
+  </object>
+  <object id="12" name="TileData" x="48" y="32" width="16" height="32">
+   <properties>
+    <property name="Action" value="Message &quot;ToshiRoom.7&quot;"/>
+   </properties>
+  </object>
+  <object id="15" name="TileData" x="16" y="0" width="16" height="64">
+   <properties>
+    <property name="Action" value="Message &quot;ToshiRoom.6&quot;"/>
+   </properties>
+  </object>
+  <object id="16" name="TileData" x="80" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ToshiRoom.4&quot;"/>
+   </properties>
+  </object>
+  <object id="17" name="TileData" x="48" y="80" width="16" height="32">
+   <properties>
+    <property name="Action" value="Message &quot;ToshiRoom.3&quot;"/>
+   </properties>
+  </object>
+  <object id="18" name="TileData" x="80" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ToshiRoom.8&quot;"/>
+   </properties>
+  </object>
+  <object id="19" name="TileData" x="0" y="32" width="16" height="32">
+   <properties>
+    <property name="Action" value="Message &quot;ToshiRoom.9&quot;"/>
+   </properties>
+  </object>
+  <object id="20" name="TileData" x="16" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ToshiRoom.10&quot;"/>
+   </properties>
+  </object>
+  <object id="21" name="TileData" x="16" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ToshiRoom.11&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="FrontSpouse"/>
+ <objectgroup id="9" name="AlwaysFrontSpouse"/>
+ <objectgroup id="10" name="AlwaysFront" visible="0" locked="1"/>
+</map>

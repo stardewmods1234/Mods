@@ -1,0 +1,17 @@
+{
+	"Name": "[PFM] More Gem",
+	"Author": "KAYA",
+	"Version": "2.1.0",
+	"Description": "Add more gem!",
+	"UniqueID": "KAYA.PFMMoreGem",
+	"MinimumApiVersion": "3.3.2",
+	"Dependencies": [
+		{
+			"UniqueID": "KAYA.JAMoreGem",
+			"IsRequired": true
+		},
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

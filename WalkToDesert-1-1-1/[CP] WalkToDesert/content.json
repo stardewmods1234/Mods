@@ -1,0 +1,201 @@
+{
+   "Format": "1.13.0",
+    "ConfigSchema": {
+        "EemieFallVariant": {
+            "AllowValues": "Green, Orange",
+            "Default": "Orange"
+        },
+		"StarblueSpringVariant": {
+            "AllowValues": "Green, Blue",
+            "Default": "Blue"
+        },
+		"VibrantPastoralFallVariant": {
+            "AllowValues": "Green, Orange",
+            "Default": "Orange"
+        },
+    },
+	"DynamicTokens": [
+        {
+            "Name": "recolor",
+            "Value": "default"
+        },
+		{
+            "Name": "recolor",
+            "Value": "earthy",
+            "When": {
+                "HasMod": "DaisyNiko.Earthyrecolor"
+            }
+        },
+        {
+            "Name": "recolor",
+            "Value": "eemie",
+            "When": {
+                "HasMod": "minervamaga.CP.eemieMaprecolor"
+            }
+        },
+        {
+            "Name": "recolor",
+            "Value": "sfr-o",
+            "When": {
+                "HasMod": "stardewfoliageredone"
+            }
+        },
+        {
+            "Name": "recolor",
+            "Value": "sfr-r",
+            "When": {
+                "HasMod": "stardewfoliageredonereshade"
+            }
+        },
+		{
+            "Name": "recolor",
+            "Value": "starblue",
+            "When": {
+                "HasMod": "Lita.StarblueValley"
+            }
+        },
+		{
+            "Name": "recolor",
+            "Value": "pastoral",
+            "When": {
+                "HasMod": "grapeponta.VibrantPastoralRecolor"
+            }
+        },
+		{
+            "Name": "recolor",
+            "Value": "wittily",
+            "When": {
+                "HasMod": "Acerbicon.Recolor"
+            }
+        },
+        
+    ],
+   "Changes": [
+	// load tilesheets
+	/*
+	{
+		"Action": "Load",
+		"Target": "Maps/desert_z_roads, Maps/fall_z_wtd_tilesheet, Maps/spring_z_wtd_tilesheet, Maps/summer_z_wtd_tilesheet, Maps/winter_z_wtd_tilesheet, Maps/z_ghostshoptiles, Maps/z_ghosttown_tilesheet",
+		"FromFile": "assets/recolors/tilesheets/{{TargetWithoutPath}}.png"
+	},
+	*/
+	{
+		"Action": "Load",
+		"Target": "Maps/desert_z_roads, Maps/fall_z_wtd_tilesheet, Maps/spring_z_wtd_tilesheet, Maps/summer_z_wtd_tilesheet, Maps/winter_z_wtd_tilesheet, Maps/z_ghostshoptiles, Maps/z_ghosttown_tilesheet",
+		"FromFile": "assets/recolors/{{recolor}}/{{TargetWithoutPath}}.png"
+	},
+	//recolors seasonal variants
+	{
+		"Action": "EditImage",
+		"Target": "Maps/fall_z_wtd_tilesheet",
+		"FromFile": "assets/recolors/eemie/fall_z_wtd_tilesheet-g.png",
+		"When": {
+			"recolor": "eemie",
+			"EemieFallVariant": "Green"
+		}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/spring_z_wtd_tilesheet",
+		"FromFile": "assets/recolors/starblue/spring_z_wtd_tilesheet-g.png",
+		"When": {
+			"recolor": "starblue",
+			"StarblueSpringVariant": "Green"
+		}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/fall_z_wtd_tilesheet",
+		"FromFile": "assets/recolors/pastoral/fall_z_wtd_tilesheet-g.png",
+		"When": {
+			"recolor": "pastoral",
+			"VibrantPastoralFallVariant": "Green"
+		}
+	},
+	// events
+	{
+	 "Action": "Load",
+	 "Target": "Data/Events/SandyHouse",
+	 "FromFile": "assets/SandyEvents.json"
+    },
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sandy",
+		"Entries": {
+		"Mon": "$d bus#Hello hello, sweetie! I'm so glad that bus is working again! It's been hard to stay in business.#Hello hello, sweetie! I'm so glad you're willing to make the long trip out here! It's been hard to stay in business.",
+	}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sandy",
+		"Entries": {
+		"Mon2": "Hey, sweetie, how's the farm?#$e#Let me guess. You're here to buy a whole bunch of seeds... right, sweetie?$h",
+	}
+	},
+	// objects
+   	{   
+	 "Action": "EditData",
+	 "Target": "Data/ObjectInformation",
+	 "Entries": { 
+	  "{{spacechase0.JsonAssets/ObjectId:Old Coin}}": "Old Coin/5/-300/-12/Old Coin/Just because it's old doesn't mean it's valuable.",
+	  "{{spacechase0.JsonAssets/ObjectId:Giant Old Coin}}": "Giant Old Coin/500/-300/-12/Giant Old Coin/This coin is huge! What a lucky find!"
+	  }
+	},
+	{   
+	 "Action": "EditData",
+	 "Target": "Data/Locations",
+	 "Entries": { 
+	  "ForestRoad": "-1/-1/-1/-1/-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Giant Old Coin}} .05 {{spacechase0.JsonAssets/ObjectId:Old Coin}} .3 770 .25 390 .25 330 1"
+	}
+	},
+	{   
+	 "Action": "EditData",
+	 "Target": "Data/Locations",
+	 "Entries": { 
+	  "WindingRoad": "-1/-1/-1/-1/-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Giant Old Coin}} .05 {{spacechase0.JsonAssets/ObjectId:Old Coin}} .3 770 .25 390 .25 330 1"
+	}
+},
+{   
+	 "Action": "EditData",
+	 "Target": "Data/Locations",
+	 "Entries": { 
+	  "Interchange": "22 .5/402 .5/408 .5/283 .5/-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Giant Old Coin}} .05 {{spacechase0.JsonAssets/ObjectId:Old Coin}} .3 770 .25 390 .25 330 1"
+	}
+},
+	{   
+	 "Action": "EditData",
+	 "Target": "Data/Locations",
+	 "Entries": { 
+	  "GhostTown": "88 .5 90 .5/88 .5 90 .5/88 .5 90 .5/88 .5 90 .5/-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Giant Old Coin}} .05 {{spacechase0.JsonAssets/ObjectId:Old Coin}} .3 770 .25 390 .25 330 1"
+	}
+},
+{
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+      "Entries": {
+	  "Winding.1":"` Highway 5 to Zuzu City^@ Garden Village^> Pelican Town",
+	  "Interchange.1":"You don't have any reason to go to Zuzu City today.",
+	  "Interchange.2":"` Highway 5 to Zuzu City^@ Calico Desert",
+	  "Interchange.3":"` Highway 5 to Zuzu City^> Glacier Outpost",
+	  "Interchange.4":"Road blocked by avalanche. I'm sure it will be cleared in a future update.",
+	  "GhostTown.1":"DANGER!",
+	  "GhostTown.2":"DO NOT ENTER!",
+	  "GhostTown.3":"This building looks too unsafe to enter.",
+	  "GhostTown.4":"Locked. An eerie voice whispers \"future update.\"",
+	  "GhostShop.1":"Locked. And the doorknob is covered in spiderwebs!",
+	  "GhostShop.2":"Ghost: Buy something?",
+	  "Horsepath.1":"No horses allowed in tunnel!^No tractors allowed in tunnel!",
+	  "Horsepath.2":"@ Equestrian path this way",
+	  "Horsepath.3":"> Equestrian path this way"
+}	  
+},
+{
+      "Action": "EditData",
+      "Target": "Data/Quests",
+      "Entries": {
+	  "1373001": "ItemDelivery/Ghost Berry/The Wizard wants to study a Ghost Berry. Don't ask why./Bring Wizard a Ghost Berry./Wizard {{spacechase0.JsonAssets/ObjectId:Ghost Berry}}/-1/500/-1/true/Ah, fascinating. The magical potential of this fruit is incredible! You've done well, @. You have my gratitude. Now, let me work in peace.",
+	  }
+}
+]
+}
+

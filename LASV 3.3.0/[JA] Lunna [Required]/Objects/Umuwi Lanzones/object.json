@@ -1,0 +1,14 @@
+{
+  "Name": "Umuwi Lanzones",
+  "Description": "A small fruit high in antioxidants, vitamins, and protein.",
+  "Category": "Fruit",
+  "Edibility": 50,
+  "Price": 155,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+  {
+  "Love": ["Lunna", "Gus", "Raphael"],
+  "Like": ["Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Shane", "Willy", "Wizard","Lewis","Abigail", "Haley", "Jas", "Sam", "Sebastian", "Vincent"],
+  },
+}

@@ -1,0 +1,68 @@
+{
+"hasMods": ["FlashShifter.StardewValleyExpandedALL"],
+"festivalSpots": [  
+        {
+        "name": "Jasper",
+        "map": "Town-EggFestival", 
+        "position": [32, 56],
+        "direction": 2
+        },
+        {
+        "name": "Jasper",
+        "map": "Forest-FlowerFestival", 
+        "position": [4, 29],
+        "direction": 2
+        },
+        //SVE fine
+	{
+        "name": "Jasper",
+        "map": "Beach-Luau", 
+        "position": [11, 39],
+        "direction": 2
+        },
+        //SVE Fine
+	{
+        "name": "Jasper",
+        "map": "Beach-Jellies", 
+        "position": [88, 40],
+        "direction": 2
+        },
+        //SVE FIne
+	{
+        "name": "Jasper",
+        "map": "Town-Fair", 
+        "position": [38, 77],
+        "direction": 2
+        },
+        //SVE Fine
+	{
+        "name": "Jasper",
+        "map": "Town-Halloween", 
+        "position": [27, 56],
+        "direction": 2
+        },
+        //SVE Fine
+	{
+        "name": "Jasper",
+        "map": "Forest-IceFestival", 
+        "position": [115, 16],
+        "direction": 0
+        },
+     
+	 {
+        "name": "Jasper",
+        "map": "Town-Christmas", 
+        "position": [33, 71],
+        "direction": 1
+        },
+        //SVE fine
+
+  //Adds in Cameron for Winter Star (in case you need to give them gifts)      
+  { "name": "Cameron",
+    "map": "Town-Christmas", 
+    "position": [35, 89],
+    "direction": 1
+    }
+
+    ]
+}  

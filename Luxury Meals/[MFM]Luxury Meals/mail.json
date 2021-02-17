@@ -1,0 +1,385 @@
+[
+	{
+		"Id": "xXStrayXx.truffleoilsaladrecipe",
+		"GroupID": "LuxuryMeals.CookingRecipeGus",
+		"Text": "gussendrecipe.text",
+		"Recipe": "Truffle Oil Salad",
+		"WhichBG": 0,
+		"Date": "1 spring Y1",
+		"Repeatable": false,
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Gus", "FriendshipLevel": 4 }
+		],
+		/*"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 1 }
+		]*/
+	},
+	{
+		"Id": "xXStrayXx.truffleoilspaghettirecipe",
+		"GroupID": "LuxuryMeals.CookingRecipeGus",
+		"Text": "gussendrecipe.text",
+		"Recipe": "Truffle Oil Spaghetti",
+		"WhichBG": 0,
+		"Date": "1 spring Y1",
+		"Repeatable": false,
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Gus", "FriendshipLevel": 5 }
+		],
+		/*"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 1 }
+		]*/
+	},
+	{
+		"Id": "xXStrayXx.trufflepizzarecipe",
+		"GroupID": "LuxuryMeals.CookingRecipeGus",
+		"Text": "gussendrecipe.text",
+		"Recipe": "Truffle Pizza",
+		"WhichBG": 0,
+		"Date": "1 spring Y1",
+		"Repeatable": false,
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Gus", "FriendshipLevel": 6 }
+		],
+		/*"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 1 }
+		]*/
+	},
+	{
+		"Id": "xXStrayXx.eggcaviarcipe",
+		"GroupID": "LuxuryMeals.CookingRecipeKrobus",
+		"Text": "krobussendrecipe.text",
+		"Recipe": "Egg Caviar",
+		"LetterBG": "VoidLetterBackground.png", 
+		"TextColor": 4,
+		"Date": "1 spring Y1",
+		"Repeatable": false,
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Krobus", "FriendshipLevel": 3 }
+		],
+		/*"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 1 }
+		]*/
+	},
+	{
+		"Id": "xXStrayXx.friedtrufflerecipe",
+		"GroupID": "LuxuryMeals.CookingRecipeKrobus",
+		"Text": "krobussendrecipe.text",
+		"Recipe": "Fried Truffle",
+		"LetterBG": "VoidLetterBackground.png", 
+		"TextColor": 4,
+		"Date": "1 spring Y1",
+		"Repeatable": false,
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Krobus", "FriendshipLevel": 5 }
+		],
+		/*"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 1 }
+		]*/
+	},
+	{
+		"Id": "xXStrayXx.deluxedinnerrecipe",
+		"GroupID": "LuxuryMeals.CookingRecipeKrobus",
+		"Text": "krobussendrecipe.text",
+		"Recipe": "Deluxe Dinner",
+		"LetterBG": "VoidLetterBackground.png", 
+		"TextColor": 4,
+		"Date": "1 spring Y1",
+		"Repeatable": false,
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Krobus", "FriendshipLevel": 7 }
+		],
+		/*"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 1 }
+		]*/
+	},
+	{
+		"Id": "xXStrayXx.deluxefruitsaladrecipe",
+		"GroupID": "LuxuryMeals.CookingRecipeKrobus",
+		"Text": "krobussendrecipe.text",
+		"Recipe": "Deluxe Fruit Salad",
+		"LetterBG": "VoidLetterBackground.png", 
+		"TextColor": 4,
+		"Date": "1 spring Y1",
+		"Repeatable": false,
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Krobus", "FriendshipLevel": 9 }
+		],
+		/*"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 1 }
+		]*/
+	},
+	{
+		"Id": "xXStrayXx.frieddinosaureggrecipe",
+		"GroupID": "LuxuryMeals.CookingRecipeDwarf",
+		"Text": "dwarfsendrecipe.text",
+		"Recipe": "Fried Dinosaur Egg",
+		"LetterBG": "WeatheredLetterBackground.png", 
+		"TextColor": 0,
+		"Date": "1 spring Y1",
+		"Repeatable": false,
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Dwarf", "FriendshipLevel": 3 }
+		],
+		/*"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 1 }
+		]*/
+	},
+	{
+		"Id": "xXStrayXx.ancientlunchrecipe",
+		"GroupID": "LuxuryMeals.CookingRecipeDwarf",
+		"Text": "dwarfsendrecipe.text",
+		"Recipe": "Ancient Lunch",
+		"LetterBG": "WeatheredLetterBackground.png", 
+		"TextColor": 0,
+		"Date": "1 spring Y1",
+		"Repeatable": false,
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Dwarf", "FriendshipLevel": 5 }
+		],
+		/*"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 1 }
+		]*/
+	},
+	{
+		"Id": "xXStrayXx.ancientfruitsaladrecipe",
+		"GroupID": "LuxuryMeals.CookingRecipeDwarf",
+		"Text": "dwarfsendrecipe.text",
+		"Recipe": "Ancient Fruit Salad",
+		"LetterBG": "WeatheredLetterBackground.png", 
+		"TextColor": 0,
+		"Date": "1 spring Y1",
+		"Repeatable": false,
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Dwarf", "FriendshipLevel": 7 }
+		],
+		/*"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 1 }
+		]*/
+	},
+	{
+		"Id": "xXStrayXx.ancientfruiticecreamrecipe",
+		"GroupID": "LuxuryMeals.CookingRecipeSandy",
+		"Text": "sandysendrecipe.text",
+		"Recipe": "Ancient Fruit Ice Cream",
+		"WhichBG": 0,
+		"Date": "1 spring Y1",
+		"Repeatable": false,
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Sandy", "FriendshipLevel": 5 }
+		],
+		/*"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 1 }
+		]*/
+	},
+	{
+		"Id": "xXStrayXx.starfruiticecreamrecipe",
+		"GroupID": "LuxuryMeals.CookingRecipeSandy",
+		"Text": "sandysendrecipe.text",
+		"Recipe": "Starfruit Ice Cream",
+		"WhichBG": 0,
+		"Date": "1 spring Y1",
+		"Repeatable": false,
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Sandy", "FriendshipLevel": 6 }
+		],
+		/*"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 1 }
+		]*/
+	},
+	{
+		"Id": "xXStrayXx.roesushirecipe",
+		"GroupID": "LuxuryMeals.CookingRecipeWilly",
+		"Text": "willysendrecipe.text",
+		"Recipe": "Roe Sushi",
+		"WhichBG": 0,
+		"Date": "1 spring Y1",
+		"Repeatable": false,
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Willy", "FriendshipLevel": 3 }
+		],
+		"SkillConditions": 
+		[
+			{ "SkillName": "Fishing", "SkillLevel": 6 }
+		]
+	},
+	{
+		"Id": "xXStrayXx.roastedpufferfishrecipe",
+		"GroupID": "LuxuryMeals.CookingRecipeWilly",
+		"Text": "willysendrecipe.text",
+		"Recipe": "Roasted Pufferfish",
+		"WhichBG": 0,
+		"Date": "1 spring Y1",
+		"Repeatable": false,
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Willy", "FriendshipLevel": 5 }
+		],
+		"SkillConditions": 
+		[
+			{ "SkillName": "Fishing", "SkillLevel": 6 }
+		]
+	},
+	{
+		"Id": "xXStrayXx.braisedseacucumberrecipe",
+		"GroupID": "LuxuryMeals.CookingRecipeWilly",
+		"Text": "willysendrecipe.text",
+		"Recipe": "Braised Sea Cucumber",
+		"WhichBG": 0,
+		"Date": "1 spring Y1",
+		"Repeatable": false,
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Willy", "FriendshipLevel": 7 }
+		],
+		"SkillConditions": 
+		[
+			{ "SkillName": "Fishing", "SkillLevel": 6 }
+		]
+	},
+	{
+		"Id": "xXStrayXx.superluckylunchrecipe",
+		"GroupID": "LuxuryMeals.CookingRecipeWilly",
+		"Text": "willysendrecipe.text",
+		"Recipe": "Super Lucky Lunch",
+		"WhichBG": 0,
+		"Date": "1 spring Y1",
+		"Repeatable": false,
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Willy", "FriendshipLevel": 9 }
+		],
+		"SkillConditions": 
+		[
+			{ "SkillName": "Fishing", "SkillLevel": 6 }
+		]
+	},
+	{
+		"Id": "xXStrayXx.fleshclonerrecipe",
+		"GroupID": "LuxuryMeals.FleshClonerRecipe",
+		"Text": "fleshclonerrecipe.text",
+		"Recipe": "Flesh Cloner",
+		"WhichBG": 0,
+		"Date": "1 spring Y1",
+		"Repeatable": false,
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Demetrius", "FriendshipLevel": 5 }
+		],
+		/*"SkillConditions": 
+		[
+			{ "SkillName": "Fishing", "SkillLevel": 6 }
+		]*/
+	},
+	{
+		"Id": "xXStrayXx.friedsteakrecipe",
+		"GroupID": "LuxuryMeals.CookingRecipeAlex",
+		"Text": "alexsendrecipe.text",
+		"Recipe": "Fried Steak",
+		"WhichBG": 0,
+		"Date": "1 spring Y1",
+		"Repeatable": false,
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Alex", "FriendshipLevel": 3 }
+		],
+		/*"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 1 }
+		]*/
+	},
+	{
+		"Id": "xXStrayXx.truffleoilsteakrecipe",
+		"GroupID": "LuxuryMeals.CookingRecipeAlex",
+		"Text": "alexsendrecipe.text",
+		"Recipe": "Truffle Oil Steak",
+		"WhichBG": 0,
+		"Date": "1 spring Y1",
+		"Repeatable": false,
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Alex", "FriendshipLevel": 5 }
+		],
+		/*"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 1 }
+		]*/
+	},
+	{
+		"Id": "xXStrayXx.steakdinnerrecipe",
+		"GroupID": "LuxuryMeals.CookingRecipeAlex",
+		"Text": "alexsendrecipe.text",
+		"Recipe": "Steak Dinner",
+		"WhichBG": 0,
+		"Date": "1 spring Y1",
+		"Repeatable": false,
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Alex", "FriendshipLevel": 7 }
+		],
+		/*"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 1 }
+		]*/
+	},
+	{
+		"Id": "xXStrayXx.trufflesouprecipe",
+		"GroupID": "LuxuryMeals.CookingRecipeHaley",
+		"Text": "haleysendrecipe.text",
+		"Recipe": "Truffle Soup",
+		"LetterBG": "HaleyLetterBackground.png", 
+		"TextColor": 0,
+		"Date": "1 spring Y1",
+		"Repeatable": false,
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Haley", "FriendshipLevel": 4 }
+		],
+		/*"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 1 }
+		]*/
+	},
+	{
+		"Id": "xXStrayXx.ricewithsteakandtrufflerecipe",
+		"GroupID": "LuxuryMeals.CookingRecipeHaley",
+		"Text": "haleysendrecipe.text",
+		"Recipe": "Rice with Steak And Truffle",
+		"LetterBG": "HaleyLetterBackground.png", 
+		"TextColor": 0,
+		"Date": "1 spring Y1",
+		"Repeatable": false,
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Haley", "FriendshipLevel": 6 }
+		],
+		/*"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 1 }
+		]*/
+	},
+]

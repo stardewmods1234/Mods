@@ -1,0 +1,12 @@
+{
+    "Name": "Haste Milk",
+    "Author": "JorisFort",
+    "Version": "1.1.0",
+    "Description": "Makes it possible to make cheese out of Haste Milk",
+    "UniqueID": "JorisFort.HasteCheese",
+    "MinimumApiVersion": "3.0.0",
+    "UpdateKeys": [ "Nexus:7505" ],
+    "ContentPackFor": {
+      "UniqueID": "Digus.ProducerFrameworkMod"
+    }
+  }

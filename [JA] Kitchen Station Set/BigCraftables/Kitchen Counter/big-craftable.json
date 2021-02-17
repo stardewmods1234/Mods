@@ -1,0 +1,37 @@
+{
+    "Name": "Kitchen Counter",
+    "Description": "A counter that can make food ",
+    "Price": 10,
+	"ProvidesLight": true,
+	"CanPurchase": true, 
+	"PurchaseFrom": "Robin",
+	"PurchasePrice": 7500,
+    "NameLocalization":
+    {
+        //"es": "", //Spansih
+        "ko": "부엌 카운터", //Korean
+        //"de": "", //German
+        //"fr": "", //French
+        //"hu": "", //Hungarian
+        //"it": "", //Italian
+        //"ja": "", //Japanese
+        //"pt": "", //Portuguese
+        //"ru": "", //Russian
+        //"tr": "", //Turkish
+        //"zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "", //Spansih
+        "ko": "음식을 만들 수 있는 조리대.", //Korean
+        //"de": "", //German
+        //"fr": "", //French
+        //"hu": "", //Hungarian
+        //"it": "", //Italian
+        //"ja": "", //Japanese
+        //"pt": "", //Portuguese
+        //"ru": "", //Russian
+        //"tr": "", //Turkish
+        //"zh": "", //Chinese (Simplified)
+    },
+}

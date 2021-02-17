@@ -1,0 +1,6 @@
+{
+    "CraftedItems": [ "Flower Dance Tuxedo" ],
+    "FirstItemTags": [ "item_cloth" ],
+    "SecondItemTags": [ "item_purple_easter_egg" ],
+    "ConsumeSecondItem": true,
+}

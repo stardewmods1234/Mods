@@ -1,0 +1,23 @@
+{
+	"Name": "Nettle-Ade",
+	"Category": "Cooking",
+	"Price": 150,
+	"Description": "A delicious treat, that also has medicinal use.",
+	"Edibility": 60,
+	"Recipe":{
+      "ResultCount": 1,
+      "Ingredients": [
+		{
+		"Object": "Ponderosa Lemon", "Count": 1,
+		},
+		{
+		"Object": 340, "Count": 1,
+		},
+		{
+		"Object": "Nettle Leaves", "Count": 1,
+		},
+       ],
+      "CanPurchase": false,
+      "IsDefault": false,
+    },
+}

@@ -1,0 +1,109 @@
+Jacob and Del met in vet school. He was a recently graduated tutor, and she was training to be a vet nurse. Whilst they were immediately attracted to each other, they maintained a professional relationship until she graduated, after which he invited her out for a celebratory drink.
+Less than a year later they were married.
+He took a job in Gotoro and loved it there. Eloise was born a few years later.
+Then Del became ill.
+
+The Gotoran attitude towards Ferngillians was becoming increasingly hostile, and rather than seek treatment in Gotoro, they took their 3 year old daughter and returned to Ferngill.
+Del became worse, and eventually died.
+Eloise was six.
+
+Jacob kept contact with one of Del's close friends there, Hanna, and as she grew older, Eloise insisted on sending letters to her son, Sora. The two were almost the same age, being born days apart.
+
+They'd played together as toddlers, but of course Eloise couldn't remember that.
+
+Jacob got work in the Stardew Valley area, tending to hoofstock and also turning his hand to wildlife rehabilitation. His letters to Hanna became fewer and farther between, but Eloise still insisted on writing to Sora every week.
+
+When the mail service between continents collapsed, he started to resort to passing letters through the local smuggler.He suspects that sometimes she brings out more than just wares.
+
+
+************************************
+Now, Clint and Jacob as brothers... 
+************************************
+
+Jacob was always the smartest, the better looking. He was always shy, but in a polite way that tended to endear people to him. 
+His younger brother, Clint, was also shy. But in a far less endearing manner. He would sulk. It was always "poor me" and he acted as though he were the one wronged.
+The two siblings did not get on.
+Their father was a no-nonsense, hardworking blacksmith. He wanted his sons to be manly from the start, and whilst Jacob escaped the majority of his disdain by getting good grades and
+insisting that he was going to become a doctor (he always wanted to be an animal doctor, but didn't dare admit _that_), Clint was a real "Mommy's boy". Soft, his father described him.
+He was never beaten, nor physically abused in any way, but the emotional damage was true... His father just didn't love him.
+Then there was the accident in the mines.
+their father lost most of his clientele, and his business fell apart. They divorced.
+Their mother moved to Zuzu City, and Clint was basically bullied into staying with his father, to continue in the "family business".
+He didn't want to, but he didn't have any other prospects, and it was easier not to argue. So he stayed.
+Pelican Town began to fall apart.
+Jacob went on to pursue his dreams at university. Then took up a post as far from his dysfuncitonal family as possible: in Gotoro.
+Their father became depressed, started spending more and more time away from home, and one day vanished.
+Rumor had it he ran away with a woman, others thought he'd gone off into the wilderness (or maybe the caves) and died alone.
+Clint took over the blacksmith trade. 
+
+Clint and Jacob are estranged. Even when Jacob moved back to Pelican Town, taking over the old stone house that was all that remained of the original mining village, they never really connected.
+There was too much bad blood between them.
+Clint, angry that his brother hadn't helped him more, or stood up for him.
+Jacob, pushed away by his brother's sarcasm and self-pity.
+
+*********************
+Jacob's heart events:
+*********************
+
+2-heart event:
+Eloise drags you into the barn, here Jacob is tending to an injured animal. He is at first shy, but Eloise basically badgers him into answer questions. He needs the farmer's help - perhaps to hold the animal? Eloise is too small and it's potentially dangerous.
+Maybe a cow? Or possibly an alpaca? Eloise makes some comment that she wishes her uncle could've helped, but he distracts her mid-sentence, clearly not wanting to talk about personal matters with the farmer.
+After this scene you are granted access to the barn.
+(Maybe it could sometimes spawn wool?)
+
+4-heart mini-event (4 hearts Jacob and Clint):
+Jacob and Clint run into each other in town. An argument ensues. What are they arguing about? Why are they arguing? Jacob isn't the argumentative sort... maybe he's tried to approach Clint and Clint's pushing him away?
+
+4-heart event:
+Jacob is distraught. He’s due to head into the mountains to collect some released chickens, and the person who was supposed to be assisting him has not turned up. If the chickens aren’t captured today, they’re going to be killed, but he’s not sure he can catch dozens of chickens alone.
+Farmer can offer to help.
+If yes, both jump in the truck, it fades to black (bus noises?) and farmer finds themselves in the Deep Mountains. There are a lot of chickens. How much to show in the capturing scene? It’s a pity farmer can’t be given a chicken. 
+
+6-heart event:
+Farmer finds Jacob standing by his wife's grave. He tells farmer about Del, and about life in the Gotoro Republic. He expresses his concerns about bringing up his daughter without a mother figure. 
+Farmer can reassure him (or not).
+
+8-heart event
+Some sort of culmination of events? A family tragedy means he has to approach Clint - maybe their mother is ill. He really wants Clint to reconcile and seeks farmer's help. Farmer can aid or inhibit. (this awkwardly is not even slightly compatible with Clarice, except that she too is estranged from her mother, but for entirely understandable reasons).
+
+10-heart event
+Reconiliation between the two siblings. Eloise is stoked. She immediately wants her Uncle to help her make all manner of cool things.
+
+**********************
+Eloise's heart events:
+**********************
+
+2-heart event
+The duck arrives.
+
+4-heart event:
+Eloise is doing a project for school, and she has to interview the farmer about something... so lots and lots of questions?
+
+6-heart event:
+Eloise convinces farmer to join her on an adventure. She's heard about an old orchard, and really wants to explore it.
+(Alternately, Eloise and Vincent are having and adventure and get into trouble?? Farmer helps them?). Maybe they’re 
+
+8-heart event part one:
+Something relating to Sora and the war in Gotoro?
+Eloise is crying. She hasn’t received a letter from Sora in weeks, and the last time she heard from him, he and his mother had been hiding in a basement and she saw on the news that the city he was in has been bombed. She’s really worried something terrible might have happened to him.
+Farmer can comfort her, or give her the cold harsh truth.
+
+8-heart event part two: (about 14 days later)
+Eloise greets the player all happy smiles. Sora is safe! He and his mother and baby sister had to escape the city through the sewers, but they did, and now they’re in the countryside, far away from danger, in a little valley like Stardew Valley. They’re growing their own food and everything.
+
+
+10-heart event
+Eloise decides to match-make farmer up with her Dad. It starts with a letter sent through the mail (somehow indicate that it is not Jacob’s writing, maybe excessive !! marks).
+
+“Hi farmer @!
+I just wanted to write and say that I really like you lots, and you should come over for dinner tomorrow night! What do you think? Dinner is at 6!^
+I really really home you’ll come!^ With love,^Jacob XXOO.”
+%% conversationTopic JacobDate 1%% [#]Letter from Jacob??”
+
+If either is talked to within the day, Eloise will badger farmer about how much she hopes they’ll come. Jacob will be friendly but not unusually so.
+
+Scene starts with Eloise fussing over her Dad and him being very perplexed. Why is she asking him about what he’s wearing? Sure, he’s invited farmer over for dinner, but that’s because they’re good friends. Nothing else.
+Farmer knocks on the door, Eloise bounces over to answer it.
+“Dad’s ever so happy you’re coming for dinner! He’s a really good cook, you know.”
+
+

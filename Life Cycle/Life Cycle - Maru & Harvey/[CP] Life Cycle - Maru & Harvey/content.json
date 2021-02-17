@@ -1,0 +1,1377 @@
+{
+"Format": "1.15.0",
+"ConfigSchema": {
+    "Version": {
+			"AllowValues": "dating, married, family",
+			"Default": "dating"
+		    },
+    "HaveChildren": {
+			"AllowValues": "true, false",
+			"Default": "false"
+		    },
+    },
+"Changes": [
+    
+        //      D   A   T   I   N   G       V   E   R   S   I   O   N
+    
+//Maru and Harvey dialogue | 2 hearts event
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Harvey",
+"When": {
+    "Version": "dating",
+	"HasSeenEvent": "59020005"
+		},
+"Entries": {
+            "Fri2": "@, if you ever have any problems with your farm machinery, you can tell Maru and she'll fix it.$0#$b#The other day she helped me with my radio.$0#$e#She's a great help for me.$1",
+            "Sat2": "I should show Maru how much I appreciate her help.$0#$b#The clinic would be a mess without her.$0"
+			}
+},
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Maru",
+"When": {
+    "Version": "dating",
+	"HasSeenEvent": "59020005"
+		},
+"Entries": {
+            "Wed2": "I didn't know that Dr. Harvey wanted to be a pilot.$0#$b#I can't really imagine it... but it's good that he didn't abandon his dream completely.$0",
+            "Sun2": "As a kid, I never thought that I would end up working at a clinic.$0#$e#It's not my dream job, but this way I can contribute to the community.$0#$b#Also, Dr. Harvey and I make a good team.$1"
+			}
+},
+//Maru and Harvey dialogue | 4 hearts event
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Harvey",
+"When": {
+    "Version": "dating",
+	"HasSeenEvent": "59020006"
+		},
+"Entries": {
+            "Tue4": "I'm helping Maru to study the history of medicine.$0#$b#It's great that she's such a hardworking girl.$1",
+            "Fri4": "I'm glad that Maru and I have common interests.$0#$e#It's beneficial for your mental wellbeing to share the things you love with others.$1",
+            "Sat4": "When I went to the museum before I couldn't really talk to anyone.$2#$e#Penny is usually there but we don't have much in common.$2#$e#But with Maru, I feel like I really have a friend here.$1"
+			}
+},
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Maru",
+"When": {
+    "Version": "dating",
+	"HasSeenEvent": "59020006"
+		},
+"Entries": {
+			"Mon4": "I think I'm becoming more interested in medicine day by day.$0#$b#Of course, that doesn't mean I'm going to neglect my other projects.$1",
+            "Wed4": "Harvey is so patient with me when he explains things.$0#$b#Even though I understand most things quickly, some are just too complicated.$0",
+            "Sun4": "Harvey seems to be in a good mood lately.$0#$b#I don't know why, though, because the clinic isn't doing that well...$2"
+			}
+},
+//Maru and Harvey dialogue | 6 hearts event
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Harvey",
+"When": {
+    "Version": "dating",
+	"HasSeenEvent": "59020007"
+		},
+"Entries": {
+            "Mon6": "I made some rhubarb pie yesterday and there was a little left over.$0#$b#Do you want it, @?[222]$1",
+            "Tue6": "Do you think Maru might like to help me with my model planes, @?$4#$e#I think she would enjoy it as much as I do, but I don't know...$2",
+            "Fri6": "Demetrius came to the clinic last week just to see if Maru was there.$0#$b#I told him no, and he insisted on going upstairs to make sure she wasn't there.$2#$e#Weird, don't you think, @?$2",
+            "Sun6": "Maru invited me to stargaze the other day.$1#$e#I'm glad that my train arrived late...$4"
+			}
+},
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Maru",
+"When": {
+    "Version": "dating",
+	"HasSeenEvent": "59020007"
+		},
+"Entries": {
+			"Wed6": "My father told me that I'm spending too much time with Harvey lately.$0#$e#I don't really see the difference.$0#$b#We're just closer than before, but it's normal since we work together.$0",
+            "Thu6": "I wonder if I could build something to help Harvey at the clinic...$0#$e#Or maybe something related to planes...$0",
+            "Sat6": "Penny asked me about Harvey the other day.$0#$e#I don't know why everyone is so concerned about my relationship with Harvey lately.$5#$e#Even Sebastian has asked me!$5",
+            "Fri6": "I think Harvey goes to the saloon when it rains.$0#$e#My mother asked me if I wanted to go with her and dad someday.$0#$b#I have to think about it...$0"
+			}
+},
+//Dialogue | 8 hearts event
+     //Harvey
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Harvey",
+"When": {
+    "Version": "dating",
+	"HasSeenEvent": "59020009"
+		},
+"Entries": {
+            "Mon8": "I still can't believe I was brave enough to ask Maru out.$0#$b#And in such a public way!$1#$e#I don't think I'll have that confidence ever again.$0",
+            "Tue8": "Maybe after we finish with the history of medicine, I can teach Maru about medicine literature.$0#$b#I'm sure she'll love it!$1",
+            "Wed8": "I think I should remodel my apartment.$0#$b#I want Maru to feel comfortable when she comes to visit me.$4",
+            "Thu8": "I was afraid that Maru and I would talk too much about work...$2#$b#But that's not the case.$1",
+            "Fri8": "Robin offered to expand the clinic when I visited Maru last week.$0#$e#I appreciate it, but I think it's big enough for our community.$0",
+            "Sat8": "Last night I cooked Maru a healthy and nutritious dinner.$0#$b#I think she loved it!$1",
+            "Sun8": "I've prepared a special energy tonic for Maru.$0#$e#I don't want her to feel exhausted.$2#$b#You know, she works too much...$2",
+            "spring_Thu8": "When I first met Maru I didn't know if she would do a good job.$0#$b#But she has proven to be a fully capable nurse.$1#$e#Also, if she hadn't applied for a job, we wouldn't have gotten to know each other.$4",
+            "spring_Fri8": "If Maru and I have kids, do you think they could become pilots one day?$1",
+            "spring_Sat8": "Maru always brightens my day, I love having her around.$4",
+            "summer_Mon8": "Maru and I were thinking of visiting the desert.$0#$b#Maybe we'll go in the fall or winter, when it's cooler.$1",
+            "summer_Wed8": "Summer has become my favorite season because Maru and I go stargazing.$4#$e#The sky over the valley always looks stunning, but in the summer it gets even better!$1",
+            "summer_Sun8": "Maru always comes by to see me, even when she doesn't have to work.$4",
+            "fall_Mon8": "I've been getting better at cooking now that Maru comes to eat at my house.$1#$b#If you want advices on how to make healthy food, don't hesitate to ask me.$0",
+            "fall_Tue8": "I've been improving my massages techniques for Maru.$0#$b#Somedays she's really tired after work, and I want to help her relax a little.$1",
+            "fall_Fri8": "I used to feel down when business was not going well...$2#$b#But now Maru always keeps my spirits up, even on the hard days.$4",
+            "winter_Wed8": "I'm glad that Demetrius has come to accept my relationship with Maru.$1#$b#Otherwise it would be really uncomfortable.$2",
+            "winter_Thu8": "On cold days like this, Maru and I like to share a bottle of wine by the fire.$1",
+            "winter_Sat8": "To be honest, I thought I would be single forever.$2#$I'm so glad that Maru appeared in my life.$4",
+            "spring_23": "I'm feeling confident about the Flower Dance tomorrow.$1#$e#Maru and I have been practising our moves.$1",
+            "summer_10": "Hello, @.$0#$e#I've been improving my cooking skills for Maru's birthday.$1#$b#She told me that she loves cheese cauliflower and pepper poppers so I'm going to invite her to have dinner at my place later.$1",
+            "summer_27": "The Dance of the Moonlight Jellies is so beautiful.$0#$e#I’m looking forward to enjoying it with Maru tomorrow.$1",
+            "fall_26": "I always get lost in the Haunted Maze.$2#$e#Maybe if Maru and I go together, we'll be able to reach the exit.$0",
+            "spring_23_2": "I'm feeling confident about the Flower Dance tomorrow.$1#$e#Maru and I have been practising our moves.$1",
+            "summer_10_2": "Hello, @.$0#$e#I've been improving my cooking skills for Maru's birthday.$1#$b#She told me that she loves cheese cauliflower and pepper poppers so I'm going to invite her to have dinner at my place later.$1",
+            "summer_27_2": "The Dance of the Moonlight Jellies is so beautiful.$0#$e#I’m looking forward to enjoying it with Maru tomorrow.$1",
+            "fall_26_2": "I always get lost in the Haunted Maze.$2#$e#Maybe if Maru and I go together, we'll be able to reach the exit.$0"
+			}
+},
+     //Maru
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Maru",
+"When": {
+    "Version": "dating",
+	"HasSeenEvent": "59020009"
+		},
+"Entries": {
+            "Mon8": "Harvey is so clumsy sometimes.$0#$b#But it's actually kind of cute.$4",
+            "Tue8": "Harvey likes to give me new gadgets ideas and I help him with his models.$0#$e#We're the perfect team!$1",
+            "Wed8": "I've always been pretty independent.$0#$b#...but now it's hard to imagine my life without Harvey.$4",
+            "Thu8": "I've been working on a machine that improves the quality of pickles.$0#$b#It's a surprise for Harvey.$1",
+            "Fri8": "If I ever discover a new star, I'm going to name it Harvey.$4#$e#Do you think that's too cheesy...?$0",
+            "Sat8": "Harvey and I have thought about visiting Zuzu City together.$0#$b#He goes there every month to buy medical supplies.$0",
+            "Sun8": "My mother asked me if we should invite Harvey over for dinner sometime.$0#$b#But I don't think dad will be as happy with that idea as she is.$2",
+            "spring_Wed8": "Harvey and I are practising for the Flower Dance.$0#$b#We're so excited!$1",
+            "spring_Fri8": "The relationship between Harvey and me has been like the contact of two chemicals, we reacted with each other and now we form a new element.$1",
+            "spring_Sun8": "My father used to harass Harvey with all sorts of questions when he saw him.$2#$b#Luckily he has stopped now.$1#$e#...Or maybe he's just thinking of more questions.$0",
+            "summer_Tue8": "Harvey wants to modernise the clinic's computers.$0#$b#Maybe Sebastian can help him.$0",
+            "summer_Thu8": "I've been doing some research about the Valley and, scientifically, this an excellent place to raise children.$0#$e#I'm going to compile everything and show it to Harvey.$1",
+            "summer_Sat8": "I didn't expect it, but Harvey is a great cook.$1#$b#And he always makes healthy meals.$0",
+            "fall_Mon8": "I was surprised to hear that Harvey also goes to Caroline's to exercise on Tuesdays, along with my mother.$0#$b#It's good that he wants to stay healthy.$0",
+            "fall_Thu8": "I never know whether or not I should keep it professional with Harvey when we're working.$0#$b#Well, it's not like our patients don't know about us.$0",
+            "fall_Sat8": "Harvey and I want to go on a road trip and explore new places.$0#$b#But I don't think we'll be able to do it anytime soon, the clinic would have to close at least for a few weeks...$2",
+            "winter_Tue8": "In the past I seriously considered building a robotic husband.$0#$b#But now I have Harvey and he is more than enough.$4",
+            "winter_Wed8": "I hope my father is okay now that I'm spending more time with Harvey.$2#$e#Even though I'm still living with him, I'm afraid he'll get lonely...$2",
+            "winter_Sun8": "Time seems to stop when I look at Harvey...$4#$e#Maybe he's traveling at the speed of light.$1",
+            "summer_27": "I'm looking forward to watching the Moonlight Jellies with Harvey tomorrow.$4",
+            "fall_26": "I've been talking with Harvey about our strategy to complete the Haunted Maze.$0#$e#Maybe this year we can be the first to find the treasure!$1",
+            "winter_14": "Today's is Harvey's birthday.$1#$e#I've have designed a special model plane for him.$0#$b#I hope he likes it.$1",
+            "summer_27_2": "I'm looking forward to watching the Moonlight Jellies with Harvey tomorrow.$4",
+            "fall_26_2": "I've been talking with Harvey about our strategy to complete the Haunted Maze.$0#$e#Maybe this year we can be the first to find the treasure!$1",
+            "winter_14_2": "Today's is Harvey's birthday.$1#$e#I've have designed a special model plane for him.$0#$b#I hope he likes it.$1"
+			}
+},
+     //Demetrius
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Demetrius",
+"When": {
+    "Version": "dating",
+	"HasSeenEvent": "59020009"
+		},
+"Entries": {
+            "Mon2": "I still don't trust Harvey's intentions with Maru...$4",
+            "Mon6": "Harvey cooked bean hotpot for us yesterday.$0#$b#Maybe I'm starting to like him a little bit more...$3",
+            "Tue4": "Maru is my little girl, so it's natural that I'm cautious of Harvey.$4",
+            "Tue10": "I know I've been harsh with Harvey in the past...$2#$b#But now it's different!$1",
+            "Wed6": "Robin had a serious conversation with me about how I've been acting toward Harvey...$2#$b#Maybe she is right...$2",
+            "Wed8": "Hello, @.$0#$e#Actually, Harvey has been working really hard to be a part of our family.$0#$e#So maybe I should be nicer to him...$3",
+            "Thu2": "I should go check on Harvey and Maru today...$3#$b#...just in case.$3",
+            "Thu8": "Hmm... perhaps Harvey is a good man after all...$3",
+            "Fri8": "Well, Maru seems really happy with Harvey, so I guess that's what is important.$0",
+            "Fri10": "It has been hard, but I've come to accept Harvey as a member of our family.$1",
+            "Sat2": "Hello, farmer.$0#$e#Would you mind keeping an eye on Harvey and Maru?$5#$b#I'm worried about their relationship going wrong...$",
+            "Sat8": "Harvey came by yesterday and helped Maru and me with our experiments.$0#$b#He's a really good scientist!$1",
+            "Sun4": "I'm just worried that Harvey will break Maru's heart...$2#$e#Isn't it normal for a father?$2",
+            "Sun10": "I'm relieved that Harvey doesn't hold a grudge for the way I treated him in the past.$0#$b#He's a good man and I'm happy that he's with Maru."
+			}
+},
+     //Robin
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Robin",
+"When": {
+    "Version": "dating",
+	"HasSeenEvent": "59020009"
+		},
+"Entries": {
+            "Mon2": "I don't talk to Harvey much, but he sometimes comes to exercise with us on Tuesdays.$0",
+            "Mon6": "Unlike Demetrius, I know that Harvey is taking care of our daughter, so I'm not worried at all.$1",
+            "Tue4": "Demetrius is just being unreasonable with Harvey.$3#$b#Can't he see that Maru is happy and that's what truly matters...?$2",
+            "Tue8": "I'm relieved that Demetrius has changed his attitude towards Harvey at least a little.$0#$e#Sometimes he is just too stubborn.$2",
+            "Wed6": "Time goes by so quickly...$0#$e#I was talking to Jodi after our exercise class and we both can't believe how much our children have grown.$0",
+            "Wed10": "If Maru and Harvey wants to move together someday, I will help them to build the perfect house!$1",
+            "Thu8": "I can see that Harvey loves Maru.$0#$b#I'm so happy for them!$1",
+            "Thu10": "I'm delighted that Maru and Harvey are together.$0#$b#I knew that they would make a good couple.$1",
+            "Fri4": "Maybe I should talk to Demetrius about his behaviour towards Harvey...$2",
+            "Fri10": "I'm going to drop by the clinic later.$0#$b#I've prepared some picked tomato for Harvey.$1",
+            "Sat2": "I can't say it was a surprise for me that Maru and Harvey started dating.$0#$e#In fact, I was hoping for it!$1",
+            "Sat8": "I'm not sure, but I think Sebastian also thinks highly of Harvey.$1",
+            "Sun6": "I was thinking of inviting Harvey over for dinner...$0#$b#...but Demetrius will surely disagree.$2",
+            "Sun8": "Maru and Harvey remind me of when Demetrius and I started dating...$0#$e#We were so young back in the day.$0"
+			}
+},
+     //Sebastian
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Sebastian",
+"When": {
+    "Version": "dating",
+	"HasSeenEvent": "59020009"
+		},
+"Entries": {
+            "Mon6": "I guess I'm kind of happy for Maru and Harvey.$0",
+            "Tue8": "Harvey asked me for help when he came to our house the other day.$0#$b#He told me that he wanted to create an internal database for the clinic.$0#$e#It feels good when someone values your work.$1",
+            "Wed2": "I don't really care about who Maru is dating.$0",
+            "Wed6": "Guess it was natural for Maru and Harvey to get together.$0#$b#Besides working at the clinic, I think they have the same interests.$0",
+            "Thu8": "Harvey comes around somedays.$0#$b#We don't really talk, but he's shown interest in my work and I appreciate that.$1",
+            "Fri8": "Harvey is actually pretty cool, he brought me sashimi the other day!$1",
+            "Sat4": "The house is quieter now that Maru's spending more time with Harvey.$1",
+            "Sun2": "Was it really necessary for Harvey to put on a show to ask Maru out?$0",
+            "Sun4": "Demetrius still is kind of annoyed when Harvey comes around...$0" 
+			}
+},
+//Schedules | 8 hearts event
+     //Harvey
+{
+"Action": "EditData",
+"Target": "Strings/schedules/Harvey",
+"When": {
+    "Version": "dating, married",
+	"HasSeenEvent": "59020009"
+		},
+"Entries":  {
+            "spring.001": "The good things in life are better with Maru.$4",
+            "spring.002": "Maru learns very quickly.$1",
+            "summer.001": "Maru...$4#$b#...you mean the world to me.$4",
+            "summer.002": "Maru looks so cute when she asks me about difficult medical terms.$1",
+            "fall.001": "I'm still a little bit shy about Maru coming to my house...$4",
+            "fall.002": "Maru, you look gorgeous right now.$4",
+            "winter.001": "...$4",
+            "winter.002": "Maru is working with me on a new model plane.$0"
+            },
+},
+{
+"Action": "EditData",
+"Target": "Characters/schedules/Harvey",
+"When": {
+    "Version": "dating, married",
+	"HasSeenEvent": "59020009"
+		},
+"Entries":  {
+            "spring_Wed": "700 HarveyRoom 21 7 0/830 Hospital 6 15 2/1200 Town 10 64 2 \"Strings\\schedules\\Harvey:spring.001\"/1730 Hospital 9 15 3/1840 HarveyRoom 11 5 3 harvey_read/2200 HarveyRoom 13 4 1 harvey_sleep",
+            "spring_Sat": "700 HarveyRoom 21 7 0/830 ArchaeologyHouse 16 9 0 \"Strings\\schedules\\Harvey:spring.002\"/1500 HarveyRoom 21 7 0 \"Strings\\schedules\\Harvey:Sat.000\"/1630 HarveyRoom 3 4 0/1900 HarveyRoom 8 5 0/2100 HarveyRoom 6 4 0/2200 HarveyRoom 13 4 1 harvey_sleep",
+            "summer_Tue": "730 Hospital 1 5 0/1250 Hospital 10 14 2/1330 Hospital 5 5 2/1410 Hospital 5 6 3 harvey_examine_left/1550 Hospital 5 5 2/1610 Hospital 4 5 0/1630 Hospital 3 15 0/1800 Mountain 8 24 3 \"Strings\\schedules\\Harvey:summer.001\"/2200 HarveyRoom 13 4 1 harvey_sleep",
+            "summer_Sat": "700 HarveyRoom 21 7 0/830 ArchaeologyHouse 16 9 0 \"Strings\\schedules\\Harvey:summer.002\"/1500 HarveyRoom 21 7 0 \"Strings\\schedules\\Harvey:Sat.000\"/1630 HarveyRoom 3 4 0/1900 HarveyRoom 8 5 0/2100 HarveyRoom 6 4 0/2200 HarveyRoom 13 4 1 harvey_sleep",
+            "fall_Thu": "730 Hospital 1 5 0/1250 Hospital 10 14 2/1330 Hospital 5 5 2/1410 Hospital 5 6 3 harvey_examine_left/1550 Hospital 5 5 2/1610 Hospital 4 5 0/1630 Hospital 3 15 0/1800 HarveyRoom 9 5 0 \"Strings\\schedules\\Harvey:fall.001\"/2200 HarveyRoom 13 4 1 harvey_sleep",
+            "fall_Sat": "700 HarveyRoom 21 7 0/830 ArchaeologyHouse 16 9 0 \"Strings\\schedules\\Harvey:fall.002\"/1500 HarveyRoom 21 7 0 \"Strings\\schedules\\Harvey:Sat.000\"/1630 HarveyRoom 3 4 0/1900 HarveyRoom 8 5 0/2100 HarveyRoom 6 4 0/2200 HarveyRoom 13 4 1 harvey_sleep",
+            "winter_Wed": "800 HarveyRoom 19 7 0/840 Hospital 6 15 2/1100 Town 33 57 2 \"Strings\\schedules\\Harvey:winter.001\"/1600 HarveyRoom 11 5 3 harvey_read/2200 HarveyRoom 13 4 1 harvey_sleep",
+            "winter_Sat": "700 HarveyRoom 21 7 0/830 ArchaeologyHouse 16 9 0 \"Strings\\schedules\\Harvey:winter.002\"/1500 HarveyRoom 21 7 0 \"Strings\\schedules\\Harvey:Sat.000\"/1630 HarveyRoom 3 4 0/1900 HarveyRoom 8 5 0/2100 HarveyRoom 6 4 0/2200 HarveyRoom 13 4 1 harvey_sleep"
+            },
+},
+    //Maru
+{
+"Action": "EditData",
+"Target": "Strings/schedules/Maru",
+"When": {
+    "Version": "dating, married",
+	"HasSeenEvent": "59020009"
+		},
+"Entries":  {
+            "spring.001": "I love spending time with Harvey.$4",
+            "spring.002": "Harvey and Penny are both great at teaching.$1",
+            "summer.001": "I love to stargaze with Harvey.$4#$b#It's... magical.$4",
+            "summer.002": "Studying with Harvey is so enjoyable.$1",
+            "fall.001": "Harvey has so many interesting books, maybe I'll ask to borrow some.$0#$b#Or I could just come here when I want to read them.$4",
+            "fall.002": "Working at the clinic is never boring with Harvey by my side.$4",
+            "winter.001": "This place brings me so many memories...$4",
+            "winter.002": "Harvey looks handsome when he's reading.$4"
+            },
+},
+{
+"Action": "EditData",
+"Target": "Characters/schedules/Maru",
+"When": {
+    "Version": "dating, married",
+	"HasSeenEvent": "59020009"
+		},
+"Entries":  {
+            "spring_Wed": "800 ScienceHouse 5 6 1 maru_tinker/1100 Town 10 65 2 \"Strings\\schedules\\Maru:spring.001\"/1730 ScienceHouse 5 6 1 maru_tinker/2200 ScienceHouse 2 4 3 maru_sleep",
+            "spring_Sat": "800 ArchaeologyHouse 15 9 0 \"Strings\\schedules\\Maru:spring.002\"/1500 ScienceHouse 19 18 0/1800 ScienceHouse 5 6 1 maru_tinker/2200 ScienceHouse 2 4 3 maru_sleep",
+            "summer_Tue": "730 Hospital 6 15 2/1400 Hospital 9 15 3/1600 Hospital 8 17 1/1800 Mountain 8 23 3 \"Strings\\schedules\\Maru:summer.001\"/2200 ScienceHouse 2 4 3 maru_sleep",
+            "summer_Sat": "800 ArchaeologyHouse 15 9 0 \"Strings\\schedules\\Maru:summer.002\"/1500 ScienceHouse 19 18 0/1800 ScienceHouse 5 6 1 maru_tinker/2200 ScienceHouse 2 4 3 maru_sleep",
+            "fall_Thu": "730 Hospital 6 15 2/1400 Hospital 9 15 3/1600 Hospital 8 17 1/1800 HarveyRoom 10 5 0 \"Strings\\schedules\\Maru:fall.001\"/2200 ScienceHouse 2 4 3 maru_sleep",
+            "fall_Sat": "800 ArchaeologyHouse 15 9 0 \"Strings\\schedules\\Maru:fall.002\"/1500 ScienceHouse 19 18 0/1800 ScienceHouse 5 6 1 maru_tinker/2200 ScienceHouse 2 4 3 maru_sleep",
+            "winter_Wed": "800 ScienceHouse 5 6 1 maru_tinker/900 ScienceHouse 19 18 0/1100 Town 64 17 2 \"Strings\\schedules\\Maru:winter.001\"/1600 ScienceHouse 5 6 1 maru_tinker/2200 ScienceHouse 2 4 3 maru_sleep",
+            "winter_Sat": "800 ArchaeologyHouse 15 9 0 \"Strings\\schedules\\Maru:winter.002\"/1500 ScienceHouse 19 18 0/1800 ScienceHouse 5 6 1 maru_tinker/2200 ScienceHouse 2 4 3 maru_sleep"
+            },
+},
+//Events
+     //Harvey's Room | 2 hearts
+{
+"Action": "EditData",
+"Target": "Data/Events/HarveyRoom",
+"Entries": {
+            "59020005/f Harvey 500/f Maru 500/t 1000 1200": "distantBanjo/8 7/farmer 1000 1000 2 Harvey 4 5 1 Maru 6 13 0/skippable/showFrame Harvey 23/pause 1000/playSound clank/pause 320/playSound trashcan/pause 390/playSound clank/pause 800/speak Maru \"Dr. Harvey, are you home?$0#$b#I've come to buy some energy tonic for my mother.$0\"/pause 250/playSound clank/pause 280/playSound clank/pause 500/speak Maru \"Dr. Harvey?$0\"/pause 300/playSound doorOpen/move Maru 0 -6 0/pause 500/speak Harvey \"It's not working...$9\"/pause 390/emote Maru 8/pause 600/speak Maru \"Dr. Harvey!$0\"/pause 300/showFrame Harvey 28/pause 100/shake Harvey 500/pause 500/speak Harvey \"Huh!?$10\"/pause 700/move Harvey 2 0 2/pause 600/speak Harvey \"Oh, Maru, you scared me...$7\"/pause 750/speak Maru \"I was calling you but you must have been too focused to hear me.$0\"/pause 600/speak Harvey \"Is that so?$2#$b#I'm sorry...$2\"/pause 600/speak Harvey \"What do you need?$0\"/pause 700/speak Maru \"I'm here to buy an energy tonic.$0\"/pause 750/speak Harvey \"Okay, I'll prepare it for you.$2\"/pause 820/speak Maru \"Are you okay, Dr. Harvey? You seem down...$8\"/pause 850/speak Harvey \"Oh...$2#$b#...it's my radio.$2\"/pause 500/speak Harvey \"I like to track the planes that fly over Stardew Valley.$0\"/pause 500/speak Harvey \"It may sound weird, but it's my hobby.$0#$b#When I was a kid, I always dreamed of being a pilot.$1\"/pause 750/speak Harvey \"And, well, the radio I use for it is not working.$2\"/pause 390/speak Harvey \"I was trying to fix it, but I don't know what's wrong.$2\"/pause 780/speak Maru \"A radio, you said?$0#$b#Maybe I can help you.$1\"/pause 650/speak Maru \"You know, I have a workshop where I build and fix all kinds of machines.$0\"/pause 680/speak Harvey \"Really? I would owe you a big one, Maru.$1\"/pause 700/speak Maru \"Yeah, let me see...$0\"/pause 700/move Maru -1 0 0/move Maru 0 -1 0/move Maru -2 0 0/move Maru 0 -2 1/faceDirection Harvey 3/pause 850/speak Maru \"Okay...$0\"/pause 500/animate Maru false true 150 16 17 18 20 22 23/pause 100/playSound clank/playSound clank/pause 50/playSound clank/playSound clank/playSound clank/pause 150/playSound clank/playSound clank/playSound clank/pause 80/playSound clank/pause 200/playSound clank/pause 180/playSound clank/playSound clank/playSound clank/pause 3000/stopAnimation Maru 16/pause 500/speak Maru \"Looks like some cables were connected wrong.$0#$b#Try it now, Dr. Harvey.$0\"/pause 580/showFrame Maru 16/pause 80/showFrame Maru 24/move Harvey -2 0 0/pause 280/showFrame Harvey 23/pause 200/move Maru 0 2 1/move Maru 3 0 0/move Maru 0 -1 3/pause 800/emote Harvey 16/pause 500/speak Harvey \"It's actually working!$10\"/pause 380/speak Harvey \"I can't believe it.$9#$b#I've been trying to figure out what's wrong all morning and you come here and fix it in just a couple minutes.$9\"/pause 850/speak Harvey \"You're incredible, Maru.$1\"/pause 700/speak Maru \"You're too kind, Dr. Harvey.$1\"/pause 600/speak Maru \"It's nothing, really.$0#$b#I'm used to things not working properly so it was easy for me.$1\"/pause 650/speak Harvey \"Anyway, thank you again, Maru.$1\"/pause 580/speak Harvey \"As a show of gratitude, I'll gift you a pack of energy tonic.$1\"/pause 600/emote Maru 32/pause 1300/end dialogue Harvey \"Is there anything Maru can't do?$0#$e#I don't think there is.$1\""
+            },
+      },
+     //Museum | 4 hearts
+{
+"Action": "EditData",
+"Target": "Data/Events/ArchaeologyHouse",
+"Entries": {
+            "59020006/e 59020005/f Harvey 1000/f Maru 1000/d Mon Tue Wed Thu Fri Sun/t 1000 1500": "libraryTheme/12 10/farmer 33 12 2 Harvey 8 12 3 Maru 3 17 0 Gunther 3 8 2/skippable/showFrame Harvey 16/pause 1200/playSound doorOpen/move Maru 0 -5 1/move Maru 3 0 1/speak Maru \"Hello, Dr. Harvey.$0\"/pause 600/showFrame Harvey 14/speak Harvey \"Oh, you're here. Hello, Maru.$0\"/pause 650/speak Maru \"What did you call me for?$0\"/pause 750/speak Harvey \"I wanted to show you this encyclopedia.$0#$b#It has all the information you could ever want related to the history of medicine.$1\"/pause 390/speak Harvey \"I thought it would be helpful as you told me you wanted to dig in to the medical field more.$1\"/pause 580/speak Maru \"Thank you, Dr. Harvey.$1#$b#I'm going to talk to Gunther about borrowing the book for the next month.$0\"/pause 350/faceDirection Maru 3/pause 80/speak Harvey \"Wait, Maru.$8#$b#That's actually why I told you to come here.$0\"/pause 280/faceDirection Maru 1/pause 500/speak Harvey \"The book is a limited edition that Gunther struggled to find.$0#$b#That's why he won't let anyone borrow the book.$0\"/pause 500/speak Maru \"Oh... Such a pity.$2\"/pause 580/speak Maru \"Well, at least we can read it here, right?$0\"/pause 780/speak Harvey \"Yeah, do you want to take a look?$1\"/pause 80/showFrame Harvey 16/pause 300/move Maru 0 -1 1/move Maru 2 0 2/pause 500/emote Maru 40/pause 280/emote Maru 40/pause 500/speak Maru \"Dr. Harvey, what does pneumonoultramic mean?$2#$b#And oligoasthenoteratozoo?$2#$b#And uvulopalatopharyn?$2\"/pause 700/speak Harvey \"Huh...?$0#$b#Okay, let's take a seat and I'll explain it to you.\"/pause 500/move Harvey 0 2 1/move Harvey 7 0 0/move Harvey 0 -5 1/move Harvey 3 0 2/showFrame Harvey 42/move Maru 0 3 1/move Maru 7 0 0/move Maru 0 -5 1/move Maru 2 0 2/showFrame Maru 26/pause 200/emote Harvey 40/pause 200/emote Harvey 40/pause 200/emote Harvey 40/pause 500/speak Maru \"Okay, I think I get it now.$1#$b#But this is still a little bit too complicated for me.$2\"/pause 600/speak Harvey \"Don't worry, Maru.$0#$b#If you ever need help, you can call me and ask.$1\"/pause 500/speak Maru \"Actually, can we meet up here maybe once a week to study together?$0#$b#You know, if you're not too busy.$0\"/pause 600/speak Harvey \"Well, it wouldn't hurt to reread some books.$0\"/pause 600/speak Maru \"How about Saturdays, Dr. Harvey?$1\"/pause 580/speak Harvey \"Okay, perfect.$1#$b#And just call me Harvey, there's no need to be so formal, Maru.$1\"/pause 380/emote Maru 32/pause 1300/end dialogue Maru \"Dr... I mean, Harvey is really nice.$0#$b#I'm glad that I work with him.$1\""
+            },
+      },
+     //Mountain | 6 hearts
+{
+"Action": "EditData",
+"Target": "Data/Events/Mountain",
+"Entries": {
+            "59020007/e 59020006/f Harvey 1500/f Maru 1500/o Maru/o Harvey/w sunny/z winter/t 2000 2400": "spaceMusic/-1000 -1000/Harvey 23 29 3 Maru 14 29 3 farmer 80 5 0/skippable/bgColor 0 0 0/changeToTemporaryMap NightSceneMaruMap false/ambientLight 0 0 0/viewport 14 23 true/showFrame Maru 28/pause 1800/move Harvey -8 0 3/pause 600/speak Harvey \"Hello, Maru.$0#$b#Up late, huh?$1\"/pause 600/faceDirection Maru 1/pause 500/speak Maru \"Hi, Harvey.$0#$b#Yeah, I was looking through my telescope.$1\"/pause 500/speak Maru \"And what brings you here so late?$0\"/pause 900/speak Harvey \"Oh, I went to Zuzu City  today to buy some things for Evelyn and George.$0#$b#I was supposed to be back at 6 pm, but the train was delayed.$2\"/pause 520/speak Maru \"That's terrible...$2\"/pause 380/speak Maru \"Well, at least you get to see tonight's beautiful sky.$1#$b#Do you want to take a look through my telescope, Harvey?$1\"/pause 600/speak Harvey \"Really? I would love to.$1\"/pause 600/move Maru 0 1 0/move Harvey -1 0 3/pause 2000/speak Harvey \"Whoa...$1\"/pause 700/speak Maru \"Incredible, isn't it?$1\"/pause 800/speak Harvey \"Yes, it is.$1\"/pause 800/speak Maru \"Even though I've had the telescope for a long time, everytime I look through it I discover something new.$0#$b#The universe just never ceases to surprise me.$1\"/pause 800/speak Harvey \"The universe has so many secrets for us to find out.$0#$b#Despite not being my field of expertise, it's one of the reasons I love science.$1\"/pause 800/speak Maru \"I completely agree with you.$0\"/pause 1000/emote Harvey 20/pause 1600/end dialogue Harvey \"Maru...$4\""
+            },
+      },
+     //ScienceHouse | 7 hearts
+{
+"Action": "EditData",
+"Target": "Data/Events/ScienceHouse",
+"Entries": {
+            "59020008/e 59020007/f Harvey 1750/f Maru 1500/o Maru/o Harvey/t 1600 1900": "kindadumbautumn/27 10/farmer 2 18 2 Harvey 14 12 1 Demetrius 29 10 1/skippable/pause 800/move Harvey 12 0 0/move Harvey 0 -2 1/pause 800/speak Harvey \"H-Hello, Mr. Demetrius...$2\"/pause 500/faceDirection Demetrius 3/pause 700/speak Demetrius \"Hello, Harvey.$4\"/pause 600/shake Harvey 500/pause 200/speak Harvey \"I-I wanted to s-speak with you...$2\"/pause 500/speak Demetrius \"I'm listening.$4\"/pause 800/speak Harvey \"I-It's about M-Maru...$2\"/pause 380/speak Demetrius \"What about my daughter?$4\"/pause 800/speak Harvey \"I-I...$2\"/pause 500/speak Harvey \"You know, sir, I've been spending more time with Ma... your daughter recently.$0\"/pause 300/speak Demetrius \"Yes, I'm aware of that...$4\"/pause 800/speak Harvey \"Well... your daughter is a great woman.$4#$b#She is intelligent, hardworking and beautiful.$4\"/pause 500/speak Harvey \"W-What I want to say is that...$0\"/pause 600/shake Harvey 1500/pause 200/speak Harvey \"...I-I like Maru.$4\"/pause 380/speak Harvey \"And before you say anything, I know you are her father and want the best for her.$0#$b#But, sir, I assure you I'm serious about her.$4#$b#I want her to feel on top of the world everyday and I want to be the one that makes that happen.$4\"/pause 500/speak Harvey \"I feel like I'm dreaming whenever I'm with her.$4#$b#But I'm aware that you are really protective of her.$0#$b#Therefore I wanted to tell you first that I'm planning to ask Maru out.$0\"/pause 250/emote Demetrius 16/pause 500/speak Harvey \"I already talked to Robin earlier and she seemed happy with it.$0\"/pause 750/speak Harvey \"I swear that I'll love Maru more than anything.$4#$b#So, Mr. Demetrius, please give me your blessing.\"/pause 500/emote Demetrius 40/pause 500/emote Demetrius 40/pause 800/speak Demetrius \"Harvey, just call me Demetrius, please.$5\"/pause 300/emote Harvey 16/pause 300/speak Harvey \"O-Okay!$8\"/pause 380/speak Harvey \"So...$2#$b#...is that a yes?$4\"/pause 580/speak Demetrius \"Look, Harvey...$5#$b# I don't think you're a bad influence.$5#$b#Actually, I admire your work here in the Valley.$5\"/pause 380/emote Demetrius 12/speak Demetrius \"But, if I ever see Maru suffering because of you, you know what's going to happen?$4\"/pause 350/emote Harvey 16/pause 380/speak Harvey \"Oh my god, si... Demetrius.$8#$b#I'll make sure that never happens!$8\"/pause 600/speak Harvey \"Thank you, Demetrius.$1#$b#I swear that you won't regret this decision.$1#$b#I'm going to be the best son-in-law ever!$1\"/pause 380/speak Demetrius \"Harvey, I think you're going too fast.$4\"/pause 350/speak Harvey \"Oh, of course.$1#$b#I'm sorry.$1\"/pause 380/emote Harvey 32/pause 1500/end dialogue Harvey \"I can't believe Demetrius said yes!$1\""
+            },
+      },
+     //Town | 8 hearts
+{
+"Action": "EditData",
+"Target": "Data/Events/Town",
+"Entries": {
+            "59020009/e 59020008/f Harvey 2000/f Maru 2000/o Maru/o Harvey/w sunny/z winter/t 1600 1800": "harveys_theme_jazz/35 57/farmer 29 55 2 Harvey 33 57 2 Maru 34 57 2 Caroline 41 59 1 Jodi 43 59 3 Lewis 25 59 1 Sebastian 26 64 1 Sam 28 64 3/skippable/pause 1800/speak Maru \"What a long day at work...$0\"/emote Caroline 40/pause 800/emote Sam 40/speak Harvey \"Y-Yeah...$7\"/pause 600/emote Jodi 40/speak Maru \"What were we waiting for, again?$0\"/emote Sam 40/pause 350/shake Harvey 500/emote Caroline 40/pause 380/emote Sebastian 40/speak Harvey \"J-Just wait a bit more, Maru.$4\"/emote Sam 40/pause 500/emote Jodi 40/speak Maru \"Well, if you say so...$0\"/pause 200/emote Sam 40/emote Sebastian 40/pause 80/playSound roadnoise/playSound roadnoise/playSound roadnoise/jump Harvey/faceDirection Harvey 1/speak Harvey \"L-Look over there, Maru!$7\"/pause 80/playSound roadnoise/playSound roadnoise/playSound roadnoise/speak Maru \"A plane...?$0\"/cutscene plane/pause 800/speak Maru \"Huh? It has a flying banner...$0#$b#Maru, would you be my girlfriend?$0\"/pause 150/emote Maru 16/emote farmer 16/emote Caroline 16/faceDirection Caroline 3/emote Sebastian 16/faceDirection Sebastian 0/emote Sam 16/faceDirection Sam 0/speak Maru \"!$4\"/pause 800/playMusic musicboxsong/faceDirection Maru 3/pause 600/speak Maru \"Of course I will, Harvey!$4\"/pause 500/speak Maru \"I'm a loss for words... That was so beautiful...$4\"/pause 700/emote Harvey 20/pause 600/showFrame Maru 28/showFrame Harvey 53/positionOffset Maru -2 0/pause 50/positionOffset Maru -2 0/pause 50/positionOffset Maru -2 0/pause 50/positionOffset Maru -2 0/pause 50/positionOffset Maru -2 0/pause 50/positionOffset Maru -2 0/pause 50/positionOffset Maru -2 0/pause 50/positionOffset Maru -2 0/pause 500/specificTemporarySprite heart 34 57/pause 2000/end dialogue Maru \"I never thought Harvey could be so romantic!$4\""
+            },
+      },
+        //      M   A   R   R   I   E   D       V   E   R   S   I   O   N
+    
+//Event that activates wedding invitation
+{
+"Action": "EditData",
+"Target": "Data/Events/Farm",
+"When": {
+    "Version": "married"
+		},
+"Entries": {
+            "59020037/e 59020009/o Maru/o Harvey/r 0.7/y 3/u 6/z spring/z summer/z winter/x LifeCycle.MaruHarvey": "null"
+            },
+},
+//Wedding event
+{
+"Action": "EditData",
+"Target": "Data/Events/Town",
+"When": {
+    "Version": "married"
+		},
+"Entries": {
+            "59020030/e 59020009/z spring/z summer/z winter/o Maru/o Harvey/n LifeCycle.MaruHarvey/w sunny/t 1600 1730": "sweet/29 66/Harvey 28 65 2 Maru 29 65 2 Lewis 26 65 2 Gunther 23 67 0 Sebastian 24 67 0 Robin 25 67 0 Demetrius 26 67 0 Penny 31 67 0 Pam 32 67 0 Gus 33 67 0 Sam 31 68 0 Vincent 32 68 0 Jodi 33 68 0 Kent 34 68 0 Abigail 34 69 0 Caroline 32 70 0 Pierre 31 70 0 farmer 31 69 0 Jas 32 69 0 Shane 33 69 0 Marnie 26 68 0 Evelyn 25 68 0 George 24 68 0 Alex 23 68 0 Haley 23 69 0 Emily 24 69 0 Elliott 25 69 0 Leah 26 69 0 Clint 24 70 0 Willy 25 70 0 Linus 23 71 0 Sandy 33 70 0/skippable/showFrame Harvey 48/showFrame Maru 36/addBigProp 24 65 221/addBigProp 33 65 221/addBigProp 25 61 224/addBigProp 26 61 225/addBigProp 27 61 226/addBigProp 28 61 227/addBigProp 29 61 228/addBigProp 30 61 229/addBigProp 31 61 230/addBigProp 32 61 231/addBigProp 25 63 232/addBigProp 26 63 233/addBigProp 27 63 234/addBigProp 28 63 235/addBigProp 29 63 236/addBigProp 30 63 237/addBigProp 31 63 238/addBigProp 32 63 239/addBigProp 25 65 240/addBigProp 32 65 247/addBigProp 26 65 241/addBigProp 27 65 242/addBigProp 28 65 243/addBigProp 29 65 244/addBigProp 30 65 245/addBigProp 31 65 246/addBigProp 25 67 248/addBigProp 26 67 249/addBigProp 27 67 250/addBigProp 28 67 251/addBigProp 29 67 252/addBigProp 30 67 253/addBigProp 31 67 254/addBigProp 32 67 255/pause 3900/speak Lewis \"Hello everyone and welcome.$0\"/pause 1600/speak Lewis \"Today, Maru and Harvey will join their lives together.$0#$b#This is the beginning of the journey they now undertake together for their mutual growth.$0\"/pause 1600/speak Lewis \"Marriage is an ever changing, ever-growing relationship.$0#$b#A good marriage makes room for the couple to spread their wings and soar toward their own self-realization.$0\"/pause 1600/speak Lewis \"Marriage is the single most important relationship that challenges us to be always better.$0#$b#Today, may all of us present feel the deep love between Maru and Harvey.$1\"/pause 1300/speak Lewis \"But first, let's welcome Maru's father, Demetrius, to say some words.$1\"/pause 800/move Demetrius 0 -1 1/move Demetrius 5 0 0/move Demetrius 0 -1 2/pause 850/speak Demetrius \"Good evening everyone.$0#$b#On behalf of Robin and myself, I would like to welcome you all.$0#$b#And also thank you for coming here to celebrate this special occasion, the marriage of our daughter Maru to Harvey.$0\"/pause 800/speak Demetrius \"Of course every wedding is special.$0#$b#But to see your daughter getting married is something else.$1\"/pause 850/faceDirection Demetrius 3/pause 650/animate Maru true true 150 37/animate Harvey true true 150 49/faceDirection Lewis 1/pause 900/speak Demetrius \"Maru, you look stunning in that beautiful wedding dress.$0#$b#But beauty is just one of your many attributes.$0#$b#You're brave, hard-working, kind and smart.$0\"/pause 750/speak Demetrius \"I'm very proud to have you as my daughter and I’m sure Harvey will also be equally proud to call you his wife.$1\"/pause 950/speak Demetrius \"Harvey, you are a very lucky man.$0#$b#I’ve known you for a while now and I've come to know you well.$0\"/pause 800/speak Demetrius \"You know I was quite reticent about your relationship at first, and I'm sorry about it.$5\"/pause 800/speak Demetrius \"Now I can say I genuinely can’t think of a better person to have as a son-in-law.$0\"/pause 1200/speak Demetrius \"Maru, Harvey, I wish you both a long, happy, healthy future together, filled with love and laughter.$1\"/pause 390/emote Maru 32/pause 900/move Demetrius 0 1 3/move Demetrius -5 0 2/move Demetrius 0 1 0/pause 200/faceDirection Lewis 2/stopAnimation Harvey/stopAnimation Maru/showFrame Harvey 48/showFrame Maru 36/pause 1800/speak Lewis \"Now, it's my great honor to unite Maru and Harvey in the bonds of marriage.$1\"/pause 800/move Lewis 0 1 1/move Lewis 1 0 2/move Lewis 0 1 1/move Lewis 1 0 0/pause 800/showFrame Lewis 21/pause 1200/animate Harvey true true 150 49/showFrame Maru 37/pause 1380/speak Lewis \"Do you, Maru, take this man to be your lawfully wedded husband?$0\"/pause 600/textAboveHead Maru \"Yes, I do.\"/pause 1300/speak Lewis \"Do you, Harvey, take this woman to be your lawfully wedded wife?$0\"/pause 600/textAboveHead Harvey \"Yes, I do.\"/pause 1750/speak Lewis \"Maru... Harvey...$0#$b#As the Mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$1\"/pause 650/speak Lewis \"You may kiss.$1\"/pause 1500/stopAnimation Harvey/animate Harvey true true 150 50/showFrame Maru 38/positionOffset Maru -2 0/pause 50/positionOffset Harvey 2 0/pause 50/positionOffset Maru -2 0/pause 50/positionOffset Harvey 2 0/pause 50/positionOffset Maru -2 0/pause 50/positionOffset Harvey 2 0/pause 50/positionOffset Maru -2 0/pause 50/positionOffset Harvey 2 0/specificTemporarySprite heart 29 65/pause 2600/positionOffset Maru 2 0/pause 50/positionOffset Harvey -2 0/pause 50/positionOffset Maru 2 0/pause 50/positionOffset Harvey -2 0/stopAnimation Harvey/showFrame Harvey 48/pause 380/showFrame Maru 36/pause 800/screenFlash .8/playMusic wedding/pause 150/animate Emily false true 320 16 16 16 16 16 16 17 17 17 17 20 20 20 21 21 21 21 18 18 19 19 31 31 31 35 35 34 34 34 22 22 22 22 23 23 23/move Lewis 0 1 3/move Lewis -1 0 3/animate Lewis false true 380 19 19 19 19 19 19 22 23 23 23/animate Marnie false true 380 20 20 20 20 20 20 21 22 22 23 23 23/pause 300/move Robin 0 -1 1/move Robin 3 0 0/pause 100/animate Abigail false true 350 16 17 18 19/faceDirection Vincent 2/pause 200/animate Willy false true 350 28 29 30 31/pause 180/faceDirection Evelyn 3/faceDirection George 1/pause 280/move Penny 0 -1 3/move Penny -2 0 0/pause 120/faceDirection Alex 2/pause 180/faceDirection Elliott 1/faceDirection Leah 3/pause 280/faceDirection Pierre 3/faceDirection Caroline 1/pause 3600/addConversationTopic MaruHarveyWedding 4/end"
+            },
+      },
+    
+//Conversation Topic
+    //Harvey
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Harvey",
+"Entries": {
+            "MaruHarveyWedding": "We're all striving to reach some kind of balance in life, an equilibrium of complexity.$0#$b#For me, marrying Maru was exactly what I needed to find that balance.$4"
+           }
+},
+    //Maru
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Maru",
+"Entries": {
+            "MaruHarveyWedding": "Now that Harvey and I are married, I can't wait for us to move in together!$4"
+           }
+}, 
+    //Demetrius
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Demetrius",
+"Entries": {
+            "MaruHarveyWedding": "I really wish the best for Maru and Harvey.$0#$b#She smiles the brightest when he's around.$1#$e#Their wedding was beautiful, wasn't it?$0#$b#And Maru looked stunning in that dress.$1"
+           }
+}, 
+    //Robin
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Robin",
+"Entries": {
+            "MaruHarveyWedding": "I was really looking forward to Maru's wedding.$0#$b#Demetrius and I never really had a formal wedding ceremony.$0#$b#We just invited our family and friends to a small dinner party.$0"
+           }
+}, 
+    //Sebastian
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Sebastian",
+"Entries": {
+            "MaruHarveyWedding": "Weddings aren't really my thing.$0#$b#But everyone seemed to be happy at Maru's wedding, so guess I'll have to deal with it.$0"
+           }
+}, 
+    //Penny
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Penny",
+"Entries": {
+            "MaruHarveyWedding": "I'm so happy for Maru and Harvey.$0#$b#They're the sweetest couple.$1"
+           }
+}, 
+    //Lewis
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Lewis",
+"Entries": {
+            "MaruHarveyWedding": "I don't have the opportunity to officiate many weddings, but I love to do so.$0#$b#It's good to see all these young people in love.$1"
+           }
+},
+    //Marnie
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Marnie",
+"Entries": {
+            "MaruHarveyWedding": "I love weddings, they're so romantic.$0#$b#I wish Maru and Harvey a lifetime of love and happiness.$1"
+           }
+},
+    //Caroline
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Caroline",
+"Entries": {
+            "MaruHarveyWedding": "I went to Robin's house some weeks ago to help her and Maru choose a wedding dress.$0#$b#I think we hit the nail on the head, it suited Maru so well!$1"
+           }
+},
+    //Evelyn
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Evelyn",
+"Entries": {
+            "MaruHarveyWedding": "May Yoba grant Maru and Havey a marriage of blessing and joy.$1"
+           }
+},
+    //Jas
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Jas",
+"Entries": {
+            "MaruHarveyWedding": "Mister @!^Miss @!$1#$e#When I grow up I also want to wear a pretty dress and have a beautiful wedding.$1"
+           }
+},
+    //Jodi
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Jodi",
+"Entries": {
+            "MaruHarveyWedding": "Weddings always bring the community together in great happiness.$1"
+           }
+},
+    //George
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/George",
+"Entries": {
+            "MaruHarveyWedding": "Back in my day weddings were only small intimate ceremonies with close family members...$0"
+           }
+},
+    //Alex
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Alex",
+"Entries": {
+            "MaruHarveyWedding": "The wedding was cool and all, but Harvey was sweating buckets!$7#$b#He must have been really nervous.$1"
+           }
+},
+    //Sam
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Sam",
+"Entries": {
+            "MaruHarveyWedding": "I don't know Maru and Harvey well, but I'm happy for them.$1"
+           }
+},
+    //Leah
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Leah",
+"Entries": {
+            "MaruHarveyWedding": "Harvey asked me to paint a portrait for Maru last month.$0#$b#It was his wedding gift for her, isn't it romantic?$1"
+           }
+},
+    //Pam
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Pam",
+"Entries": {
+            "MaruHarveyWedding": "Weddings remind me of that ex-husband of mine...$4#$e#Well, there was free beer so I can't complain much.$0"
+           }
+},
+    //Pierre
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Pierre",
+"Entries": {
+            "MaruHarveyWedding": "Weddings always bring joy to Pelican Town, we don't get to celebrate many of them.$1#$e#But it's a pity I can't sell mermaid pendants...$2"
+           }
+},
+    //Clint
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Clint",
+"Entries": {
+            "MaruHarveyWedding": "You know, I made the rings for Maru and Harvey.$0#$b#Maru asked me to use iridium for them, it was a tough job.$0#$b#Luckily they turned out really nice.$1"
+           }
+},
+//Dialogues
+    //Harvey
+        //Harvey before wedding
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Harvey",
+"When": {
+    "Version": "married",
+	"HasSeenEvent": "59020009"
+		},
+"Entries": {
+            "Mon8": "I still can't believe I was brave enough to ask Maru out.$0#$b#And in such a public way!$1#$e#I don't think I'll have that confidence ever again.$0",
+            "Tue8": "Maybe after we finish with the history of medicine, I can teach Maru about medicine literature.$0#$b#I'm sure she'll love it!$1",
+            "Thu8": "I was afraid that Maru and I would talk too much about work...$2#$b#But that's not the case.$1",
+            "Sat8": "Last night I cooked Maru a healthy and nutritious dinner.$0#$b#I think she loved it!$1",
+            "Sun8": "I've prepared a special energy tonic for Maru.$0#$e#I don't want her to feel exhausted.$2#$b#You know, she works too much...$2",
+            "spring_Fri8": "If Maru and I have kids, do you think they could become pilots one day?$1",
+            "summer_Mon8": "Maru and I were thinking of visiting the desert.$0#$b#Maybe we'll go in the fall or winter, when it's cooler.$1",
+            "summer_Wed8": "Summer has become my favorite season because Maru and I go stargazing.$4#$e#The sky over the valley always looks stunning, but in the summer it gets even better!$1",
+            "fall_Tue8": "I've been improving my massages techniques for Maru.$0#$b#Somedays she's really tired after work, and I want to help her relax a little.$1",
+            "fall_Fri8": "I used to feel down when business was not going well...$2#$b#But now Maru always keeps my spirits up, even on the hard days.$4",
+            "winter_Thu8": "On cold days like this, Maru and I like to share a bottle of wine by the fire.$1",
+            "winter_Sat8": "To be honest, I thought I would be single forever.$2#$I'm so glad that Maru appeared in my life.$4",
+            "spring_23": "I'm feeling confident about the Flower Dance tomorrow.$1#$e#Maru and I have been practising our moves.$1",
+            "summer_27": "The Dance of the Moonlight Jellies is so beautiful.$0#$e#I’m looking forward to enjoying it with Maru tomorrow.$1",
+            "fall_26": "I always get lost in the Haunted Maze.$2#$e#Maybe if Maru and I go together, we'll be able to reach the exit.$0",
+            "spring_23_2": "I'm feeling confident about the Flower Dance tomorrow.$1#$e#Maru and I have been practising our moves.$1",
+            "summer_27_2": "The Dance of the Moonlight Jellies is so beautiful.$0#$e#I’m looking forward to enjoying it with Maru tomorrow.$1",
+            "fall_26_2": "I always get lost in the Haunted Maze.$2#$e#Maybe if Maru and I go together, we'll be able to reach the exit.$0"
+			}
+},
+        //Harvey after wedding
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Harvey",
+"When": {
+    "Version": "married",
+	"HasSeenEvent": "59020030"
+		},
+"Entries": {
+            "Wed8": "Maru and I are thinking of remodeling the apartment.$0#$b#We're thinking of moving in together, so I want her to feel comfortable.$4",
+            "Fri8": "Robin offered to expand the clinic when I had dinner with them last week.$0#$e#I appreciate it, but I think it's big enough for our community.$0",
+            "spring_Thu8": "When I first met Maru I didn't know if she would do a good job.$0#$b#But she has proven to be a fully capable nurse.$1#$e#Also, if she hadn't applied for a job, we wouldn't have gotten to know each other and be married.$4",
+            "spring_Sat8": "Maru always brightens my day, I love being married to her.$4",
+            "summer_Sun8": "...$4#$e#Oh, @.$0#$b#I was thinking about the day of my wedding...$4",
+            "fall_Mon8": "I've been getting better at cooking now that Maru and I are married.$1#$b#If you want advice on how to make healthy food, don't hesitate to ask me.$0",
+            "winter_Wed8": "I'm glad that Demetrius has come to accept my relationship with Maru.$1#$b#He was delighted at our wedding.$1",
+            "summer_10_2": "Hello, @.$0#$e#I've been improving my cooking skills for Maru's birthday.$1#$b#She told me that she loves cheese cauliflower and pepper poppers so I'm going to prepare her a special dinner.$1"
+			}
+},   
+    //Maru
+        //Maru before wedding
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Maru",
+"When": {
+    "Version": "married",
+	"HasSeenEvent": "59020009"
+		},
+"Entries": {
+            "Mon8": "Harvey is so clumsy sometimes.$0#$b#But it's actually kind of cute.$4",
+            "Tue8": "Harvey likes to give me new gadgets ideas and I help him with his models.$0#$e#We're the perfect team!$1",
+            "Thu8": "I've been working on a machine that improves the quality of pickles.$0#$b#It's a surprise for Harvey.$1",
+            "Fri8": "If I ever discover a new star, I'm going to name it Harvey.$4#$e#Do you think that's too cheesy...?$0",
+            "Sat8": "Harvey and I have thought about visiting Zuzu City together.$0#$b#He goes there every month to buy medical supplies.$0",
+            "spring_Wed8": "Harvey and I are practising for the Flower Dance.$0#$b#We're so excited!$1",
+            "spring_Fri8": "The relationship between Harvey and me has been like the contact of two chemicals, we reacted with each other and now we form a new element.$1",
+            "summer_Tue8": "Harvey wants to modernise the clinic's computers.$0#$b#Maybe Sebastian can help him.$0",
+            "summer_Thu8": "I've been doing some research about the Valley and, scientifically, this an excellent place to raise children.$0#$e#I'm going to compile everything and show it to Harvey.$1",
+            "summer_Sat8": "I didn't expect it, but Harvey is a great cook.$1#$b#And he always makes healthy meals.$0",
+            "fall_Mon8": "I was surprised to hear that Harvey also goes to Caroline's to exercise on Tuesdays, along with my mother.$0#$b#It's good that he wants to stay healthy.$0",
+            "fall_Sat8": "Harvey and I want to go on a road trip and explore new places.$0#$b#But I don't think we'll be able to do it anytime soon, the clinic would have to close at least for a few weeks...$2",
+            "winter_Wed8": "I hope my father is okay now that I'm spending more time with Harvey.$2#$e#Even though I'm still living with him, I'm afraid he'll get lonely...$2",
+            "winter_Sun8": "Time seems to stop when I look at Harvey...$4#$e#Maybe he's traveling at the speed of light.$1",
+            "summer_27": "I'm looking forward to watching the Moonlight Jellies with Harvey tomorrow.$4",
+            "fall_26": "I've been talking with Harvey about our strategy to complete the Haunted Maze.$0#$e#Maybe this year we can be the first to find the treasure!$1",
+            "winter_14": "Today's is Harvey's birthday.$1#$e#I've have designed a special model plane for him.$0#$b#I hope he likes it.$1",
+            "summer_27_2": "I'm looking forward to watching the Moonlight Jellies with Harvey tomorrow.$4",
+            "fall_26_2": "I've been talking with Harvey about our strategy to complete the Haunted Maze.$0#$e#Maybe this year we can be the first to find the treasure!$1",
+            "winter_14_2": "Today's is Harvey's birthday.$1#$e#I've have designed a special model plane for him.$0#$b#I hope he likes it.$1"
+			}
+},
+        //Maru after wedding
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Maru",
+"When": {
+    "Version": "married",
+	"HasSeenEvent": "59020030"
+		},
+"Entries": {
+            "Wed8": "I've always been pretty independent.$0#$b#...but now it's hard to imagine my life without Harvey.$4#$b#He's the perfect husband.$4",
+            "Sun8": "My parents ask Harvey and I to have dinner with them every week.$0#$b#I think they miss me too much, but Harvey loves to have these family gatherings.$2",
+            "spring_Sun8": "My father was surprised when I told him I was getting married.$0#$b#But now he really gets along with Harvey.$0#$e#They even call each other to discuss science!$1",
+            "fall_Thu8": "Some married couples just can't work together.$0#$b#Luckily Harvey and I aren't one of them.$1",
+            "winter_Tue8": "In the past I seriously considered building a robotic husband.$0#$b#But now I have Harvey and he's a much better husband than a robot would be.$4"
+			}
+},   
+    //Demetrius
+        //Demetrius before wedding
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Demetrius",
+"When": {
+    "Version": "married",
+	"HasSeenEvent": "59020009"
+		},
+"Entries": {
+            "Mon2": "I still don't trust Harvey's intentions with Maru...$4",
+            "Mon6": "Harvey cooked bean hotpot for us yesterday.$1",
+            "Tue4": "Maru is my little girl, so it's natural that I'm cautious of Harvey.$4",
+            "Wed6": "Robin had a serious conversation with me about how I've been acting toward Harvey...$2#$b#Maybe she is right...$2",
+            "Thu2": "I should go check on Harvey and Maru today...$3#$b#...just in case.$3",
+            "Fri8": "Well, Maru seems really happy with Harvey, so I guess that's what is important.$0",
+            "Fri10": "I've come to accept Harvey as a member of our family.$1",
+            "Sat2": "Hello, farmer.$0#$e#Would you mind keeping an eye on Harvey and Maru?$5#$b#I'm worried about their relationship going wrong...$",
+            "Sun4": "I'm just worried that Harvey will break Maru's heart...$2#$e#Isn't it normal for a father?$2"
+			}
+},
+        //Demetrius after wedding
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Demetrius",
+"When": {
+    "Version": "married",
+	"HasSeenEvent": "59020030"
+		},
+"Entries": {
+            "Tue10": "I know I've been harsh with Harvey in the past...$2#$b#But now it's different, he's a part of our family.$1",
+            "Wed10": "Hello, @.$0#$e#Actually, Harvey has been working really hard to be a part of our family.$0#$b#He came and talk to me again before proposing to Maru.$0#$b#He was trembling, poor kid.$1",
+            "Thu8": "I didn't think that Maru'd get married so soon...$2#$e#But I'm happy that she has found a man like Harvey.$0",
+            "Sat8": "Harvey came by yesterday and helped Maru and me with the experiments.$0#$b#They're really good scientists!$1",
+            "Sun10": "I'm relieved that Harvey doesn't hold a grudge for the way I treated him in the past.$0#$b#He's a good man and I'm happy that Maru's married to him.$0"
+			}
+},
+    //Robin
+        //Robin before wedding
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Robin",
+"When": {
+    "Version": "married",
+	"HasSeenEvent": "59020009"
+		},
+"Entries": {
+            "Mon2": "I don't talk to Harvey much, but he sometimes comes to exercise with us on Tuesdays.$0",
+            "Mon6": "Unlike Demetrius, I know that Harvey is taking care of our daughter, so I'm not worried at all.$1",
+            "Tue4": "Demetrius is just being unreasonable with Harvey.$3#$b#Can't he see that Maru is happy and that's what truly matters...?$2",
+            "Tue8": "I'm relieved that Demetrius has changed his attitude towards Harvey at least a little.$0#$e#Sometimes he is just too stubborn.$2",
+            "Wed6": "Time goes by so quickly...$0#$e#I was talking to Jodi after our exercise class and we both can't believe how much our children have grown.$0",
+            "Thu4": "I can see that Harvey loves Maru.$0#$b#I'm so happy for them!$1",
+            "Thu8": "I'm delighted that Maru and Harvey are together.$0#$b#I knew that they would make a good couple.$1",
+            "Fri4": "Maybe I should talk to Demetrius about his behaviour towards Harvey...$2",
+            "Fri10": "I'm going to drop by the clinic later.$0#$b#I've prepared some picked tomato for Harvey.$1",
+            "Sat2": "I can't say it was a surprise for me that Maru and Harvey started dating.$0#$e#In fact, I was hoping for it!$1",
+            "Sat8": "I'm not sure, but I think Sebastian also thinks highly of Harvey.$1",
+            "Sun6": "I was thinking of inviting Harvey over for dinner...$0#$b#...but Demetrius will surely disagree.$2",
+            "Sun8": "Maru and Harvey remind me of when Demetrius and I started dating...$0#$e#We were so young back in the day.$0"
+			}
+},
+        //Robin after wedding
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Robin",
+"When": {
+    "Version": "married",
+	"HasSeenEvent": "59020030"
+		},
+"Entries": {
+            "Mon8": "I remember when Maru told me she was getting married.$0#$b#She was close to tears of happiness.$1",
+            "Wed8": "If Maru and Harvey want to move together now that they're married, I will help them to build the perfect house!$1#$b#Or I could expand Harvey's apartment.$1",
+            "Thu10": "I'm delighted that Maru and Harvey are married.$0#$b#I knew that they would make a good couple.$1",
+            "Sat10": "I hope Maru and Harvey have kids soon.$1",
+            "Sun10": "Maru and Harvey remind me of when Demetrius and I started dating...$0#$e#We were so young back in the day.$0#$e#Our wedding was also beautiful, maybe I'll show you some pictures someday.$1"
+			}
+},
+    //Sebastian
+        //Sebastian before wedding
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Sebastian",
+"When": {
+    "Version": "married",
+	"HasSeenEvent": "59020009"
+		},
+"Entries": {
+            "Mon6": "I guess I'm kind of happy for Maru and Harvey.$0",
+            "Tue8": "Harvey asked me for help when he came to our house the other day.$0#$b#He told me that he wanted to create an internal database for the clinic.$0#$e#It feels good when someone values your work.$1",
+            "Wed2": "I don't really care about who Maru is dating.$0",
+            "Wed6": "Guess it was natural for Maru and Harvey to get together.$0#$b#Besides working at the clinic, I think they have the same interests.$0",
+            "Thu8": "Harvey comes around somedays.$0#$b#We don't really talk, but he's shown interest in my work and I appreciate that.$1",
+            "Fri8": "Harvey is actually pretty cool, he brought me sashimi the other day!$1",
+            "Sat4": "The house is quieter now that Maru's spending more time with Harvey.$1",
+            "Sun2": "Was it really necessary for Harvey to put on a show to ask Maru out?$0",
+            "Sun4": "Demetrius still is kind of annoyed when Harvey comes around...$0" 
+			}
+},
+        //Sebastian after wedding
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Sebastian",
+"When": {
+    "Version": "married",
+	"HasSeenEvent": "59020030"
+		},
+"Entries": {
+            "Mon6": "I guess I'm happy for Maru and Harvey.$0#$b#They look good together.$0",
+            "Wed8": "Guess it was natural for Maru and Harvey to get married soon.$0#$b#My mother and Demetrius were really excited on their wedding day.$0",
+            "Sat6": "The house is quieter now that Maru's married to Harvey.$1",
+            "Sun6": "I think Demetrius is cool with Harvey now.$0" 
+			}
+},
+    
+        //      F   A   M   I   L   Y       V   E   R   S   I   O   N
+
+//Event that changes HarveyRoom.tbin, only used for condition
+{
+"Action": "EditData",
+"Target": "Data/Events/FarmHouse",
+"When": {
+    "Version": "family"
+		},
+"Entries": {
+            "59020038/e 59020030/o Maru/o Harvey": "none/1000 1000/farmer 29 55 2/skippable/pause 10/end"
+            },
+},
+//Children
+    //Portraits
+{
+"LogName": "Maru and Harvey child portraits 1",
+"Action": "Load",
+"Target": "Portraits/Orion",
+"FromFile": "assets/Portraits/Orion.png",
+"When": {
+    "Version": "family",
+    "HaveChildren": "true",
+    "HasSeenEvent": "59020030"
+        }
+},
+{
+"LogName": "Maru and Harvey child portraits 2",
+"Action": "Load",
+"Target": "Portraits/Caelum",
+"FromFile": "assets/Portraits/Caelum.png",
+"When": {
+    "Version": "family",
+    "HaveChildren": "true",
+    "HasSeenEvent": "59020030"
+        }
+},
+    //Portraits summer
+/*
+{		
+"LogName": "Harvey and Maru child portraits summer", 
+"Action": "                             EditImage/Load??",
+"Target": "Portraits/Eve",
+"FromFile": "assets/Portraits/Eve_Summer.png",
+"When":	{
+    "Season": "summer",
+    "HaveChildren": "true",
+	"HasMod: |contains=nraittanna.LifeCycleAthanaeriMap": "true",
+    "HasSeenEvent": "59020030"
+		}
+},
+*/
+    
+    //Sprites
+{
+"LogName": "Maru and Harvey portraits 1",
+"Action": "Load",
+"Target": "Characters/Orion",
+"FromFile": "assets/Sprites/Orion.png",
+"When": {
+    "Version": "family",
+    "HaveChildren": "true",
+    "HasSeenEvent": "59020030"
+        }
+},
+{
+"LogName": "Maru and Harvey portraits 2",
+"Action": "Load",
+"Target": "Characters/Caelum",
+"FromFile": "assets/Sprites/Caelum.png",
+"When": {
+    "Version": "family",
+    "HaveChildren": "true",
+    "HasSeenEvent": "59020030"
+        }
+},
+    //Schedule
+        //No town school
+{
+"LogName": "Maru and Harvey child schedule 1",
+"Action": "Load",
+"Target": "Characters/schedules/Orion",
+"FromFile": "assets/Schedule/Orion.json",
+"When": {
+    "Version": "family",
+	"HasMod: |contains=EduAnttunes.TownSchool.TMX": "false",
+    "HaveChildren": "true",
+    "HasSeenEvent": "59020030"
+        }
+},
+{
+"LogName": "Maru and Harvey child schedule 2",
+"Action": "Load",
+"Target": "Characters/schedules/Caelum",
+"FromFile": "assets/Schedule/Caelum.json",
+"When": {
+    "Version": "family",
+	"HasMod: |contains=EduAnttunes.TownSchool.TMX": "false",
+    "HaveChildren": "true",
+    "HasSeenEvent": "59020030"
+        }
+},
+        //Yes town school
+{
+"LogName": "Maru and Harvey child schedule 1",
+"Action": "Load",
+"Target": "Characters/schedules/Orion",
+"FromFile": "assets/Schedule/OrionSchool.json",
+"When": {
+    "Version": "family",
+	"HasMod: |contains=EduAnttunes.TownSchool.TMX": "true",
+    "HaveChildren": "true",
+    "HasSeenEvent": "59020030"
+        }
+},
+{
+"LogName": "Maru and Harvey child schedule 2",
+"Action": "Load",
+"Target": "Characters/schedules/Caelum",
+"FromFile": "assets/Schedule/CaelumSchool.json",
+"When": {
+    "Version": "family",
+	"HasMod: |contains=EduAnttunes.TownSchool.TMX": "true",
+    "HaveChildren": "true",
+    "HasSeenEvent": "59020030"
+        }
+},
+    //Dialogue
+{
+"LogName": "Maru and Harvey child dialogues 1",
+"Action": "Load",
+"Target": "Characters/Dialogue/Orion",
+"FromFile": "assets/Dialogue/Orion.json",
+"When": {
+    "Version": "family",
+    "HaveChildren": "true",
+    "HasSeenEvent": "59020030"
+        }
+},
+{
+"LogName": "Maru and Harvey child dialogues 2",
+"Action": "Load",
+"Target": "Characters/Dialogue/Caelum",
+"FromFile": "assets/Dialogue/Caelum.json",
+"When": {
+    "Version": "family",
+    "HaveChildren": "true",
+    "HasSeenEvent": "59020030"
+        }
+},
+    //NPC Dispositions
+{
+"LogName": "Maru and Harvey child disposition",
+"Action": "EditData",
+"Target": "Data/NPCDispositions",
+"When": {
+    "Version": "family",
+    "HaveChildren": "true",
+    "HasSeenEvent": "59020030"
+        },
+"Entries": { 
+    "Orion": "child/polite/neutral/positive/male/not-datable/null/Town/fall 8/Harvey 'father' Maru 'mother' Demetrius 'grandfather' Jodi 'grandmother' Sebastian 'uncle' Caelum 'brother'/HarveyRoom 19 5/Orion",
+    "Caelum": "child/polite/neutral/positive/male/not-datable/null/Town/fall 8/Harvey 'dad' Maru 'mom' Demetrius 'grandpa' Jodi 'grandma' Sebastian 'uncle' Orion 'brother'/HarveyRoom 24 5/Caelum"
+           }
+},
+    //Gift tastes
+        //Orion
+            //Love: Pickles, Gold Bar, Artichoke Dip, Ghostfish
+            //Like: Iron Bar, Duck Egg, Leek, Holly
+            //Dislikes: Pink Cake, Maple Syrup, Maple Bar, Goat Milk, L. Goat Milk
+            //Hates: Salmonberry, Spice Berry, Blackberry, Strawberry
+        //Caelum
+            //Love: Aquamarine, Super Meal, Pumpkin Pie, Chocolate Cake
+            //Like: Morel, Void Mayonnaise, Quartz, Jade
+            //Dislikes: Fried Mushroom, Hazelnut, Wild Plum, Common Mushroom
+            //Hates: Lobster, Crayfish, Snail, Periwrinkle
+    
+{		
+"LogName": "Maru and Harvey child gift tastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"When": {
+    "Version": "family",
+    "HaveChildren": "true",
+    "HasSeenEvent": "59020030"
+        },
+"Entries": {
+    "Orion": "Is that...? I love this! I'll use it well./342 336 605 156/Thank you, this is a nice gift./335 442 20 283/Um... This is... interesting./221 724 731 436 438/I don't think this has any value.../296 396 410 400/Thank you.//",
+    "Caelum": "Wow! This is one of my favorites, thank you!/62 237 608 220/This is super! Thank you./257 308 80 70/Oh... I'll have to ask mom what can I do with this.../205 408 406 404/I don't think this is a good gift.../715 716 721 722/A gift? Thank you.//"
+           }
+},
+    //Rainy Day Dialogue
+{	
+"LogName": "Maru and Harvey child rainy dialogue",
+"Action": "EditData",
+"Target": "Characters/Dialogue/rainy",
+"When": {
+    "Version": "family",
+    "HaveChildren": "true",
+    "HasSeenEvent": "59020030"
+        },
+"Entries": {
+    "Caelum": "I like rainy days, but grandpa was going to take us on a field trip today...$2",
+    "Orion": "On rainy days frogs usually appear in the mountain.$0#$b#Caelum and I should visit our grandparents and Uncle Sebastian today.$1"
+            }
+},
+    //Animations
+{
+"LogName": "Maru and Harvey child animations",
+"Action": "EditData",
+"Target": "Data/animationDescriptions",
+"When": {
+    "Version": "family",
+    "HaveChildren": "true",
+    "HasSeenEvent": "59020030"
+        },
+"Entries": {
+    "orion_sleep": "4/4/4",
+    "caelum_sleep": "12/12/12",
+    "orion_tinker": "16/16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 17 17 17 17 18 18 18 17 17 17 17 17 18 18 18 17 17 17 17 17 18 18 18/16",
+    "caelum_tinker": "19/19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 18 18 18 18 18 17 17 17 18 18 18 18 18 17 17 17 18 18 18 18 18 17 17 17/19",
+    "orion_read": "19/19/19",
+    "caelum_read": "16/16/16"
+	        }
+},
+    //Strings
+{
+"LogName": "Maru and Harvey child dialogue strings 1",
+"Action": "Load",
+"Target": "Strings/schedules/Orion",
+"FromFile": "assets/Dialogue/OrionStrings.json",
+"When": {
+    "Version": "family",
+    "HaveChildren": "true",
+    "HasSeenEvent": "59020030"
+        },
+},
+{
+"LogName": "Maru and Harvey child dialogue strings 2",
+"Action": "Load",
+"Target": "Strings/schedules/Caelum",
+"FromFile": "assets/Dialogue/CaelumStrings.json",
+"When": {
+    "Version": "family",
+    "HaveChildren": "true",
+    "HasSeenEvent": "59020030"
+        },
+},
+    
+//Schedules
+    //Maru
+{ 
+ "Action": "EditData",
+ "Target": "Characters/schedules/Maru",
+ "FromFile": "assets/Schedule/Maru.json",
+ "When": {
+    "Version": "family",
+    "HasSeenEvent": "59020030"
+		},
+},
+    //Harvey
+{ 
+ "Action": "EditData",
+ "Target": "Characters/schedules/Harvey",
+ "FromFile": "assets/Schedule/Harvey.json",
+ "When": {
+    "Version": "family",
+    "HasSeenEvent": "59020030"
+		},
+},
+    //Demetrius
+{
+"Action": "EditData",
+"Target": "Characters/schedules/Demetrius",
+"When": {
+    "Version": "family",
+    "HasSeenEvent": "59020030"
+		},
+"Entries":  {
+            "22": "750 ScienceHouse 29 9 0/1100 ScienceHouse 22 20 1 demetrius_notes/1430 Mountain 15 26 1/1600 Saloon 10 20 0 \"Strings\\schedules\\Demetrius:familydinner.001\"/2300 ScienceHouse 19 4 11 demetrius_sleep"
+            },
+},
+    //Robin
+{
+"Action": "EditData",
+"Target": "Characters/schedules/Robin",
+"When": {
+    "Version": "family",
+    "HasSeenEvent": "59020030"
+		},
+"Entries":  {
+            "22": "800 ScienceHouse 8 18 2/1300 CommunityCenter 9 19 3/1700 Saloon 10 5 2 \"Strings\\schedules\\Robin:familydinner.001\"/2250 ScienceHouse 21 4 1 robin_sleep"
+            },
+},
+    //Sebastian
+{
+"Action": "EditData",
+"Target": "Characters/schedules/Sebastian",
+"When": {
+    "Version": "family",
+    "HasSeenEvent": "59020030"
+		},
+"Entries":  {
+            "22": "1000 SebastianRoom 9 4 3 sebastian_computer/1200 ScienceHouse 27 9 0/1330 SebastianRoom 9 4 3 sebastian_computer/1630 Saloon 11 6 3 \"Strings\\schedules\\Sebastian:familydinner.001\"/2220 SebastianRoom 11 9 1 sebastian_sleep"
+            },
+}, 
+//Schedule strings
+    //Harvey
+        //No children
+{
+"Action": "EditData",
+"Target": "Strings/schedules/Harvey",
+"When": {
+    "Version": "family",
+    "HasSeenEvent": "59020030",
+    "HaveChildren": "false"
+        },
+"Entries":  {
+            "spring.001": "The good things in life are better with Maru.$4",
+            "spring.002": "Maru learns very quickly.$1",
+            "summer.001": "Maru...$4#$b#...you mean the world to me.$4",
+            "summer.002": "Maru looks so cute when she asks me about difficult medical terms.$1",
+            "fall.001": "I'm still a little bit shy about Maru...$4",
+            "fall.002": "Maru, you look gorgeous right now.$4",
+            "winter.001": "...$4",
+            "winter.002": "Maru is working with me on a new model plane.$0",
+            "familydinner.001": "Next time we should have dinner in our house, Maru.$0#$b#Don't worry, I'll be the one cooking.$1"
+            },
+},
+        //Yes children
+{
+"Action": "EditData",
+"Target": "Strings/schedules/Harvey",
+"When": {
+    "Version": "family",
+    "HasSeenEvent": "59020030",
+    "HaveChildren": "true"
+        },
+"Entries":  {
+            "spring.001": "The good things in life are better with Maru and our little boys.$1",
+            "spring.002": "Maru learns very quickly.$0#$b#I'm sure Caelum and Orion got that from her.$1",
+            "summer.001": "Maru...$4#$b#...you mean the world to me.$4",
+            "summer.002": "Maru looks so cute when she asks me about difficult medical terms.$1",
+            "fall.001": "What do you want to have for dinner, Maru?$1",
+            "fall.002": "Maru, do you think the kids will like this book?$0",
+            "winter.001": "...$4",
+            "winter.002": "Maru is working with me on a new model plane.$0#$b#Maybe Orion and Caelum can help too.$1",
+            "familydinner.001": "Next time we should have dinner in our house, Maru.$0#$b#Don't worry, I'll be the one cooking.$1"
+            },
+},
+    //Maru
+        //No children
+{
+"Action": "EditData",
+"Target": "Strings/schedules/Maru",
+"When": {
+    "Version": "family",
+    "HasSeenEvent": "59020030",
+    "HaveChildren": "false"
+        },
+"Entries":  {
+            "spring.001": "I love spending time with Harvey.$4",
+            "spring.002": "Harvey and Penny are both great at teaching.$1",
+            "summer.001": "I love to stargaze with Harvey.$4#$b#It's... magical.$4",
+            "summer.002": "Studying with Harvey is so enjoyable.$1",
+            "fall.001": "We have so many interesting books to read.$0",
+            "fall.002": "Working at the clinic is never boring with Harvey by my side.$4",
+            "winter.001": "This place brings me so many memories...$4",
+            "winter.002": "Harvey looks handsome when he's reading.$4",
+            "familydinner.001": "It's getting late, I should head to the saloon before mom and dad arrive.$0",
+            "familydinner.002": "Everything is delicious. Harvey, you should ask Gus for the recipe.$1"
+            },
+},
+        //Yes children
+{
+"Action": "EditData",
+"Target": "Strings/schedules/Maru",
+"When": {
+    "Version": "family",
+    "HasSeenEvent": "59020030",
+    "HaveChildren": "true"
+        },
+"Entries":  {
+            "spring.001": "I love spending time with Harvey.$4",
+            "spring.002": "Harvey and Penny are both great at teaching.$0#$b#Orion and Caelum are learning so much from them.$1",
+            "summer.001": "It's nice to go stargazing as a family.$1",
+            "summer.002": "Studying with Harvey is so enjoyable.$1",
+            "fall.001": "We have so many interesting books, Caelum and Orion love to read.$0",
+            "fall.002": "I should see how the boys are doing.$0",
+            "winter.001": "This place brings me so many memories...$4",
+            "winter.002": "Harvey looks handsome when he's reading.$4",
+            "familydinner.001": "It's getting late, I should head to the saloon before mom and dad arrive.$0",
+            "familydinner.002": "Everything is delicious. Orion, Caelum, have some more soup.$0"
+            },
+},
+    //Demetrius
+        //No children
+{
+"Action": "EditData",
+"Target": "Strings/schedules/Demetrius",
+"When": {
+    "HaveChildren": "false"
+        },
+"Entries":  {
+            "familydinner.001": "Gus, bring us some more wine please.$0"
+            },
+},
+        //Yes children
+{
+"Action": "EditData",
+"Target": "Strings/schedules/Demetrius",
+"When": {
+    "HaveChildren": "true"
+        },
+"Entries":  {
+            "familydinner.001": "Gus, bring us some more wine please.$0#$b#And also juice for the kids.$0"
+            },
+},
+    //Robin
+{
+"Action": "EditData",
+"Target": "Strings/schedules/Robin",
+"Entries":  {
+            "familydinner.001": "Hello, @.$0#$b#We're having a little family dinner.$1#$b#Demetrius is outside asking Gus to bring more drinks.$0"
+            },
+},
+    //Sebastian
+{
+"Action": "EditData",   
+"Target": "Strings/schedules/Sebastian",
+"Entries":  {
+            "familydinner.001": "It has been so long since we had dinner like this.$0"
+            },
+},
+
+//Dialogues
+    //Maru no child
+{ 
+ "Action": "EditData",
+ "Target": "Characters/Dialogue/Maru",
+ "FromFile": "assets/Dialogue/Maru.json",
+ "When": {
+    "Version": "family",
+    "HasSeenEvent": "59020030",
+    "HaveChildren": "false"
+        }
+},
+    //Maru yes child
+{ 
+ "Action": "EditData",
+ "Target": "Characters/Dialogue/Maru",
+ "FromFile": "assets/Dialogue/MaruChild.json",
+ "When": {
+    "Version": "family",
+    "HasSeenEvent": "59020030",
+    "HaveChildren": "true"
+        }
+},
+    //Harvey no child
+{ 
+ "Action": "EditData",
+ "Target": "Characters/Dialogue/Harvey",
+ "FromFile": "assets/Dialogue/Harvey.json",
+ "When": {
+    "Version": "family",
+    "HasSeenEvent": "59020030",
+    "HaveChildren": "false"
+		},
+},
+    //Harvey yes child
+{ 
+ "Action": "EditData",
+ "Target": "Characters/Dialogue/Harvey",
+ "FromFile": "assets/Dialogue/HarveyChild.json",
+ "When": {
+    "Version": "family",
+    "HasSeenEvent": "59020030",
+    "HaveChildren": "true"
+		},
+},  
+    //Demetrius
+        //No children
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Demetrius",
+"When": {
+    "Version": "family",
+    "HasSeenEvent": "59020030",
+    "HaveChildren": "false"
+        },
+"Entries": {
+            "Mon6": "Robin and I visited Maru and Harvey yesterday.$0#$b#He cooked bean hotpot for us.$1",
+            "Tue10": "I know I've been harsh with Harvey in the past...$2#$b#But now it's different!$1",
+            "Wed8": "I hope Maru comes to visit us more often...$2",
+            "Thu6": "Maru seems really happy with Harvey.$1",
+            "Fri10": "Harvey's also a member of our family, so be nice to him!$1",
+            "Sat8": "Harvey and Maru came by yesterday and helped me with the experiments.$0#$b#They're really good scientists!$1",
+            "Sun10": "I'm relieved that Harvey doesn't hold a grudge for the way I treated him in the past.$0#$b#He's a good man and I'm happy Maru married him.$0"
+			}
+},
+        //Yes children
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Demetrius",
+"When": {
+    "Version": "family",
+    "HasSeenEvent": "59020030",
+    "HaveChildren": "true"
+        },
+"Entries": {
+            "Mon6": "Robin and I visited the kids yesterday.$0#$b#They're growing up so fast.$1#$e#And Harvey also cooked bean hotpot for us.$1",
+            "Tue10": "I can't wait to make some experiments with Orion and Caelum.$1",
+            "Wed8": "I hope Maru comes to visit us soon, I really miss her and the kids.$1",
+            "Thu6": "Maru seems really happy with Harvey.$0#$b#Their family is truly lovely.$1",
+            "Fri10": "Hello, @.$0#$e#On Fridays Orion and Caelum come and help me in the laboratory.$0#$b#They might be young, but have so much talent.$1",
+            "Sat8": "Harvey and Maru came by yesterday and helped me with the experiments.$0#$b#They're really good scientists!$1#$b#I'm sure Orion and Caelum will take that from them.$0",
+            "Sun10": "I'm relieved that Harvey doesn't hold a grudge for the way I treated him in the past.$0#$b#He's a good man and I'm happy Maru married him.$0"
+			}
+},
+    //Robin
+        //No children
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Robin",
+"When": {
+    "Version": "family",
+    "HasSeenEvent": "59020030",
+    "HaveChildren": "false"
+        },
+"Entries": {
+            "Mon8": "I'm sure Harvey is taking care of Maru, so I'm not worried at all.$1",
+            "Tue8": "I can see that Harvey loves Maru.$0#$b#I'm so happy for them!$1",
+            "Wed10": "I helped Maru and Harvey to remodel Harvey's apartment.$0#$b#They have their dream house now!$1",
+            "Thu6": "I knew Maru and Harvey would make a good couple.$1",
+            "Fri10": "I'm going to drop by the clinic later.$0#$b#I've prepared some picked tomato for Harvey.$1",
+            "Sat8": "I'm not sure, but I think Sebastian also thinks highly of Harvey.$1",
+            "Sun6": "Maru and Harvey remind me of Demetrius and I...$0#$e#We were so young back in the day.$0"
+			}
+},   
+        //Yes children
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Robin",
+"When": {
+    "Version": "family",
+    "HasSeenEvent": "59020030",
+    "HaveChildren": "true"
+        },
+"Entries": {
+            "Mon8": "I'm sure Harvey is taking care of Maru and the kids, so I'm not worried at all.$1",
+            "Tue8": "I can see that Harvey loves Maru.$0#$b#I'm so happy for them!$1",
+            "Wed10": "I helped Maru and Harvey to remodel Harvey's apartment.$0#$b#They have their dream house now!$1",
+            "Thu6": "I knew Maru and Harvey would have kids soon.$0#$b#It makes me feel old, but I love being a grandmother!$1",
+            "Fri10": "I'm going to drop by the clinic later.$0#$b#I've prepared some picked tomato for Harvey and gifts for Caelum and Orion.$1",
+            "Sat8": "The kids adore Sebastian, they're always asking him to play Solarion Chronicles with them.$1",
+            "Sun6": "Orion and Caelum look just like Maru when she was a kid.$0"
+			}
+}, 
+    //Sebastian
+        //No children
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Sebastian",
+"When": {
+    "Version": "family",
+    "HasSeenEvent": "59020030",
+    "HaveChildren": "false"
+        },
+"Entries": {
+            "Mon4": "I guess I'm kind of happy for Maru and Harvey.$0",
+            "Tue8": "Harvey asked me for help when he came to our house the other day.$0#$b#He told me that he wanted to create an internal database for the clinic.$0#$e#It feels good when someone values your work.$1",
+            "Wed6": "Guess it was natural for Maru and Harvey to get together.$0#$b#Besides working at the clinic, I think they have the same interests.$0",
+            "Thu8": "Harvey comes around some days.$0#$b#We don't really talk, but he's shown interest in my work and I appreciate that.$1",
+            "Fri8": "Harvey is pretty cool, he brought me sashimi the other day!$1",
+            "Sat4": "The house is quieter now that Maru's living with Harvey.$1",
+            "Sun6": "Demetrius has been a little bit down since Maru moved in with Harvey.$0" 
+			}
+},
+        //Yes children
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Sebastian",
+"When": {
+    "Version": "family",
+    "HasSeenEvent": "59020030",
+    "HaveChildren": "true"
+        },
+"Entries": {
+            "Mon4": "I'm happy for Maru and Harvey.$0",
+            "Tue8": "Harvey asked me for help when he came to our house the other day.$0#$b#He told me that he wanted to create an internal database for the clinic.$0#$e#It feels good when someone values your work.$1",
+            "Wed6": "Guess it was natural for Maru and Harvey to get together.$0#$b#Besides working at the clinic, I think they have the same interests.$0",
+            "Thu8": "Harvey comes around somedays with Caelum and Orion.$0#$b#We don't really talk, but he's shown interest in my work and I appreciate that.$1",
+            "Fri8": "Orion and Caelum brought me sashimi the other day, they're really nice kids.$1",
+            "Sat4": "The house is quieter now that Maru's living with Harvey.$1",
+            "Sun6": "Demetrius was a little bit down when Maru moved in with Harvey.$0#$b#But now that Orion and Caelum come over every week, he's been more cheerful.$0" 
+			}
+},
+
+//NPC Dispositions
+{    
+ "Action": "EditData",
+ "Target": "Data/NPCDispositions",
+ "FromFile": "assets/Data/NPCDispositions.json",
+ "When": {
+    "Version": "family",
+    "HasSeenEvent": "59020030"
+		},
+},
+    
+//Map strings
+{
+ "Action": "EditData",
+ "Target": "Strings/StringsFromMaps",
+ "Entries": {	
+            "MaruHarvey1": "There's some rhubarb pie.",
+            "MaruHarvey2": "\"The Camarc History of Medicine\"",
+            "MaruHarvey3": "It's set to the history station.",
+            "MaruHarvey4": "21x+3i < 3(3u+7x)^21x+3i < 9u+21x^3i < 9u^i <3 u",
+            "MaruHarvey5": "\"How to Explain Quantum Physics with a Zombie Cat\"",
+            "MaruHarvey6": "It's a educational toy robot.",
+            "MaruHarvey7": "It's some kind of device that looks pretty scrappy.",
+            "MaruHarvey8": "It's a laundry room.",
+            "MaruHarvey9": "\"Look Inside Space\"",
+            "MaruHarvey10": "It's a cup of long black coffee."
+		    },
+},
+   ]
+}

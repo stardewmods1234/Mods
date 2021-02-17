@@ -1,0 +1,185 @@
+{
+  "WeatherForYesterday": "Sunny",
+  "LNOSCounter": {
+    "MeadowBlock": 1
+  },
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "ForestRoad",
+      "Name": null,
+      "Tile": "9, 0",
+      "Type": "LargeObject",
+      "ID": 672,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Meadow",
+      "Name": "Daffodil",
+      "Tile": "8, 8",
+      "Type": "Forage",
+      "ID": 18,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Meadow",
+      "Name": "Dandelion",
+      "Tile": "9, 13",
+      "Type": "Forage",
+      "ID": 22,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Meadow",
+      "Name": "Dandelion",
+      "Tile": "4, 7",
+      "Type": "Forage",
+      "ID": 22,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Meadow",
+      "Name": "Pink Cat",
+      "Tile": "16, 8",
+      "Type": "Forage",
+      "ID": 4860,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Meadow",
+      "Name": "Blue Jazz",
+      "Tile": "16, 14",
+      "Type": "Forage",
+      "ID": 597,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "GhostTown",
+      "Name": "Artifact Spot",
+      "Tile": "38, 24",
+      "Type": "Forage",
+      "ID": 590,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "GhostTown",
+      "Name": "Artifact Spot",
+      "Tile": "17, 14",
+      "Type": "Forage",
+      "ID": 590,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "GhostTown",
+      "Name": "Artifact Spot",
+      "Tile": "39, 18",
+      "Type": "Forage",
+      "ID": 590,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Interchange",
+      "Name": "Artifact Spot",
+      "Tile": "13, 42",
+      "Type": "Forage",
+      "ID": 590,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Interchange",
+      "Name": "Artifact Spot",
+      "Tile": "2, 45",
+      "Type": "Forage",
+      "ID": 590,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Interchange",
+      "Name": "Artifact Spot",
+      "Tile": "16, 42",
+      "Type": "Forage",
+      "ID": 590,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Interchange",
+      "Name": "Artifact Spot",
+      "Tile": "15, 25",
+      "Type": "Forage",
+      "ID": 590,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Interchange",
+      "Name": "Artifact Spot",
+      "Tile": "36, 50",
+      "Type": "Forage",
+      "ID": 590,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "ForestRoad",
+      "Name": "Potato",
+      "Tile": "30, 10",
+      "Type": "Forage",
+      "ID": 192,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "ForestRoad",
+      "Name": "Lemon",
+      "Tile": "10, 10",
+      "Type": "Forage",
+      "ID": 4449,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
+}

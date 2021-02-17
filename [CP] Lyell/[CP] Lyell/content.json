@@ -1,0 +1,567 @@
+{
+    // Lyell Halkias
+    // Mod by FellowClown
+    // Art by FellowClown
+    // Replaces Lyell with Lyell Halkias
+    "Format": "1.19.0",
+    "DynamicTokens": [
+        {
+            "Name": "WeatherVariant",
+            "Value": "Rain",
+            "When": {
+                "Season": "spring, summer, fall",
+                "Weather": "rain, storm, snow"
+            },
+        },
+        {
+            "Name": "WeatherVariant",
+            "Value": "Sun",
+            "When": {
+                "Weather": "sun, wind",
+                "Season": "spring, summer, fall,winter"
+            },
+        },
+        {
+            "Name": "WeatherVariant",
+            "Value": "Snow",
+            "When": {
+                "Season": "winter",
+                "Weather": "snow, rain, storm"
+            },
+        },
+        {
+            "Name": "IsEnglish",
+            "Value": "{{Language |contains=en}}"
+        }
+    ],
+
+   "ConfigSchema": {
+        // Variant Toggle
+        "LyellVariantPortraits": {
+            "AllowValues": "Vanilla,Stylized,Canon",
+            "Default": "Canon",
+            "AllowBlank": false
+        },
+        "LyellVariantSprites": {
+            "AllowValues": "Vanilla,Stylized,Canon",
+            "Default": "Canon",
+            "AllowBlank": false
+        },
+    },
+    "Changes": [
+                 {
+      "Action": "EditData",
+      "Target": "Data/CustomNPCExclusions",
+      "Entries": {
+        "Lyell": "IslandVisit"
+      }
+    },
+       /************************************************
+        ** map merges
+        ************************************************/
+{
+   "Action": "EditMap",
+   "Target": "Maps/Forest",
+   "FromFile": "assets/Maps/Forest.tbin",
+   "ToArea": { "X": 14, "Y": 1, "Width": 4, "Height": 10 },
+   "TextOperations": [
+      {
+         "Operation": "Append",
+         "Target": ["MapProperties", "Warp"],
+         "Value": "15 7 LyellsWoods 31 30",
+         "Delimiter": " "
+      }
+  ]
+},
+        /************************************************
+        ** Festival spots
+        ************************************************/
+        {
+            "LogName": "Adds Lyell to festivals",
+            "Action": "Include",
+            "FromFile": "assets/Data/Festivals.json",
+        },
+        /************************************************
+        ** Map tilesheets
+        ************************************************/
+        {
+            "Action": "Load",
+            "Target": "Maps/DeepForestLyell, Maps/fall_crops, Maps/fall_lyellhouse, Maps/Lyell_Craftables, Maps/Lyell_Goat, Maps/Lyell_horse, Maps/Lyell_Sheep, Maps/Lyell_White Cow, Maps/LyellCow, Maps/spring_crops, Maps/spring_lyellhouse, Maps/summer_crops, Maps/summer_lyellhouse, Maps/winter_crops, Maps/winter_lyellhouse",
+            "FromFile": "assets/Maps/Tilesheets/{{TargetWithoutPath}}.png"
+        },
+
+
+        /************************************************
+        ** Secret notes
+        ************************************************/
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/SecretNotesImages",
+            "FromFile": "assets/Image/SecretNotesImages/SecretNoteImage1.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+            "ToArea": { "X": 0, "Y": 192, "Width": 64, "Height": 64 }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/SecretNotesImages",
+            "FromFile": "assets/Image/SecretNotesImages/SecretNoteImage2.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+            "ToArea": { "X": 64, "Y": 192, "Width": 64, "Height": 64 }
+        },
+        {
+            "LogName": "SecretNotes",
+            "Action": "EditData",
+            "Target": "Data/SecretNotes",
+            "Entries": {
+                "988": "!image 13",
+                "987": "!image 12",
+                "986": "{{i18n:journal.1}}",
+                "985": "{{i18n:journal.2}}",
+                "984": "{{i18n:journal.3}}",
+                "983": "{{i18n:journal.4}}",
+                "982": "{{i18n:journal.5}}",
+            }
+        },
+
+        /************************************************
+        ** Events temp actors
+        ************************************************/
+        {
+            "LogName": "TempActor Portraits",
+            "Action": "Load",
+            "Target": "Portraits/Hebe, Portraits/Roswell",
+            "FromFile": "assets/Image/TempActors/Portraits/{{TargetWithoutPath}}.png",
+        },
+        {
+            "LogName": "TempActor Sprites",
+            "Action": "Load",
+            "Target": "Characters/Hebe, Characters/Roswell",
+            "FromFile": "assets/Image/TempActors/Sprites/{{TargetWithoutPath}}.png",
+        },
+
+
+        /************************************************
+        ** Portraits & sprites
+        ************************************************/
+        // Event portraits
+        {
+            "LogName": "Event Portraits",
+            "Action": "Load",
+            "Target": "Portraits/Lyell_Cow",
+            "FromFile": "assets/Image/Event/{{LyellVariantPortraits}}/LyellCow.png"
+        },
+        {
+            "LogName": "Event Sprites",
+            "Action": "Load",
+            "Target": "Characters/Lyell_Cow",
+            "FromFile": "assets/Image/Event/{{LyellVariantSprites}}/LyellCowSprites.png"
+        },
+        {
+            "LogName": "Portraits",
+            "Action": "Load",
+            "Target": "Portraits/Lyell_Spring",
+            "FromFile": "assets/Image/Event/{{LyellVariantPortraits}}/LyellSpring.png"
+        },
+
+        // Everyday sprites and Portraits
+        {
+            "LogName": "Portraits",
+            "Action": "Load",
+            "Target": "Portraits/Lyell",
+            "FromFile": "assets/Image/Portraits/{{LyellVariantPortraits}}/Lyell_Spring_Sun.png"
+        },
+        {
+            "LogName": "Sprites",
+            "Action": "Load",
+            "Target": "Characters/Lyell",
+            "FromFile": "assets/Image/Sprites/{{LyellVariantSprites}}/Lyell_Spring_Sun.png"
+        },
+        {
+            "LogName": "Portraits",
+            "Action": "EditImage",
+            "Target": "Portraits/Lyell",
+            "FromFile": "assets/Image/Portraits/{{LyellVariantPortraits}}/Lyell_{{season}}_{{WeatherVariant}}.png"
+        },
+        {
+            "LogName": "Sprites",
+            "Action": "EditImage",
+            "Target": "Characters/Lyell",
+            "FromFile": "assets/Image/Sprites/{{LyellVariantSprites}}/Lyell_{{season}}_{{WeatherVariant}}.png"
+        },
+
+
+        /************************************************
+        ** Festival images
+        ************************************************/
+        {
+            "LogName": "Festival Sprites",
+            "Action": "EditImage",
+            "Target": "Characters/Lyell",
+            "FromFile": "assets/Image/Sprites/Festivals/{{LyellVariantSprites}}/{{DayEvent}}.png",
+            "Update":"OnLocationChange",
+            "When": {
+                "HasFile:{{FromFile}}": true,
+                "LocationName": "Temp",  
+            }
+        },
+        {
+            "LogName": "Festival Portraits",
+            "Action": "EditImage",
+            "Target": "Portraits/Lyell",
+            "FromFile": "assets/Image/Portraits/Festivals/{{LyellVariantPortraits}}/{{DayEvent}}.png",
+             "Update":"OnLocationChange",
+            "When": {
+                "HasFile:{{FromFile}}": true,
+                "LocationName": "Temp",
+            }
+        },
+
+
+        /************************************************
+        ** NPC info
+        ************************************************/
+        {
+            "LogName": "NPC Dispositions",
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "Entries": {
+                "Lyell": "adult/polite/shy/neutral/male/datable/null/town/winter 6//LyellsHouse 5 5 2/{{i18n:npc-display-name}}"
+            }
+        },
+        {
+            "LogName": "NPC Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Lyell": "{{i18n:gift.love}}$h/84 114 138 346/{{i18n:gift.like}}$2/143 184 188 190 197 206 205/{{i18n:gift.dislike}}$3/220 222 221 248 397/{{i18n:gift.hate}}$2/789 800/{{i18n:gift.neutral}}// ",
+            }
+        },
+        /************************************************
+        ** Movies
+        ************************************************/
+        {
+            "LogName": "Movie Reactions",
+            "Action": "Include",
+            "Target": "Data/MoviesReactions",
+            "FromFile": "assets/movie-reactions.json",
+        },
+        {
+            "LogName": "Movie Concession Tastes",
+            "Action": "EditData",
+            "Target": "Data/ConcessionTastes",
+            "Entries": { 
+                "Lyell": {
+                    "Name": "Lyell",
+                    "LovedTags": [ "Cappuccino Mousse Cake", "Rock Candy", "Apple Slices", "Jasmine Tea", "Truffle Popcorn" ],
+                    "LikedTags": [ "Ice Cream Sandwich", "Chocolate Popcorn", "Personal Pizza" ],
+                    "DislikedTags": [ "Joja" ]
+                }
+            }
+        },
+
+
+        /************************************************
+        ** Generic dialogue
+        ************************************************/
+        {
+            "LogName": "ExtraDialogue",
+            "Action": "EditData",
+            "Target": "Data/ExtraDialogue",
+            "Entries": {
+                "Mines_PlayerKilled_Lyell_NotSpouse": "{{i18n:player-killed.not-spouse}}",
+                "Mines_PlayerKilled_Lyell_Spouse": "{{i18n:player-killed.spouse}}"
+            }
+        },
+        {
+            "LogName": "Engagement Dialogue",
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "Entries": {
+                "Lyell0": "{{i18n:engagement.0}}",
+                "Lyell1": "{{i18n:engagement.1}}",
+            }
+        },
+        {
+            "LogName": "Lyell Jealousy Messages",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lyell",
+            "Entries": {
+                "giftquestion_yes": "{{i18n:gift-question.truth}}",
+                "giftquestion_lie": "{{i18n:gift-question.lie}}"
+            },
+            "When": {
+                "HasMod |contains=minervamaga.CP.JealousyResponses": true
+            }
+        },
+        {
+            "LogName": "Coriel Courtship",
+            "Action": "Include",
+            "FromFile": "assets/MissCoriel-courtship-dialogue.json",
+            "When": {
+                "HasMod |contains=misscoriel.courtship": true
+            }
+        },
+        {
+            "LogName": "Dialogue Default",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Lyell",
+            "FromFile": "assets/Dialogue/Dialogue-en.json",
+        },
+        {
+            "LogName": "Dialogue Edit",
+            "Action": "Include",
+            "FromFile": "assets/Dialogue/Dialogue-{{language}}.json",
+            "When": {
+                "IsEnglish": false,
+                "HasFile:{{FromFile}}": true
+            }
+        },
+        {
+            "LogName": "Dialogue 2 3 4 hearts",
+            "Action": "Include",
+            "FromFile": "assets/Dialogue/Dialogue 2 3 4-en.json",
+            "When": {
+                "Hearts:Lyell": "2,3,4"
+            }
+        },
+        {
+            "LogName": "Dialogue 2 3 4 hearts",
+            "Action": "Include",
+            "FromFile": "assets/Dialogue/Dialogue 2 3 4-{{language}}.json",
+            "When": {
+                "Hearts:Lyell": "2,3,4",
+                "IsEnglish": false,
+                "HasFile:{{FromFile}}": true
+            }
+        },
+        {
+
+            "LogName": "Dialogue 5 6 7",
+            "Action": "Include",
+            "FromFile": "assets/Dialogue/Dialogue 5 6 7-en.json",
+            "When": {
+                "Hearts:Lyell": "5,6,7"
+            }
+        },
+        {
+            "LogName": "Dialogue 5 6 7",
+            "Action": "Include",
+            "FromFile": "assets/Dialogue/Dialogue 5 6 7-{{language}}.json",
+            "When": {
+                "Hearts:Lyell": "5,6,7",
+                "IsEnglish": false,
+                "HasFile:{{FromFile}}": true
+            }
+        },
+        {
+            "LogName": "Dialogue Edit",
+            "Action": "Include",
+            "FromFile": "assets/Dialogue/Dialogue 8 9 10-en.json",
+            "When": {
+                "Hearts:Lyell": "8,9,10"
+            }
+        },
+        {
+            "LogName": "Dialogue Edit",
+            "Action": "Include",
+            "FromFile": "assets/Dialogue/Dialogue 8 9 10-{{language}}.json",
+            "When": {
+                "Hearts:Lyell": "8,9,10",
+                "IsEnglish": false,
+                "HasFile:{{FromFile}}": true
+            }
+        },
+        {
+            "LogName": "Dialogue Edit",
+            "Action": "Include",
+            "FromFile": "assets/Dialogue/DialogueDating-en.json",
+            "When": {
+                "Relationship:Lyell": "Dating"
+            }
+        },
+        {
+            "LogName": "Dialogue Edit",
+            "Action": "Include",
+            "FromFile": "assets/Dialogue/DialogueDating-{{language}}.json",
+            "When": {
+                "Relationship:Lyell": "Dating",
+                "IsEnglish": false,
+                "HasFile:{{FromFile}}": true
+            }
+        },
+        {
+            "LogName": "Marriage Dialogue Default",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/MarriageDialogueLyell",
+            "FromFile": "assets/Dialogue/MarriageDialogue-en.json",
+        },
+        {
+            "LogName": "Marriage Dialogue Edit",
+            "Action": "Include",
+            "FromFile": "assets/Dialogue/MarriageDialogue-{{language}}.json",
+            "When": {
+                "IsEnglish": false,
+                "HasFile:{{FromFile}}": true
+            }
+        },
+
+        /************************************************
+        ** Schedules
+        ************************************************/
+        {
+            "LogName": "Schedule Default",
+            "Action": "Load",
+            "Target": "Characters/schedules/Lyell",
+            "FromFile": "assets/Schedule/Schedule.json",
+        },
+        {
+            "LogName": "Schedule strings Default",
+            "Action": "Load",
+            "Target": "Strings/schedules/Lyell",
+            "FromFile": "assets/Schedule/ScheduleDialogue-en.json",
+        },
+        {
+            "LogName": "Schedule strings Edit",
+            "Action": "Include",
+            "FromFile": "assets/Schedule/ScheduleDialogue-{{Language}}.json",
+            "When": {
+                "IsEnglish": false,
+                "HasFile:{{FromFile}}": true
+            }
+        },
+
+
+        /************************************************
+        ** Festival dialogue
+        ************************************************/
+        {
+            "LogName": "Festival dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13, Data/Festivals/spring24, Data/Festivals/summer11, Data/Festivals/summer28, Data/Festivals/fall1, Data/Festivals/fall3, Data/Festivals/fall16, Data/Festivals/fall27, Data/Festivals/winter8, Data/Festivals/winter25",
+            "Entries": {
+                // show the first translation found from 'spring13.dating', 'spring13', or 'festival-default'
+                "Lyell": "{{i18n:{{TargetWithoutPath}}.{{Relationship:Lyell}} |default={{i18n:{{TargetWithoutPath}} |default={{i18n:festival-default}} }} }}"
+            }
+        },
+
+
+        /************************************************
+        ** Wedding dialogue
+        ************************************************/
+        {
+            "LogName": "cs strings Edit",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "Utility.cs.5371": "{{i18n:wedding.1}}",
+                "Utility.cs.5377": "{{i18n:wedding.2}}",
+                "Utility.cs.5367": "{{i18n:wedding.3}}",
+                "Utility.cs.5369": "{{i18n:wedding.4}}"
+            },
+            "When": {
+                "Relationship:Lyell": "Engaged,Married"
+            }
+        },
+
+
+        /************************************************
+        ** Miscellaneous data
+        ************************************************/
+        {
+            "Action": "EditData",
+            "Target": "Data/animationDescriptions",
+            "Entries": {
+                "Lyell_read": "32/30/30",
+                "Lyell_smoke": "20/20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 21 21 21 21 21 21 21 21 21 21 20 20 20 20 20 20 20 20 20 20 20 20/20",
+                "Lyell_music": "22/23 23 23 23 23 22 22 22 22 23 23 23 23 23 22 22 22 22/22",
+                "Lyell_gun": "29/29 29/29",
+                "Lyell_drink": "36/36 36 36 36 36 36 36 36 36 36 36 36 37 38 39 38 37/36",
+                "Lyell_kneel": "25/25/25",
+                "Lyell_stand": "26/27/28",
+                "Lyell_spook": "3/35/3"
+            }
+        },
+      {
+            "LogName": "Map Strings Edit",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+   
+                "LyellSign.1": "{{i18n:maps.LyellSign.1}}",
+                "LyellsWoods.1": "{{i18n:maps.LyellsWoods.1}}",
+                "LyellsWoods.2": "{{i18n:maps.LyellsWoods.2}}",
+                "LyellsWoods.3": "{{i18n:maps.LyellsWoods.3}}",
+                "LyellsWoods.4": "{{i18n:maps.LyellsWoods.4}}",
+                "LyellsWoods.5": "{{i18n:maps.LyellsWoods.5}}",
+                "LyellsWoods.6": "{{i18n:maps.LyellsWoods.6}}",
+                "LyellsWoods.7": "{{i18n:maps.LyellsWoods.7}}",
+                "LyellsWoods.8": "{{i18n:maps.LyellsWoods.8}}",
+                "LyellsWoods.9": "{{i18n:maps.LyellsWoods.9}}",
+                "LyellsWoods.10": "{{i18n:maps.LyellsWoods.10}}",
+                "LyellsWoods.11": "{{i18n:maps.LyellsWoods.11}}",
+                "LyellsWoods.12": "{{i18n:LyellsWoods.12}}",
+                "LyellCoop.1": "{{i18n:maps.LyellCoop.1}}",
+                "LyellCoop.2": "{{i18n:maps.LyellCoop.2}}",
+                "LyellCoop.3": "{{i18n:maps.LyellCoop.3}}",
+                "LyellCoop.4": "{{i18n:maps.LyellCoop.4}}",
+                "LyellCoop.5": "{{i18n:maps.LyellCoop.5}}",
+                "LyellBarn.1": "{{i18n:maps.LyellBarn.1}}",
+                "LyellBarn.2": "{{i18n:maps.LyellBarn.2}}",
+                "LyellBarn.3": "{{i18n:maps.LyellBarn.3}}",
+                "LyellBarn.4": "{{i18n:maps.LyellBarn.4}}",
+                "LyellBarn.5": "{{i18n:maps.LyellBarn.5}}",
+                "LyellBarn.6": "{{i18n:maps.LyellBarn.6}}",
+                "LyellBarn.7": "{{i18n:maps.LyellBarn.7}}",
+                "LyellBarn.8": "{{i18n:maps.LyellBarn.8}}",
+                "LyellHouse.1": "{{i18n:maps.LyellHouse.1}}",
+                "LyellHouse.2": "{{i18n:maps.LyellHouse.2}}",
+                "LyellHouse.3": "{{i18n:maps.LyellHouse.3}}",
+                "LyellHouse.4": "{{i18n:maps.LyellHouse.4}}",
+                "LyellHouse.5": "{{i18n:maps.LyellHouse.5}}",
+                "LyellHouse.6": "{{i18n:maps.LyellHouse.6}}",
+                "LyellHouse.7": "{{i18n:maps.LyellHouse.7}}",
+                "LyellHouse.8": "{{i18n:maps.LyellHouse.8}}",
+                "LyellHouse.9": "{{i18n:maps.LyellHouse.9}}.",
+                "LyellHouse.10": "{{i18n:maps.LyellHouse.10}}",
+                "LyellHouse.11": "{{i18n:maps.LyellHouse.11}}",
+                "LyellHouse.12": "{{i18n:maps.LyellHouse.12}}",
+                "LyellHouse.13": "{{i18n:maps.LyellHouse.13}}",
+                "LyellSpouse.1": "{{i18n:maps.LyellSpouse.1}}",
+                "LyellSpouse.2": "{{i18n:maps.LyellSpouse.2}}",
+                "LyellSpouse.3": "{{i18n:maps.LyellSpouse.3}}",
+                "LyellSpouse.4": "{{i18n:maps.LyellSpouse.4}}",
+                "LyellSpouse.5": "{{i18n:maps.LyellSpouse.5}}",
+                "LyellSpouse.6": "{{i18n:maps.LyellSpouse.6}}",
+                "LyellSpouse.7": "{{i18n:maps.LyellSpouse.7}}",
+                "LyellSpouse.8": "{{i18n:maps.LyellSpouse.8}}",
+                "LyellSpouse.9": "{{i18n:maps.LyellSpouse.9}}"
+            }
+        },
+        {
+            "LogName": "Mail",
+            "Action": "EditData",
+            "Target": "data/mail",
+            "Entries": {
+                "Lyellbeer": "{{i18n:mail.beer}}",
+                "LyellAncientFruit": "{{i18n:mail.ancientFruit}}",
+                "costume": "{{i18n:mail.costume}}",
+                "coal": "{{i18n:mail.coal}}",
+            }
+        },
+        {
+            "LogName": "Quests",
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "Entries": {
+                "346": "{{i18n:quest.beer}}",
+                "454": "{{i18n:quest.drink}}",
+                "486": "{{i18n:quest.seeds}}",
+                "270": "{{i18n:quest.corn}}",
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/events.json"
+        }
+    ]
+}

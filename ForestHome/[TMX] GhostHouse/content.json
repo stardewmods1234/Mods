@@ -1,0 +1,9 @@
+{
+  //Custom Locations here
+  "addMaps": [
+	{
+      "name": "GhostHouse",
+      "file": "assets/GhostHouse.tmx"
+    }
+  ]
+}

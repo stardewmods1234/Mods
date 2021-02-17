@@ -1,0 +1,117 @@
+{
+	"Name": "[CCS] Kitchen Station Set",
+	"Author": "KAYA",
+	"Version": "1.1.3",
+	"Description": "Kitchen Station Set",
+	"UniqueID": "KAYA.CCSKitchenStation",
+	"Dependencies": [
+		{
+			"UniqueID": "KAYA.JAKitchenStationSet",
+			"IsRequired": true,
+		},
+		{
+			"UniqueID": "ppja.artisanvalleymachinegoods",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "paradigmnomad.morefood",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "ppja.evenmorerecipes",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "ppja.MoreRecipesMeat",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "paradigmnomad.freshmeat",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "ppja.christmassweets",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "KAYA.FatCaron",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "KAYA.CherryBlossomCafe",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "ApollosNight.Milkshakes",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "callysquared.marshmallows",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "fwippy.champagnewishes",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Hadi.FrozenTreatsJA",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "HisameNewRecipes",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "SSaturn.TropicalFarm",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "SSaturn.OrientalKitchen",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "SSaturn.OrientalKitchen.withFruitsVeggies",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "SSaturn.OrientalKitchen.withMoreTrees",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "SSaturn.OrientalKitchen.withFreshMeatn",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "SSaturn.OrientalKitchen.withArtisanValley",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "SSaturn.OrientalKitchen.withBonstersCrops",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "SSaturn.OrientalKitchen.withOthers",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Zosa.eatums",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "jfujii.TeaTime",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "uberkwefty.wintercrops",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Forsy.Comfort",
+			"IsRequired": false,
+		},
+	],
+    "UpdateKeys": ["Nexus:6305@CCSKitchen"],
+	"ContentPackFor": {
+		"UniqueID": "Cherry.CustomCraftingStations"
+	}
+}

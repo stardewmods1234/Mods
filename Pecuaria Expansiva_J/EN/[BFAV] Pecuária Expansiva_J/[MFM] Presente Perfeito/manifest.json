@@ -1,0 +1,12 @@
+﻿{
+	"Name": "[MFM] Presente Perfeito",
+	"Author": "HamioDracny",
+	"Version": "1.0.2",
+	//"Description": "When you gain Rasmodius' trust, he gives you back.",
+	"UniqueID": "HamioDracny.getstarted",
+	"MinimumApiVersion": "3.5.0",
+	"UpdateKeys": ["Nexus:7176"],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod"
+	}
+}

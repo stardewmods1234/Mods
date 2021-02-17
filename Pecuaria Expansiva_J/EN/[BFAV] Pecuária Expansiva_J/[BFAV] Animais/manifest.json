@@ -1,0 +1,12 @@
+{
+	"Name": "Animais Variados para BFAV",
+	"Author": "HamioDracny",
+	"Version": "1.0.2",
+	"Description": "Adiciona 10 novos animais e 5 variantes especiais e raras deles a sua fazenda.",
+	"UniqueID": "HamioDracny.BFAV.animais",
+    "MinimumApiVersion": "3.3.0",
+	"UpdateKeys": ["Nexus:7176"],
+	"ContentPackFor": {
+			"UniqueID": "Paritee.BetterFarmAnimalVariety"
+		}
+}

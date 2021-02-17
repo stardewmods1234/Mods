@@ -1,0 +1,965 @@
+{
+  "Format": "1.17.0",
+  "ConfigSchema": {
+    //Foraged
+    "EarthCrystal": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "FireCrystal": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "FrozenTear": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Quartz": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+   //Gems
+   "Amethyst": {
+     "AllowValues": "false, true",
+     "Default": "true"
+   },
+   "Aquamarine": {
+    "AllowValues": "false, true",
+    "Default": "true"
+    },
+    "Diamond": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Emerald": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Jade":{
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "PrismaticShard": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Ruby": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Topaz": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    //Geodes
+    "FrozenGeode": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Geode": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "MagmaGeode": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "OmniGeode": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    //Minerals
+    "Aerinite": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Alamite": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Baryte": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Basalt": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Bixite": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Calcite": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Celestine": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Dolomite": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Esperite": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "FairyStone": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "FireOpal": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Fluorapatite": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Geminite": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "GhostCrystal": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Granite": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Helvite": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Hematite": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Jagoite": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Jamborite": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Jasper": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Kyanite": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "LemonStone": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "LimeStone": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Lunarite": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Malachite": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Marble": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Nekoite": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Neptunite": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Obsidian": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "OceanStone": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Opal": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Orpiment": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "PetrifiedSlime": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Pyrite": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "SandStone": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "Slate": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "SoapStone": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "StarShards": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "ThunderEgg": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    },
+    "TigersEye": {
+      "AllowValues": "false, true",
+      "Default": "true"
+    }
+  },
+  "Changes": [
+    //Foraged
+    {
+      "LogName": "EarthCrystal",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Foraged/earthcrystal.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 224, "Y": 48, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+      "EarthCrystal": "true"
+      }
+    },
+    {
+      "LogName": "FireCrystal",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Foraged/firecrystal.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 160, "Y": 48, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+      "FireCrystal": "true"
+      }
+    },
+    {
+      "LogName": "FrozenTear",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Foraged/frozentear.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 192, "Y": 48, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+      "FrozenTear": "true"
+      }
+    },
+    {
+      "LogName": "Quartz",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Foraged/quartz.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 128, "Y": 48, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+      "Quartz": "true"
+      }
+    },
+    //Gems
+    {
+      "LogName": "Amethyst",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Gems/amethyst.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 288, "Y": 32, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+      "Amethyst": "true"
+      }
+    },
+    {
+      "LogName": "Aquamarine",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Gems/aquamarine.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 224, "Y": 32, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+      "Aquamarine": "true"
+      }
+    },
+    {
+      "LogName": "Diamond",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Gems/diamond.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 0, "Y": 48, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+      "Diamond": "true"
+      }
+    },
+    {
+      "LogName": "Emerald",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Gems/emerald.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 192, "Y": 32, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+      "Emerald": "true"
+      }
+    },
+    {
+      "LogName": "Jade",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Gems/jade.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 352, "Y": 32, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+      "Jade": "true"
+      }
+    },
+    {
+      "LogName": "PrismaticShard",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Gems/prismaticshard.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 32, "Y": 48, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+      "PrismaticShard": "true"
+      }
+    },
+    {
+      "LogName": "Ruby",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Gems/ruby.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 256, "Y": 32, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+      "Ruby": "true"
+      }
+    },
+    {
+      "LogName": "Topaz",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Gems/topaz.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 320, "Y": 32, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Topaz": "true"
+      }
+    },
+    //Geodes
+    {
+      "LogName": "FrozenGeode",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Geodes/frozengeode.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 128, "Y": 352, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 8,
+      "AnimationFrameCount": 5,
+      "When": {
+        "FrozenGeode": "true"
+      }
+    },
+    {
+      "LogName": "Geode",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Geodes/geode.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 112, "Y": 352, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 8,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Geode": "true"
+      }
+    },
+    {
+      "LogName": "MagmaGeode",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Geodes/magmageode.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 144, "Y": 352, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 8,
+      "AnimationFrameCount": 5,
+      "When": {
+        "MagmaGeode": "true"
+      }
+    },
+    {
+      "LogName": "OmniGeode",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Geodes/omnigeode.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 80, "Y": 496, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 8,
+      "AnimationFrameCount": 5,
+      "When": {
+        "OmniGeode": "true"
+      }
+    },
+    //Minerals
+    {
+      "LogName": "Aerinite",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/aerinite.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 208, "Y": 352, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Aerinite": "true"
+      }
+    },
+    {
+      "LogName": "Alamite",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/alamite.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 160, "Y": 352, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Alamite": "true"
+      }
+    },
+    {
+      "LogName": "Baryte",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/baryte.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 192, "Y": 352, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Baryte": "true"
+      }
+    },
+    {
+      "LogName": "Basalt",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/basalt.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 288, "Y": 368, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Basalt": "true"
+      }
+    },
+    {
+      "LogName": "Bixite",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/bixite.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 176, "Y": 352, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Bixite": "true"
+      }
+    },
+    {
+      "LogName": "Calcite",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/calcite.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 224, "Y": 352, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Calcite": "true"
+      }
+    },
+    {
+      "LogName": "Celestine",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/celestine.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 224, "Y": 368, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Celestine": "true"
+      }
+    },
+    {
+      "LogName": "Dolomite",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/dolomite.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 240, "Y": 352, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Dolomite": "true"
+      }
+    },
+    {
+      "LogName": "Esperite",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/esperite.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 256, "Y": 352, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Esperite": "true"
+      }
+    },
+    {
+      "LogName": "FairyStone",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/fairystone.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 16, "Y": 384, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "FairyStone": "true"
+      }
+    },
+    {
+      "LogName": "FireOpal",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/fireopal.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 208, "Y": 368, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "FireOpal": "true"
+      }
+    },
+    {
+      "LogName": "Fluorapatite",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/fluorapatite.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 272, "Y": 352, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Fluorapatite": "true"
+      }
+    },
+    {
+      "LogName": "Geminite",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/geminite.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 288, "Y": 352, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Geminite": "true"
+      }
+    },
+    {
+      "LogName": "GhostCrystal",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/ghostcrystal.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 144, "Y": 368, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "GhostCrystal": "true"
+      }
+    },
+    {
+      "LogName": "Granite",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/granite.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 272, "Y": 368, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Granite": "true"
+      }
+    },
+    {
+      "LogName": "Helvite",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/helvite.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 304, "Y": 352, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Helvite": "true"
+      }
+    },
+    {
+      "LogName": "Hematite",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/hematite.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 336, "Y": 368, "Width": 16, "Height": 16 },
+      "When": {
+        "Hematite": "true"
+      }
+    },
+    {
+      "LogName": "Jagoite",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/jagoite.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 336, "Y": 352, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Jagoite": "true"
+      }
+    },
+    {
+      "LogName": "Jamborite",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/jamborite.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 320, "Y": 352, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Jamborite": "true"
+      }
+    },
+    {
+      "LogName": "Jasper",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/jasper.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 176, "Y": 368, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Jasper": "true"
+      }
+    },
+    {
+      "LogName": "Kyanite",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/Kyanite.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 352, "Y": 352, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Kyanite": "true"
+      }
+    },
+    {
+      "LogName": "LemonStone",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/lemonstone.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 32, "Y": 368, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "LemonStone": "true"
+      }
+    },
+    {
+      "LogName": "LimeStone",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/limestone.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 304, "Y": 368, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Limestone": "true"
+      }
+    },
+    {
+      "LogName": "Lunarite",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/lunarite.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 368, "Y": 352, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Lunarite": "true"
+      }
+    },
+    {
+      "LogName": "Malachite",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/malachite.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 0, "Y": 368, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Malachite": "true"
+      }
+    },
+    {
+      "LogName": "Marble",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/marble.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 240, "Y": 368, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Marble": "true"
+      }
+    },
+    {
+      "LogName": "Nekoite",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/nekoite.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 48, "Y": 368, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Nekoite": "true"
+      }
+    },
+    {
+      "LogName": "Neptunite",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/neptunite.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 16, "Y": 368, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Neptunite": "true"
+      }
+    },
+    {
+      "LogName": "Obsidian",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/obsidian.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 368, "Y": 368, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Obsidian": "true"
+      }
+    },
+    {
+      "LogName": "OceanStone",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/oceanstone.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 128, "Y": 368, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "OceanStone": "true"
+      }
+    },
+    {
+      "LogName": "Opal",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/opal.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 192, "Y": 368, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Opal": "true"
+      }
+    },
+    {
+      "LogName": "Orpiment",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/orpiment.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 64, "Y": 368, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Orpiment": "true"
+      }
+    },
+    {
+      "LogName": "PetrifiedSlime",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/petrifiedslime.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 80, "Y": 368, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "PetrifiedSlime": "true"
+      }
+    },
+    {
+      "LogName": "Pyrite",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/pyrite.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 112, "Y": 368, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Pyrite": "true"
+      }
+    },
+    {
+      "LogName": "SandStone",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/sandstone.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 256, "Y": 368, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "SandStone": "true"
+      }
+    },
+    {
+      "LogName": "Slate",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/slate.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 0, "Y": 384, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Slate": "true"
+      }
+    },
+    {
+      "LogName": "SoapStone",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/soapstone.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 320, "Y": 368, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "SoapStone": "true"
+      }
+    },
+    {
+      "LogName": "StarShards",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/starshards.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 32, "Y": 384, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "StarShards": "true"
+      }
+    },
+    {
+      "LogName": "ThunderEgg",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/thunderegg.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 96, "Y": 368, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "ThunderEgg": "true"
+      }
+    },
+    {
+      "LogName": "TigersEye",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "Assets/Minerals/Tigerseye.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 160, "Y": 368, "Width": 16, "Height": 16 },
+      "AnimationFrameTime": 5,
+      "AnimationFrameCount": 5,
+      "When": {
+        "Tigerseye": "true"
+      }
+    }
+  ]
+}

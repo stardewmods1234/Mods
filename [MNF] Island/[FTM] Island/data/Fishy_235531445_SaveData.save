@@ -1,0 +1,35 @@
+{
+  "WeatherForYesterday": "Sunny",
+  "LNOSCounter": {},
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Island",
+      "Name": null,
+      "Tile": "29, 24",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 12,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "buried",
+        "PercentChanceToSpawn": 5.0,
+        "Contents": [
+          117
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Island",
+      "Name": null,
+      "Tile": "28, 26",
+      "Type": "Forage",
+      "ID": 392,
+      "DaysUntilExpire": 13,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
+}

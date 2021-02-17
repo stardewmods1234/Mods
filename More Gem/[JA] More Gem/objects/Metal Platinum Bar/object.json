@@ -1,0 +1,48 @@
+{
+    "Name": "Platinum Bar",
+    "Description": "A bar of pure platinum.",
+    "Category": "ArtisanGoods",
+    "Edibility": -300,
+    "Price": 350,
+    "IsColored": false,
+    "GiftTastes":
+    {
+		"Love": ["Clint", "Maru", ],
+		"Like" : ["Krobus", "Willy", ],
+        "Dislike": ["Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Sebastian", "Shane", "Vincent", "Wizard"],
+		"Hate": ["Sam", ],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "백금 주괴",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Barra de Platina",
+        // "ru": "",
+        // "tr": "",
+        "zh": "铂金锭",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "순수한 백금 주괴 하나.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Uma barra de platina pura.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "铂矿石熔炼而成的高纯度铂金锭。",
+    },
+	
+    "ContextTags": [
+        "color_white", "furnace_item",
+    ],
+}

@@ -1,0 +1,45 @@
+{
+  "Format": "1.19.0",
+  "Changes": [
+    {
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Luma": "teen/polite/shy/neutral/female/non-datable/null/Other/summer 4/Abigail Friend/OrchardHouse 4 4 2/Luma"
+      }
+    },
+    {
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Luma": "Oh wow this is amazing!  Thank you!/64 66 62 60 68 70 72 104 340 417 551/How nice of you, this is great./394 392 398 400 554 279/Oh.. well it's the though that counts I guess./423 447 456 412 349/Gross... You're Gross.../346 348 303 265 257/Thanks/562 568 563 416 "
+      }
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Luma",
+      "FromFile": "assets/img/spritesheet.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Luma",
+      "FromFile": "assets/img/portrait.png"
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Luma",
+      "FromFile": "assets/schedules/Schedule.json"
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Luma",
+      "FromFile": "assets/dialogue/Dialogue.json"
+    },
+  ]
+}

@@ -1,0 +1,16 @@
+{
+"Name":"Dozen Yellow Roses",
+"Category":"Flower",
+"Description":"These roses symbolize joy and friendship. A great gift for a friend!",
+"Price":2500,
+"Edibility":"-300",
+"CanSell": false,
+"IsColored":false,
+"Recipe":null,
+ "GiftTastes":
+    {
+        "Love": ["Abigail", "Evelyn", "Caroline", "Elliott", "Emily", "Haley", "Jodi", "Marnie", "Maru", "Penny", "Sam", "Sandy"],
+        "Like": ["Alex", "Demetrius", "Dwarf", "Gus", "Harvey", "Jas", "Kent", "Krobus", "Leah", "Lewis", "Linus",  "Pam", "Pierre", "Robin",  "Shane", "Vincent", "Willy", "Wizard"],
+        "Dislike": ["George", "Sebastian", "Clint"],
+    },
+}

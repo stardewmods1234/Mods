@@ -1,0 +1,32 @@
+{
+	"Name": "Coral Sculpture",
+	"Description": "Sculpted to display the elegance of coral.",
+	"Price": 1,
+	"ProvidesLight": false,
+	"NameLocalization": {
+		// "es": "",
+		"ko": "산호 조각상",
+		// "de": "",
+		// "fr": "",
+		// "hu": "",
+		// "it": "",
+		// "ja": "",
+		// "pt": "",
+		// "ru": "",
+		// "tr": "",
+		// "zh": "",
+	},
+	"DescriptionLocalization": {
+		// "es": "",
+		"ko": "산호로 우아하게 만들어진 조각상.",
+		// "de": "",
+		// "fr": "",
+		// "hu": "",
+		// "it": "",
+		// "ja": "",
+		// "pt": "",
+		// "ru": "",
+		// "tr": "",
+		// "zh": "",
+	}
+}

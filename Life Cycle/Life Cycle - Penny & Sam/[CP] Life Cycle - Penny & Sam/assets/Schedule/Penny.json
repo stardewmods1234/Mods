@@ -1,0 +1,33 @@
+{
+   "Entries": {
+    //Original
+        "9": "NOT friendship Sam 6/900 House1AC 11 18 3/1000 Town 78 93 2 penny_sit_down/1600 House1AC 13 14 0 penny_dishes/2200 House1AC 20 5 1 penny_sleep",
+        "23": "NOT friendship Sam 6/GOTO 9",
+        "rain": "900 House1AC 5 5 0/1100 House1AC 9 7 0/1300 House1AC 13 14 0 penny_dishes/1500 House1AC 20 16 2 penny_sit_down/1800 House1AC 16 5 2 penny_read/2200 House1AC 20 5 1 penny_sleep",
+        "rain2": "810 Town 104 89 2 \"Strings\\schedules\\Penny:rain2.000\"/1100 ArchaeologyHouse 20 5 0/1600 House1AC 20 16 2 penny_sit_down/2000 House1AC 13 14 0 penny_dishes/2200 House1AC 20 5 1 penny_sleep",
+        "summer": "800 Town 96 18 3/1300 Town 63 15 2 penny_sit_down/1800 House1AC 13 14 0 penny_dishes/2200 House1AC 20 5 1 penny_sleep",
+        "winter_15": "900 House1AC 5 5 0/1100 House1AC 9 7 0/1300 House1AC 13 14 0 penny_dishes/1400 House1AC 20 16 2 penny_sit_down/1530 Beach 35 36 2 \"Strings\\schedules\\Penny:winter_15.000\"/2130 House1AC 20 5 1 penny_sleep",
+        "winter": "800 House1AC 11 18 3/900 CommunityCenter 23 17 2 penny_read/1500 CommunityCenter 46 13 0/1800 House1AC 13 14 0 penny_dishes/2130 House1AC 20 5 1 penny_sleep",
+        "CommunityCenter_Replacement": "ArchaeologyHouse 16 10 2",
+        "winter_4": "800 House1AC 11 18 3 \"Strings\\schedules\\Penny:winter_4.000\"/930 Hospital 4 17 2 penny_sit_down/1330 Hospital 4 6 1 \"Strings\\schedules\\Penny:winter_4.001\"/1600 Town 75 52 2 penny_sit_down/2000 House1AC 13 14 0 penny_dishes/2200 House1AC 20 5 1 penny_sleep",
+        "summer_Sun": "800 Town 96 18 3/1030 ScienceHouse 8 5 2 penny_sit_down/1800 House1AC 13 14 0 penny_dishes/2200 House1AC 20 5 1 penny_sleep",
+        "Tue": "800 ArchaeologyHouse 17 9 2 penny_read/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 House1AC 20 5 1 penny_sleep",
+        "Wed": "GOTO Tue",
+        "Fri": "GOTO Tue",
+        "Sat": "830 Town 32 89 2/1200 Town 12 13 1/1700 Town 29 91 3/2000 House1AC 20 5 1 penny_sleep",
+        "spring": "830 Town 35 89 2 penny_read/1600 Town 44 77 2 penny_sit_down/1840 House1AC 20 5 1 penny_sleep",
+       
+    //Meet with Sam
+        "spring_Tue": "800 ArchaeologyHouse 17 9 2 penny_read \"Strings\\schedules\\Penny:spring.002\"/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 House1AC 20 5 1 penny_sleep",
+        "spring_Thu": "1000 House1AC 4 12 3 \"Strings\\schedules\\Penny:spring.001\"/1340 House1AC 13 14 0 penny_dishes/1400 Town 44 77 2 penny_sit_down/1840 House1AC 20 5 1 penny_sleep",
+        "summer_Sun": "800 Town 96 18 3/1330 Beach 47 24 2 \"Strings\\schedules\\Penny:summer.001\"/1900 House1AC 13 14 0 penny_dishes/2230 House1AC 20 5 1 penny_sleep",
+        "summer_Wed": "800 ArchaeologyHouse 17 9 2 penny_read/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Forest 34 25 2 \"Strings\\schedules\\Penny:summer.002\"/2130 House1AC 20 5 1 penny_sleep",
+        "fall_Sat": "830 Town 32 89 2/1200 Town 12 13 1 \"Strings\\schedules\\Penny:fall.001\"/1700 Town 29 91 3/2000 House1AC 20 5 1 penny_sleep",
+        "fall_Thu": "930 House1AC 4 12 3 \"Strings\\schedules\\Penny:spring.001\"/1200 House1AC 13 14 0 penny_dishes/1400 Town 44 77 2 penny_sit_down/1840 House1AC 20 5 1 penny_sleep",
+        "winter_Wed": "800 ArchaeologyHouse 17 9 2 penny_read \"Strings\\schedules\\Penny:winter.001\"/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 House1AC 20 5 1 penny_sleep",
+        "winter_Sun": "800 Town 35 89 2 penny_read/1230 House1AC 13 14 0 penny_dishes/1430 Town 44 77 2 penny_sit_down/1840 Beach 13 38 2 \"Strings\\schedules\\Penny:winter.002\"/2130 House1AC 20 5 1 penny_sleep",
+       
+    //Family dinner
+        "1": "830 Town 35 89 2 penny_read/1530 House1AC 15 15 2 \"Strings\\schedules\\Penny:familydinner.001\"/2030 House1AC 14 18 0 \"Strings\\schedules\\Penny:familydinner.002\"/2230 House1AC 20 5 1 penny_sleep"
+   },
+}

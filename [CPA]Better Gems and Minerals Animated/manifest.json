@@ -1,0 +1,19 @@
+{
+  "Name": "Better Gemstones Animated",
+  "Author": "Undare",
+  "Version": "1.0.1",
+  "Description": "Add animations to Better Gems and minerals mod from cometkins",
+  "UniqueID": "Undare.GemAnimations",
+  "UpdateKeys": [ "Nexus:6930" ],  ///
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "spacechase0.ContentPatcherAnimations"
+    },
+    {
+      "UniqueID": "cometkins.BetterGemsAndMinerals"
+    },
+  ]
+}

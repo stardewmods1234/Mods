@@ -1,0 +1,46 @@
+{
+    "Name": "White Sapphire",
+    "Description": "A colorless Sapphire.",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
+    "Edibility": -300,
+    "Price": 230,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "화이트 사파이어",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Safira Branca",
+        // "ru": "",
+        // "tr": "",
+        "zh": "白色蓝宝石",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "무색의 사파이어.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Uma safira incolor.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "没有颜色的透明蓝宝石。『白色蓝宝石』也被称为『无色蓝宝石』",
+    },
+	
+    "ContextTags": [
+        "color_white", "sapphire_item", "white_gem", 
+    ],
+}

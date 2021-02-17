@@ -1,0 +1,46 @@
+{
+    "Name": "Milky Quartz",
+    "Description": "A slightly opaque, milky crystal.",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
+    "Edibility": -300,
+    "Price": 70,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "밀키쿼츠",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Quartzo Leitoso",
+        // "ru": "",
+        // "tr": "",
+        "zh": "乳水晶",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "살짝 불투명한 우윳빛 수정.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Um cristal esbranquiçado ligeiramente opaco.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "半透明的乳白色晶体。",
+    },
+	
+    "ContextTags": [
+        "color_white", "white_gem", "quartz_item",
+    ],
+}

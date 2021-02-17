@@ -1,0 +1,46 @@
+{
+    "Name": "Tanzanite",
+    "Description": "Beautiful blue gems produced in Tanzania.",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
+    "Edibility": -300,
+    "Price": 220,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "탄자나이트",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Tanzanita",
+        // "ru": "",
+        // "tr": "",
+        "zh": "坦桑石",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "탄자니아에서 생산되는 아름다운 푸른 보석.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Uma linda jóia azul produzida na Tanzânia.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "一种产自坦桑尼亚的美丽蓝色宝石。",
+    },
+	
+    "ContextTags": [
+        "color_dark_blue", "dark_blue_gem", 
+    ],
+}

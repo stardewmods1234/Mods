@@ -1,0 +1,104 @@
+﻿{
+    "Format": "1.10.0",
+	"ConfigSchema": {
+      "Level": {
+         "AllowValues": "Easy, Regular, Hard",
+         "Default": "Regular"
+      },
+	  "Reward": {
+         "AllowValues": "Easy, Regular, Hard",
+         "Default": "Regular"
+      },
+   },
+    "Changes": [
+	{
+	"Action": "EditData",
+	"Target": "Data/Quests",
+	"FromFile": "assets/{{Language}}/{{Level}}-{{Reward}}.json",
+	},
+            {
+
+
+		// Linus - Fresh Salmonberry Lunch Box Quest Start Event
+	"Action": "EditData",
+	"Target": "Data/Events/Farm",
+	"Entries": {
+        "71550001/w sunny/j 14/z winter/z summer/z fall/y 1/t 600 930":  
+"continue/64 15/farmer 64 16 2 Linus 64 18 0/pause 600/addQuest 5000005/skippable/speak Linus \"... How are you?#$b#I hope i didn't surprise you....#$b#It hasn't been long since you came here, so I thought you might need some advice.\"/pause 500/speak Linus \"Farm work is very hard work. You have to eat frequently to maintain stamina.#$b#There'll be a lot of Salmonberry around for a couple of days starting today.#$b#Salmonberries are sour, but they'll help you fill your hunger if nothing else.\"/pause 300/emote farmer 32/pause 300/speak Linus \"Oh, and leave some Salmonberries for me and the animals.$h#$b#... Then I'll go back now. Good luck.\"/end dialogue Linus \"There are often people who are worried that I might not get something to eat.#$b#However, in this area, there are many fruits like salmonberry open every season, so i don't have to starve. I'm always grateful to nature...\"",
+   },
+},
+            {
+		// Elliott - Elliott's Memories Quest Start Event
+	"Action": "EditData",
+	"Target": "Data/Events/Farm",
+	"Entries": {
+        "71550002/w sunny/j 67/z spring/z summer/z winter/y 1/t 600 930": "continue/64 15/farmer 64 16 2 Elliott 64 18 0/pause 600/addQuest 5000020/skippable/speak Elliott \"*huff and puff* @... I need your help urgently!#$b#My precious watch opal decoration is gone... That's what my grandfather left me.$s\"/pause 500/emote Elliott 28/speak Elliott \"I didn't go to a special place except reading a book in the library, drinking at the saloon, and contemplating on the beach as usual yesterday...$s#$b#I went back to the place I went to, but I can't find it if my eyes are weird.#$b#Can you help me find it? Do me a favor....$s\"/pause 300/emote farmer 32/pause 300/speak Elliott \"You're gonna help me? Thank you so much, @!$h#$b#I'll keep trying to find it. Please, come to me when you find it!\"/end dialogue Elliott \"@, Have you seen it yet...? I've been walking around too, but I can't find it. Where is it on earth?... *sigh*$s\"",
+   },
+},
+            {
+		// Gus - Delivery Mishap Quest Start Event
+	"Action": "EditData",
+	"Target": "Data/Events/Farm",
+	"Entries": {
+        "71550003/w sunny/j 95/z summer/z fall/y 1/t 600 930": "continue/64 15/farmer 64 16 2 Gus 64 18 0/pause 600/addQuest 5000032/skippable/speak Gus \"@, I know it was bad manners from the morning, but I came here for an urgent request!#$b#The flour I ordered at the Juju City Food Market was lost in transit.$a\"/pause 500/speak Gus \"I'm in big trouble because I was going to show everyone my special fried food on Friday.$s#$b#But i am busy preparing ingredients for cooking, so I don't have time to go looking for it....#$b#Help me get the 'Wheat Flour' back! Please!\"/end dialogue Gus \"I know it's a really sudden request, but you're the only one who can help! I beg of you!\"",
+   },
+},
+            {
+		// Gus - Delivery Mishap Quest End Event
+	"Action": "EditData",
+	"Target": "Data/Events/Saloon",
+	"Entries": {
+        "71550004/e 71550003/i 246": "Saloon1/14 16/farmer -100 -100 0 Leah 2 20 1 Pam 7 18 1 Willy 17 22 2 Shane 25 18 2 Sam 20 19 3 Gus 14 18 2/animate Shane false true 100 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 21 22 23 24 24 24 24 24 24 24 23 22 21/pause 500/removeQuest 5000032/removeitem 246/skippable/pause 1000/speak Pam \"Gus, I heard you were going to cook your special fried food today. I'm looking forward to it.$h\"/pause 1000/textAboveHead Willy \"I'm hungry.\"/pause 1000/textAboveHead Sam \"Nice!\"/pause 1000/emote Leah 20/pause 2000/emote Gus 28/speak Gus \"Oh... I'm running out of time...$s\"/pause 1500/playSound doorClose/warp farmer 14 24/emote Gus 16/pause 500/move farmer 0 -2 0/textAboveHead Gus \"Oh, You're finally here!\"/pause 1000/globalFade/viewport -1000 -1000/pause 500/warp farmer 11 18/faceDirection farmer 1/faceDirection Gus 3/viewport 14 16/globalFadeToClear/pause 1000/addObject 12 18 246/playSound woodyStep/showFrame 35/pause 500/showFrame 6/pause 400/speak Gus \"You have found it! I'm really glad!#$b#@, Sit there and wait a minute. I'll bring food soon!\"/globalFade/viewport -1000 -1000/pause 200/warp farmer 13 17/pause 600/speak Gus \"Phew, I almost had to serve salad to the guests who visited me on Friday night.#$b#It's all thanks to you that I'm able to show off my special fried-food today.$h\"/pause 2000/speak Gus \"Here, that's my special fried-food today. Thank you again for your kindness today![202]$h\"/message \"Everyone was admired by Gus's special fried-food today. Glad I can help him!\"/pause 1000/end",
+   },
+},
+            {
+		// Sebastian - Bestie Quest1 End Event
+	"Action": "EditData",
+	"Target": "Data/Events/Saloon",
+	"Entries": {
+        "71550005/i 874/j 83/y 1/d Mon/d Tue/d Wed/d Thu/d Sat/d Sun": "Saloon1/28 15/farmer 28 19 1 Robin 22 22 1 Demetrius 23 22 3 Willy 17 22 2 Shane 21 17 2 Emily 16 18 2 Sam 36 21 3 Abigail 42 18 2 Sebastian 42 21 3/animate Shane false true 100 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 21 22 23 24 24 24 24 24 24 24 23 22 21/animate Robin false true 100 20 20 20 20 20 20 20 20 21 21 21 21 22 22 22 22 22 22/animate Demetrius false true 100 24 24 24 24 24 24 24 24 25 25 25 25 26 26 26 26 26 26/animate Sam false true 100 4 4 4 4 4 4 4 4 4 4 4 4 34 34 34 34 34 34 34 34 4 4 4 4 4 4 4 4 4 4 4 4 34 34 34 34 34 34 38 38 34 34 34 34/pause 500/removeQuest 5000026/removeitem 874/addQuest 5000027/skippable/pause 1000/viewport move 2 1 3000/speed farmer 4/move farmer 14 0 1/faceDirection farmer 2/pause 600/stopAnimation Sam 4/emote Sam 16/pause 600/speak Sam \"Oh, come to think of it, I have to go because I have an emergency! Sorry, guys!\"/pause 300/speed Sam 7/move Sam 0 -1 0/speed Sam 7/move Sam -16 0 3/speed Sam 7/move Sam 0 1 2/speed Sam 7/move Sam -6 0 3/playSound doorClose/faceDirection farmer 3/faceDirection Abigail 3/emote farmer 8/emote Sebastian 8/emote Abigail 8/pause 200/faceDirection farmer 2/pause 300/faceDirection Sebastian 0/pause 500/emote farmer 32/pause 2000/speak Sebastian \"... Did you just tell me to eat this? You're joking, right?$a\"/pause 200/emote Sebastian 12/pause 2000/speak Sebastian \"what? Sam asked you to give me this as a gift?$a#$b#haha! Did you really believe that? There's no one who would love this.$h#$b#He was trying to make fun of us! Haha!$h\"/emote farmer 40/pause 1000/speak Sebastian \"Listen, @. We have to pay back.#$b#Could you get me some mayonnaise? If you bring it, I'll tell you why.$h\"/pause 300/emote farmer 8/animate Abigail false true 100 28 29/textAboveHead Abigail \"tee-hee\"/pause 1000/end",
+   },
+},
+            {
+		// Sebastian - Bestie Quest3 End Event
+	"Action": "EditData",
+	"Target": "Data/Events/SamHouse",
+	"Entries": {
+  "71550006/e 71550005/i 731/t 900 1800": "playful/-1000 -1000/farmer 4 15 1 Sam 17 16 2/skippable/removeitem 731/removeQuest 5000028/viewport 17 16 true/move farmer 8 0 0/pause 500/doAction 12 14/move farmer 0 -2 1/move farmer 4 0 2/pause 1000/faceDirection Sam 0/pause 800/speak Sam \"Oh. Hi @!#$b#... What was his reaction when you gave Sebastian a bug steak?$h\"/move farmer 0 3 1/faceDirection Sam 3/emote farmer 56/speak Sam \"He looked like he swallowed a shit? Hahaha! The plan was successful!$h\"/pause 500/pause 500/emote Sam 56/speak Sam \"hum? Is this a maple bar?!#$b#A reward for having a good time thanks to me?#$b#You're welcome! It's my favorite snack!$h#$b#And thank yo...\"/pause 800/jump Sam 11/emote Sam 16/speak Sam \"Yuck! It's not maple syrup. It's mayonnaise!?$a\"/pause 800/emote Sam 12/speak Sam \"You two made fun of me, didn't you!?$a\"/pause 800/shake Sam 1000/speak Sam \"...$a#$b#.....$a#$b#Hahaha! t was a really fun joke just now. I have no choice but to admit it!$h#$b#it's fun to play with you guys! Hahaha!!$h\"/animate farmer false true 100 102 103/pause 1000/globalFade/viewport -1000 -1000/pause 600/message \"It was fun to play with Sam and Sebastian. It feels like I've gotten closer to them.\"/pause 1000/end",
+   },
+},
+            {
+		// Caroline - A General Cleaning End Event
+	"Action": "EditData",
+	"Target": "Data/Events/SeedShop",
+	"Entries": {
+  "71550007/i 172/y 2/j 116": "continue/31 13/farmer 31 13 0 Caroline 34 5 0 Pierre 27 7 2 Abigail 25 14 2/animate Abigail false true 100 16 16 17 17 18 18 19 19/pause 500/removeitem 172/removeQuest 5000039/skippable/pause 1000/viewport move 0 -2 3000/speed farmer 3/move farmer 0 -4 0/move farmer 1 0 1/move farmer 0 -4 0/faceDirection farmer 1/faceDirection Caroline 3/pause 1000/addObject 33 5 172/playSound woodyStep/showFrame 35/pause 500/showFrame 6/pause 400/emote Caroline 16/pause 600/speak Caroline \"Oh, @. You came at the right time.#$b#All right, we're all set to clean up!#$b#Cleaning up is really annoying, but I didn't manage my house well because I was squatting all winter...$s\"/pause 600/speak Caroline \"But it's time to work hard. Pierre sweeps the floor and Abigail has to do the dishes!$h\"/pause 600/stopAnimation Abigail 8/emote Abigail 16/textAboveHead Abigail \"Oh... I have to run!\"/speed Abigail 5/move Abigail -5 0 3/faceDirection Caroline 2/emote Caroline 12/speak Caroline \"Abigail! Where are you running!$a#$b#And Pierre! Come on and do some brooms!$a\"/pause 300/showFrame Abigail 32/textAboveHead Abigail \"Ugh!!!\"/pause 200/showFrame Pierre 16/textAboveHead Pierre \"...Oh, no!\"/pause 600/globalFade/viewport -1000 -1000/pause 600/speak Caroline \"phew, Shame on you! *tut, tut*$a#$b#By the way, thank you very much. Thanks to you, it was really easy to clean the windows!$h\"/pause 1000/end",
+   },
+},
+            {
+		// Vincent - My Little Maple Tree End Event
+	"Action": "EditData",
+	"Target": "Data/Events/Forest",
+	"Entries": {
+  "71550008/i 805/j 146/y 2/w sunny/t 900 1800": "continue/73 82/farmer 71 76 2 Vincent 73 82 2 Jas 74 83 3/pause 500/removeitem 805/removeQuest 5000050/skippable/pause 1000/emote Vincent 28/pause 400/textAboveHead Jas \"Cheer up...\"/pause 600/speed farmer 2/move farmer 0 6 2/pause 600/faceDirection farmer 1/faceDirection Vincent 3/pause 500/speak Vincent \"Hello, @!#$b#This is my friend Minguinho, whom I mentioned. As you can see, it is no longer growing...$s\"/pause 400/emote farmer 40/addObject 72 82 805/playSound woodyStep/showFrame 35/pause 500/showFrame 6/pause 300/emote Vincent 8/pause 300/speak Vincent \"What's this? Tree fertilizer?\"/pause 600/speak Vincent \"What? Are you saying that trees like my friend Minguinho need to eat like us to grow fast?$u\"/pause 300/jump Vincent 10/emote Vincent 16/pause 300/speak Vincent \"I didn't know that and i were worried!$h#$b#Aha! So I just have to sprinkle this fertilizer on Minguinho and wait patiently, right?!$h\"/pause 300/textAboveHead Jas \"Thank God, Vincent!\"/pause 600/emote farmer 32/pause 600/globalFade/viewport -1000 -1000/pause 600/speak Vincent \"Wow- you are a very kind person! Thank you very much! Thank you!$h\"/pause 1000/end",
+   },
+},
+            {
+		// Sandy - An Exotic Dish End Event
+	"Action": "EditData",
+	"Target": "Data/Events/SandyHouse",
+	"Entries": {
+  "71550009/i 729/y 2/j 169/t 900 1800": "continue/10 5/farmer 4 5 3 Sandy 2 5 1/pause 500/removeitem 729/removeQuest 5000055/skippable/pause 1000/emote Sandy 32/pause 400/speak Sandy \"So...#$b#Is that a dish of Escargots?\"/pause 400/jump farmer 8/pause 400/speak Sandy \"it looks a little gross.. But it has a buttery smell to it.#$b#So I'll try it!\"/pause 300/textAboveHead Sandy \"...Yum-yum...\"/pause 1200/shake Sandy 1500/pause 1200/emote farmer 60/pause 400/speak Sandy \"Hmm... @, My review of the tasting is...#$b#... I think this is delicious! The texture is surprisingly good.$h\"/pause 300/emote farmer 20/pause 300/emote Sandy 20/pause 300/speak Sandy \"Honestly, it didn't seem like my taste, but it's really surprising.$h#$b#Thank you, @. It was a really fun experience to taste new food!$h#$b#And this is a reward! I heard it's precious, but sometimes rich travelers give me these as gifts. So don't feel pressured! *Smile*[74]\"/pause 1000/globalFade/viewport -1000 -1000/pause 600/message \"I didn't know I would give food and get prismatic shard!\"/pause 600/message \"... Sandy seems to be a really mysterious friend.\"/pause 1000/end",
+   },
+},
+            {
+		// Marnie - A Cute Statue Of A Chicken Quest Start Event
+	"Action": "EditData",
+	"Target": "Data/Events/Farm",
+	"Entries": {
+        "71550010/j 186/y 2/w sunny/t 600 2200": "continue/64 15/farmer 64 16 2 Marnie 64 18 0/pause 600/addQuest 5000060/skippable/speak Marnie \"Oh, i am out of breath...! *hup hup* ...$s#$b#I'm sorry to come here suddenly. But something really urgent happened to me.$s\"/pause 500/emote farmer 8/pause 500/speak Marnie \"I went to the shareholder's city because I had something to do, and I stopped by an antique shop.#$b#The store was selling cute chicken statues.#$b#Oh, you know Shane likes chicken, right?#$b#So I wanted to give the statue to Shane as a gift, so I bought it. But when I got home, it was gone.$s\"/pause 500/emote Marnie 28/pause 500/emote farmer 60/pause 500/speak Marnie \"I'm very strenuous of looking for it alone...$s#$b#So I had to ask you a favor, @... Would you please visit the statue for me?$s\"/pause 600/jump farmer 6/pause 600/speak Marnie \"Thank you so much for helping!
+I thought you would help me!$h\"/pause 600/speak Marnie \"I remember holding the statue until I got off at the train station.#$b#I'll look it up under the mountain. I hope you find it on the mountain. Thank you, sweetheart!$h\"/end dialogue Marnie \"I wanted to make Shane happy, but I'm really upset. It was a really cute statue...$s\"",
+   }
+  }
+]
+}

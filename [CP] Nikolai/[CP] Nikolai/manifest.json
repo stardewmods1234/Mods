@@ -1,0 +1,47 @@
+{
+
+  "Name": "Nikolai npc",
+   "Author": "Fellowclown",
+   "Description": "Adds the new custom NPC",
+   "Version": "1.6.8",
+   "UniqueID": "Fellowclown.Nikolai",
+   "Dependencies": [
+    {
+      "UniqueID": "Karmylla.ImmersiveMaps",
+      "IsRequired": false,
+    },
+      {
+      "UniqueID": "FlashShifter.StardewValleyExpandedALL",
+      "IsRequired": false,
+    },
+       {
+      "UniqueID": "Esca.CustomNPCExclusions",
+      "IsRequired": true,
+    },
+      {
+      "UniqueID": "spacechase0.JsonAssets",
+      "IsRequired": true,
+    },
+      {
+      "UniqueID": "DIGUS.MailFrameworkMod",
+      "IsRequired": true,
+    },
+       {
+      "UniqueID": "Cherry.ShopTileFramework",
+      "IsRequired": true,
+    },
+     {
+      "UniqueID": "Platonymous.TMXLoader",
+      "IsRequired": true,
+    },
+      {
+      "UniqueID": "Platonymous.CustomMusic",
+      "IsRequired": true,
+    },
+  ],
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+   "UpdateKeys": [ "Nexus:4882" ], 
+   
+}

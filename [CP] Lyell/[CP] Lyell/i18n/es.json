@@ -1,0 +1,620 @@
+{
+    /************************************************
+    ** Generic text
+    ************************************************/
+    // NPC info
+    "npc-display-name": "Lyell",
+
+    // gift taste dialogue
+    "gift.love": "Oh, es para mí? Gracias. Me encanta!",
+    "gift.like": "Hmm... Gracias.",
+    "gift.dislike": "No debiste...",
+    "gift.hate": "En realidad, no me gusta esto.",
+    "gift.neutral": "Oh...Te agradezco...",
+
+    // player killed dialogue
+    "player-killed.not-spouse": "Te encontré en las minas. No dejes que esto vuelva a suceder.$s",
+    "player-killed.spouse": "Ten más cuidado, no quiero perderte tan pronto...$s",
+
+    // engagement dialogue
+    "engagement.0": "Yo... Yo acepto! Te amaré hasta el final.$s",
+    "engagement.1": "@... Yo...#Acepto.#9",
+
+    // wedding dialogue
+    "wedding.1": "@... Lyell... #$b# Como alcalde de Pueblo Pelícano y portador regional del sello matrimonial, ahora los declaro marido y mujer!$h",
+    "wedding.2": "@... Lyell... #$b# Como alcalde de Pueblo Pelícano y portador regional del sello matrimonial, ahora lo declaro esposo y, bueno, esposo!$h",
+    "wedding.3": "Cuando @ llegó por primera vez a Pueblo Pelícano, nadie sabía si encajaría en nuestra comunidad...#$b#Pero a partir de este día, @ será una parte tan importante de este pueblo como que cualquiera de nosotros!$h#$b#Es mi gran honor en este día {0} de {1} unir a @ y Lyell en los lazos del matrimonio.",
+    "wedding.4": "Cuando @ llegó por primera vez a Pueblo Pelícano, nadie sabía si encajaría en nuestra comunidad...#$b#Pero a partir de este día, @ será una parte tan importante de este pueblo como que cualquiera de nosotros!$h#$b#Es mi gran honor en este día {0} de {1} unir a @ y Lyell en los lazos del matrimonio.",
+
+    // jelousy dialogue
+    "gift-question.truth": "Oh, eso es muy dulce de tu parte, @. Espero que les haya gustado.$h",
+    "gift-question.lie": "...Por favor, no me mientas así.$s",
+
+    // mail
+    "mail.beer": "Si alguien tiene tiempo, Me encantaria un cerveza fria.^Te pagaré porsupuesto.^ -Lyell %item quest 346 true %",
+    "mail.ancientFruit": "Necesito un fruta milenaria para una receta.^Pagaré porsupuesto.^ -Lyell %item quest 454 true %%",
+    "mail.costume": "Necesito un paquete de semillas de carambola. Estaria agradecido si me las trajeras.^Pagaré en consecuencia.^ -Lyell %item quest 486 true %%",
+    "mail.coal": "Quiero hacer parrilladas pronto, pero no me queda nada de carbón. Si tienes algo de carbón extra, podrías entregarmelo?^Te pagaré, porsupuesto.^ -Lyell %item quest 270 true %%",
+
+    // quests
+    "quests.beer": "ItemDelivery/Entregale una cerveza a Lyell./Lyell quiere una bebida fría./Entregale una cerveza a Lyell./Lyell 346/-1/500/-1/true/Oh, ¡gracias! ¿Quieres quedarte a beber conmigo?$1",
+    "quests.drink": "ItemDelivery/Una bebida fría./Lyell quiere una cerveza fría./Entregale una cerveza a Lyell./Lyell 454/-1/500/-1/true/¡Justo lo que necesitaba! Te agradezco, @",
+    "quest.seeds": "ItemDelivery/Starfruit seeds./Lyell necesita semillas de carambola para su jardín./Entregale un paquete de semillas de carambola a Lyell./Lyell 486/-1/700/-1/true/Oh, ¡viste mi aviso! Gracias, @, esto es justo lo que necesitaba.$1",
+    "quest.corn": "ItemDelivery/Ayuda a sus chicas/Lyell necesita un tallo de maíz fresco para sus gallinas./Entregale maíz a Lyell./Lyell 270/-1/400/-1/true/Mis chicas amarán esto, te lo agradezco.",
+
+    // secret notes
+    "journal.1": "Querido diario,^Se siente como si hubieran pasado siglos desde la ultima vez que escribi algo en ti. Me doy cuenta que mientras mas pasa el tiempo mas cansado me siento de escribir mis pensamientos.^Pienso en muchas cosas pero a la vez pocas cosas me vienen a la mente. He estado navegando en el mar estos días, barcos militantes invasores con una pandilla de delincuentes.^Mi capitana es bastante agradable sin embargo, ella es una de las mujeres más fuertes que he conocido. Decir que no estoy cautivado por ella sería una mentira.^Aunque, siento que ella alberga sentimientos similares hacia mí... Pero ha pasado mucho tiempo desde la última vez que dejé entrar el amor en mi vida y me siento más asustado con cada atardecer que pasa.^Desearía poder dejar de sentir, Sería más sabio no ser víctima de mis propias emociones.^Es cruel para nosotros dos ¿no es así?^Ella moriría como mi dulce hija y esposa lo hicieron. Tal vez no por fuego, pero la perdería de alguna otra forma.^Ahora mismo el sol se está ocultando, los colores brillantes del cielo me consuelan, el paso del tiempo continúa y con eso debo volver a mis deberes.^-Lyell Halkias",
+    "journal.2": "Querido diario,^Hoy es el día mas felíz de mi vida. Mi preciosa hija ha nacido, ahora soy un esposo y padre orgulloso. Elizabeth y yo hemos decidido nombrala Lexi. Sin embargo, fue una situación preocupante, tan hermosa como ella sea. Ell realmente no podría haber elegido un peor momento para unirse a nosotros más que ahora.^Nosotros hemos estado viajando en vagones, tratando de llegar al este de la capital de Gotoro antes de que Elizabeth cayera en parto.^Pero Lexi no estaba consciente eso, ella quería llegar temprano. Ella es tan pequeña, mucho más pequeña que mi primera hija Lyza. Ella es hija del verano, nacida el quinto día de la temporada.^La guerra civil ha terminado y ahora Gotoro está en paz, por ahora. Era 1730 cuando comenzó, Estoy tan contento de que la lucha haya terminado. Hubiera odiado criar a mi pequeña durante algo tan feo.^Es bastante tarde y Elizabeth requiere mi ayuda. Entonces debo terminar esta entrada aquí.^-Lyell Halkias",
+    "journal.3": "Querido diario,^Estoy lleno de odio hacia la diosa que me ha maldecido con una vida eterna. Mi mundo se ha reducido a nada más que cenizas, mi dulce familia se ha perdido hace menos un mes. Me las robaron, asesinadas por enemigos despreciables.^Sé que Thalous y su banda de delincuentes incendiaron mi casa. Me quitaron a mi familia pero planeo hacerles pagar por lo que hicieron.^Mi vida se ha quemado junto con mi familia, pero mi voluntad por venganza me está haciendo seguir hacia adelante.^-Lyell Halkias",
+    "journal.4": "Querido diario,^Ha pasado mucho tiempo, ¿no es así? No he sentido la necesidad de escribir en muchos años. Supongo que simplemente no sentía ánimos de hacerlo. Pensar por tanto tiempo me ha causado muchos dolores de cabeza.^Pero hoy, es un buen día. El barco finalmente ha tocado tierra. El país salvaje de Ferngill es mío para explorar.^Es bastante diferente aquí, Entiendo la lengua nativa de esta tierra lo suficiente como para escribir y escuchar. Pero hablarla me elude, es muy difícil.^En Ferngill los hombres llevan armas en sus cinturones, incluso los granjeros también. Nunca he visto algo así. He encontrado un salón para pasar la noche, afortunadamente alquilan habitaciones por el tiempo que necesites.^Mientras puedas pagar, claro.^Hay heridas en mi corazón que han luchado por sanar pero todavía duelen. Pero siento que finalmente puedo comenzar de nuevo, que tal vez la vida no tiene que ser tan deprimente como pensaba.^Incluso he hecho un amigo, Austin. Él es bastante dulce y aunque esto permanecerá dentro de tus páginas. Lo encuentro lo suficientemente atractivo como para quedarme cerca de el.^El tiene ojos de diferentes colores y piel pálida.^Espero que podamos ser buenos amigos.^-Lyell Halkias",
+    "journal.5": "Querido diario,^Esta es mi entrada final. No porque me canse de escribir, sino porque esta es mi última página.^He regresado de la guerra, Ferngill y Gotoro han estado luchando por un tiempo. Y escuché el llamado a luchar contra mi propia patria por lo que creo que es correcto.^Me fui de mala gana, Los militares ya no iban a poder utilizarme para su beneficio. Entonces estoy siendo enviado de vuelta. Ya no tengo un hogar en Ferngill. Pero afortunadamente tengo ahorros en un banco. Planeo comprar un terreno en alguna parte. En algún lugar pequeño y pacífico.^Espero poder comenzar una granja, aunque solo tengo un brazo ahora. Estoy seguro de que será una tarea complicada. Pero tengo esperanzas.^Ahora solo quiero descansar.^-Lyell Halkias",
+
+
+    /************************************************
+    ** Festival dialogue
+    ************************************************/
+    // text shown if nothing else matches
+    "festival-default": "These festivals are great.#$e#Id live to organize one myself.", // TODO
+
+    // egg festival
+    "spring13": "Esperemos que todos encuentren los huevos este año.$1",
+    "spring13.friendly": "Me encantan los huevos cocidos. Es un gran bocadillo.$1",
+    "spring13.dating": "Encuentra muchos huevos por mí.$1#$b#Pero deja algunos para los niños.$1",
+    "spring13.married": "Abigail es difícil de superar$1$e#Buena suerte mi amor.$1",
+    "spring13.divorced": "Oh, @...$2#$e#¿Cómo está la granja?$2",
+
+    // flower festival
+    "spring24": "Todos están muy felices hoy. Realmente me levanta el ánimo.$1",
+    "spring24.friendly": "Ver a todos bailar me hace sentir joven otra vez.$1",
+    "spring24.dating": "Oh no, no me gusta bailar, cariño. Tú eres libre de vailar si quieres.$1",
+    "spring24.married": "Oh no, no, por favor, no quiero bailar.$1#$b#Me gusta observar.$1",
+    "spring24.divorced": "Por favor, deja de bromear, realmente duele...$2",
+
+    // luaua
+    "summer11": "Fui astuto y puse algunas especias del Imperio Gotoro. Traje algunas conmigo cuando me mudé aquí.$1",
+    "summer11.friendly": "Pam trató de esconder algo... Inapropiado en el potluck.$5#$e#Sin embargo, la detuve, no te preocupes.",
+    "summer11.dating": "Únete a mí, cariño, comeremos juntos.$4",
+    "summer11.married": "No estaba seguro de qué poner en la sopa.$2#$b#Así que puse algunos pimientos picantes.$1",
+    "summer11.divorced": "Espero que estes bien..#$e#*suspiro* Por favor, no tengo ganas de hablar.$2",
+
+    // jellies
+    "summer28": "Hay algo en el brillo de las medusas que aclara mi cabeza. Es la única época del año en la que realmente me siento en paz.$1",
+    "summer28.friendly": "Es una noche hermosa. Espero que disfrutes el festival.$1",
+    "summer28.dating": "@, Estoy feliz de que hayas venido.$1#$e#¿Quieres que veamos a las medusas juntos?$4",
+    "summer28.married": "Es una noche hermosa, ¿no?$1#$e#Me encantaría pasarla contigo, amor.$4",
+    "summer28.divorced": "Detesto ser grosero.$2#$e#Pero por favor, déjame en paz.$5",
+
+    // Marketpalooza (from Fellowclown.Nikolai mod)
+    "fall1": "Estoy contento de ver a Nikolai aplicándose de esta forma.$1#$e#Este mercado fue una gran idea.$1",
+    "fall1.dating": "Estoy buscando algo lindo para ti.$1",
+    "fall1.married": "Creo que podría ir a comprarle algo de miel a Nikolai.$1",
+    "fall1.divorced": "Ve a disfrutar del mercado.#$B#En lugar de hablar conmigo.$2",
+
+    // fair
+    "fall16": "¡El festival de otoño es uno de mis festivales favoritos del año!$1",
+    "fall16.friendly": "Me encanta acariciar a los animales. Sé que es para niños, pero no puedo evitarlo.$1",
+    "fall16.dating": "Deberías probar esto, es realmente bueno. [612 236 241]$1",
+    "fall16.married": "Hola amor, gané esto para ti. [446 113 279 444 581]$1",
+    "fall16.divorced": "¿Qué sucede?$2$e#Por favor vete.$5",
+
+    // spirit's eve
+    "fall27": "Buena noches.$e#¿Te asuste?$e#La víspera de los espíritus es un festival muy divertido.$1.",
+    "fall27.friendly": "¿Crees que lo sobrenatural se ofende por estas festividades?",
+    "fall27.dating": "Feliz víspera del espíritu.$e#¿Quieres que intentemos el laberinto juntos?",
+    "fall27.married": "No te asustes demasiado esta noche.$1$e#¿Viste a los niños? Se ven adorables, ¿no?$1",
+    "fall27.divorced": "*suspiro*$2$e#Realmente ya no me gusta hablar contigo.$2",
+
+    // festival of ice
+    "winter8": "Intento ir a todos los festivales durante todo el año.#$b#Disfruto de la compañía, incluso si no hablo con nadie.$1#$e#Sin embargo, no me uno a los eventos, me pongo algo.... nervioso.$2",
+    "winter8.friendly": "Me vendría bien algo caliente para beber.$1#$e#Atrapa muchos peces este año.",
+    "winter8.dating": "¿Te gustaría construir un muñeco de nieve conmigo?$4",
+    "winter8.married": "Me golpearon en la cara con una bola de nieve.$1#$e#Niños ¿verdad?$1",
+    "winter.divorced": "*suspiro*$2$e#¿No puedes ir a hablar con alguien más?$2",
+
+    // winter star
+    "winter25": "Hace mucho tiempo, el 'Festival de la Estrella Invernal' era algo completamente diferente.#$b#Aun así, todavía lo disfruto de todos modos.",
+    "winter25.friendly": "Siempre es difícil descubrir qué le gusta a la gente.",
+    "winter25.dating": "El árbol es hermoso, ¿no es así?$e#Amo las decoraciones.$1",
+    "winter25.spouse": "Conseguí esto para ti.$4[# # #]",
+    "winter25.divorced": "...Espero que te encuentres bien.$2$e#Aún no quiero hablar contigo, @.$2",
+
+
+    /************************************************
+    ** MissCoriel's Courtship dialogue
+    ************************************************/
+    "courtship.give_flowersA": "Oh...#$b#Eso es muy dulce de tu parte.$4",
+    "courtship.give_flowersB": "Lo siento, no tengo nada que darte...$4",
+    "courtship.give_pendant": "Yo...#$b#Yo no sé...$2#$b#Vale...$4#$b#Acepto.$4",
+    "courtship.stardrop_gift": "Esto es mucho, gracias.$h",
+    "courtship.rejectNPCA": "No es una buena idea.",
+    "courtship.rejectNPCB": "Hay alguien mejor para ti.",
+    "courtship.reject_two_heartA": "Perdóname, pero no.$2",
+    "courtship.reject_two_heartB": "No estoy interesado en una relación.$2",
+    "courtship.reject_four_heartA": "Es mejor que sigamos siendo amigos.$2",
+    "courtship.reject_four_heartB": "Creo que deberías buscar a alguien más.$2",
+    "courtship.engageA": "Esto está mal - tu ya tienes pareja!$5",
+    "courtship.engageB": "¡Debería golpearte! ¡Ya tienes a alguien!$5",
+    "courtship.marriedA": "Fingiré que no preguntaste, por el bien de tu pareja.$a",
+    "courtship.marriedB": "Quizás en lugar de casarte, deberías haberte quedado casual. No estoy interesado en ser un rompe-hogares.$a",
+    "courtship.refusal_no_heartsA": "No deberías bromear sobre el amor.$3",
+    "courtship.refusal_no_heartsB": "Esto no es gracioso.$3",
+    "courtship.refusal_knownA": "Es simplemente una mala idea...$3",
+    "courtship.refusal_knownB": "No funcionaría. Hay alguien mejor ahí afuera.$2",
+    "courtship.refusal_botherA": "No es un buen momento.$2",
+    "courtship.refusal_botherB": "No lo creo.$2",
+
+
+    /************************************************
+    ** Movie reactions
+    ************************************************/
+    "movies.0.before": "Ver un espectáculo de imágenes siempre es un gran placer.#$e#Gracias por dejarme acompañarte.",
+    "movies.0.during": "Lyell parece inmerso en el show.",
+    "movies.0.after": "Ese fue un gran espectáculo.$1#$e#Deberíamos salir juntos de nuevo alguna vez.",
+
+    "movies.1.before": "Gus me ha dicho mucho sobre este show.$1#$e#Espero que sea tan bueno como dice.",
+    "movies.1.during-text": "Lyell parece entristecido.",
+    "movies.1.during-message": "A mi hija le encantaria esta pelicula...$2",
+    "movies.1.after": "Ese show fue bastante triste.$2#$e#Nunca me gustaron las historias tristes...",
+
+    "movies.3.before": "Estaba esperando por ver esta. Parece interesante.$1",
+    "movies.3.during": "Lyell is smiling.",
+    "movies.3.after": "El show fue todo lo que esperé que fuera.",
+
+    "movies.4.before": "Me encanta reir, asi que esta va a ser buena.$1#$e#Eso espero...",
+    "movies.4.during": "Diosa, eso fue muy diverido.$1",
+    "movies.4.after": "Eso fue justo lo que necesitaba.#$e#Gracias por trerme contigo.",
+
+    "movies.5.before": "No creo que te pueda convencer de ver otra cosa, no es asi?#$e#Es que... No disfruto de ser asustado.",
+    "movies.5.during": "Me siento enfermo. Tal vez debería salir a tomar aire fresco.",
+    "movies.5.after": "Eso fue... Lo siento, Odie el show.$2",
+
+    "movies.6.before": "Escuche a los niños hablando sobre esta.$1#$e#Espero que sea buena.",
+    "movies.6.after": "Eso no fue tan malo. Realmente disfruté el show.",
+
+    "movies.7.before": "Gus dijo que merecia la pena ver este show.",
+    "movies.7.after": "Gus tenia razón, verdaderamente disfrute del show.$1",
+
+    "movies.8.before": "Supongo que podria ver esta, al menos por ti...$2",
+    "movies.8.during": "...",
+    "movies.8.after": "Lo siento, no disfute mucho la película...",
+
+    "movies.9.before": "Este show estuvo bien, podria verlo de nuevo.",
+
+    "movies.10.before": "Podría haber estado mejor, pero no fue un mal espectáculo.",
+
+    "movies.11.before": "No soy muy fan de este...$2",
+
+
+    /************************************************
+    ** Event dialogue
+    ************************************************/
+    /*********
+    ** Pierre's Shop, 0.4-heart event
+    *********/
+    "event-0.01": "Realmente no necesitas hacer eso... puedo pagar el precio completo.$8",
+    "event-0.02": "No hay problema Eres uno de mis mejores clientes.$h",
+    "event-0.03": "Oh, @! ¿Ya has conocido a Lyell?$h",
+    "event-0.04": "...$4",
+    "event-0.05": "Sí, ya nos hemos conocido...",
+    "event-0.06": "¡Eso es genial! Creo que ustedes dos se llevarían bien.",
+    "event-0.07": "...",
+    "event-0.08": "Necesito ponerme en marcha.$s",
+    "event-0.09": "Disculpa.$s",
+    "event-0.10": "Me pregunto qué le pasa.$s",
+
+
+    /*********
+    ** Mountain, 1-heart event
+    *********/
+    "event-1.01": "?!$7",
+    "event-1.02": "Oh, solo eres tú.$s",
+    "event-1.03": "¡Me diste un buen susto! No deberías acercarte sigilosamente a las personas.",
+    "event-1.04": "¿Yo? Oh, solo estaba mirando el agua.$8",
+    "event-1.05": "Hay algo en la forma en que se mueve con la brisa que calma mi mente.$9",
+    "event-1.06": "He estado un poco perdido en mis pensamientos estos días.$s",
+    "event-1.07": "Volviendo de la guerra, tienes mucho tiempo libre...$s",
+    "event-1.08": "Demasiado tiempo libre, si me preguntas.$3",
+    "event-1.09": "Tiendo a pensar demasiado, es todo... Atascarme en lo que podría haber hecho de otra manera.$9",
+    "event-1.10": "Buh... Es realmente un desastre. Sin embargo, no hay nada de qué preocuparse.",
+    "event-1.11": "Si supiera cómo, simplemente apagaría mi cerebro, ¿sabes a qué me refiero?",
+    "event-1.12": "Sé exactamente a que te refieres.",
+    "event-1.13": "Eso es un poco raro.",
+    "event-1.14": "Realmente no entiendo lo que dices.",
+    "event-1.15": "Bueno, realmente debería regresar. Tengo que alimentar a mis niñas...$h",
+
+
+    /*********
+    ** Hospital, 1.16-heart event
+    *********/
+    "event-2.01": "Lyell, esto se te está saliendo de las manos.$2",
+    "event-2.02": "...$2",
+    "event-2.03": "Mantenerse saludable es importante... especialmente cuando tienes animales que dependen de ti.",
+    "event-2.04": "No es un grave problema... Estoy bien.$2",
+    "event-2.05": "Si es un grave problema. No puedes seguir trabajando desigualmente así.$5",
+    "event-2.06": "Eres arrastrado aquí inconsciente al menos dos veces por semana... Vas a terminar trabajando hasta la muerte si sigues así.$2",
+    "event-2.07": "@?!$8",
+    "event-2.08": "Este no es un buen momento, ¿podrias esperar en la saa de espera? en un momento estaré contigo.$2",
+    "event-2.09": "@ está bien, ya me estaba yendo de todos modos.$n",
+    "event-2.10": "Pero... Hay más que necesito hablar contigo!$5",
+    "event-2.11": "Bueno, yo termine de conversar... Estoy bien.$n",
+    "event-2.12": "Se que eres un doctor, pero conozco mi cuerpo y sus límites.",
+    "event-2.13": "Tu trabajas muy duro, @. Tu entiendes mi punto de vista ¿no es cierto?",
+    "event-2.14": "Si, pero aun así deberias escuchar al doctor.",
+    "event-2.15": "No, deberias escuchar al doctor.",
+    "event-2.16": "Lo entiendo completamente. Tu conoces tu cuerpo mejor que nadie.",
+
+
+    /*********
+    ** Lyell's Woods, 1.36-heart event
+    *********/
+    "event-3.01": "Oh, @, solo estoy visitando a un viejo amigo.",
+    "event-3.02": "Este era Marlin. Él era mi...",
+    "event-3.03": "Él era mi mejor amigo...",
+    "event-3.04": "Han pasado años desde que falleció, pero todavía lo visito cuando puedo.",
+    "event-3.05": "Creo que los espíritus de los muertos viven en el más allá si los recuerdas.",
+    "event-3.06": "Entonces vengo a recordarlo. Para que pueda continuar.$s",
+    "event-3.07": "Supongo que es una tontería cuando lo pienso, ¿no es así?$s?",
+    "event-3.08": "No es tonto, es dulce...",
+    "event-3.09": "Sí, es bastante estúpido.",
+    "event-3.10": "Tengo irme, ha sido día ocupado hoy. Sabes dónde encontrarme si necesitas algo.$8",
+
+
+    /*********
+    ** Lyell's Woods, 1.4-heart events
+    *********/
+    "event-990.01": "¿Roswell?$2",
+    "event-990.02": "¿Roswell, aqui chica?",
+    "event-990.03": "Buck.",
+    "event-990.04": "¡¿Roswell?!$2",
+    "event-990.05": "¡Buck!$2",
+    "event-990.06": "Roswell, demonio.$1#$b#Gracias por encontrarla @.",
+    "event-990.07": "Ella siempre está averiguando cómo salir de el gallinero.$2#$b#Con los animales salvajes con los que me encuentro, tengo miedo de que algún día se lastime.$2",
+    "event-990.08": "Pero supongo que ella no entiende eso.#$b#¿Asi no es, Roswell?$1",
+    "event-990.09": "...",
+    "event-990.10": "Bien, te regresaré a el gallinero.$1",
+    "event-990.11": "...$1",
+    "event-990.12": "No me mires asi.$2",
+    "event-990.13": "@, quédate ahí.#$b#No dejes que corra hacia los árboles.",
+    "event-990.14": "!!!$2",
+
+
+    /*********
+    ** Lyell's Barn, 1.4-heart event
+    *********/
+    // main
+    "event-16.01": "...$1",
+    "event-16.02": "Que chica.",
+    "event-16.03": "@, Qué agradble sorpresa.",
+    "event-16.04": "Esta es Tilly.",
+    "event-16.05": "Lyell comienza a reír.",
+    "event-16.06": "Ella es animada.#$b#Un poco hiperactiva y siempre está haciendo una mueca tonta.",
+    "event-16.07": "Realmente amo a los animales, sabes.$1",
+    "event-16.08": "Es como tener hijos otra vez.#$b#Mis animales lo son todo para mi.",
+    "event-16.09": "Mis animales dependen de mi#$b#Por comida y cariño.$1",
+    "event-16.10": "Es importante tratar bien a tus animales para que crezcan fuertes y saludables.",
+    "event-16.11": "No hay nada más gratificante que ver algo crecer.$1#$b#Plantas y animales... Es satisfactorio en una manera maravillosa.$1",
+
+    // agree fork
+    "event-16.12": "Es cierto, es muy gratificante.",
+    "event-16.13": "Me alegra que lo entiendas, siempre he esperado que otras personas amen a los animales tanto como yo.",
+    "event-16.14": "Después...#$b#Después de perder a mis hijas, los animales fueron los únicos que me trajeron la misma felicidad.$2",
+    "event-16.15": "No es exactamente lo mismo, mi corazón siempre querrá una familia numerosa.#$b#Amo a las niños y niñas.$2#$b#Pero no me veo encontrando a alguien con quien tener una familia.$2#$b#Así que hice mi propia familia con mis animales.$1",
+    "event-16.16": "Sé que algunas personas dirían que los mimo demasiado.$1#$b#Pero realmente, ¿de qué sirve tener una familia si no les das sus caprichos de vez en cuando?.$1",
+    "event-16.17": "Hablando de malcriarlos.#$b#Mis gallinas necesitan mi atención.#$b#Siempre se ponen ansiosas si no paso suficiente tiempo con todas ellas.$2#$b#Deberías pasar por el gallinero alguna vez, mis chicas son un poco agresivas, pero creo que con el tiempo suficiente, todas te amarán en pedazos$1",
+
+    // disagree fork
+    "event-16.disagree.01": "Hay otras cosas que encuentro más satisfactorias.",
+    "event-16.disagree.01": "Oh ya veo.$2",
+    "event-16.disagree.02": "Supongo que criar animales no es para todos.#$b#Espero que encuentres satisfacción a menudo @",
+    "event-16.disagree.03": "Mis gallinas necesitan mi atención ahora.#$b#Hablemos lueg.$3",
+
+
+    /*********
+    ** Town, 2-heart event
+    *********/
+    "event-4.01": "Estás deambulando hasta tarde. Y bajo la lluvia, nada menos.$h",
+    "event-4.02": "Sí, me levanto bastante tarde también, pero esto es normal para mí.$u",
+    "event-4.03": "Solo estoy disfrutando del clima.$h",
+    "event-4.04": "Sé que se ha vuelto más frío debido al cambio de estaciones, ¡pero la lluvia fría simplemente se siente increíble!$h",
+    "event-4.05": "Honestamente... me recuerda a mi tierra natal. Allí llovía a menudo y rara vez hacía más de setenta grados, por lo que la lluvia siempre era fresca.",
+    "event-4.06": "Cuando era joven, jugaba bajo la lluvia con mi hermana mayor.$h",
+    "event-4.07": "Pero eso fue hace mucho tiempo ya.$s",
+    "event-4.08": "Supongo que hago todo lo posible para recordar esos tiempos otra vez... Mi corazón se sentia mucho más ligero en aquel entonces.$9",
+    "event-4.09": "Es una lástima... parece que mientas más se envejece más pesado se siente uno.",
+    "event-4.10": "Tal vez sea porque la realidad se vuelve mucho más evidente a medida que envejecemos.$s",
+    "event-4.11": "Sin embargo, no me molesta. Crecer también tiene un lado positivo.$h",
+    "event-4.12": "El envejecimiento es una forma de vida natural al final. ¿No es mejor envejecer que permanecer joven para siempre?",
+    "event-4.13": "Con la edad viene la experiencia y la sabiduría. Prefiero envejecer.",
+    "event-4.14": "No me gusta pensar mucho sobre eso. Carece de sentido.",
+    "event-4.15": "Puedes ser mayor pero aún sentirte joven.",
+    "event-4.16": "Ha sido agradable hablar contigo. ¡Nos vemos luego!$h",
+    "event-4.17": "¡Y no te resfríes!$h",
+
+
+    /*********
+    ** Lyell's House, 3-heart event
+    *********/
+    "event-13.01": "*murmuros*",
+    "event-13.02": "No, no es así.$s",
+    "event-13.03": "@! No se porque has venido, pero-$7",
+    "event-13.04": "Es un mal momento... ¿Es algo importante?$s?",
+    "event-13.05": "Solo quería pasar tiempo contigo.",
+    "event-13.06": "¿Yo no soy lo suficientemente importante?",
+    "event-13.07": "Solo estaba pasando por aquí, pensé que podria visitarte.",
+    "event-13.08": "He estado bastante ocupado hoy.$s",
+    "event-13.09": "Sé... Se que parece una locura, pero he estado practicando magia.$9",
+    "event-13.10": "No soy muy bueno , pero espero mejorar.$h",
+    "event-13.11": "Supongo que no estaría de más decirte...$s",
+    "event-13.12": "En este libro que he estado leyendo, dice que hay una manera de convocar a ciertas diosas. Estoy tratando de hacer eso.",
+    "event-13.13": "La razón es algo personal... de todos modos no he tenido mucha suerte...$8",
+    "event-13.14": "Yo... esperaba poder convocar a cierta diosa y preguntarle algo. Eso es todo.$s",
+    "event-13.15": "No sé si incluso crees en diosas o magia. Solía ??pensar que todo era falso, pero supongo que las cosas cambian.",
+    "event-13.16": "¿Qué cambió? Oh, bueno, realmente no puedo hablar de eso, pero cambió mi vida. Todavía me afecta hasta el día de hoy.",
+    "event-13.17": "*Aclara la garganta* Bueno, de todos modos, si lo logro te lo contaré.$h",
+    "event-13.18": "Gracias por venir, @! Siempre es bueno verte.$h",
+
+
+    /*********
+    ** Saloon, 3.92-heart event
+    *********/
+    "event-5.01": "@! ¡Es bueno verte aquí!$h",
+    "event-5.02": "Solo estoy disfrutando un tiempo libre. No hay nada como una bebida fría después de un duro día de trabajo.$h",
+    "event-5.03": "No creo que alguna vez me hartaré de una buena bebida si soy honesto.$h",
+    "event-5.04": "Creo que he estado vivo lo suficiente como para cansarme de eso también.$h",
+    "event-5.05": "Hm? Oh, solo quiero decir... Bueno, quiero decir que incluso a la edad que tengo, todavía disfruto de una agradable noche en el salón... eso es todo.$h",
+    "event-5.06": "De donde vengo, hubo un tiempo en que se prohibió beber.",
+    "event-5.07": "¡Pero no me detuvo! Solo hice mis propias cosas y bebí eso.$h",
+    "event-5.08": "Por mucho que creo en seguir la ley, algunos de ellas son demasiado tontas para tomarlas en serio.$h",
+    "event-5.09": "Sin embargo, yo era mucho peor de joven. Constantemente me metía en problemas.$h",
+    "event-5.10": "Pero, bueno, supongo que a medida que crecí, me calmaba un poco. Realmente no me meto en demasiados problemas en estos días. Al menos, ¡trato de no hacerlo!$9",
+    "event-5.11": "A veces me siento bastante mal por lo que solía hacer cuando era un muchacho. Pero supongo que eso fue en el pasado, ¿no?",
+    "event-5.12": "Lo que importa es lo que estás haciendo ahora.",
+    "event-5.13": "El pasado es lo que hace a las personas quienes son.",
+    "event-5.14": "*bostezo* Se está haciendo bastante tarde, ¿no? Debería irme a casa. ¡Deberíamos hacer esto de nuevo alguna vez!",
+
+
+    /*********
+    ** Mountain, 4-heart event
+    *********/
+    "event-6.01": "Ven y únete a nosotros al lado del fuego.",
+    "event-6.02": "Es una noche encantadora.",
+    "event-6.03": "Sabes, la gente de este pueblo... Es difícil mantenerse al día con todos ellos.",
+    "event-6.04": "Realmente lo es. Nunca se sabe lo que harán a despues.",
+    "event-6.05": "Realmente no conozco a muchos de ellos muy bien. Sin embargo, eso es bastante normal para mí.$s",
+    "event-6.06": "Para mi... Hacer amigos aquí es difícil.",
+    "event-6.07": "Cuando era niño, todo lo que hacía era alejarme porque no sabía cómo entablar amistad con la gente... Eso fue hace mucho tiempo, pero aún recuerdo cómo me sentia, como si hubiera pasado ayer.",
+    "event-6.08": "Pero contigo, mantenerme en contacto es algo natural.$9",
+    "event-6.09": "¿Supongo que no sientes lo mismo?",
+    "event-6.10": "Es fácil hablar contigo.",
+    "event-6.11": "Realmente no me siento igual que tu.",
+    "event-6.12": "Gracias por unirte a mi. Creo que es hora de que me vaya a casa.$h",
+
+
+    /*********
+    ** Beach, 8-heart event
+    *********/
+    "event-10.01": "@!$14",
+    "event-10.02": "Que agradable sorpresa.$14",
+    "event-10.03": "Me alegra que estés aquí, he estado esperando para tenerte a solas.$15",
+    "event-10.04": "Oh, no es nada, yo solo...$15",
+    "event-10.05": "Solo es parece que no hemos pasado mucho tiempo juntos.$14",
+    "event-10.06": "Nos vemos todos los días.",
+    "event-10.07": "En realidad no me siento de la misma forma.",
+    "event-10.08": "Tal vez podriamos planea citas más seguido.",
+    "event-10.09": "Bueno, al menos estamos juntos ahora.$15",
+    "event-10.10": "Creo que sigo enamorandome de ti cada vez más.$15",
+    "event-10.11": "Todavía se siente como el día de nuestra boda, ¿no es así?",
+    "event-10.12": "En realidad no, no se siente igual que antes.",
+    "event-10.13": "Sé a lo que te refieres, yo me siento de la misma manera.",
+    "event-10.14": "Lo que sea que sientas, yo te amo, @.$15",
+
+
+    /*********
+    ** Lyell's Woods, 8-heart event
+    *********/
+    "event-7.01": "*sollozo*$s",
+    "event-7.02": "Por favor... llevatelo de vuelta.$10",
+    "event-7.03": "Sé que no retiras las bendiciones, pero solo por esta vez. *hic* no puedo seguir con esto por más tiempo.$10",
+    "event-7.04": "Qu... *hic* No se supone que estes aquí.$10",
+    "event-7.05": "*hic* No estuviste allí todo el tiempo, ¿verdad?",
+    "event-7.06": "Acabo de llegar. ¿Que sucede?",
+    "event-7.07": "He estado aquí todo el tiempo. ¿Que esta pasando?",
+    "event-7.08": "Es difícil de explicar... La mayoría de la gente piensa que estoy loco.$10",
+    "event-7.09": "Y había querido esto al principio...$10",
+    "event-7.10": "Solo- es que esta maldita bendición.$10",
+    "event-7.11": "Nunca había sido de los que orara... Pero un día lo hice y apareció la diosa.$10",
+    "event-7.12": "Ella quería saber sobre mí, así que le conté sobre mi vida.$10",
+    "event-7.13": "Fue entonces cuando ella me bendijo con...$10",
+    "event-7.14": "Pensarías que estoy loco si te lo dijera.$10",
+    "event-7.15": "Pero lo que ella me dio, arruinó mi vida.$10",
+    "event-7.16": "Comenzó a ser una maldición después de tanto tiempo.$10",
+    "event-7.17": "Y ella se niega a quitarmela.$a",
+    "event-7.18": "Le he rogado por sigl- ¡Le he rogado que se la lleve!$a",
+    "event-7.19": "Mejor llevarlo adentro.",
+    "event-7.20": "Es mejor dejarlo descansar por ahora.",
+
+
+    /*********
+    ** Mines, 8.08-heart event
+    *********/
+    "event-9.01": "*El esta herido.*$12",
+    "event-9.02": "*His skin is ice-cold.*$12",
+    "event-9.03": "*You check Lyell's pulse.*$12",
+    "event-9.04": "*¡Está rígido y no parece tener ritmo cardíaco!*$12",
+    "event-9.05": "*Lyell jadea ruidosamente y comienza a toser.*$12",
+    "event-9.06": "Por favor... *cough* ...Llévame a casa.$12",
+    "event-9.07": "Solo necesito ir a casa.$12",
+    "event-9.08": "Lo sé, no debería haber entrado allí solo.$13",
+    "event-9.09": "Lo siento, @, odio preocuparte.$13",
+    "event-9.10": "Por favor, no te vayas... No quiero estar solo ahora.$13",
+    "event-9.11": "...You're always there for me... even when it's hard for you...$13",
+    "event-9.12": "I love you, @.$13",
+    "event-9.13": "Me preguntaba cuándo ibas a despertar.$1",
+    "event-9.14": "Estaba a punto de preparar el desayuno.$1",
+    "event-9.15": "Sí, anoche fue estresante.$2",
+    "event-9.16": "Lo sé... sé que estaba muerto.$2",
+    "event-9.17": "Yo solo... supongo que no puedo mantenerlo en secreto por más tiempo.$2",
+    "event-9.18": "Tu mereces saber la verdad sobre mí.$2",
+    "event-9.19": "Siglos atrás, durante una terrible tormenta...$2",
+    "event-9.20": "Encontré un santuario dedicado a Hebe, la Diosa de la juventud.$2",
+    "event-9.21": "Ella vino a mí después de que limpié su santuario... Hablamos por lo que parecieron horas.$2",
+    "event-9.22": "Estaba tan agradecida por mi amabilidad, después de haber sido olvidada por otros hace mucho tiempo, así que me dio una bendición.$2",
+    "event-9.23": "He tenido treinta y cuatro años desde entonces. Ella me bendijo con la eterna juventud... Cada vez que muero, solo regreso.$2",
+    "event-9.24": "Debes entender por qué no te dije...$2",
+    "event-9.25": "Estaba seguro de que me dejarías...",
+    "event-9.26": "No te dejaré. te quiero.",
+    "event-9.27": "¿Cómo pudiste ocultarme esto? ¡Me voy!",
+    "event-9.28": "...$2",
+
+
+    /*********
+    ** Secret Woods, 8.08-heart event
+    *********/
+    "event-8.01": "@! Es curioso encontarte aquí.$h",
+    "event-8.02": "Este bosque... Es hermoso e incluso un poco misterioso.$h",
+    "event-8.03": "Me gusta aquí. Es pacifico. Podría mover el santuario a este bosque si puedo encontrar una buena ubicación.$8",
+    "event-8.04": "Es incluso mejor ahora que estás aquí.$l",
+    "event-8.05": "Hemos estado volviéndonos mas cercanos... No puedo evitar notar eso.$9",
+    "event-8.06": "@. Yo... He querido hablar contigo sobre algo.$9",
+    "event-8.07": "Cuando nos conocimos, Estaba decidido a no acercarme demasiado a ti... Pero obviamente eso falló.$h",
+    "event-8.08": "Y creo que me alegro de que así fuera.$9",
+    "event-8.09": "@. Yo... Creo que realmente te amo.$9",
+    "event-8.10": "@, estas temblando. ¿Te encuentras bien?",
+    "event-8.11": "Sí, solo estoy feliz.",
+    "event-8.12": "No, no quiero esto.",
+    "event-8.13": "Me siento mejor ahora que te lo he dicho. Ha estado en mi mente por semanas.$l",
+    "event-8.14": "Si alguna vez me necesitas, sabes dónde encontrarme.",
+
+
+    /*********
+    ** Secret Woods, 9-heart event
+    *********/
+    "event-15.01": "@, parece que me has encontrado.$1",
+    "event-15.02": "Me he esforzado mucho para hacer esto.",
+    "event-15.03": "Es una estatua de Hebe, la Diosa de la juventud.#$b#Quien me hizo como soy ahora.",
+    "event-15.04": "Espero que al hacer esto, finalmente me note otra vez y responda a mi llamada.$2",
+    "event-15.05": "Es una posibilidad remota, lo sé, pero he estado viniendo aquí todas las noches para rezar por su llegada.$2",
+    "event-15.06": "Él suspira.",
+    "event-15.07": "No he tenido suerte hasta ahora, pero tengo que mantener la esperanza...",
+    "event-15.08": "Aunque ya es bastante tarde ¿no es así?...#$b#Debería regresar a casa y cuidar a mis niñas antes de que se pongan ansiosas.$1",
+    "event-15.09": "Tú allí.#$b#¿Es este es tu hacer?",
+    "event-15.10": "¿Y bien? ¿Lo es?$3",
+    "event-15.11": "Sí Diosa, así es.$2",
+    "event-15.12": "¿Por qué me has llamado?",
+    "event-15.13": "Te he llamado para rogar por una petición...$2",
+    "event-15.14": "Una petición.#$b#¿Como una bendición?$1",
+    "event-15.15": "¡Oh, me encanta dar bendiciones!$1#$b#¡Es mi cosa favorita en todo el mundo!",
+    "event-15.16": "No del todo mi Diosa.$2",
+    "event-15.17": "Entonces, ¿qué es si no es una bendición?$2#$b#Eso es todo lo que puedo ofrecer a los mortales.",
+    "event-15.18": "Verás a mi Diosa, deseo rogarte que quites una bendición...$2",
+    "event-15.19": "¿Quitarla?$2#$b#¿De quién, por qué ya no la quiere?$2",
+    "event-15.20": "Es$2#$b#Mía, hace mucho tiempo me bendeciste con vida y juventud  eternas.$2#$b#Te ruego, dulce Hebe, que me quites esa bendición.$2",
+    "event-15.21": "Pero...$2#$b#Espera...$3#$b#¡Yo te recuerdo!$3",
+    "event-15.22": "¡Ya me has pedido eso antes y dije que no!$3",
+    "event-15.23": "Lo se pero por favor-$2",
+    "event-15.24": "No!$3#$b#No hay nada de malo con mis bendiciones.$2",
+    "event-15.25": "Por supuesto que no...#$b#Pero he vivido tanto tiempo, he perdido a tanta gente que amo.$2",
+    "event-15.26": "Quiero la oportunidad de volver a verlos en la otra vida...$2#$b#Deseo envejecer con mis seres queridos en el presente.",
+    "event-15.27": "Estoy agradecido por tu bendición Diosa, pero ya estoy cansado de ella.#$b#Por favor, déjame volver a la normalidad para poder vivir la vida como debe ser.$2",
+    "event-15.28": "Yo...$3#$b#Yo no...$2#$b#No se como quitarla.$2",
+    "event-15.29": "Mamá aún no me ha enseñado como...$2#$b#En realidad ni siquiera se me permite dar bendiciones en primer lugar.$2",
+    "event-15.30": "Ya veo.$2",
+    "event-15.31": "Lo siento señor.$2#$b#¡Pero cuando sepa cómo hacerlo la retiraré!$1#$b#Escucha, todo estará bien.$1",
+    "event-15.32": "Gracias...$2#$b#Hasta entonces, supongo...$2",
+    "event-15.33": "Vale, me tengo que ir ahora.#$b#Pero en un milenio, mamá me va a enseñar más.$1#$b#Solo vuelve aquí, ¿si?#$b#¡Te veré luego!$1",
+    "event-15.34": "Lyell se ha quedado muy callado.",
+    "event-15.35": "Un milenio..$2#$b#Aún falta un milenio.$10",
+    "event-15.36": "Dioses, un milenio entero...",
+    "event-15.37": "No hay mucho que pueda decir, pero estoy aquí para ti.",
+    "event-15.38": "Pasará rápido, solo mantén la cabeza en alto.",
+
+
+    /*********
+    ** Bathhouse, married 9.08-heart event
+    *********/
+    "event-11.01": "@!$17",
+    "event-11.02": "...$17",
+    "event-11.03": "¡Por favor vete!$17",
+    "event-11.04": "Estaré bien, solo, dame un momento po favor.$17",
+    "event-11.05": "No es un buen momento, pero estaré bien.$17",
+    "event-11.06": "No me iré. ¿Qué sucede contigo?",
+    "event-11.07": "Estás actuando raro, solo dime qué pasa.",
+    "event-11.08": "No te abandonaré.",
+    "event-11.09": "Lo siento, sé que estoy siendo dramático.$17",
+    "event-11.10": "Solo... A veces me siento realmente abrumado.$17",
+    "event-11.11": "Solía ??manejarlo bien, pero desde que me dieron de alta...$17",
+    "event-11.12": "Es como si no pudiera soportar nada más.$17",
+    "event-11.13": "Lo odio. Ya tengo una mente ocupada... Ya tengo equipaje.$18",
+    "event-11.14": "Es como si en un momento estubiera aquí y al siguiente estoy en otro lugar... Ya no puedo volver a pensar.$17",
+    "event-11.15": "Tu no pediste casarte con esto... Lo siento mucho.$17",
+    "event-11.16": "Creo que necesito recostarme, tal vez ayude... Lo siento, @.$17",
+
+
+    /*********
+    ** Mountain, married 9.2-heart event
+    *********/
+    "event-12.01": "Lo siento, @, sé que es tarde. Estaré en casa pronto.$2",
+    "event-12.02": "El cielo se veía tan hermoso que tuve que detenerme y mirar las estrellas.$1",
+    "event-12.03": "Aquí, ven! Al estar aquí en el campo, el cielo nocturno es mucho más visible.$1",
+    "event-12.04": "Es realmente bello.$1",
+    "event-12.05": "¿No es impresionante?$1",
+    "event-12.06": "Es hermoso.",
+    "event-12.07": "Está bien, supongo.",
+    "event-12.08": "Sé que la luz de una estrella permanece visible mucho después de que se apaga. A veces por cientos de años.$2",
+    "event-12.09": "Pero creo que es hermoso de alguna manera... Quiero decir, demonios, las mismas estrellas han estado en el cielo toda mi vida.$1",
+    "event-12.10": "Bueno, he estado vivo por mucho tiempo... Es agradable tener una constante en mi vida. Algo que nunca cambia.$2",
+    "event-12.11": "Las cosas cambian constantemente. Las personas... Las relaciones...$s",
+    "event-12.12": "Eso es algo bueno, pero...",
+    "event-12.13": "Supongo que hay algo reconfortante en ello... Las estrellas, quiero decir.$2",
+    "event-12.14": "Pero, bueno, incluso con todo cambiando todo el tiempo, sé otra cosa que permanece constante en mi vida...$1",
+    "event-12.15": "Mis sentimientos por ti, @.$4",
+    "event-12.16": "Te amo, @!$1",
+    "LyellSign.1": "No Trespassing.",
+                "LyellsWoods.1": "Es un santuario, pero no para algún dios que conozcas.",
+                "LyellsWoods.2": "Aquí yace Marlin Fischer... El día del fallecimiento está tallado.",
+                "LyellsWoods.3": "¡Una de las gallinas de Lyell escapó!",
+                "LyellsWoods.4": "El buzón desborda de correspondencia.",
+                "LyellsWoods.5": "Creo que ella esta durmiendo.",
+                "LyellsWoods.6": "Ella luce feliz.",
+                "LyellsWoods.7": "Hay muerte en sus ojos...",
+                "LyellsWoods.8": "¡Ella te está picoteando!",
+                "LyellsWoods.9": "Esta bicicleta es muy vieja, pero está bien cuidada.",
+                "LyellsWoods.10": "Mejor ten cuidado con las abejas.",
+                "LyellsWoods.11": "Estos están creciendo bien.",
+                "LyellsWoods.12": "¡Estos son cultivos de calidad!",
+                "LyellCoop.1": "Qué niña tan somnolienta.",
+                "LyellCoop.2": "Intentas acariciarla, pero ella se aleja. No parece que le agrades mucho.",
+                "LyellCoop.3": "Ella gimotea fuertemente.",
+                "LyellCoop.4": "Ella te mira sospechosamente.",
+                "LyellCoop.5": "Que buena chica! Ella realmente está siendo amable contigo.",
+                "LyellBarn.1": "Pobre está tan cansada que se durmió de pie.",
+                "LyellBarn.2": "¡Ay! ¡El te mordió la mano!",
+                "LyellBarn.3": "Ella está haciendo una cara boba.",
+                "LyellBarn.4": "Ella se vé felíz.",
+                "LyellBarn.5": "Ella va a dar a luz en cualquier momento.",
+                "LyellBarn.6": "Él está durmiendo.",
+                "LyellBarn.7": "Su pelaje es bonito y suave. Lyell debe cepillarlo mucho.",
+                "LyellBarn.8": "Ella es agradable y regordeta.",
+                "LyellHouse.1": "Eso son muchas latas de cerveza.",
+                "LyellHouse.2": "Parece hecho a mano.",
+                "LyellHouse.3": "Es un diario. Parece ser muy viejo.",
+                "LyellHouse.4": "Este oso es viejo. Le faltan ambos ojos.",
+                "LyellHouse.5": "La cama huele a Lyell. ¿Es raro decir eso?",
+                "LyellHouse.6": "Mejor no beberlo.",
+                "LyellHouse.7": "Huele a musgo y sándalo.",
+                "LyellHouse.8": "Hay una cabeza de ciervo congelada aquí... Asqueroso.",
+                "LyellHouse.9": "Hay una caja de tarjetas de identificación debajo del fregadero.",
+                "LyellHouse.10": "Hay una caja de joyería aquí... ¿Es eso un anillo de bodas?",
+                "LyellHouse.11": "Es un diario abierto: 'It's been a while since I last wrote. He estado con otro estado de ánimo en el cual no puedo aclarar mis pensamientos. Todo lo que puedo pensar en estos días es mi pasado y mis remordimientos.' Creo que es mejor dejarlo aquí.",
+                "LyellHouse.12": "Hay fotos en blanco y negro de Lyell y un hombre en el cajón... Ellos se ven felices.",
+                "LyellHouse.13": "Una jarra, está llena de cenizas, la otra está lleno de cabello. Que extraño.",
+                "LyellSpouse.1": "La colección de libros de Lyell está creciendo.",
+                "LyellSpouse.2": "Huele a bosque después de un día lluvioso.",
+                "LyellSpouse.3": "Marlin construyó esto. Ha sido reparado varias veces.",
+                "LyellSpouse.4": "La vida es muy diferente ahora que estoy viviendo con alguien más. Pero es un buen tipo de diferente. Finalmente me siento feliz otra vez.",
+                "LyellSpouse.5": "Lyell dejó su cuaderno de bocetos en el suelo. Su arte es impresionante.",
+                "LyellSpouse.6": "El cabello y las cenizas de Marlin. Descansa en paz.",
+                "LyellSpouse.7": "Hay papel arrugado aquí.",
+                "LyellSpouse.8": "Libro uno: Invocando a la Diosa",
+                "LyellSpouse.9": "Libro cinco: Bendiciones y Maldiciones"
+}

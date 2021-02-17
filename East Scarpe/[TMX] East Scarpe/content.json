@@ -1,0 +1,97 @@
+{
+  "loadLate": "true",
+  "addMaps": [
+    {
+      "name": "EastScarpe",
+      "file": "assets/EastScarpeRevised.tmx",
+      "type": "Custom:EastScarpe.EastScarpe, EastScarpe, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "name": "Lighthouse",
+      "file": "assets/Lighthouse_Interior.tmx"
+    },
+    {
+      "name": "ESHouse1",
+      "file": "assets/House1.tmx"
+    },
+    {
+      "name": "ESHouse2",
+      "file": "assets/House2.tmx"
+    },
+    {
+      "name": "ESHouse3",
+      "file": "assets/House3.tmx"
+    },
+    {
+      "name": "ESHouse4",
+      "file": "assets/House4.tmx"
+    },
+    {
+      "name": "ESFishingCabin",
+      "file": "assets/FishingCabin.tmx"
+    },
+    {
+      "name": "BirdHide",
+      "file": "assets/BirdHide-Spring.tmx"
+    },
+    {
+      "name": "VetHouse",
+      "file": "assets/VetHouse.tmx"
+    },
+    {
+      "name": "JacobOffice",
+      "file": "assets/JacobOffice.tmx"
+    },
+    {
+      "name": "JacobBarn",
+      "file": "assets/Barn3.tmx"
+    },
+    {
+      "name": "Silo",
+      "file": "assets/Silo1.tmx"
+    },
+    {
+      "name": "DeepMountains",
+      "file": "assets/DeepMountains.tmx"
+    }
+  ],
+  "mergeMaps": [
+    {
+      "name": "EastScarpe",
+      "file": "assets/VanGone.tmx",
+      "sourceArea": [
+        0,
+        0,
+        6,
+        9
+      ],
+      "position": [
+        28,
+        27
+      ],
+      "Conditions": "d Mon Wed Thu Fri Sat Sun/t 1100 1800/w sunny"
+    }
+    /*{
+      "name": "EastScarpe", 
+    "file": "assets/EastScarpeTristan.tmx",
+    "position": [9,36]
+      },*/
+  ],
+  "replaceMaps": [
+    {
+      "name": "BirdHide",
+      "file": "assets/BirdHide-Summer.tmx",
+      "Conditions": "z spring/z fall/z winter"
+    },
+    {
+      "name": "BirdHide",
+      "file": "assets/BirdHide-Winter.tmx",
+      "Conditions": "z spring/z fall/z summer"
+    },
+    {
+      "name": "BirdHide",
+      "file": "assets/BirdHide-Fall.tmx",
+      "Conditions": "z spring/z summer/z winter"
+    }
+  ]
+}

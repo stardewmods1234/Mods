@@ -1,0 +1,47 @@
+{
+    "Name": "Platinum Ore",
+    "Description": "A precious ore that can be smelted into bars.",
+    "Category": "Metal",
+    "Edibility": -300,
+    "Price": 35,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Neutral": ["Clint", ],
+        "Dislike": ["Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+		"Hate": ["Sam", ],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "백금광석",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Minério de Platina",
+        // "ru": "",
+        // "tr": "",
+        "zh": "铂矿石",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "주괴로 제련할 수 있는 귀한 광석.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Um minério precioso que pode ser transformado em barras.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "可以被熔炼成金属锭的珍贵矿石。",
+    },
+	
+    "ContextTags": [
+        "color_white", "ore_item",
+    ],
+}

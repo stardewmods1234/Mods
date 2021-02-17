@@ -1,0 +1,21 @@
+{
+   "Name": "[CON] More Gems",
+   "Author": "KAYA",
+   "Version": "2.1.0",
+   "Description": "More gems",
+   "UniqueID": "KAYA.CONMoreGem",
+   "UpdateKeys": [ "Nexus:6147@CON" ],
+   "MinimumApiVersion": "3.4.0",
+   "ContentPackFor": {
+      "UniqueID": "aedenthorn.CustomOreNodes", 
+      "MinimumVersion": "0.3.0" 
+   },
+	"Dependencies": [
+   {
+	   "UniqueID": "KAYA.JAMoreGem"
+   },
+   {
+	   "UniqueID": "spacechase0.JsonAssets"
+   }
+   ]
+}

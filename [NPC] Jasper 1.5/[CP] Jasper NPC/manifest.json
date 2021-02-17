@@ -1,0 +1,19 @@
+{
+
+  "Name": "NPC Jasper",
+   "Author": "Lemurkat",
+   "Description": "Adds the NPC Jasper",
+   "Version": "1.3.2",
+   "UniqueID": "Lemurkat.NPCJasper",
+  "UpdateKeys": ["Nexus:5599"],
+  "Dependencies": [
+    {   "UniqueID":"Wolf.Gun", "IsRequired":false   },
+    {   "UniqueID":"Karmylla.ImmersiveMaps", "IsRequired":false   },
+    { "UniqueID": "MIDI.Blanche", "IsRequired":false }
+        ],
+  "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    }
+   
+   
+}

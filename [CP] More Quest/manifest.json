@@ -1,0 +1,11 @@
+{
+   "Name": "More Quest",
+   "Author": "KangTaeGong",
+   "Description": "Add Quest",
+   "Version": "2.0.0",
+   "UniqueID": "KangTaeGong",
+   "UpdateKeys": [ "Nexus:7155" ],
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+}

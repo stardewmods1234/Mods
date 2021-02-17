@@ -1,0 +1,15 @@
+{
+
+  "Name": "Douglas NPC",
+  "Author": "BURAKMESE",
+  "Description": "Son of the Wizard",
+  "Version": "1.0.0",
+  "UniqueID": "BURAKMESE.Douglas",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+	"MinimumVersion": "1.9.2",
+	
+  }
+
+
+}

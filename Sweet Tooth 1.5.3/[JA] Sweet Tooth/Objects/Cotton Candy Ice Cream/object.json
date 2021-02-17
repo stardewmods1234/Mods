@@ -1,0 +1,42 @@
+{
+  "Name": "Cotton Candy Ice Cream",
+  "Description": "An extremely sweet ice cream.",
+  "Category": "ArtisanGoods",
+  "Edibility": 48,
+  "Price": 250,
+  "IsColored": false,
+  "Recipe": null,
+   "GiftTastes":
+    {
+        "Love": ["Vincent", "Jas", "Haley", "Demetrius"],
+        "Like": ["Evelyn", "Caroline", "Jodi", "Linus", "Penny", "Sandy", "Clint", "George", "Sebastian", "Abigial", "Alex", "Dwarf", "Elliott", "Gus", "Harvey", "Kent", "Lewis", "Maru", "Pam", "Pierre", "Robin", "Sam", "Shane", "Wizard", "Marnie"],
+        "Dislike": ["Emily", "Leah", "Krobus", "Willy"]
+    },
+  "NameLocalization": { 
+		// "es": "",
+		"ko": "솜사탕 아이스크림",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "棉花糖冰淇淋",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        "ko": "극도로 단 아이스크림",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "极甜的冰淇淋。",
+    }  
+}

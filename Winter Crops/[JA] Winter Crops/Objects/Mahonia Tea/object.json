@@ -1,0 +1,23 @@
+{
+	"Name": "Mahonia Tea",
+	"Price": 150,
+	"Category": "ArtisanGoods",
+	"Description": "Slightly bitter, but with an underlying sweetness and warmth.",
+	"Edibility": 20,
+	"EdibleIsDrink": true,
+	"Recipe": null,
+	"EdibleBuffs":
+    {
+        "Farming": 1,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 300,
+    },
+}

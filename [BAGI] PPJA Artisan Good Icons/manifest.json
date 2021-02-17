@@ -1,0 +1,12 @@
+{
+  "Name": "PPJA Artisan Good Icons",
+  "Author": "Riibu",
+  "Version": "1.0.1",
+  "Description": "Adds color to all PPJA crop and tree vegetable, fruit, nut and herb artisan goods.",
+  "UniqueID": "Riibu.PPJAArtisanGoodIcons",
+  "ContentPackFor": {
+	"UniqueID": "cat.betterartisangoodicons"
+	},
+  "MinimumApiVersion": "3.8.3",
+  "UpdateKeys": [ "Nexus:7604" ],
+}

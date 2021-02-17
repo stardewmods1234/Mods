@@ -1,0 +1,9 @@
+{
+  "Mon": "600 MachineShed 9 5 2/630 MainShops 36 18 0 \"Strings\\schedules\\Hephaestus:maintenance.001\"/650 MainShops 24 18 0 \"Strings\\schedules\\Hephaestus:maintenance.001\"/710 MainShops 10 18 0 \"Strings\\schedules\\Hephaestus:maintenance.001\"/730 MainShops 2 15 3 \"Strings\\schedules\\Hephaestus:maintenance.002\"/750 MachineShed 9 5 2/1810 MachineShed 11 5 0",
+  "Tue": "800 MachineShed 9 5 2/1810 MachineShed 11 5 0",
+  "Wed": "800 MachineShed 9 5 2/1810 MachineShed 11 5 0",
+  "Thu": "600 MachineShed 9 5 2/630 MainShops 36 18 0 \"Strings\\schedules\\Hephaestus:maintenance.001\"/650 MainShops 24 18 0 \"Strings\\schedules\\Hephaestus:maintenance.001\"/710 MainShops 10 18 0 \"Strings\\schedules\\Hephaestus:maintenance.001\"/730 MainShops 2 15 3 \"Strings\\schedules\\Hephaestus:maintenance.002\"/750 MachineShed 9 5 2/1810 MachineShed 11 5 0",
+  "Fri": "800 MachineShed 9 5 2/1810 MachineShed 11 5 0",
+  "Sat": "800 MachineShed 9 5 2/1810 MachineShed 11 5 0",
+  "Sun": "800 MachineShed 9 5 2/1810 MachineShed 11 5 0"
+}

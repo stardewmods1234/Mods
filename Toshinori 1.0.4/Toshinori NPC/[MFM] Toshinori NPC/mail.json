@@ -1,0 +1,2034 @@
+[	
+ 
+//Friendship and Plot Letters
+    {
+		"Id": "toshinoriletters.intro",
+        "LetterBG": "toshiletterBG.png",
+        "WhichBG": 0,		
+		"Title": "toshinoriletters.intro.title", 
+		"Text": "toshinoriletters.intro.text",
+		"Repeatable": false, 
+		"EventsNotSeen": [661715000,661716000],
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 1,
+				"FriendshipStatus": ["Friendly","Dating","Engaged"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.one",
+        "MailReceived": ["toshinoriletters.intro"],
+        "LetterBG": "toshiletterBG.png",
+        "WhichBG": 0,		
+		"Title": "toshinoriletters.one.title", 
+		"Text": "toshinoriletters.one.text", 
+		"Repeatable": false, 
+		"EventsNotSeen": [661715000,661716000],
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.melancholyone",
+        "MailReceived": ["toshinoriletters.one"],
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 0,
+        "Weather": "rainy",		
+		"Title": "toshinoriletters.melancholyone.title",
+		"Text": "toshinoriletters.melancholyone.text",
+		"Repeatable": false, 
+		"EventsNotSeen": [661715000,661716000],
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.two",
+        "MailReceived": ["toshinoriletters.one"],
+        "LetterBG": "toshiletterBG.png",
+        "WhichBG": 0,		
+		"Title": "toshinoriletters.two.title", 
+		"Text": "toshinoriletters.two.text",
+		"Repeatable": false, 
+		"EventsNotSeen": [661715000,661716000],
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 3,
+				"FriendshipStatus": ["Friendly","Dating","Engaged"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.three",
+        "MailReceived": ["toshinoriletters.two"],			
+		"Title": "toshinoriletters.three.title",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 0,
+		"Text": "toshinoriletters.three.text",
+		"Repeatable": false,
+		"EventsNotSeen": [661715000,661716000],
+        "Attachments": 
+		[
+		    {
+			    "Type": 
+			    "Object",
+                "Index": 612,
+                "Stack": 3
+			}
+		],
+        "FriendshipConditions":		
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 4,
+				"FriendshipStatus": ["Friendly","Dating","Engaged"]
+			}
+		],
+	
+    },
+	{
+		"Id": "toshinoriletters.melancholytwo",
+        "MailReceived": ["toshinoriletters.melancholyone"],
+        "Weather": "rainy",
+        "Seasons": ["summer"],
+        "LetterBG": "toshiletterBG.png",
+        "WhichBG": 0,		
+		"Title": "toshinoriletters.melancholytwo.title",
+		"Text": "toshinoriletters.melancholytwo.text",
+		"Repeatable": false,
+		"EventsNotSeen": [661715000,661716000],
+        "Attachments": 
+		[
+		    {
+			    "Type": 
+			    "Object",
+                "Index": 394,
+                "Stack": 1
+			}
+		],		
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 5,
+				"FriendshipStatus": ["Friendly","Dating","Engaged"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.melancholythree",
+        "MailReceived": ["toshinoriletters.melancholytwo"],
+        "Weather": "rainy",
+        "Seasons": ["fall"],
+        "EventsSeen": [66170003],
+		"EventsNotSeen": [661715000,661716000],
+        "LetterBG": "toshiletterBG.png",
+        "WhichBG": 0,		
+		"Title": "toshinoriletters.melancholythree.title",
+		"Text": "toshinoriletters.melancholythree.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 6,
+				"FriendshipStatus": ["Friendly","Dating","Engaged"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.melancholyfour",
+        "MailReceived": ["toshinoriletters.melancholythree"],
+        "Weather": "rainy",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 0,
+        "Seasons": ["winter"],
+		"EventsNotSeen": [661715000,661716000],
+        "EventsSeen": [66170003],		
+		"Title": "toshinoriletters.melancholyfour.title",
+		"Text": "toshinoriletters.melancholyfour.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 6,
+				"FriendshipStatus": ["Friendly","Dating","Engaged"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.four",
+        "MailReceived": ["toshinoriletters.three"],		
+		"Title": "toshinoriletters.four.title",
+        "LetterBG": "toshiletterBG.png",
+        "WhichBG": 0,		
+		"Text": "toshinoriletters.four.text",
+		"Repeatable": false, 
+		"EventsNotSeen": [661715000,661716000],
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 5,
+				"FriendshipStatus": ["Friendly","Dating","Engaged"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.five",
+        "MailReceived": ["toshinoriletters.four"],		
+		"Title": "toshinoriletters.five.title",
+        "LetterBG": "toshiletterBG.png",
+        "WhichBG": 0,		
+		"Text": "toshinoriletters.five.text",
+		"Repeatable": false,
+		"EventsNotSeen": [661715000,661716000],
+        "Days": [10],
+        "Seasons": ["fall"],	
+        "Attachments": 
+		[ 
+			{
+				"Type": "Object",
+				"Index": 340, 
+				"Stack": 1
+		    }
+		],		
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 6,
+				"FriendshipStatus": ["Friendly","Dating","Engaged"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.six",
+        "MailReceived": ["toshinoriletters.five"],		
+		"Title": "You Mean A Lot To Me",
+        "LetterBG": "toshiletterBG.png",
+        "WhichBG": 0,		
+		"Text": "toshinoriletters.six.text",
+		"Repeatable": false,
+		"EventsNotSeen": [661715000,661716000],
+        "Days": [1],
+        "Seasons": ["winter"],		
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 7,
+				"FriendshipStatus": ["Friendly","Dating","Engaged"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.seven",
+        "MailReceived": ["toshinoriletters.six"],		
+		"Title": "toshinoriletters.seven.title",
+        "LetterBG": "toshiletterBG.png",
+        "WhichBG": 0,		
+		"Text": "toshinoriletters.seven.text",
+		"Repeatable": false,
+		"EventsNotSeen": [661715000,661716000],
+		"EventsSeen": [661712000],
+        "Days": [5],
+        "Seasons": ["spring"],	
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 8,
+				"FriendshipStatus": ["Friendly","Dating","Engaged"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.downhillone",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen": [661715000,661716000],	
+        "EventsSeen": [661711100],
+		"Title": "toshinoriletters.downhillone.title",
+		"Text": "toshinoriletters.downhillone.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged"]
+			}
+		],
+    },	
+	{
+		"Id": "toshinoriletters.downhilltwo",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen": [661715000,661716000],	
+        "EventsSeen": [66170030],
+		"Title": "toshinoriletters.downhilltwo.title",
+		"Text": "toshinoriletters.downhilltwo.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged"]
+			}
+		],
+    },	
+	{
+		"Id": "toshinoriletters.uphillone",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen": [661715000,661716000],	
+        "EventsSeen": [66170035],
+		"Title": "toshinoriletters.uphillone.title",
+		"Text": "toshinoriletters.uphillone.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged"]
+			}
+		],
+    },	
+	{
+		"Id": "toshinoriletters.yearfourone",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen": [661715000,661716000],	
+        "EventsSeen": [661714000],
+		"Seasons": ["fall"],
+		"Title": "toshinoriletters.yearfourone.title",
+		"Text": "toshinoriletters.yearfourone.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged"]
+			}
+		],
+    },	
+	{
+		"Id": "toshinoriletters.izukucrisis",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen": [661715000,661716000],	
+        "EventsSeen": [66170021,66170016],		
+		"Title": "toshinoriletters.izukucrisis.title",
+		"Text": "toshinoriletters.izukucrisis.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.izukuleaving",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 0,
+		"EventsNotSeen": [661715000,661716000],	
+        "EventsSeen": [66170021,66170016],
+        "Days": [17],
+        "Seasons": ["fall"],		
+		"Title": "toshinoriletters.izukuleaving.title",
+		"Text": "toshinoriletters.izukuleaving.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.melancholyfive",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen": [661715000,661716000],	
+        "EventsSeen": [661712000],
+        "Weather": "rainy",		
+		"Title": "toshinoriletters.melancholyfive.title",
+		"Text": "toshinoriletters.melancholyfive.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.melancholyfive",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen": [661715000,661716000],	
+        "EventsSeen": [661712000],	
+		"Title": "toshinoriletters.melancholyfive.title",
+		"Text": "toshinoriletters.melancholyfive.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 8,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.rainyeartwo",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen": [661715000,661716000],	
+        "EventsSeen": [661712000],
+        "Weather": "rainy",		
+		"Title": "toshinoriletters.rainyeartwo.title",
+		"Text": "toshinoriletters.rainyeartwo.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 8,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.izukuvisit",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen": [661715000,661716000],
+        "EventsSeen": [661711000],		
+        "Days": [1],
+        "Seasons": ["winter"],	
+		"Title": "toshinoriletters.izukuvisit.title",
+		"Text": "toshinoriletters.izukuvisit.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.mine",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 0,
+		"EventsNotSeen": [661715000,661716000],
+        "EventsSeen": [100162], 		
+		"Title": "toshinoriletters.mine.title",
+		"Text": "toshinoriletters.mine.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.izukuconcerned",
+		"EventsNotSeen": [661715000,661716000],	
+        "EventsSeen": [66170030],	
+		"Title": "toshinoriletters.izukuconcerned.title",
+		"Text": "toshinoriletters.izukuconcerned.text",
+		"Repeatable": false, 
+    },
+	{
+		"Id": "toshinoriletters.snowyeartwo",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 0,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [100162,661712000],
+        "Weather": "rainy",
+        "Seasons": ["winter"],		
+		"Title": "toshinoriletters.snowyeartwo.title",
+		"Text": "toshinoriletters.snowyeartwo.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.izukuhappy",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 0,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [66170035],	
+		"Title": "toshinoriletters.izukuhappy.title",
+		"Text": "toshinoriletters.izukuhappy.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.uphilltwo",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 0,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [66170035, 661714000],
+        "Seasons": ["fall"],		
+		"Title": "toshinoriletters.uphilltwo.title",
+		"Text": "toshinoriletters.uphilltwo.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged"]
+			}
+		],
+		"Attachments": 
+		[ 
+			{
+				"Type": "Object",
+				"Index": 403, 
+				"Stack": 1
+		    }
+		],		
+    },
+
+//Romance, Dating and Marriage Letters
+
+	{
+		"Id": "toshinoriletters.eight",	
+		"Title": "toshinoriletters.eight.title",
+        "LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,		
+		"Text": "toshinoriletters.eight.text",
+		"Repeatable": false,
+        "EventsNotSeen":[661715000,661716000],		
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 8,
+				"FriendshipStatus": ["Dating"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.holdhands",
+        "MailReceived": ["toshinoriletters.eight"],
+        "LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+        "Weather": "sunny",		
+		"Title": "toshinoriletters.holdhands.title", 
+		"Text": "toshinoriletters.holdhands.text",
+		"Repeatable": false,	
+        "EventsNotSeen":[661715000,661716000],		
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 8,
+				"FriendshipStatus": ["Dating"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.sixteen",
+        "EventsSeen": [66170004],
+        "LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,		
+		"Title": "toshinoriletters.sixteen.title",
+		"Text": "toshinoriletters.sixteen.text",
+		"Repeatable": false,
+        "EventsNotSeen":[661715000,661716000],		
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 8,
+				"FriendshipStatus": ["Dating"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.justmarried",		
+		"Title": "toshinoriletters.justmarried.title",
+        "LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,		
+		"Text": "toshinoriletters.justmarried.text",
+        "Repeatable": false,
+        "EventsNotSeen":[661715000,661716000],		
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 8,
+				"FriendshipStatus": ["Married"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.nine",
+		"MailReceived": ["toshinoriletters.justmarried"],		
+		"Title": "toshinoriletters.nine.title",
+        "LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,		
+		"Text": "toshinoriletters.nine.text",
+		"RandomChance": 0.05,
+        "Repeatable": true,
+        "EventsNotSeen":[661715000,661716000],		
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 14,
+				"FriendshipStatus": ["Married"]
+			}
+		],
+		"Attachments": 
+		[ 
+			{
+				"Type": "Object",
+				"Index": 386, 
+				"Stack": 3
+		    }
+		],
+    },
+	{
+		"Id": "toshinoriletters.ten",
+        "MailReceived": ["toshinoriletters.justmarried"],
+        "GroupID": "toshinoriletters.groupthree",		
+		"Title": "toshinoriletters.ten.title",
+        "LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+        "EventsNotSeen":[661715000,661716000],		
+		"Text": "toshinoriletters.ten.text",
+		"Repeatable": false,		
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 8,
+				"FriendshipStatus": ["Married"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.eleven",
+        "MailReceived": ["toshinoriletters.justmarried"],
+        "GroupID": "toshinoriletters.groupthree",		
+		"Title": "toshinoriletters.eleven.title",
+        "LetterBG": "toshiletterBG.png",
+		"EventsNotSeen":[661715000,661716000],
+        "WhichBG": 1,		
+		"Text": "toshinoriletters.eleven.text",
+		"Repeatable": false,		
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 10,
+				"FriendshipStatus": ["Married"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.twelve",
+        "MailReceived": ["toshinoriletters.justmarried"],
+        "GroupID": "toshinoriletters.groupthree",		
+		"Title": "toshinoriletters.twelve.title",
+		"EventsNotSeen":[661715000,661716000],
+        "LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,		
+		"Text": "toshinoriletters.twelve.text",
+		"EventsSeen":[661713000],
+		"Seasons": ["winter"],
+		"Repeatable": false,		
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 10,
+				"FriendshipStatus": ["Married"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.thirteen",	
+		"Title": "toshinoriletters.thirteen.title", 
+        "LetterBG": "toshiletterBG.png",
+		"EventsNotSeen":[661715000,661716000],
+        "WhichBG": 1,		
+		"MailReceived": ["toshinoriletters.justmarried"],
+        "GroupID": "toshinoriletters.groupthree",
+		"Text": "toshinoriletters.thirteen.text",
+		"EventsSeen":[661714000],
+		"Seasons": ["fall"],
+		"Repeatable": false,
+        "Attachments": [
+			{
+				"Type": "Object",
+				"Index": 221,
+				"Stack": 1
+			}
+		],		
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 10,
+				"FriendshipStatus": ["Married"]
+			}
+		],
+    },
+    {
+		"Id": "toshinoriletters.divorce",	
+		"Title": "toshinoriletters.divorce.text",
+        "EventsNotSeen":[661715000,661716000], 		
+		"Text": "toshinoriletters.divorce.text",
+		"Repeatable": false,
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipStatus": ["Divorced"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.tenhearts",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [66170006],
+		"Title": "toshinoriletters.tenhearts.title",
+		"Text": "toshinoriletters.tenhearts.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+			    "FriendshipLevel": 10,
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.spainvitation",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [66170037],
+		"Title": "toshinoriletters.spainvitation.title",
+		"Text": "toshinoriletters.spainvitation.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+			    "FriendshipLevel": 12,
+				"FriendshipStatus": ["Married"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.danceinvitation",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [66170039],
+		"Title": "toshinoriletters.danceinvitation.title",
+		"Text": "toshinoriletters.danceinvitation.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+			    "FriendshipLevel": 14,
+				"FriendshipStatus": ["Married"]
+			}
+		],
+    },
+ 	{
+		"Id": "toshinoriletters.downhillonemarried",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [66170030],
+		"Title": "toshinoriletters.downhillonemarried.title",
+		"Text": "toshinoriletters.downhillonemarried.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipStatus": ["Married"]
+			}
+		],
+    },
+ 	{
+		"Id": "toshinoriletters.downhilltwomarried",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [66170031],
+		"Title": "toshinoriletters.downhilltwomarried.title",
+		"Text": "toshinoriletters.downhilltwomarried.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipStatus": ["Married"]
+			}
+
+		],
+			"Attachments": 
+		[ 
+			{
+				"Type": "Object",
+				"Index": 433, 
+				"Stack": 1
+		    }
+		],
+    },
+ 	{
+		"Id": "toshinoriletters.downhillthreemarried",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [661711500],
+		"Title": "toshinoriletters.downhillthreemarried.title",
+		"Text": "toshinoriletters.downhillthreemarried.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipStatus": ["Married"]
+			}
+
+		],
+			"Attachments": 
+		[ 
+			{
+				"Type": "Object",
+				"Index": 384, 
+				"Stack": 5
+		    }
+		],
+    },
+ 	{
+		"Id": "toshinoriletters.uphillonemarried",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [66170035],
+		"Weather": "rainy",
+		"Title": "toshinoriletters.uphillonemarried.title",
+		"Text": "toshinoriletters.uphillonemarried.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipStatus": ["Married"]
+			}
+		],
+    },
+ 	{
+		"Id": "toshinoriletters.uphilltwomarried",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [66170035],
+		"Title": "toshinoriletters.uphilltwomarried.title",
+		"Text": "toshinoriletters.uphilltwomarried.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipStatus": ["Married"]
+			}
+		],
+    },
+ 	{
+		"Id": "toshinoriletters.marriedyearfourone",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [661714000],
+		"Days": [7],
+        "Seasons": ["spring"],		
+		"Title": "toshinoriletters.marriedyearfourone.title",
+		"Text": "toshinoriletters.marriedyearfourone.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipStatus": ["Married"]
+			}
+		],
+    },
+ 	{
+		"Id": "toshinoriletters.marriedyearfourtwo",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [661714000],
+		"Days": [13],
+        "Seasons": ["summer"],		
+		"Title": "toshinoriletters.marriedyearfourtwo.title",
+		"Text": "toshinoriletters.marriedyearfourtwo.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipStatus": ["Married"]
+			}
+		],
+    },
+ 	{
+		"Id": "toshinoriletters.marriedyearfourthree",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [661714000],
+		"Days": [17],
+        "Seasons": ["fall"],		
+		"Title": "toshinoriletters.marriedyearfourthree.title",
+		"Text": "toshinoriletters.marriedyearfourthree.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipStatus": ["Married"]
+			}
+		],
+    },
+//Holiday Letters
+    {
+		"Id": "toshinoriletters.seventeen",	
+		"Title": "toshinoriletters.seventeen.title", 
+        "LetterBG": "toshiletterBG.png",
+		"EventsNotSeen":[661715000,661716000],
+        "WhichBG": 0,		
+		"Text": "toshinoriletters.seventeen.text",
+		"Days": [27],
+		"Seasons": ["fall"],
+		"Repeatable": true,
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 8,
+				"FriendshipStatus": ["Married"]
+			}
+		],
+    },
+    {
+		"Id": "toshinoriletters.eggfestfriendly",	
+		"Title": "toshinoriletters.eggfestfriendly.title",
+        "LetterBG": "toshiletterBG.png",
+		"EventsNotSeen":[661715000,661716000],
+        "WhichBG": 0,		
+		"Text": "toshinoriletters.eggfestfriendly.text",
+		"Days": [12],
+		"Seasons": ["spring"],
+		"Repeatable": true,
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 4,
+				"FriendshipStatus": ["Friendly"]
+			}
+		],
+    },  
+    {
+		"Id": "toshinoriletters.luaufriendly",	
+		"Title": "toshinoriletters.luaufriendly.title",
+        "LetterBG": "toshiletterBG.png",
+		"EventsNotSeen":[661715000,661716000],
+        "WhichBG": 0,		
+		"Text": "toshinoriletters.luaufriendly.text",
+		"Days": [10],
+		"Seasons": ["summer"],
+		"Repeatable": true,
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 4,
+				"FriendshipStatus": ["Friendly"]
+			}
+		],
+    },  
+    {
+		"Id": "toshinoriletters.moonlightjelliesfriendly",	
+		"Title": "toshinoriletters.moonlightjelliesfriendly.title",
+        "LetterBG": "toshiletterBG.png",
+		"EventsNotSeen":[661715000,661716000],
+        "WhichBG": 0,		
+		"Text": "toshinoriletters.moonlightjelliesfriendly.text",
+		"Days": [27],
+		"Seasons": ["summer"],
+		"Repeatable": true,
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 4,
+				"FriendshipStatus": ["Friendly"]
+			}
+		],
+    }, 
+    {
+		"Id": "toshinoriletters.sdvfairfriendly",	
+		"Title": "toshinoriletters.sdvfairfriendly.title",
+        "LetterBG": "toshiletterBG.png",
+		"EventsNotSeen":[661715000,661716000],
+        "WhichBG": 0,		
+		"Text": "toshinoriletters.sdvfairfriendly.text",
+		"Days": [15],
+		"Seasons": ["fall"],
+		"Repeatable": true,
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 4,
+				"FriendshipStatus": ["Friendly"]
+			}
+		],
+    }, 
+    {
+		"Id": "toshinoriletters.nightmarketfriendly",	
+		"Title": "toshinoriletters.nightmarketfriendly.title",
+        "LetterBG": "toshiletterBG.png",
+		"EventsNotSeen":[661715000,661716000],
+        "WhichBG": 0,		
+		"Text": "toshinoriletters.nightmarketfriendly.text",
+		"Days": [14],
+		"Seasons": ["winter"],
+		"Repeatable": true,
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 4,
+				"FriendshipStatus": ["Friendly"]
+			}
+		],
+    }, 
+    {
+		"Id": "toshinoriletters.feastofthewinterstarfriendly",	
+		"Title": "toshinoriletters.feastofthewinterstarfriendly.title",
+        "LetterBG": "toshiletterBG.png",
+		"EventsNotSeen":[661715000,661716000],
+        "WhichBG": 0,		
+		"Text": "toshinoriletters.feastofthewinterstarfriendly.text",
+		"Days": [24],
+		"Seasons": ["winter"],
+		"Repeatable": true,
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 4,
+				"FriendshipStatus": ["Friendly"]
+			}
+		],
+    }, 
+    {
+		"Id": "toshinoriletters.feastofthewinterstarfriendly",	
+		"Title": "toshinoriletters.feastofthewinterstarfriendly.title",
+        "LetterBG": "toshiletterBG.png",
+		"EventsNotSeen":[661715000,661716000],
+        "WhichBG": 0,		
+		"Text": "toshinoriletters.feastofthewinterstarfriendly.text",
+		"Days": [24],
+		"Seasons": ["winter"],
+		"Repeatable": true,
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 4,
+				"FriendshipStatus": ["Friendly"]
+			}
+		],
+    }, 
+    {
+		"Id": "toshinoriletters.festivaloficefriendly",	
+		"Title": "toshinoriletters.festivaloficefriendly.title",
+        "LetterBG": "toshiletterBG.png",
+		"EventsNotSeen":[661715000,661716000],
+        "WhichBG": 0,		
+		"Text": "toshinoriletters.festivaloficefriendly.text",
+		"Days": [7],
+		"Seasons": ["winter"],
+		"Repeatable": true,
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 4,
+				"FriendshipStatus": ["Friendly"]
+			}
+		],
+    }, 
+    {
+		"Id": "toshinoriletters.fourteen",	
+		"Title": "toshinoriletters.fourteen.title",
+		"EventsNotSeen":[661715000,661716000],
+        "LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,		
+		"Text": "toshinoriletters.fourteen.text",
+		"Days": [24],
+		"Seasons": ["spring"],
+		"Repeatable": true,
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 8,
+				"FriendshipStatus": ["Married"]
+			}
+		],
+    },
+    {
+		"Id": "toshinoriletters.eggfestmarried",	
+		"Title": "toshinoriletters.eggfestmarried.title",
+		"EventsNotSeen":[661715000,661716000],
+        "LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,		
+		"Text": "toshinoriletters.eggfestmarried.text",
+		"Days": [12],
+		"Seasons": ["spring"],
+		"Repeatable": true,
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 8,
+				"FriendshipStatus": ["Married"]
+			}
+		],
+    },
+    {
+		"Id": "toshinoriletters.luaumarried",	
+		"Title": "toshinoriletters.luaumarried.title",
+		"EventsNotSeen":[661715000,661716000],
+        "LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,		
+		"Text": "toshinoriletters.luaumarried.text",
+		"Days": [10],
+		"Seasons": ["summer"],
+		"Repeatable": true,
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 8,
+				"FriendshipStatus": ["Married"]
+			}
+		],
+    },
+    {
+		"Id": "toshinoriletters.moonlightjelliesmarried",	
+		"Title": "toshinoriletters.moonlightjelliesmarried.title",
+		"EventsNotSeen":[661715000,661716000],
+        "LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,		
+		"Text": "toshinoriletters.moonlightjelliesmarried.text",
+		"Days": [27],
+		"Seasons": ["summer"],
+		"Repeatable": true,
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 8,
+				"FriendshipStatus": ["Married"]
+			}
+		],
+    },
+    {
+		"Id": "toshinoriletters.sdvfairmarried",	
+		"Title": "toshinoriletters.sdvfairmarried.title",
+		"EventsNotSeen":[661715000,661716000],
+        "LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,		
+		"Text": "toshinoriletters.sdvfairmarried.text",
+		"Days": [15],
+		"Seasons": ["fall"],
+		"Repeatable": true,
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 8,
+				"FriendshipStatus": ["Married"]
+			}
+		],
+    },
+    {
+		"Id": "toshinoriletters.festivaloficemarried",	
+		"Title": "toshinoriletters.festivaloficemarried.title",
+		"EventsNotSeen":[661715000,661716000],
+        "LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,		
+		"Text": "toshinoriletters.festivaloficemarried.text",
+		"Days": [7],
+		"Seasons": ["winter"],
+		"Repeatable": true,
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 8,
+				"FriendshipStatus": ["Married"]
+			}
+		],
+    },
+    {
+		"Id": "toshinoriletters.nightmarketmarried",	
+		"Title": "toshinoriletters.nightmarketmarried.title",
+		"EventsNotSeen":[661715000,661716000],
+        "LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,		
+		"Text": "toshinoriletters.nightmarketmarried.text",
+		"Days": [14],
+		"Seasons": ["winter"],
+		"Repeatable": true,
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 8,
+				"FriendshipStatus": ["Married"]
+			}
+		],
+    },
+    {
+		"Id": "toshinoriletters.feastofthewinterstarmarried",	
+		"Title": "toshinoriletters.feastofthewinterstarmarried.title",
+		"EventsNotSeen":[661715000,661716000],
+        "LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,		
+		"Text": "toshinoriletters.feastofthewinterstarmarried.text",
+		"Days": [24],
+		"Seasons": ["winter"],
+		"Repeatable": true,
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 8,
+				"FriendshipStatus": ["Married"]
+			}
+		],
+    },
+//Toshinori praises the player on their relationships with other townsfolk. Written by Dywala. Coded by Aeo
+   {
+		"Id": "toshinoriletters.leah",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [53],		
+		"Title": "toshinoriletters.leah.title",
+		"Text": "toshinoriletters.leah.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+   {
+		"Id": "toshinoriletters.elliott",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [1848481],		
+		"Title": "toshinoriletters.elliott.title",
+		"Text": "toshinoriletters.elliott.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+   {
+		"Id": "toshinoriletters.alex",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [288849],		
+		"Title": "toshinoriletters.alex.title",
+		"Text": "toshinoriletters.alex.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+    {
+		"Id": "toshinoriletters.harvey",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [571102],		
+		"Title": "toshinoriletters.harvey.title",
+		"Text": "toshinoriletters.harvey.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+    {
+		"Id": "toshinoriletters.sam",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [4081148],		
+		"Title": "toshinoriletters.sam.title",
+		"Text": "toshinoriletters.sam.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+    {
+		"Id": "toshinoriletters.sebastian",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [29],		
+		"Title": "toshinoriletters.sebastian.title",
+		"Text": "toshinoriletters.sebastian.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+    {
+		"Id": "toshinoriletters.shane",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [59443413],		
+		"Title": "toshinoriletters.shane.title",
+		"Text": "toshinoriletters.shane.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+	    {
+		"Id": "toshinoriletters.abigail",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [3],		
+		"Title": "toshinoriletters.abigail.title",
+		"Text": "toshinoriletters.abigail.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.emily",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [2123243],		
+		"Title": "toshinoriletters.emily.title",
+		"Text": "toshinoriletters.emily.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.haley",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [14],		
+		"Title": "toshinoriletters.haley.title",
+		"Text": "toshinoriletters.haley.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.maru",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [9],		
+		"Title": "toshinoriletters.maru.title",
+		"Text": "toshinoriletters.maru.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.penny",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [181928],		
+		"Title": "toshinoriletters.penny.title",
+		"Text": "toshinoriletters.penny.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.clint",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [282815601],		
+		"Title": "toshinoriletters.clint.title",
+		"Text": "toshinoriletters.clint.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.evelynn",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [19],		
+		"Title": "toshinoriletters.evelynn.title",
+		"Text": "toshinoriletters.evelynn.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.jodi",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [94, 95],		
+		"Title": "toshinoriletters.jodi.title",
+		"Text": "toshinoriletters.jodi.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.kent",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 1,
+		"EventsNotSeen":[661715000,661716000],	
+        "EventsSeen": [100],		
+		"Title": "toshinoriletters.kent.title",
+		"Text": "toshinoriletters.kent.text",
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 2,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+
+
+
+// Waiting to implement when it becomes easier to code his acknowledgement of farmer having children
+//	{
+//		"Id": "toshinoriletters.child",
+//		"LetterBG": "toshiletterBG.png",
+//        "WhichBG": 1,
+//		"EventsNotSeen":[661715000,661716000],	
+//        "EventsSeen": [100162],		
+//		"Title": "toshinoriletters.child.title",
+//		"Text": "toshinoriletters.child.text",
+//		"Repeatable": false, 
+//		"FriendshipConditions":
+//		[
+//			{
+//				"NpcName": "Toshinori",
+//				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+//			}
+//		],
+//   },
+
+
+//Bragging About His Kids (buckle up cos there's gonna be a lot of these)
+    {
+		"Id": "toshinoriletters.izuku",
+		"GroupId": "toshinoriletters.kids",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 2,
+		"EventsNotSeen":[661715000,661716000],
+        "RandomChance": 0.10,		
+        "EventsSeen": [66170003],		
+		"Title": "toshinoriletters.izuku.title",
+		"Text": "toshinoriletters.izuku.text",
+		"TextColor": 0,
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 6,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.bakugo",
+		"GroupId": "toshinoriletters.kids",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 2,
+		"EventsNotSeen":[661715000,661716000],
+        "RandomChance": 0.10,		
+        "EventsSeen": [66170003],		
+		"Title": "toshinoriletters.bakugo.title",
+		"Text": "toshinoriletters.bakugo.text",
+		"TextColor": 0,
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 6,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+	{
+		"Id": "toshinoriletters.uraraka",
+		"GroupId": "toshinoriletters.kids",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 2,
+		"EventsNotSeen":[661715000,661716000],
+        "RandomChance": 0.10,		
+        "EventsSeen": [66170003],		
+		"Title": "toshinoriletters.uraraka.title",
+		"Text": "toshinoriletters.uraraka.text",
+		"TextColor": 0,
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 6,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+		{
+		"Id": "toshinoriletters.shinsou",
+		"GroupId": "toshinoriletters.kids",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 2,
+		"EventsNotSeen":[661715000,661716000],
+        "RandomChance": 0.10,		
+        "EventsSeen": [66170003],		
+		"Title": "toshinoriletters.shinsou.title",
+		"Text": "toshinoriletters.shinsou.text",
+		"TextColor": 0,
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 6,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+		{
+		"Id": "toshinoriletters.mineta",
+		"GroupId": "toshinoriletters.kids",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 2,
+		"EventsNotSeen":[661715000,661716000],
+        "RandomChance": 0.10,		
+        "EventsSeen": [66170003],		
+		"Title": "toshinoriletters.mineta.title",
+		"Text": "toshinoriletters.mineta.text",
+		"TextColor": 0,
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 6,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+			{
+		"Id": "toshinoriletters.mina",
+		"GroupId": "toshinoriletters.kids",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 2,
+		"EventsNotSeen":[661715000,661716000],
+        "RandomChance": 0.10,		
+        "EventsSeen": [66170003],		
+		"Title": "toshinoriletters.mina.title",
+		"Text": "toshinoriletters.mina.text",
+		"TextColor": 0,
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 6,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+			{
+		"Id": "toshinoriletters.tsu",
+		"GroupId": "toshinoriletters.kids",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 2,
+		"EventsNotSeen":[661715000,661716000],
+        "RandomChance": 0.10,		
+        "EventsSeen": [66170003],		
+		"Title": "toshinoriletters.tsu.title",
+		"Text": "toshinoriletters.tsu.text",
+		"TextColor": 0,
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 6,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+			{
+		"Id": "toshinoriletters.jiro",
+		"GroupId": "toshinoriletters.kids",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 2,
+		"EventsNotSeen":[661715000,661716000],
+        "RandomChance": 0.10,		
+        "EventsSeen": [66170003],		
+		"Title": "toshinoriletters.jiro.title",
+		"Text": "toshinoriletters.jiro.text",
+		"TextColor": 0,
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 6,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+			{
+		"Id": "toshinoriletters.iida",
+		"GroupId": "toshinoriletters.kids",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 2,
+		"EventsNotSeen":[661715000,661716000],
+        "RandomChance": 0.10,		
+        "EventsSeen": [66170003],		
+		"Title": "toshinoriletters.iida.title",
+		"Text": "toshinoriletters.iida.text",
+		"TextColor": 0,
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 6,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+			{
+		"Id": "toshinoriletters.sero",
+		"GroupId": "toshinoriletters.kids",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 2,
+		"EventsNotSeen":[661715000,661716000],
+        "RandomChance": 0.10,		
+        "EventsSeen": [66170003],		
+		"Title": "toshinoriletters.sero.title",
+		"Text": "toshinoriletters.sero.text",
+		"TextColor": 0,
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 6,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+			{
+		"Id": "toshinoriletters.todoroki",
+		"GroupId": "toshinoriletters.kids",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 2,
+		"EventsNotSeen":[661715000,661716000],
+        "RandomChance": 0.10,		
+        "EventsSeen": [66170003],		
+		"Title": "toshinoriletters.todoroki.title",
+		"Text": "toshinoriletters.todoroki.text",
+		"TextColor": 0,
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 6,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+			{
+		"Id": "toshinoriletters.momo",
+		"GroupId": "toshinoriletters.kids",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 2,
+		"EventsNotSeen":[661715000,661716000],
+        "RandomChance": 0.10,		
+        "EventsSeen": [66170003],		
+		"Title": "toshinoriletters.momo.title",
+		"Text": "toshinoriletters.momo.text",
+		"TextColor": 0,
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 6,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    },
+			{
+		"Id": "toshinoriletters.kirishima",
+		"GroupId": "toshinoriletters.kids",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 2,
+		"EventsNotSeen":[661715000,661716000],
+        "RandomChance": 0.10,		
+        "EventsSeen": [66170003],		
+		"Title": "toshinoriletters.kirishima.title",
+		"Text": "toshinoriletters.kirishima.text",
+		"TextColor": 0,
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 6,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    }, 
+			{
+		"Id": "toshinoriletters.sato",
+		"GroupId": "toshinoriletters.kids",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 2,
+		"EventsNotSeen":[661715000,661716000],
+        "RandomChance": 0.10,		
+        "EventsSeen": [66170003],		
+		"Title": "toshinoriletters.sato.title",
+		"Text": "toshinoriletters.sato.text",
+		"TextColor": 0,
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 6,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    }, 
+			{
+		"Id": "toshinoriletters.hagakure",
+		"GroupId": "toshinoriletters.kids",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 2,
+		"EventsNotSeen":[661715000,661716000],
+        "RandomChance": 0.10,		
+        "EventsSeen": [66170003],		
+		"Title": "toshinoriletters.hagakure.title",
+		"Text": "toshinoriletters.hagakure.text",
+		"TextColor": 0,
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 6,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    }, 
+			{
+		"Id": "toshinoriletters.koda",
+		"GroupId": "toshinoriletters.kids",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 2,
+		"EventsNotSeen":[661715000,661716000],
+        "RandomChance": 0.10,		
+        "EventsSeen": [66170003],		
+		"Title": "toshinoriletters.koda.title",
+		"Text": "toshinoriletters.koda.text",
+		"TextColor": 0,
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 6,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    }, 
+			{
+		"Id": "toshinoriletters.ojiro",
+		"GroupId": "toshinoriletters.kids",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 2,
+		"EventsNotSeen":[661715000,661716000],
+        "RandomChance": 0.10,		
+        "EventsSeen": [66170003],		
+		"Title": "toshinoriletters.ojiro.title",
+		"Text": "toshinoriletters.ojiro.text",
+		"TextColor": 0,
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 6,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    }, 
+			{
+		"Id": "toshinoriletters.shoji",
+		"GroupId": "toshinoriletters.kids",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 2,
+		"EventsNotSeen":[661715000,661716000],
+        "RandomChance": 0.10,		
+        "EventsSeen": [66170003],		
+		"Title": "toshinoriletters.shoji.title",
+		"Text": "toshinoriletters.shoji.text",
+		"TextColor": 0,
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 6,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    }, 
+			{
+		"Id": "toshinoriletters.aoyama",
+		"GroupId": "toshinoriletters.kids",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 2,
+		"EventsNotSeen":[661715000,661716000],
+        "RandomChance": 0.10,		
+        "EventsSeen": [66170003],		
+		"Title": "toshinoriletters.aoyama.title",
+		"Text": "toshinoriletters.aoyama.text",
+		"TextColor": 0,
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 6,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    }, 
+			{
+		"Id": "toshinoriletters.tokoyami",
+		"GroupId": "toshinoriletters.kids",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 2,
+		"EventsNotSeen":[661715000,661716000],
+        "RandomChance": 0.10,		
+        "EventsSeen": [66170003],		
+		"Title": "toshinoriletters.tokoyami.title",
+		"Text": "toshinoriletters.tokoyami.text",
+		"TextColor": 0,
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 6,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    }, 
+			{
+		"Id": "toshinoriletters.denki",
+		"GroupId": "toshinoriletters.kids",
+		"LetterBG": "toshiletterBG.png",
+        "WhichBG": 2,
+		"EventsNotSeen":[661715000,661716000],
+        "RandomChance": 0.10,		
+        "EventsSeen": [66170003],		
+		"Title": "toshinoriletters.denki.title",
+		"Text": "toshinoriletters.denki.text",
+		"TextColor": 0,
+		"Repeatable": false, 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Toshinori",
+				"FriendshipLevel": 6,
+				"FriendshipStatus": ["Friendly","Dating","Engaged","Married"]
+			}
+		],
+    }, 
+]

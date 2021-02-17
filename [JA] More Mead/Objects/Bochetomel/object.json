@@ -1,0 +1,58 @@
+{
+    "Name": "Bochetomel",
+    "Description": "A fermented beverage made from honey and elderberries. Drink in moderation.",
+    "Category": "ArtisanGoods",
+    "Edibility": 30,
+    "EdibleIsDrink": true,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": -1,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 100,
+    },
+    "Price": 250,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Pam", "Willy"],
+        "Like": ["Marnie", "Clint", "George", "Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "Haley", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Maru", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Wizard"],
+        "Hate": ["Sebastian","Vincent", "Jas", "Penny"]
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "보케토멜",
+        "de": "Bochetomel",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        // "tr": "",
+        "zh": "博歇特摩（接骨木蜜酒）",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "꿀과 엘더베리로 만든 술. 절제해서 드세요.",
+        "de": "Ein fermentiertes Getränk aus Honig und Holunder. In Maßen trinken.",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        // "tr": "",
+        "zh": "用蜂蜜和接骨木制成的发酵饮料。饮酒请适度。",
+    }
+}

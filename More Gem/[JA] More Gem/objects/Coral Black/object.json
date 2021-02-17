@@ -1,0 +1,47 @@
+{
+    "Name": "Black Coral",
+    "Description": "Jewel made by coral.",
+    "Category": "-15",
+	"CategoryTextOverride": "Jewel",
+    "CategoryColorOverride": "90, 150, 80, 255",
+    "Edibility": -300,
+    "Price": 150,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "검은 산호",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Coral Negro",
+        // "ru": "",
+        // "tr": "",
+        "zh": "黑珊瑚",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "산호를 세공하여 만든 보석.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Uma Jóia feita de coral.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "珊瑚制成的宝石。",
+    },
+	
+    "ContextTags": [
+        "color_black", "coral_item", "black_gem", "marine_item",
+    ],
+}

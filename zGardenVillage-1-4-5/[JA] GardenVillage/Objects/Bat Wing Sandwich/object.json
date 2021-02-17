@@ -1,0 +1,55 @@
+{
+    "Name": "Bat Wing Sandwich",
+    "Description": "Just like mother used to make. If mother was a witch.",
+    "Category": "Cooking",
+    "Edibility": 50,
+    "EdibleIsDrink": false,
+    "EdibleBuffs":     
+	{
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 2,
+        "Attack": 2,
+        "Duration": 260,
+    },
+    "Price": 200,
+    "IsColored": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 216,
+            "Count": 1,
+        },
+        {
+            "Object": 767,
+            "Count": 2,
+        },
+        {
+            "Object": 308,
+            "Count": 1,
+        }],
+        "CanPurchase": false,
+    },
+    "GiftTastes":
+    {
+        "Love": ["Hephaestus"],
+        "Like": ["Hekate"],
+        "Dislike": [],
+		"Hate": ["Abigail", "Jas", "Vincent", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "Haley", "Harvey", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Wizard", "George", "Krobus", "Willy"]
+    },
+
+    "NameLocalization":
+    {
+    },
+    "DescriptionLocalization":
+    {
+    }
+}

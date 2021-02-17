@@ -1,0 +1,16 @@
+{
+     "Changes": [
+	{
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Kim",
+      "FromFile": "assets/img/Kim_Fall.png",              
+    },
+	{
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Kim",
+      "FromFile": "assets/img/Kim Sprite_Fall.png",
+    }
+  ]
+}

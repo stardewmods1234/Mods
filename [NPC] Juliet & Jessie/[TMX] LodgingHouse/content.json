@@ -1,0 +1,83 @@
+{
+ 
+"loadLate": true,
+
+  
+"addMaps": [   
+  
+{  "name": "ClearingHouse",
+      "file": "assets/ClearingHouse.tmx"
+    },
+	{   "name": "LodgingHouse",
+      "file": "assets/LodgingHouse.tbin"
+   },
+   {	"name": "JojaBreakRoom",
+		  "file": "assets/JojaBreakRoom.tmx"
+	   },
+{  "name": "TheaterBreakroom",
+      "file": "assets/TheaterBreakroom.tmx"  
+  },
+ 
+{	
+     "name": "LodgingHouseBasement",
+    "file": "assets/LodgingHouseBasement.tbin"
+
+ }
+
+  ],
+    
+  "mergeMaps": [
+  
+      // NEEDS TESTING WITH SVE, RECOLORS
+      {
+        "name": "Town-Theater",
+        "File": "assets/TheaterDoor.tmx",
+        "sourceArea": [0,0, 1, 3],
+        "position": [ 100, 49 ]	
+      },
+      {
+        "name": "Town",
+        "File": "assets/MapPatch2.tmx",
+        "sourceArea": [0,0, 3, 3],
+        "position": [ 94, 44 ]
+          					
+      },
+        //START OF SVE COMPATIBILITY EDITS
+  /* {
+          "name": "MovieTheater",
+          "file": "assets/MovieTheater-altClerk.tmx",
+          "sourceArea": [ 0, 0, 1, 2 ],
+          "position": [ 7, 4 ],
+          "Conditions": "d Mon Tue Wed Thu Fri, LC not Luau.hasMod('FlashShifter.StardewValleyExpandedCP')"
+        },
+        {
+          "name": "MovieTheater",
+          "file": "assets/MovieTheater-altClerk.tmx",
+          "sourceArea": [ 0, 0, 1, 2 ],
+          "position": [ 7, 4 ],
+          "Conditions": "d Sat Sun/t 1700 2300, LC not Luau.hasMod('FlashShifter.StardewValleyExpandedCP')"
+        }*/
+],
+ "onlyWarps":[
+    /*{
+      "name": "Town", 
+      "addWarps": [
+        "33 0 ClearingHouse 24 29 34 0 ClearingHouse 25 29 35 0 ClearingHouse 26 29"
+      ]
+      
+    },
+  */
+   
+	  {
+      "name": "ClearingHouse", 
+      "addWarps": [
+        "23 30 Town 34 2 24 30 Town 34 2 25 30 Town 34 2 26 30 Town 34 2 27 30 Town 34 2 28 30 Town 34 2"
+      ]
+    }
+  ]
+
+
+          
+
+
+}

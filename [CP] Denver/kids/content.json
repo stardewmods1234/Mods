@@ -1,0 +1,159 @@
+{
+  "Format": "1.19",
+  "ConfigSchema": {
+		"EyeColor": {
+			"AllowValues": "Green, Heterochromia, Brown",
+			"Default": "Green",
+			"AllowBlank": "false",
+		},
+	},
+  
+  "Changes": [
+       // Babies
+       {
+          "Action": "Load",
+          "Target": "Characters/Baby",
+          "FromFile": "assets/babyHet.png",
+		  "When": {
+		    "EyeColor": "Heterochromia"
+			}
+       },
+	   {
+	      "Action": "Load",
+		  "Target": "Characters/Baby_dark",
+		  "FromFile": "assets/babyHet.png",
+		  "When": {
+		    "EyeColor": "Heterochromia"
+			}
+	   },
+	   {
+          "Action": "Load",
+          "Target": "Characters/Baby",
+          "FromFile": "assets/babyBr.png",
+		  "When": {
+		    "EyeColor": "Brown"
+			}
+       },
+	   {
+	      "Action": "Load",
+		  "Target": "Characters/Baby_dark",
+		  "FromFile": "assets/babyBr.png",
+		  "When": {
+		    "EyeColor": "Brown"
+			}
+	   },
+	   {
+          "Action": "Load",
+          "Target": "Characters/Baby",
+          "FromFile": "assets/babyGr.png",
+		  "When": {
+		    "EyeColor": "Green"
+			}
+       },
+	   {
+	      "Action": "Load",
+		  "Target": "Characters/Baby_dark",
+		  "FromFile": "assets/babyGr.png",
+		  "When": {
+		    "EyeColor": "Green"
+			}
+	   },
+	   //Toddlers
+	   {
+	      "Action": "Load",
+		  "Target": "Characters/Toddler",
+		  "FromFile": "assets/toddlerHet.png",
+		  "When": {
+		    "EyeColor": "Heterochromia"
+			}
+	   },
+	   {
+	      "Action": "Load",
+		  "Target": "Characters/Toddler_dark",
+		  "FromFile": "assets/toddlerHet.png",
+		  "When": {
+		    "EyeColor": "Heterochromia"
+			}
+	   },
+	   {
+	      "Action": "Load",
+		  "Target": "Characters/Toddler_girl",
+		  "FromFile": "assets/toddler_girlHet.png",
+		  "When": {
+		    "EyeColor": "Heterochromia"
+			}
+	   },
+	   {
+	      "Action": "Load",
+		  "Target": "Characters/Toddler_girl_dark",
+		  "FromFile": "assets/toddler_girlHet.png",
+		  "When": {
+		    "EyeColor": "Heterochromia"
+			}
+	   },
+	   {
+	      "Action": "Load",
+		  "Target": "Characters/Toddler",
+		  "FromFile": "assets/toddlerBr.png",
+		  "When": {
+		    "EyeColor": "Brown"
+			}
+	   },
+	   {
+	      "Action": "Load",
+		  "Target": "Characters/Toddler_dark",
+		  "FromFile": "assets/toddlerBr.png",
+		  "When": {
+		    "EyeColor": "Brown"
+			}
+	   },
+	   {
+	      "Action": "Load",
+		  "Target": "Characters/Toddler_girl",
+		  "FromFile": "assets/toddler_girlBr.png",
+		  "When": {
+		    "EyeColor": "Brown"
+			}
+	   },
+	   {
+	      "Action": "Load",
+		  "Target": "Characters/Toddler_girl_dark",
+		  "FromFile": "assets/toddler_girlBr.png",
+		  "When": {
+		    "EyeColor": "Brown"
+			}
+	   },
+	   {
+	      "Action": "Load",
+		  "Target": "Characters/Toddler",
+		  "FromFile": "assets/toddlerGr.png",
+		  "When": {
+		    "EyeColor": "Green"
+			}
+	   },
+	   {
+	      "Action": "Load",
+		  "Target": "Characters/Toddler_dark",
+		  "FromFile": "assets/toddlerGr.png",
+		  "When": {
+		    "EyeColor": "Green"
+			}
+	   },
+	   {
+	      "Action": "Load",
+		  "Target": "Characters/Toddler_girl",
+		  "FromFile": "assets/toddler_girlGr.png",
+		  "When": {
+		    "EyeColor": "Green"
+			}
+	   },
+	   {
+	      "Action": "Load",
+		  "Target": "Characters/Toddler_girl_dark",
+		  "FromFile": "assets/toddler_girlGr.png",
+		  "When": {
+		    "EyeColor": "Green"
+			}
+	   },
+    ]
+}

@@ -1,0 +1,545 @@
+{
+"Changes":[
+//**EVENTS**
+
+    //*Y1 - Gen Events* Serve as the introduction to Toshinori, and cover 8 heart levels. Has no plot arc beyond 'this guy is super sick and he was in a war.'
+
+//1 Heart Event (Reading to the kids in the Library) Requires player to be at 1 heart with Toshinori and Penny
+{"LogName": "ToshinoriEventPenny",
+"Action": "EditData",
+"Target": "Data/Events/ArchaeologyHouse",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170001/f Toshinori 250/f Penny 250/t 800 1600": "continue/18 10/farmer 9 14 1 Toshinori 18 9 2 Penny 16 10 1 Jas 19 10 3 Vincent 17 9 2/skippable/showFrame Toshinori 39/pause 2000/speak Toshinori \"{{i18n:66170001.01}}\"/emote Jas 32 true/emote Vincent 32/pause 500/textAboveHead Jas \"{{i18n:66170001.02}}\"/pause 2000/textAboveHead Vincent \"{{i18n:66170001.03}}\"/pause 2000/showFrame Toshinori 0/speak Toshinori \"{{i18n:66170001.04}}\"/pause 1000/speak Vincent \"{{i18n:66170001.05}}\"/speak Jas \"{{i18n:66170001.06}}\"/pause 500/textAboveHead Toshinori \"{{i18n:66170001.07}}\"/pause 2000/speak Toshinori \"{{i18n:66170001.08}}\"/pause 1000/move Toshinori -4 0 3/pause 500/speak Penny \"{{i18n:66170001.09}}\"/faceDirection Toshinori 2/pause 500/emote Toshinori 32/pause 500/speak Toshinori \"{{i18n:66170001.10}}\"/pause 500/speak Jas \"{{i18n:66170001.11}}\"/speak Toshinori \"{{i18n:66170001.12}}\"/pause 500/move Toshinori 0 3 2/move Toshinori -3 0 3/move Toshinori 0 2 2/textAboveHead Toshinori \"{{i18n:66170001.13}}\"/move Toshinori -3 0 3/move Toshinori 0 5 2/pause 2000/speak Jas \"{{i18n:66170001.14}}\"/emote Vincent 8/pause 500/speak Penny \"{{i18n:66170001.15}}\"/pause 500/speak Vincent \"{{i18n:66170001.16}}\"/pause 500/emote Penny 28/pause 500/speak Penny \"{{i18n:66170001.17}}\"/pause 500/textAboveHead Jas \"{{i18n:66170001.18}}\"/textAboveHead Vincent \"{{i18n:66170001.19}}\"/pause 500/emote Penny 32/speak Penny \"{{i18n:66170001.20}}\"/pause 5000/globalFade/viewport -1000 -1000/end position 3 13 0"},
+},
+
+//2 Heart Event
+{"LogName": "ToshinoriEvent1",
+"Action": "EditData",
+"Target": "Data/Events/Town",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170002/f Toshinori 500/w sunny/t 1600 2200": "continue/36 59/farmer 29 58 1 Toshinori 36 62 0/skippable/pause 500/move Toshinori 0 -1 0/pause 750/move Toshinori 0 -1 0/pause 500/move Toshinori 0 -1 0/shake Toshinori 500/speak Toshinori \"{{i18n:66170002.01}}\"/pause 300/move farmer 6 0 1/move farmer 0 1 2/faceDirection farmer 1/jump Toshinori 6/faceDirection Toshinori 3/pause 500/speak Toshinori \"{{i18n:66170002.02}}\"/emote farmer 28/pause 2500/speak Toshinori \"{{i18n:66170002.03}}\"/quickQuestion {{i18n:66170002.04}} (break)speak Toshinori \"{{i18n:66170002.05}}\"(break)speak Toshinori \"{{i18n:66170002.06}}\"(break)speak Toshinori \"{{i18n:66170002.07}}\"/pause 1000/speak Toshinori \"{{i18n:66170002.08}}\"/pause 500/move Toshinori 0 -1 0/move farmer 0 -1 0/pause 500/move Toshinori 0 -1 0/move farmer 0 -1 0/pause 500/globalFade/viewport -1000 -1000/end position 35 57"},
+},
+
+//2 Heart Event Toshinori asks the Player Character to tell him about themselves in a letter, and asks a series of questions. It does nothing. It's just for roleplaying.
+{"LogName": "ToshinoriEventTalk",
+"Action": "EditData",
+"Target": "Data/Events/Hospital",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170010/n toshinoriletters.melancholyone": "continue/30 7/farmer 25 5 1 Toshinori 30 7 1/skippable/pause 500/move farmer 2 0 1/move farmer 0 2 2/move farmer 1 0 1/pause 500/faceDirection Toshinori 3/emote Toshinori 32/pause 500/speak Toshinori \"{{i18n:66170010.01}}\"/pause 500/speak Toshinori \"{{i18n:66170010.02}}\"/pause 500/emote farmer 32/pause 500/speak Toshinori \"#$q -1 null#{{i18n:66170010.03}}#$r 66179 0 toshiquestionsone#{{i18n:66170010.04}}#$r 66180 0 toshiquestionstwo#{{i18n:66170010.05}}#$r 66181 0 toshiquestionsthree#{{i18n:66170010.06}}\"/speak Toshinori \"#$q -1 null#{{i18n:66170010.07}}#$r 66182 0 toshiquestionsfour#{{i18n:66170010.08}}#$r 66183 0 toshiquestionsfive#{{i18n:66170010.09}}#$r 66184 0 toshiquestionssix#{{i18n:66170010.10}}\"/pause 500/speak Toshinori \"#$q -1 null#{{i18n:66170010.11}}#$r 66185 0 toshiquestionsseven#{{i18n:66170010.12}}#$r 66186 0 toshiquestionseight#{{i18n:66170010.13}}#$r 66187 0 toshiquestionsnine#{{i18n:66170010.14}}\"/pause 500/speak Toshinori \"#$q -1 null#{{i18n:66170010.15}}#$r 661888 0 toshiquestionsten#{{i18n:66170010.16}}#$r 66189 0 toshiquestionseleven#{{i18n:66170010.17}}#$r 66190 0 toshiquestionstwelve#{{i18n:66170010.18}}\"/pause 500/speak Toshinori \"#$q -1 null#{{i18n:66170010.19}}#$r 66191 0 toshiquestionsthirteen#{{i18n:66170010.20}}#$r 66192 0 toshiquestionsfourteen#{{i18n:66170010.21}}#$r 66193 0 toshiquestionsfifteen#{{i18n:66170010.22}}\"/speak Toshinori \"#$q -1 null#{{i18n:66170010.23}}#$r 66194 0 toshiquestionssixteen#{{i18n:66170010.24}}#$r 66195 0 toshiquestionsseventeen#{{i18n:66170010.25}}#$r 66196 0 toshiquestionseighteen#{{i18n:66170010.26}}\"/pause 500/speak Toshinori \"{{i18n:66170010.27}}\"/textAboveHead Toshinori \"{{i18n:66170010.28}}\"/pause 2000/speak Toshinori \"{{i18n:66170010.29}}\"/pause 500/emote farmer 32/pause 1000/globalFade/viewport -1000 -1000/end warpOut"},
+},
+
+//3 Heart Event (Tea with Evelyn) Requires player to be at 3 heart levels with Toshinori and 3 with Evelyn (WIP)
+{"LogName": "ToshinoriEvelynTea",
+"Action": "EditData",
+"Target": "Data/Events/JoshHouse",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170023/f Toshinori 750/f Evelyn 750/t 800 1600": "continue/3 21/Toshinori 1 22 1 Evelyn 5 22 3 farmer 9 24 0/pause 1000/move farmer 0 -5 0/move farmer -4 0 3/faceDirection farmer 2/emote Toshinori 32 true/emote Evelyn 32/speak Evelyn \"{{i18n:66170023.01}}\"/emote farmer 32/move farmer 0 2 2/faceDirection farmer 3/pause 500/speak Toshinori \"{{i18n:66170023.02}}\"/pause 500/speak Evelyn \"{{i18n:66170023.03}}\"/pause 500/emote Toshinori 20/pause 1000/message \"{{i18n:66170023.04}}\"/pause 500/speak Toshinori \"{{i18n:66170023.05}}\"/pause 500/speak Evelyn \"{{i18n:66170023.06}}\"/pause 2500/emote Toshinori 40/pause 1000/textAboveHead Toshinori \"{{i18n:66170023.07}}\"/pause 1000/speak Toshinori \"{{i18n:66170023.08}}\"/pause 1000/emote farmer 32/pause 1000/globalFade/viewport -1000 -1000/end warpOut"},
+},
+
+//4 Heart Event
+{"LogName": "ToshinoriEvent3",
+"Action": "EditData",
+"Target": "Data/Events/Town",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170003/f Toshinori 1000/w sunny/t 800 1600": "spring_day_ambient/43 79/farmer 34 81 1 Toshinori 44 77 2/skippable/pause 5000/showFrame Toshinori 39/pause 1000/animate Toshinori false true 200 51 51 43 43/pause 2000/stopAnimation Toshinori/speak Toshinori \"{{i18n:66170003.01}}\"/pause 2000/emote farmer 32/pause 500/move farmer 9 0 1/move farmer 0 -3 0/faceDirection farmer 2/pause 1000/textAboveHead Toshinori \"{{i18n:66170003.02}}\"/pause 5000/speak Toshinori \"{{i18n:66170003.03}}\"/pause 500/emote farmer 8/pause 2000/speak Toshinori \"{{i18n:66170003.04}}\"/pause 500/speak Toshinori \"{{i18n:66170003.05}}\"/pause 3000/animate Toshinori false true 200 51 43/pause 1000/stopAnimation Toshinori/speak Toshinori \"{{i18n:66170003.06}}#$q -1 null#{{i18n:66170003.07}}#$r 66171 40 toshiwar_disapprove#{{i18n:66170003.08}}#$r 66172 0 toshiwar_neutral#{{i18n:66170003.09}}#$r 66172 0 toshiwar_approve#{{i18n:66170003.10}}\"/pause 600/speak Toshinori \"{{i18n:66170003.11}}\"/pause 5000/speak Toshinori \"{{i18n:66170003.12}}\"/pause 500/emote farmer 32/pause 5000/globalFade/viewport -1000 -1000/end position 43 79"},
+},
+
+//5 Heart Event with Toshinori. Gus discusses Toshinori's dietary needs.  
+{"LogName": "ToshinoriGusEvent",
+"Action": "EditData",
+"Target": "Data/Events/Saloon",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170022/f Toshinori 1250/f Gus 1000/t 1200 2500": "jaunty/14 19/farmer 14 24 0 Toshinori 14 20 0 Gus 14 18 2/skippable/pause 500/textAboveHead Gus \"{{i18n:66170022.01}}\"/pause 2000/move farmer 0 -3 0/move farmer 2 0 1/move farmer 0 -1 0/textAboveHead Toshinori \"{{i18n:66170022.02}}\"/pause 2000/speak Toshinori \"{{i18n:66170022.03}}\"/pause 500/speak Gus \"{{i18n:66170022.04}}\"/pause 500/speak Toshinori \"{{i18n:66170022.05}}\"/pause 500/quickQuestion #{{i18n:66170022.06}} #{{i18n:66170022.06a}}(break)speak Toshinori \"{{i18n:66170022.07}}\"(break)speak Toshinori \"{{i18n:66170022.08}}\"/pause 1000/message \"{{i18n:66170022.09}}\"/pause 1000/message \"{{i18n:66170022.10}}\"/pause 500/emote farmer 28/pause 1000/speak Gus \"{{i18n:66170022.11}}\"/pause 500/emote Toshinori 16/speak Toshinori \"{{i18n:66170022.12}}\"/pause 500/speak Gus \"{{i18n:66170022.13}}\"/pause 500/textAboveHead Toshinori \"{{i18n:66170022.14}}\"/pause 2500/speak Toshinori \"{{i18n:66170022.15}}\"/emote farmer 32/move Toshinori 0 4 2/globalFade/viewport -1000 -1000/end warpOut"},
+},
+
+//5 Heart Event (Elliott required at 2 hearts)
+{"LogName": "ToshinoriEvent4",
+"Action": "EditData",
+"Target": "Data/Events/Beach",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170005/f Toshinori 1250/f Elliott 500/t 1600 2200": "ocean/45 23/farmer 44 15 2 Toshinori 45 23 2 Elliott 49 11 2/skippable/pause 3000/textAboveHead Toshinori \"{{i18n:66170005.01}}\"/pause 4000/textAboveHead Toshinori \"{{i18n:66170005.02}}\"/pause 3000/shake Toshinori 500/showFrame Toshinori 16/speak Toshinori \"{{i18n:66170005.03}}\"/emote Toshinori 16/shake Toshinori 500/pause 500/showFrame Toshinori 16/shake Toshinori 500/showFrame Toshinori 17/pause 500/shake Toshinori 500/showFrame Toshinori 18/emote Elliott 16 true/emote farmer 16/shake Toshinori 500/move Elliott 0 12 2/shake Toshinori 1000/playSound batFlap/showFrame Toshinori 19/emote Elliott 16/speed Elliott 4/move Elliott -3 0 3/speed farmer 4/move farmer 0 8 2/faceDirection farmer 1/speed farmer 1/speak Elliott \"{{i18n:66170005.04}}\"/emote farmer 8/pause 1000/shake Toshinori 500/textAboveHead Toshinori \"{{i18n:66170005.05}}\"/pause 2000/speak Elliott \"{{i18n:66170005.06}}\"/textAboveHead Toshinori \"{{i18n:66170005.07}}\"/speak Elliott \"{{i18n:66170005.08}}\"/speak Toshinori \"{{i18n:66170005.09}}\"/emote farmer 16 true/emote Elliott 16/speak Toshinori \"{{i18n:66170005.10}}\"/playMusic echos/emote farmer 28 true/emote Elliott 28/move Elliott 1 0 3 true/move farmer -1 0 1/faceDirection farmer 1/faceDirection Elliott 3/pause 3000/shake Toshinori 1000/pause 500/shake Toshinori 1000/showFrame Toshinori 18/pause 5000/speak Toshinori \"{{i18n:66170005.11}}\"/pause 500/speak Elliott \"{{i18n:66170005.12}}\"/pause 2000/emote Toshinori 40/pause 2000/textAboveHead Toshinori \"{{i18n:66170005.13}}\"/pause 4000/speak Toshinori \"{{i18n:66170005.14}}#$q -1 null#{{i18n:66170005.15}}#$r 66173 100 toshihelp_best#{{i18n:66170005.16}}#$r 66174 0 toshihelp_neutral#{{i18n:66170005.17}}#$r 66175 -100 toshihelp_worst#{{i18n:66170005.18}}\"/pause 500/shake Toshinori 500/speak Toshinori \"{{i18n:66170005.19}}\"/pause 800/shake Toshinori 300/speak Toshinori \"{{i18n:66170005.20}}\"/pause 3000/move farmer 1 0 1 true/move Elliott -1 0 3/faceDirection Elliott 2/pause 3000/shake Toshinori 200/showFrame Toshinori 0/pause 4000/globalFade/viewport -1000 -1000/end warpOut"}
+},
+
+//6 Heart Event
+{"LogName": "ToshinoriEvent2",
+"Action": "EditData",
+"Target": "Data/Events/Hospital",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170004/f Toshinori 1500": "none/20 12/farmer 12 7 1 Toshinori 19 12 2 Harvey 20 12 3/skippable/showFrame Toshinori 37/pause 2000/textAboveHead Toshinori \"{{i18n:66170004.01}}\"/pause 2500/textAboveHead Harvey \"{{i18n:66170004.02}}\"/pause 2500/textAboveHead Harvey \"{{i18n:66170004.03}}\"/pause 2000/speak Harvey \"{{i18n:66170004.04}}\"/shake Harvey 200/pause 5000/speak Toshinori \"{{i18n:66170004.05}}\"/shake Harvey 500/pause 300/speak Harvey \"{{i18n:66170004.06}}\"/move farmer 4 0 1/pause 500/move farmer 0 1 2/pause 500/move farmer 6 0 1/move farmer 0 1 2/faceDirection farmer 2/jump Harvey 5/faceDirection Harvey 0/speak Toshinori \"{{i18n:66170004.07}}\"/speak Harvey \"{{i18n:66170004.08}}\"/pause 500/emote farmer 28/pause 300/faceDirection farmer 0/pause 500/faceDirection farmer 3/pause 500/move farmer -1 0 3/speak Toshinori \"{{i18n:66170004.09}}\"/pause 5000/move farmer 1 0 3/move farmer 0 1 3/faceDirection farmer 2/message \"{{i18n:66170004.10}}\"/pause 5000/playMusic sadpiano/speak Toshinori \"{{i18n:66170004.11}}\"/pause 500/emote farmer 40/pause 500/speak Harvey \"{{i18n:66170004.12}}\"/pause 500/speak Toshinori \"{{i18n:66170004.13}}\"/pause 500/speak Toshinori \"{{i18n:66170004.14}}\"/pause 3000/move farmer 0 1 2/move farmer -1 0 3/globalFade/viewport -1000 -1000/end warpOut"},
+},
+
+//Deku Arrives. Not dependent on heart level, dependent on the conditions of the year. Can be triggered throughout winter y1 as long as the farmer visits the bus stop at some point. It is possible to miss this event entirely under these conditions, but it is currently the best way I can think of implementing it so that it won't ocurr too close to the deku y2 incident.
+{"LogName": "ToshinoriEventDeku",
+"Action": "EditData",
+"Target": "Data/Events/BusStop",
+"When": {"Relationship:Toshinori": "Unmet, Friendly, Dating, Divorced",
+"HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170007/e 661711000/k 66170707/u 1 2 3 4 5 6 7 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 26 27 28/z summer/z fall/z spring/t 600 1400": "jaunty/13 11/farmer 13 18 0 Toshinori 14 11 2/addTemporaryActor Izuku 16 32 -1000 -1000 2 true Character/skippable/pause 3000/warp Izuku 12 10/shake Izuku 300/pause 500/faceDirection Toshinori 3/emote Toshinori 32/move Izuku 0 1 1/pause 500/speak Izuku \"{{i18n:66170007.01}}\"/pause 500/speak Toshinori \"{{i18n:66170007.02}}\"/speak Izuku \"{{i18n:66170007.03}}\"/pause 500/move farmer 0 -6 0/pause 500/faceDirection Toshinori 2 true/faceDirection Izuku 2/emote Toshinori 32 true/emote Izuku 32/pause 500/speak Toshinori \"{{i18n:66170007.04}}\"/speak Izuku \"{{i18n:66170007.05}}\"/pause 500/speak Toshinori \"{{i18n:66170007.06}}\"/pause 500/move Toshinori 0 9 2/pause 500/speak Izuku \"{{i18n:66170007.07}}#$q -1 null#{{i18n:66170007.08}}#$r 66176 40 izukufriend#{{i18n:66170007.09}}#$r 66177 40 izukulove#{{i18n:66170007.10}}#$r 66178 0 izukudismiss#{{i18n:66170007.11}}\"/speak Izuku \"{{i18n:66170007.12}}\"/pause 500/speak Izuku \"{{i18n:66170007.13}}\"/pause 500/move Izuku 0 10 2/pause 500/globalFade/viewport -1000 -1000/end warpOut"}
+},
+
+//Deku Arrives, Married Version. Not dependent on heart level, dependent on the conditions of the year. Can be triggered throughout winter y1 as long as the farmer visits the bus stop at some point. It is possible to miss this event entirely under these conditions, but it is currently the best way I can think of implementing it so that it won't ocurr too close to the deku y2 incident.
+{"LogName": "ToshinoriEventDekuMarried",
+"Action": "EditData",
+"Target": "Data/Events/BusStop",
+"When": {"Relationship:Toshinori": "Married",
+         "HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170707/e 661711000/k 66170007/u 1 2 3 4 5 6 7 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 26 27 28/z summer/z fall/z spring/t 600 1400": "jaunty/13 11/farmer 13 18 0 Toshinori 14 11 2/addTemporaryActor Izuku 16 32 -1000 -1000 2 true Character/skippable/pause 3000/warp Izuku 12 10/shake Izuku 300/pause 500/faceDirection Toshinori 3/emote Toshinori 32/move Izuku 0 1 1/pause 500/speak Izuku \"{{i18n:66170707.01}}\"/pause 500/speak Toshinori \"{{i18n:66170707.02}}\"/speak Izuku \"{{i18n:66170707.03}}\"/pause 500/move farmer 0 -6 0/pause 500/faceDirection Toshinori 2 true/faceDirection Izuku 2/emote Toshinori 32 true/emote Izuku 32/pause 500/speak Toshinori \"{{i18n:66170707.04}}\"/speak Izuku \"{{i18n:66170707.05}}\"/pause 500/speak Toshinori \"{{i18n:66170707.06}}\"/pause 500/move Toshinori 0 9 2/pause 500/speak Izuku \"{{i18n:66170707.07}}#$q -1 null#{{i18n:66170707.08}}#$r 66188 40 izukueww#{{i18n:66170707.09}}#$r 66189 40 izukunice#{{i18n:66170707.10}}#$r 66190 0 izukuuhoh#{{i18n:66170707.11}}\"/speak Izuku \"{{i18n:66170707.12}}\"/pause 500/speak Izuku \"{{i18n:66170707.13}}\"/pause 500/move Izuku 0 10 2/pause 500/globalFade/viewport -1000 -1000/end warpOut"}
+},
+
+//Event if Farmer joins Toshinori and Deku for tea at the Museum. Possible to miss it if the player chooses not to show up.
+{"LogName": "ToshinoriEventDeku2",
+"Action": "EditData",
+"Target": "Data/Events/ArchaeologyHouse",
+"Update": "OnLocationChange",
+"When": {"HasSeenEvent": "66170707, 66170007",
+         "HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170008/t 900 1800/k 66170009": "continue/16 10/farmer 9 14 1 Toshinori 16 10 1/skippable/addTemporaryActor Izuku 16 32 19 10 3 true Character/pause 2000/move farmer 2 0 3/move farmer 0 -2 0/move farmer 7 0 0/pause 500/emote Toshinori 32 true/emote Izuku 32/speak Toshinori \"{{i18n:66170008.01}}\"/pause 500/emote farmer 32/pause 500/shake Toshinori 300/addObject 17 10 615/pause 500/speak Toshinori \"{{i18n:66170008.02}}\"/pause 500/speak Izuku \"{{i18n:66170008.03}}\"/pause 500/emote farmer 32/pause 500/speak Toshinori \"{{i18n:66170008.04}}\"/pause 500/speak Izuku \"{{i18n:66170008.05}}\"/speak Toshinori \"{{i18n:66170008.06}}\"/speak Izuku \"{{i18n:66170008.07}}\"/speak Toshinori \"{{i18n:66170008.08}}\"/pause 1000/speak Toshinori \"{{i18n:66170008.09}}\"/pause 500/speak Izuku \"{{i18n:66170008.10}}\"/speak Toshinori \"{{i18n:66170008.11}}\"/speak Izuku \"{{i18n:66170008.11}}\"/globalFade/viewport -1000 -1000/pause 2000/message \"{{i18n:66170008.12}}\"/end position 18 12 0"}
+},
+
+//Precondition if player decides not to go to the museum to meet Deku and Toshi for tea, disabling the event from triggering again.
+{"LogName": "ToshinoriEventDekuMissedOut",
+"Action": "EditData",
+"Target": "Data/Events/FarmHouse",
+"When": {"HasSeenEvent": "66170707, 66170007",
+         "HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170009/k 66170008": "none/-1000 -1000/farmer 100 100 2/skippable/fade unfade/end"}
+},
+
+//7 Heart Event (Talking with Kent) Requires player to be at 7 hearts with both Toshinori and Kent, and not Married/Divorced/Dating Toshinori 
+{"LogName": "ToshinoriKentTalk",
+"Action": "EditData",
+"Target": "Data/Events/SamHouse",
+"When": {"Relationship:Toshinori": "Friendly", 
+         "HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170024/k 66170025/f Toshinori 1750/f Kent 1750/t 900 1500": "continue/4 13/farmer 4 23 0 Toshinori 3 13 1 Kent 4 12 2/skippable/move farmer 0 -9 0/pause 500/emote farmer 8/pause 500/speak Toshinori \"{{i18n:66170024.01}}\"/pause 500/speak Kent \"{{i18n:66170024.02}}\"/pause 500/emote farmer 32/pause 500/move farmer 1 0 1/faceDirection farmer 0/pause 500/speak Kent \"{{i18n:66170024.03}}\"/pause 500/speak Toshinori \"{{i18n:66170024.04}}\"/pause 500/speak Toshinori \"{{i18n:66170024.05}}\"/pause 500/speak Kent \"{{i18n:66170024.06}}\"/speak Toshinori \"{{i18n:66170024.07}}\"/pause 500/speak Kent \"{{i18n:66170024.08}}\"/pause 500/emote Toshinori 28/pause 500/speak Toshinori \"{{i18n:66170024.09}}\"/quickQuestion {{i18n:66170024.10}}(break)speak Toshinori \"{{i18n:66170024.11}}\"(break)speak Toshinori \"{{i18n:66170024.12}}\"/pause 500/speak Kent \"{{i18n:66170024.13}}\"/pause 500/speak Kent \"{{i18n:66170024.14}}\"/pause 500/emote Toshinori 32/stopMusic/speak Toshinori \"{{i18n:66170024.15}}\"/pause 1000/message \"{{i18n:66170024.16}}\"/pause 1000/globalFade/viewport -1000 -1000/end warpOut"}
+},
+
+//7 Heart Event (Talking with Kent) Same as above, but requires a relationship with Toshinori. Not much changes but a few lines. 
+{"LogName": "ToshinoriKentTalk",
+"Action": "EditData",
+"Target": "Data/Events/SamHouse",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false",
+         "Relationship:Toshinori": "Dating, Engaged, Married"},
+"Entries": {"66170025/k 66170024/f Toshinori 1750/f Kent 1750/t 900 1500": "continue/4 13/farmer 4 23 0 Toshinori 3 13 1 Kent 4 12 2/skippable/move farmer 0 -9 0/pause 500/emote farmer 8/pause 500/speak Toshinori \"{{i18n:66170025.01}}\"/pause 500/speak Kent \"{{i18n:66170025.02}}\"/pause 500/emote farmer 32/pause 500/move farmer 1 0 1/faceDirection farmer 0/pause 500/speak Kent \"{{i18n:66170025.03}}\"/pause 500/speak Toshinori \"{{i18n:66170025.04}}\"/pause 500/speak Toshinori \"{{i18n:66170025.05}}\"/pause 500/speak Kent \"{{i18n:66170025.06}}\"/speak Toshinori \"{{i18n:66170025.07}}\"/pause 500/speak Kent \"{{i18n:66170025.08}}\"/pause 500/emote Toshinori 28/pause 500/speak Toshinori \"{{i18n:66170025.09}}\"/quickQuestion {{i18n:66170025.10}}(break)speak Toshinori \"{{i18n:66170025.11}}\"(break)speak Toshinori \"{{i18n:66170025.12}}\"/pause 500/speak Kent \"{{i18n:66170025.13}}\"/pause 500/speak Kent \"{{i18n:66170025.14}}\"/pause 500/emote Toshinori 32/stopMusic/speak Toshinori \"{{i18n:66170025.15}}\"/pause 1000/message \"{{i18n:66170025.16}}\"/pause 1000/globalFade/viewport -1000 -1000/end warpOut"}
+},
+
+//8 Heart Event (Cotton Candy for the Kids)  
+{"Log Name": "Toshinori8Heart",
+"Action": "EditData",
+"Target": "Data/Events/Town",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170013/f Toshinori 2000/w sunny/t 900 1800": "continue/29 66/farmer 28 58 2 Toshinori 29 66 2 Vincent 29 75 0 Jas 28 75 0 Abigail 30 58 2 Sam 31 58 2/skippable/animate Toshinori false true 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21/pause 1000/speak Toshinori \"{{i18n:66170013.01}}\"/pause 1000/move Jas 0 -8 0/move Vincent 0 -8 0/pause 500/emote Jas 32 true/emote Vincent 32/speak Vincent \"{{i18n:66170013.02}}\"/speak Jas \"{{i18n:66170013.03}}\"/pause 500/emote Toshinori 32/pause 500/speak Toshinori \"{{i18n:66170013.04}}\"/stopAnimation Toshinori/showFrame Toshinori 23/pause 500/emote Jas 32/pause 500/textAboveHead Toshinori \"{{i18n:66170013.05}}\"/animate Toshinori false true 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21/pause 1000/stopAnimation Toshinori/showFrame Toshinori 23/pause 500/emote Vincent 32/speak Vincent \"{{i18n:66170013.06}}\"/speak Toshinori \"{{i18n:66170013.07}}\"/pause 500/animate Toshinori false true 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21/move farmer 0 8 2/faceDirection farmer 1/emote farmer 8/pause 500/speak Toshinori \"{{i18n:66170013.08}}\"/pause 500/move Abigail 0 8 2/move Sam 0 8 2/faceDirection Abigail 3/move Sam 0 1 2/move Sam -1 0 3/faceDirection Sam 3/textAboveHead Abigail \"{{i18n:66170013.09}}\"/pause 3000/textAboveHead Sam \"{{i18n:66170013.10}}\"/pause 3000/speak Toshinori \"{{i18n:66170013.11}}\"/pause 1000/stopAnimation Toshinori/showFrame Toshinori 23/textAboveHead Toshinori \"{{i18n:66170013.12}}\"/pause 2500/emote Abigail 32 true/emote Sam 32 true/emote farmer 32/pause 1000/globalFade/viewport -1000 -1000/pause 2000/speak Toshinori \"{{i18n:66170013.13}}\"/pause 1000/end position 28 56"},
+},
+
+     //*Y2 EVENTS  
+
+//Another 6 Heart. Needs some tweaks to add more content to the 'safe, uninvasive questions' the player can ask Toshinori- otherwise, it functions.
+{"LogName": "ToshinoriEventBranching1",
+"Action": "EditData",
+"Target": "Data/Events/ArchaeologyHouse",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170011/e 661712000/e 66170004/f Toshinori 1000/t 800 1600": "continue/16 10/farmer 9 14 3 Toshinori 16 10 1/skippable/move farmer 2 0 1/move farmer 0 -2 0/move farmer 8 0 1/move farmer 0 -2 0/faceDirection farmer 3/pause 1000/emote Toshinori 32/speak Toshinori \"{{i18n:66170011.01}}\"/pause 500/emote farmer 32/pause 500/speak Toshinori \"{{i18n:66170011.02}}\"/quickQuestion {{i18n:66170011.03}}(break)speak Toshinori \"{{i18n:66170011.04}}\"(break)speak Toshinori \"{{i18n:66170011.05}}\"/pause 500/emote farmer 40/pause 500/speak Toshinori \"{{i18n:66170011.06}}\"/question fork1 \"{{i18n:66170011.07}}\"/fork approvequestionToshi/speak Toshinori \"{{i18n:66170011.08}}\"/quickQuestion {{i18n:66170011.09}}(break)speak Toshinori \"{{i18n:66170011.10}}\"(break)speak Toshinori \"{{i18n:66170011.11}}\"/pause 500/speak Toshinori \"{{i18n:66170011.12}}\"/emote farmer 32/pause 500/globalFade/viewport -1000 -1000/end position 19 10",
+"approvequestionToshi": "resetVariable/pause 500/speak Toshinori \"{{i18n:66170011.13}}\"/question fork1 \"{{i18n:66170011.14}}\"/fork sadToshi/pause 500/speak Toshinori \"{{i18n:66170011.15}}\"/pause 500/emote farmer 32/pause 500/globalFade/viewport -1000 -1000/end position 19 10",
+"sadToshi": "stopMusic/speak Toshinori \"{{i18n:66170011.16}}\"/pause 500/playMusic echos/speak Toshinori \"{{i18n:66170011.17}}\"/speak Toshinori \"{{i18n:66170011.18}}\"/pause 500/stopMusic/message \"{{i18n:66170011.19}}\"/stopMusic/pause 1000/speak Toshinori \"{{i18n:66170011.20}}\"/pause 500/speak Toshinori \"{{i18n:66170011.21}}\"/emote farmer 28/pause 500/move Toshinori -2 0 3/move Toshinori 0 2 2/move Toshinori -3 0 3/move Toshinori 0 2 2/move Toshinori -6 0 3/globalFade/viewport -1000 -1000/end invisible Toshinori"},
+},
+
+//6 Heart Event with both Harvey and Toshinori, 1 year after install. Obligatory sick scene Aeo wanted in the game. Users have 2 separate outs to avoid seeing this event (plus the skip button) if they can't stand it XD
+{"LogName": "ToshinoriEventBranching2",
+"Action": "EditData",
+"Target": "Data/Events/Hospital",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170012/e 661712000/f Toshinori 1000/f Harvey 1000/t 1600 2200/w rainy": "none/28 6/farmer 17 8 1 Toshinori 28 6 3 Harvey 25 8 0/skippable/showFrame Toshinori 29/move farmer 7 0 1/pause 500/speak Harvey \"{{i18n:66170012.01}}\"/pause 500/emote farmer 28/pause 500/speak Harvey \"{{i18n:66170012.02}}\"/pause 1000/speak Harvey \"{{i18n:66170012.03}}\"/pause 300/question fork0 \"{{i18n:66170012.04}}\"/fork letmeinToshi/pause 500/emote Harvey 12/pause 500/speak Harvey \"{{i18n:66170012.05}}\"/pause 500/speak Harvey \"{{i18n:66170012.06}}\"/textAboveHead Harvey \"{{i18n:66170012.07}}\"/move Harvey -8 0 3/move farmer 0 1 2/move farmer -8 0 3/pause 500/globalFade/viewport -1000 -1000/end position 10 18",
+"letmeinToshi": "resetVariable/pause 500/move Harvey 0 1 2/faceDirection Harvey 0/move farmer 1 0 1/faceDirection farmer 0/showFrame farmer 15/playSound axe/pause 500/playSound axe/showFrame 12/pause 500/speak Toshinori \"{{i18n:66170012.08}}\"/pause 500/quickQuestion {{i18n:66170012.09}}(break)speak Toshinori \"{{i18n:66170012.10}}\"/pause 500/emote Toshinori 40/pause 500/textAboveHead Toshinori \"{{i18n:66170012.11}}\"/pause 1000/speak Toshinori \"{{i18n:66170012.12}}\"/question fork1 \"{{i18n:66170012.13}}\"/fork reallyletmeintoshi/pause 500/speak Harvey \"{{i18n:66170012.14}}\"/textAboveHead Harvey \"{{i18n:66170012.15}}\"/move Harvey -8 0 3/move farmer 0 1 2/move farmer -8 0 3/pause 500/globalFade/viewport -1000 -1000/end position 10 18",
+"reallyletmeintoshi": "pause 500/doAction 25 7/move farmer 0 -3 0/move farmer 2 0 1/move farmer 0 1 2/faceDirection farmer 1/pause 1000/shake Toshinori 300/textAboveHead Toshinori \"{{i18n:66170012.16}}\"/pause 2000/showFrame 35/pause 3500/shake Toshinori 1000/showFrame Toshinori 30/pause 200/showFrame Toshinori 31/shake Toshinori 1000/pause 1000/textAboveHead Toshinori \"{{i18n:66170012.17}}\"/pause 100/playSound wateringCan/shake Toshinori 500/pause 3000/showFrame Toshinori 30/textAboveHead Toshinori \"{{i18n:66170012.18}}\"/pause 1500/shake Toshinori 500/showFrame Toshinori 31/pause 500/shake Toshinori 500/textAboveHead Toshinori \"{{i18n:66170012.19}}\"/pause 100/playSound wateringCan/shake Toshinori 500/pause 2500/showFrame Toshinori 30/textAboveHead Toshinori \"{{i18n:66170012.20}}\"/pause 3000/shake Toshinori 1000/showFrame Toshinori 29/pause 2000/shake Toshinori 500/speak Toshinori \"{{i18n:66170012.21}}\"/pause 500/speak Toshinori \"{{i18n:66170012.22}}\"/pause 500/speak Toshinori \"{{i18n:66170012.23}}\"/pause 500/emote Harvey 28/pause 500/move Harvey -8 0 3/pause 500/speak Toshinori \"{{i18n:66170012.24}}\"/pause 500/emote farmer 28/pause 500/textAboveHead Toshinori \"{{i18n:66170012.25}}\"/pause 500/speak Toshinori \"{{i18n:66170012.26}}\"/pause 500/speak Toshinori \"{{i18n:66170012.27}}\"/pause 500/move farmer 0 -1 0/move Toshinori -1 0 0/move farmer 0 -1 0/move Toshinori 0 -1 0/pause 1000/addConversationTopic ToshisOverbearingDoctor 7/globalFade/viewport -1000 -1000/end position 10 18"},
+},
+
+     //*IZUKU EVENTS. Y2 PLOT* 
+
+//This event ocurrs if the player character is not friendly with Toshinori.  
+{"Log Name": "Izuku's Visit Beginning, Unfriendly",
+"Action": "EditData",
+"Target": "Data/Events/FarmHouse",
+"When": {"Relationship:Toshinori": "Divorced, Unmet",
+         "HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170014/e 661712000/k 66170015/u 2/z summer/z winter/z spring/t 600 610": "none/-1000 -1000/farmer 100 100 2 Lewis -100 100 2/skippable/pause 700/playSound axe/pause 700/playSound axe/pause 700/playSound axe/pause 500/message \"{{i18n:66170014.01}}\"/pause 500/changeLocation Farm 64 15/viewport 64 15/warp farmer 64 15 2/warp Lewis 64 16 0/pause 1000/message \"{{i18n:66170014.02}}.\"/pause 1000/speak Lewis \"{{i18n:66170014.03}}\"/pause 1000/speak Lewis \"{{i18n:66170014.04}}\"/pause 5000/globalFade/viewport -1000 -1000/end invisible Toshinori"},
+}, 
+
+//This event ocurrs if the player character is friendly with Toshinori.
+{"Log Name": "Izuku's Visit Beginning, Friendly",
+"Action": "EditData",
+"Target": "Data/Events/FarmHouse",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170015/e 661712000/k 66170014/u 2/z summer/z winter/z spring/t 600 610": "none/-1000 -1000/farmer 100 100 2 Toshinori -100 100 2/skippable/pause 700/playSound axe/pause 700/playSound axe/pause 700/playSound axe/pause 500/message \"{{i18n:66170015.01}}\"/pause 500/changeLocation Farm 64 15/viewport 64 15/warp farmer 64 15 2/warp Toshinori 64 16 0/pause 1000/message \"{{i18n:66170015.02}}\"/pause 1000/speak Toshinori \"{{i18n:66170015.03}}\"/pause 1000/message \"{{i18n:66170015.04}}\"/speak Toshinori \"{{i18n:66170015.05}}\"/pause 1000/message \"{{i18n:66170015.06}}\"/pause 500/textAboveHead Toshinori \"{{i18n:66170015.07}}\"/pause 3000/globalFade/viewport -1000 -1000/pause 1000/message \"{{i18n:66170015.08}}\"/addConversationTopic ToshiUpset 1/end invisible Toshinori"},
+}, 
+
+//Fall 4, Izuku enters the town at the bus stop. Skippable.
+ {"Log Name": "Izuku's Visit Beginning",
+"Action": "EditData",
+"Target": "Data/Events/BusStop",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170016/k 66170021/e 661712000/u 4/z summer/z winter/z spring/t 600 1600": "none/12 10/farmer 13 18 0 Toshinori -1000 -1000 2/skippable/addTemporaryActor Izuku 16 32 -1000 -1000 2 true Character/skippable/pause 500/move farmer 0 -6 0/pause 2000/warp Izuku 12 10/shake Izuku 300/move Izuku 0 2 2/warp Toshinori 12 10/shake Toshinori 300/move Toshinori 0 1 2/pause 500/speak Toshinori \"{{i18n:66170016.01}}\"/pause 500/emote Izuku 40/pause 500/speak Izuku \"{{i18n:66170016.02}}\"/pause 500/faceDirection Izuku 0/pause 500/message \"{{i18n:66170016.03}}\"/pause 500/speak Toshinori \"{{i18n:66170016.04}}\"/pause 500/move Toshinori 0 7 2/move Izuku 0 7 2/pause 2000/emote farmer 40/globalFade/viewport -1000 -1000/pause 500/message \"{{i18n:66170016.05}}\"/pause 1000/addConversationTopic ToshisSon 7/end warpOut"}, 
+ },
+ 
+// Fall 5, Dummy event in farmhouse that plays if the player character skipped out on Izuku's entry scene that updates Izuku's schedule to active.
+{"LogName":"Deku Moves In",
+"Action": "EditData",         
+"Target": "Data/Events/FarmHouse",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},         
+"Entries": {"66170021/k 66170016/e 661712000/u 5/z summer/z spring/z winter/t 600 610": "none/-1000 -1000/farmer 100 100 2/skippable/fade unfade/addConversationTopic ToshisSon 7/end"},   
+},
+ 
+// Fall 11-17, 66170017 Izuku and Player Character have a talk. Prompted by a letter from Toshinori. Skippable. Able to trigger any time between Fall 11 and Fall 17.
+{"LogName":"Deku Talks to Player Character",
+"Action": "EditData",         
+"Target": "Data/Events/ArchaeologyHouse",  
+"When": {"HasSeenEvent |contains=66170019, 66170020": "false",
+         "HasSeenEvent |contains=661716000, 661715000": "false"},      
+"Entries": {"66170017/u 11 12 13 14/e 661712000/z summer/z spring/z winter/t 900 1500": "continue/16 10/farmer 9 14 3 Izuku 16 10 1/skippable/move farmer 2 0 1/move farmer 0 -2 0/move farmer 8 0 1/move farmer 0 -2 0/faceDirection farmer 3/pause 1000/emote Izuku 40/pause 500/speak Izuku \"{{i18n:66170017.01}}\"/pause 500/speak Izuku \"{{i18n:66170017.02}}\"/pause 500/speak Izuku \"{{i18n:66170017.03}}\"/question fork0 \"{{i18n:66170017.04}}\"/fork IzukusStory/pause 500/speak Izuku \"{{i18n:66170017.05}}\"/quickQuestion {{i18n:66170017.06}}(break)speak Izuku \"{{i18n:66170017.07}}\"(break)speak Izuku \"{{i18n:66170017.08}}\"(break)speak Izuku \"{{i18n:66170017.09}}\"/pause 500/speak Izuku \"{{i18n:66170017.10}}\"/pause 500/emote farmer 32/pause 1000/globalFade/viewport -1000 -1000/end position 18 12 0",
+"IzukusStory": "pause 500/speak Izuku \"{{i18n:66170017.11}}\"/pause 500/emote farmer 32/pause 500/speak Izuku \"{{i18n:66170017.12}}\"/pause 500/textAboveHead Izuku \"{{i18n:66170017.13}}\"/pause 2000/stopMusic/speak Izuku \"{{i18n:66170017.14}}\"/pause 1000/playMusic echos/pause 500/message \"{{i18n:66170017.15}}\"/pause 500/speak Izuku \"{{i18n:66170017.16}}\"/pause 500/quickQuestion {{i18n:66170017.17}} (break)speak Izuku \"{{i18n:66170017.18}}\"(break)speak Izuku \"{{i18n:66170017.19}}\"(break)speak Izuku \"{{i18n:66170017.20}}\"/pause 500/speak Izuku \"{{i18n:66170017.21}}\"/pause 500/emote farmer 32/pause 500/speak Izuku \"{{i18n:66170017.22}}\"/pause 2000/globalFade/viewport -1000 -1000/end position 18 12 0"},   
+},
+ 
+// Fall 15, does nothing, Izuku portrait art updated from his injured art
+{"LogName":"Deku Heals",
+"Action": "EditData",         
+"Target": "Data/Events/FarmHouse",  
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},       
+"Entries": {"66170018/e 661712000/u 15/z summer/z spring/z winter/t 600 610": "none/-1000 -1000/farmer 100 100 2/skippable/fade unfade/end"},   
+},
+
+// Fall 18, 66170019 Izuku goes back home. Skippable.
+{"LogName":"Deku Leaves",
+"Action": "EditData",         
+"Target": "Data/Events/BusStop",    
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},     
+"Entries": {"66170019/e 661712000/u 18/z summer/z spring/z winter/t 600 1400": "continue/12 10/farmer 14 21 0 Toshinori 13 21 0 Izuku 12 21 0/skippable/pause 500/move Izuku 0 -10 0/move farmer 0 -10 0/move Toshinori 0 -10 0/pause 500/faceDirection Izuku 1/faceDirection Toshinori 3/pause 500/speak Izuku \"{{i18n:66170019.01}}\"/pause 500/emote Toshinori 32/pause 500/speak Toshinori \"{{i18n:66170019.02}}\"/pause 500/speak Izuku \"{{i18n:66170019.03}}\"/pause 500/emote Toshinori 32/pause 500/speak Toshinori \"{{i18n:66170019.04}}\"/pause 500/speak Izuku \"{{i18n:66170019.05}}\"/pause 500/quickQuestion {{i18n:66170019.06}}(break)speak Izuku \"{{i18n:66170019.07}}\"(break)speak Izuku \"{{i18n:66170019.08}}\"(break)speak Izuku \"{{i18n:66170019.09}}\"/pause 500/speak Izuku \"{{i18n:66170019.10}}\"/pause 500/move Izuku 0 -1 0/warp Izuku -1000 -1000/pause 500/speak Toshinori \"{{i18n:66170019.11}}\"/pause 2000/globalFade/viewport -1000 -1000/end position 12 11 0"},   
+},
+
+// Fall 19, Dummy event in farmhouse that plays if the player character skipped out on Izuku's exit scene that updates Izuku to inactive.
+{"LogName":"Deku Leaves",
+"Action": "EditData",         
+"Target": "Data/Events/FarmHouse",    
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},   
+"Entries": {"66170020/k 66170019/e 661712000/u 19/z summer/z spring/z winter/t 600 610": "none/-1000 -1000/farmer 100 100 2/skippable/fade unfade/end"},   
+},
+
+// After Izuku leaves, this event can be triggered in the Hospital. It is a prerequisite to Toshinori's y3 plot, which involves his poor mental health. While not dependent on heart level, it can't be triggered until at least Fall y2. It is possible to never trigger it if the player character never goes into the hospital to talk to him.
+{"LogName":"Toshinori's Distress",
+"Action": "EditData",         
+"Target": "Data/Events/Hospital",
+"When": {"HasSeenEvent": "66170020, 66170019",
+         "HasSeenEvent |contains=661716000, 661715000": "false"},        
+"Entries": {"66170026/e 661712000/t 900 2200": "none/28 6/farmer 17 8 1 Toshinori 27 4 3/skippable/move farmer 7 0 1/pause 1000/textAboveHead Toshinori \"{{i18n:66170026.01}}\"/pause 500/message \"{{i18n:66170026.02}}\"/pause 1000/move farmer 1 0 1/faceDirection farmer 0/showFrame farmer 15/playSound axe/pause 500/playSound axe/showFrame 12/pause 500/speak Toshinori \"{{i18n:66170026.03}}\"/pause 500/emote farmer 40/pause 500/doAction 25 7/move farmer 0 -3 0/move farmer 2 0 1/faceDirection farmer 0/pause 500/message \"{{i18n:66170026.04}}\"/pause 500/faceDirection Toshinori 2/speak Toshinori \"{{i18n:66170026.05}}\"/pause 500/emote farmer 40/pause 500/speak Toshinori \"{{i18n:66170026.06}}\"/pause 1000/quickQuestion {{i18n:66170026.07}}(break)speak Toshinori \"{{i18n:66170026.08}}\"(break)speak Toshinori \"{{i18n:66170026.09}}\"/pause 500/message \"{{i18n:66170026.10}}\"/pause 500/speak Toshinori \"{{i18n:66170026.11}}\"/pause 500/emote farmer 28/pause 500/move farmer -2 0 3/move farmer 0 3 2/globalFade/viewport -1000 -1000/end warpOut"},   
+},
+
+     //Y3 PLOT. It's possible to start triggering these events late Y2. It depends on how much time the player spends with Toshinori. It can be over in a matter of weeks, depending on how much players rush it. 
+
+//Give Toshinori A Breather. 5 Days must pass until Toshinori starts lashing out at villagers. This ensures he will start to get antsy after he's given some time to process his life.
+{"LogName":"ToshinoriAnxietyPause",
+"Action": "EditData",         
+"Target": "Data/Events/FarmHouse",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},         
+"Entries": {"661711100/e 66170026/t 600 610": "continue/-1000 -1000/farmer 100 100 2/skippable/addConversationTopic toshinoriGetsAnxious 5/fade unfade/end"},   
+},
+
+//Updates Toshinori's Clothes. 
+{"LogName":"ToshinoriWearsHisDress",
+"Action": "EditData",         
+"Target": "Data/Events/FarmHouse",         
+"Entries": {"661711600/A toshinoriGetsAnxious/e 661711100/t 600 610": "continue/-1000 -1000/farmer 100 100 2/skippable/fade unfade/end"},   
+},
+   {
+  "LogName": "Dress Sprites, Pre-George Event",
+  "Action": "EditImage",
+  "Target": "Characters/Toshinori",
+  "FromFile": "assets/image/Sprites/{{ToshiVariant}}/Dress.png",
+  "Update": "OnLocationChange",
+  "When": {"HasSeenEvent": "661711600",
+    "HasSeenEvent |contains=66170027": "false"}
+   },
+   {
+  "LogName": "Dress Portraits, Pre-George Event",
+  "Action": "EditImage",
+  "Target": "Portraits/Toshinori",
+  "FromFile": "assets/image/Portraits/{{ToshiVariant}}/Summer_Sun.png",
+  "Update": "OnLocationChange",
+   "When": {"HasSeenEvent": "661711600",
+    "HasSeenEvent |contains=66170027": "false"}
+   },
+   
+//Toshinori Lashes Out at George 66170027 
+{"LogName":"Toshi Vs George",
+"Action": "EditData",
+"Target": "Data/Events/Town",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170027/e 661711600/t 900 1400": "continue/44 57/farmer 39 58 1 Toshinori -1000 -1000 2 George 44 61 0 Alex 51 60 2/skippable/move George 0 -4 0/warp Toshinori 43 57 2/playSound doorClose/pause 500/message \"{{i18n:66170027.01}}\"/pause 500/speak Toshinori \"{{i18n:66170027.02}}\"/pause 500/message \"{{i18n:66170027.03}}\"/pause 500/speak George \"{{i18n:66170027.04}}\"/pause 500/stopMusic/speak Toshinori \"...$12\"/pause 500/emote farmer 28/pause 500/emote Alex 28/pause 500/message \"{{i18n:66170027.05}}\"/pause 2000/speak Toshinori \"{{i18n:66170027.06}}\"/pause 500/emote Toshinori 12/move Toshinori 0 2 2/move Toshinori -12 0 3/pause 1000/emote George 12/pause 500/speak George \"{{i18n:66170027.07}}\"/pause 500/speak Alex \"{{i18n:66170027.08}}\"/pause 500/move Alex 0 6 2/pause 500/speak George \"{{i18n:66170027.09}}\"/pause 1000/warp George -1000 -1000/playSound doorClose/emote farmer 28/pause 2000/addConversationTopic ToshiAndGeorge 2/globalFade/viewport -1000 -1000/end position 39 57 1"},
+},
+
+{"LogName":"ToshinoriAnxietyPause2",
+"Action": "EditData",         
+"Target": "Data/Events/FarmHouse",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},         
+"Entries": {"661711200/e 66170027/t 600 610": "continue/-1000 -1000/farmer 100 100 2/skippable/addConversationTopic toshinoriGetsMoreAnxious 2/fade unfade/end"},   
+},
+
+//Toshinori Lashes Out at Demetrius 
+{"LogName":"Toshi Vs Demetrius",
+"Action": "EditData",
+"Target": "Data/Events/Saloon",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170028/A toshinoriGetsMoreAnxious/e 661711200/t 1200 2200": "jaunty/15 18/farmer 12 20 0 Toshinori 20 19 2 Demetrius 18 20 0 Gus 15 18 2 Robin 16 23 1 Caroline 19 23 3 Shane 21 17 2/skippable/pause 2000/faceDirection Demetrius 1/speak Demetrius \"{{i18n:66170028.01}}\"/speak Toshinori \"{{i18n:66170028.02}}\"/speak Demetrius \"{{i18n:66170028.03}}\"/pause 1000/speak Toshinori \"{{i18n:66170028.04}}\"/emote Demetrius 40/pause 1000/speak Demetrius \"{{i18n:66170028.05}}\"/stopMusic/speak Toshinori \"{{i18n:66170028.06}}\"/emote Demetrius 8/pause 500/speak Demetrius \"{{i18n:66170028.07}}\"/speak Toshinori \"{{i18n:66170028.08}}\"/pause 500/emote Demetrius 12/speak Demetrius \"{{i18n:66170028.09}}\"/speak Toshinori \"{{i18n:66170028.10}}\"/emote farmer 28 true/emote Gus 28 true/emote Caroline 28 true/emote Shane 28/move Robin 0 -2 0/move Robin 2 0 1/speak Robin \"{{i18n:66170028.11}}\"/speak Demetrius \"{{i18n:66170028.12}}\"/pause 500/speak Robin \"{{i18n:66170028.13}}\"/speak Toshinori \"{{i18n:66170028.14}}\"/speak Robin \"{{i18n:66170028.15}}\"/speak Toshinori \"{{i18n:66170028.16}}\"/emote Demetrius 12/move Demetrius -2 0 3/move Demetrius 0 2 2/move Demetrius -2 0 3/move Demetrius 0 2 2/warp Demetrius -1000 -1000/playSound doorClose/speak Robin \"{{i18n:66170028.17}}\"/pause 500/move Robin -4 0 3/move Robin 0 3 2/warp Robin -1000 -1000/playSound doorClose/speak Toshinori \"{{i18n:66170028.18}}\"/emote farmer 28 true/emote Gus 28 true/emote Caroline 28 true/emote Shane 28/addConversationTopic ToshiAndDemetrius 2/globalFade/viewport 1000 1000/end warpOut"},
+},
+
+{"LogName":"ToshinoriAnxietyPause3",
+"Action": "EditData",         
+"Target": "Data/Events/FarmHouse",      
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},   
+"Entries": {"661711300/e 66170028/t 600 610": "continue/-1000 -1000/farmer 100 100 2/skippable/addConversationTopic toshinoriGetsEvenMoreAnxious 2/fade unfade/end"},   
+},
+
+//Toshinori Lashes Out at Pam  
+{"LogName":"Toshi Vs Pam",
+"Action": "EditData",
+"Target": "Data/Events/Town",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170029/A toshinoriGetsEvenMoreAnxious/e 661711300/t 900 1200": "continue/101 90/Penny 101 90 2 Toshinori 101 90 2 farmer 90 94 1 Pam 90 94 1/skippable/showFrame Toshinori 53/move Penny 0 3 2/move Toshinori 0 2 2/faceDirection Penny 0/pause 500/speak Penny \"{{i18n:66170029.01}}\"/pause 500/speak Toshinori \"{{i18n:66170029.02}}\"/pause 500/speak Penny \"{{i18n:66170029.03}}\"/pause 500/emote Toshinori 32/pause 1000/move Pam 10 0 1/textAboveHead Pam \"{{i18n:66170029.04}}\"/pause 500/faceDirection Penny 2/pause 500/faceDirection Pam 0/speak Pam \"{{i18n:66170029.05}}\"/pause 500/speak Penny \"{{i18n:66170029.06}}\"/pause 500/speak Pam \"{{i18n:66170029.07}}\"/pause 500/speak Penny \"{{i18n:66170029.08}}\"/pause 500/speak Pam \"{{i18n:66170029.09}}\"/pause 500/emote Toshinori 40/pause 500/stopMusic/speak Toshinori \"{{i18n:66170029.10}}\"/pause 500/speak Pam \"{{i18n:66170029.11}}\"/move Toshinori 1 0 1/move Toshinori 0 3 3/faceDirection Toshinori -1 0 3/faceDirection Pam 1/speak Toshinori \"{{i18n:66170029.12}}\"/speak Pam \"{{i18n:66170029.13}}\"/speak Toshinori \"{{i18n:66170029.14}}\"/emote Pam 16 true/emote Penny 16/speak Penny \"{{i18n:66170029.15}}\"/speak Pam \"{{i18n:66170029.16}}\"/speak Toshinori \"{{i18n:66170029.17}}\"/speak Pam \"{{i18n:66170029.18}}\"/speak Toshinori \"{{i18n:66170029.19}}\"/pause 500/emote Pam 12/shake Pam 1000/pause 1000/speak Penny \"{{i18n:66170029.20}}\"/pause 1000/shake Toshinori 500/pause 500/emote Toshinori 40/speak Toshinori \"{{i18n:66170029.21}}\"/move Toshinori -12 0 3/shake Pam 1000/textAboveHead Pam \"{{i18n:66170029.02}}\"/speak Pam \"{{i18n:66170029.23}}\"/pause 500/move Penny 0 1 2/faceDirection Penny 3/pause 1000/addConversationTopic ToshiAndPam 2/globalFade/viewport -1000 -1000/end"},
+},
+
+//Lewis confronts Toshinori  
+{"LogName":"Toshi Vs Lewis",
+"Action": "EditData",
+"Target": "Data/Events/Town",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170030/e 66170029/t 1500 2200": "continue/36 56/Toshinori -1000 -1000 2 farmer 24 58 1 Lewis 36 66 0/skippable/pause 500/move Lewis 0 -8 0/warp Toshinori 36 56 2/playSound doorClose/pause 500/emote Lewis 16/speak Lewis \"{{i18n:66170030.01}}\"/pause 500/speak Toshinori \"{{i18n:66170030.02}}\"/pause 500/move farmer 7 0 1/pause 500/speak Lewis \"{{i18n:66170030.03}}\"/pause 500/speak Toshinori \"{{i18n:66170030.04}}\"/speak Lewis \"{{i18n:66170030.05}}\"/speak Toshinori \"{{i18n:66170030.06}}\"/emote Lewis 16/speak Lewis \"{{i18n:66170030.07}}\"/pause 500/speak Toshinori \"{{i18n:66170030.08}}\"/speak Lewis \"{{i18n:66170030.09}}\"/pause 1000/speak Toshinori \"{{i18n:66170030.10}}\"/pause 500/move Toshinori 0 1 2/move Toshinori 1 0 1/speak Toshinori \"{{i18n:66170030.11}}\"/move Toshinori 10 0 1/emote Lewis 40/speak Lewis \"{{i18n:66170030.12}}\"/pause 1000/addConversationTopic ToshisPTSD 5/globalFade/viewport -1000 -1000/end position 33 58"},
+},
+
+{"LogName":"ToshinoriAnxietyPause4",
+"Action": "EditData",         
+"Target": "Data/Events/FarmHouse",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},         
+"Entries": {"661711400/e 66170030/t 600 610": "continue/-1000 -1000/farmer 100 100 2/skippable/addConversationTopic toshinoriGetsPainfullyAnxious 5/fade unfade/end"},   
+},
+
+// Kent confronts Farmer (at Farmhouse, unavoidable event. Farmer can choose to help Toshinori or ignore the call for help.)
+{"LogName":"Kent Is Worried",
+"Action": "EditData",
+"Target": "Data/Events/FarmHouse",
+"When": {"Relationship:Toshinori": "Friendly, Dating, Engaged, Divorced",
+         "HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170031/k 66170032/e 661711400/A toshinoriGetsPainfullyAnxious": "none/-1000 -1000/farmer 100 100 2 Kent 100 100 2/skippable/pause 700/playSound axe/pause 700/playSound axe/pause 700/playSound axe/pause 500/message \"{{i18n:66170031.01}}\"/pause 500/changeLocation Farm 64 15/viewport 64 15/warp farmer 64 15 2/warp Kent 64 16 0/pause 1000/speak Kent \"{{i18n:66170031.02}}\"/pause 500/speak Kent \"{{i18n:66170031.03}}\"/speak Kent \"{{i18n:66170031.04}}\"/question fork0 \"{{i18n:66170031.05}}\"/fork HelpToshiFriend/pause 500/speak Kent \"{{i18n:66170031.06}}\"/globalFade/viewport -1000 -1000/end",},
+},
+
+{"LogName":"Kent Is Worried Response Friendly",
+"Action": "EditData",
+"Target": "Data/Events/Farm",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"HelpToshiFriend": "pause 500/speak Kent \"{{i18n:66170031.07}}\"/pause 1000/addMailReceived HelpToshiGetTherapy/globalFade/viewport -1000 -1000/end"},
+},
+
+// Kent Confronts Farmer (Married Version) 66170032 (at Farmhouse, unavoidable event. Farmer can choose to help Toshinori or ignore the call for help.)
+{"LogName":"Kent Is Worried",
+"Action": "EditData",
+"Target": "Data/Events/FarmHouse",
+"When": {"Relationship:Toshinori": "Married",
+         "HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170032/A toshinoriGetsPainfullyAnxious/e 661711400/k 66170031": "none/-1000 -1000/farmer 100 100 2 Kent 100 100 2/skippable/pause 700/playSound axe/pause 700/playSound axe/pause 700/playSound axe/pause 500/message \"{{i18n:66170032.01}}\"/pause 500/changeLocation Farm 64 15/viewport 64 15/warp farmer 64 15 2/warp Kent 64 16 0/pause 1000/speak Kent \"{{i18n:66170032.02}}\"/pause 500/speak Kent \"{{i18n:66170032.03}}\"/speak Kent \"{{i18n:66170032.04}}\"/question fork0 \"{{i18n:66170032.05}}\"/fork HelpToshiSpouse/pause 500/speak Kent \"{{i18n:66170032.06}}\"/globalFade/viewport -1000 -1000/end",
+}
+},
+
+{"LogName":"Kent Is Worried Response Married",
+"Action": "EditData",
+"Target": "Data/Events/Farm",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"HelpToshiSpouse": "pause 500/speak Kent \"{{i18n:66170032.07}}\"/pause 1000/addMailReceived HelpToshiGetTherapy/globalFade/viewport -1000 -1000/end"},
+},
+ 
+ // Player Character Chooses to Help Toshinori
+{"LogName":"Farmer Is Worried",
+"Action": "EditData",
+"Target": "Data/Events/Hospital",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170033/n HelpToshiGetTherapy/t 900 2200": "none/28 6/farmer 17 8 1 Toshinori 28 6 3/skippable/move farmer 7 0 1/pause 500/move farmer 1 0 1/faceDirection farmer 0/showFrame farmer 15/playSound axe/pause 500/playSound axe/showFrame 12/pause 500/speak Toshinori \"{{i18n:66170033.01}}\"/pause 500/doAction 25 7/move farmer 0 -3 0/move farmer 2 0 1/move farmer 0 1 2/faceDirection farmer 1/pause 500/speak Toshinori \"{{i18n:66170033.02}}\"/pause 500/quickQuestion {{i18n:66170033.03}}(break)speak Toshinori \"{{i18n:66170033.04}}\"/pause 500/quickQuestion {{i18n:66170033.05}}(break)speak Toshinori  \"{{i18n:66170033.06}}\"/message \"{{i18n:66170033.07}}\"/speak Toshinori \"{{i18n:66170033.08}}\"/quickQuestion {{i18n:66170033.09}}(break)speak Toshinori \"{{i18n:66170033.10}}\"/message \"{{i18n:66170033.11}}\"/speak Toshinori \"{{i18n:66170033.12}}\"/quickQuestion {{i18n:66170033.13}}(break)speak Toshinori \"{{i18n:66170033.14}}\"/playMusic desolate/pause 1000/faceDirection Toshinori 1/message \"{{i18n:66170033.15}}\"/pause 3000/quickQuestion {{i18n:66170033.16}}(break)speak Toshinori \"{{i18n:66170033.17}}\"/quickQuestion {{i18n:66170033.18}}(break)speak Toshinori \"...$10\"/pause 1000/message \"{{i18n:66170033.19}}\"/speak Toshinori \"{{i18n:66170033.20}}\"/pause 500/emote farmer 32/globalFade/viewport -1000 -1000/end warpOut"},
+},
+
+{"LogName":"ToshinoriAnxietyPause5",
+"Action": "EditData",         
+"Target": "Data/Events/FarmHouse",         
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"661711500/e 66170033/t 600 610": "continue/-1000 -1000/farmer 100 100 2/skippable/addConversationTopic toshinoriGetsLessAnxious 2/fade unfade/end"},   
+},
+
+// Deku Comes To Visit Again, Taking Toshinori With Him
+{"LogName":"Deku Is Worried",
+"Action": "EditData",
+"Target": "Data/Events/BusStop",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170034/e 661711500/A toshinoriGetsLessAnxious/t 600 1800": "continue/12 10/farmer 14 21 0 Toshinori 14 11 2/addTemporaryActor Izuku 16 32 -1000 -1000 2 true Character/skippable/pause 1000/move farmer 0 -8 0/pause 500/speak Toshinori \"{{i18n:66170034.01}}\"/pause 1000/warp Izuku 12 10/move Izuku 0 1 2/faceDirection Izuku 1/pause 1000/speak Izuku \"{{i18n:66170034.02}}\"/pause 500/speak Toshinori \"{{i18n:66170034.03}}\"/pause 500/speak Izuku \"{{i18n:66170034.04}}\"/pause 500/emote farmer 32/pause 500/speak Izuku \"{{i18n:66170034.05}}\"/pause 500/move Izuku 0 -1 0/warp Izuku -1000 -1000/move Toshinori -2 0 3/move Toshinori 0 -1 0/warp Toshinori -1000 -1000/pause 1000/globalFade/viewport -1000 -1000/message \"{{i18n:66170034.06}}\"/pause 500/end invisibleWarpOut Toshinori"},
+},
+
+{"LogName":"ToshinoriAnxietyPause6",
+"Action": "EditData",         
+"Target": "Data/Events/FarmHouse", 
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},        
+"Entries": {"661710600/e 66170034/t 600 610": "continue/-1000 -1000/farmer 100 100 2/skippable/addConversationTopic toshinoriGetsHelp 1/fade unfade/end invisible Toshinori"},   
+},
+
+// Toshinori Returns to Thank Farmer, Updates his Dialogue Set to Post-Therapy at FarmHouse, unavoidable)
+{"LogName":"Toshi Returns",
+"Action": "EditData",
+"Target": "Data/Events/FarmHouse",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170035/A toshinoriGetsHelp/e 661710600/t 600 1800": "none/-1000 -1000/farmer 100 100 2 Toshinori 100 100 2/skippable/pause 700/playSound axe/pause 700/playSound axe/pause 700/playSound axe/pause 500/message \"{{i18n:66170035.01}}\"/pause 500/changeLocation Farm 64 15/viewport 64 15/warp farmer 64 15 2/warp Toshinori 64 16 0/pause 1000/speak Toshinori \"{{i18n:66170035.02}}\"/pause 500/speak Toshinori \"{{i18n:66170035.03}}\"/pause 500/message \"{{i18n:66170035.04}}\"/pause 500/speak Toshinori \"{{i18n:66170035.05}}\"/pause 500/emote farmer 32/pause 1000/message \"{{i18n:66170035.06}}\"/addConversationTopic ToshiGotTherapy 7/globalFade/viewport -1000 -1000/end"},
+},
+
+// End of Toshinori's Plot. Toshinori spends some time re-integrating into the community. The villagers are warm and understanding towards him. 
+{"LogName":"Toshi Returns",
+"Action": "EditData",
+"Target": "Data/Events/Saloon",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170036/e 66170035/t 1200 2200": "continue/15 18/Gus 15 18 2 Emily 18 18 2 Pam 11 20 0 Demetrius 18 20 0 George 20 19 3 Shane 21 17 2 Robin 16 23 1 Caroline 19 23 3 farmer -1000 -1000 0 Toshinori -1000 -1000 0/skippable/pause 500/warp Toshinori 14 24 0/playSound doorClose/move Toshinori 0 -4 0/pause 500/speak Toshinori \"{{i18n:66170036.01}}\"/pause 500/speak Gus \"{{i18n:66170036.02}}\"/pause 500/speak Toshinori \"{{i18n:66170036.03}}\"/pause 1000/warp farmer 14 24 0/playSound doorClose/emote Toshinori 28/pause 500/faceDirection Toshinori 2/speak Toshinori \"{{i18n:66170036.04}}\"/pause 500/emote Pam 40 true/emote Demetrius 40 true/emote George 40 true/emote Robin 40/pause 500/speak Pam \"{{i18n:66170036.05}}\"/pause 500/speak Demetrius \"{{i18n:66170036.06}}\"/pause 1000/emote George 40/textAboveHead George \"{{i18n:66170036.07}}\"/pause 500/speak Toshinori \"{{i18n:66170036.08}}\"/pause 1000/emote George 12/speak George \"{{i18n:66170036.09}}\"/pause 500/emote Toshinori 16/speak Toshinori \"{{i18n:66170036.10}}\"/pause 500/speak Toshinori \"{{i18n:66170036.11}}\"/message \"{{i18n:66170036.12}}\"/pause 1000/message \"{{i18n:66170036.13}}\"/globalFade/viewport -1000 -1000/pause 1000/message \"Perhaps Pelican Town is returning to normal, too.\"/end position 14 24"},
+},
+ 
+//**ROMANCE EVENTS**
+
+   //Dating Event (He asks the player to come to the beach with him in a letter. The event is triggered by letter toshinoriletters.holdhands.) 
+{"LogName": "ToshinoriEventDating",
+"Action": "EditData",
+"Target": "Data/Events/Beach",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170006/n toshinoriletters.holdhands/t 1700 2100": "ocean/19 24/farmer 26 18 2 Toshinori 19 24 2/skippable/pause 5000/move farmer 0 5 2/move farmer -6 0 3/move farmer 0 1 2/pause 500/emote Toshinori 20/pause 500/speak Toshinori \"{{i18n:66170006.01}}\"/pause 3000/textAboveHead Toshinori \"{{i18n:66170006.02}}\"/pause 2000/textAboveHead Toshinori \"{{i18n:66170006.03}}\"/pause 4000/emote Toshinori 28/pause 2000/speak Toshinori \"{{i18n:66170006.04}}\"/pause 2000/emote farmer 20/pause 500/faceDirection farmer 3/faceDirection Toshinori 1/pause 2000/showFrame Toshinori 32/showFrame farmer 89/pause 500/emote Toshinori 32 true/emote farmer 32/pause 500/speak Toshinori \"{{i18n:66170006.05}}\"/pause 1000/textAboveHead Toshinori \"{{i18n:66170006.06}}\"/pause 2000/speak Toshinori \"{{i18n:66170006.07}}\"/pause 500/message \"{{i18n:66170006.08}}\"/pause 500/speak Toshinori \"{{i18n:66170006.09}}\"/playMusic musicboxsong/pause 2000/emote farmer 20/pause 5000/globalFade/viewport -1000 -1000/end position 20 24 0"},
+},
+
+  //10 Heart Event (He brings the player a flower. Triggered by letter toshinoriletters.tenhearts.)
+{"LogName": "ToshinoriTenHearts",
+"Action": "EditData",
+"Target": "Data/Events/Forest",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"661700007/n toshinoriletters.tenhearts/t 1800 2100/f Toshinori 2500": "none/34 25/farmer 35 20 2 Toshinori 34 15 2/skippable/move farmer 0 5 2/pause 1000/faceDirection farmer 1/pause 300/faceDirection farmer 3/pause 300/faceDirection farmer 0/pause 300/faceDirection farmer 2/pause 500/emote farmer 8/pause 500/message \"{{i18n:661700007.01}}\"/pause 2000/message \"{{i18n:661700007.02}}\"/pause 1000/move farmer 0 -2 0/speed Toshinori 4/move Toshinori 0 8 2/faceDirection Toshinori 1/faceDirection farmer 3/speak Toshinori \"{{i18n:661700007.03}}\"/quickQuestion {{i18n:661700007.04}} (break)speak Toshinori \"{{i18n:661700007.05}}\"(break)speak Toshinori \"{{i18n:661700007.06}}\"/pause 500/message \"{{i18n:661700007.07}}\"/pause 500/speak Toshinori \"{{i18n:661700007.08}}\"/faceDirection Toshinori 2/message \"{{i18n:661700007.09}}\"/emote farmer 28/pause 500/message \"{{i18n:661700007.10}}\"/pause 500/speak Toshinori \"{{i18n:661700007.11}}\"/pause 500/move Toshinori 0 2 2/move farmer 0 2 2/pause 500/speak Toshinori \"{{i18n:661700007.12}}\"/speak Toshinori \"#$q -1 null#{{i18n:661700007.13}}#$r 661110 100 toshitenheartresponseone{{i18n:661700007.14}}#$r 661111 -50 toshitenheartresponsetwo{{i18n:661700007.15}}#$r 661112 -999 toshitenheartresponsethree{{i18n:661700007.16}}\"/fork 661110 reciprocateToshiRomance/emote Toshinori 28/speak Toshinori \"{{i18n:661700007.17}}\"/pause 500/message \"{{i18n:661700007.18}}\"/speak Toshinori \"{{i18n:661700007.19}}\"/pause 500/move Toshinori 0 -4 0/pause 500/move Toshinori 0 -10 0/pause 500/end position 33 25",
+"reciprocateToshiRomance": "pause 500/emote Toshinori 16/pause 500/speak Toshinori \"{{i18n:661700007.20}}\"/pause 500/showFrame Toshinori 24/pause 500/speak Toshinori \"{{i18n:661700007.21}}\"/emote Toshinori 28/showFrame Toshinori 25/faceDirection farmer 3/emote farmer 20/message \"{{i18n:661700007.22}}\"/showFrame Toshinori 4/pause 1000/speak Toshinori \"{{i18n:661700007.23}}\"/showFrame farmer 35/eyes 1 -6000/message \"{{i18n:661700007.24}}\"/emote Toshinori 16/emote Toshinori 20/showFrame Toshinori 28/pause 1000/message \"{{i18n:661700007.25}}\"/globalFade/viewport -1000 -1000/message \"{{i18n:661700007.26}}\"/end position 33 25"},
+},
+
+ //11 Heart Event (Player Character hugs Toshinori without warning. He has a minor anxiety attack over it and tells Player Character to give him some form of a heads up before touching him.)
+ {"LogName": "ToshinoriElevenHearts",
+"Action": "EditData",
+"Target": "Data/Events/Beach",
+"When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+"Entries": {"66170037/e 661700007/f Toshinori 2750/t 1200 2200": "ocean/46 24/farmer 46 16 2 Toshinori 46 24 2/skippable/pause 1000/message \"{{i18n:66170037.01}}\"/move farmer 0 7 2/pause 500/message \"{{i18n:66170037.02}}\"/speak Toshinori \"!$3\"/emote Toshinori 16/faceDirection Toshinori 0/pause 200/message \"{{i18n:66170037.03}}\"/speak Toshinori \"@!$11\"/pause 500/emote farmer 28/pause 500/message \"{{i18n:66170037.04}}\"/pause 500/speak Toshinori \"{{i18n:66170037.05}}\"/pause 1000/faceDirection Toshinori 2/pause 500/speak Toshinori \"{{i18n:66170037.06}}\"/pause 500/quickQuestion {{i18n:66170037.07}} (break)speak Toshinori \"{{i18n:66170037.08}}\"(break)speak Toshinori \"{{i18n:66170037.09}}\"/pause 1000/speak Toshinori \"{{i18n:66170037.10}}\"/quickQuestion {{i18n:66170037.11}} (break)speak Toshinori \"{{i18n:66170037.12}}\"(break)speak Toshinori \"{{i18n:66170037.13}}\"(break)speak Toshinori \"{{i18n:66170037.14}}\"/pause 1000/move farmer 1 0 1/move farmer 0 1 2/pause 1000/message \"{{i18n:66170037.15}}\"/globalFade/viewport -1000 -1000/end position 47 24",}
+ },
+ 
+ //12 Heart Event  
+ {"LogName": "ToshinoriTwelveHearts",
+  "Action": "EditData",
+  "Target": "Data/Events/BathHouse_Pool",
+  "When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+  "Entries": {"66170038/e 66170037/n toshinoriletters.spainvitation/f Toshinori 3000": "continue/21 6/farmer 19 4 2 Toshinori -1000 -1000 1 Shane 19 9 1 Alex 22 9 3/skippable/swimming Shane/swimming Alex/changeSprite Toshinori Spa/changePortrait Toshinori Spa/pause 500/warp Toshinori 21 2 2/move Toshinori 0 2 2/faceDirection farmer 1/pause 500/emote Toshinori 60/pause 500/speak Toshinori \"{{i18n:66170038.01}}\"/pause 500/message \"{{i18n:66170038.02}}\"/pause 500/emote farmer 8/pause 500/speak Toshinori \"{{i18n:66170038.03}}\"/quickQuestion {{i18n:66170038.04}} (break)speak Toshinori \"{{i18n:66170038.05}}\"/pause 1000/move farmer 1 0 1/message \"{{i18n:66170038.06}}\"/pause 500/emote Toshinori 20/question fork0 \"{{i18n:66170038.07}}\"/fork ToshinoriGetsInThePool/speak Toshinori \"{{i18n:66170038.08}}\"/move Toshinori 0 -2 0/warp Toshinori -1000 -1000/globalFade/viewport -1000 -1000/stopSwimming Shane/stopSwimming Alex/end warpOut",
+              "ToshinoriGetsInThePool": "pause 500/speak Toshinori \"{{i18n:66170038.09}}\"/pause 500/emote farmer 20/move Toshinori 0 3 2/move farmer 1 0 1/move Toshinori 0 1 2/swimming Toshinori/move Toshinori 0 3 2/move Toshinori 2 0 1/move farmer 0 3 2/swimming farmer/move farmer 0 4 2/faceDirection Toshinori 1/move farmer 1 0 1/faceDirection farmer 1/emote Toshinori 32/speak Toshinori \"{{i18n:66170038.10}}\"/emote Toshinori 20/pause 500/speak Alex \"{{i18n:66170038.11}}\"/pause 500/speak Shane \"{{i18n:66170038.12}}\"/pause 500/speak Alex \"{{i18n:66170038.13}}\"/emote farmer 60 true/emote Toshinori 60/pause 1000/globalFade/viewport -1000 -1000/stopSwimming Shane/stopSwimming Alex/stopSwimming farmer/stopSwimming Toshinori/end warpOut",}
+ },
+
+    //13 Heart Event (Player Character and Toshinori watch a movie together.)
+  {"LogName": "ToshinoriThirteenHearts",
+   "Action": "EditData",
+   "Target": "Data/Events/FarmHouse",
+   "When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+   "Entries": {"66170039/e 66170038/f Toshinori 3250/t 1800 2400/L": "jaunty/36 17/farmer 35 14 1 Toshinori 36 17 2/skippable/pause 500/speak Toshinori \"{{i18n:66170039.01}}\"/pause 500/move farmer 4 0 1/move farmer 0 3 2/move farmer -2 0 3/pause 500/quickQuestion {{i18n:66170039.02}} (break)speak Toshinori \"{{i18n:66170039.03}}\"(break)speak Toshinori \"{{i18n:66170039.04}}\"/pause 1000/quickQuestion {{i18n:66170039.05}} (break)speak Toshinori \"{{i18n:66170039.06}}\"/pause 500/speak Toshinori \"{{i18n:66170039.07}}\"/question fork0 \"{{i18n:66170039.08}}\"/fork ToshiMovieTime/speak Toshinori \"{{i18n:66170039.09}}\"/pause 1000/globalFade/viewport -1000 -1000/end",
+   "ToshiMovieTime": "pause 500/speak Toshinori \"{{i18n:66170039.10}}\"/stopMusic/pause 500/playMusic playful/message \"{{i18n:66170039.11}}\"/pause 500/speak Toshinori \"{{i18n:66170039.12}}\"/faceDirection Toshinori 1/speak Toshinori \"{{i18n:66170039.13}}\"/pause 500/emote farmer 32/faceDirection farmer 2/faceDirection Toshinori 2/globalFade/viewport -1000 -1000/message \"{{i18n:66170039.14}}\"/speak Toshinori \"{{i18n:66170039.15}}\"/pause 500/message \"{{i18n:66170039.16}}\"/pause 500/message \"{{i18n:66170039.17}}\"/globalFade/viewport -1000 -1000/end"},
+  },
+
+  //14 Heart Event
+  {"LogName": "ToshinoriFourteenHearts",
+  "Action": "EditData",
+  "Target": "Data/Events/Beach",
+  "When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+  "Entries": {"66170040/e 66170039/f Toshinori 3500/t 2000 2400": "continue/42 22/farmer 45 13 2 Toshinori 44 22 2/addLantern 735 42 20 2/addLantern 735 42 23 2/addLantern 735 47 20 2/addLantern 735 47 23 2/addTemporaryActor Radio 16 32 46 20 2 false Character/skippable/pause 1000/move farmer 0 9 2/faceDirection farmer 3/faceDirection Toshinori 1/pause 500/speak Toshinori \"{{i18n:66170040.01}}\"/pause 1000/speak Toshinori \"{{i18n:66170040.02}}\"/quickQuestion {{i18n:66170040.03}} (break)speak Toshinori \"{{i18n:66170040.04}}\"(break)speak Toshinori \"{{i18n:66170040.05}}\"/pause 500/move Toshinori 2 0 1/move Toshinori 0 -1 0/pause 500/shake Radio 300/pause 200/playMusic moonlightJellies/pause 500/move Toshinori 0 1 2/move Toshinori -2 0 3/faceDirection Toshinori 1/speak Toshinori \"{{i18n:66170040.06}}\"/pause 500/emote farmer 32/message \"{{i18n:66170040.07}}\"/speak Toshinori \"{{i18n:66170040.08}}\"/pause 2000/globalFade/viewport -1000 -1000/end warpOut"} 
+  }, 
+  
+
+//**YEAR MILESTONES**
+
+//Toshinori is designed to say and do things after certain year milestones are met. In case the player installs him on an existing savegame where they have advanced the years, these 'dummy events' are in place to ensure that things such as mail, year-specific dialogues, and the death event trigger properly. 
+{"LogName":"ToshinoriInstallYear1",
+"Action": "EditData",         
+"Target": "Data/Events/FarmHouse",         
+"Entries": {"661711000/u 3/z summer/z fall/z winter/t 600 610": "none/-1000 -1000/farmer 100 100 2/addConversationTopic toshinoriYear1Flag 0/fade unfade/end"},   
+},
+
+{"LogName":"ToshinoriInstallYear2",
+"Action": "EditData",         
+"Target": "Data/Events/FarmHouse",         
+"Entries": {"661712000/e 661711000/A toshinoriYear1Flag/u 3/z summer/z fall/z winter": "none/-1000 -1000/farmer 100 100 2/addConversationTopic toshinoriYear2Flag 0/fade unfade/end"},   
+},
+
+{"LogName":"ToshinoriInstallYear3",
+"Action": "EditData",         
+"Target": "Data/Events/FarmHouse",         
+"Entries": {"661713000/e 661712000/A toshinoriYear2Flag/u 3/z summer/z fall/z winter": "none/-1000 -1000/farmer 100 100 2/addConversationTopic toshinoriYear3Flag 0/fade unfade/end"},   
+},
+
+{"LogName":"ToshinoriInstallYear4",
+"Action": "EditData",         
+"Target": "Data/Events/FarmHouse",         
+"Entries": {"661714000/e 661713000/A toshinoriYear3Flag/u 3/z summer/z fall/z winter": "none/-1000 -1000/farmer 100 100 2/addConversationTopic toshinoriYear4Flag 0/fade unfade/end"},   
+},
+
+//**TOSHINORI DEATH SCENES** HEARTBREAK MODE ONLY 
+
+  //Death Event for Every Other Relationship
+{"LogName":"ToshinoriDeathInstallYear5Friendly",
+"Action": "EditData",         
+"Target": "Data/Events/FarmHouse",       
+"When": {"HeartbreakMode": "true", "Relationship:Toshinori": "Unmet, Friendly, Dating, Engaged, Divorced"},
+"Entries": {"661716000/e 66174000/A toshinoriYear4Flag/u 3/z summer/z fall/z winter/": "none/9 14/farmer 9 14 2 Harvey -1000 -1000/skippable/addConversationTopic ToshinoriDeathTwo 7/addMailReceived toshiNeedsVanishing/pause 2000/playSound stoneStep/playSound stoneStep/playSound stoneStep/pause 500/message \"{{i18n:661716000.01}}\"/pause 500/changeToTemporaryMap Farm 64 15/warp farmer 64 15 2/warp Harvey 64 16/pause 1000/message \"{{i18n:661716000.02}}\"/pause 1000/speak Harvey \"{{i18n:661716000.03}}\"/pause 500/textAboveHead Harvey \"{{i18n:661716000.04}}\"/pause 1000/emote farmer 8/pause 1000/speak Harvey \"{{i18n:661716000.05}}\"/pause 500/emote farmer 16/pause 500/emote farmer 40/pause 2000/speak Harvey \"{{i18n:661716000.06}}\"/pause 3000/message \"{{i18n:661716000.07}}\"/pause 2000/speak Harvey \"{{i18n:661716000.08}}\"/pause 2000/globalFade/viewport -1000 -1000/end invisible Toshinori"},   
+},
+
+    //Married Death Event
+{"LogName":"ToshinoriDeathInstallYear5Married",
+"Action": "EditData",         
+"Target": "Data/Events/FarmHouse",       
+"When": {"HeartbreakMode": "true", "Relationship:Toshinori": "Married"},
+"Entries": {"661715000/e 661714000/A toshinoriYear4Flag/u 3/z summer/z fall/z winter": "none/8 14/farmer 9 14 2 Toshinori 8 14 2 Harvey -1000 -1000 0/skippable/addMailReceived toshiNeedsVanishing/addConversationTopic ToshinoriDeath 7/pause 5000/textAboveHead Toshinori \"{{i18n:661715000.01}}\"/faceDirection farmer 3/pause 3000/shake Toshinori 500/pause 1000/speak Toshinori \"{{i18n:661715000.02}}\"/pause 500/emote farmer 8/pause 500/speak Toshinori \"{{i18n:661715000.03}}\"/pause 500/message \"{{i18n:661715000.04}}\"/pause 3000/shake Toshinori 500/pause 500/showFrame Toshinori 16/shake Toshinori 500/showFrame Toshinori 17/pause 500/shake Toshinori 500/pause 500/showFrame Toshinori 18/emote farmer 16/shake Toshinori 500/pause 500/shake Toshinori 1000/pause 1000/playSound batFlap/showFrame Toshinori 19/pause 1000/emote farmer 16/pause 500/globalFade/viewport -1000 -1000/message \"{{i18n:661715000.05}}\"/pause 500/message \"{{i18n:661715000.06}}\"/changeToTemporaryMap Hospital 19 12/warp farmer 20 11/warp Toshinori 19 10/showFrame Toshinori 0/warp Harvey 20 12/faceDirection farmer 3/faceDirection Harvey 3/viewport 19 12 true/pause 1000/speak Harvey \"...$3\"/pause 2000/emote Harvey 40/pause 2000/speak Harvey \"{{i18n:661715000.07}}\"/pause 500/emote farmer 40/pause 500/textAboveHead Toshinori \"{{i18n:661715000.08}}\"/playMusic tinymusicbox/pause 5000/speak Toshinori \"{{i18n:661715000.09}}\"/pause 5000/message \"{{i18n:661715000.10}}\"/pause 1000/speak Toshinori \"{{i18n:661715000.11}}\"/pause 3000/globalFade/viewport -1000 -1000/message \"{{i18n:661715000.12}}\"/pause 3000/message \"{{i18n:661715000.13}}\"/message \"{{i18n:661715000.14}}\"/pause 5000/message \"{{i18n:661715000.15}}\"/pause 5000/end warpOut"},   
+},
+
+    //Good Ending Funeral Event after Toshinori's death. Residents of Stardew Valley share their memories of Toshinori. Some NPC dialogue will be edited after this event is viewed to allow occasional comments about Toshinori from NPCs.  
+ {"LogName":"ToshinoriEventFuneral",           
+ "Action": "EditData",         
+ "Target": "Data/Events/Town",
+ "When": {"HeartbreakMode": "true", 
+           "HasSeenEvent": "661715000, 661716000",
+           "HasSeenEvent |contains=661718000, 66171000": "false"},
+ "Entries": {"661717000/e 66170035/u 4/z summer/z fall/z winter": "none/47 88/Toshinori 49 90 2 farmer 48 89 1 Lewis 49 88 2 Evelyn 48 88 1 Kent 48 90 1 Robin 48 91 1 Harvey 47 89 1 Caroline 47 91 0 Elliott 50 88 2 Alex 50 87 2 Sam 49 87 2 Sebastian 48 87 2 Shane 48 86 2 Abigail 49 86 2 George 46 86 1 Gus 46 87 1 Emily 46 88 1 Demetrius 46 89 1 Linus 45 89 1 Marnie 45 88 1 Haley 45 87 1 Leah 45 86 1 Maru 44 86 1 Penny 44 87 1 Pam 44 88 1 Vincent 44 89 1 Jas 43 87 1 Jodi 46 85 2 Willy 48 85 2 Pierre 51 87 3 Clint 43 86 1/addTemporaryActor Izuku 16 32 49 91 0 true Character/skippable/addConversationTopic ToshinorisDeathScene 14 /showFrame Toshinori 24/pause 1000/speak Lewis \"{{i18n:661717000.01}}\"/pause 1000/speak Izuku \"{{i18n:661717000.02}}\"/pause 500/speak Izuku \"{{i18n:661717000.03}}\"/message \"{{i18n:661717000.04}}\"/pause 500/speak Izuku \"{{i18n:661717000.05}}\"/pause 1000/speak Robin \"{{i18n:661717000.06}}\"/pause 1000/speak Harvey \"{{i18n:661717000.07}}\"/pause 1000/speak Evelyn \"{{i18n:661717000.08}}\"/pause 1000/speak Kent \"{{i18n:661717000.09}}\"/pause 1000/message \"{{i18n:661717000.10}}\"/pause 1000/message \"{{i18n:661717000.11}}\"/end position 47 91 0"},
+ },
+
+      //Bad Ending Funeral Event WIP
+  {"LogName":"ToshinoriEventFuneralBad",           
+  "Action": "EditData",         
+  "Target": "Data/Events/Town",
+  "When": {"HeartbreakMode": "true", 
+           "HasSeenEvent": "661715000, 661716000",
+           "HasSeenEvent |contains=661718000, 66170035, 661717000": "false"},
+  "Entries": {"66171000/u 4/z summer/z fall/z winter": "none/47 88/Toshinori 49 90 2 farmer 48 89 1 Lewis 49 88 2 Evelyn 48 88 1 Kent 48 90 1 Robin 48 91 1 Harvey 47 89 1 Caroline 47 91 0 Elliott 50 88 2 Alex 50 87 2 Sam 49 87 2 Sebastian 48 87 2 Shane 48 86 2 Abigail 49 86 2 George 46 86 1 Gus 46 87 1 Emily 46 88 1 Demetrius 46 89 1 Linus 45 89 1 Marnie 45 88 1 Haley 45 87 1 Leah 45 86 1 Maru 44 86 1 Penny 44 87 1 Pam 44 88 1 Vincent 44 89 1 Jas 43 87 1 Jodi 46 85 2 Willy 48 85 2 Pierre 51 87 3 Clint 43 86 1/addTemporaryActor Izuku 16 32 49 91 0 true Character/skippable/addConversationTopic ToshinorisDeathScene 14 /showFrame Toshinori 24/pause 1000/speak Lewis \"{{i18n:66171000.01}}\"/pause 1000/speak Izuku \"{{i18n:66171000.02}}\"/pause 500/speak Izuku \"{{i18n:66171000.03}}\"/message \"{{i18n:66171000.04}}\"/pause 500/speak Izuku \"{{i18n:66171000.05}}\"/pause 1000/speak Robin \"{{i18n:66171000.06}}\"/pause 1000/speak Harvey \"{{i18n:66171000.07}}\"/pause 1000/speak Evelyn \"{{i18n:66171000.08}}\"/pause 1000/speak Kent \"{{i18n:66171000.09}}\"/pause 1000/message \"{{i18n:66171000.10}}\"/pause 1000/message \"{{i18n:66171000.11}}\"/end position 47 91 0"},
+  },
+
+    //Funeral Event Precondition that disables the Funeral Event from happening in subsequent years if the player missed it. Basically: makes it possible to completely skip going to poor Toshi's funeral. RIP. 
+  {"LogName":"ToshinoriEventFuneralMissed",           
+  "Action": "EditData",         
+  "Target": "Data/Events/FarmHouse",
+  "When": {"HeartbreakMode": "true", "HasSeenEvent": "661715000, 661716000",
+          "HasSeenEvent |contains=661717000, 66171000": "false"},
+  "Entries": {"661718000/u 5/z summer/z fall/z winter": "none/-100 -100/farmer -100 -100/fade unfade/addConversationTopic ToshinorisDeathScene 14/end"},
+   },
+
+     //Toshinori's Ghost arrives to the player, inviting them to move on, saying he's happy and he wants them to be at peace. He tells them where to find a tile to trigger a free divorce. 
+   {"LogName":"ToshinoriEventGhost",           
+   "Action": "EditData",         
+   "Target": "Data/Events/Farm",
+   "When": {"HeartbreakMode": "true", "Relationship:Toshinori": "Married", "HasSeenEvent":"661718000, 66171000, 661717000"},
+   "Entries": {"661719000/A ToshinorisDeathScene": "continue/64 15/farmer 64 15 2 Toshinori -1000 -1000 0/skippable/pause 2000/message \"{{i18n:661719000.01}}\"/pause 1000/speak Toshinori \"{{i18n:661719000.02}}\"/pause 1000/emote farmer 16/pause 500/speak Toshinori \"{{i18n:661719000.03}}\"/pause 500/globalFade/viewport -1000 -1000/changeToTemporaryMap Town 47 88/warp Toshinori 47 88/warp farmer 39 91/showFrame Toshinori 1/faceDirection farmer 1/viewport 47 88 true/pause 2000/showFrame Toshinori 23/showFrame Toshinori 22/showFrame Toshinori 21/showFrame Toshinori 20/animate Toshinori false true 17 17 17 17 17 17 18 18 18 18 18 18 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 18 18 18 18 18 18/pause 500/speak Toshinori \"{{i18n:661719000.04}}\"/pause 500/speak Toshinori \"{{i18n:661719000.05}}\"/pause 500/speak Toshinori \"{{i18n:661719000.06}}\"/pause 2000/speak Toshinori \"{{i18n:661719000.07}}\"/pause 500/stopAnimation Toshinori/showFrame Toshinori 20/showFrame Toshinori 21/showFrame Toshinori 22/showFrame Toshinori 23/showFrame Toshinori 16/pause 5000/end"},
+   },
+ 
+	]
+}
+
+
+
+
+
+
+

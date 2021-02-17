@@ -1,0 +1,46 @@
+{
+    "Name": "Purple Diamond",
+    "Description": "Very rare purple diamond.",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
+    "Edibility": -300,
+    "Price": 750,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Love": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "퍼플 다이아몬드",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Diamante Roxo",
+        // "ru": "",
+        // "tr": "",
+        "zh": "紫钻石",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "매우 희귀한 보라색 다이아몬드.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Um diamante roxo muito raro.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "非常珍稀的紫色钻石。",
+    },
+	
+    "ContextTags": [
+        "color_purple", "diamond_item", "purple_gem", 
+    ],
+}

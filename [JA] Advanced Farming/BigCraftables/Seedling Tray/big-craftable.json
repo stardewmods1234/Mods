@@ -1,0 +1,54 @@
+{
+    "Name": "Seedling Tray",
+    "Description": "A vertically stacked trays of seedlings. Used to control the early stages of plant growth.",
+    "Price": 100,
+    "ProvidesLight": false,
+	"ReserveExtraIndexCount": 2,
+    "Recipe":
+    { 
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Sandy Loam",
+            "Count": 2,
+        },
+		{
+            "Object": 388, //Wood
+            "Count": 100,
+        },
+		],
+		
+		"CanPurchase": true, 
+		"PurchaseFrom": "Robin",
+		"PurchasePrice": 400,
+		"PurchaseRequirements": ["j 56", "f Demetrius 500"],
+    },
+        "NameLocalization": //Used for localization. 
+        { 
+            "es": "Seedling Tray", //Spansih
+            "ko": "Seedling Tray", //Korean
+            "de": "Seedling Tray", //German
+            "fr": "Seedling Tray", //French
+            "hu": "Seedling Tray", //Hungarian
+            "it": "Seedling Tray", //Italian
+            "ja": "Seedling Tray", //Japanese
+            "pt": "Seedling Tray", //Portuguese
+            "ru": "Seedling Tray", //Russian
+            "tr": "Seedling Tray", //Turkish
+            "zh": "育苗盘" //Chinese (Simplified)
+        },
+        "DescriptionLocalization": //Used for localization. 
+        { 
+            "es": "A vertically stacked trays of seedlings. Used to control the early stages of plant growth.", //Spansih
+            "ko": "A vertically stacked trays of seedlings. Used to control the early stages of plant growth.", //Korean
+            "de": "A vertically stacked trays of seedlings. Used to control the early stages of plant growth.", //German
+            "fr": "A vertically stacked trays of seedlings. Used to control the early stages of plant growth.", //French
+            "hu": "A vertically stacked trays of seedlings. Used to control the early stages of plant growth.", //Hungarian
+            "it": "A vertically stacked trays of seedlings. Used to control the early stages of plant growth.", //Italian
+            "ja": "A vertically stacked trays of seedlings. Used to control the early stages of plant growth.", //Japanese
+            "pt": "A vertically stacked trays of seedlings. Used to control the early stages of plant growth.", //Portuguese
+            "ru": "A vertically stacked trays of seedlings. Used to control the early stages of plant growth.", //Russian
+            "tr": "A vertically stacked trays of seedlings. Used to control the early stages of plant growth.", //Turkish
+            "zh": "垂直堆叠的育苗盘。用于控制植物生长的早期阶段。" //Chinese (Simplified)
+        }
+    }

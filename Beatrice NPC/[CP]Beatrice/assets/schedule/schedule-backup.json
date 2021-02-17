@@ -1,0 +1,14 @@
+{
+  "winter_Sun": "1100 Lighthouse 2 10 3/1200 Lighthouse 4 9 2 bea_read \"Strings\\schedules\\Beatrice:read.001\"/1500 Lighthouse 5 5 0/1600 Lighthouse 11 5 0/1800 Lighthouse 18 4 0 \"Strings\\schedules\\Beatrice:light.001\"",
+  "rain": "1100 Lighthouse 5 5 0/1200 EastScarpe 60 114 2 \"Strings\\schedules\\Beatrice:rain.001\"/1400 EastScarpe 70 121 2 bea_telescope \"Strings\\schedules\\Beatrice:telescope.002\"/1600 Lighthouse 21 6 1/1900 Lighthouse 18 4 0",
+  "rain2": "1100 Lighthouse 5 5 0/1200 EastScarpe 60 114 2 \"Strings\\schedules\\Beatrice:rain.001\"/1400 EastScarpe 68 116 0 bea_telescope_l \"Strings\\schedules\\Beatrice:telescope.004\"/1600 EastScarpe 12 111 3 \"Strings\\schedules\\Beatrice:boat.001\"/1900 Lighthouse 18 4 0",
+  "Mon": "1000 SeedShop 16 29 3 bea_shop/1400 Saloon 19 23 3 \"Strings\\schedules\\Beatrice:saloon.001\"/1700 Lighthouse 18 4 0",
+  "spring_16": "610 Lighthouse 18 4 0 bea_sleep/1000 Hospital 15 15 3 bea_chair \"Strings\\schedules\\Beatrice:checkup\"/1500 Saloon 19 23 3/1900 Lighthouse 18 4 0",
+  "spring": "610 Lighthouse 11 10 0 bea_sleep/1100 Lighthouse 5 5 0/1400 EastScarpe 68 116 0 bea_telescope_l/1600 EastScarpe 12 111 3/1800 Lighthouse 2 10 3/1900 Lighthouse 18 4 0",
+  "summer": "610 Lighthouse 11 10 0 bea_sleep/1100 EastScarpe 22 102 1/1300 EastScarpe 55 8 2 bea_read/1500 Lighthouse 11 5 0/1600 Lighthouse 21 6 1/1700 Lighthouse 5 5 0/2000 Lighthouse 18 4 0",
+  "fall": "610 Lighthouse 11 10 0 bea_sleep/1200 EastScarpe 55 84 3 bea_read/1500 EastScarpe 75 119 2 bea_telescope_r/1700 Lighthouse 21 6 1 bea_telescope/1830 Lighthouse 18 4 0 bea_telescope",
+  "winter": "610 Lighthouse 18 4 0/800 Lighthouse 11 10 2 bea_sleep/1200 Lighthouse 11 5 0/1300 EastScarpe 54 40 2 bea_sit/1700 Lighthouse 21 6 1/1800 Lighthouse 18 4 0",
+  "spring_12": "610 Lighthouse 11 10 0 bea_sleep/900 Lighthouse 5 5 0/930 ArchaeologyHouse 18 9 2 bea_stool \"Strings\\schedules\\Beatrice:read.002\"/1440 Saloon 19 23 3/1600 Lighthouse 2 10 3/2000 Lighthouse 18 4 0",
+  "fall_12": "610 Lighthouse 11 10 0 bea_sleep/900 Lighthouse 5 5 0/930 ArchaeologyHouse 18 9 2 bea_stool \"Strings\\schedules\\Beatrice:read.002\"/1440 Saloon 19 23 3/1600 Lighthouse 2 10 3/1900 Lighthouse 18 4 0",
+  "winter_12": "610 Lighthouse 11 10 0 bea_sleep/900 Lighthouse 5 5 0/930 ArchaeologyHouse 18 9 2 bea_stool \"Strings\\schedules\\Beatrice:read.002\"/1440 Saloon 19 23 3/1600 Lighthouse 2 10 3/1800 Lighthouse 18 4 0"
+}

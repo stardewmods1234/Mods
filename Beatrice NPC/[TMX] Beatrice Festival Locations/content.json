@@ -1,0 +1,43 @@
+{
+    "name": "Beatrice Festivals and Spouse Rooms",
+    "version": "1.0.0", 
+    "author": "atonbomb",
+    "festivalSpots": [  
+        {
+        "name": "Beatrice",
+        "map": "Town-EggFestival", 
+        "position": [39, 68],
+        "direction": 3
+        },
+		  {
+        "name": "Beatrice",
+        "map": "Forest-FlowerFestival", 
+        "position": [4, 22],
+        "direction": 1
+        },
+		  {
+        "name": "Beatrice",
+        "map": "Beach-Luau", 
+        "position": [48, 19],
+        "direction": 2
+        },
+		  {
+        "name": "Beatrice",
+        "map": "Town-Fair", 
+        "position": [27, 61],
+        "direction": 1
+        },
+		  {
+        "name": "Beatrice",
+        "map": "Forest-IceFestival", 
+        "position": [59, 33],
+        "direction": 1
+        },
+		  {
+        "name": "Beatrice",
+        "map": "Town-Christmas", 
+        "position": [33, 65],
+        "direction": 1
+        },
+    ],
+}

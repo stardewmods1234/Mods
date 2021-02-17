@@ -1,0 +1,131 @@
+﻿[
+	{
+		"ProducerName": "Mayonnaise Machine",
+		"InputIdentifier": "Slime",
+		"InputStack": 1,
+		"MinutesUntilReady": 360, //The amount of minutes it takes to produce. Should be divisible by 10.
+		"OutputIdentifier": "Slime Mayonnaise",
+		"InputPriceBased": true,
+		"OutputPriceIncrement": 120,
+		"OutputPriceMultiplier": 1,
+		"KeepInputQuality": false,
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"Sounds": ["purchase"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White"
+	},
+		{
+		"ProducerName": "Cheese Press",
+		"InputIdentifier": "Slime",
+		"InputStack": 1,
+		"MinutesUntilReady": 200, //The amount of minutes it takes to produce. Should be divisible by 10.
+		"OutputIdentifier": "Slime Cheese",
+		"InputPriceBased": true,
+		"OutputPriceIncrement": 95,
+		"OutputPriceMultiplier": 1,
+		"KeepInputQuality": false,
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"Sounds": ["purchase"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White"
+	},
+	// PRESERVES JAR
+	{
+		"ProducerName": "Preserves Jar",
+		"InputIdentifier": 176,
+		"InputStack": 1,
+		"MinutesUntilReady": 5000, //The amount of minutes it takes to produce. Should be divisible by 10.
+		"OutputIdentifier": "Century Egg",
+		"InputPriceBased": false,
+		"OutputPriceIncrement": 150,
+		"OutputPriceMultiplier": 1,
+		"KeepInputQuality": false,
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"Sounds": ["purchase"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Preserves Jar",
+		"InputIdentifier": 174,
+		"InputStack": 1,
+		"MinutesUntilReady": 5000, //The amount of minutes it takes to produce. Should be divisible by 10.
+		"OutputIdentifier": "Century Egg",
+		"InputPriceBased": false,
+		"OutputPriceIncrement": 150,
+		"OutputPriceMultiplier": 1,
+		"KeepInputQuality": false,
+		"OutputQuality": 2,
+		"OutputStack": 1,
+		"Sounds": ["purchase"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White"
+	},
+		{
+		"ProducerName": "Preserves Jar",
+		"InputIdentifier": 180,
+		"InputStack": 1,
+		"MinutesUntilReady": 5000, //The amount of minutes it takes to produce. Should be divisible by 10.
+		"OutputIdentifier": "Century Egg",
+		"InputPriceBased": false,
+		"OutputPriceIncrement": 150,
+		"OutputPriceMultiplier": 1,
+		"KeepInputQuality": false,
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"Sounds": ["purchase"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Preserves Jar",
+		"InputIdentifier": 182,
+		"InputStack": 1,
+		"MinutesUntilReady": 5000, //The amount of minutes it takes to produce. Should be divisible by 10.
+		"OutputIdentifier": "Century Egg",
+		"InputPriceBased": false,
+		"OutputPriceIncrement": 150,
+		"OutputPriceMultiplier": 1,
+		"KeepInputQuality": false,
+		"OutputQuality": 2,
+		"OutputStack": 1,
+		"Sounds": ["purchase"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Preserves Jar",
+		"InputIdentifier": "Duck Egg",
+		"InputStack": 1,
+		"MinutesUntilReady": 5000, //The amount of minutes it takes to produce. Should be divisible by 10.
+		"OutputIdentifier": "Century Egg",
+		"InputPriceBased": false,
+		"OutputPriceIncrement": 150,
+		"OutputPriceMultiplier": 1,
+		"KeepInputQuality": false,
+		"OutputQuality": 2,
+		"OutputStack": 1,
+		"Sounds": ["purchase"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Preserves Jar",
+		"InputIdentifier": "Dinosaur Egg",
+		"InputStack": 1,
+		"MinutesUntilReady": 5000, //The amount of minutes it takes to produce. Should be divisible by 10.
+		"OutputIdentifier": "Century Egg",
+		"InputPriceBased": false,
+		"OutputPriceIncrement": 150,
+		"OutputPriceMultiplier": 1,
+		"KeepInputQuality": false,
+		"OutputQuality": 4,
+		"OutputStack": 1,
+		"Sounds": ["purchase"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White"
+	},
+]

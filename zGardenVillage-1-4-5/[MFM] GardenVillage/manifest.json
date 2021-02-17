@@ -1,0 +1,17 @@
+﻿{
+	"Name": "[MFM] Garden Village",
+	"Author": "Tarniyar",
+	"Version": "1.4.5",
+	"Description": "Allows recipes to be mailed to the player.",
+	"UniqueID": "Tarniyar.MFM.GardenVillage",
+	"MinimumApiVersion": "3.2.0",
+	"UpdateKeys": [],
+	"Dependencies": [
+		{
+			"UniqueID": "Tarniyar.JA.GardenVillage"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod"
+	}
+}

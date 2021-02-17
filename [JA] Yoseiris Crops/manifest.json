@@ -1,0 +1,13 @@
+{
+    "Name": "[JA] Yoseiri's Crops",
+    "Author": "Yoseiri (original), Paradigmnomad (updated by)",
+    "Version": "2.0.0",
+    "Description": "Adds 9 unique crops for JsonAssets.",
+    "UniqueID": "Yoseiri.YoseirisCropsforJA",
+    "UpdateKeys": ["Nexus:3374@YoseirisCrops"],
+    "MinimumApiVersion": "3.6.0",
+    "ContentPackFor":
+    {
+        "UniqueID": "spacechase0.JsonAssets"
+    }
+}

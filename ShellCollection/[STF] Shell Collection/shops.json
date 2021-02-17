@@ -1,0 +1,201 @@
+{
+	"VanillaShops": [{
+			"ShopName": "DesertTrader",
+			"AddStockAboveVanilla": "true",
+			"ItemStocks": [{
+					"ItemType": "BigCraftable",
+					"ItemNames": [
+						"Nautical Rarecrow 4"
+					],
+					"StockPrice": 0,
+					"StockItemCurrency": "Cowrie",
+					"StockCurrencyStack": 80,
+					"When": [
+						"y 2/!w rainy"
+					]
+				}, {
+					"ItemType": "BigCraftable",
+					"ItemNames": [
+						"Coral Sculpture"
+					],
+					"StockPrice": 0,
+					"StockItemCurrency": "Whelk",
+					"StockCurrencyStack": 25,
+					"When": [
+						"y 2/!w rainy/!d Fri"
+					]
+				}, {
+					"ItemType": "BigCraftable",
+					"IsRecipe": "false",
+					"ItemNames": [
+						"Nautical Rarecrow 2"
+					],
+					"StockPrice": 0,
+					"StockItemCurrency": "Trumpet Shell",
+					"StockCurrencyStack": 55,
+				}, {
+					"ItemType": "BigCraftable",
+					"ItemNames": [
+						"Nautical Rarecrow 7"
+					],
+					"StockPrice": 0,
+					"StockItemCurrency": 393,
+					"StockCurrencyStack": 150,
+					//Coral
+					"When": [
+						"y 2/w rainy"
+					]
+				}, {
+					"ItemType": "Object",
+					"ItemNames": [
+						"74"
+					],
+					//Prismatic shard
+					"IsRecipe": "true",
+					"StockPrice": 0,
+					"StockItemCurrency": "Sand Bucks",
+					"StockCurrencyStack": 600,
+					"When": [
+						"d Fri"
+					]
+				}, {
+					"ItemType": "Object",
+					"ItemNames": [
+						"337"
+					],
+					//Iridium bar
+					"IsRecipe": "false",
+					"StockPrice": 0,
+					"StockItemCurrency": "Coral Shell",
+					"StockCurrencyStack": 30,
+					"When": [
+						"r 0.3"
+					]
+				}, {
+					"ItemType": "BigCraftable",
+					"ItemNames": [
+						"Urchin Vase"
+					],
+					"IsRecipe": "false",
+					"StockPrice": 0,
+					"StockItemCurrency": "Whelk",
+					"StockCurrencyStack": 45,
+					"When": [
+						"d Fri"
+					]
+				}, {
+					"ItemType": "BigCraftable",
+					"ItemNames": [
+						"Shell Tree 1"
+					],
+					"IsRecipe": "false",
+					"StockPrice": 0,
+					"StockItemCurrency": "Spider Conch",
+					"StockCurrencyStack": 60,
+					"When": [
+						"w Rainy"
+					]
+				}, {
+					"ItemType": "BigCraftable",
+					"ItemNames": [
+						"Shell Tree 2"
+					],
+					"IsRecipe": "false",
+					"StockPrice": 0,
+					"StockItemCurrency": "Lucky Marine",
+					"StockCurrencyStack": 25,
+					"When": [
+						"w Rainy"
+					]
+				},
+			]
+		}, {
+			"ShopName": "QiShop",
+			"AddStockAboveVanilla": "true",
+			"ItemStocks": [{
+					"ItemType": "BigCraftable",
+					"ItemNames": [
+						"Nautical Rarecrow 6"
+					],
+					"IsRecipe": "false",
+					"StockPrice": 0,
+					"StockItemCurrency": "clubCoins",
+					"StockCurrencyStack": 12000,
+					"When": [
+						"Hn willyBoatFixed"
+					]
+				}
+			]
+		}, {
+			"ShopName": "WillyShop",
+			"AddStockAboveVanilla": "true",
+			"ItemStocks": [{
+					"ItemType": "BigCraftable",
+					"ItemNames": [
+						"Nautical Rarecrow 8"
+					],
+					"IsRecipe": "false",
+					"StockPrice": 3500,
+					"StockItemCurrency": "Money",
+					"When": [
+						"r 0.3/Hn willyBoatFixed"
+					]
+				}, {
+					"ItemType": "Objects",
+					"ItemNames": [
+						"Sand Bucks Parcel"
+					],
+					"IsRecipe": "true",
+					"StockPrice": 300,
+					"StockItemCurrency": "Money",
+					"When": [
+						"n ShellCollection.PappyStockFishShop"
+					]
+				}
+			]
+		}, {
+			"ShopName": "TravellingMerchant",
+			"AddStockAboveVanilla": "true",
+			"ItemStocks": [{
+					"ItemType": "BigCraftable",
+					"IsRecipe": "false",
+					"ItemNames": [
+						"Nautical Rarecrow 5"
+					],
+					"StockPrice": 3500,
+					"StockItemCurrency": "Money",
+					"When": [
+						"r 0.2/y 2/z fall/z winter"
+					]
+				}, {
+					"ItemType": "BigCraftable",
+					"IsRecipe": "false",
+					"ItemNames": [
+						"Nautical Rarecrow 3"
+					],
+					"StockPrice": 2000,
+					"StockItemCurrency": "Money",
+					"When": [
+						"r 0.2/y 2/z spring/z winter"
+					]
+				}
+			]
+		}, {
+			"ShopName": "KrobusShop",
+			"AddStockAboveVanilla": "true",
+			"ItemStocks": [{
+					"ItemType": "BigCraftable",
+					"IsRecipe": "false",
+					"ItemNames": [
+						"Nautical Rarecrow 1"
+					],
+					"StockPrice": 5000,
+					"StockItemCurrency": "Money",
+					"When": [
+						"y 2"
+					]
+				}
+			]
+		}
+	]
+}

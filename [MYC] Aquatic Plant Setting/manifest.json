@@ -1,0 +1,17 @@
+﻿{
+  "Name": "[MYC] Aquatic Plant Setting",
+  "Author": "KAYA",
+  "Version": "1.1.1",
+  "Description": "MYC setting for Aquatic Plant",
+  "UniqueID": "KAYA.MYCAquaticPlant",
+  "UpdateKeys": [ "Nexus:7092@MYC" ],
+  "ContentPackFor": {
+	"UniqueID": "Cherry.MultiYieldCrops",
+  },
+  "Dependencies": [
+   {
+      "UniqueID": "KAYA.AquaticPlant",
+      "IsRequired": true,
+   },
+   ]
+}

@@ -1,0 +1,10 @@
+{
+  "RepeatCableCarCutscene": "true",
+  "EnableOtherNPCsInCableCar": "true",
+  "EnableVillageMusic": "true",
+  "PortraitType": "Default",
+  "IndividualRealismPortrait": "",
+  "MaddieGlasses": "false",
+  "KennethBeard": "false",
+  "BrandonIan": "false"
+}

@@ -1,0 +1,46 @@
+{
+    "Name": "Moonstone",
+    "Description": "A milky white gem with a fascinating blue glow.",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
+    "Edibility": -300,
+    "Price": 170,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "문스톤",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Pedra da Lua",
+        // "ru": "",
+        // "tr": "",
+        "zh": "月光石",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "푸른색 광채가 매혹적인 유백색 보석.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Uma gema branca com um brilho azul fascinante.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "能够闪耀出迷人蓝色光芒的乳白色宝石。",
+    },
+	
+    "ContextTags": [
+        "color_cyan", "cyan_gem", 
+    ],
+}

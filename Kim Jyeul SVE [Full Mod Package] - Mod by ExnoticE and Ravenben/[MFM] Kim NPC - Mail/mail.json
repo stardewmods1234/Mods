@@ -1,0 +1,74 @@
+[
+	{
+		"Id": "KimJyeul.One",
+		"GroupID": "Kim.Jyeul",
+		"Text": "kim1.text",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Kim", "FriendshipLevel": 1 }
+		],
+	},
+	{
+		"Id": "KimJyeul.Two",
+		"GroupID": "Kim.Jyeul",
+		"Text": "kim2.text",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Kim", "FriendshipLevel": 2 }
+		],
+	},
+	{
+		"Id": "KimJyeul.Three",
+		"GroupID": "Kim.Jyeul",
+		"Text": "kim3.text",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Kim", "FriendshipLevel": 3 }
+		],
+	},
+	{
+		"Id": "KimJyeul.Five",
+		"GroupID": "Kim.Jyeul",
+		"Text": "kim4.text",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Kim", "FriendshipLevel": 5 }
+		],
+	},
+	{
+		"Id": "KimJyeul.Six",
+		"GroupID": "Kim.Jyeul",
+		"Text": "kim5.text",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Kim", "FriendshipLevel": 6 }
+		],
+	},
+	{
+		"Id": "KimJyeul.Eight",
+		"GroupID": "Kim.Jyeul",
+		"Text": "kim6.text",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Kim", "FriendshipLevel": 8 }
+		],
+	},
+	{
+		"Id": "KimJyeul.PastLife",
+		"GroupID": "Kim.Jyeul",
+		"Text": "kim7.text",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Kim", "FriendshipLevel": 9 }
+		],
+	},
+	{
+		"Id": "KimJyeul.Ten",
+		"GroupID": "Kim.Jyeul",
+		"Text": "kim8.text",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Kim", "FriendshipLevel": 10 }
+		],
+	},
+]

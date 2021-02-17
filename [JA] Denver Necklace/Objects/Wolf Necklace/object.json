@@ -1,0 +1,14 @@
+{
+  "Name": "Wolf Necklace",
+  "Description": "A special necklace that belonged to Denver's dad. It appears to be Skoll and Hati from Norse mythology.",
+  "Category": "Gem",
+  "Edibility": -300,
+  "Price": 0,
+  "IsColored": false,
+  "Recipe": null,
+  "EnableWithMod": "balverines.Denver",
+"GiftTastes":
+{
+"Hate": ["Denver", "Marlon",],
+}
+}

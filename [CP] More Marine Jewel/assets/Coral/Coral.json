@@ -1,0 +1,78 @@
+{
+  "Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Data/FishPondData",
+		"Entries": {
+        "item_coral": {
+          "RequiredTags": [
+            "item_coral"
+          ],
+            "SpawnTime": 2,
+            "ProducedItems": [
+				{
+				  "RequiredPopulation": 7,
+				  "Chance": 0.07,
+				  "ItemID": "{{spacechase0.JsonAssets/ObjectId:Red Coral}}",
+				  "MinQuantity": 1,
+				  "MaxQuantity": 2
+				},
+				{
+				  "RequiredPopulation": 7,
+				  "Chance": 0.07,
+				  "ItemID": "{{spacechase0.JsonAssets/ObjectId:Pink Coral}}",
+				  "MinQuantity": 1,
+				  "MaxQuantity": 2
+				},
+				{
+				  "RequiredPopulation": 7,
+				  "Chance": 0.07,
+				  "ItemID": "{{spacechase0.JsonAssets/ObjectId:Orange Coral}}",
+				  "MinQuantity": 1,
+				  "MaxQuantity": 2
+				},
+				{
+				  "RequiredPopulation": 7,
+				  "Chance": 0.07,
+				  "ItemID": "{{spacechase0.JsonAssets/ObjectId:White Coral}}",
+				  "MinQuantity": 1,
+				  "MaxQuantity": 2
+				},
+				{
+				  "RequiredPopulation": 7,
+				  "Chance": 0.07,
+				  "ItemID": "{{spacechase0.JsonAssets/ObjectId:Black Coral}}",
+				  "MinQuantity": 1,
+				  "MaxQuantity": 2
+				},
+                {
+                    "RequiredPopulation": 9,
+                    "Chance": 0.05999999865889549,
+                    "ItemID": 543, //Dolomite
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1
+                },
+                {
+                    "RequiredPopulation": 9,
+                    "Chance": 0.05999999865889549,
+                    "ItemID": 571, //Limestone
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1
+                },
+            ],
+            "PopulationGates": null
+        },
+	  }
+	},
+    {
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "MoveEntries": [
+        {
+          "ID": "item_coral",
+          "ToPosition": "Top"
+        }
+      ],
+    }
+  ]
+}

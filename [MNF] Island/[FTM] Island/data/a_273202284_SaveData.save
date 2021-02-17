@@ -1,0 +1,24 @@
+{
+  "WeatherForYesterday": "Sunny",
+  "LNOSCounter": {},
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Island",
+      "Name": null,
+      "Tile": "22, 12",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 13,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "buried",
+        "PercentChanceToSpawn": 1.0,
+        "Contents": [
+          588
+        ]
+      },
+      "MonType": null
+    }
+  ]
+}

@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.1" orientation="orthogonal" renderorder="right-down" compressionlevel="-1" width="30" height="42" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="29">
+ <properties>
+  <property name="AmbientLight" value="60 60 120"/>
+  <property name="Music" value="LavaMine"/>
+  <property name="Outdoors" value="true"/>
+  <property name="Warp" value="14 41 Forest 44 7"/>
+ </properties>
+ <tileset firstgid="1" name="Shops" tilewidth="16" tileheight="16" tilecount="928" columns="32">
+  <image source="WorkedTiles.png" width="512" height="476"/>
+  <tile id="358">
+   <animation>
+    <frame tileid="358" duration="100"/>
+    <frame tileid="359" duration="100"/>
+    <frame tileid="360" duration="100"/>
+    <frame tileid="361" duration="100"/>
+    <frame tileid="362" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="390">
+   <animation>
+    <frame tileid="390" duration="100"/>
+    <frame tileid="391" duration="100"/>
+    <frame tileid="392" duration="100"/>
+    <frame tileid="393" duration="100"/>
+    <frame tileid="394" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="416">
+   <animation>
+    <frame tileid="416" duration="100"/>
+    <frame tileid="417" duration="100"/>
+    <frame tileid="418" duration="100"/>
+    <frame tileid="419" duration="100"/>
+    <frame tileid="420" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="422">
+   <animation>
+    <frame tileid="422" duration="100"/>
+    <frame tileid="423" duration="100"/>
+    <frame tileid="424" duration="100"/>
+    <frame tileid="425" duration="100"/>
+    <frame tileid="426" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="454">
+   <animation>
+    <frame tileid="454" duration="100"/>
+    <frame tileid="455" duration="100"/>
+    <frame tileid="456" duration="100"/>
+    <frame tileid="457" duration="100"/>
+    <frame tileid="458" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="486">
+   <animation>
+    <frame tileid="486" duration="100"/>
+    <frame tileid="487" duration="100"/>
+    <frame tileid="488" duration="100"/>
+    <frame tileid="489" duration="100"/>
+    <frame tileid="490" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="518">
+   <animation>
+    <frame tileid="518" duration="100"/>
+    <frame tileid="519" duration="100"/>
+    <frame tileid="520" duration="100"/>
+    <frame tileid="521" duration="100"/>
+    <frame tileid="522" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="550">
+   <animation>
+    <frame tileid="550" duration="100"/>
+    <frame tileid="551" duration="100"/>
+    <frame tileid="552" duration="100"/>
+    <frame tileid="553" duration="100"/>
+    <frame tileid="554" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="582">
+   <animation>
+    <frame tileid="582" duration="100"/>
+    <frame tileid="583" duration="100"/>
+    <frame tileid="584" duration="100"/>
+    <frame tileid="585" duration="100"/>
+    <frame tileid="586" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="614">
+   <animation>
+    <frame tileid="614" duration="100"/>
+    <frame tileid="615" duration="100"/>
+    <frame tileid="616" duration="100"/>
+    <frame tileid="617" duration="100"/>
+    <frame tileid="618" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="646">
+   <animation>
+    <frame tileid="646" duration="100"/>
+    <frame tileid="647" duration="100"/>
+    <frame tileid="648" duration="100"/>
+    <frame tileid="649" duration="100"/>
+    <frame tileid="650" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="678">
+   <animation>
+    <frame tileid="678" duration="100"/>
+    <frame tileid="679" duration="100"/>
+    <frame tileid="680" duration="100"/>
+    <frame tileid="681" duration="100"/>
+    <frame tileid="682" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="710">
+   <animation>
+    <frame tileid="710" duration="100"/>
+    <frame tileid="711" duration="100"/>
+    <frame tileid="712" duration="100"/>
+    <frame tileid="713" duration="100"/>
+    <frame tileid="714" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="742">
+   <animation>
+    <frame tileid="742" duration="100"/>
+    <frame tileid="743" duration="100"/>
+    <frame tileid="744" duration="100"/>
+    <frame tileid="745" duration="100"/>
+    <frame tileid="746" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="747">
+   <animation>
+    <frame tileid="747" duration="100"/>
+    <frame tileid="748" duration="100"/>
+    <frame tileid="749" duration="100"/>
+    <frame tileid="750" duration="100"/>
+    <frame tileid="751" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="774">
+   <animation>
+    <frame tileid="774" duration="100"/>
+    <frame tileid="775" duration="100"/>
+    <frame tileid="776" duration="100"/>
+    <frame tileid="777" duration="100"/>
+    <frame tileid="778" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="779">
+   <animation>
+    <frame tileid="779" duration="100"/>
+    <frame tileid="780" duration="100"/>
+    <frame tileid="781" duration="100"/>
+    <frame tileid="782" duration="100"/>
+    <frame tileid="783" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="806">
+   <animation>
+    <frame tileid="806" duration="100"/>
+    <frame tileid="807" duration="100"/>
+    <frame tileid="808" duration="100"/>
+    <frame tileid="809" duration="100"/>
+    <frame tileid="810" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="811">
+   <animation>
+    <frame tileid="811" duration="100"/>
+    <frame tileid="812" duration="100"/>
+    <frame tileid="813" duration="100"/>
+    <frame tileid="814" duration="100"/>
+    <frame tileid="815" duration="100"/>
+    <frame tileid="816" duration="100"/>
+    <frame tileid="817" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="838">
+   <animation>
+    <frame tileid="838" duration="100"/>
+    <frame tileid="839" duration="100"/>
+    <frame tileid="840" duration="100"/>
+    <frame tileid="841" duration="100"/>
+    <frame tileid="842" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="843">
+   <animation>
+    <frame tileid="843" duration="100"/>
+    <frame tileid="844" duration="100"/>
+    <frame tileid="845" duration="100"/>
+    <frame tileid="846" duration="100"/>
+    <frame tileid="847" duration="100"/>
+    <frame tileid="848" duration="100"/>
+    <frame tileid="849" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="870">
+   <animation>
+    <frame tileid="870" duration="100"/>
+    <frame tileid="871" duration="100"/>
+    <frame tileid="872" duration="100"/>
+    <frame tileid="873" duration="100"/>
+    <frame tileid="874" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="875">
+   <animation>
+    <frame tileid="875" duration="100"/>
+    <frame tileid="876" duration="100"/>
+    <frame tileid="877" duration="100"/>
+    <frame tileid="878" duration="100"/>
+    <frame tileid="879" duration="100"/>
+    <frame tileid="880" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="902">
+   <animation>
+    <frame tileid="902" duration="100"/>
+    <frame tileid="903" duration="100"/>
+    <frame tileid="904" duration="100"/>
+    <frame tileid="905" duration="100"/>
+    <frame tileid="906" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="907">
+   <animation>
+    <frame tileid="907" duration="100"/>
+    <frame tileid="908" duration="100"/>
+    <frame tileid="909" duration="100"/>
+    <frame tileid="910" duration="100"/>
+    <frame tileid="911" duration="100"/>
+    <frame tileid="912" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="1" name="Back" width="30" height="42">
+  <data encoding="base64" compression="zlib">
+   eJzFmLFuE0EQhu0zlAFBHoGaICsNNdBC+pTILUS2u9CFOkFcOt4hQbblJu+QIBv5BYA2iUjuATIr3cq/f83c7t6BU3zKee/2vp3dmd1T8narld8TNw3YzvT2oqIPuvv0e2Aw/AfjRM9X8r6V++8Udoz4QmD8OM/s/SDv/6iwl+CdBubZXY8ic2ESWLsYOK9ypQ3ZzZas07svvl/C7wT+wBinNb3f5B1Zp9U6yJYM2qu/mQcdO96R4R0TZ4rX4/uleGPjddTx8t4S6+1Cv0O5fgQ8Js8G3T9ScrBOvCfyni3gBXmf0/1T8uJ+pXnnBjzul8Z8W+MuasargV7rGVyrdXpT1ndBz7t6Gys86yzhe5MK7wLemxvPevyew2OaGXmgnQ3anP5NnGPs58+LovRZ50esN+b8uU0YY0q83UDONPEWDea5idflxmYgLusboon3iTifArHvKRp6X0n9vVZ4o5xlDqwl7+XvUmZIXud8mNlYbvaGvtOO4TrkjHFjXvh9TfNO4Pp9pLfXsWvK1/ihcCR8IZ/W7ryfAXRhe68i3ln590Q4Fb63V/ddbMf1PRcuhB80TmyPWd+YdvReClfCNY0T22O8OJ9WO+YV142r5Xnb5me5pr7WXV4VNJ/o1eaZ86pqHUPzinDsPM9aPmv7B+4hzmvtmR6Ovcrr74VqKSbefskAOP6PXnTlRBPv1PD2DRdStV+lxhvj87EWDbx47oXOH441lM+x8VrftoxzfiJvbuSHqxuttn2M+L8dPIsLZUwpXou6/bD/He/Rc7U=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="30" height="42">
+  <data encoding="base64" compression="zlib">
+   eJzFlzlvE1EQx+23IIMI0GALyVADEtARkPgAASlQopBU3F/BJDScbigDMjENd8ElcYRNjEDiLLjEbWS6QMUlIUBIbviP9j12GMbZrO11Rvppj7fzxvNm5nlet0mlcpZsh1gFSulUqpvZngqk14qU04Hd3+ngOYPrLDA7PblePWI8SirW7kL7+5fgfilYZud9KPzKeO2xWxN2e3C/DqxP2F/S98GaGPGivFjbYnzz0K/Cbp/NL+cHxZtivwdsNgH9Jsi/LMt9rQZyyr3Mw7rNqYIJ/M6b0C7F/jjYbQIGTZh/L8Q8w+AIOCr8ct/JuJAdim3J+svtkr83wTETMMLsOrkCroJr4DoYBTeAD8aEHS6ujvwG/r4HYyZgXNh9Tv6Al+AVeA3egLegCt6JdeVSsXlFUhV2a0rOSn+d/AA/wS99+D9/ae4qyyVuV6uVv/Vm67honxfg2yzIWZ0e+z7TIL4ur0ZtDXO7dL/I+/f7OPXGRdadyys3Z1Rd9pmwrjgDJhzvVxgQ87p90ulwffktScGEdcUZMuH4oMKQmKvG8qog9OW3JCUT1hWnbMLxEYWymKtu84riWxL6ZSW+vgnrilMx4fi4QkXYzbOa9IW+/Dau3MK8txvUHY9vJ4XHt5NSZ/tGp+022vuStptEfLeArWAb2A52gJ1gF7ObRHz3gn1gPzgADoJDoMjsyvieBxfARXAJXG7C7glwEpwCp8EZcBacY3ZlfB+Bx+AJeAqeNWGX5A64C+6B++ABG6uzXtLJJ/AZfAFfwbeY9ngPNAE+gI9iXMurOXjuAnPBPDC/ifj32v3Vg+4MMNPOUWT9t5ZXy/FuBViZUI3JvCra+15cN4CN7tzQZvtJ7Rtdnv7+MFvn6fhfSGrf4DKhzD+d/wvtWmfqC7+nA6L6Q7nOcXSluF5T6x81u3yd4+hKcb0m7x8b+eHqyO1tmu5UxfWavH/U/HD7JN+fpe5kvZkU12vy/lHzY7EX+M7PHppuK6KtAZ3lyXe+FvzssQmsFrbleTvqveYHneXJd74W/Oru5VmIfl/K7YOefl7ScGclsku+/wHunwVn
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="1" name="TileData" x="112" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message Sigoboronte.1"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="176" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message Sigoboronte.2"/>
+   </properties>
+  </object>
+  <object id="3" name="TileData" x="64" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value=""/>
+    <property name="Shop" value="SigoboronteShop"/>
+   </properties>
+  </object>
+  <object id="4" name="TileData" x="224" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message Extra.3"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="352" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message Extra.3"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="208" y="176" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message Estorial.3"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="240" y="176" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message Estorial.2"/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="288" y="176" width="16" height="16">
+   <properties>
+    <property name="Action" value=""/>
+    <property name="Shop" value="EstorialShop"/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="336" y="176" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message Estorial.4"/>
+   </properties>
+  </object>
+  <object id="10" name="TileData" x="368" y="176" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message Estorial.1"/>
+   </properties>
+  </object>
+  <object id="11" name="TileData" x="16" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Dialogue i appreciate you! &lt;3"/>
+   </properties>
+  </object>
+  <object id="12" name="TileData" x="112" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message Extra.6"/>
+   </properties>
+  </object>
+  <object id="13" name="TileData" x="208" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message Extra.1"/>
+   </properties>
+  </object>
+  <object id="14" name="TileData" x="432" y="384" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message Extra.5"/>
+   </properties>
+  </object>
+  <object id="15" name="TileData" x="64" y="432" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message Extra.4"/>
+   </properties>
+  </object>
+  <object id="16" name="TileData" x="128" y="432" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message Extra.4"/>
+   </properties>
+  </object>
+  <object id="17" name="TileData" x="336" y="432" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message Undare.2"/>
+   </properties>
+  </object>
+  <object id="18" name="TileData" x="384" y="432" width="16" height="16">
+   <properties>
+    <property name="Action" value=""/>
+    <property name="Shop" value="UndareShop"/>
+   </properties>
+  </object>
+  <object id="19" name="TileData" x="432" y="432" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message Undare.1"/>
+   </properties>
+  </object>
+  <object id="20" name="TileData" x="48" y="464" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message Nevaliz.1"/>
+   </properties>
+  </object>
+  <object id="21" name="TileData" x="96" y="464" width="16" height="16">
+   <properties>
+    <property name="Action" value=""/>
+    <property name="Shop" value="NevalizShop"/>
+   </properties>
+  </object>
+  <object id="22" name="TileData" x="144" y="464" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message Nevaliz.2"/>
+   </properties>
+  </object>
+  <object id="23" name="TileData" x="336" y="480" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message Undare.3"/>
+   </properties>
+  </object>
+  <object id="24" name="TileData" x="432" y="480" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message Undare.4"/>
+   </properties>
+  </object>
+  <object id="25" name="TileData" x="320" y="608" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message Extra.2"/>
+   </properties>
+  </object>
+  <object id="26" name="TileData" x="384" y="512" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message Extra.8"/>
+   </properties>
+  </object>
+  <object id="27" name="TileData" x="448" y="608" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message Extra.7"/>
+   </properties>
+  </object>
+  <object id="28" name="TileData" x="16" y="592" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message Extra.11"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Front" width="30" height="42">
+  <data encoding="base64" compression="zlib">
+   eJztl01PE1EUhtspykLFVY0JK0TsApREaCFxhYguUIji1z/oggqBIvAfAAmtVFZYV10XVu4afwcLwqYbV7oxURKesTPJ7c2981VmShPe5MnM3HPuPXPnTM6cicUuZatiNF/XDbVfFHpJ7Fcw53IPXv28aol1liEPD7kegVFIQwbGYFzyc1ISe9ryyXC8pWEHClA094PvHLyGN/AW3sH7WLPfeenAWmsZ8rACH2EV1mBd8jtvFaAIn2EXSvAF9sIJ919VF/v3EGO3qtW4evxIk59UonHMYv+tslvz6pp1bZUk+x+u/8K/iOuEHTdqjbPPRxHs1W9+f8TV5242WXJ+benyexJXn7vZotA+Mb+2IW6n6BpchxvQAzcDrmO+GmZ56YIrcBW6HfwHYQjuwwMYDhCzD+5AP9yFAbgHKYc50/AcXsAMzAaIOwGPYRKewBQ8hWcOc+YhBx9gARZ9xHPrbZzsG7AJW/AJtn3EdettvPY+fuXW24TR+5iqGo3e5lCzrpu9VQ0l1ONZzXi7lNXU00qH1NmfmvzlLthzDkPfQs6R+W+TNJr/d5wk1i6/c0Xdxv9XvEGvhzop1i4vc/1I3ocYK6zaZUrehxhLVbtUfaDuWyKPO/WQTnXSnGf3gWJvpvuWyOOqHlK8l1MPPaoo8RmVrbllD3kS9xFE4jOqWTFqmjx52UcQHRvNx07SGUnjd8g=
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="7" name="Paths" width="30" height="42">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20ND6AAAAAAgBcDE7AAAQ==
+  </data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+</map>

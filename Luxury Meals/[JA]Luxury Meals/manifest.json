@@ -1,0 +1,13 @@
+{
+    "Name": "[JA] Luxury Meals",
+    "Author": "xXStrayXx",
+    "Description": "Adds More Luxury Meals!",
+    "Version": "1.0.0",
+    "MinimumApiVersion": "3.1.0",
+    "UniqueID": "xXStrayXx.luxurymeals",
+    "ContentPackFor":
+    {
+        "UniqueID": "spacechase0.JsonAssets"
+    },
+    "UpdateKeys": ["Nexus:5891"],
+}

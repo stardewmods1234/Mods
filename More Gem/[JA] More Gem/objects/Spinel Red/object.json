@@ -1,0 +1,46 @@
+{
+    "Name": "Spinel",
+    "Description": "A gem of a similar makeup to ruby.",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
+    "Edibility": -300,
+    "Price": 200,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "스피넬",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Espinela",
+        // "ru": "",
+        // "tr": "",
+        "zh": "红尖晶石",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "루비와 매우 흡사한 보석.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Uma jóia muito semelhante ao rubi.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "一种与蓝宝石有着极高相似度的宝石。",
+    },
+	
+    "ContextTags": [
+        "color_red", "spinel_item", "red_gem", 
+    ],
+}

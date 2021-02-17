@@ -1,0 +1,46 @@
+{
+//art by Syum
+    "Name": "Halite",
+    "Description": "Crystalized salt that evaporated from seawater long ago.",
+    "Category": "Mineral",
+    "Edibility": -300,
+    "Price": 30,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Neutral": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "암염",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Halita",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "바닷물이 증발하여 광물 속에 남아있던 소금. ",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Sal que evaporou da água do mar e permaneceu no mineral.",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+	
+    "ContextTags": [
+        "color_white",
+    ],
+}

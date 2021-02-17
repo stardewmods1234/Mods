@@ -1,0 +1,46 @@
+{
+    "Name": "Kunzite",
+    "Description": "Transparent pink lithia.",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
+    "Edibility": -300,
+    "Price": 180,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "쿤차이트",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Kunzita",
+        // "ru": "",
+        // "tr": "",
+        "zh": "紫锂辉石",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "투명한 분홍색의 리티아 휘석.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Uma pedra litio cor-de-rosa transparente .",
+        // "ru": "",
+        // "tr": "",
+        "zh": "透明的粉紫色锂辉石。",
+    },
+	
+    "ContextTags": [
+        "color_pink", "pink_gem", 
+    ],
+}

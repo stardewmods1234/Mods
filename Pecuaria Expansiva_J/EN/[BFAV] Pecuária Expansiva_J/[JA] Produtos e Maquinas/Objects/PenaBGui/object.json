@@ -1,0 +1,46 @@
+{
+    "Name": "White Guinea Feather",
+    "Description": "A pretty, white feather.",
+    "Category": "AnimalGoods",
+    "Edibility": -300,
+    "Price": 75,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Elliott"],
+		"Like": ["Harvey"],
+		"Dislike": ["Penny"]
+    },
+    "NameLocalization":
+    {
+         "es": "Pluma de Guinea Blanca",
+         "ko": "화이트 기니 깃털",
+         "de": "Weiße Guinea-Feder",
+         "fr": "Plume de Guinée blanche",
+         "hu": "Fehér Guinea toll",
+         "it": "Piuma di Guinea Bianca",
+         "ja": "ホワイトギニアフェザー",
+         "pt": "Pena da Guiné Branco",
+         "ru": "Белое перо гвинеи",
+         "tr": "Beyaz Gine Tüyü",
+         "zh": "白色几内亚羽毛",
+    },
+    "DescriptionLocalization":
+    {
+         "es": "Una bonita pluma blanca.",
+         "ko": "예쁘고 하얀 깃털.",
+         "de": "Eine hübsche, weiße Feder.",
+         "fr": "Une jolie plume blanche.",
+         "hu": "Szép, fehér toll.",
+         "it": "Una bella piuma bianca.",
+         "ja": "かわいらしい白い羽。",
+         "pt": "Uma pena branca e bonitinha.",
+         "ru": "Красивое белое перышко.",
+         "tr": "Güzel, beyaz bir tüy.",
+         "zh": "一条漂亮的白色羽毛。",
+    },
+    "ContextTags": [
+        "color_white",
+    ]
+}

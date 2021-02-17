@@ -1,0 +1,17 @@
+{
+  "Name": "Beatrice Festival Locations",
+  "Author": "attonbomb",
+  "Version": "1.0.0",
+  "Description": "Festival locations for Beatrice",
+  "UniqueID": "attonbomb.beatricelocations",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.4.2"
+   },
+  "Dependencies": [
+     {
+      "UniqueID": "Platonymous.Toolkit",
+      "IsRequired": true,
+   },
+  ]
+}

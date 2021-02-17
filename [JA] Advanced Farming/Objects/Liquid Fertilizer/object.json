@@ -1,0 +1,17 @@
+{
+    "Name": "Liquid Fertilizer", //The name you would like your object to have, this should be identical to the subfolder name.
+    "Description": "Specially made fertilzer disolved in water with a finely balanced PH level for use in Hydroponics and Aeroponics Systems", //Description of the product.
+    "Category": "Metal", //This should match the crop.json Type or for fruit trees should be one of the following: Flower, Fruit, Vegetable, Gem, Fish, Egg, Milk, Cooking, Crafting, Mineral, Meat, Metal, Junk, Syrup, MonsterLoot, ArtisanGoods, and Seeds.
+    "Edibility": -300, //Edibility is for health, energy is calculated by the game. For inedibile items, set to -300.
+    "Price": 0, //How much your item sells for.
+    "IsColored": false, //(optional) Set this value to true if your product is colored. Primairly applies to flowers.
+    "Recipe": null, //Set to null.
+    "NameLocalization": //Used for localization. 
+    { 
+        "zh": "液体肥料" //Chinese (Simplified)
+    },
+    "DescriptionLocalization": //Used for localization. 
+    { 
+        "zh": "溶解在水中且酸碱均衡的特制肥料，用于水培和雾气栽培系统。" //Chinese (Simplified)
+    }
+}

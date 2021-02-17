@@ -1,0 +1,46 @@
+{
+    "Name": "Indian Star Sapphire",
+    "Description": "A dark blue gem that shines like a star.",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
+    "Edibility": -300,
+    "Price": 250,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "인디안 스타 사파이어",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Safira Estrela da India",
+        // "ru": "",
+        // "tr": "",
+        "zh": "星光蓝宝石",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "별처럼 빛나는 어두운 푸른색의 보석.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Uma gema azul escura que brilha como uma estrela.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "仿若有星芒闪烁的深蓝色宝石。",
+    },
+	
+    "ContextTags": [
+        "color_dark_blue", "sapphire_item", "dark_blue_gem", 
+    ],
+}

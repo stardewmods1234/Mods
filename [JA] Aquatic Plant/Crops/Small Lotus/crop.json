@@ -1,0 +1,43 @@
+{
+	"Name": "Small Lotus",
+	"Product": "Lotus Root",
+	"SeedName": "Small Lotus Starter",
+	"SeedDescription": "Species improved to eat roots. Plant in summer and fall. Takes 9 days to grow.",	
+	"Type": "Vegetable",
+	"CropType": "Paddy",	
+	"Seasons": ["summer", "fall"],
+    "Phases": [1, 2, 3, 3],
+    "RegrowthPhase": -1,
+	"HarvestWithScythe": false,
+	"TrellisCrop": false,
+	"Colors": null,
+	"SeedPurchasePrice": 50,
+	"SeedNameLocalization":
+	{ 
+		//"es": "",
+		"ko": "작은 연꽃 모종",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		//"zh": "",
+    },
+	"SeedDescriptionLocalization":
+	{ 
+		//"es": "",
+		"ko": "뿌리를 식용하기 위해 개량한 종. 여름과 가을에 자란다. 성장하는 데 9일이 걸린다.",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		//"zh": "",
+	}
+}

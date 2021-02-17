@@ -1,0 +1,43 @@
+{
+  "Name": "Enchanted Jewel Faberge",
+  "Description": "An colorful egg covered in a layer of jewel!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 3100,
+  "IsColored": true,
+  "Recipe": null,
+   "CanPurchase": false,
+   //"PurchaseFrom": "Robin",
+   //"PurchasePrice": 500,
+   //"PurchaseRequirements":
+   //[
+    //  "r 0.50"
+   // ]
+    "NameLocalization": { 
+		// "es": "",
+		"ko": "마법의 보석 파베르지",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Ovo Fabergé de Jóias Encantado",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        "ko": "색색의 알을 보석으로 감싼 고급스러운 장식품!",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Um ovo coberto com uma camada de jóias!",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    }  
+}

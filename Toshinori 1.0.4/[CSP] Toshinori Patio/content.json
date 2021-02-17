@@ -1,0 +1,99 @@
+{
+  "areas": {
+    "Toshinori": {
+      "location": {
+        "X": 69,
+        "Y": 7
+      },
+      "useDefaultTiles": "false",
+      "specialTiles": [
+        {
+          "location": {
+            "X": 70,
+            "Y": 8
+          },
+          "layer": "Buildings",
+          "tilesheet": "toshinori_patio",
+          "tileIndex": 6
+        },
+        {
+          "location": {
+            "X": 71,
+            "Y": 8
+          },
+          "layer": "Buildings",
+          "tilesheet": "toshinori_patio",
+          "tileIndex": 7
+        },
+        {
+          "location": {
+            "X": 69,
+            "Y": 8
+          },
+          "layer": "Buildings",
+          "tilesheet": "toshinori_patio",
+          "tileIndex": 4
+        },
+        {
+          "location": {
+            "X": 72,
+            "Y": 8
+          },
+          "layer": "Buildings",
+          "tilesheet": "toshinori_patio",
+          "tileIndex": 5
+        },
+        {
+          "location": {
+            "X": 70,
+            "Y": 7
+          },
+          "layer": "Front",
+          "tilesheet": "toshinori_patio",
+          "tileIndex": 2
+        },
+        {
+          "location": {
+            "X": 71,
+            "Y": 7
+          },
+          "layer": "Front",
+          "tilesheet": "toshinori_patio",
+          "tileIndex": 3
+        },
+        {
+          "location": {
+            "X": 69,
+            "Y": 7
+          },
+          "layer": "Front",
+          "tilesheet": "toshinori_patio",
+          "tileIndex": 0
+        },
+        {
+          "location": {
+            "X": 72,
+            "Y": 7
+          },
+          "layer": "Front",
+          "tilesheet": "toshinori_patio",
+          "tileIndex": 1
+        }
+      ],
+      "npcOffset": {
+        "X": 1,
+        "Y": 3
+      },
+      "npcAnimation": "Toshinori_Letter"
+    }
+  },
+  "tileSheetsToAdd": {
+    "toshinori_patio": {
+      "path": "assets/toshinori_patio.png",
+      "width": 4,
+      "height": 2,
+      "tileWidth": 16,
+      "tileHeight": 16
+    }
+  }
+}

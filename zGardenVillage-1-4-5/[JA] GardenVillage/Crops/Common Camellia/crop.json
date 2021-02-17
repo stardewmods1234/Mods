@@ -1,0 +1,36 @@
+{
+    "Name": "CommonCamellia",
+    "Product": "Common Camellia",
+    "SeedName": "Common Camellia Seeds",
+    "SeedDescription": "Plant in fall. Takes 12 days to produce a full blossom. Produces 1-3 blossoms at harvest.",
+    "Type": "Flower",
+
+    "Seasons": ["fall"],
+    "Phases": [1, 3, 4, 4],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": [
+        "213, 67, 101, 255",
+        "251, 251, 228, 255",
+        "244, 175, 227, 255",
+		"207, 151, 244, 255"
+    ],
+    "Bonus":
+    {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 2,
+        "MaxIncreasePerFarmLevel": 15,
+        "ExtraChance": 0.7,
+    },
+    "SeedPurchaseFrom": "STF.GVFlorist",
+    "SeedPurchasePrice": 200,
+    "SeedNameLocalization":
+    {
+        
+    },
+    "SeedDescriptionLocalization":
+    {
+        
+    }
+}

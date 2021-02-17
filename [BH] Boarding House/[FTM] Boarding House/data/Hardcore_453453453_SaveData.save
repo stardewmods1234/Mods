@@ -1,0 +1,547 @@
+{
+  "WeatherForYesterday": "Sunny",
+  "LNOSCounter": {
+    "TheLostValleyPathBlock": 1
+  },
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "TheLostValley",
+      "Name": null,
+      "Tile": "94, 22",
+      "Type": "LargeObject",
+      "ID": 602,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine4",
+      "Name": null,
+      "Tile": "12, 58",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 8,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "crate",
+        "Contents": [
+          {
+            "Category": "Object",
+            "Name": "Coal",
+            "Stack": 4,
+            "PercentChanceToSpawn": 5
+          }
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine4",
+      "Name": null,
+      "Tile": "16, 60",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 8,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "barrel",
+        "Contents": []
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine4",
+      "Name": null,
+      "Tile": "43, 11",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 8,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "barrel",
+        "Contents": []
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine3",
+      "Name": null,
+      "Tile": "27, 63",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 8,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "barrel",
+        "Contents": [
+          {
+            "Category": "Object",
+            "Name": "Coal",
+            "Stack": 3,
+            "PercentChanceToSpawn": 5
+          }
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine2A",
+      "Name": null,
+      "Tile": "19, 25",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 8,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "crate",
+        "Contents": [
+          {
+            "Category": "Object",
+            "Name": "Wood",
+            "Stack": 6,
+            "PercentChanceToSpawn": 5
+          }
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine2B",
+      "Name": null,
+      "Tile": "9, 14",
+      "Type": "Forage",
+      "ID": 86,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine2A",
+      "Name": null,
+      "Tile": "36, 10",
+      "Type": "Forage",
+      "ID": 80,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine1A",
+      "Name": null,
+      "Tile": "7, 30",
+      "Type": "Forage",
+      "ID": 404,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine1A",
+      "Name": null,
+      "Tile": "44, 12",
+      "Type": "Forage",
+      "ID": 404,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "TheLostValley",
+      "Name": null,
+      "Tile": "54, 23",
+      "Type": "Forage",
+      "ID": 420,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "TheLostValley",
+      "Name": "Pistachio",
+      "Tile": "80, 29",
+      "Type": "Forage",
+      "ID": 4879,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "TheLostValley",
+      "Name": null,
+      "Tile": "58, 26",
+      "Type": "Forage",
+      "ID": 420,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine5",
+      "Name": null,
+      "Tile": "13, 26",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 9,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "crate",
+        "Contents": []
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine5",
+      "Name": null,
+      "Tile": "87, 26",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 9,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "crate",
+        "Contents": []
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine5",
+      "Name": null,
+      "Tile": "53, 24",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 9,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "barrel",
+        "Contents": []
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine5",
+      "Name": null,
+      "Tile": "80, 14",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 9,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "barrel",
+        "Contents": [
+          {
+            "Category": "Object",
+            "Name": "Jade",
+            "Stack": 1,
+            "PercentChanceToSpawn": 1
+          }
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine5",
+      "Name": null,
+      "Tile": "88, 25",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 9,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "barrel",
+        "Contents": [
+          {
+            "Category": "Object",
+            "Name": "Aquamarine",
+            "Stack": 1,
+            "PercentChanceToSpawn": 1
+          }
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine5",
+      "Name": null,
+      "Tile": "43, 14",
+      "Type": "Forage",
+      "ID": 420,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine5",
+      "Name": null,
+      "Tile": "75, 21",
+      "Type": "Forage",
+      "ID": 420,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine5",
+      "Name": null,
+      "Tile": "83, 18",
+      "Type": "Forage",
+      "ID": 420,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine4",
+      "Name": null,
+      "Tile": "8, 81",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 9,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "barrel",
+        "Contents": [
+          {
+            "Category": "Object",
+            "Name": "Pterodactyl R Wing Bone",
+            "Stack": 1,
+            "PercentChanceToSpawn": 1
+          }
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine4",
+      "Name": null,
+      "Tile": "46, 42",
+      "Type": "Forage",
+      "ID": 86,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine3",
+      "Name": null,
+      "Tile": "46, 44",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 9,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "crate",
+        "Contents": []
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine3",
+      "Name": null,
+      "Tile": "25, 59",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 9,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "barrel",
+        "Contents": [
+          {
+            "Category": "Object",
+            "Name": "Hardwood",
+            "Stack": 4,
+            "PercentChanceToSpawn": 5
+          },
+          {
+            "Category": "Object",
+            "Name": "Coal",
+            "Stack": 6,
+            "PercentChanceToSpawn": 5
+          }
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine3",
+      "Name": null,
+      "Tile": "31, 68",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 9,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "barrel",
+        "Contents": [
+          {
+            "Category": "Object",
+            "Name": "Ancient Doll Body",
+            "Stack": 1,
+            "PercentChanceToSpawn": 5
+          },
+          {
+            "Category": "Object",
+            "Name": "Hardwood",
+            "Stack": 4,
+            "PercentChanceToSpawn": 5
+          },
+          {
+            "Category": "Object",
+            "Name": "Coal",
+            "Stack": 6,
+            "PercentChanceToSpawn": 5
+          }
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine3",
+      "Name": null,
+      "Tile": "44, 12",
+      "Type": "Forage",
+      "ID": 80,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine3",
+      "Name": null,
+      "Tile": "37, 29",
+      "Type": "Forage",
+      "ID": 86,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine3",
+      "Name": null,
+      "Tile": "9, 53",
+      "Type": "Forage",
+      "ID": 414,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine2B",
+      "Name": null,
+      "Tile": "6, 25",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "barrel",
+        "Contents": [
+          {
+            "Category": "Object",
+            "Name": "Chipped Amphora Piece 2",
+            "Stack": 1,
+            "PercentChanceToSpawn": 5
+          }
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine2A",
+      "Name": null,
+      "Tile": "18, 25",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 9,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "barrel",
+        "Contents": [
+          {
+            "Category": "Object",
+            "Name": "Sap",
+            "Stack": 8,
+            "PercentChanceToSpawn": 5
+          },
+          {
+            "Category": "Object",
+            "Name": "Sap",
+            "Stack": 6,
+            "PercentChanceToSpawn": 5
+          }
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine2B",
+      "Name": null,
+      "Tile": "7, 28",
+      "Type": "Forage",
+      "ID": 86,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine2B",
+      "Name": null,
+      "Tile": "8, 26",
+      "Type": "Forage",
+      "ID": 86,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine1B",
+      "Name": null,
+      "Tile": "12, 11",
+      "Type": "Forage",
+      "ID": 80,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine1B",
+      "Name": null,
+      "Tile": "21, 39",
+      "Type": "Forage",
+      "ID": 404,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "AbandonedMine1A",
+      "Name": null,
+      "Tile": "33, 27",
+      "Type": "Forage",
+      "ID": 80,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+	"Changes": [
+	//Denver's festival locations PLEASE REMOVE [TMX] DENVER FESTIVALS!
+	{
+   "Action": "EditData",
+   "Target": "Data/Festivals/spring13",
+   "TextOperations": [
+      {
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Denver 43 78 down",
+         "Delimiter": "/"
+      }
+   ]
+},	
+    {
+   "Action": "EditData",
+   "Target": "Data/Festivals/spring24",
+   "TextOperations": [
+      {
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Denver 13 41 down",
+         "Delimiter": "/"
+      }
+   ]
+},
+    {
+   "Action": "EditData",
+   "Target": "Data/Festivals/summer11",
+   "TextOperations": [
+      {
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Denver 11 23 down",
+         "Delimiter": "/"
+      }
+   ]
+},
+    {
+   "Action": "EditData",
+   "Target": "Data/Festivals/summer28",
+   "TextOperations": [
+      {
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Denver 40 24 down",
+         "Delimiter": "/"
+      }
+   ]
+},
+    {
+   "Action": "EditData",
+   "Target": "Data/Festivals/fall16",
+   "TextOperations": [
+      {
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Denver 60 65 down",
+         "Delimiter": "/"
+      }
+   ]
+},
+    {
+   "Action": "EditData",
+   "Target": "Data/Festivals/fall27",
+   "TextOperations": [
+      {
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Denver 12 29 right",
+         "Delimiter": "/"
+      }
+   ]
+},
+    {
+   "Action": "EditData",
+   "Target": "Data/Festivals/winter8",
+   "TextOperations": [
+      {
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Denver 60 25 down",
+         "Delimiter": "/"
+      }
+   ]
+},
+    {
+   "Action": "EditData",
+   "Target": "Data/Festivals/winter25",
+   "TextOperations": [
+      {
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Denver 18 52 down",
+         "Delimiter": "/"
+      }
+   ]
+},
+	],
+}

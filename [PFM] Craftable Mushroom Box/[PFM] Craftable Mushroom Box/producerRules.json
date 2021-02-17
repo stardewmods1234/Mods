@@ -1,0 +1,26 @@
+[
+{ //Mushroom
+        "ProducerName": "Mushroom Box",
+        "MinutesUntilReady": 3000,
+        "SubtractTimeOfDay": true,
+        "OutputIdentifier": "404",
+        "AdditionalOutputs": [
+            {
+                "OutputProbability": 0.025,
+                "OutputIdentifier": "422"
+            },
+            {
+                "OutputProbability": 0.073125,
+                "OutputIdentifier": "281"
+            },
+            {
+                "OutputProbability": 0.08116875,
+                "OutputIdentifier": "257"
+            },
+            {
+                "OutputProbability": 0.1231059375,
+                "OutputIdentifier": "420"
+            }
+        ]
+    },
+]

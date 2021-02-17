@@ -1,0 +1,10 @@
+{
+  "CanGrassLiveInSpring": true,
+  "CanGrassLiveInSummer": true,
+  "CanGrassLiveInFall": true,
+  "CanGrassLiveInWinter": true,
+  "CanGrassGrowInSpring": true,
+  "CanGrassGrowInSummer": true,
+  "CanGrassGrowInFall": true,
+  "CanGrassGrowInWinter": false
+}

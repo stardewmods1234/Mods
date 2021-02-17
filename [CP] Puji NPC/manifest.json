@@ -1,0 +1,13 @@
+{
+
+  "Name": "Puji NPC",
+  "Author": "Puffolotti",
+  "Description": "Custom NPC, a retired komato warrior.",
+  "Version": "1.0.0",
+  "UniqueID": "Puffolotti.Puji",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+	"MinimumVersion": "1.9.2",
+  },
+"UpdateKeys": [ "Nexus:5931" ]
+}

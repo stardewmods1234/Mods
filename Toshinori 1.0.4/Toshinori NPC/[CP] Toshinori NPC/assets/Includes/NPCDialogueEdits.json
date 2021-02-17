@@ -1,0 +1,556 @@
+{
+"Changes":[
+//**NPC Dialogue Edits** 
+	//These aren't based on conversation topics and thus this dialogue doesn't expire. Set to activate when NPCDialogueEdits is set to true in config.  
+//Harvey
+	{"LogName": "Harvey and Toshinori",
+    "Action": "EditData",
+	"When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},
+    "Target": "Characters/Dialogue/Harvey", 
+	"Entries": {"summer_21_2": "{{i18n:6617.HarveyEdit.1}}"},
+	},
+    {"LogName": "Harvey and Toshinori, Good Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent |contains=661717000": "true", "HasSeenEvent |contains=66170035": "true"},
+    "Target": "Characters/Dialogue/Harvey",	
+	"Entries": {"summer_21_2": "{{i18n:6617.HarveyEdit.2}}"}
+	},
+	{"LogName": "Harvey and Toshinori, Bad Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent": "661717000", "HasSeenEvent |contains=66170035": "false"},
+    "Target": "Characters/Dialogue/Harvey",	
+	"Entries": {"summer_21_2": "{{i18n:6617.HarveyEdit.3}}"}
+	},
+//Abigail
+	{"LogName": "Abigail and Toshinori",
+    "Action": "EditData",
+	"When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},
+    "Target": "Characters/Dialogue/Abigail", 
+	"Entries": {"fall6_Sun": "{{i18n:6617.AbigailEdit.1}}",
+	"spring_Thu2": "{{i18n:6617.AbigailEdit.2}}",
+	"summer_8_2": "{{i18n:6617.AbigailEdit.3}}",
+	"winter_12_2": "{{i18n:6617.AbigailEdit.4}}"
+	}
+	},
+    {"LogName": "Abigail and Toshinori, Good Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent |contains=661717000": "true", "HasSeenEvent |contains=66170035": "true"},
+    "Target": "Characters/Dialogue/Abigail",	
+	"Entries": {"summer_8_2": "{{i18n:6617.AbigailEdit.5}}"}
+	},
+	{"LogName": "Abigail and Toshinori, Bad Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent": "661717000", "HasSeenEvent |contains=66170035": "false"},
+    "Target": "Characters/Dialogue/Abigail",	
+	"Entries": {"summer_8_2": "{{i18n:6617.AbigailEdit.6}}"}
+	},
+//Alex
+	{"LogName": "Alex and Toshinori",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Alex",
+    "When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},	
+	"Entries": {"spring_13_2": "{{i18n:6617.AlexEdit.1}}",
+	"fall6_Fri": "{{i18n:6617.AlexEdit.2}}",
+	"winter_12_2": "{{i18n:6617.AlexEdit.3}}",
+	           }
+	},
+    {"LogName": "Alex and Toshinori, Good Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent |contains=661717000": "true", "HasSeenEvent |contains=66170035": "true"},
+    "Target": "Characters/Dialogue/Alex",	
+	"Entries": {"winter_12_2": "{{i18n:6617.AlexEdit.4}}"}
+	},
+	{"LogName": "Alex and Toshinori, Bad Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent": "661717000", "HasSeenEvent |contains=66170035": "false"},
+    "Target": "Characters/Dialogue/Alex",	
+	"Entries": {"winter_12_2": "{{i18n:6617.AlexEdit.5}}"}
+	},
+//Evelyn
+	{"LogName": "Evelyn and Toshinori",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Evelyn",
+	"When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},
+	"Entries": {"spring2_8_2": "{{i18n:6617.EvelynEdit.1}}",
+	"spring2_20_2": "{{i18n:6617.EvelynEdit.2}}",
+	"spring5_19_2": "{{i18n:6617.EvelynEdit.3}}",
+	"summer6_5_2": "{{i18n:6617.EvelynEdit.4}}",
+	"summer_9_2": "{{i18n:6617.EvelynEdit.5}}",
+	"fall6_14_2": "{{i18n:6617.EvelynEdit.6}}",
+	"winter6_sat": "{{i18n:6617.EvelynEdit.7}}",
+	"winter2_20_2": "{{i18n:6617.EvelynEdit.8}}"}
+	},
+	{"LogName": "Evelyn and Toshinori Marriage",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Evelyn",
+    "When": {"Relationship:Toshinori": "Married", "NPCDialogueEdits":"true", "HasSeenEvent |contains=661715000, 661716000": "false"},	
+	"Entries": {"spring_fri": "{{i18n:6617.EvelynEdit.9}}"}
+	},
+    {"LogName": "Evelyn and Toshinori, Good Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent |contains=661717000": "true", "HasSeenEvent |contains=66170035": "true"},
+    "Target": "Characters/Dialogue/Evelyn",	
+	"Entries": {"summer_9_2": "{{i18n:6617.EvelynEdit.10}}"}
+	},
+	{"LogName": "Evelyn and Toshinori, Bad Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent": "661717000", "HasSeenEvent |contains=66170035": "false"},
+    "Target": "Characters/Dialogue/Evelyn",	
+	"Entries": {"summer_9_2": "{{i18n:6617.EvelynEdit.11}}"}
+	},
+//Gus
+	{"LogName": "Gus and Toshinori",
+    "Action": "EditData",
+	"When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},
+    "Target": "Characters/Dialogue/Gus",	
+	"Entries": { "spring_20_2": "{{i18n:6617.GusEdit.1}}",
+	"fall_22_2": "{{i18n:6617.GusEdit.2}}",
+	"fall4_2_2": "{{i18n:6617.GusEdit.3}}",
+	"summer6_5_2": "{{i18n:6617.GusEdit.4}}",
+	"winter6_9_2": "{{i18n:6617.GusEdit.5}}"}
+	},	
+    {"LogName": "Gus and Toshinori, Good Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent |contains=661717000": "true", "HasSeenEvent |contains=66170035": "true"},
+    "Target": "Characters/Dialogue/Gus",	
+	"Entries": {"summer_9_2": "{{i18n:6617.GusEdit.6}}"}
+	},
+//Pierre
+	{"LogName": "Pierre and Toshinori",
+    "Action": "EditData",
+	"When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},
+    "Target": "Characters/Dialogue/Pierre",	
+	"Entries": {"spring6_2_2": "{{i18n:6617.PierreEdit.1}}",
+	"winter6_9_2": "{{i18n:6617.PierreEdit.2}}"}
+	},
+    {"LogName": "Pierre and Toshinori, Good Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent |contains=661717000": "true", "HasSeenEvent |contains=66170035": "true"},
+    "Target": "Characters/Dialogue/Pierre",	
+	"Entries": {"spring_6_2": "{{i18n:6617.PierreEdit.3}}"}
+	},
+	{"LogName": "Pierre and Toshinori, Bad Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent": "661717000", "HasSeenEvent |contains=66170035": "false"},
+    "Target": "Characters/Dialogue/Pierre",	
+	"Entries": {"spring_6_2": "{{i18n:6617.PierreEdit.4}}"}
+	},
+//Wizard
+	{"LogName": "Wizard and Toshinori",
+    "Action": "EditData",
+	"When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},
+    "Target": "Characters/Dialogue/Wizard",	
+	"Entries": {"spring_12_2": "{{i18n:6617.WizardEdit.1}}",
+	"fall_9_2": "{{i18n:6617.WizardEdit.2}}"}
+	},
+//Linus
+	{"LogName": "Linus and Toshinori",
+    "Action": "EditData",
+	"When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},
+    "Target": "Characters/Dialogue/Linus",	
+	"Entries": {"spring_28_2": "{{i18n:6617.LinusEdit.1}}"}
+	},
+//Kent
+	{"LogName": "Kent and Toshinori",
+    "Action": "EditData",
+	"When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},
+    "Target": "Characters/Dialogue/Kent",	
+	"Entries": {"winter_27_2": "{{i18n:6617.KentEdit.1}}",
+	"fall_11_2": "{{i18n:6617.KentEdit.2}}",}
+	},
+    {"LogName": "Kent and Toshinori, Good Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent |contains=661717000": "true", "HasSeenEvent |contains=66170035": "true"},
+    "Target": "Characters/Dialogue/Kent",	
+	"Entries": {"winter_27_2": "{{i18n:6617.KentEdit.3}}"}
+	},
+	{"LogName": "Kent and Toshinori, Bad Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent": "661717000", "HasSeenEvent |contains=66170035": "false"},
+    "Target": "Characters/Dialogue/Kent",	
+	"Entries": {"winter_27_2": "{{i18n:6617.KentEdit.4}}"}
+	},
+//George
+	{"LogName": "George and Toshinori",
+    "Action": "EditData",
+	"When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},
+    "Target": "Characters/Dialogue/George",	
+	"Entries": {"spring_5_2": "{{i18n:6617.GeorgeEdit.1}}",
+	"summer_3_2": "{{i18n:6617.GeorgeEdit.2}}",}
+	},
+    {"LogName": "George and Toshinori, Good Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent |contains=661717000": "true", "HasSeenEvent |contains=66170035": "true"},
+    "Target": "Characters/Dialogue/George",	
+	"Entries": {"spring_5_2": "{{i18n:6617.GeorgeEdit.3}}"}
+	},
+	{"LogName": "George and Toshinori, Bad Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent": "661717000", "HasSeenEvent |contains=66170035": "false"},
+    "Target": "Characters/Dialogue/George",	
+	"Entries": {"spring_5_2": "{{i18n:6617.GeorgeEdit.4}}"}
+	},
+//Lewis
+	{"LogName": "Lewis and Toshinori",
+    "Action": "EditData",
+	"When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},
+    "Target": "Characters/Dialogue/Lewis",	
+	"Entries": {"spring_8_2": "{{i18n:6617.LewisEdit.1}}",
+	"summer_18_2": "{{i18n:6617.LewisEdit.2}}",}
+	},
+    {"LogName": "Lewis and Toshinori, Good Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent |contains=661717000": "true", "HasSeenEvent |contains=66170035": "true"},
+    "Target": "Characters/Dialogue/Lewis",	
+	"Entries": {"summer_18_2": "{{i18n:6617.LewisEdit.3}}",}
+	},
+	{"LogName": "Lewis and Toshinori, Bad Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent": "661717000", "HasSeenEvent |contains=66170035": "false"},
+    "Target": "Characters/Dialogue/Lewis",	
+	"Entries": {"summer_18_2": "{{i18n:6617.LewisEdit.4}}"}
+	},
+//Haley
+	{"LogName": "Haley and Toshinori",
+    "Action": "EditData",
+	"When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},
+    "Target": "Characters/Dialogue/Haley",	
+	"Entries": {"winter8_22_2": "{{i18n:6617.HaleyEdit.1}}",
+	"summer6_10_2": "{{i18n:6617.HaleyEdit.2}}",}
+	},
+    {"LogName": "Haley and Toshinori, Good Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent |contains=661717000": "true", "HasSeenEvent |contains=66170035": "true"},
+    "Target": "Characters/Dialogue/Haley",	
+	"Entries": {"summer6_10_2": "{{i18n:6617.HaleyEdit.3}}",}
+	},
+	{"LogName": "Haley and Toshinori, Bad Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent": "661717000", "HasSeenEvent |contains=66170035": "false"},
+    "Target": "Characters/Dialogue/Haley",	
+	"Entries": {"summer_10_2": "{{i18n:6617.HaleyEdit.4}}"}
+	},
+//Sebastian
+	{"LogName": "Sebastian and Toshinori",
+    "Action": "EditData",
+	"When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},
+    "Target": "Characters/Dialogue/Sebastian",	
+	"Entries": {"fall6_12_2": "{{i18n:6617.SebastianEdit.1}}",
+	"summer2_13_2": "{{i18n:6617.SebastianEdit.2}}",}
+	},
+    {"LogName": "Sebastian and Toshinori, Good Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent |contains=661717000": "true", "HasSeenEvent |contains=66170035": "true"},
+    "Target": "Characters/Dialogue/Sebastian",	
+	"Entries": {"fall6_12_2": "{{i18n:6617.SebastianEdit.3}}",}
+	},
+	{"LogName": "Sebastian and Toshinori, Bad Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent": "661717000", "HasSeenEvent |contains=66170035": "false"},
+    "Target": "Characters/Dialogue/Sebastian",	
+	"Entries": {"fall6_12_2": "{{i18n:6617.SebastianEdit.4}}"}
+	},
+//Elliott
+	{"LogName": "Elliott and Toshinori",
+    "Action": "EditData",
+	"When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},
+    "Target": "Characters/Dialogue/Elliott",	
+	"Entries": {"winter_2_2": "{{i18n:6617.ElliottEdit.1}}",
+	"summer2_7_2": "{{i18n:6617.ElliottEdit.2}}",}
+	},
+    {"LogName": "Elliott and Toshinori, Good Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent |contains=661717000": "true", "HasSeenEvent |contains=66170035": "true"},
+    "Target": "Characters/Dialogue/Elliott",	
+	"Entries": {"winter_2_2": "{{i18n:6617.ElliottEdit.3}}",}
+	},
+	{"LogName": "Elliott and Toshinori, Bad Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent": "661717000", "HasSeenEvent |contains=66170035": "false"},
+    "Target": "Characters/Dialogue/Elliott",	
+	"Entries": {"winter_2_2": "{{i18n:6617.ElliottEdit.4}}"}
+	},
+//Sam
+	{"LogName": "Sam and Toshinori",
+    "Action": "EditData",
+	"When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},
+    "Target": "Characters/Dialogue/Sam",	
+	"Entries": {"spring_17_2": "{{i18n:6617.SamEdit.1}}",
+	"summer2_10_2": "{{i18n:6617.SamEdit.2}}"}
+	},
+    {"LogName": "Sam and Toshinori, Good Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent |contains=661717000": "true", "HasSeenEvent |contains=66170035": "true"},
+    "Target": "Characters/Dialogue/Sam",	
+	"Entries": {"spring_17_2":  "{{i18n:6617.SamEdit.3}}",}
+	},
+	{"LogName": "Sam and Toshinori, Bad Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent": "661717000", "HasSeenEvent |contains=66170035": "false"},
+    "Target": "Characters/Dialogue/Sam",	
+	"Entries": {"spring_17_2": "{{i18n:6617.SamEdit.4}}"}
+	},
+//Emily
+	{"LogName": "Emily and Toshinori",
+    "Action": "EditData",
+	"When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},
+    "Target": "Characters/Dialogue/Emily",	
+	"Entries": {"spring_18_2": "{{i18n:6617.EmilyEdit.1}}",
+	"summer4_13": "{{i18n:6617.EmilyEdit.2}}!"}
+	},
+    {"LogName": "Emily and Toshinori, Good Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent |contains=661717000": "true", "HasSeenEvent |contains=66170035": "true"},
+    "Target": "Characters/Dialogue/Emily",	
+	"Entries": {"spring_18_2": "{{i18n:6617.EmilyEdit.3}}",}
+	},
+	{"LogName": "Emily and Toshinori, Bad Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent": "661717000", "HasSeenEvent |contains=66170035": "false"},
+    "Target": "Characters/Dialogue/Emily",	
+	"Entries": {"spring_18_2": "{{i18n:6617.EmilyEdit.4}}"}
+	},
+//Maru
+	{"LogName": "Maru and Toshinori",
+    "Action": "EditData",
+	"When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},
+    "Target": "Characters/Dialogue/Maru",	
+	"Entries": {"spring_21_2": "{{i18n:6617.MaruEdit.1}}",}
+	},
+    {"LogName": "Maru and Toshinori, Good Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent |contains=661717000": "true", "HasSeenEvent |contains=66170035": "true"},
+    "Target": "Characters/Dialogue/Maru",	
+	"Entries": {"spring_21_2": "{{i18n:6617.MaruEdit.2}}",}
+	},
+	{"LogName": "Maru and Toshinori, Bad Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent": "661717000", "HasSeenEvent |contains=66170035": "false"},
+    "Target": "Characters/Dialogue/Maru",	
+	"Entries": {"spring_21_2": "{{i18n:6617.MaruEdit.3}}"}
+	},
+//Penny
+	{"LogName": "Penny and Toshinori",
+    "Action": "EditData",
+	"When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},
+    "Target": "Characters/Dialogue/Penny",	
+	"Entries": {"summer_23_2": "{{i18n:6617.PennyEdit.1}}",
+	"winter_16_2": "{{i18n:6617.PennyEdit.2}}",}
+	},
+    {"LogName": "Penny and Toshinori, Good Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent |contains=661717000": "true", "HasSeenEvent |contains=66170035": "true"},
+    "Target": "Characters/Dialogue/Penny",	
+	"Entries": {"summer_23_2": "{{i18n:6617.PennyEdit.3}}",}
+	},
+	{"LogName": "Penny and Toshinori, Bad Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent": "661717000", "HasSeenEvent |contains=66170035": "false"},
+    "Target": "Characters/Dialogue/Penny",	
+	"Entries": {"summer_23_2": "{{i18n:6617.PennyEdit.4}}"}
+	},
+//Caroline
+	{"LogName": "Caroline and Toshinori",
+    "Action": "EditData",
+	"When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},
+    "Target": "Characters/Dialogue/Caroline",	
+	"Entries": {"fall_10_2": "{{i18n:6617.CarolineEdit.1}}",
+	"winter_3_2": "{{i18n:6617.CarolineEdit.2}}",}
+	},
+    {"LogName": "Caroline and Toshinori, Good Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent |contains=661717000": "true", "HasSeenEvent |contains=66170035": "true"},
+    "Target": "Characters/Dialogue/Caroline",	
+	"Entries": {"fall_10_2": "{{i18n:6617.CarolineEdit.3}}",}
+	},
+	{"LogName": "Caroline and Toshinori, Bad Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent": "661717000", "HasSeenEvent |contains=66170035": "false"},
+    "Target": "Characters/Dialogue/Caroline",	
+	"Entries": {"fall_10_2": "{{i18n:6617.CarolineEdit.4}}"}
+	},
+//Demetrius
+	{"LogName": "Demetrius and Toshinori",
+    "Action": "EditData",
+	"When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},
+    "Target": "Characters/Dialogue/Demetrius",	
+	"Entries": {"spring_10_2": "{{i18n:6617.DemetriusEdit.1}}",
+	"summer_4_2": "{{i18n:6617.DemetriusEdit.2}}"}
+	},
+    {"LogName": "Demetrius and Toshinori, Good Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent |contains=661717000": "true", "HasSeenEvent |contains=66170035": "true"},
+    "Target": "Characters/Dialogue/Demetrius",	
+	"Entries": {"spring_10_2": "{{i18n:6617.DemetriusEdit.3}}",}
+	},
+	{"LogName": "Demetrius and Toshinori, Bad Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent": "661717000", "HasSeenEvent |contains=66170035": "false"},
+    "Target": "Characters/Dialogue/Demetrius",	
+	"Entries": {"spring_10_2": "{{i18n:6617.DemetriusEdit.4}}"}
+	},
+//Vincent
+	{"LogName": "Vincent and Toshinori",
+    "Action": "EditData",
+	"When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},
+    "Target": "Characters/Dialogue/Vincent",	
+	"Entries": {"spring_13_2": "{{i18n:6617.VincentEdit.1}}",
+	"summer_9_2": "{{i18n:6617.VincentEdit.2}}"}
+	},
+//Willy
+	{"LogName": "Willy and Toshinori",
+    "Action": "EditData",
+	"When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},
+    "Target": "Characters/Dialogue/Willy",	
+	"Entries": {"summer_14_2": "{{i18n:6617.WillyEdit.1}}",
+	"winter_9_2": "{{i18n:6617.WillyEdit.2}}",}
+	},
+    {"LogName": "Willy and Toshinori, Good Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent |contains=661717000": "true", "HasSeenEvent |contains=66170035": "true"},
+    "Target": "Characters/Dialogue/Willy",	
+	"Entries": {"summer_14_2":"{{i18n:6617.WillyEdit.3}}",}
+	},
+	{"LogName": "Willy and Toshinori, Bad Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent": "661717000", "HasSeenEvent |contains=66170035": "false"},
+    "Target": "Characters/Dialogue/Willy",	
+	"Entries": {"summer_14_2": "{{i18n:6617.WillyEdit.4}}"}
+	},
+//Shane
+	{"LogName": "Shane and Toshinori",
+    "Action": "EditData",
+	"When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},
+    "Target": "Characters/Dialogue/Shane",	
+	"Entries": {"summer_15_2": "{{i18n:6617.ShaneEdit.1}}",
+	"winter6_17_2": "{{i18n:6617.ShaneEdit.2}}",
+	"fall8_7_2": "{{i18n:6617.ShaneEdit.3}}"}
+	},
+    {"LogName": "Shane and Toshinori, Good Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent |contains=661717000": "true", "HasSeenEvent |contains=66170035": "true"},
+    "Target": "Characters/Dialogue/Shane",	
+	"Entries": {"fall_7_2": "{{i18n:6617.ShaneEdit.4}}",}
+	},
+	{"LogName": "Shane and Toshinori, Bad Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent": "661717000", "HasSeenEvent |contains=66170035": "false"},
+    "Target": "Characters/Dialogue/Shane",	
+	"Entries": {"fall_7_2": "{{i18n:6617.ShaneEdit.4}}"}
+	},
+//Leah
+	{"LogName": "Leah and Toshinori",
+    "Action": "EditData",
+	"When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},
+    "Target": "Characters/Dialogue/Leah",	
+	"Entries": {"spring_5_2": "{{i18n:6617.LeahEdit.1}}",
+	"fall5_12_2": "{{i18n:6617.LeahEdit.2}}",}
+	},
+    {"LogName": "Leah and Toshinori, Good Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent |contains=661717000": "true", "HasSeenEvent |contains=66170035": "true"},
+    "Target": "Characters/Dialogue/Leah",	
+	"Entries": {"fall_10_2": "{{i18n:6617.LeahEdit.3}}",}
+	},
+	{"LogName": "Leah and Toshinori, Bad Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent": "661717000", "HasSeenEvent |contains=66170035": "false"},
+    "Target": "Characters/Dialogue/Leah",	
+	"Entries": {"fall_10_2": "{{i18n:6617.LeahEdit.4}}"}
+	},
+//Clint
+	{"LogName": "Clint and Toshinori",
+    "Action": "EditData",
+	"When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},
+    "Target": "Characters/Dialogue/Clint",	
+	"Entries": {"winter_6_2": "{{i18n:6617.ClintEdit.1}}",
+	"fall_27_2": "{{i18n:6617.ClintEdit.2}}"}
+	},
+//Jodi
+	{"LogName": "Jodi and Toshinori",
+    "Action": "EditData",
+	"When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},
+    "Target": "Characters/Dialogue/Jodi",	
+	"Entries": {"fall_24_2": "{{i18n:6617.JodiEdit.1}}"}
+	},
+	{"LogName": "Jodi and Toshinori, Good Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "HasSeenEvent |contains=661717000": "true", "HasSeenEvent |contains=66170035": "true"},
+    "Target": "Characters/Dialogue/Jodi",	
+	"Entries": {"fall_24_2": "{{i18n:6617.JodiEdit.2}}"}
+	},
+	{"LogName": "Jodi and Toshinori, Bad Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent": "661717000", "HasSeenEvent |contains=66170035": "false"},
+    "Target": "Characters/Dialogue/Jodi",	
+	"Entries": {"fall_24_2": "{{i18n:6617.JodiEdit.3}}"}
+	},
+//Marnie
+	{"LogName": "Marnie and Toshinori",
+    "Action": "EditData",
+	"When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},
+    "Target": "Characters/Dialogue/Marnie",	
+	"Entries": {"summer_28_2": "{{i18n:6617.MarnieEdit.1}}"}
+	},
+	{"LogName": "Marnie and Toshinori, Good Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent |contains=661717000": "true", "HasSeenEvent |contains=66170035": "true"},
+    "Target": "Characters/Dialogue/Marnie",	
+	"Entries": {"summer_28_2": "{{i18n:6617.MarnieEdit.2}}"}
+	},
+	{"LogName": "Marnie and Toshinori, Bad Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent": "661717000", "HasSeenEvent |contains=66170035": "false"},
+    "Target": "Characters/Dialogue/Marnie",	
+	"Entries": {"summer_28_2": "{{i18n:6617.MarnieEdit.3}}"}
+	},
+//Pam
+	{"LogName": "Pam and Toshinori",
+    "Action": "EditData",
+	"When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},
+    "Target": "Characters/Dialogue/Pam",	
+	"Entries": {"spring6_10": "{{i18n:6617.PamEdit.1}}"}
+	},
+	{"LogName": "Pam and Toshinori, Good Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent |contains=661717000": "true", "HasSeenEvent |contains=66170035": "true"},
+    "Target": "Characters/Dialogue/Pam",	
+	"Entries": {"spring6_10_2": "{{i18n:6617.PamEdit.2}}"}
+	},
+	{"LogName": "Pam and Toshinori, Bad Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent": "661717000", "HasSeenEvent |contains=66170035": "false"},
+    "Target": "Characters/Dialogue/Pam",	
+	"Entries": {"spring6_10_2": "{{i18n:6617.PamEdit.3}}"}
+	},
+//Robin
+	{"LogName": "Robin and Toshinori",
+    "Action": "EditData",
+	"When": {"NPCDialogueEdits": "true", "HasSeenEvent |contains=661715000, 661716000": "false"},
+    "Target": "Characters/Dialogue/Robin",	
+	"Entries": {"spring_4_2": "{{i18n:6617.RobinEdit.1}}",
+    "fall_7_2": "{{i18n:6617.RobinEdit.2}}",
+    "winter_8_2": "{{i18n:6617.RobinEdit.3}}"}
+	},
+	{"LogName": "Robin and Toshinori, Good Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent |contains=661717000": "true", "HasSeenEvent |contains=66170035": "true"},
+    "Target": "Characters/Dialogue/Robin",	
+	"Entries": {"fall_7_2": "{{i18n:6617.RobinEdit.4}}"}
+	},
+	{"LogName": "Robin and Toshinori, Bad Ending",
+    "Action": "EditData",
+	"When": {"HeartbreakMode": "true", "NPCDialogueEdits": "true", "HasSeenEvent": "661717000", "HasSeenEvent |contains=66170035": "false"},
+    "Target": "Characters/Dialogue/Robin",	
+	"Entries": {"fall_7_2": "{{i18n:6617.RobinEdit.5}}"}
+	},
+ 
+	]
+}
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+﻿{
+"hasMods": [
+"FlashShifter.StardewValleyExpandedALL"
+],
+"onlyWarps": [
+
+{
+"name": "Desert",
+"addWarps": [
+	"169 24 GhostTown 1 33",
+	"169 25 GhostTown 1 34",
+	"169 26 GhostTown 1 35",
+	"169 27 GhostTown 1 36",
+	"169 28 GhostTown 1 37"
+]
+}
+]  
+}

@@ -1,0 +1,47 @@
+{
+    "Name": "Broken black horn",
+    "Description": "It exudes a strong and dense aura, an excellent magical component... but its presence is suffocating.",
+    "Category": "AnimalGoods",
+    "Edibility": -300,
+    "Price": 280,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Wizard"],
+		"Like": ["Krobus"],
+		"Dislike": ["Abigail", "Alex", "Caroline", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Willy"],
+        "Hate": ["Dwarf"]
+    },
+    "NameLocalization":
+    {
+		 "es": "Cuerno negro roto",
+         "ko": "부서진 검은 뿔",
+		 "de": "Schwarzes Horn gebrochen",
+         "fr": "Corne noire cassée",
+         "hu": "Törött fekete kürt",
+         "it": "Corno nero rotto",
+         "ja": "壊れた黒い角",
+         "pt": "Chifre quebrado negro",
+         "ru": "Сломанный черный рог",
+         "tr": "Kırık siyah boynuz",
+         "zh": "破碎的黑角",
+    },
+    "DescriptionLocalization":
+    {
+         "es": "Exuda un aura fuerte y densa, un excelente componente mágico... pero su presencia es asfixiante.",
+         "ko": "강하고 빽빽한 아우라, 뛰어난 마법 성분을 발산하지만, 그 존재감은 질식합니다.",
+         "de": "Es strahlt eine starke und dichte Aura aus, eine ausgezeichnete magische Komponente ... aber seine Präsenz erstickt.",
+         "fr": "Il dégage une aura forte et dense, une excellente composante magique ... mais sa présence est suffocante.",
+         "hu": "Erős és sűrű aurát áraszt, kiváló mágikus alkotóelem ... de jelenléte fojtogató.",
+         "it": "Emana un'aura forte e densa, un'ottima componente magica ... ma la sua presenza è soffocante.",
+         "ja": "それは強くて密度の高いオーラ、優れた魔法の要素を醸し出しています...しかしその存在は息苦しいです。",
+         "pt": "Exala uma aura forte e densa, um componente mágico excelente... mas é sufocante sua presença.",
+         "ru": "Он излучает сильную и плотную ауру, прекрасный магический компонент ... но его присутствие удушает.",
+         "tr": "Güçlü ve yoğun bir aura yayıyor, mükemmel bir büyülü bileşen ... ama varlığı boğucu.",
+         "zh": "它散发出强烈而浓密的光环，是极好的魔法成分……但是它的存在令人窒息。",
+    },
+    "ContextTags": [
+        "color_black",
+    ]
+}

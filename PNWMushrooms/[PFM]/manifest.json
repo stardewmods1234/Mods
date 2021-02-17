@@ -1,0 +1,18 @@
+﻿{
+    "Name": "[PFM] PNW Mushrooms",
+    "Author": "pHScale",
+    "Version": "1.0.0",
+    "Description": "Adds two craftable mushroom growing boxes, including the mushrooms from PNW Mushrooms",
+    "UniqueID": "pHScale.PNWMushroomMachine",
+    "MinimumApiVersion": "3.8.0",
+    "Dependencies": [
+    {
+        "UniqueID": "spacechase0.JsonAssets",
+        "IsRequired": true
+    },     ],
+    "ContentPackFor":
+    {
+        "UniqueID": "DIGUS.ProducerFrameworkMod"
+    },    
+  "UpdateKeys": [ "Nexus:https://www.nexusmods.com/stardewvalley/mods/8039/" ],
+}

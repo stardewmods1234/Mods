@@ -1,0 +1,9 @@
+{
+  "spring": "700 Town 34 73 3/1100 SeedShop 3 23 2 \"Strings\\schedules\\Kim:shopping.000\"/1500 Town 25 22 2/1900 Saloon 17 20 0 \"Strings\\schedules\\Kim:drinking.000\"2400 BoardingHouse2 30 3 0",
+  "summer": "700 Town 34 73 3/1100 SeedShop 3 23 2 \"Strings\\schedules\\Kim:shopping.000\"/1500 Town 25 22 2/1900 Saloon 17 20 0 \"Strings\\schedules\\Kim:drinking.000\"/2400 BoardingHouse2 30 3 0",
+  "fall": "700 Town 34 73 3/1100 SeedShop 3 23 2 \"Strings\\schedules\\Kim:shopping.000\"/1500 Town 25 22 2/1900 Saloon 17 20 0 \"Strings\\schedules\\Kim:drinking.000\"/2400 BoardingHouse2 30 3 0",
+  "winter": "700 Town 34 73 3/1100 SeedShop 3 23 2 \"Strings\\schedules\\Kim:shopping.000\"/1500 Town 25 22 2/1900 Saloon 17 20 0 \"Strings\\schedules\\Kim:drinking.000\"/2400 BoardingHouse2 30 3 0",
+  "rain": "700 BoardingHouse2 45 12 0/1100 SeedShop 3 23 2 \"Strings\\schedules\\Kim:shopping.000\"/1500 BoardingHouse 27 11 0/1900 BoardingHouse2 45 12 0/2400 BoardingHouse2 30 3 0",
+  "marriage_Tue": "730 Town 34 73 3/1100 Town 52 69 0/1500 Town 25 22 2/1900 Saloon 17 20 0 \"Strings\\schedules\\Kim:married.001\"",
+  "marriage_Thu": "730 Town 34 73 3/1100 Town 52 69 0/1500 Town 25 22 2/1900 Saloon 17 20 0 \"Strings\\schedules\\Kim:married.001\"",
+}

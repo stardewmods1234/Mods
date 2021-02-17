@@ -1,0 +1,43 @@
+{
+  "Name": "Golden Jewel Ring",
+  "Description": "Golden jewel Ring!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 1200,
+  "IsColored": true,
+  "Recipe": null,
+   "CanPurchase": false,
+   //"PurchaseFrom": "Robin",
+   //"PurchasePrice": 500,
+   //"PurchaseRequirements":
+   //[
+    //  "r 0.50"
+   // ]
+    "NameLocalization": { 
+		// "es": "",
+		"ko": "보석 금반지",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Anel de Jóias Dourado",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        "ko": "아름다운 보석 금반지!",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Um anel de jóias dourado.",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    }  
+}

@@ -1,0 +1,113 @@
+{
+  "Format": "1.19.0",
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/ObjectInformation",
+      "Fields": {
+		  "552": {
+			3: "Minerals -2",  //Change Malachite(공작석) to gem
+			},
+		  "562": {
+			3: "Minerals -2",  //Change Tigerseye(호안석) to gem
+			},
+		  "563": {
+			3: "Minerals -2",  //Change Jasper(벽옥) to gem
+			},
+		  "564": {
+			3: "Minerals -2",  //Change Opal(오팔) to gem
+			},
+		  "565": {
+			3: "Minerals -2",  //Change Fire Opal(화단백석) to gem
+			},
+		  "575": {
+			3: "Minerals -2",  //Change Obsidian(흑요석) to gem
+			},
+	  }
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/ObjectContextTags",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": [ "Entries", "Malachite" ],
+				"Value" : "green_gem",
+				"Delimiter" : "," 
+			},
+			{
+				"Operation": "Append",
+				"Target": [ "Entries", "Tigerseye" ],
+				"Value" : "orange_gem",
+				"Delimiter" : "," 
+			},
+			{
+				"Operation": "Append",
+				"Target": [ "Entries", "Jasper" ],
+				"Value" : "red_gem",
+				"Delimiter" : "," 
+			},
+			{
+				"Operation": "Append",
+				"Target": [ "Entries", "Opal" ],
+				"Value" : "opal_item, blue_gem",
+				"Delimiter" : "," 
+			},
+			{
+				"Operation": "Append",
+				"Target": [ "Entries", "Fire Opal" ],
+				"Value" : "opal_item, purple_gem",
+				"Delimiter" : "," 
+			},
+			{
+				"Operation": "Append",
+				"Target": [ "Entries", "Obsidian" ],
+				"Value" : "black_gem",
+				"Delimiter" : "," 
+			},
+			{
+				"Operation": "Append",
+				"Target": [ "Entries", "Emerald" ],
+				"Value" : "green_gem",
+				"Delimiter" : "," 
+			},
+			{
+				"Operation": "Append",
+				"Target": [ "Entries", "Aquamarine" ],
+				"Value" : "cyan_gem",
+				"Delimiter" : "," 
+			},
+			{
+				"Operation": "Append",
+				"Target": [ "Entries", "Ruby" ],
+				"Value" : "red_gem",
+				"Delimiter" : "," 
+			},
+			{
+				"Operation": "Append",
+				"Target": [ "Entries", "Amethyst" ],
+				"Value" : "purple_gem",
+				"Delimiter" : "," 
+			},
+			{
+				"Operation": "Append",
+				"Target": [ "Entries", "Topaz" ],
+				"Value" : "topaz_item, yellow_gem",
+				"Delimiter" : "," 
+			},
+			{
+				"Operation": "Append",
+				"Target": [ "Entries", "Jade" ],
+				"Value" : "jade_item, green_gem",
+				"Delimiter" : "," 
+			},
+			{
+				"Operation": "Append",
+				"Target": [ "Entries", "Diamond" ],
+				"Value" : "diamond_item, white_gem",
+				"Delimiter" : "," 
+			},
+		]
+	} 
+	]
+}

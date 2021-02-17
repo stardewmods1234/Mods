@@ -1,0 +1,46 @@
+{
+    "Name": "Whiskey Sapphire",
+    "Description": "A sapphire with elegant brown colors.",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
+    "Edibility": -300,
+    "Price": 250,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "위스키 사파이어",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Safira Uísque",
+        // "ru": "",
+        // "tr": "",
+        "zh": "威士忌蓝宝石",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "고상한 갈색을 띄는 사파이어.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Uma safira com tons elegantes de marrom.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "优雅的金棕色蓝宝石。",
+    },
+	
+    "ContextTags": [
+        "color_brown", "sapphire_item", "brown_gem", 
+    ],
+}

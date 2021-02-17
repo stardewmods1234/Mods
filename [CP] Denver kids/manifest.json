@@ -1,0 +1,10 @@
+{
+   "Name": "Denver's kids",
+   "Author": "balverines",
+   "Description": "Makes kids look like Denver",
+   "Version": "1.0.1",
+   "UniqueID": "balverines.denverkids",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+}

@@ -1,0 +1,47 @@
+{
+  "Name": "White Lilac",
+  "Description": "Lilacs are often considered to symbolize love. Usually around spring and early summer. Theyre bisesexual, with fertile stamens and stigma in each flower.",
+  "Category": "Flower",
+  "Edibility": -300,
+  "Price": 65,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+        "Love": ["Emily", "Robin"],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+  "NameLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "ContextTags": [
+    	"season_spring",
+        "season_summer",
+        "flower_item"
+    ]
+}

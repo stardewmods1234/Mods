@@ -1,0 +1,183 @@
+{
+    "Changes": [
+        /*********
+        ** Add files for custom locations
+        *********/
+        {
+            "Action": "Load",
+            "Target": "Data/Events/LyellsBarn, Data/Events/LyellsHouse, Data/Events/LyellsWoods",
+            "FromFile": "assets/empty.json"
+        },
+
+
+        /*********
+        ** Pierre's Shop, 0.4-heart event
+        *********/
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/SeedShop",
+            "Entries": {
+                "70000/f Lyell 100/w sunny/t 900 1700": "playful/-1000 -1000/farmer 6 27 1 Lyell 4 19 0 Pierre 4 17 2/viewport 4 19/skippable/pause 800/speak Lyell \"{{i18n:event-0.01}}\"/pause 300/move farmer 0 -5 0/speak Pierre \"{{i18n:event-0.02}}\"/move farmer 0 -3 3/move Lyell 0 0 1/pause 200/emote Lyell 40/speak Pierre \"{{i18n:event-0.03}}\"/pause 300/speak Lyell \"{{i18n:event-0.04}}\"/pause 300/emote Lyell 28/speak Lyell \"{{i18n:event-0.05}}\"/pause 200/speak Pierre \"{{i18n:event-0.06}}\"/emote farmer 20/pause 200/speak Lyell \"{{i18n:event-0.07}}\"/pause 100/stopMusic/speak Lyell \"{{i18n:event-0.08}}\"/pause 300/speak Lyell \"{{i18n:event-0.09}}\"/pause 100/move Lyell 0 1 2/move Lyell 2 0 2/move Lyell 0 8 2/warp Lyell -1 0/playSound doorClose/friendship Lyell 10/pause 800/move farmer -2 0 0/pause 200/emote Pierre 8/pause 200/speak Pierre \"{{i18n:event-0.10}}\"/pause 800/end"
+            },
+        },
+
+
+        /*********
+        ** Mountain, 1 + 4 heart events
+        *********/
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Mountain",
+            "Entries": {
+                "700001/e 70000/f Lyell 250/w sunny/t 600 1700": "Cyclops/-1000 -1000/farmer 43 32 1 Lyell 49 32 1/pause 1000/fade/viewport 49 32/skippable/move farmer 5 0 1/jump Lyell 5/faceDirection Lyell 3/speak Lyell \"{{i18n:event-1.01}}\"/pause 700/speak Lyell \"{{i18n:event-1.02}}\"/pause 800/speak Lyell \"{{i18n:event-1.03}}\"/pause 800/emote farmer 8/pause 1500/speak Lyell \"{{i18n:event-1.04}}\"/pause 800/speak Lyell \"{{i18n:event-1.05}}\"/pause 800/speak Lyell \"{{i18n:event-1.06}}\"/pause 900/speak Lyell \"{{i18n:event-1.07}}\"/pause 1500/speak Lyell \"{{i18n:event-1.08}}\"/emote farmer 8/pause 800/speak Lyell \"{{i18n:event-1.09}}\"/pause 1500/speak Lyell \"{{i18n:event-1.10}}\"/stopMusic/pause 900/speak Lyell \"$q 999999 null \"#{{i18n:event-1.11}}#$r -1 50 past_talk_1#{{i18n:event-1.12}}#$r -1 -50 past_talk_2#{{i18n:event-1.13}}#$r -1 0 past_talk_3#{{i18n:event-1.14}}\"/pause 500/stopMusic/speak Lyell \"{{i18n:event-1.15}}\"/fade/viewport -2000 -2000/pause 2000/end",
+                "700006/f Lyell 1000/e 700005/w sunny/t 1700 2000": "nightTime/-1000 -1000/farmer 18 8 1 Linus 29 10 0 Lyell 29 8 2/specificTemporarySprite LinusCampfire 28 9/viewport 29 7/skippable/animate Lyell false true 350 20 20 20 20 20 21/move farmer 8 0 1/stopAnimation Lyell 20/faceDirection Lyell 3/textAboveHead Lyell \"{{i18n:textAboveHead}}\"/pause 800/speak Lyell \"{{i18n:event-6.01}}\"/pause 800/move farmer 2 0 2/move farmer 0 1 1/pause 800/speak Lyell \"{{i18n:event-6.02}}\"/pause 400/faceDirection Lyell 2/pause 1500/speak Lyell \"{{i18n:event-6.03}}\"/pause 800/speak Linus \"{{i18n:event-6.04}}\"/pause 800/speak Lyell \"{{i18n:event-6.05}}\"/pause 800/speak Linus \"{{i18n:event-6.06}}\"/pause 400/speak Lyell \"{{i18n:event-6.07}}\"/pause 800/speak Lyell \"{{i18n:event-6.08}}\"/pause 1500/speak Lyell \"$q 999999 null \"#{{i18n:event-6.09}}#$r -1 50 camp_fire_1#{{i18n:event-6.10}}#$r -1 -50 event_camp_fire_2#{{i18n:event-6.11}}\"/pause 500/stopMusic/faceDirection Lyell 2/speak Lyell \"{{i18n:event-6.12}}\"/globalFade/viewport -2000 -2000/pause 2000/end"
+            }
+        },
+
+        /*********
+        ** Hospital, 1.16-heart event
+        *********/
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "700002/e 700001/f Lyell 290/w rainy/z summer/z fall/z winter/t 600 1700": "desolate/-1000 -1000/farmer 10 7 1 Lyell 16 6 2 Harvey 16 7 0/viewport 15 6/skippable/pause 800/emote Harvey 12/pause 300/speak Harvey \"{{i18n:event-2.01}}\"/pause 800/speak Lyell \"{{i18n:event-2.02}}\"/pause 600/speak Harvey \"{{i18n:event-2.03}}\"/pause 300/speak Lyell \"{{i18n:event-2.04}}\"/pause 600/speak Harvey \"{{i18n:event-2.05}}\"/pause 800/speak Harvey \"{{i18n:event-2.06}}\"/pause 400/emote Lyell 28/move farmer 5 0 1/pause 500/emote farmer 8/pause 600/emote Lyell 16/emote Harvey 16/move Harvey 0 0 3/speak Harvey \"{{i18n:event-2.07}}\"/pause 300/speak Harvey \"{{i18n:event-2.08}}\"/pause 800/speak Lyell \"{{i18n:event-2.09}}\"/move Harvey 0 0 0/pause 200/emote Harvey 12/pause 400/speak Harvey \"{{i18n:event-2.10}}\"/pause 800/speak Lyell \"{{i18n:event-2.11}}\"/pause 800/speak Lyell \"{{i18n:event-2.12}}\"/pause 300/speak Lyell \"$q 95555 null \"#{{i18n:event-2.13}}#$r 95555 -5 answer_one#{{i18n:event-2.14}}#$r 95556 -10 answer_two#{{i18n:event-2.15}}#$r 95557 50 answer_three#{{i18n:event-2.16}}\"/pause 1000/fade/viewport 49 32/fade/viewport -2000 -2000/pause 2000/end"
+            }
+        },
+
+
+        /*********
+        ** Lyell's Woods, 1.36 + 1.4 + 8-heart events
+        *********/
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/LyellsWoods",
+            "Entries": {
+                "700003/e 700002/f Lyell 340/w rainy/z summer/t 600 800": "Icicles/-1000 -1000/farmer 19 13 3 Lyell 19 11 0/pause 1000/fade/viewport 19 11/skippable/move farmer 0 -1 0/pause 800/emote farmer 8/pause 800/move Lyell 0 0 2/pause 800/speak Lyell \"{{i18n:event-3.01}}\"/pause 1500/speak Lyell \"{{i18n:event-3.02}}\"/pause 800/emote Lyell 28/pause 200/speak Lyell \"{{i18n:event-3.03}}\"/pause 1500/speak Lyell \"{{i18n:event-3.04}}\"/pause 800/speak Lyell \"{{i18n:event-3.05}}\"/pause 800/speak Lyell \"{{i18n:event-3.06}}\"/pause 800/speak Lyell \"$q 999999 null \"#{{i18n:event-3.07}}#$r -1 50 marlin_1#{{i18n:event-3.08}}#$r -1 -50 marlin_2#{{i18n:event-3.09}}\"/pause 1600/speak Lyell \"{{i18n:event-3.10}}\"/fade/viewport -2000 -2000/pause 2000/end",
+
+                "700990/f Lyell 350/t 600 1200": "playful/-1000 -1000/farmer 20 16 2 Lyell 12 19 2/viewport 12 19/skippable/pause 800/speak Lyell \"{{i18n:event-990.01}}\"/pause 500/move Lyell 0 1 3/faceDirection Lyell 1/faceDirection Lyell 0/faceDirection Lyell 2/pause 600/emote Lyell 28/pause 900/speak Lyell \"{{i18n:event-990.02}}\"/pause 400/viewport move 1 0 1800/pause 800/addTemporaryActor Roswell 16 32 -3000 -3000 2 true character/speak Roswell \"{{i18n:event-990.03}}\"/pause 600/emote farmer 8/move farmer 0 3 1/pause 300/speak Lyell \"{{i18n:event-990.04}}\"/pause 300/move farmer 6 0 1/pause 200/speak Roswell \"{{i18n:event-990.05}}\"/Fade/viewport 26 18/warp Lyell 26 18/faceDirection Lyell 1/warp farmer 27 17/faceDirection farmer 2/pause 800/emote Lyell 20/pause 600/speak Lyell \"{{i18n:event-990.06}}\"/pause 800/speak Lyell \"{{i18n:event-990.07}}\"/pause 800/speak Lyell \"{{i18n:event-990.08}}\"/pause 800/speak Roswell \"{{i18n:event-990.09}}\"/pause 800/speak Lyell \"{{i18n:event-990.10}}\"/showFrame Lyell 31/positionOffset Lyell 4 0/pause 200/speak Roswell \"{{i18n:event-990.11}}\"/positionOffset Lyell -4 0/pause 400/showFrame Lyell 4/emote Lyell 28/pause 800/speak Lyell \"{{i18n:event-990.12}}\"/pause 600/speak Lyell \"{{i18n:event-990.13}}\"/pause 200/emote Roswell 16/speak Roswell \"{{i18n:event-990.14}}\"/viewport move 1 -1 6000000/globalFade/viewport -1000 -1000/end warpOut",
+
+                "700007/e 700006/f Lyell 2000/w rainy/t 2100 2300": "spaceMusic/-1000 -1000/farmer 26 8 3 Lyell 24 7 0/pause 1000/fade/viewport 24 7/skippable/addLantern 735 6 9 2/animate Lyell false true 100 24 24 24/speak Lyell \"{{i18n:event-7.01}}\"/pause 800/speak Lyell \"{{i18n:event-7.02}}\"/pause 300/move farmer -1 0 0/pause 800/shake Lyell 300/speak Lyell \"{{i18n:event-7.03}}\"/emote farmer 8/stopAnimation Lyell 35/showFrame Lyell 35/pause 1500/showFrame Lyell 0/faceDirection Lyell 2/pause 300/speak Lyell \"{{i18n:event-7.04}}\"/pause 800/speak Lyell \"$q 999999 null \"#{{i18n:event-7.05}}#$r -1 50 shrine_1#{{i18n:event-7.06}}#$r -1 -50 shrine_2#{{i18n:event-7.07}}\"/pause 700/emote Lyell 28/pause 800/speak Lyell \"{{i18n:event-7.08}}\"/pause 800/speak Lyell \"{{i18n:event-7.09}}\"/emote Lyell 28/pause 800/speak Lyell \"{{i18n:event-7.10}}\"/pause 1500/speak Lyell \"{{i18n:event-7.11}}\"/pause 300/speak Lyell \"{{i18n:event-7.12}}\"/pause 1000/speak Lyell \"{{i18n:event-7.13}}\"/pause 800/speak Lyell \"{{i18n:event-7.14}}\"/pause 1000/speak Lyell \"{{i18n:event-7.15}}\"/pause 800/speak Lyell \"{{i18n:event-7.16}}\"/pause 200/emote Lyell 12/pause 200/speak Lyell \"{{i18n:event-7.17}}\"/pause 800/speak Lyell \"{{i18n:event-7.18}}\"/showFrame Lyell 40/shake Lyell 3000/pause 100/jump farmer 8/pause 1000/message \"{{i18n:event-7.19}}\"/changeLocation LyellsHouse/viewport 5 6/warp farmer 5 6 1/warp Lyell 8 9 3/showFrame Lyell 41/pause 1600/message \"{{i18n:event-7.20}}\"/changeLocation Forest/warp farmer 12 10 2/viewport 12 10/fade/viewport -2000 -2000/pause 2000/end"
+            }
+        },
+
+
+        /*********
+        ** Lyell's Barn, 1.4-heart event
+        *********/
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/LyellsBarn",
+            "Entries": {
+                "7000016/f Lyell 350/z winter/z fall/z summer": "cm:Poppy/-1000 -1000/farmer 5 12 1 Lyell 12 9 1/pause 1000/fade/viewport 10 9/skippable/changePortrait Lyell Cow/changeSprite Lyell Cow/showFrame Lyell 17/positionOffset Lyell -30 0/positionOffset Lyell 0 10/pause 800/speak Lyell \"{{i18n:event-16.01}}\"/pause 500/emote Lyell 20/playSound cow/pause 600/speak Lyell \"{{i18n:event-16.02}}\"/pause 800/move farmer 6 0 0/move farmer 0 -2 0/pause 800/showFrame Lyell 16/pause 800/speak Lyell \"{{i18n:event-16.03}}\"/pause 800/speak Lyell \"{{i18n:event-16.04}}\"/pause 400/playSound cow/pause 800/message \"{{i18n:event-16.05}}\"/pause 800/speak Lyell \"{{i18n:event-16.06}}\"/pause 800/speak Lyell \"{{i18n:event-16.07}}\"/pause 800/speak Lyell \"{{i18n:event-16.08}}\"/pause 800/speak Lyell \"{{i18n:event-16.09}}\"/pause 800/speak Lyell \"{{i18n:event-16.10}}\"/showFrame Lyell 2/changePortrait Lyell Spring/pause 600/speak Lyell \"{{i18n:event-16.11}}\"/question fork1 \"#{{i18n:event-16.12}}#{{i18n:event-16.disagree.01}}\"/fork lyell_disagree/pause 800/emote Lyell 20/pause 600/speak Lyell \"{{i18n:event-16.13}}\"/pause 800/speak Lyell \"{{i18n:event-16.14}}\"/pause 800/speak Lyell \"{{i18n:event-16.15}}\"/pause 800/speak Lyell \"{{i18n:event-16.16}}\"/pause 800/speak Lyell \"{{i18n:event-16.17}}\"/pause 800/fade/friendship Lyell 120/end",
+                  "lyell_disagree": "pause 600/stopMusic/speak Lyell \"{{i18n:event-16.disagree.02}}\"/pause 800/speak Lyell \"{{i18n:event-16.disagree.03}}\"/pause 800/speak Lyell \"{{i18n:event-16.disagree.04}}\"/pause 800/fade/friendship -80/end"
+            }
+        },
+
+
+        /*********
+        ** Town, 2-heart event
+        *********/
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                "700004/e 700003/f Lyell 500/w rainy/z summer/z spring/t 2000 2300": "New Snow/-1000 -1000/farmer 30 30 0 Lyell 30 27 3/pause 1000/fade/viewport 30 27/skippable/move farmer 0 -2 0/faceDirection Lyell 2/pause 800/speak Lyell \"{{i18n:event-4.01}}\"/pause 800/speak Lyell \"{{i18n:event-4.02}}\"/emote farmer 8/pause 800/speak Lyell \"{{i18n:event-4.03}}\"/pause 800/speak Lyell \"{{i18n:event-4.04}}\"/pause 1500/speak Lyell \"{{i18n:event-4.05}}\"/pause 1500/speak Lyell \"{{i18n:event-4.06}}\"/pause 1500/speak Lyell \"{{i18n:event-4.07}}\"/pause 800/speak Lyell \"{{i18n:event-4.08}}\"/pause 1500/speak Lyell \"{{i18n:event-4.09}}\"/pause 800/speak Lyell \"{{i18n:event-4.10}}\"/pause 1600/emote Lyell 28/speak Lyell \"{{i18n:event-4.11}}\"/pause 800/speak Lyell \"$q 999999 null \"#{{i18n:event-4.12}}#$r -1 50 aging_1#{{i18n:event-4.13}}#$r -1 -50 aging_2#{{i18n:event-4.14}}#$r -1 20 aging_3#{{i18n:event-4.15}}\"/pause 500/stopMusic/speak Lyell \"{{i18n:event-4.16}}\"/pause 900/speak Lyell \"{{i18n:event-4.17}}\"/fade/viewport -2000 -2000/pause 2000/end"
+            }
+        },
+
+        /*********
+        ** Lyell's House, 3-heart event
+        *********/
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/LyellsHouse",
+            "Entries": {
+                "7000013/e 700004/f Lyell 750/w rainy/z summer/z spring/t 1600 2300": "FrostMine/-1000 -1000/farmer 2 9 0 Lyell 6 5 1/pause 1000/fade/viewport 6 3/skippable/move farmer 0 -1 0/speak Lyell \"{{i18n:event-13.01}}\"/pause 800/move farmer 4 0 0/speak Lyell \"{{i18n:event-13.02}}\"/pause 800/move farmer 0 -2 1/faceDirection Lyell 2/jump Lyell 8/pause 800/speak Lyell \"{{i18n:event-13.03}}\"/faceDirection Lyell 1/faceDirection Lyell 2/speak Lyell \"$q 999999 null \"#{{i18n:event-13.04}}#$r -1 50 summons_1#{{i18n:event-13.05}}#$r -1 -50 summons_2#{{i18n:event-13.06}}#$r -1 0 summons_3#{{i18n:event-13.07}}\"/pause 1600/faceDirection Lyell 1/faceDirection Lyell 2/speak Lyell \"{{i18n:event-13.08}}\"/pause 800/emote farmer 8/pause 800/speak Lyell \"{{i18n:event-13.09}}\"/pause 800/speak Lyell \"{{i18n:event-13.10}}\"/emote farmer 8/pause 1500/speak Lyell \"{{i18n:event-13.11}}\"/pause 800/speak Lyell \"{{i18n:event-13.12}}\"/pause 800/speak Lyell \"{{i18n:event-13.13}}\"/pause 800/faceDirection Lyell 1/faceDirection Lyell 2/pause 800/speak Lyell \"{{i18n:event-13.14}}\"/pause 900/speak Lyell \"{{i18n:event-13.15}}\"/pause 800/emote farmer 8/pause 800/speak Lyell \"{{i18n:event-13.16}}\"/speak Lyell \"{{i18n:event-13.17}}\"/pause 900/speak Lyell \"{{i18n:event-13.18}}\"/fade/viewport -2000 -2000/pause 2000/end"
+            }
+        },
+
+
+        /*********
+        ** Saloon, 3.92-heart event
+        *********/
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Saloon",
+            "Entries": {
+                "700005/e 7000013/f Lyell 980/w sunny/t 2000 2100": "Saloon1/-1000 -1000/farmer 21 19 1 Lyell 24 18 2/pause 1000/fade/viewport 24 19/skippable/animate Lyell false true 460 36 36 36 36 37 38 39 38 37 36 36 36 36 36 36 36 36 37 38 39 38 37 36 36 36 36 36 36 36 37 38 39 38 37 36/pause 800/emote Lyell 56/pause 800/move farmer 3 0 0/pause 900/speak Lyell \"{{i18n:event-5.01}}\"/pause 800/speak Lyell \"{{i18n:event-5.02}}\"/pause 800/speak Lyell \"{{i18n:event-5.03}}\"/emote Lyell 32/pause 800/speak Lyell \"{{i18n:event-5.04}}\"/emote farmer 8/pause 800/speak Lyell \"{{i18n:event-5.05}}\"/pause 900/speak Lyell \"{{i18n:event-5.06}}\"/pause 800/speak Lyell \"{{i18n:event-5.07}}\"/pause 800/speak Lyell \"{{i18n:event-5.08}}\"/pause 800/speak Lyell \"{{i18n:event-5.09}}\"/emote Lyell 28/pause 800/speak Lyell \"{{i18n:event-5.10}}\"/pause 900/speak Lyell \"$q 999999 null \"#{{i18n:event-5.11}}#$r -1 50 drinking_1#{{i18n:event-5.12}}#$r -1 -50 drinking_fire_2#{{i18n:event-5.13}}\"/pause 1500/speak Lyell \"{{i18n:event-5.14}}\"/fade/viewport -2000 -2000/pause 2000/end"
+            },
+        },
+
+
+        /*********
+        ** Beach, married 8-heart event
+        *********/
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Beach",
+            "Entries": {
+                "7000010/f Lyell 2050/w sunny/z fall/z winter/z spring/t 600 1700": "ragtime/-1000 -1000/farmer 45 21 2 Lyell 43 24 2/showFrame Lyell 54/fade/viewport 43 24/skippable/pause 200/emote Lyell 56/move farmer 0 3 2/showFrame Lyell 52/pause 800/speak Lyell \"{{i18n:event-10.01}}\"/pause 200/speak Lyell \"{{i18n:event-10.02}}\"/pause 500/faceDirection farmer 3/emote Lyell 32/pause 400/speak Lyell \"{{i18n:event-10.03}}\"/pause 100/emote farmer 8/pause 200/speak Lyell \"{{i18n:event-10.04}}\"/pause 800/speak Lyell \"$q -90 null \"#{{i18n:event-10.05}}#$r -90 -30 event_beach1#{{i18n:event-10.06}}#$r -90 -20 event_beach2#{{i18n:event-10.07}}#$r -90 100 event_beach3#{{i18n:event-10.08}}\"/pause 800/speak Lyell \"{{i18n:event-10.09}}\"/pause 300/speak Lyell \"{{i18n:event-10.10}}\"/pause 800/speak Lyell \"$q -91 null \"#{{i18n:event-10.11}}#$r -91 -800 event_beach4#{{i18n:event-10.12}}#$r -91 200 event_beach5#{{i18n:event-10.13}}\"/pause 1000/speak Lyell \"{{i18n:event-10.14}}\"/pause 200/move farmer -1 0 3/positionOffset Lyell 2 0/pause 50/positionOffset Lyell 2 0/pause 50/positionOffset Lyell 2 0/pause 50/positionOffset Lyell 2 0/positionOffset farmer -2 0/pause 50/positionOffset Lyell 2 0/positionOffset farmer -2 0/pause 50/eyes 1 -10000/positionOffset Lyell 2 0/positionOffset farmer -2 2/pause 50/positionOffset Lyell 2 0/positionOffset farmer -2 0/pause 50/positionOffset Lyell 2 0/positionOffset farmer -2 0/pause 50/positionOffset Lyell 2 0/positionOffset farmer -2 0/pause 50/positionOffset Lyell 2 0/positionOffset farmer -2 0/showFrame Lyell 53/showFrame farmer 101/specificTemporarySprite heart 13 29/viewport -1000 -1000/pause 1000/globalFade/viewport -2000 -2000/pause 2000/end"
+            },
+            "When": {
+                "Relationship:Lyell": "Married"
+            }
+        },
+
+
+        /*********
+        ** Mines, 8.08-heart event
+        *********/
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                "700009/e 700008/f Lyell 2020/z summer/z winter/w rainy/t 600 1700": "echos/-1000 -1000/farmer 18 11 0 Lyell 21 9 0/showFrame Lyell 42/pause 1000/fade/viewport 20 9/skippable/pause 800/jump farmer/pause 300/move farmer 0 -2 1/move farmer 2 0 1/pause 600/speak Lyell \"{{i18n:event-9.01}}\"/pause 600/jump farmer 3/pause 600/speak Lyell \"{{i18n:event-9.02}}\"/pause 800/speak Lyell \"{{i18n:event-9.03}}\"/pause 800/emote farmer 28/pause 300/speak Lyell \"{{i18n:event-9.04}}\"/pause 800/speak Lyell \"{{i18n:event-9.05}}\"/jump farmer 5/speak Lyell \"{{i18n:event-9.06}}\"/pause 800/speak Lyell \"{{i18n:event-9.07}}\"/changeLocation LyellsHouse/viewport 5 6/warp farmer 6 7 1/warp Lyell 8 7 3/showFrame Lyell 12/pause 800/pause 800/speak Lyell \"{{i18n:event-9.08}}\"/pause 800/speak Lyell \"{{i18n:event-9.09}}\"/pause 800/speak Lyell \"{{i18n:event-9.10}}\"/move farmer 1 0 1/pause 800/speak Lyell \"{{i18n:event-9.11}}\"/stopMusic/pause 800/speak Lyell \"{{i18n:event-9.12}}\"/fade/warp Lyell 4 5 0/pause 800/move Lyell 0 0 2/pause 800/move farmer -1 0 0/emote Lyell 32/pause 800/move farmer 0 -2 0/pause 800/speak Lyell \"{{i18n:event-9.13}}\"/pause 800/speak Lyell \"{{i18n:event-9.14}}\"/move Lyell 2 0 2/move Lyell 0 1 2/pause 900/emote farmer 8/pause 800/speak Lyell \"{{i18n:event-9.15}}\"/pause 800/emote farmer 16/pause 200/emote Lyell 28/pause 400/speak Lyell \"{{i18n:event-9.16}}\"/pause 800/speak Lyell \"{{i18n:event-9.17}}\"/pause 800/speak Lyell \"{{i18n:event-9.18}}\"/pause 300/emote farmer 8/pause 100/speak Lyell \"{{i18n:event-9.19}}\"/pause 200/speak Lyell \"{{i18n:event-9.20}}\"/pause 800/speak Lyell \"{{i18n:event-9.21}}\"/pause 800/emote Lyell 28/speak Lyell \"{{i18n:event-9.22}}\"/pause 200/speak Lyell \"{{i18n:event-9.23}}\"/pause 200/emote farmer 16/pause 200/speak Lyell \"{{i18n:event-9.24}}\"/pause 800/speak Lyell \"$q 77777 null \"#{{i18n:event-9.25}}#$r 77777 800 confession_one#{{i18n:event-9.26}}#$r 77778 -2500 confession_two#{{i18n:event-9.27}}\"/pause 700/speak Lyell \"{{i18n:event-9.28}}\"/pause 1000/fade/viewport -2000 -2000/pause 2000/end"
+            }
+        },
+
+
+        /*********
+        ** Secret Woods, 8.08 + 9-heart events
+        *********/
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Woods",
+            "Entries": {
+                "700008/e 700007/f Lyell 2020/w sunny/z summer/z spring/z fall/t 600 1700": "musicboxsong/-1000 -1000/farmer 9 8 0 Lyell 8 11 0/pause 1000/fade/viewport 9 8/skippable/move Lyell 0 -3 1/faceDirection farmer 3/pause 1000/speak Lyell \"{{i18n:event-8.01}}\"/pause 800/speak Lyell \"{{i18n:event-8.02}}\"/pause 800/speak Lyell \"{{i18n:event-8.03}}\"/pause 800/emote Lyell 32/pause 700/speak Lyell \"{{i18n:event-8.04}}\"/pause 900/speak Lyell \"{{i18n:event-8.05}}\"/pause 900/speak Lyell \"{{i18n:event-8.06}}\"/pause 800/speak Lyell \"{{i18n:event-8.07}}\"/pause 1000/speak Lyell \"{{i18n:event-8.08}}\"/pause 800/speak Lyell \"{{i18n:event-8.09}}\"/pause 900/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/pause 50/positionOffset Lyell 2 0/pause 50/eyes 1 -10000/positionOffset farmer -2 0/positionOffset Lyell 2 2/pause 50/positionOffset farmer -2 0/positionOffset Lyell 2 0/pause 50/positionOffset farmer -2 0/positionOffset Lyell 2 0/pause 50/positionOffset farmer -2 0/positionOffset Lyell 2 0/pause 50/positionOffset farmer -2 0/positionOffset farmer 2 0/showFrame farmer 101/showFrame Lyell 35/playSound dwop/pause 1000/startJittering/pause 800/speak Lyell \"$q 999999 null \"#{{i18n:event-8.10}}#$r -1 50 kiss_1#{{i18n:event-8.11}}#$r -1 -2000 kiss_2#{{i18n:event-8.12}}\"/stopJittering/showFrame Lyell 4/move farmer 1 0 3/pause 1500/speak Lyell \"{{i18n:event-8.13}}\"/pause 600/stopMusic/speak Lyell \"{{i18n:event-8.14}}\"/fade/viewport -2000 -2000/pause 2000/end",
+
+                "700015/f Lyell 2250/e 700009/w sunny/z winter/z fall/t 2000 2300": "nightTime/-1000 -1000/farmer 14 28 3 Lyell 8 28 1/skippable/fade/changeToTemporaryMap DeepForest/viewport 9 26/warp Farmer 14 28/warp Lyell 8 28/move farmer -3 0 3/pause 800/speak Lyell \"{{i18n:event-15.01}}\"/pause 800/speak Lyell \"{{i18n:event-15.02}}\"/pause 800/speak Lyell \"{{i18n:event-15.03}}\"/pause 800/speak Lyell \"{{i18n:event-15.04}}\"/pause 800/speak Lyell \"{{i18n:event-15.05}}\"/pause 800/message \"{{i18n:event-15.06}}\"/pause 800/speak Lyell \"{{i18n:event-15.07}}\"/pause 800/speak Lyell \"{{i18n:event-15.08}}\"/pause 800/move Lyell 3 0 1 true/move farmer 1 0 1/screenFlash 1/playSound wand/addTemporaryActor Hebe 16 32 9 28 2 true character/faceDirection Lyell 3/jump Lyell 5/move farmer -1 0 3/pause 800/faceDirection Hebe 3/faceDirection Hebe 0/pause 800/faceDirection Hebe 1/pause 400/emote Hebe 8/pause 800/speak Hebe \"{{i18n:event-15.09}}\"/pause 800/speak Hebe \"{{i18n:event-15.10}}\"/shake Lyell 2000/pause 800/speak Lyell \"{{i18n:event-15.11}}\"/move Lyell -1 0 3 false/positionOffset Hebe -10 0/speak Hebe \"{{i18n:event-15.12}}\"/pause 700/speak Lyell \"{{i18n:event-15.13}}\"/playMusic SunRoom/pause 800/speak Hebe \"{{i18n:event-15.14}}\"/pause 400/speak Hebe \"{{i18n:event-15.15}}\"/pause 800/speak Lyell \"{{i18n:event-15.16}}\"/pause 900/emote Hebe 28/pause 800/speak Hebe \"{{i18n:event-15.17}}\"/pause 800/move farmer -1 0 3/pause 800/speak Lyell \"{{i18n:event-15.18}}\"/pause 800/emote Hebe 16/pause 800/speak Hebe \"{{i18n:event-15.19}}\"/pause 800/speak Lyell \"{{i18n:event-15.20}}\"/pause 800/emote Hebe 12/pause 800/speak Hebe \"{{i18n:event-15.21}}\"/pause 400/speak Hebe \"{{i18n:event-15.22}}\"/pause 400/speak Lyell \"{{i18n:event-15.23}}\"/pause 200/speak Hebe \"{{i18n:event-15.24}}\"/pause 800/speak Lyell \"{{i18n:event-15.25}}\"/pause 800/speak Lyell \"{{i18n:event-15.26}}\"/pause 800/speak Lyell \"{{i18n:event-15.27}}\"/pause 800/emote Hebe 40/faceDirection Hebe 2/emote Hebe 28/pause 500/faceDirection Hebe 1/speak Hebe \"{{i18n:event-15.28}}\"/stopMusic/playMusic desolate/pause 800/speak Hebe \"{{i18n:event-15.29}}\"/pause 800/shake Lyell 3000/pause 800/speak Lyell \"{{i18n:event-15.30}}\"/pause 800/speak Hebe \"{{i18n:event-15.31}}\"/pause 800/speak Lyell \"{{i18n:event-15.32}}\"/pause 800/speak Hebe \"{{i18n:event-15.33}}\"/pause 800/screenFlash 1/playSound wand/warp Hebe -1 0/pause 1000/stopMusic/playMusic nightTime/message \"{{i18n:event-15.34}}\"/pause 800/faceDirection Lyell 1/pause 800/shake Lyell 1000/pause 800/speak Lyell \"{{i18n:event-15.35}}\"/pause 800/speak Lyell \"$q 999999 null \"#{{i18n:event-15.36}}#$r -1 50 ComfortLyell_1#{{i18n:event-15.37}}#$r -1 -50 ComfortLyell_2#{{i18n:event-15.38}}\"/pause 1000/end"
+            }
+        },
+
+
+        /*********
+        ** Bathhouse, married 9.08-heart event
+        *********/
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/BathHouse_Pool",
+            "Entries": {
+                "7000011/f Lyell 2270/w sunny/z fall/z spring/t 1700 2000": "echos/-1000 -1000/farmer 21 4 2 Lyell 16 4 2/showFrame Lyell 51/fade/viewport 17 2/skippable/pause 200/emote Lyell 12/pause 800/speak Lyell \"{{i18n:event-11.01}}\"/pause 200/speak Lyell \"{{i18n:event-11.02}}\"/faceDirection farmer 3/pause 500/emote Lyell 28/pause 400/speak Lyell \"{{i18n:event-11.03}}\"/pause 100/emote farmer 8/move farmer 0 2 0/move farmer -5 0 0/pause 200/speak Lyell \"{{i18n:event-11.04}}\"/pause 800/speak Lyell \"$q -2 null \"#{{i18n:event-11.05}}#$r -2 -30 event_farm1#{{i18n:event-11.06}}#$r -2 -20 event_farm2#{{i18n:event-11.07}}#$r -2 100 event_farm3#{{i18n:event-11.08}}\"/pause 800/speak Lyell \"{{i18n:event-11.09}}\"/pause 300/emote Lyell 28/pause 300/speak Lyell \"{{i18n:event-11.10}}\"/pause 500/speak Lyell \"{{i18n:event-11.11}}\"/pause 300/speak Lyell \"{{i18n:event-11.12}}\"/pause 400/speak Lyell \"{{i18n:event-11.13}}\"/pause 800/speak Lyell \"{{i18n:event-11.14}}\"/pause 800/shake Lyell 2000/pause 800/speak Lyell \"{{i18n:event-11.15}}\"/pause 900/stopMusic/pause 800/speak Lyell \"{{i18n:event-11.16}}\"/pause 1000/globalFade/viewport -2000 -2000/pause 2000/end"
+            },
+            "When": {
+                "Relationship:Lyell": "Married"
+            }
+        },
+
+
+        /*********
+        ** Mountain, married 9.2-heart event
+        *********/
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Mountain",
+            "Entries": {
+                "7000012/f Lyell 2300/w sunny/t 2100 2340": "nightTime/-1000 -1000/farmer 23 29 3 Lyell 14 29 3/skippable/changeToTemporaryMap NightSceneMaruMap/ambientLight 0 0 0/viewport 14 23 true/pause 2000/playSound leafrustle/pause 200/faceDirection Lyell 1/pause 400/emote Lyell 8/pause 800/move farmer -5 0 3/speak Lyell \"{{i18n:event-12.01}}\"/faceDirection Lyell 3/pause 1000/speak Lyell \"{{i18n:event-12.02}}\"/faceDirection Lyell 1/speak Lyell \"{{i18n:event-12.03}}\"/move farmer -3 0 3/speak Lyell \"{{i18n:event-12.04}}\"/move Lyell 0 1 0/move farmer -1 0 3/pause 200/animate farmer true true 100 35/pause 1200/playMusic spaceMusic/speak Lyell \"$q 400 null \"#{{i18n:event-12.05}}#$r 400 30 Event_stargazing1#{{i18n:event-12.06}}#$r 400 -30 Event_stargazing2#{{i18n:event-12.07}}\"/stopAnimation farmer/faceDirection farmer 2/pause 1000/speak Lyell \"{{i18n:event-12.08}}\"/emote farmer 28/pause 400/speak Lyell \"{{i18n:event-12.09}}\"/faceDirection Lyell 0/pause 500/faceDirection Lyell 0/speak Lyell \"{{i18n:event-12.10}}\"/pause 1500/speak Lyell \"{{i18n:event-12.11}}\"/pause 500/faceDirection Lyell 0/pause 800/speak Lyell \"{{i18n:event-12.12}}\"/pause 500/speak Lyell \"{{i18n:event-12.13}}\"/faceDirection farmer 2/speak Lyell \"{{i18n:event-12.14}}\"/pause 300/emote Lyell 20/speak Lyell \"{{i18n:event-12.15}}\"/pause 800/speak Lyell \"{{i18n:event-12.16}}\"/globalFade .003/viewport -1000 -1000/pause 1000 /changeLocation Mountain/end"
+            },
+            "When": {
+                "Relationship:Lyell": "Married"
+            }
+        }
+    ]
+}

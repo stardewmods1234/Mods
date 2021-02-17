@@ -1,0 +1,80 @@
+{
+	"Name": "Mollusk Soup",
+	"Description": "Soup made of aquatic invertebrates.",
+	"Category": "Cooking",
+	"ContextTags": ["food_soup"],
+	"Edibility": 90,
+	"EdibleIsDrink": "false",
+	"EdibleBuffs": {
+		"Farming": 0,
+		"Fishing": 2,
+		"Mining": 0,
+		"Luck": 2,
+		"Foraging": 0,
+		"MaxStamina": 0,
+		"MagnetRadius": 0,
+		"Speed": 0,
+		"Defense": 0,
+		"Attack": 0,
+		"Duration": 90,
+	},
+	"Price": 150,
+	"Recipe": {
+		"ResultCount": 1,
+		"Ingredients": [{
+				"Object": 721,
+				"Count": "1"
+			}, {
+				"Object": 719,
+				"Count": "1"
+			}, {
+				"Object": "Dotted Abalone",
+				"Count": "1"
+			}, {
+				"Object": "Scallop",
+				"Count": "1"
+			}, {
+				"Object": 153,
+				"Count": "1"
+			}
+		],
+		"CanPurchase": "true",
+		"PurchaseFrom": "Willy",
+		"PurchasePrice": 300,
+		"PurchaseRequirements": ["n PappyStockFishShop"],
+	},
+	"IsColored": "false",
+	"GiftTastes": {
+		"Love": ["Willy"],
+		"Like": [],
+		"Neutral": [],
+		"Dislike": [],
+		"Hate": ["Vincent", "Evelyn"],
+	},
+	"NameLocalization": {
+		// "es": "",
+		"ko": "전복 수프",
+		//"de": "",
+		// "fr": "",
+		// "hu": "",
+		// "it": "",
+		//"ja": "",
+		//"pt": "",
+		// "ru": "",
+		// "tr": "",
+		//"zh": "",
+	},
+	"DescriptionLocalization": {
+		// "es": "",
+		"ko": "전복과 가리비를 넣어 끓인 수프.",
+		//"de": "",
+		// "fr": "",
+		// "hu": "",
+		// "it": "",
+		//"ja": "",
+		//"pt": "",
+		// "ru": "",
+		// "tr": "",
+		//"zh": "",
+	},
+}

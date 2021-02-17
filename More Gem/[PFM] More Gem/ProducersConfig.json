@@ -1,0 +1,12 @@
+[
+	{
+		"ProducerName":"Marine Gem Cultivator",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false 
+	},
+	{
+		"ProducerName":"Mineral Grinder",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false 
+	},
+]

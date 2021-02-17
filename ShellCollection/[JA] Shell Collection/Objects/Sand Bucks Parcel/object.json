@@ -1,0 +1,72 @@
+{
+	"Name": "Sand Bucks Parcel",
+	"Description": "A decorated pocket of sand bucks. Small trinket that said to bring excellent fortune.",
+	"Category": "Crafting",
+	"CategoryTextOverride": "",
+	"Edibility": -300,
+	"EdibleIsDrink": "false",
+	"EdibleBuffs": {
+		"Farming": 0,
+		"Fishing": 0,
+		"Mining": 0,
+		"Luck": 0,
+		"Foraging": 0,
+		"MaxStamina": 0,
+		"MagnetRadius": 0,
+		"Speed": 0,
+		"Defense": 0,
+		"Attack": 0,
+		"Duration": 0,
+	},
+	"Price": 625,
+	"Recipe": {
+		"ResultCount": 1,
+		"Ingredients": [{
+				"Object": "Sand Bucks",
+				"Count": "5"
+			}, {
+				"Object": 428,
+				"Count": "1"
+			}
+		],
+		"CanPurchase": "true",
+		"PurchaseFrom": "Willy",
+		"PurchasePrice": 550,
+		"PurchaseRequirements": ["n PappyStockFishShop"],
+	},
+	"IsColored": "false",
+	//Universal neutral
+	"GiftTastes": {
+		"Love": ["Pierre", "Vincent", "Morgan"],
+		"Like": ["Penny", "Shane"],
+		"Neutral": [],
+		"Dislike": ["Caroline", "Clint"],
+		"Hate": [],
+	},
+	"NameLocalization": {
+		// "es": "",
+		"ko": "연잎성게 주머니",
+		// "de": "",
+		// "fr": "",
+		// "hu": "",
+		// "it": "",
+		// "ja": "",
+		// "pt": "",
+		// "ru": "",
+		// "tr": "",
+		// "zh": ""
+	},
+	"DescriptionLocalization": {
+		// "es": "",
+		"ko": "연잎성게로 장식된 주머니. 이 장신구는 큰 재물을 가져다 준다고 합니다.",
+		// "de": "",
+		// "fr": "",
+		// "hu": "",
+		// "it": "",
+		// "ja": "",
+		// "pt": "",
+		// "ru": "",
+		// "tr": "",
+		// "zh": ""
+	}
+}

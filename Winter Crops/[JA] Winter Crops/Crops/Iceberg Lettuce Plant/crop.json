@@ -1,0 +1,22 @@
+{
+	"Name": "Iceberg Lettuce",
+	"Product": "Iceberg Lettuce",
+	"SeedName": "Iceberg Lettuce Seeds",
+	"SeedDescription": "Grows in 8 days. Plant in winter.",
+	"Type": "Vegetable",
+	"CropType": "Normal",
+	"Seasons": ["winter"],
+	"Phases": [1,2,2,3],
+	"RegrowthPhase": -1,
+	"HarvestWithScythe": false,
+	"TrellisCrop": false,
+	"Bonus": {
+		"MinimumPerHarvest": 1,
+		"MaximumPerHarvest": 1,
+		"MaxIncreasePerFarmLevel": 9,
+		"ExtraChance": 0.1,
+	},
+	"SeedPurchasePrice": 50,
+	"SeedPurchaseFrom": "Pierre",
+	"SeedPurchaseRequirements": ["z spring/z summer/z fall"]
+}

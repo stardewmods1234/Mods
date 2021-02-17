@@ -1,0 +1,24 @@
+{
+	"VanillaShops": [
+		{
+			"ShopName": "QiShop",
+			"ItemStocks": [
+				{
+					"ItemType": "Ring",
+					"StockPrice": 1000,
+					"ItemNames": ["Ring of Insight"]
+				},
+				{
+					"ItemType": "Ring",
+					"StockPrice": 5000,
+					"ItemNames": ["Ring of Knowledge"]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 20000,
+					"ItemNames": ["Elusive Ring"]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,159 @@
+[
+	{
+		"Id": "SkillRings.DustyRing",
+		"GroupId": "SkillRings.Tier3Rings",
+		"Title": "Dusty Ring",
+		"Text": "Ahoy there!^I found this lyin' around the shop and figured you could put it to use.^-Willy",
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Name": "Dusty Ring"
+			}
+		],
+		"WhichBG": 0,
+		"Repeatable": false,
+		"Seasons": ["spring", "summer", "fall", "winter"],
+		"FriendshipConditions": [
+			{
+				"NpcName": "Willy",
+				"FriendshipLevel": 10,
+			}
+		],
+		"SkillConditions": [
+			{ "SkillName": "Fishing", "SkillLevel": 10 }
+		],
+		"RandomChance": 0.1
+	},
+	{
+		"Id": "SkillRings.GrassyRing",
+		"GroupId": "SkillRings.Tier3Rings",
+		"Title": "Grassy Ring",
+		"Text": "Hello @,^I found my cows trying to eat this but it looked to fancy to throw away.^-Marnie",
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Name": "Grassy Ring"
+			}
+		],
+		"WhichBG": 0,
+		"Repeatable": false,
+		"Seasons": ["spring", "summer", "fall", "winter"],
+		"FriendshipConditions": [
+			{
+				"NpcName": "Marnie",
+				"FriendshipLevel": 10,
+			}
+		],
+		"SkillConditions": [
+			{ "SkillName": "Farming", "SkillLevel": 10 }
+		],
+		"RandomChance": 0.1
+	},
+	{
+		"Id": "SkillRings.CursedRing",
+		"GroupId": "SkillRings.Tier3Rings",
+		"Title": "Cursed Ring",
+		"Text": "Hey @!^I found this in the mines but didn't want to try it on.^-Abigail",
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Name": "Cursed Ring"
+			}
+		],
+		"WhichBG": 0,
+		"Repeatable": false,
+		"Seasons": ["spring", "summer", "fall", "winter"],
+		"FriendshipConditions": [
+			{
+				"NpcName": "Abigail",
+				"FriendshipLevel": 10,
+			}
+		],
+		"SkillConditions": [
+			{ "SkillName": "Combat", "SkillLevel": 10 }
+		],
+		"RandomChance": 0.1
+	},
+	{
+		"Id": "SkillRings.StickyRing",
+		"GroupId": "SkillRings.Tier3Rings",
+		"Title": "Sticky Ring",
+		"Text": "I found this stuck to a tree, but I don't want it.^-Linus",
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Name": "Sticky Ring"
+			}
+		],
+		"WhichBG": 0,
+		"Repeatable": false,
+		"Seasons": ["spring", "summer", "fall", "winter"],
+		"FriendshipConditions": [
+			{
+				"NpcName": "Linus",
+				"FriendshipLevel": 10,
+			}
+		],
+		"SkillConditions": [
+			{ "SkillName": "Foraging", "SkillLevel": 10 }
+		],
+		"RandomChance": 0.1
+	},
+	{
+		"Id": "SkillRings.StoneRing",
+		"GroupId": "SkillRings.Tier3Rings",
+		"Title": "Stone Ring",
+		"Text": "You have proven yourself as a miner so here, a gift.^-Dwarf",
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Name": "Stone Ring"
+			}
+		],
+		"WhichBG": 0,
+		"Repeatable": false,
+		"Seasons": ["spring", "summer", "fall", "winter"],
+		"FriendshipConditions": [
+			{
+				"NpcName": "Dwarf",
+				"FriendshipLevel": 10,
+			}
+		],
+		"SkillConditions": [
+			{ "SkillName": "Mining", "SkillLevel": 10 }
+		],
+		"RandomChance": 0.1
+	},
+	{
+		"Id": "SkillRings.DeepRootsRecipe",
+		"GroupId": "SkillRings.ForagingRing",
+		"Title": "Ring of Deep Roots",
+		"Text": "Hello,^Although some of this is hard to come by, this helped me in the past.^-Linus",
+		"Recipe": "Ring of Deep Roots",
+		"WhichBG": 0,
+		"Repeatable": false,
+		"Seasons": ["spring", "summer", "fall", "winter"],
+		"FriendshipConditions": [
+			{
+				"NpcName": "Linus",
+				"FriendshipLevel": 2,
+			}
+		],
+	},
+	{
+		"Id": "SkillRings.GathererRecipe",
+		"GroupId": "SkillRings.ForagingRing",
+		"Title": "Ring of the Gatherer",
+		"Text": "Hello Friend,^I managed to make one of these a while ago and it helped me greatly.^-Linus",
+		"Recipe": "Ring of the Gatherer",
+		"WhichBG": 0,
+		"Repeatable": false,
+		"Seasons": ["spring", "summer", "fall", "winter"],
+		"FriendshipConditions": [
+			{
+				"NpcName": "Linus",
+				"FriendshipLevel": 5,
+			}
+		],
+	}
+]

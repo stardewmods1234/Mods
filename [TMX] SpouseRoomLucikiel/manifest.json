@@ -1,0 +1,12 @@
+{
+  "Name": "Lucikiel Spouse Room",
+  "Author": "Arknir",
+  "Version": "1.1.9",
+  "Description": "Spouse Room for Lucikiel",
+  "UniqueID": "Arknir.SpouseRoom",
+  "UpdateKeys": ["Nexus:6307"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.4.0"
+  }
+}

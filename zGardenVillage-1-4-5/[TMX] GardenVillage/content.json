@@ -1,0 +1,61 @@
+﻿{
+  "addMaps": [
+    {
+      "name": "MainShops",
+	  "addLocation": true,
+      "file": "assets/gv_MainShops.tbin",
+    },
+	
+	{
+      "name": "MachineShed",
+	  "addLocation": true,
+      "file": "assets/gv_shed.tbin"
+    },
+		{
+      "name": "Florist",
+	  "addLocation": true,
+      "file": "assets/gv_florist_interior.tbin"
+    },
+			{
+      "name": "Clothier",
+	  "addLocation": true,
+      "file": "assets/gv_clothier_interior.tbin"
+    },
+	{
+      "name": "Bakery",
+	  "addLocation": true,
+      "file": "assets/gv_bakery_interior.tbin"
+    },
+	{
+      "name": "Diner",
+	  "addLocation": true,
+      "file": "assets/gv_diner_interior.tbin"
+    },
+	{
+      "name": "Artisanry",
+	  "addLocation": true,
+      "file": "assets/gv_artisanry_interior.tbin"
+    },
+	{
+      "name": "HekateBackroom",
+	  "addLocation": true,
+      "file": "assets/gv_HekateBackroom.tbin"
+    },
+],
+
+"onlyWarps": [
+	{
+	"name": "Artisanry",
+	"addWarps": [
+		"10 2 HekateBackroom 10 5",
+		]
+	},
+	{
+	// Dummy warp to trick NPC pathfinding
+	"name": "MainShops",
+	"addWarps": [
+        "47 1 BusStop 2 6"
+		]
+	}
+]
+}

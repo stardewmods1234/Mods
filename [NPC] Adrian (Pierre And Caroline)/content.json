@@ -1,0 +1,142 @@
+{
+  "Format": "1.6",
+  "Changes": [
+
+    {
+
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Adrian": "child/neutral/outgoing/neutral/male/not-datable/null/Other/summer 14//SeedShop 21 7/Adrian"
+
+
+      }
+    },
+
+    {
+
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Adrian": "Wow a pizza! I love it!/206/Hey, how did you know I was hungry? It looks delicious./211/Yuck!/208/My mother told me not to take anything from strangers./216/Thanks./224/"
+		
+      }
+    },
+
+    {
+
+      "LogName": "Adrian Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Adrian",
+      "FromFile": "assets/Image/Portraits.png"
+
+    },
+
+    {
+
+      "LogName": "Adrian Sprites",
+      "Action": "Load",
+      "Target": "Characters/Adrian",
+      "FromFile": "assets/Image/Sprite.png"
+
+    },
+
+    {
+
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Adrian",
+      "FromFile": "assets/Dialogue/Dialogue.json"
+
+    },
+
+    {
+
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Adrian",
+      "FromFile": "assets/Schedule/Schedule.json"
+
+    },
+
+    { //EGG FESTIVAL
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Adrian": "We will team up with my sister, hooray.$0"
+      }
+    },
+	
+	//FLOWER DANCE
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Adrian": "Don't tell anyone but my sister is afraid to dance.$1"
+      }
+    },
+	
+	//LUAU
+	{
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Adrian": "I don't want to drink soup, I want cake.$1"
+      }
+    },
+  
+	
+	//DANCE OF THE MOONLIGHT JELLIES
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Adrian": "I am sleepy.$0"
+      }
+    },
+   
+	//STARDEW VALLEY FAIR
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Adrian": "I helped my father he is the best.$1"
+      }
+    },
+	
+	//SPIRITS EVE FESTIVAL
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Adrian": "Where is my sister...$2"
+      }
+    },
+	
+	//ICE FISHING FESTIVAL
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Adrian": "Hurray!.$0#$b#We will make a snowman!$4"
+      }
+    },
+	
+	//WINTER STAR FESTIVAL
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Adrian": "Hello.$1"
+      }
+    },
+
+   
+
+
+  ]
+}
+		
+		

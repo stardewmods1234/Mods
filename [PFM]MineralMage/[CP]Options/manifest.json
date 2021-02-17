@@ -1,0 +1,13 @@
+{
+
+  "Name": "Options",
+   "Author": "Undare",
+   "Description": "Optons for Mineral Mage mod",
+   "Version": "1.0.1", //so long as it's not 0.0.0
+   "UniqueID": "Undare.MineralOptions",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+   "UpdateKeys": [], //you get a nexus key when starting to upload
+   
+}

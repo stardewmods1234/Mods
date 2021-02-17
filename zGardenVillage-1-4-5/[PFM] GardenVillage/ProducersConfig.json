@@ -1,0 +1,12 @@
+﻿[
+	{
+		"ProducerName": "Mayonnaise Machine",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false
+	},
+	{
+		"ProducerName": "Cheese Press",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false
+	}
+]

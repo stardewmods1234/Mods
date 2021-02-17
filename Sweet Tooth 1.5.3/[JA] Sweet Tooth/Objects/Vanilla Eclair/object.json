@@ -1,0 +1,58 @@
+{
+  "Name": "Vanilla Eclair",
+  "Description": "A cream-filled French pastry.",
+  "Category": "Cooking",
+  "Edibility": 76,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 300,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Vanilla",
+        "Count": 1,
+      },
+      {
+        "Object": -6,
+        "Count": 1,
+      },
+      {
+        "Object": 246,
+        "Count": 1,
+      }
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 390,
+    "PurchaseRequirements": null,
+  },
+  "NameLocalization": { 
+		// "es": "",
+		"ko": "바닐라 에클레어",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "香草埃克莱尔",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        "ko": "크림을 채운 프랑스식 페이스트리.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "奶油填充的法式糕点。",
+    }  
+}

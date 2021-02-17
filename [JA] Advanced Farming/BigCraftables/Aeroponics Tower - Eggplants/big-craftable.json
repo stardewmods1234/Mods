@@ -1,0 +1,66 @@
+{
+    "Name": "Aeroponics Tower - Eggplants",
+    "Description": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Eggplantss.",
+    "Price": 100,
+    "ProvidesLight": false,
+	"ReserveExtraIndexCount": 2,
+    "Recipe":
+    { 
+        "ResultCount": 1,
+        "Ingredients": [
+			{
+				"Object": "Aeroponics Tower Base", 
+				"Count": 1
+			},
+			{
+				"Object": "Aeroponics Tower Frame", 
+				"Count": 2
+			},
+			{
+				"Object": "Water Pump", 
+				"Count": 1
+			},
+			{
+				"Object": "Pipes", 
+				"Count": 4
+			},
+			{
+				"Object": "Eggplant Seedlings", //Stone
+				"Count": 1
+			}
+		],
+		
+		"CanPurchase": true, 
+		"PurchaseFrom": "Robin",
+		"PurchasePrice": 350,
+		"PurchaseRequirements": ["j 336", "f Demetrius 2000"],
+    },
+        "NameLocalization": //Used for localization. 
+        { 
+            "es": "Aeroponics Tower - Eggplants", //Spansih
+            "ko": "Aeroponics Tower - Eggplants", //Korean
+            "de": "Aeroponics Tower - Eggplants", //German
+            "fr": "Aeroponics Tower - Eggplants", //French
+            "hu": "Aeroponics Tower - Eggplants", //Hungarian
+            "it": "Aeroponics Tower - Eggplants", //Italian
+            "ja": "Aeroponics Tower - Eggplants", //Japanese
+            "pt": "Aeroponics Tower - Eggplants", //Portuguese
+            "ru": "Aeroponics Tower - Eggplants", //Russian
+            "tr": "Aeroponics Tower - Eggplants", //Turkish
+            "zh": "气雾栽培塔-茄子" //Chinese (Simplified)
+        },
+        "DescriptionLocalization": //Used for localization. 
+        { 
+            "es": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Eggplantss.", //Spansih
+            "ko": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Eggplantss.", //Korean
+            "de": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Eggplantss.", //German
+            "fr": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Eggplantss.", //French
+            "hu": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Eggplantss.", //Hungarian
+            "it": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Eggplantss.", //Italian
+            "ja": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Eggplantss.", //Japanese
+            "pt": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Eggplantss.", //Portuguese
+            "ru": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Eggplantss.", //Russian
+            "tr": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Eggplantss.", //Turkish
+            "zh": "一个气雾栽培塔，外部装有种植槽，内部装有喷嘴，用于喷洒营养液。 配置为种植茄子。" //Chinese (Simplified)
+        }
+    }

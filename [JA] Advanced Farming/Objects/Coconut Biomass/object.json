@@ -1,0 +1,17 @@
+{
+    "Name": "Coconut Biomass", //The name you would like your object to have, this should be identical to the subfolder name.
+    "Description": "Organic material from crushed Coconut. Smells sweet and tropical. Useful for producing Glycerol.", //Description of the product.
+    "Category": "Metal", //This should match the crop.json Type or for fruit trees should be one of the following: Flower, Fruit, Vegetable, Gem, Fish, Egg, Milk, Cooking, Crafting, Mineral, Meat, Metal, Junk, Syrup, MonsterLoot, ArtisanGoods, and Seeds.
+    "Edibility": -300, //Edibility is for health, energy is calculated by the game. For inedibile items, set to -300.
+    "Price": 0, //How much your item sells for.
+    "IsColored": false, //(optional) Set this value to true if your product is colored. Primairly applies to flowers.
+    "Recipe": null, //Set to null.
+    "NameLocalization": //Used for localization. 
+    { 
+        "zh": "椰子生物质" //Chinese (Simplified)
+    },
+    "DescriptionLocalization": //Used for localization. 
+    { 
+        "zh": "粉碎椰子得到的有机材料。闻起来香甜且带有热带气息。用于生产甘油。" //Chinese (Simplified)
+    }
+}

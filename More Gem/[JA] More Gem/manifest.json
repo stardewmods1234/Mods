@@ -1,0 +1,11 @@
+{
+   "Name": "[JA] More Gem",
+   "Author": "KAYA",
+   "Description": "Add More Gem!",
+   "Version": "2.1.0",
+   "UniqueID": "KAYA.JAMoreGem",
+   "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+	"UpdateKeys": [ "Nexus:6147" ],
+}

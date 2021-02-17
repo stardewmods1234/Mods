@@ -1,0 +1,32 @@
+{
+	"Name": "Nautical Rarecrow 4",
+	"Description": "Collect them all! (4 of 8)",
+	"Price": 1,
+	"ProvidesLight": false,
+	"NameLocalization": {
+		// "es": "",
+		"ko": "해변 허수아비 4",
+		// "de": "",
+		// "fr": "",
+		// "hu": "",
+		// "it": "",
+		// "ja": "",
+		// "pt": "",
+		// "ru": "",
+		// "tr": "",
+		// "zh": "",
+	},
+	"DescriptionLocalization": {
+		// "es": "",
+		"ko": "해변 테마의 허수아비 8가지를 전부 모아보세요!(4번째)",
+		// "de": "",
+		// "fr": "",
+		// "hu": "",
+		// "it": "",
+		// "ja": "",
+		// "pt": "",
+		// "ru": "",
+		// "tr": "",
+		// "zh": "",
+	}
+}

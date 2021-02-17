@@ -1,0 +1,7 @@
+{
+	"Name": "Elmo do Vanguardista",
+	"Description": "Um elmo resistente, feito em uma das melhores forja de Ferngill.",
+	"PurchasePrice": "15000",
+	"ShowHair": false,
+	"IgnoreHairstyleOffset": true
+}

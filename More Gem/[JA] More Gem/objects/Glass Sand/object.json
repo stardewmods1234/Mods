@@ -1,0 +1,47 @@
+{
+    "Name": "Glass Sand",
+    "Description": "Sand that has been heated and polished into glass.",
+    "Category": "Mineral",
+    "Edibility": -300,
+    "Price": 10,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Neutral": ["Clint", ],
+        "Dislike": ["Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+		"Hate": ["Sam", ],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "유리 모래",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Areia Envidraçada",
+        // "ru": "",
+        // "tr": "",
+        "zh": "玻璃砂",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "모래와 석영 등이 섞여있는 유리의 재료.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Material de vidro misturado com areia e quartzo.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "玻璃材料与沙子和石英混合制成的高纯度石英砂。",
+    },
+	
+    "ContextTags": [
+        "color_sand",
+    ],
+}

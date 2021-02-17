@@ -1,0 +1,15 @@
+{
+  "Name": "Lodging House",
+  "Author": "LemurKat",
+  "Version": "1.0.6",
+  "Description": "Adds a rambling boarding house above the community center",
+  "UniqueID": "LemurKat.Juliet.TMX",
+"Dependencies": [
+  	{ "UniqueID": "DaisyNiko.Tilesheets" }
+			],
+ "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.4.0"
+			}
+    
+  }

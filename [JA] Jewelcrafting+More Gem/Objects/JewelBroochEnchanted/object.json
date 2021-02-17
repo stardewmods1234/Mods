@@ -1,0 +1,43 @@
+{
+  "Name": "Enchanted Golden Jewel Brooch",
+  "Description": "A beautiful jewel Brooch with a raging fire aura!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 1700,
+  "IsColored": true,
+  "Recipe": null,
+   "CanPurchase": false,
+   //"PurchaseFrom": "Robin",
+   //"PurchasePrice": 500,
+   //"PurchaseRequirements":
+   //[
+    //  "r 0.50"
+   // ]
+  "NameLocalization": { 
+		// "es": "",
+		"ko": "마법의 보석 금브로치",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Broche de Jóias Dourado Encantado",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        "ko": "성난 불길을 내뿜는 듯한 아름다운 보석 브로치!",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Um lindo broche de jóias com uma aura de fogo ardente!",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    }  
+}

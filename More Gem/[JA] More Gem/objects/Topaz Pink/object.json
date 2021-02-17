@@ -1,0 +1,46 @@
+{
+    "Name": "Pink Topaz",
+    "Description": "Pink topaz.",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
+    "Edibility": -300,
+    "Price": 120,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "핑크 토파즈",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Topázio Cor-de-Rosa",
+        // "ru": "",
+        // "tr": "",
+        "zh": "粉色托帕石",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "분홍색의 토파즈.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Um topázio rosado.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "粉红色的托帕石。",
+    },
+	
+    "ContextTags": [
+        "color_pink", "topaz_item", "pink_gem", 
+    ],
+}

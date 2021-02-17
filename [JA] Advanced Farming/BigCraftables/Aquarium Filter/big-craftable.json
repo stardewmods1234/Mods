@@ -1,0 +1,58 @@
+{
+    "Name": "Aquarium Filter",
+    "Description": "An Aquarium Filter for automatically cleaning Aquariums, periodically creating Fertilizer. Place adjacent to an Aquarium.",
+    "Price": 100,
+    "ProvidesLight": false,
+	"ReserveExtraIndexCount": 1,
+    "Recipe":
+    { 
+        "ResultCount": 1,
+        "Ingredients": [
+			{
+				"Object": 335, //Iron
+				"Count": 2
+			},
+			{
+				"Object": "Frame Components", //Wood
+				"Count": 1
+			},
+			{
+				"Object": 390, //Stone
+				"Count": 30
+			},
+		],
+		
+		"CanPurchase": true, 
+		"PurchaseFrom": "Robin",
+		"PurchasePrice": 150,
+		"PurchaseRequirements": ["j 336", "f Demetrius 2000"],
+    },
+        "NameLocalization": //Used for localization. 
+        { 
+            "es": "Aquarium Filter", //Spansih
+            "ko": "Aquarium Filter", //Korean
+            "de": "Aquarium Filter", //German
+            "fr": "Aquarium Filter", //French
+            "hu": "Aquarium Filter", //Hungarian
+            "it": "Aquarium Filter", //Italian
+            "ja": "Aquarium Filter", //Japanese
+            "pt": "Aquarium Filter", //Portuguese
+            "ru": "Aquarium Filter", //Russian
+            "tr": "Aquarium Filter", //Turkish
+            "zh": "鱼池过滤器" //Chinese (Simplified)
+        },
+        "DescriptionLocalization": //Used for localization. 
+        { 
+            "es": "An Aquarium Filter for automatically cleaning Aquariums, periodically creating Fertilizer. Place adjacent to an Aquarium.", //Spansih
+            "ko": "An Aquarium Filter for automatically cleaning Aquariums, periodically creating Fertilizer. Place adjacent to an Aquarium.", //Korean
+            "de": "An Aquarium Filter for automatically cleaning Aquariums, periodically creating Fertilizer. Place adjacent to an Aquarium.", //German
+            "fr": "An Aquarium Filter for automatically cleaning Aquariums, periodically creating Fertilizer. Place adjacent to an Aquarium.", //French
+            "hu": "An Aquarium Filter for automatically cleaning Aquariums, periodically creating Fertilizer. Place adjacent to an Aquarium.", //Hungarian
+            "it": "An Aquarium Filter for automatically cleaning Aquariums, periodically creating Fertilizer. Place adjacent to an Aquarium.", //Italian
+            "ja": "An Aquarium Filter for automatically cleaning Aquariums, periodically creating Fertilizer. Place adjacent to an Aquarium.", //Japanese
+            "pt": "An Aquarium Filter for automatically cleaning Aquariums, periodically creating Fertilizer. Place adjacent to an Aquarium.", //Portuguese
+            "ru": "An Aquarium Filter for automatically cleaning Aquariums, periodically creating Fertilizer. Place adjacent to an Aquarium.", //Russian
+            "tr": "An Aquarium Filter for automatically cleaning Aquariums, periodically creating Fertilizer. Place adjacent to an Aquarium.", //Turkish
+            "zh": "鱼池过滤器，用于自动清洁鱼池，定期产生肥料。放置在生态鱼池附近。" //Chinese (Simplified)
+        }
+    }

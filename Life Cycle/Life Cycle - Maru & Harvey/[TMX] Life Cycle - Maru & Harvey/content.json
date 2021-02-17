@@ -1,0 +1,27 @@
+{
+  "name": "Life Cycle - Maru & Harvey",
+  "version": "3.0.0", 
+  "author": "nraittanna",
+  "loadLate": true,
+  "replaceMaps":
+   [
+    {
+      "name": "HarveyRoom",
+      "file": "assets/HarveyRoom.tbin",
+      "conditions": "e 59020038"
+    }
+  ], 
+  "onlyWarps":
+   [
+    {
+     "name": "Hospital", 
+     "conditions": "e 59020038",
+     "addWarps": [
+       "9 1 HarveyRoom 6 23 10 1 HarveyRoom 6 23"
+                 ],
+     "removeWarps": [ 
+       "10 1 HarveyRoom 6 12 9 1 HarveyRoom 6 12",
+                    ],
+    },
+  ],
+}

@@ -1,0 +1,5692 @@
+{
+  "nodes": [
+  //Pearl nodes ====================================================================
+	{
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "330", //Clay
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 2,
+          "luckyAmount": 1,
+          "minerAmount": 1
+        },
+        {
+          "itemIdOrName": "372", //Clam
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        },
+        {
+          "itemIdOrName": "Baroque Pearl", 
+          "dropChance": 10.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        },
+        {
+          "itemIdOrName": "Cream Pearl", 
+          "dropChance": 5.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        },
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        }
+      ],
+      "nodeDesc": "This stone is rich in Shell.",
+      "spritePath": "assets\\Shell.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 2,
+      "durability": 4,
+      "exp": 12,
+      "texture": null
+    },
+	{
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "330", //Clay
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 2,
+          "luckyAmount": 1,
+          "minerAmount": 1
+        },
+        {
+          "itemIdOrName": "372", //Clam
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        },
+        {
+          "itemIdOrName": "Baroque Pearl", 
+          "dropChance": 10.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        },
+        {
+          "itemIdOrName": "Silver Pearl", 
+          "dropChance": 5.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        },
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        }
+      ],
+      "nodeDesc": "This stone is rich in Shell.",
+      "spritePath": "assets\\Shell.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 2,
+      "durability": 4,
+      "exp": 12,
+      "texture": null
+    },
+	{
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "330", //Clay
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 2,
+          "luckyAmount": 1,
+          "minerAmount": 1
+        },
+        {
+          "itemIdOrName": "372", //Clam
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        },
+        {
+          "itemIdOrName": "Baroque Pearl", 
+          "dropChance": 10.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        },
+        {
+          "itemIdOrName": "Gold Pearl", 
+          "dropChance": 5.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        },
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        }
+      ],
+      "nodeDesc": "This stone is rich in Shell.",
+      "spritePath": "assets\\Shell.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 1,
+      "durability": 4,
+      "exp": 12,
+      "texture": null
+    },
+	{
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "330", //Clay
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 2,
+          "luckyAmount": 1,
+          "minerAmount": 1
+        },
+        {
+          "itemIdOrName": "372", //Clam
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        },
+        {
+          "itemIdOrName": "Baroque Pearl", 
+          "dropChance": 10.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        },
+        {
+          "itemIdOrName": "Pink Pearl", 
+          "dropChance": 5.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        },
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        }
+      ],
+      "nodeDesc": "This stone is rich in Shell.",
+      "spritePath": "assets\\Shell.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 1,
+      "durability": 4,
+      "exp": 12,
+      "texture": null
+    },
+	{
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "330", //Clay
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 2,
+          "luckyAmount": 1,
+          "minerAmount": 1
+        },
+        {
+          "itemIdOrName": "372", //Clam
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        },
+        {
+          "itemIdOrName": "Baroque Pearl", 
+          "dropChance": 10.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        },
+        {
+          "itemIdOrName": "Black Pearl", 
+          "dropChance": 5.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        },
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        }
+      ],
+      "nodeDesc": "This stone is rich in Shell.",
+      "spritePath": "assets\\Shell.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.5,
+      "durability": 4,
+      "exp": 12,
+      "texture": null
+    },
+	{
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "330", //Clay
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 2,
+          "luckyAmount": 1,
+          "minerAmount": 1
+        },
+        {
+          "itemIdOrName": "372", //Clam
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        },
+        {
+          "itemIdOrName": "Baroque Pearl", 
+          "dropChance": 10.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        },
+        {
+          "itemIdOrName": "Conch Pearl", 
+          "dropChance": 5.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        },
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        }
+      ],
+      "nodeDesc": "This stone is rich in Shell.",
+      "spritePath": "assets\\Shell.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.5,
+      "durability": 4,
+      "exp": 12,
+      "texture": null
+    },
+  
+  //Coral nodes ====================================================================
+  {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "393", //Coral
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 2,
+          "luckyAmount": 1,
+          "minerAmount": 1
+        },
+        {
+          "itemIdOrName": "Red Coral", 
+          "dropChance": 50.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        },
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        }
+      ],
+      "nodeDesc": "This stone is rich in coral.",
+      "spritePath": "assets\\CoralRed.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 3,
+      "durability": 4,
+      "exp": 12,
+      "texture": null
+    },
+  {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "393", //Coral
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 2,
+          "luckyAmount": 1,
+          "minerAmount": 1
+        },
+        {
+          "itemIdOrName": "Orange Coral", 
+          "dropChance": 50.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        },
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        }
+      ],
+      "nodeDesc": "This stone is rich in coral.",
+      "spritePath": "assets\\CoralOrange.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 3,
+      "durability": 4,
+      "exp": 12,
+      "texture": null
+    },
+  {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "393", //Coral
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 2,
+          "luckyAmount": 1,
+          "minerAmount": 1
+        },
+        {
+          "itemIdOrName": "Pink Coral", 
+          "dropChance": 50.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        },
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        }
+      ],
+      "nodeDesc": "This stone is rich in coral.",
+      "spritePath": "assets\\CoralPink.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 3,
+      "durability": 4,
+      "exp": 12,
+      "texture": null
+    },
+  {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "393", //Coral
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 2,
+          "luckyAmount": 1,
+          "minerAmount": 1
+        },
+        {
+          "itemIdOrName": "White Coral", 
+          "dropChance": 50.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        },
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        }
+      ],
+      "nodeDesc": "This stone is rich in coral.",
+      "spritePath": "assets\\CoralWhite.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 1,
+      "durability": 4,
+      "exp": 12,
+      "texture": null
+    },
+  {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "393", //Coral
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 2,
+          "luckyAmount": 1,
+          "minerAmount": 1
+        },
+        {
+          "itemIdOrName": "Black Coral", 
+          "dropChance": 50.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        },
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        }
+      ],
+      "nodeDesc": "This stone is rich in coral.",
+      "spritePath": "assets\\CoralBlack.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 1,
+      "durability": 4,
+      "exp": 12,
+      "texture": null
+    },
+  //Coal nodes ==================================================================== 
+	{
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Ivory",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        },
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone is rich in fossil.",
+      "spritePath": "assets\\Ivory.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.05,
+      "durability": 4,
+      "exp": 12,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Zinc",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        },
+        {
+          "itemIdOrName": "382",  //Coal
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 4,
+          "luckyAmount": 1,
+          "minerAmount": 1
+        },
+        {
+          "itemIdOrName": "390",   //Stone
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 2,
+          "luckyAmount": 1,
+          "minerAmount": 1
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        }
+      ],
+      "nodeDesc": "This stone is rich in coal.",
+      "spritePath": "assets\\CoalStone.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.15,
+      "durability": 4,
+      "exp": 12,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Amber",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        },
+        {
+          "itemIdOrName": "Jet",
+          "dropChance": 30.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        },
+        {
+          "itemIdOrName": "382",  //Coal
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 4,
+          "luckyAmount": 1,
+          "minerAmount": 1
+        },
+        {
+          "itemIdOrName": "390",   //Stone
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 2,
+          "luckyAmount": 1,
+          "minerAmount": 1
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 3.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 69,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone is rich in coal.",
+      "spritePath": "assets\\CoalStone.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.05,
+      "durability": 4,
+      "exp": 12,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Halite",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 1,
+          "luckyAmount": 1,
+          "minerAmount": 1
+        },
+        {
+          "itemIdOrName": "Pink Halite",
+          "dropChance": 10.0,
+          "minAmount": 1,
+          "maxAmount": 1,
+          "luckyAmount": 1,
+          "minerAmount": 1
+        },
+        {
+          "itemIdOrName": "382",  //Coal
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 4,
+          "luckyAmount": 1,
+          "minerAmount": 1
+        },
+        {
+          "itemIdOrName": "390",   //Stone
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 2,
+          "luckyAmount": 1,
+          "minerAmount": 1
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 3.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        }
+      ],
+      "nodeDesc": "This stone is rich in coal.",
+      "spritePath": "assets\\CoalStone.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.35,
+      "durability": 4,
+      "exp": 12,
+      "texture": null
+    },
+   
+  //Metal nodes ====================================================================  
+	{
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Silver Ore",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 4,
+          "luckyAmount": 1,
+          "minerAmount": 1
+        },
+        {
+          "itemIdOrName": "390",   //Stone
+          "dropChance": 75.0,
+          "minAmount": 1,
+          "maxAmount": 2,
+          "luckyAmount": 1,
+          "minerAmount": 1
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 41,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 119,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone is rich silver.",
+      "spritePath": "assets\\Silver.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.7,
+      "durability": 4,
+      "exp": 16,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Platinum Ore",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 4,
+          "luckyAmount": 1,
+          "minerAmount": 1
+        },
+        {
+          "itemIdOrName": "390",   //Stone
+          "dropChance": 75.0,
+          "minAmount": 1,
+          "maxAmount": 2,
+          "luckyAmount": 1,
+          "minerAmount": 1
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 81,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 119,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone is rich in platinum.",
+      "spritePath": "assets\\Platinum.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.7,
+      "durability": 4,
+      "exp": 18,
+      "texture": null
+    },
+   
+  //Quartz nodes ====================================================================
+	{
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Milky Quartz",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 119,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like quartz.",
+      "spritePath": "assets\\QuartzMilky.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.02,
+      "durability": 10,
+      "exp": 12,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Rose Quartz",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 79,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 20.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like quartz.",
+      "spritePath": "assets\\QuartzRose.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 12,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Citrin",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 31,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 69,
+          "spawnChanceMult": 20.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like quartz.",
+      "spritePath": "assets\\QuartzCitrin.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.02,
+      "durability": 10,
+      "exp": 12,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Ametrine",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 31,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 79,
+          "spawnChanceMult": 20.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like quartz.",
+      "spritePath": "assets\\QuartzAmetrine.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.005,
+      "durability": 10,
+      "exp": 12,
+      "texture": null
+    },
+    
+  //Gem nodes ====================================================================
+	{
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Larimar",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 79,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 90,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 70,
+          "maxLevel": 79,
+          "spawnChanceMult": 5.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone is rich in gem.",
+      "spritePath": "assets\\Larimar.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.02,
+      "durability": 10,
+      "exp": 16,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Pink Opal",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 79,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 5.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone is rich in gem.",
+      "spritePath": "assets\\PinkOpal.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.02,
+      "durability": 10,
+      "exp": 16,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Kunzite",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 79,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 5.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone is rich in gem.",
+      "spritePath": "assets\\Kunzite.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.02,
+      "durability": 10,
+      "exp": 16,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Lapis Lazuli",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 79,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 70,
+          "maxLevel": 79,
+          "spawnChanceMult": 5.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone is rich in gem.",
+      "spritePath": "assets\\LapisLazuli.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.02,
+      "durability": 10,
+      "exp": 16,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Peridot",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 31,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 69,
+          "spawnChanceMult": 5.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone is rich in gem.",
+      "spritePath": "assets\\Peridot.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.02,
+      "durability": 10,
+      "exp": 16,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Moonstone",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 79,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty":  0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 70,
+          "maxLevel": 79,
+          "spawnChanceMult": 5.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty":  1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone is rich in gem.",
+      "spritePath": "assets\\Moonstone.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.02,
+      "durability": 10,
+      "exp": 16,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Sunstone",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 79,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 69,
+          "spawnChanceMult": 5.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone is rich in gem.",
+      "spritePath": "assets\\Sunstone.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.02,
+      "durability": 10,
+      "exp": 16,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Tanzanite",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 79,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 70,
+          "maxLevel": 79,
+          "spawnChanceMult": 5.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone is rich in gem.",
+      "spritePath": "assets\\Tanzanite.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.02,
+      "durability": 10,
+      "exp": 16,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Turquoise",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 79,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 70,
+          "maxLevel": 79,
+          "spawnChanceMult": 5.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone is rich in gem.",
+      "spritePath": "assets\\Turquoise.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.02,
+      "durability": 10,
+      "exp": 16,
+      "texture": null
+    },
+    
+  //Topaz nodes ====================================================================
+	{
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Blue Topaz",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 79,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 70,
+          "maxLevel": 79,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like topaz.",
+      "spritePath": "assets\\TopazBlue.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 16,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Imperial Topaz",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 79,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 69,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like topaz.",
+      "spritePath": "assets\\TopazImperial.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 16,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Pink Topaz",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 79,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like topaz.",
+      "spritePath": "assets\\TopazPink.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 16,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "White Topaz",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like topaz.",
+      "spritePath": "assets\\TopazWhite.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 16,
+      "texture": null
+    },
+    
+  //Beryl nodes ====================================================================
+	{
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Bixbite",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 79,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like topaz.",
+      "spritePath": "assets\\Bixbite.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 16,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Heliodor",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 31,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 69,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like topaz.",
+      "spritePath": "assets\\Heliodor.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 16,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Goshenite",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like topaz.",
+      "spritePath": "assets\\Goshenite.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 16,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Maxixe",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 79,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 70,
+          "maxLevel": 79,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like topaz.",
+      "spritePath": "assets\\Maxixe.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 16,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Morganite",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 79,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like topaz.",
+      "spritePath": "assets\\Morganite.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 16,
+      "texture": null
+    },
+    
+  //Jade nodes ====================================================================
+	{
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Lavender Jade",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 41,
+          "maxLevel": 79,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like jade.",
+      "spritePath": "assets\\JadeLavander.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 40,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Ice Jade",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like jade.",
+      "spritePath": "assets\\JadeIce.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 40,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Agate",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 41,
+          "maxLevel": 79,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 69,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like jade.",
+      "spritePath": "assets\\Agate.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 40,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Onyx",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like jade.",
+      "spritePath": "assets\\Onyx.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 40,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Sardonyx",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 41,
+          "maxLevel": 79,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like jade.",
+      "spritePath": "assets\\Sardonyx.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 40,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Rhodonite",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 41,
+          "maxLevel": 79,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like jade.",
+      "spritePath": "assets\\Rhodonite.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 40,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Rhodochrosite",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 41,
+          "maxLevel": 79,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like jade.",
+      "spritePath": "assets\\Rhodochrosite.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 40,
+      "texture": null
+    },
+    
+  //Sapphire nodes ====================================================================
+	{
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Sapphire",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 41,
+          "maxLevel": 79,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 70,
+          "maxLevel": 79,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like sapphire.",
+      "spritePath": "assets\\Sapphire.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 40,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Indian Star Sapphire",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 79,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 71,
+          "maxLevel": 79,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like sapphire.",
+      "spritePath": "assets\\SapphireIndianStar.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 40,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Green Sapphire",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 60,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 69,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like sapphire.",
+      "spritePath": "assets\\SapphireGreen.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 40,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Orange Sapphire",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 60,
+          "maxLevel": 79,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 69,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like sapphire.",
+      "spritePath": "assets\\SapphireOrange.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 40,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Padparadscha Sapphire",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 60,
+          "maxLevel": 79,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like sapphire.",
+      "spritePath": "assets\\SapphirePadparadscha.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 40,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Pink Sapphire",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 60,
+          "maxLevel": 79,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like sapphire.",
+      "spritePath": "assets\\SapphirePink.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 40,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "White Sapphire",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 60,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like sapphire.",
+      "spritePath": "assets\\SapphireWhite.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 40,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Whiskey Sapphire",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 60,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 31,
+          "maxLevel": 69,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like sapphire.",
+      "spritePath": "assets\\SapphireWhiskey.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 40,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Yellow Sapphire",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 60,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 69,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like sapphire.",
+      "spritePath": "assets\\SapphireYellow.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 40,
+      "texture": null
+    },
+    
+  //Tourmaline nodes ====================================================================
+	{
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Achroite Tourmaline",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like emerald.",
+      "spritePath": "assets\\TourmalineAchroite.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 50,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Dravite Tourmaline",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 31,
+          "maxLevel": 69,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like emerald.",
+      "spritePath": "assets\\TourmalineDravite.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 50,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Indicolite Tourmaline",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 69,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like emerald.",
+      "spritePath": "assets\\TourmalineIndicolite.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 50,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Rubellite Tourmaline",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like emerald.",
+      "spritePath": "assets\\TourmalineRubellite.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 50,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Schorl Tourmaline",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like emerald.",
+      "spritePath": "assets\\TourmalineSchorl.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 50,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Siberite Tourmaline",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 41,
+          "maxLevel": 79,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 70,
+          "maxLevel": 119,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like emerald.",
+      "spritePath": "assets\\TourmalineSiberite.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 50,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Verdelite Tourmaline",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 69,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like emerald.",
+      "spritePath": "assets\\TourmalineVerdelite.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 50,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Watermelon Tourmaline",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 69,
+          "spawnChanceMult": 20.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 20.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like emerald.",
+      "spritePath": "assets\\TourmalineWatermelon.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.005,
+      "durability": 10,
+      "exp": 50,
+      "texture": null
+    },
+    
+  //Spinel nodes ====================================================================
+	{
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Spinel",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like ruby.",
+      "spritePath": "assets\\Spinel.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 50,
+      "exp": 12,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Green Spinel",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 69,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like ruby.",
+      "spritePath": "assets\\SpinelGreen.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 50,
+      "exp": 12,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Pink Spinel",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like ruby.",
+      "spritePath": "assets\\SpinelPink.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 50,
+      "exp": 12,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Yellow Spinel",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 69,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like ruby.",
+      "spritePath": "assets\\SpinelYellow.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 50,
+      "exp": 12,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Blue Spinel",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 41,
+          "maxLevel": 79,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 70,
+          "maxLevel": 79,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like ruby.",
+      "spritePath": "assets\\SpinelBlue.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 50,
+      "exp": 12,
+      "texture": null
+    },
+    
+  //Garnet nodes ====================================================================
+	{
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Garnet",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like ruby.",
+      "spritePath": "assets\\Garnet.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 50,
+      "exp": 12,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Almandine Garnet",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like ruby.",
+      "spritePath": "assets\\GarnetAlmandine.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 50,
+      "exp": 12,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Andradite Garnet",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 69,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like ruby.",
+      "spritePath": "assets\\GarnetAndradite.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 50,
+      "exp": 12,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Grossular Garnet",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 69,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like ruby.",
+      "spritePath": "assets\\GarnetGrossular.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 50,
+      "exp": 12,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Hessonite Garnet",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 69,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like ruby.",
+      "spritePath": "assets\\GarnetHessonite.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 50,
+      "exp": 12,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Hydrogrossular Garnet",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 69,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like ruby.",
+      "spritePath": "assets\\GarnetHydrogrossular.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 50,
+      "exp": 12,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Pyrope Garnet",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like ruby.",
+      "spritePath": "assets\\GarnetPyrope.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 50,
+      "exp": 12,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Rhodolite Garnet",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like ruby.",
+      "spritePath": "assets\\GarnetRhodolite.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 50,
+      "exp": 12,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Spessartite Garnet",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 69,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like ruby.",
+      "spritePath": "assets\\GarnetSpessartite.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 50,
+      "exp": 12,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Tsavorite Garnet",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 69,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        }
+      ],
+      "nodeDesc": "This stone shines like ruby.",
+      "spritePath": "assets\\GarnetTsavorite.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 50,
+      "exp": 12,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Uvarovite Garnet",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 2.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 69,
+          "spawnChanceMult": 10.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        }
+      ],
+      "nodeDesc": "This stone shines like ruby.",
+      "spritePath": "assets\\GarnetUvarovite.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 50,
+      "exp": 12,
+      "texture": null
+    },
+    
+  //Diamond nodes ====================================================================
+	{
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Pink Diamond",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 5.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like diamond.",
+      "spritePath": "assets\\DiamondPink.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 150,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Blue Diamond",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 41,
+          "maxLevel": 79,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 101,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 70,
+          "maxLevel": 79,
+          "spawnChanceMult": 5.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like diamond.",
+      "spritePath": "assets\\DiamondBlue.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 150,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Green Diamond",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 101,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 69,
+          "spawnChanceMult": 5.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like diamond.",
+      "spritePath": "assets\\DiamondGreen.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 150,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Purple Diamond",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 41,
+          "maxLevel": 79,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 101,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 70,
+          "maxLevel": 119,
+          "spawnChanceMult": 5.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like diamond.",
+      "spritePath": "assets\\DiamondPurple.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 150,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Red Diamond",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 81,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 5.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like diamond.",
+      "spritePath": "assets\\DiamondRed.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 150,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Orange Diamond",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 81,
+          "maxLevel": 119,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 69,
+          "spawnChanceMult": 5.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like diamond.",
+      "spritePath": "assets\\DiamondOrange.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 150,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Yellow Diamond",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 1,
+          "maxLevel": 29,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 101,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 41,
+          "maxLevel": 69,
+          "spawnChanceMult": 5.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like diamond.",
+      "spritePath": "assets\\DiamondYellow.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 150,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Champagne Diamond",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 101,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 31,
+          "maxLevel": 69,
+          "spawnChanceMult": 5.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like diamond.",
+      "spritePath": "assets\\DiamondChampagne.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 150,
+      "texture": null
+    },
+    {
+      "parentSheetIndex": 0,
+      "dropItems": [
+        {
+          "itemIdOrName": "Black Diamond",
+          "dropChance": 100.0,
+          "minAmount": 1,
+          "maxAmount": 0,
+          "luckyAmount": 0,
+          "minerAmount": 0
+        }
+      ],
+      "oreLevelRanges": [
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 101,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 0,
+          "maxDifficulty": 0
+        },
+        {
+          "minLevel": 31,
+          "maxLevel": 39,
+          "spawnChanceMult": 5.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+        {
+          "minLevel": 120,
+          "maxLevel": -1,
+          "spawnChanceMult": 1.0,
+          "expMult": 1.0,
+          "dropChanceMult": 1.0,
+          "dropMult": 1.0,
+          "minDifficulty": 1,
+          "maxDifficulty": 1
+        },
+      ],
+      "nodeDesc": "This stone shines like diamond.",
+      "spritePath": "assets\\DiamondBlack.png",
+      "spriteType": "mod",
+      "spriteX": 0,
+      "spriteY": 0,
+      "spriteW": 16,
+      "spriteH": 16,
+      "spawnChance": 0.01,
+      "durability": 10,
+      "exp": 150,
+      "texture": null
+    }
+  ]
+}

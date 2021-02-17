@@ -1,0 +1,26 @@
+{
+	"Name": "Lemon Meringue Pie",
+	"Category": "Cooking",
+	"Price": 200,
+	"Description": "A delicious, tangy treat, topped with crisp, sugary merangue.",
+	"Edibility": 80,
+	"Recipe":{
+      "ResultCount": 1,
+      "Ingredients": [
+		{
+		"Object": "Ponderosa Lemon", "Count": 3,
+		},
+		{
+		"Object": -5, "Count": 2,
+		},
+		{
+		"Object": -6, "Count": 1,
+		},
+		{
+		"Object": 245, "Count": 1
+		},
+       ],
+      "CanPurchase": false,
+      "IsDefault": false,
+    },
+}

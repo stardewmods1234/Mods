@@ -1,0 +1,23 @@
+{
+	"Name": "[CP-A] Shell Collection",
+	"Author": "ItsBenter",
+	"Version": "1.2.1",
+	"Description": "Animation for items in shell collection mod",
+	"UniqueID": "ItsBenter.ShellCollection.CP-A",
+	"MinimumApiVersion": "3.8.1",
+	"UpdateKeys": ["Nexus:????"],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+	},
+	"Dependencies": [{
+			"UniqueID": "ItsBenter.ShellCollection.JA",
+			"IsRequired": true
+		}, {
+			"UniqueID": "spacechase0.JsonAssets",
+			"IsRequired": true
+		}, {
+			"UniqueID": "spacechase0.ContentPatcherAnimations",
+			"IsRequired": false
+		}
+	]
+}

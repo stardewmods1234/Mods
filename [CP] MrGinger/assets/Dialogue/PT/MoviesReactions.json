@@ -1,0 +1,265 @@
+{
+	"Entries": {
+		"MisterGinger": {
+		"NPCName": "MisterGinger",
+		"Reactions": [
+	  	{
+			"Tag": "*",
+			"Response": "love",
+			"Whitelist": [],
+			"SpecialResponses": {
+		  	"BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Uma história contada em uma tela? Bem, suponho que pode ser divertido."
+		  	},
+		  	"DuringMovie": {
+			"ResponsePoint": null,
+			"Script": "/message \"Mr.Ginger olha para a tela.\"",
+			"Text": ""
+		  	},
+		  	"AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Muito divertido. eu gostei."
+		  }
+		},
+		"ID": "reaction_0"
+	  },
+	  {
+		"Tag": "spring_movie_0",
+		"Response": "like",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Jas amou este, e ela tem um gosto muito bom.#$b#Ela gosta de mim, para começar.$1"
+		  },
+		  "DuringMovie": {
+			"ResponsePoint": "sprout_leave",
+			"Script": "pause 500/message \"Mr.Ginger parece triste.\"",
+			"Text": "I can see the appeal.$2"
+		  },
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Bonito, mas meloso.#$b#Meloso? Sim, meloso?$1"
+		  }
+		},
+		"ID": "reaction_1"
+	  },
+	  {
+		"Tag": "spring_movie_1",
+		"Response": "love",
+		"Whitelist": [],
+		"SpecialResponses": {
+			"BeforeMovie": {
+			  "ResponsePoint": null,
+			  "Script": "",
+			  "Text": "Já estive em lugares, não tenho certeza se preciso vê-los na tela."
+			},
+			"DuringMovie": {
+			  "ResponsePoint": null,
+			  "Script": "/message \"Mr.Ginger assiste atentamente.\"",
+			  "Text": ""
+			},
+			"AfterMovie": {
+			  "ResponsePoint": null,
+			  "Script": "",
+			  "Text": "Ok, vou admitir, foi lindo
+
+."
+			}
+		},
+		"ID": "reaction_2"
+	  },
+	  {
+		"Tag": "winter_movie_0",
+		"Response": "dislike",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Sounds heart-warming and nauseating."
+		  },
+		  "DuringMovie": {
+			"ResponsePoint": null,
+			"Script": "/message \"Mr.Ginger parece entediado.\"",
+			"Text": ""
+		  },
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Hmmm, Estou com fome. Quero peixe... Podemos almoçar?"
+		  }
+		},
+		"ID": "reaction_3"
+	  },
+	  {
+		"Tag": "summer_movie_1",
+		"Response": "love",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": ""
+		  },
+		  "DuringMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Isto é ridículo.$1"
+		  },
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Que filme bobo! Mais divertido."
+		  }
+		},
+		"ID": "reaction_4"
+	  },
+	  {
+		"Tag": "fall_movie_1",
+		"Response": "dislike",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Assustador? Hah, eu sou o homem mais corajoso da cidade. Eu rio do seu medo!"
+		  },
+		  "DuringMovie": {
+			"ResponsePoint": null,
+			"Script": "/shake MisterGinger 3000/pause 500/",
+			"Text": "Não... Não faça isso... Eek!"
+		  },
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "O que? Eu estava assustado? Não, você está imaginando coisas.$2"
+		  }
+		},
+		"ID": "reaction_5"
+	  },
+	  {
+		"Tag": "winter_movie_1",
+		"Response": "like",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Bleh, romance? Gatos não fazem essas coisas sentimentais."
+		},
+		"DuringMovie": {
+		  "ResponsePoint": null,
+		  "Script": "/message \"São lágrimas nos olhos do Mr.Ginger?",
+		  "Text": ""
+		},
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Eu não estou chorando. Você está chorando. Provavelmente foram as luzes."
+		  }
+		},
+		"ID": "reaction_6"
+	  },
+	  {
+		"Tag": "summer_movie_1",
+		"Response": "dislike",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Abigail estava falando sobre este. Deve ser bom!"
+		},
+		"DuringMovie": {
+		  "ResponsePoint": null,
+		  "Script": "/message \"Mr.Ginger está agachado em sua cadeira.",
+		  "Text": "Too loud..."
+		},
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "A trama era absurda e os ruídos muito altos!$1"
+		  }
+		},
+		"ID": "reaction_7"
+	  },
+	  {
+		"Tag": "fall_movie_1",
+		"Response": "dislike",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Hmmm, Ras gostou deste. Eu confio no julgamento dele."
+		  },
+		  "DuringMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "..."
+		  },
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Nunca mais confio no Ras, não, nunca mais."
+		  }
+		},
+		"ID": "reaction_8"
+	  },
+	  {
+		"Tag": "seen_love",
+		"Response": "like",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Eu ficaria feliz em ver aquele de novo, se você insistisse.$1"
+		  },
+		  "DuringMovie": null,
+		  "AfterMovie": null
+		},
+		"ID": "reaction_9"
+	  },
+	  {
+		"Tag": "seen_like",
+		"Response": "like",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Sim, claro, por que não? Estava tudo bem."
+		  },
+		  "DuringMovie": null,
+		  "AfterMovie": null
+		},
+		"ID": "reaction_10"
+	  },
+	  {
+		"Tag": "seen_dislike",
+		"Response": "like",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Ainda estou tendo pesadelos."
+		  },
+		  "DuringMovie": null,
+		  "AfterMovie": null
+		},
+		"ID": "reaction_11"
+		}
+		]
+        }
+    }
+}
+	  
+

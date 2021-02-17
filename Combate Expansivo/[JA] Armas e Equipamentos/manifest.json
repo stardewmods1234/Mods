@@ -1,0 +1,11 @@
+{
+   "Name": "Arsenal e Acessórios",
+   "Author": "HamioDracny",
+   "Version": "1.0.1",
+   "Description": "Adiciona 2 elmos especiais ao jogo e um total de 54 armas de nichos.",
+   "UniqueID": "HamioDracny.ArsenalComElmos",
+   "UpdateKeys": [ "Nexus:7511" ],
+   "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    },
+}

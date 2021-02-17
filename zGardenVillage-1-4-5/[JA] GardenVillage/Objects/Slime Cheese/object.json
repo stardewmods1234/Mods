@@ -1,0 +1,16 @@
+{
+"Name":"Slime Cheese",
+"Category":"ArtisanGoods",
+"Description":"It smells terrible! Would anyone really want to eat this?",
+"Price":100,
+"Edibility":"-30",
+"IsColored":false,
+"Recipe":null,
+ "GiftTastes":
+    {
+        "Love": [],
+        "Like": ["Dwarf", "Krobus"],
+        "Dislike": [],
+		"Hate": ["Abigail", "Alex", "Demetrius", "Evelyn", "Caroline", "Elliott", "Emily", "Haley", "Jodi", "Marnie", "Maru", "Penny", "Sam", "Sandy", "Gus", "Harvey", "Jas", "Kent", "Leah", "Lewis", "Linus", "Pam", "Pierre", "Robin", "Shane", "Vincent", "Willy", "Wizard", "George", "Sebastian", "Clint"]
+    },
+}

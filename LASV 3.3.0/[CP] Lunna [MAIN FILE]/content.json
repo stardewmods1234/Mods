@@ -1,0 +1,2925 @@
+{
+	"Format": "1.19.0",
+	"Changes": [
+	
+//NPC Exclusions
+	{
+		"Action": "EditData",
+		"Target": "Data/CustomNPCExclusions",
+		"Entries": {
+			"Bianka": "Socialize",
+			"Raphael": "Socialize",
+			"Dianna": "ALL",
+		}
+	},
+
+//Festival Places Lunna
+
+//Egg Festival
+{
+   "Action": "EditData",
+   "Target": "Data/Festivals/spring13",
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Lunna 16 64 right",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Lunna 16 64 right",
+         "Delimiter": "/"
+		},
+	],
+},
+//Flower Dance
+{
+   "Action": "EditData",
+   "Target": "Data/Festivals/spring24",
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Lunna 4 37 right",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Lunna 4 37 up",
+         "Delimiter": "/"
+		},
+	],
+},
+//Luau
+{
+   "Action": "EditData",
+   "Target": "Data/Festivals/summer11",
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Lunna 44 20 right",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Lunna 44 20 up",
+         "Delimiter": "/"
+		},
+	],
+},
+//Jellies
+{
+   "Action": "EditData",
+   "Target": "Data/Festivals/summer28",
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Lunna 11 31 left",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Lunna 11 31 left",
+         "Delimiter": "/"
+		},
+	],
+},
+//Fair
+{
+   "Action": "EditData",
+   "Target": "Data/Festivals/fall16",
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Lunna 25 79 left",
+         "Delimiter": "/"
+		},
+	],
+},	
+//Spirit Eve
+{
+   "Action": "EditData",
+   "Target": "Data/Festivals/fall27",
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Lunna 26 53 down",
+         "Delimiter": "/"
+		},
+	],
+},
+//Ice Festival
+{
+   "Action": "EditData",
+   "Target": "Data/Festivals/winter8",
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Lunna 78 28 down",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Lunna 78 28 down",
+         "Delimiter": "/"
+		},
+	],
+},
+//Winter Star
+{
+   "Action": "EditData",
+   "Target": "Data/Festivals/winter25",
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Lunna 39 59 down",
+         "Delimiter": "/"
+		},
+	],
+},
+
+//Festival Places Bianka and Raphael
+
+//Egg Festival
+{
+   "Action": "EditData",
+   "Target": "Data/Festivals/spring13",
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Bianka 16 65 right",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Raphael 16 66 right",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Bianka 16 65 right",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Raphael 16 66 right",
+         "Delimiter": "/"
+		},
+	],
+	"When": { "HasSeenEvent": "75160015" },
+	"Update": "OnLocationChange",
+},
+//Flower Dance
+{
+   "Action": "EditData",
+   "Target": "Data/Festivals/spring24",
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Bianka 10 37 left",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Raphael 9 38 up",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Bianka 10 37 left",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Raphael 9 38 up",
+         "Delimiter": "/"
+		},
+	],
+	"When": { "HasSeenEvent": "75160015" },
+	"Update": "OnLocationChange",
+},
+//Luau
+{
+   "Action": "EditData",
+   "Target": "Data/Festivals/summer11",
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Bianka 41 18 left",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Raphael 40 19 up",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Bianka 41 18 left",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Raphael 40 19 up",
+         "Delimiter": "/"
+		},
+	],
+	"When": { "HasSeenEvent": "75160015" },
+	"Update": "OnLocationChange",
+},
+//Jellies
+{
+   "Action": "EditData",
+   "Target": "Data/Festivals/summer28",
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Bianka 11 33 left",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Raphael 11 32 left",
+         "Delimiter": "/"
+		},
+	],
+	"When": { "HasSeenEvent": "75160015" },
+	"Update": "OnLocationChange",
+},
+//Fair
+{
+   "Action": "EditData",
+   "Target": "Data/Festivals/fall16",
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Bianka 48 88 up",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Raphael 48 89 left",
+         "Delimiter": "/"
+		},
+	],
+	"When": { "HasSeenEvent": "75160015" },
+	"Update": "OnLocationChange",
+},	
+//Spirit Eve
+{
+   "Action": "EditData",
+   "Target": "Data/Festivals/fall27",
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Bianka 19 48 down",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Raphael 19 49 right",
+         "Delimiter": "/"
+		},
+	],
+	"When": { "HasSeenEvent": "75160015" },
+	"Update": "OnLocationChange",
+},
+//Ice Festival
+{
+   "Action": "EditData",
+   "Target": "Data/Festivals/winter8",
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Bianka 79 29 left",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Raphael 79 30 left",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Bianka 79 29 left",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Raphael 79 30 left",
+         "Delimiter": "/"
+		},
+	],
+	"When": { "HasSeenEvent": "75160015" },
+	"Update": "OnLocationChange",
+},
+//Winter Star
+{
+   "Action": "EditData",
+   "Target": "Data/Festivals/winter25",
+   "TextOperations": [
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Bianka 38 60 right",
+         "Delimiter": "/"
+		},
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Raphael 39 61 up",
+         "Delimiter": "/"
+		},
+	],
+	"When": { "HasSeenEvent": "75160015" },
+	"Update": "OnLocationChange",
+},
+	
+	
+	//Load Tilesheets-------------------------------------------
+		{
+			"LogName": "Tilesheets",
+			"Action": "Load",
+			"Target": "Maps/spring_Umuwi,Maps/summer_Umuwi,/Maps/fall_Umuwi,/Maps/winter_Umuwi",
+			"FromFile": "assets/Maps/{{TargetWithoutPath}}.png"
+		},
+	
+	//Load Extra Images-----------------------------------------
+		{
+			"LogName": "Shadowfolk Lunna sprite",
+			"Action": "Load",
+			"Target": "Characters/Lunna_Shadowfolk",
+			"FromFile": "assets/Events/Sprites/Lunna_Shadowfolk.xnb",
+		},
+		{
+			"LogName": "Shadowfolk Lunna portrait",
+			"Action": "Load",
+			"Target": "Portraits/Lunna_Shadowfolk",
+			"FromFile": "assets/Events/Portraits/Lunna_Shadowfolk.xnb",
+		},
+		
+		{
+			"LogName": "Human Dianna sprite",
+			"Action": "Load",
+			"Target": "Characters/Dianna_FallsCave",
+			"FromFile": "assets/Events/Sprites/Dianna_FallsCave.xnb",
+		},
+		{
+			"LogName": "Human Dianna portrait",
+			"Action": "Load",
+			"Target": "Portraits/Dianna_FallsCave",
+			"FromFile": "assets/Events/Portraits/Dianna_FallsCave.xnb",
+		},
+		
+	//Fishes----------------------------------------------------
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Umuwi": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Umuwi Carp}} -1 {{spacechase0.JsonAssets/ObjectId:Purple Spotted Trout}} -1 {{spacechase0.JsonAssets/ObjectId:Relicantlette}} -1 {{spacechase0.JsonAssets/ObjectId:Dewdrop Fish}} -1 {{spacechase0.JsonAssets/ObjectId:Serafin}} -1/{{spacechase0.JsonAssets/ObjectId:Umuwi Carp}} -1 {{spacechase0.JsonAssets/ObjectId:Purple Spotted Trout}} -1 {{spacechase0.JsonAssets/ObjectId:Relicantlette}} -1 {{spacechase0.JsonAssets/ObjectId:Dewdrop Fish}} -1 {{spacechase0.JsonAssets/ObjectId:Serafin}} -1/{{spacechase0.JsonAssets/ObjectId:Umuwi Carp}} -1 {{spacechase0.JsonAssets/ObjectId:Purple Spotted Trout}} -1 {{spacechase0.JsonAssets/ObjectId:Relicantlette}} -1 {{spacechase0.JsonAssets/ObjectId:Dewdrop Fish}} -1 {{spacechase0.JsonAssets/ObjectId:Serafin}} -1/{{spacechase0.JsonAssets/ObjectId:Umuwi Carp}} -1 {{spacechase0.JsonAssets/ObjectId:Purple Spotted Trout}} -1 {{spacechase0.JsonAssets/ObjectId:Relicantlette}} -1 {{spacechase0.JsonAssets/ObjectId:Dewdrop Fish}} -1 {{spacechase0.JsonAssets/ObjectId:Serafin}} -1/-1",	
+				"LunnaLake": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Umuwi Carp}} -1 {{spacechase0.JsonAssets/ObjectId:Purple Spotted Trout}} -1 {{spacechase0.JsonAssets/ObjectId:Relicantlette}} -1 {{spacechase0.JsonAssets/ObjectId:Dewdrop Fish}} -1 {{spacechase0.JsonAssets/ObjectId:Serafin}} -1/{{spacechase0.JsonAssets/ObjectId:Umuwi Carp}} -1 {{spacechase0.JsonAssets/ObjectId:Purple Spotted Trout}} -1 {{spacechase0.JsonAssets/ObjectId:Relicantlette}} -1 {{spacechase0.JsonAssets/ObjectId:Dewdrop Fish}} -1 {{spacechase0.JsonAssets/ObjectId:Serafin}} -1/{{spacechase0.JsonAssets/ObjectId:Umuwi Carp}} -1 {{spacechase0.JsonAssets/ObjectId:Purple Spotted Trout}} -1 {{spacechase0.JsonAssets/ObjectId:Relicantlette}} -1 {{spacechase0.JsonAssets/ObjectId:Dewdrop Fish}} -1 {{spacechase0.JsonAssets/ObjectId:Serafin}} -1/{{spacechase0.JsonAssets/ObjectId:Umuwi Carp}} -1 {{spacechase0.JsonAssets/ObjectId:Purple Spotted Trout}} -1 {{spacechase0.JsonAssets/ObjectId:Relicantlette}} -1 {{spacechase0.JsonAssets/ObjectId:Dewdrop Fish}} -1 {{spacechase0.JsonAssets/ObjectId:Serafin}} -1/-1",				
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Entries": {
+				"{{spacechase0.JsonAssets/ObjectId:Purple Spotted Trout}}": "Purple Spotted Trout/80/mixed/5/30/700 1800/spring summer fall winter/both/683 .4/1/.3/.4/0",
+				"{{spacechase0.JsonAssets/ObjectId:Relicantlette}}": "Relicantlette/20/mixed/1/12/700 1800/spring summer fall winter/both/683 .4/1/.6/.8/0",
+				"{{spacechase0.JsonAssets/ObjectId:Dewdrop Fish}}": "Dewdrop Fish/20/mixed/3/10/700 1800/spring summer fall winter/both/683 .4/1/.6/.8/0",
+				"{{spacechase0.JsonAssets/ObjectId:Serafin}}": "Serafin/50/mixed/8/20/700 1800/spring summer fall winter/both/683 .4/1/.3/.4/0",
+				"{{spacechase0.JsonAssets/ObjectId:Umuwi Carp}}": "Umuwi Carp/90/mixed/30/50/700 1800/spring summer fall winter/both/683 .4/1/.1/.2/0",
+			},
+		},
+     //tags
+{   
+	 "Action": "EditData",
+	 "Target": "Data/ObjectContextTags",
+	 "Entries": { 
+	  "{{spacechase0.JsonAssets/ObjectId:Purple Spotted Trout}}": "fish_purple_spotted_trout",
+	  "{{spacechase0.JsonAssets/ObjectId:Relicantlette}}": "fish_relicantlette",
+	  "{{spacechase0.JsonAssets/ObjectId:Dewdrop Fish}}": "fish_dewdrop_fish",
+	  "{{spacechase0.JsonAssets/ObjectId:Serafin}}": "fish_serafin",
+	  "{{spacechase0.JsonAssets/ObjectId:Umuwi Carp}}": "fish_umuwi_carp",
+	}
+},
+	//Fishpond
+{    //Purple Spotted Trout
+	"Action": "EditData",
+	"Target": "Data/FishPondData",
+	"Entries": { 
+	"fish_butterfish": {
+	"RequiredTags": [ "fish_purple_spotted_trout" ],
+	"SpawnTime": -1,
+	"ProducedItems": [
+	{
+	"RequiredPopulation": 10,	
+	"Chance": 0.40,
+	"ItemID": 66,
+	"MinQuantity": 4,
+	"MaxQuantity": 8
+	},
+	{
+	"RequiredPopulation": 6,
+	"Chance": 0.45,
+	"ItemID": 66,
+	"MinQuantity": 1,
+	"MaxQuantity": 2
+	},
+	{
+	"RequiredPopulation": 3,
+	"Chance": 0.50,
+	"ItemID": 66,
+	"MinQuantity": 1,
+	"MaxQuantity": 1
+	},
+	{
+	"RequiredPopulation": 0,
+	"Chance": 0.70,
+	"ItemID": 774,
+	"MinQuantity": 5,
+	"MaxQuantity": 8
+	}
+  ],
+	"PopulationGates": {
+	"2": [ "176 2" ],
+	"4": [ "296 2" ],
+	"8": [ "66 2" ],
+	  },
+   },
+ },
+},
+{    //Relicantlette
+	"Action": "EditData",
+	"Target": "Data/FishPondData",
+	"Entries": { 
+	"fish_butterfish": {
+	"RequiredTags": [ "fish_relicantlette" ],
+	"SpawnTime": -1,
+	"ProducedItems": [
+	{
+	"RequiredPopulation": 10,	
+	"Chance": 0.40,
+	"ItemID": 729,
+	"MinQuantity": 2,
+	"MaxQuantity": 4
+	},
+	{
+	"RequiredPopulation": 6,
+	"Chance": 0.45,
+	"ItemID": 214,
+	"MinQuantity": 2,
+	"MaxQuantity": 2
+	},
+	{
+	"RequiredPopulation": 3,
+	"Chance": 0.50,
+	"ItemID": 214,
+	"MinQuantity": 1,
+	"MaxQuantity": 1
+	},
+	{
+	"RequiredPopulation": 0,
+	"Chance": 0.70,
+	"ItemID": 774,
+	"MinQuantity": 2,
+	"MaxQuantity": 4
+	}
+  ],
+	"PopulationGates": {
+	"2": [ "340 2" ],
+	"4": [ "724 4" ],
+	"8": [ "724 6" ],
+	  },
+   },
+ },
+},
+{    //Dewdrop Fish
+	"Action": "EditData",
+	"Target": "Data/FishPondData",
+	"Entries": { 
+	"fish_butterfish": {
+	"RequiredTags": [ "fish_dewdrop_fish" ],
+	"SpawnTime": -1,
+	"ProducedItems": [
+	{
+	"RequiredPopulation": 10,	
+	"Chance": 0.40,
+	"ItemID": 729,
+	"MinQuantity": 2,
+	"MaxQuantity": 4
+	},
+	{
+	"RequiredPopulation": 6,
+	"Chance": 0.45,
+	"ItemID": 214,
+	"MinQuantity": 2,
+	"MaxQuantity": 2
+	},
+	{
+	"RequiredPopulation": 3,
+	"Chance": 0.50,
+	"ItemID": 769,
+	"MinQuantity": 1,
+	"MaxQuantity": 1
+	},
+	{
+	"RequiredPopulation": 0,
+	"Chance": 0.70,
+	"ItemID": 774,
+	"MinQuantity": 2,
+	"MaxQuantity": 5
+	}
+  ],
+	"PopulationGates": {
+	"2": [ "340 2" ],
+	"4": [ "724 4" ],
+	"8": [ "724 6" ],
+	  },
+   },
+ },
+},
+{    //Serafin
+	"Action": "EditData",
+	"Target": "Data/FishPondData",
+	"Entries": { 
+	"fish_butterfish": {
+	"RequiredTags": [ "fish_serafin" ],
+	"SpawnTime": -1,
+	"ProducedItems": [
+	{
+	"RequiredPopulation": 10,	
+	"Chance": 0.40,
+	"ItemID": 595,
+	"MinQuantity": 2,
+	"MaxQuantity": 4
+	},
+	{
+	"RequiredPopulation": 6,
+	"Chance": 0.45,
+	"ItemID": 548,
+	"MinQuantity": 2,
+	"MaxQuantity": 2
+	},
+	{
+	"RequiredPopulation": 3,
+	"Chance": 0.50,
+	"ItemID": 60,
+	"MinQuantity": 1,
+	"MaxQuantity": 1
+	},
+	{
+	"RequiredPopulation": 0,
+	"Chance": 0.70,
+	"ItemID": 68,
+	"MinQuantity": 2,
+	"MaxQuantity": 5
+	}
+  ],
+	"PopulationGates": {
+	"2": [ "60 1" ],
+	"4": [ "724 4" ],
+	"8": [ "18 6" ],
+	  },
+   },
+ },
+},
+{    //Umuwi Carp
+	"Action": "EditData",
+	"Target": "Data/FishPondData",
+	"Entries": { 
+	"fish_butterfish": {
+	"RequiredTags": [ "fish_umuwi_carp" ],
+	"SpawnTime": -1,
+	"ProducedItems": [
+	{
+	"RequiredPopulation": 10,	
+	"Chance": 0.40,
+	"ItemID": 499,
+	"MinQuantity": 2,
+	"MaxQuantity": 4
+	},
+	{
+	"RequiredPopulation": 6,
+	"Chance": 0.45,
+	"ItemID": 347,
+	"MinQuantity": 2,
+	"MaxQuantity": 2
+	},
+	{
+	"RequiredPopulation": 3,
+	"Chance": 0.50,
+	"ItemID": 72,
+	"MinQuantity": 1,
+	"MaxQuantity": 1
+	},
+	{
+	"RequiredPopulation": 0,
+	"Chance": 0.70,
+	"ItemID": 308,
+	"MinQuantity": 2,
+	"MaxQuantity": 5
+	}
+  ],
+	"PopulationGates": {
+	"2": [ "305 1" ],
+	"4": [ "769 4" ],
+	"8": [ "72 6" ],
+	  },
+   },
+ },
+},
+	
+	//Gift Tastes-------------------------------------------
+		{
+			"LogName": "Gift tastes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"Lunna": "This gift is really wonderful! Thank you @!!/211 220 221 732 268 417 635 636 634 305 308 72 400 234/Thank you! This is a pleasant gift./24 184 398 398 296 258 396 410 280 416/...Uhmm, Thank you?/18/I do not really like these @/2/This is not very wonderful @./152/ ",
+				"Dianna": "@!! You are AWESOME!/211 220 221 732 268 417 635 636 634 305 308 72 400 234/@!! You are very kind! Thank you!/24 184 398 398 296 258 396 410 280 416/Uhhhhhhh @? What is this??/18/Eww what is this!/2/Do you want me to hate you @?/152/ ",
+				"Bianka": "Oh hey @ This is great! Thank you!/211 220 221 612 400 233 234 258 417/This is a nice gift @. Thank you./-5 -79 422/...Uhmm, Thank you I guess?/80 330/This is disgusting./2/Oh wow, Congrats! You made list for my Do-not-talk-to list!/-4/ ",
+				"Raphael": "This is wonderful @! Thank you so much!/184 186 232 233 400 378 380 384 386/What a good gift. Thanks!/-5 -79 422/...What is this?/80 330/You're wasting my time.$a/2/Hey, I hate these!/-4/ ",
+			},
+		},
+	
+	//NPC Dispositions--------------------------------------
+		{
+			"LogName": "NPC Dispositions",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Entries": {
+				"Lunna": "teen/polite/outgoing/positive/female/datable/null/Town/spring 3/Wizard 'dad' Dianna 'sister'/LunnaHouse 4 5/Lunna",
+				"Dianna": "child/polite/shy/positive/female/not-datable/null/Other/winter 2/Lunna 'sister'/DiannaHouse 9 9/Dianna",
+				"Bianka": "teen/polite/outgoing/positive/female/datable/null/Other/summer 9/Raphael 'brother'/BiankaHouse 8 4/Bianka",
+				"Raphael": "teen/polite/outgoing/positive/male/datable/null/Other/winter 18/Bianka 'sister'/BiankaHouse 4 5/Raphael",
+				"Antiunn": "child/neutral/shy/positive/male/not-datable/null/Other/null//LaarniHouse 6 8/Antiunn",
+				"Bellia": "adult/polite/neutral/positive/female/not-datable/null/Other/null//OddiHouse 18 5/Bellia",
+				"Gabbi": "teen/polite/outgoing/positive/male/not-datable/null/Other/null//GabbiHouse 7 5/Gabbi",
+				"Gellos": "child/polite/outgoing/positive/male/not-datable/null/Other/null//GabbiHouse 2 5/Gellos",
+				"Laarni": "adult/polite/neutral/positive/female/not-datable/null/Other/null//LaarniHouse 15 6/Laarni",
+				"Micco": "teen/rude/shy/positive/male/not-datable/null/Other/null//ReenusHouse 1 8/Micco",
+				"Oddi": "teen/polite/outgoing/positive/female/not-datable/null/Other/null//OddiHouse 12 5/Oddi",
+				"Reenus": "adult/neutral/neutral/positive/male/not-datable/null/Other/null//ReenusHouse 10 4/Reenus",
+				"Yvenn": "child/polite/polite/positive/female/not-datable/null/Other/null//LaarniHouse 1 7/Yvenn",
+				"Esmeralda": "adult/polite/polite/positive/female/not-datable/null/Other/null//Umuwi 0 59/Esmeralda",
+				"Salvador": "adult/polite/polite/positive/male/not-datable/null/Other/null//Umuwi 0 58/Salvador",
+			},
+		},
+	//Antisociality-----------------------------------------
+		{
+			"LogName": "Antisocial NPCs",
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries": {
+				"Dianna": true,
+				"Antiunn": true,
+				"Bellia": true,
+				"Gabbi": true,
+				"Gellos": true,
+				"Laarni": true,
+				"Micco": true,
+				"Oddi": true,
+				"Reenus": true,
+				"Yvenn": true,
+				"Esmeralda": true,
+				"Salvador": true
+				}
+		},
+		
+	//NPCs--------------------------------------------------
+	
+		//Lunna
+	
+		{
+			"LogName": "Lunna Portraits",
+			"Action": "Load",
+			"Target": "Portraits/Lunna",
+			"FromFile": "assets/CharacterFiles/Lunna/Lunna.png",
+		},
+		{
+			"LogName": "Lunna Sprites",
+			"Action": "Load",
+			"Target": "Characters/Lunna",
+			"FromFile": "assets/CharacterFiles/Lunna/Lunna_sprite.png",
+		},
+		{
+			"LogName": "Lunna Schedule",
+			"Action": "Load",
+			"Target": "Characters/schedules/Lunna",
+			"FromFile": "assets/CharacterFiles/Lunna/schedule.json",
+		},
+		{
+			"LogName": "Lunna Schedule After new portal is open",
+			"Action": "EditData",
+			"Target": "Characters/schedules/Lunna",
+			"When": { "HasSeenEvent: hostPlayer": 75160021},
+			"Entries": {
+				"spring_Thu": "800 Umuwi 69 34 3/1200 Umuwi 36 42 2/1600 DiannaHouse 6 8 2/2000 LunnaHouse 12 8 3 lunna_sleep",
+				"summer_Fri": "800 Umuwi 69 34 3/1200 Umuwi 36 42 2/1600 DiannaHouse 6 8 2/2000 LunnaHouse 12 8 3 lunna_sleep",
+				"fall_Fri": "800 Umuwi 69 34 3/1200 Umuwi 36 42 2/1600 DiannaHouse 6 8 2/2000 LunnaHouse 12 8 3 lunna_sleep",
+				"winter_Fri": "800 Umuwi 69 34 3/1200 Umuwi 36 42 2/1600 DiannaHouse 6 8 2/2000 LunnaHouse 12 8 3 lunna_sleep",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "strings/StringsFromCSFiles",
+			"Entries": {
+			"Utility.cs.5367": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Lunna in the bonds of marriage.",
+			"Utility.cs.5369": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Lunna in the bonds of marriage.",
+			"Utility.cs.5371": "@... Lunna... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$h",
+			"Utility.cs.5377": "@... Lunna... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you wife and..., well, wife!$h",
+			},
+			"When": {
+			"Relationship:Lunna": "Engaged"
+			},
+		},
+		{
+			"LogName": "ScheduleDialogue Strings",
+			"Action": "Load",
+			"Target": "Strings/schedules/Lunna",
+			"FromFile": "assets/CharacterFiles/Lunna/Strings.json",
+		},
+		{
+			"LogName": "Dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Lunna",
+			"FromFile": "assets/CharacterFiles/Lunna/dialogue.json",
+		},
+		{
+			"LogName": "Dialogue After Umuwi Event",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Lunna",
+			"When": { "HasSeenEvent: hostPlayer": 75160015 },
+			"Entries": {
+				"Town_72_9": "*enjoying the breeze*$8#$e#Oh hey @!#$b#I am relaxing here after buying some stuff for Dianna$0",
+				"spring_3": "Hey! @!$0#$e#Dianna said she wants to come here for my birthday#$b#I said no and I shall go to her instead$u",
+				"winter_2": "Hello @! Today is Dianna's birthday!$h#$e#I am planning to visit her. Will you visit her as well?",
+				"winter_14": "The night market that arrives tomorrow is really interesting.$0#$e#I shall bring Dianna items I shall buy tomorrow!$8",
+			},
+		},
+		{
+			"LogName": "Marriage Dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueLunna",
+			"FromFile": "assets/CharacterFiles/Lunna/marriageLunna.json",
+		},
+		{
+			"LogName": "Engagement Dialogue",
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+				"Lunna0": "Marriage? Me?$h#$b#I never thought that I would marry someday, even after turning human.$l",
+				"Lunna1": "eeeeep! I can't wait!$8",
+			},
+		},
+		{
+			"LogName": "StardewValleyFair",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": {
+				"Lunna": "Look at that creature! It's so fun!$h",
+				"Lunna_spouse": "Go love! Im sure you can win that display!",
+			},
+		},
+		{
+			"LogName": "Halloween",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"Entries": {
+				"Lunna": "I'm kind of enjoying myself, Atleast the pumpkin food is good.$u",
+				"Lunna_spouse": "Im enjoying this festival more now thanks to you.$8",
+			},
+		},
+		{
+			"LogName": "EggFestival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"Entries": {
+				"Lunna": "The colorful eggs look so cute and pretty.. and tasty$h",
+				"Lunna_spouse": "I would love to join the egg hunt! Too bad I'm not so used to running with this form.$h",
+			},
+		},
+		{
+			"LogName": "FlowerDance",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": {
+				"Lunna": "These festival of flower dresses are so elegant.$8",
+			},
+		},
+		{
+			"LogName": "Luau",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": {
+				"Lunna": "@!! I trust you put in something good in the pot!$7",
+				"Lunna_spouse": "Hmmm, I wonder other more ingredients are in that pot besides our produce in the farm.$h",
+			},
+		},
+		{
+			"LogName": "MoonlightJellies",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"Entries": {
+				"Lunna": "The waters look so beautiful.$u",
+				"Lunna_spouse": "I hope Dianna sees this beauty too..#$e#Hold me close and tight as we watch okay?$l",
+			},
+		},
+		{
+			"LogName": "IceFestival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"Entries": {
+				"Lunna": "Fishies! They're soooo cute! They make real good food too!$h",
+			},
+		},
+		{
+			"LogName": "Christmas",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": {
+				"Lunna": "@! This festival is so sparkly and vibrant!$0",
+				"Lunna_spouse": "I'm really very very really happy I spent another year with you.. Did I say that right?$l",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/ConcessionTastes",
+			"Entries": {
+				"Lunna": {
+					"Name": "Lunna",
+					"LovedTags": [
+						"Gourmet", "Healthy"
+						],
+					"LikedTags": [
+						"Sweet", "popcorn", "Candy"
+						],
+					"DislikedTags": [
+						"Jasmine Tea", "Salty"
+						]
+				},
+			},
+		},	
+		{
+			"Action": "EditData",
+			"Target": "Data/MoviesReactions",
+			"Entries": {
+				"Lunna": {
+					"NPCName": "Lunna",
+					"Reactions": [
+					{
+						"Tag": "romance",
+						"Response": "love",
+						"Whitelist": [],
+						"SpecialResponses": null,
+						"ID": "reaction_0"
+					},
+					{
+						"Tag": "action",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": null,
+						"ID": "reaction_1"
+					},
+					{
+						"Tag": "winter_movie_1",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+						"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "These kinds of stories are such a treat! Thank you for inviting me @.$u"
+						},
+						"DuringMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "*Lunna seems to be blushing*$1"
+						},
+						"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "That story was really soothing! Thank you @!$h"
+						}
+						},
+					"ID": "reaction_2"
+						},
+						{
+						"Tag": "fall_movie_0",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+						"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "This would be a scary story, is it not? Oh well, I can do this!$u"
+						},
+						"DuringMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "@? This is really fun!$h"
+						},
+						"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "I had such a wonderful time @. Im sorry that it seems I was enjoying instead of being scared.$u"
+						}
+						},
+					"ID": "reaction_3"
+						},
+						{
+						"Tag": "love",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+						"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "I am very much excited @!.$h"
+						},
+						"DuringMovie": {
+						"ResponsePoint": null,
+						"Script": "/shake Lunna 3000/pause 500/message \"Lunna is giggling!\"",
+						"Text": "This is very cute!$1"
+						},
+						"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "Such stories make my heart flutter. Thank you for bringing me.$1"
+						}
+						},
+					"ID": "reaction_4"
+						},
+						{
+						"Tag": "like",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+						"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "Oh such joy to watch a projected story!$h"
+						},
+						"DuringMovie": null,
+						"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "I am having a great time @. I am grateful you asked me along.$1"
+						}
+						},
+					"ID": "reaction_5"
+						},
+						{
+						"Tag": "dislike",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+						"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "Oh.. I am not really fond of these kinds of stories.$s"
+						},
+						"DuringMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "*Lunna seems to be bored*$12"
+						},
+						"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "Oh well.. Uhm Thank you for the time I guess @.$u"
+						}
+						},
+					"ID": "reaction_6"
+						}
+					]
+				}
+			}
+		},
+		{
+			"LogName": "Lunna's Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Lunna",
+			"Entries": {
+				"give_flowersA": "@! You wish to have me as your girlfriend!?$6#$b#Yes! Ofcourse @! I love you!$l",
+				"give_flowersB": "Wait.. What?? Despite knowing the real me?$6#$b#@... You are such a weird one! Ofcourse I want to be your girlfriend!$l",
+				"give_pendant": "This.. This pendant @.. M. Rasmodius taught me about this in your culture..$u#$b#Is this not what you give the one whom you want to marry?$u#$b#...$u#$b#!!!$6#$b#@!!! Are you really?$10#$b#Ofcourse it is a yes! I million times over! I love you!$l",
+				"stardrop_gift": "@, love, I want to give you this. You have been such an amazing part of my life.$l#$b#Thank you so much my prince for coming into my life.$h^Thank you so much my princess for coming into my life.$h",
+				"rejectNPCA": "Oh? Uhmm No thank you @..$s",
+				"rejectNPCB": "I am not really interested in you @. I am sorry.$s",
+				"reject_two_heartA": "Oh? Uhmm Is this about trying to make friends or something? I only see you as a friend @.$s",
+				"reject_two_heartB": "We barely even know each other @!$s#$b#Are you okay?$s",
+				"reject_four_heartA": "Oh @??$6#$b#I am sorry but you are just a good friend @.. I do not see it going far right now.$s",
+				"reject_four_heartB": "Uhhmmmm I think it is best for us to stay friends @..$s",
+				"engageA": "Oh? But I heard you have someone else's hand already? Are you okay?$s",
+				"engageB": "Uhhhh @? I thought you're getting married already?$s#$b#Do not ever break someone else's heart!$a",
+				"marriedA": "Wait what!? @!$6#$b#I could never betray %spouse for your silly little plans! Get away!$a",
+				"marriedB": "Uhh @.. I think you should be honest to %spouse first before doing these things..$s",
+				"refusal_knownA": "Huh! @??$6#$b#What is this? It's a pretty shell is it not!$u",
+				"refusal_knownB": "Why are you showing me this blue shell?$u#$b#Well It is a pretty shell @! Great find!$h",
+				"refusal_botherA": "Stop pestering me with that shell! I know it is a good looking shell!$a",
+				"refusal_botherB": "STOP IT WITH THE SHELL @! WHAT IS SO SPECIAL WITH THIS SHELL!$a",
+				"refusal_no_heartsA": "Uhhhhh who are you again?$s",
+				"refusal_no_heartsB": "Uhmmm who are you again? Oh hi @. What's this shell here?",
+			},
+		},
+		{
+			"LogName": "Dating Lunna",
+			"Target": "Characters/Dialogue/Lunna",
+			"Action": "EditData",
+			"When": {
+				"Relationship:Lunna": "Dating"
+				},
+			"Entries": {
+				"give_flowersA": "Oh @... Thank you so much for this flowers.$l#$b#You are such a loving boyfriend.$l^You are such a loving girlfriend.$l",
+				"give_flowersB": "And here I was wishing you were by my side right now.$l#$b#Thank you for the flowers love! Come here you! *kisses you*.$l",
+				"give_pendant": "This.. This pendant @.. M. Rasmodius taught me about this in your culture..$u#$b#Is this not what you give the one whom you want to marry?$u#$b#...$u#$b#!!!$6#$b#@!!! Are you really?$10#$b#Ofcourse it is a yes! I million times over! I love you!$l",
+				"stardrop_gift": "@, love, I want to give you this. You have been such an amazing part of my life.$l#$b#Thank you so much my prince for coming into my life.$h^Thank you so much my princess for coming into my life.$h",
+				"rejectNPCA": "Oh? Uhmm No thank you @..$s",
+				"rejectNPCB": "I am not really interested in you @. I am sorry.$s",
+				"reject_two_heartA": "Oh? Uhmm Is this about trying to make friends or something? I only see you as a friend @.$s",
+				"reject_two_heartB": "We barely even know each other @!$s#$b#Are you okay?$s",
+				"reject_four_heartA": "Oh @??$6#$b#I am sorry but you are just a good friend @.. I do not see it going far right now.$s",
+				"reject_four_heartB": "Uhhmmmm I think it is best for us to stay friends @..$s",
+				"engageA": "Oh? But I heard you have someone else's hand already? Are you okay?$s",
+				"engageB": "Uhhhh @? I thought you're getting married already?$s#$b#Do not ever break someone else's heart!$a",
+				"marriedA": "Wait what!? @!$6#$b#I could never betray %spouse for your silly little plans! Get away!$a",
+				"marriedB": "Uhh @.. I think you should be honest to %spouse first before doing these things..$s",
+				"refusal_knownA": "Huh! @??$6#$b#What is this? It's a pretty shell is it not!$u",
+				"refusal_knownB": "Why are you showing me this blue shell?$u#$b#Well It is a pretty shell @! Great find!$h",
+				"refusal_botherA": "Stop pestering me with that shell! I know it is a good looking shell!$a",
+				"refusal_botherB": "STOP IT WITH THE SHELL @! WHAT IS SO SPECIAL WITH THIS SHELL!$a",
+				"refusal_no_heartsA": "Uhhhhh who are you again?$s",
+				"refusal_no_heartsB": "Uhmmm who are you again? Oh hi @. What's this shell here?",
+			},
+		},
+		{
+			"LogName": "Engaged to Lunna",
+			"Target": "Characters/Dialogue/Lunna",
+			"Action": "EditData",
+			"When": {
+				"Relationship:Lunna": "Engaged"
+				},
+			"Entries": {
+				"give_flowersA": "You still keep giving me wonderful things and memories!$h#$b#Stop it you're making me cry!$10",
+				"give_flowersB": "Love I appreciate all these flowers and all but..$l#$b#Where do you get so much flowers anyway?$h",
+				"give_pendant": "This.. This pendant @.. M. Rasmodius taught me about this in your culture..$u#$b#Is this not what you give the one whom you want to marry?$u#$b#...$u#$b#!!!$6#$b#@!!! Are you really?$10#$b#Ofcourse it is a yes! I million times over! I love you!$l",
+				"stardrop_gift": "@, love, I want to give you this. You have been such an amazing part of my life.$l#$b#Thank you so much my prince for coming into my life.$h^Thank you so much my princess for coming into my life.$h",
+				"rejectNPCA": "Oh? Uhmm No thank you @..$s",
+				"rejectNPCB": "I am not really interested in you @. I am sorry.$s",
+				"reject_two_heartA": "Oh? Uhmm Is this about trying to make friends or something? I only see you as a friend @.$s",
+				"reject_two_heartB": "We barely even know each other @!$s#$b#Are you okay?$s",
+				"reject_four_heartA": "Oh @??$6#$b#I am sorry but you are just a good friend @.. I do not see it going far right now.$s",
+				"reject_four_heartB": "Uhhmmmm I think it is best for us to stay friends @..$s",
+				"engageA": "Oh? But I heard you have someone else's hand already? Are you okay?$s",
+				"engageB": "Uhhhh @? I thought you're getting married already?$s#$b#Do not ever break someone else's heart!$a",
+				"marriedA": "Wait what!? @!$6#$b#I could never betray %spouse for your silly little plans! Get away!$a",
+				"marriedB": "Uhh @.. I think you should be honest to %spouse first before doing these things..$s",
+				"refusal_knownA": "Huh! @??$6#$b#What is this? It's a pretty shell is it not!$u",
+				"refusal_knownB": "Why are you showing me this blue shell?$u#$b#Well It is a pretty shell @! Great find!$h",
+				"refusal_botherA": "Stop pestering me with that shell! I know it is a good looking shell!$a",
+				"refusal_botherB": "STOP IT WITH THE SHELL @! WHAT IS SO SPECIAL WITH THIS SHELL!$a",
+				"refusal_no_heartsA": "Uhhhhh who are you again?$s",
+				"refusal_no_heartsB": "Uhmmm who are you again? Oh hi @. What's this shell here?",
+			},
+		},
+		{
+			"LogName": "Married to Lunna",
+			"Target": "Characters/Dialogue/Lunna",
+			"Action": "EditData",
+			"When": {
+				"Relationship:Lunna": "Married",
+				},
+			"Entries": {
+				"give_flowersA": "Oh @! This reminds me of when we were still dating!$l#$b#You are still as loving as ever @.$l",
+				"give_flowersB": "Ehiee come here you!$l *kisses you*.$l",
+				"give_pendant": "This.. This pendant @.. M. Rasmodius taught me about this in your culture..$u#$b#Is this not what you give the one whom you want to marry?$u#$b#...$u#$b#!!!$6#$b#@!!! Are you really?$10#$b#Ofcourse it is a yes! I million times over! I love you!$l",
+				"stardrop_gift": "@, love, I want to give you this. You have been such an amazing part of my life.$l#$b#Thank you so much my prince for coming into my life.$h^Thank you so much my princess for coming into my life.$h",
+				"rejectNPCA": "Oh? Uhmm No thank you @..$s",
+				"rejectNPCB": "I am not really interested in you @. I am sorry.$s",
+				"reject_two_heartA": "Oh? Uhmm Is this about trying to make friends or something? I only see you as a friend @.$s",
+				"reject_two_heartB": "We barely even know each other @!$s#$b#Are you okay?$s",
+				"reject_four_heartA": "Oh @??$6#$b#I am sorry but you are just a good friend @.. I do not see it going far right now.$s",
+				"reject_four_heartB": "Uhhmmmm I think it is best for us to stay friends @..$s",
+				"engageA": "Oh? But I heard you have someone else's hand already? Are you okay?$s",
+				"engageB": "Uhhhh @? I thought you're getting married already?$s#$b#Do not ever break someone else's heart!$a",
+				"marriedA": "Wait what!? @!$6#$b#I could never betray %spouse for your silly little plans! Get away!$a",
+				"marriedB": "Uhh @.. I think you should be honest to %spouse first before doing these things..$s",
+				"refusal_knownA": "Huh! @??$6#$b#What is this? It's a pretty shell is it not!$u",
+				"refusal_knownB": "Why are you showing me this blue shell?$u#$b#Well It is a pretty shell @! Great find!$h",
+				"refusal_botherA": "Stop pestering me with that shell! I know it is a good looking shell!$a",
+				"refusal_botherB": "STOP IT WITH THE SHELL @! WHAT IS SO SPECIAL WITH THIS SHELL!$a",
+				"refusal_no_heartsA": "Uhhhhh who are you again?$s",
+				"refusal_no_heartsB": "Uhmmm who are you again? Oh hi @. What's this shell here?",
+			},
+		},
+		
+		//Wizard
+		{
+			"LogName": "Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				"romanceLunna_Yes": "Hmm.. I see.. You look after her, alright?",
+				"romanceLunna_No": "I see...",
+			},
+		},
+	
+		//Dianna
+	
+		{
+			"LogName": "Dianna Sprites",
+			"Action": "Load",
+			"Target": "Characters/Dianna",
+			"FromFile": "assets/CharacterFiles/Dianna/Dianna_sprite.png",
+		},
+
+		{
+			"LogName": "Dianna Portraits",
+			"Action": "Load",
+			"Target": "Portraits/Dianna",
+			"FromFile": "assets/CharacterFiles/Dianna/Dianna.png",
+		},		
+		{
+			"LogName": "Dianna Schedule",
+			"Action": "Load",
+			"Target": "Characters/schedules/Dianna",
+			"FromFile": "assets/CharacterFiles/Dianna/schedule.json",
+		},
+		{
+			"LogName": "Dianna's Schedule after seeing human form",
+			"Action": "EditData",
+			"Target": "Characters/schedules/Dianna",
+			"Entries": {
+				"spring_Mon": "700 DiannaHouse 9 9 2 dianna_dance/800 FallsCave 12 15 3 square_1_3_3/1600 Umuwi 55 30 2 dianna_eat/2000 DiannaHouse 8 5 3 dianna_sleep",
+				"spring_Wed": "700 DiannaHouse 9 9 2 dianna_dance/800 FallsCave 12 15 3 square_1_3_3/1600 Umuwi 55 30 2 dianna_eat/2000 DiannaHouse 8 5 3 dianna_sleep",
+				"spring_Fri": "700 DiannaHouse 9 9 2 dianna_dance/800 FallsCave 12 15 3 square_1_3_3/1600 Umuwi 55 30 2 dianna_eat/2000 DiannaHouse 8 5 3 dianna_sleep",
+				},
+			"When": { "HasSeenEvent: hostPlayer": 75160033 },
+		},
+		{
+			"LogName": "Dianna's Dialogue after seeing human form",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Dianna",
+			"Entries": {
+					"FallsCave": "HIYA @!$h#$b#I'm human again! TADAAAH!$u#$b#Well I atleast become one whenever I enter this cave! It seems the magic here has grown a liking to me.#$b#I like the magic and flora here too! I gather seeds here sometimes.#$b#OH! My clothes?!#$b#Nah! I dun think I need clothes.$u#$b#The magic clouds that cover my body never seem to fade.#$b#The fluffy thing never seems to leave me, and I don't mind! $h#$b#You should stop staring you creep HAHA.$u",
+				},
+			"When": { "HasSeenEvent: hostPlayer": 75160033 },
+		},
+		{
+			"LogName": "Dianna Antisocial deflag",
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"When": { "HasSeenEvent: hostPlayer": 75160009 },
+			"Entries": {
+				"Dianna": false
+				}
+		},
+		{
+			"LogName": "Dianna Antisocial deflag",
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"When": { "HasSeenEvent: hostPlayer": 75160013 },
+			"Entries": {
+				"Dianna": false
+				}
+		},
+		{
+			"LogName": "Dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Dianna",
+			"FromFile": "assets/CharacterFiles/Dianna/dialogue.json",
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/ConcessionTastes",
+			"Entries": {
+				"Dianna": {
+					"Name": "Dianna",
+					"LovedTags": [
+						"Gourmet", "Healthy"
+						],
+					"LikedTags": [
+						"Sweet", "popcorn", "Candy"
+						],
+					"DislikedTags": [
+						"Jasmine Tea", "Salty"
+						]
+				},
+			},
+		},	
+		{
+			"Action": "EditData",
+			"Target": "Data/MoviesReactions",
+			"Entries": {
+				"Dianna": {
+					"NPCName": "Dianna",
+					"Reactions": [
+					{
+						"Tag": "romance",
+						"Response": "love",
+						"Whitelist": [],
+						"SpecialResponses": null,
+						"ID": "reaction_0"
+					},
+					{
+						"Tag": "action",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": null,
+						"ID": "reaction_1"
+					},
+					{
+						"Tag": "winter_movie_1",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+						"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "This some interesting stuff ye."
+						},
+						"DuringMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "*Dianna seems to be amused*"
+						},
+						"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "That was some cheesy stuff! HAHA I had fun though! Thanks!$h"
+						}
+						},
+					"ID": "reaction_2"
+						},
+						{
+						"Tag": "fall_movie_0",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+						"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "SCARY MOVIE LEZGO!!$u"
+						},
+						"DuringMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "HAHAHAHA THE BLOOD LOOK SO REAL!$h"
+						},
+						"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "LEZ WATCH IT AGAIN! No? Aw! Thank you for the invite @!$u"
+						}
+						},
+					"ID": "reaction_3"
+						},
+						{
+						"Tag": "love",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+						"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "I wonder if this is good."
+						},
+						"DuringMovie": {
+						"ResponsePoint": null,
+						"Script": "/shake Dianna 3000/pause 500/message \"Dianna is giggling!\"",
+						"Text": "This is very cute!$1"
+						},
+						"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "I was really invested with the characters! I WANNA BUY THE BOOK!$h"
+						}
+						},
+					"ID": "reaction_4"
+						},
+						{
+						"Tag": "like",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+						"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "I wonder if this will be good."
+						},
+						"DuringMovie": null,
+						"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "That was fun! Thank you!$h"
+						}
+						},
+					"ID": "reaction_5"
+						},
+						{
+						"Tag": "dislike",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+						"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "EW! Why this movie?$h"
+						},
+						"DuringMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "*Dianna seems to be bored*$s"
+						},
+						"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "I did not have a fun time @ sorry. Next time pick a good movie okay friend?$h"
+						}
+						},
+					"ID": "reaction_6"
+						}
+					]
+				}
+			}
+		},
+		
+		//Bianka
+	
+		{
+			"LogName": "Bianka Sprites",
+			"Action": "Load",
+			"Target": "Characters/Bianka",
+			"FromFile": "assets/CharacterFiles/Bianka/Bianka_sprite.png",
+		},
+
+		{
+			"LogName": "Bianka Portraits",
+			"Action": "Load",
+			"Target": "Portraits/Bianka",
+			"FromFile": "assets/CharacterFiles/Bianka/Bianka.png",
+		},		
+		{
+			"LogName": "Bianka Schedule",
+			"Action": "Load",
+			"Target": "Characters/schedules/Bianka",
+			"FromFile": "assets/CharacterFiles/Bianka/schedule.json",
+		},
+		{
+			"LogName": "Bianka's Schedule After new portal is open",
+			"Action": "EditData",
+			"Target": "Characters/schedules/Bianka",
+			"When": { "HasSeenEvent: hostPlayer": 75160021 },
+			"Entries": {
+				"Mon": "900 Town 45 78 2/1200 Town 71 9 2/1600 Saloon 17 20 0/2200 BiankaHouse 9 7 3 bianka_sleep",
+				"Fri": "700 Town 45 78 2/1300 Town 22 23 1/1630 HaleyHouse 12 17 1/2200 BiankaHouse 9 7 3 bianka_sleep",
+				"marriage_Mon": "900 Town 45 78 2/1200 Town 71 9 2/1600 Saloon 17 20 0/1800 BusStop -1 23 3",
+				"marriage_Wed": "700 Umuwi 22 23 2/1000 Umuwi 39 8 3/1300 Umuwi 61 18 2/1500 ReenusHouse 14 7 0/1800 BusStop -1 23 3",
+				"marriage_Fri": "800 Town 45 78 2/1200 Town 22 23 1/1400 HaleyHouse 12 17 1/1800 BusStop -1 23 3",
+				"marriage_Tue": "700 RaphaelShop 16 10 2/1100 ReenusHouse 14 7 0/1300 Umuwi 95 37 1 bianka_dance/1800 BusStop -1 23 3",
+			},
+		},
+		{
+			"LogName": "Dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Bianka",
+			"FromFile": "assets/CharacterFiles/Bianka/dialogue.json",
+		},
+		{
+			"Action": "EditData",
+			"Target": "strings/StringsFromCSFiles",
+			"Entries": {
+			"Utility.cs.5367": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Bianka in the bonds of marriage.",
+			"Utility.cs.5369": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Bianka in the bonds of marriage.",
+			"Utility.cs.5371": "@... Bianka... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$h",
+			"Utility.cs.5377": "@... Bianka... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you wife and..., well, wife!$h",
+			},
+			"When": {
+			"Relationship:Bianka": "Engaged"
+			},
+		},
+		{
+			"LogName": "Marriage Dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueBianka",
+			"FromFile": "assets/CharacterFiles/Bianka/marriageBianka.json",
+		},
+		{
+			"LogName": "Engagement Dialogue",
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+				"Bianka0": "This is too much happiness for me! I'm looking forward to being with you forever @.$l",
+				"Bianka1": "I wish I can fast forward time now!!$h",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/ConcessionTastes",
+			"Entries": {
+				"Bianka": {
+					"Name": "Bianka",
+					"LovedTags": [
+						"Jasmine Tea", "Sweet", "Candy"
+						],
+					"LikedTags": [
+						"Healthy", "popcorn", "Salty"
+						],
+					"DislikedTags": [
+						"Gourmet"
+						]
+				},
+			},
+		},	
+		{
+			"Action": "EditData",
+			"Target": "Data/MoviesReactions",
+			"Entries": {
+				"Bianka": {
+					"NPCName": "Bianka",
+					"Reactions": [
+					{
+						"Tag": "romance",
+						"Response": "love",
+						"Whitelist": [],
+						"SpecialResponses": null,
+						"ID": "reaction_0"
+					},
+					{
+						"Tag": "action",
+						"Response": "love",
+						"Whitelist": [],
+						"SpecialResponses": null,
+						"ID": "reaction_1"
+					},
+					{
+						"Tag": "winter_movie_1",
+						"Response": "love",
+						"Whitelist": [],
+						"SpecialResponses": {
+						"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "Ohhh! I'm really excited for this one!$h"
+						},
+						"DuringMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "*Bianka seems to be blushing and smiling so hard*"
+						},
+						"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "@! That was a really sweet movie!$h"
+						}
+						},
+					"ID": "reaction_2"
+						},
+						{
+						"Tag": "fall_movie_0",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+						"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "Uhhhh don't be surprised if I suddenly scream okay!$a"
+						},
+						"DuringMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "@!!! WAAAAH!$6"
+						},
+						"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "I actually finished the movie! Thank you for the time @!$h"
+						}
+						},
+					"ID": "reaction_3"
+						},
+						{
+						"Tag": "love",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+						"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "I am very much excited @!.$h"
+						},
+						"DuringMovie": {
+						"ResponsePoint": null,
+						"Script": "/shake Bianka 3000/pause 500/message \"Bianka is giggling!\"",
+						"Text": "This is very cute!$1"
+						},
+						"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "I had a great time. Thank you for bringing me.$1"
+						}
+						},
+					"ID": "reaction_4"
+						},
+						{
+						"Tag": "like",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+						"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "Ohhh I wonder what's this one! I can't wait!"
+						},
+						"DuringMovie": null,
+						"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "This was good one! Thanks @ for inviting me!$h"
+						}
+						},
+					"ID": "reaction_5"
+						},
+						{
+						"Tag": "dislike",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+						"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "Oh? I thought we were watching a good one. Oh well, I can't complain can I.$s"
+						},
+						"DuringMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "Uhhmm, where's the bathroom again?$s"
+						},
+						"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "Oh well.. Uhm Thank you for the time I guess @.$s"
+						}
+						},
+					"ID": "reaction_6"
+						}
+					]
+				}
+			}
+		},
+		{
+			"LogName": "Bianka's Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Bianka",
+			"Entries": {
+				"give_flowersA": "Wait what? Really @?$u#$b#YES! YES YES YES!!$h#$b#I'll be more than happy to be your girl!$l",
+				"give_flowersB": "Do.. Do you really want me??$l#$b#Someone who's very talkative and impulsive and loud and...$l#$b#@...Yes.. I want you too.$l",
+				"give_pendant": "This... @ Isn't this..??$l#$b#!!!$u#$b#@! *kisses you* IT'S A YES!!!!!!$h",
+				"stardrop_gift": "@, baby, I want to give you this. You are the most magical thing that happened to me.$l#$b#And I would never trade it all for anything!$l",
+				"rejectNPCA": "Uh? No thanks!$h",
+				"rejectNPCB": "Look, I'm not interested okay? Sorry @.$0",
+				"reject_two_heartA": "@?? Sorry I only see you as a friend!$h",
+				"reject_two_heartB": "Hey.. I'm sorry but it's a no.$a",
+				"reject_four_heartA": "You're too good a friend to lose! Sorry!",
+				"reject_four_heartB": "Uhhmmmm I think it is best for us to stay friends @..$s",
+				"engageA": "Oh? But I heard you have someone else's hand already? Are you okay?$s",
+				"engageB": "Uhhhh @? I thought you're getting married already?$s#$b#Do not ever break someone else's heart!$a",
+				"marriedA": "Wait what!? @!$6#$b#I could never betray %spouse for your silly little plans! Get away!$a",
+				"marriedB": "Uhh @.. I think you should be honest to %spouse first before doing these things..$s",
+				"refusal_knownA": "What?!$s#$b#Sorry @ but it's a no.",
+				"refusal_knownB": "I'm not ready for marriage. I'm sorry @.$s",
+				"refusal_botherA": "I told you NO! Can you stop?$a",
+				"refusal_botherB": "You're really getting on my nerves @! NO IS NO!$a",
+				"refusal_no_heartsA": "Why though? I don't even know you yet!$h",
+				"refusal_no_heartsB": "Ew!! Get away creep!$a",
+			},
+		},
+		{
+			"LogName": "Dating Bianka",
+			"Target": "Characters/Dialogue/Bianka",
+			"Action": "EditData",
+			"When": {
+				"Relationship:Bianka": "Dating"
+				},
+			"Entries": {
+				"give_flowersA": "Baby you didn't have to!$l#$b#But I'll gladly take them anyway ehiee. *kisses you*.$h",
+				"give_flowersB": "You came all this way just to give me that?$l#$b#You should've met me in the house or yours... Thank you..$l",
+				"give_pendant": "This... @ Isn't this..??$l#$b#!!!$u#$b#@! *kisses you* IT'S A YES!!!!!!$h",
+				"stardrop_gift": "@, baby, I want to give you this. You are the most magical thing that happened to me.$l#$b#And I would never trade it all for anything!$l",
+				"rejectNPCA": "Uh? No thanks!$h",
+				"rejectNPCB": "Look, I'm not interested okay? Sorry @.$0",
+				"reject_two_heartA": "@?? Sorry I only see you as a friend!$h",
+				"reject_two_heartB": "Hey.. I'm sorry but it's a no.$a",
+				"reject_four_heartA": "You're too good a friend to lose! Sorry!",
+				"reject_four_heartB": "Uhhmmmm I think it is best for us to stay friends @..$s",
+				"engageA": "Oh? But I heard you have someone else's hand already? Are you okay?$s",
+				"engageB": "Uhhhh @? I thought you're getting married already?$s#$b#Do not ever break someone else's heart!$a",
+				"marriedA": "Wait what!? @!$6#$b#I could never betray %spouse for your silly little plans! Get away!$a",
+				"marriedB": "Uhh @.. I think you should be honest to %spouse first before doing these things..$s",
+				"refusal_knownA": "What?!$s#$b#Sorry @ but it's a no.",
+				"refusal_knownB": "I'm not ready for marriage. I'm sorry @.$s",
+				"refusal_botherA": "I told you NO! Can you stop?$a",
+				"refusal_botherB": "You're really getting on my nerves @! NO IS NO!$a",
+				"refusal_no_heartsA": "Why though? I don't even know you yet!$h",
+				"refusal_no_heartsB": "Ew!! Get away creep!$a",
+			},
+		},
+		{
+			"LogName": "Engaged to Bianka",
+			"Target": "Characters/Dialogue/Bianka",
+			"Action": "EditData",
+			"When": {
+				"Relationship:Bianka": "Engaged"
+				},
+			"Entries": {
+				"give_flowersA": "You're really spoiling me aren't ya @!$h#$b#I'm not complaining.$l",
+				"give_flowersB": "Give me more happiness and I might explode @...&h#$b#Thank you baby.$l",
+				"give_pendant": "This... @ Isn't this..??$l#$b#!!!$u#$b#@! *kisses you* IT'S A YES!!!!!!$h",
+				"stardrop_gift": "@, baby, I want to give you this. You are the most magical thing that happened to me.$l#$b#And I would never trade it all for anything!$l",
+				"rejectNPCA": "Uh? No thanks!$h",
+				"rejectNPCB": "Look, I'm not interested okay? Sorry @.$0",
+				"reject_two_heartA": "@?? Sorry I only see you as a friend!$h",
+				"reject_two_heartB": "Hey.. I'm sorry but it's a no.$a",
+				"reject_four_heartA": "You're too good a friend to lose! Sorry!",
+				"reject_four_heartB": "Uhhmmmm I think it is best for us to stay friends @..$s",
+				"engageA": "Oh? But I heard you have someone else's hand already? Are you okay?$s",
+				"engageB": "Uhhhh @? I thought you're getting married already?$s#$b#Do not ever break someone else's heart!$a",
+				"marriedA": "Wait what!? @!$6#$b#I could never betray %spouse for your silly little plans! Get away!$a",
+				"marriedB": "Uhh @.. I think you should be honest to %spouse first before doing these things..$s",
+				"refusal_knownA": "What?!$s#$b#Sorry @ but it's a no.",
+				"refusal_knownB": "I'm not ready for marriage. I'm sorry @.$s",
+				"refusal_botherA": "I told you NO! Can you stop?$a",
+				"refusal_botherB": "You're really getting on my nerves @! NO IS NO!$a",
+				"refusal_no_heartsA": "Why though? I don't even know you yet!$h",
+				"refusal_no_heartsB": "Ew!! Get away creep!$a",
+			},
+		},
+		{
+			"LogName": "Married to Bianka",
+			"Target": "Characters/Dialogue/Bianka",
+			"Action": "EditData",
+			"When": {
+				"Relationship:Bianka": "Married",
+				},
+			"Entries": {
+				"give_flowersA": "Honey! You didn't have to!$h#$b#You're such a sweetie aren't you baby?$l#$b#*smooch*$l",
+				"give_flowersB": "You can always just come to me and hold me tight to be sweet you know..$l#$b#*kisses you*$l",
+				"give_pendant": "This... @ Isn't this..??$l#$b#!!!$u#$b#@! *kisses you* IT'S A YES!!!!!!$h",
+				"stardrop_gift": "@, baby, I want to give you this. You are the most magical thing that happened to me.$l#$b#And I would never trade it all for anything!$l",
+				"rejectNPCA": "Uh? No thanks!$h",
+				"rejectNPCB": "Look, I'm not interested okay? Sorry @.$0",
+				"reject_two_heartA": "@?? Sorry I only see you as a friend!$h",
+				"reject_two_heartB": "Hey.. I'm sorry but it's a no.$a",
+				"reject_four_heartA": "You're too good a friend to lose! Sorry!",
+				"reject_four_heartB": "Uhhmmmm I think it is best for us to stay friends @..$s",
+				"engageA": "Oh? But I heard you have someone else's hand already? Are you okay?$s",
+				"engageB": "Uhhhh @? I thought you're getting married already?$s#$b#Do not ever break someone else's heart!$a",
+				"marriedA": "Wait what!? @!$6#$b#I could never betray %spouse for your silly little plans! Get away!$a",
+				"marriedB": "Uhh @.. I think you should be honest to %spouse first before doing these things..$s",
+				"refusal_knownA": "What?!$s#$b#Sorry @ but it's a no.",
+				"refusal_knownB": "I'm not ready for marriage. I'm sorry @.$s",
+				"refusal_botherA": "I told you NO! Can you stop?$a",
+				"refusal_botherB": "You're really getting on my nerves @! NO IS NO!$a",
+				"refusal_no_heartsA": "Why though? I don't even know you yet!$h",
+				"refusal_no_heartsB": "Ew!! Get away creep!$a",
+			},
+		},
+		{
+			"LogName": "StardewValleyFair",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": {
+				"Bianka": "I spent almost all my money on the stalls!$s",
+				"Bianka_spouse": "Hey hun! I'm just catching up with an old teacher! Goodluck with your display!$h",
+			},
+		},
+		{
+			"LogName": "Halloween",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"Entries": {
+				"Bianka": "This is a really fun festival!$h",
+				"Bianka_spouse": "I got really scared from the maze! Hold me!$l",
+			},
+		},
+		{
+			"LogName": "EggFestival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"Entries": {
+				"Bianka": "I wish to join the egg hunting too!$h",
+				"Bianka_spouse": "Betcha I can gather more eggs than you baby!$h",
+			},
+		},
+		{
+			"LogName": "FlowerDance",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": {
+				"Bianka": "I am loving these dresses!$h",
+			},
+		},
+		{
+			"LogName": "Luau",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": {
+				"Bianka": "Pst hey @! I put in some Sour Potato from Umuwi in the pot! Ehehe.$h",
+				"Bianka_spouse": "Oh how I missed our own food hun!$h",
+			},
+		},
+		{
+			"LogName": "MoonlightJellies",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"Entries": {
+				"Bianka": "These jellies emit such powerful magic. It's mesmirizing.",
+				"Bianka_spouse": "All these magical creatures around us! Baby! This is so nostalgic!$h",
+			},
+		},
+		{
+			"LogName": "IceFestival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"Entries": {
+				"Bianka": "How does fishing even work?",
+			},
+		},
+		{
+			"LogName": "Christmas",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": {
+				"Bianka": "Ah!! Winter treats and feasts!$s",
+				"Bianka_spouse": "I'm very thankful for this year baby! Have a happy new year!$l",
+			},
+		},
+		
+		//Raphael
+	
+		{
+			"LogName": "Raphael Sprites",
+			"Action": "Load",
+			"Target": "Characters/Raphael",
+			"FromFile": "assets/CharacterFiles/Raphael/Raphael_sprite.png",
+		},
+
+		{
+			"LogName": "Raphael Portraits",
+			"Action": "Load",
+			"Target": "Portraits/Raphael",
+			"FromFile": "assets/CharacterFiles/Raphael/Raphael.png",
+		},		
+		{
+			"LogName": "Raphael Schedule",
+			"Action": "Load",
+			"Target": "Characters/schedules/Raphael",
+			"FromFile": "assets/CharacterFiles/Raphael/schedule.json",
+		},
+		{
+			"LogName": "Raphael's Schedule After new portal is open",
+			"Action": "EditData",
+			"Target": "Characters/schedules/Raphael",
+			"When": { "HasSeenEvent: hostPlayer": 75160027 },
+			"Entries": {
+				"marriage_Mon": "700 Umuwi 39 8 3/1200 Umuwi 23 24 0/1400 Umuwi 41 45 3/1800 BusStop -1 23 3",
+				"marriage_Wed": "700 RaphaelShop 4 9 1/1200 RaphaelShop 3 12 2 raphael_lumber/1300 RaphaelShop 1 6 2 raphael_forge/1500 RaphaelShop 14 13 1/1800 BusStop -1 23 3",
+			},
+		},
+		{
+			"LogName": "Dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Raphael",
+			"FromFile": "assets/CharacterFiles/Raphael/dialogue.json",
+		},
+		{
+			"LogName": "Marriage Dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueRaphael",
+			"FromFile": "assets/CharacterFiles/Raphael/marriageRaphael.json",
+		},
+		{
+			"LogName": "Engagement Dialogue",
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+				"Raphael0": "I'm actually getting married! I'm really nervous!$h",
+				"Raphael1": "But I'm really happy @!$l",
+			},
+		},
+		{
+			"LogName": "StardewValleyFair",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": {
+				"Raphael": "The fair was fun! I had a good time at the dart stall!$h",
+				"Raphael_spouse": "Your display will do great hun. I'm here supporting you!$h",
+			},
+		},
+		{
+			"LogName": "Halloween",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"Entries": {
+				"Raphael": "The attractions look great! This is a nice setup.",
+				"Raphael_spouse": "Are you having fun hun?#$b#If you get too scared I'm here alright?$h",
+			},
+		},
+		{
+			"LogName": "EggFestival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"Entries": {
+				"Raphael": "I gotta look after my sister! She may interfere with the main event later!$s",
+				"Raphael_spouse": "Go hun you can win this! *whispers* Want me to cast a haste spell on you? hehe.$h",
+			},
+		},
+		{
+			"LogName": "FlowerDance",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": {
+				"Raphael": "The flowers look majestic, It seems this certain emits some kind of floral magic.",
+			},
+		},
+		{
+			"LogName": "Luau",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": {
+				"Raphael": "What's up @? I'm excited for the soup!$h",
+				"Raphael_spouse": "I just saw Bianka throw in some sour potatoes in the pot! Oh no!$u",
+			},
+		},
+		{
+			"LogName": "MoonlightJellies",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"Entries": {
+				"Raphael": "The magical aura of the event is so beautiful.$h",
+				"Raphael_spouse": "The beautiful scenery seems to be approaching. I was talking about you hun.$l",
+			},
+		},
+		{
+			"LogName": "IceFestival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"Entries": {
+				"Raphael": "I swear I want to master the art of fishing!$s",
+			},
+		},
+		{
+			"LogName": "Christmas",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": {
+				"Raphael": "Happy holidays @. Hope you have a great year!",
+				"Raphael_spouse": "The year has been amazing, especially with you in it hun. Have a merry new year! I love you!@l",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/ConcessionTastes",
+			"Entries": {
+				"Raphael": {
+					"Name": "Raphael",
+					"LovedTags": [
+						"Gourmet", "Healthy"
+						],
+					"LikedTags": [
+						"Sweet", "popcorn", "Candy"
+						],
+					"DislikedTags": [
+						"Jasmine Tea", "Salty"
+						]
+				},
+			},
+		},	
+		{
+			"Action": "EditData",
+			"Target": "Data/MoviesReactions",
+			"Entries": {
+				"Raphael": {
+					"NPCName": "Raphael",
+					"Reactions": [
+					{
+						"Tag": "romance",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": null,
+						"ID": "reaction_0"
+					},
+					{
+						"Tag": "action",
+						"Response": "love",
+						"Whitelist": [],
+						"SpecialResponses": null,
+						"ID": "reaction_1"
+					},
+					{
+						"Tag": "winter_movie_1",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+						"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "These stories are fun! I'm looking forward for it."
+						},
+						"DuringMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "This is cheesy but I kinda like it.$h"
+						},
+						"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "That story was really soothing! Thank you @!$h"
+						}
+						},
+					"ID": "reaction_2"
+						},
+						{
+						"Tag": "fall_movie_0",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+						"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "Oh a scary movie huh? This should be fun."
+						},
+						"DuringMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "WOAH! That was really too much!$u"
+						},
+						"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "I had a fun time @! Thank you!$h"
+						}
+						},
+					"ID": "reaction_3"
+						},
+						{
+						"Tag": "love",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+						"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "This should be an interesting one.$h"
+						},
+						"DuringMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "This is very cute!$1"
+						},
+						"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "Such movies inspires me to be honest! Thanks for the time @.$1"
+						}
+						},
+					"ID": "reaction_4"
+						},
+						{
+						"Tag": "like",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+						"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "Nice! Another good movie!$h"
+						},
+						"DuringMovie": null,
+						"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "I am having a great time @. I am grateful you asked me along.$h"
+						}
+						},
+					"ID": "reaction_5"
+						},
+						{
+						"Tag": "dislike",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+						"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "I don't really like these movies, But I'll try to watch it.$s"
+						},
+						"DuringMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "*Raphael seems to be bored*$s"
+						},
+						"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "Atleast I got to experience a new experience. Thanks @."
+						}
+						},
+					"ID": "reaction_6"
+						}
+					]
+				}
+			}
+		},
+		{
+			"LogName": "Raphael's Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Raphael",
+			"Entries": {
+				"give_flowersA": "Me? As your boyfriend? Are you sure?&u#$b#Well... I actually really like you too @. I'm glad you fell the same way.$l",
+				"give_flowersB": "Are you really picking me? I'm kind of surprised!$u#$b#It's because I thought I didn't have a chance with you.$l",
+				"give_pendant": "This pendant.. @???$s#$b#Yeah! It's a big yes. I want to spend my life with you as well.$l#$b#I love you!!$l",
+				"stardrop_gift": "You've been an amazing person and have loved me in every detail and action.$l#$b#I hope this gift makes you happy hun.$l",
+				"rejectNPCA": "Uhhh I don't think so @. I'm sorry.$s",
+				"rejectNPCB": "I am not really interested in you @. I am sorry.$s",
+				"reject_two_heartA": "I barely know you @. Sorry.$s",
+				"reject_two_heartB": "Is this some kind of a joke? It's not funny.$s",
+				"reject_four_heartA": "You're just a friend for me @. I'm sorry if I had your hopes up!$s",
+				"reject_four_heartB": "Uhhmmmm I think it is best for us to stay friends @..$s",
+				"engageA": "You can't ask another to have you while you're already committed to another. Don't you know that?$a",
+				"engageB": "Don't go breaking your promises with other people. Fix your attitude.$a",
+				"marriedA": "I'm sorry but I won't be an affair @. You should fix your attitude.$a",
+				"marriedB": "Uhh @.. I think you should be honest to %spouse first before doing these things..$s",
+				"refusal_knownA": "This shell is not supposed to be played as a joke @.$a",
+				"refusal_knownB": "This shell is for marriage @. And I don't want to marry you.$s",
+				"refusal_botherA": "You should stop bothering me now. It's not funny.$a",
+				"refusal_botherB": "Want me to warp you away?$a",
+				"refusal_no_heartsA": "Oh hello? Are you okay in the head?$s",
+				"refusal_no_heartsB": "This shell is for someone you want to marry, don't just offer it to anyone for no reason.$a",
+			},
+		},
+		{
+			"LogName": "Dating Raphael",
+			"Target": "Characters/Dialogue/Raphael",
+			"Action": "EditData",
+			"When": {
+				"Relationship:Raphael": "Dating"
+				},
+			"Entries": {
+				"give_flowersA": "You're spoiling me with flowers love! Thank you.$l",
+				"give_flowersB": "Come here you sweet thing! *kisses you* $l",
+				"give_pendant": "This pendant.. @???$s#$b#Yeah! It's a big yes. I want to spend my life with you as well.$l#$b#I love you!!$l",
+				"stardrop_gift": "You've been an amazing person and have loved me in every detail and action.$l#$b#I hope this gift makes you happy hun.$l",
+				"rejectNPCA": "Uhhh I don't think so @. I'm sorry.$s",
+				"rejectNPCB": "I am not really interested in you @. I am sorry.$s",
+				"reject_two_heartA": "I barely know you @. Sorry.$s",
+				"reject_two_heartB": "Is this some kind of a joke? It's not funny.$s",
+				"reject_four_heartA": "You're just a friend for me @. I'm sorry if I had your hopes up!$s",
+				"reject_four_heartB": "Uhhmmmm I think it is best for us to stay friends @..$s",
+				"engageA": "You can't ask another to have you while you're already committed to another. Don't you know that?$a",
+				"engageB": "Don't go breaking your promises with other people. Fix your attitude.$a",
+				"marriedA": "I'm sorry but I won't be an affair @. You should fix your attitude.$a",
+				"marriedB": "Uhh @.. I think you should be honest to %spouse first before doing these things..$s",
+				"refusal_knownA": "This shell is not supposed to be played as a joke @.$a",
+				"refusal_knownB": "This shell is for marriage @. And I don't want to marry you.$s",
+				"refusal_botherA": "You should stop bothering me now. It's not funny.$a",
+				"refusal_botherB": "Want me to warp you away?$a",
+				"refusal_no_heartsA": "Oh hello? Are you okay in the head?$s",
+				"refusal_no_heartsB": "This shell is for someone you want to marry, don't just offer it to anyone for no reason.$a",
+			},
+		},
+		{
+			"LogName": "Engaged to Raphael",
+			"Target": "Characters/Dialogue/Raphael",
+			"Action": "EditData",
+			"When": {
+				"Relationship:Raphael": "Engaged"
+				},
+			"Entries": {
+				"give_flowersA": "You can't wait for our wedding huh? Haha it's fine I don't mind. Thank you @.$l",
+				"give_flowersB": "Love I appreciate all these flowers and all but..$l#$b#Where do you get so much flowers anyway?$h",
+				"give_pendant": "This pendant.. @???$s#$b#Yeah! It's a big yes. I want to spend my life with you as well.$l#$b#I love you!!$l",
+				"stardrop_gift": "You've been an amazing person and have loved me in every detail and action.$l#$b#I hope this gift makes you happy hun.$l",
+				"rejectNPCA": "Uhhh I don't think so @. I'm sorry.$s",
+				"rejectNPCB": "I am not really interested in you @. I am sorry.$s",
+				"reject_two_heartA": "I barely know you @. Sorry.$s",
+				"reject_two_heartB": "Is this some kind of a joke? It's not funny.$s",
+				"reject_four_heartA": "You're just a friend for me @. I'm sorry if I had your hopes up!$s",
+				"reject_four_heartB": "Uhhmmmm I think it is best for us to stay friends @..$s",
+				"engageA": "You can't ask another to have you while you're already committed to another. Don't you know that?$a",
+				"engageB": "Don't go breaking your promises with other people. Fix your attitude.$a",
+				"marriedA": "I'm sorry but I won't be an affair @. You should fix your attitude.$a",
+				"marriedB": "Uhh @.. I think you should be honest to %spouse first before doing these things..$s",
+				"refusal_knownA": "This shell is not supposed to be played as a joke @.$a",
+				"refusal_knownB": "This shell is for marriage @. And I don't want to marry you.$s",
+				"refusal_botherA": "You should stop bothering me now. It's not funny.$a",
+				"refusal_botherB": "Want me to warp you away?$a",
+				"refusal_no_heartsA": "Oh hello? Are you okay in the head?$s",
+				"refusal_no_heartsB": "This shell is for someone you want to marry, don't just offer it to anyone for no reason.$a",
+			},
+		},
+		{
+			"LogName": "Married to Raphael",
+			"Target": "Characters/Dialogue/Raphael",
+			"Action": "EditData",
+			"When": {
+				"Relationship:Raphael": "Married",
+				},
+			"Entries": {
+				"give_flowersA": "Oh @! This reminds me of when we were still dating!$l#$b#You are still as lovely as ever @.$l",
+				"give_flowersB": "Come here you!$l *kisses you*.$l",
+				"give_pendant": "This pendant.. @???$s#$b#Yeah! It's a big yes. I want to spend my life with you as well.$l#$b#I love you!!$l",
+				"stardrop_gift": "You've been an amazing person and have loved me in every detail and action.$l#$b#I hope this gift makes you happy hun.$l",
+				"rejectNPCA": "Uhhh I don't think so @. I'm sorry.$s",
+				"rejectNPCB": "I am not really interested in you @. I am sorry.$s",
+				"reject_two_heartA": "I barely know you @. Sorry.$s",
+				"reject_two_heartB": "Is this some kind of a joke? It's not funny.$s",
+				"reject_four_heartA": "You're just a friend for me @. I'm sorry if I had your hopes up!$s",
+				"reject_four_heartB": "Uhhmmmm I think it is best for us to stay friends @..$s",
+				"engageA": "You can't ask another to have you while you're already committed to another. Don't you know that?$a",
+				"engageB": "Don't go breaking your promises with other people. Fix your attitude.$a",
+				"marriedA": "I'm sorry but I won't be an affair @. You should fix your attitude.$a",
+				"marriedB": "Uhh @.. I think you should be honest to %spouse first before doing these things..$s",
+				"refusal_knownA": "This shell is not supposed to be played as a joke @.$a",
+				"refusal_knownB": "This shell is for marriage @. And I don't want to marry you.$s",
+				"refusal_botherA": "You should stop bothering me now. It's not funny.$a",
+				"refusal_botherB": "Want me to warp you away?$a",
+				"refusal_no_heartsA": "Oh hello? Are you okay in the head?$s",
+				"refusal_no_heartsB": "This shell is for someone you want to marry, don't just offer it to anyone for no reason.$a",
+			},
+		},
+		
+		//Antiunn
+	
+		{
+			"LogName": "Sprites",
+			"Action": "Load",
+			"Target": "Characters/Antiunn",
+			"FromFile": "assets/CharacterFiles/Antisocial/Antiunn/Antiunn_sprite.png",
+		},
+
+		{
+			"LogName": "Portraits",
+			"Action": "Load",
+			"Target": "Portraits/Antiunn",
+			"FromFile": "assets/CharacterFiles/Antisocial/Antiunn/Antiunn.png",
+		},		
+		{
+			"LogName": "Schedule",
+			"Action": "Load",
+			"Target": "Characters/schedules/Antiunn",
+			"FromFile": "assets/CharacterFiles/Antisocial/Antiunn/schedule.json",
+		},
+		{
+			"LogName": "Dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Antiunn",
+			"FromFile": "assets/CharacterFiles/Antisocial/Antiunn/dialogue.json",
+		},
+		
+		//Bellia
+	
+		{
+			"LogName": "Sprites",
+			"Action": "Load",
+			"Target": "Characters/Bellia",
+			"FromFile": "assets/CharacterFiles/Antisocial/Bellia/Bellia_sprite.png",
+		},
+
+		{
+			"LogName": "Portraits",
+			"Action": "Load",
+			"Target": "Portraits/Bellia",
+			"FromFile": "assets/CharacterFiles/Antisocial/Bellia/Bellia.png",
+		},		
+		{
+			"LogName": "Schedule",
+			"Action": "Load",
+			"Target": "Characters/schedules/Bellia",
+			"FromFile": "assets/CharacterFiles/Antisocial/Bellia/schedule.json",
+		},
+		{
+			"LogName": "Dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Bellia",
+			"FromFile": "assets/CharacterFiles/Antisocial/Bellia/dialogue.json",
+		},
+		
+		//Gabbi
+	
+		{
+			"LogName": "Sprites",
+			"Action": "Load",
+			"Target": "Characters/Gabbi",
+			"FromFile": "assets/CharacterFiles/Antisocial/Gabbi/Gabbi_sprite.png",
+		},
+
+		{
+			"LogName": "Portraits",
+			"Action": "Load",
+			"Target": "Portraits/Gabbi",
+			"FromFile": "assets/CharacterFiles/Antisocial/Gabbi/Gabbi.png",
+		},		
+		{
+			"LogName": "Schedule",
+			"Action": "Load",
+			"Target": "Characters/schedules/Gabbi",
+			"FromFile": "assets/CharacterFiles/Antisocial/Gabbi/schedule.json",
+		},
+		{
+			"LogName": "Dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Gabbi",
+			"FromFile": "assets/CharacterFiles/Antisocial/Gabbi/dialogue.json",
+		},
+		
+		//Gellos
+	
+		{
+			"LogName": "Sprites",
+			"Action": "Load",
+			"Target": "Characters/Gellos",
+			"FromFile": "assets/CharacterFiles/Antisocial/Gellos/Gellos_sprite.png",
+		},
+
+		{
+			"LogName": "Portraits",
+			"Action": "Load",
+			"Target": "Portraits/Gellos",
+			"FromFile": "assets/CharacterFiles/Antisocial/Gellos/Gellos.png",
+		},		
+		{
+			"LogName": "Schedule",
+			"Action": "Load",
+			"Target": "Characters/schedules/Gellos",
+			"FromFile": "assets/CharacterFiles/Antisocial/Gellos/schedule.json",
+		},
+		{
+			"LogName": "Dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Gellos",
+			"FromFile": "assets/CharacterFiles/Antisocial/Gellos/dialogue.json",
+		},
+		
+		//Laarni
+	
+		{
+			"LogName": "Sprites",
+			"Action": "Load",
+			"Target": "Characters/Laarni",
+			"FromFile": "assets/CharacterFiles/Antisocial/Laarni/Laarni_sprite.png",
+		},
+
+		{
+			"LogName": "Portraits",
+			"Action": "Load",
+			"Target": "Portraits/Laarni",
+			"FromFile": "assets/CharacterFiles/Antisocial/Laarni/Laarni.png",
+		},		
+		{
+			"LogName": "Schedule",
+			"Action": "Load",
+			"Target": "Characters/schedules/Laarni",
+			"FromFile": "assets/CharacterFiles/Antisocial/Laarni/schedule.json",
+		},
+		{
+			"LogName": "Dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Laarni",
+			"FromFile": "assets/CharacterFiles/Antisocial/Laarni/dialogue.json",
+		},
+		
+		//Micco
+	
+		{
+			"LogName": "Sprites",
+			"Action": "Load",
+			"Target": "Characters/Micco",
+			"FromFile": "assets/CharacterFiles/Antisocial/Micco/Micco_sprite.png",
+		},
+
+		{
+			"LogName": "Portraits",
+			"Action": "Load",
+			"Target": "Portraits/Micco",
+			"FromFile": "assets/CharacterFiles/Antisocial/Micco/Micco.png",
+		},		
+		{
+			"LogName": "Schedule",
+			"Action": "Load",
+			"Target": "Characters/schedules/Micco",
+			"FromFile": "assets/CharacterFiles/Antisocial/Micco/schedule.json",
+		},
+		{
+			"LogName": "Dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Micco",
+			"FromFile": "assets/CharacterFiles/Antisocial/Micco/dialogue.json",
+		},
+		
+		//Oddi
+	
+		{
+			"LogName": "Sprites",
+			"Action": "Load",
+			"Target": "Characters/Oddi",
+			"FromFile": "assets/CharacterFiles/Antisocial/Oddi/Oddi_sprite.png",
+		},
+
+		{
+			"LogName": "Portraits",
+			"Action": "Load",
+			"Target": "Portraits/Oddi",
+			"FromFile": "assets/CharacterFiles/Antisocial/Oddi/Oddi.png",
+		},		
+		{
+			"LogName": "Schedule",
+			"Action": "Load",
+			"Target": "Characters/schedules/Oddi",
+			"FromFile": "assets/CharacterFiles/Antisocial/Oddi/schedule.json",
+		},
+		{
+			"LogName": "Dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Oddi",
+			"FromFile": "assets/CharacterFiles/Antisocial/Oddi/dialogue.json",
+		},
+		
+		//Reenus
+	
+		{
+			"LogName": "Sprites",
+			"Action": "Load",
+			"Target": "Characters/Reenus",
+			"FromFile": "assets/CharacterFiles/Antisocial/Reenus/Reenus_sprite.png",
+		},
+
+		{
+			"LogName": "Portraits",
+			"Action": "Load",
+			"Target": "Portraits/Reenus",
+			"FromFile": "assets/CharacterFiles/Antisocial/Reenus/Reenus.png",
+		},		
+		{
+			"LogName": "Schedule",
+			"Action": "Load",
+			"Target": "Characters/schedules/Reenus",
+			"FromFile": "assets/CharacterFiles/Antisocial/Reenus/schedule.json",
+		},
+		{
+			"LogName": "Dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Reenus",
+			"FromFile": "assets/CharacterFiles/Antisocial/Reenus/dialogue.json",
+		},
+		
+		//Yvenn
+	
+		{
+			"LogName": "Sprites",
+			"Action": "Load",
+			"Target": "Characters/Yvenn",
+			"FromFile": "assets/CharacterFiles/Antisocial/Yvenn/Yvenn_sprite.png",
+		},
+
+		{
+			"LogName": "Portraits",
+			"Action": "Load",
+			"Target": "Portraits/Yvenn",
+			"FromFile": "assets/CharacterFiles/Antisocial/Yvenn/Yvenn.png",
+		},		
+		{
+			"LogName": "Schedule",
+			"Action": "Load",
+			"Target": "Characters/schedules/Yvenn",
+			"FromFile": "assets/CharacterFiles/Antisocial/Yvenn/schedule.json",
+		},
+		{
+			"LogName": "Dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Yvenn",
+			"FromFile": "assets/CharacterFiles/Antisocial/Yvenn/dialogue.json",
+		},
+		
+		//Esmeralda
+	
+		{
+			"LogName": "Sprites",
+			"Action": "Load",
+			"Target": "Characters/Esmeralda",
+			"FromFile": "assets/CharacterFiles/Antisocial/Esmeralda/Esmeralda_sprite.png",
+		},
+
+		{
+			"LogName": "Portraits",
+			"Action": "Load",
+			"Target": "Portraits/Esmeralda",
+			"FromFile": "assets/CharacterFiles/Antisocial/Esmeralda/Esmeralda.png",
+		},		
+		{
+			"LogName": "Schedule",
+			"Action": "Load",
+			"Target": "Characters/schedules/Esmeralda",
+			"FromFile": "assets/CharacterFiles/Antisocial/Esmeralda/schedule.json",
+		},
+		{
+			"LogName": "Dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Esmeralda",
+			"FromFile": "assets/CharacterFiles/Antisocial/Esmeralda/dialogue.json",
+		},
+
+		//Salvador
+	
+		{
+			"LogName": "Sprites",
+			"Action": "Load",
+			"Target": "Characters/Salvador",
+			"FromFile": "assets/CharacterFiles/Antisocial/Salvador/Salvador_sprite.png",
+		},
+
+		{
+			"LogName": "Portraits",
+			"Action": "Load",
+			"Target": "Portraits/Salvador",
+			"FromFile": "assets/CharacterFiles/Antisocial/Salvador/Salvador.png",
+		},		
+		{
+			"LogName": "Schedule",
+			"Action": "Load",
+			"Target": "Characters/schedules/Salvador",
+			"FromFile": "assets/CharacterFiles/Antisocial/Salvador/schedule.json",
+		},
+		{
+			"LogName": "Dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Salvador",
+			"FromFile": "assets/CharacterFiles/Antisocial/Salvador/dialogue.json",
+		},
+		
+		//Load Beast sprite for Raph 9 heart event
+		{	
+			"LogName": "Beast1",
+			"Action": "Load",
+			"Target": "Characters/UmuwiBeast1",
+			"FromFile": "assets/CharacterFiles/Beast1.png",
+		},
+		{	
+			"LogName": "Beast2",
+			"Action": "Load",
+			"Target": "Characters/UmuwiBeast2",
+			"FromFile": "assets/CharacterFiles/Beast2.png",
+		},
+		{	
+			"LogName": "Beast3",
+			"Action": "Load",
+			"Target": "Characters/UmuwiBeast3",
+			"FromFile": "assets/CharacterFiles/Beast3.png",
+		},
+		
+		//Babies--------------------------------------------
+		
+		//Lunna
+		
+			//Boy
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Toddler",
+			"FromFile": "assets/CharacterFiles/Lunna/BabyBoy.png",
+			"When": {
+			"Relationship:Lunna": "Married"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Toddler_dark",
+			"FromFile": "assets/CharacterFiles/Lunna/BabyBoy.png",
+			"When": {
+			"Relationship:Lunna": "Married"
+			}
+			},
+
+			//Girl
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Toddler_girl",
+			"FromFile": "assets/CharacterFiles/Lunna/BabyGirl.png",
+			"When": {
+			"Relationship:Lunna": "Married"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Toddler_girl_dark",
+			"FromFile": "assets/CharacterFiles/Lunna/BabyGirl.png",
+			"When": {
+			"Relationship:Lunna": "Married"
+			}
+		},
+		
+		//Bianka
+		
+			//Boy
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Toddler",
+			"FromFile": "assets/CharacterFiles/Bianka/BabyBoy.png",
+			"When": {
+			"Relationship:Bianka": "Married"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Toddler_dark",
+			"FromFile": "assets/CharacterFiles/Bianka/BabyBoy.png",
+			"When": {
+			"Relationship:Bianka": "Married"
+			}
+			},
+
+			//Girl
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Toddler_girl",
+			"FromFile": "assets/CharacterFiles/Bianka/BabyGirl.png",
+			"When": {
+			"Relationship:Bianka": "Married"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Toddler_girl_dark",
+			"FromFile": "assets/CharacterFiles/Bianka/BabyGirl.png",
+			"When": {
+			"Relationship:Bianka": "Married"
+			}
+		},
+		
+		//Raphael
+		
+			//Boy
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Toddler",
+			"FromFile": "assets/CharacterFiles/Raphael/BabyBoy.png",
+			"When": {
+			"Relationship:Raphael": "Married"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Toddler_dark",
+			"FromFile": "assets/CharacterFiles/Raphael/BabyBoy.png",
+			"When": {
+			"Relationship:Raphael": "Married"
+			}
+			},
+
+			//Girl
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Toddler_girl",
+			"FromFile": "assets/CharacterFiles/Raphael/BabyGirl.png",
+			"When": {
+			"Relationship:Raphael": "Married"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Toddler_girl_dark",
+			"FromFile": "assets/CharacterFiles/Raphael/BabyGirl.png",
+			"When": {
+			"Relationship:Raphael": "Married"
+			}
+		},
+		
+			
+	//Strings-----------------------------------------------
+		//Animation Strings
+		{
+			"LogName": "AnimationDescriptions Strings",
+			"Action": "EditData",
+			"Target": "Strings/animationDescriptions",
+			"Entries": {
+				"lunna.eat.00": "munch munch munch...$9#$b#I am sorry, I am enjoying this treat too much.$h",
+				"lunna.sitrain.00": "The rain drops can hide tears if one ever wishes to weep.$s#$b#...$u",
+				"lunna.liedown.00": "%Lunna seems to be asleep",
+				"dianna.dance.00": "%Dianna seems to be lost in dance",
+				"dianna.eat.00": "munch munch munch munch munch munch!$h",
+				"bianka.meditate.00": "%Bianka seems to be in deep meditation."
+				},
+		},
+		
+		//Map Strings
+		{
+			"LogName": "StringsFromMaps",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"Umuwi.1": "The fire has an ominous purple glow to it. Best not to get too close!",
+				"Umuwi.2": "The barrels seem to be full of fermented Umuwi fruits! I should try one sometime!",
+				"Umuwi.3": "Umuwi has some unique looking crops. I wonder how much they're worth?",
+				"Umuwi.4": "It seems they are shipping some stuff to sell out of here. But where?",
+				"UmuwiLakeLock": "There seems to be a weird aura to these flowers...",
+				"UmuwiFallsLock": "There seems to be a little rift in the space near here...",
+				},
+		},
+				
+	// ANIMATIONS-------------------------------------------
+		
+		{
+			"LogName": "Animations",
+			"Action": "EditData",
+			"Target": "Data/animationDescriptions",
+			"Entries": {
+				"lunna_sleep": "48/48/48",
+				"lunna_eat": "0/16 16 16 16 16 16 16 16 16 16 16 16 17 18 19 19 19/0/Strings\\animationDescriptions:lunna.eat.00",
+				"lunna_sit": "0/51/0",
+				"lunna_sitrain": "0/51/0/Strings\\animationDescriptions:lunna.sitrain.00",
+				"lunna_lie": "0/49/0/Strings\\animationDescriptions:lunna.liedown.00",
+				"dianna_sleep": "23/23/23",
+				"dianna_eat": "0/16 16 16 16 16 16 16 16 16 17 18 19 19 19 19 19 19 19 19/0/Strings\\animationDescriptions:dianna.eat.00",
+				"dianna_dance": "0/20 20 20 21 21 21 22 22 22/0/Strings\\animationDescriptions:dianna.dance.00",
+				"bianka_dance": "0/16 16 16 16 17 17 17 17 18 18 18 18 19 19 19 19/0",
+				"bianka_sleep": "48/48/48",
+				"bianka_meditate": "24/24/24/Strings\\animationDescriptions:bianka.meditate.00",
+				"raphael_meditate": "0/16 16 16 17 17 17 18 18 18 19 19 19 18 18 18 17 17 17/0",
+				"raphael_sleep": "51/51/51",
+				"raphael_forge": "0/29 29 29 29 29 29 29 29 30 30 30 30 30 30 30 30 30 30 31 31 31 31 31 31 31 31 31 31 31 31 31 31 30 30 30 30 29 29/0",
+				"raphael_train": "0/23 23 23 23 23 23 24 24 24 25 25 25 25 26 26 26 25 25 25 23 23 23 26 26 26 26 26 26 25 25 25 25 24 24 24 24 23 23 23/0",
+				"raphael_lumber": "0/43/0",
+				"antiunn_animation": "0/16 16 17 17 18 18 19 19 19 19 19 19 19/0",
+				"bellia_animation": "0/16 16 16 17 17 17 18 18 18 18 18 18 18 18 19 19/0",
+				"gabbi_animation": "0/16 16 17 17 18 18 19 19 19 19 19 19 19 19 19 19 19/0",
+				"gellos_animation": "0/16 16 16 16 17 17 17 17 18 18 18 18 19 19 19 19/0",
+				"laarni_animation": "0/16 16 17 17 18 18 19 19 19 19 19 19 19/0",
+				"micco_animation": "0/16 16 16 16 16 16 16 17 18 19 19 19 19/0",
+				"oddi_animation": "0/16 16 16 17 17 17 18 18 18 19 19 19/0",
+				"reenus_animation": "0/16 16 16 16 16 16 16 17 18 19 19 19 19/0",
+				"yvenn_animation": "0/16 16 17 17 18 18 19 19 19 19 19 19 19/0",
+			},
+		},
+		
+
+	//Events------------------------------------------------
+
+		{
+			"LogName": "Forest Events",
+			"Action": "EditData",
+			"Target": "Data/Events/Forest",
+			"Entries": {
+			
+				//HeartEvent 1 = 2 Hearts: Lunna is embarrassed
+				"75160001/f Lunna 500/t 800 1300/d Mon Fri Sat Sun/w sunny": "playful/28 40/farmer 45 41 3 Lunna 28 40 2/skippable/showFrame Lunna 49/textAboveHead Lunna \"mmmmm..\"/pause 2000/speak Lunna \"..yes.. serve me more of the sweet food..$8\"/textAboveHead \"more please..\"/move farmer -16 0 0/pause 100/move farmer 0 -1 3/emote farmer 8/pause 1000/showFrame Lunna 51/speak Lunna \"..mmmm...$8\"/faceDirection Lunna 1 true/pause 2000/speak Lunna \"Oh? @? Uhh.. Where was that sweet cake food?$u\"/faceDirection Lunna 2/pause 1000/faceDirection Lunna 3/pause 1000/faceDirection Lunna 0/pause 1000/jump Lunna/speak Lunna \"Oh! It was a dream!$6#$b#...$s\"/shake Lunna 500/faceDirection Lunna 3/speak Lunna \"That was really really embarrassing..$12\"/pause 1000/faceDirection Lunna 1/pause 100/speak Lunna \"$q 751601 null#..I seem to be really strange.. right?#$r 751601 15 event_1lunna1#No not really.#$r 751601 15 event_1lunna2#Everyone has their own strange side.#$r 751601 -100 event_1lunna3#Yeah you're really strange, and that was embarrassing.\"/fork LunnaEmbarrassed/emote Lunna 32/pause 200/speak Lunna \"Uhhhm.. Hey @? I think I will go to town and buy some food, Care to join?$u\"/emote farmer 20/speak Lunna \"Yippie!\"/move Lunna 0 1 1/move Lunna 2 0 1/move farmer 0 1 1/move Lunna 10 0 1 true/move farmer 10 0 1 true/pause 4000/end dialogue Lunna \"I had fun today! Even if I am still a little embarrassed about what happened$h\"",
+				"LunnaEmbarrassed": "stopMusic/showFrame Lunna 23/pause 2000/move Lunna -1 0 1/pause 500/speak Lunna \"I should go...$s\"/move Lunna -7 0 3 true/pause 3000/end dialogue Lunna \"Uhm.. I promise I will not be strange again..$s\"",
+				
+				//HeartEvent 2 = 3 Hearts: Lunna is missing home
+				"75160002/e 75160001/f Lunna 750/t 1200 1600/d Fri/w rainy": "none/34 24/farmer 35 16 2 Lunna 34 25 2/skippable/showFrame Lunna 51/pause 4000/emote Lunna 40/speak Lunna \"Umuwi...$12\"/move farmer 0 6 2/pause 2000/emote farmer 40/pause 2000/speak Lunna \"..Umuwi...$s#$b#..Dianna...$12\"/pause 2000/speak Lunna \"..I really miss you..$11#$b#I really do...$11\"/pause 4000/faceDirection Lunna 2/showFrame Lunna 23/pause 3000/faceDirection Lunna 0/pause 700/emote Lunna 16/speak Lunna \"@!!$6#$b#What are you doing here?$s#$b#How long have you been here?$s\"/pause 1000/speak Lunna \"$q 751602 null#Why are you here?#$r 751602 0 event_2lunna1#Just foraging in the rain.#$r 751602 0 event_2lunna2#I was exploring the forest.#$r 751602 20 event_2lunna3#I came to visit you.\"/pause 1000/move farmer 0 3 2 true/faceDirection Lunna 2/pause 4000/question null \"(What should I ask her?)#Are you okay?#Why are you here?#...\"/pause 1000/showFrame Lunna 51/pause 2000/speak Lunna \"...$s#$b#I was just missing my home...$s\"/playMusic desolate/pause 1000/speak Lunna \"I come here because It kind of reminds me of a lake my little sister and I would hang around all day...$u\"/pause 1000/speak Lunna \"..This place kinds of soothes my yearning a bit..$u\"/pause 4000/speak Lunna \"$q 751603 null#(What should I say?)#$r 751603 0 event_2lunna4#Where are you from?#$r 751603 0 event_2lunna5#Atleast this place helps.#$r 751603 0 event_2lunna6#I'm always here if you ever feel lonely.\"/pause 4000/speak Lunna \"Hey...$0#$b#Thank you for listening to me @.$u\"/pause 500/move Lunna -1 0 3/faceDirection farmer 3/pause 2000/speak Lunna \"I am sorry I cannot speak more about my past..$12#$b#I know you mean well but..$8#$b#I have my reasons.$s\"/pause 2000/end dialogue Lunna \"Thank you for keeping me company under the heavy talk and rain.$8\"",
+				
+				//HeartEvent 3 = 4 Hearts: Lunna fixes her shack (Events/LunnaHouse)
+				
+				//Wizard talks to farmer about relationship with Lunna
+				"75160006/e 75160005/D Lunna/d Fri": "none/69 8/farmer 69 2 2 Wizard 41 10 1/skippable/move farmer 0 5 2/speak Wizard \"Good day boy.^Good day girl.\"/pause 200/emote farmer 8/faceDirection farmer 0/pause 1000/showFrame Wizard 16/playSound wand/screenFlash .8/warp Wizard 69 5/showFrame Wizard 16/pause 500/faceDirection Wizard 2/emote farmer 16/pause 1000/speak Wizard \"Hmmmmmm....\"/pause 500/emote farmer 8/pause 800/speak Wizard \"Pardon me for the sudden conversation @.#$b#But I have noticed that you are now with Lunna in a romantic sense, are you not?\"/pause 500/question null \"You and Lunna are in romantic terms are you not?#Yes we are#Maybe? What is it to you?#Among other people\"/emote Wizard 40/pause 800/speak Wizard \"I do not further care about your personal connections.#$b#But I should ask you. Has she said anything off the normal?#$b#Anything about herself or another land may it be?\"/pause 200/emote farmer 40/pause 800/speak Wizard \"A bit peculiar I may say...#$b#She is one who normally gives in to her emotions and blabs about things that should be kept secret.\"/faceDirection Wizard 3/pause 500/speak Wizard \"She may have grown up in a mental and emotional sense I believe.. May it be influence from spending time here or from @...\"/emote farmer 8/pause 800/faceDirection Wizard 2/speak Wizard \"Pardon me for being at lost from my own thoughts..#$b#But I have a favor to ask of you.\"/emote farmer 32/pause 800/speak Wizard \"It is a simple task.#$b#Simply keep an eye of her, If there is any event that you would perceive strange in a sense..#$b#You should seek for my presence.\"/emote farmer 8/speak Wizard \"That is all. Carry on with your day.\"/showFrame Wizard 16/playSound wand/screenFlash .8/warp Wizard 41 10/emote farmer 16/pause 800/fade/message \"I wonder what was that all about?\"/end",
+				
+				//Lunna Visits Umuwi
+				"75160010/e 75160009": "sweet/13 29/farmer 5 27 2 Lunna 5 32 0 Dianna -1000 -1000 0/skippable/pause 500/emote Lunna 16/pause 800/speak Lunna \"@!?$6\"/emote farmer 16/pause 800/move Lunna 0 -4 0/pause 800/speak Lunna \"I am sorry I was just shocked to see you this early at M. Rasmodius' tower.$u#$b#I was on my way here to ask M. Rasmodius for some funds for the errands he has me doing.$0\"/pause 500/emote Lunna 32/emote farmer 32/pause 800/speak Lunna \"So? What were you doing here @?..$l\"/emote farmer 16/pause 800/jump Lunna/speak Lunna \"WHAT?!$6#$b#Really @?!$u\"/jump farmer/pause 800/emote Lunna 28/pause 800/speak Lunna \"I..... I....$11#$b#I am so happy @!$10\"/emote farmer 20/emote Lunna 20/pause 1000/speak Lunna \"Well? What are waiting for! Lead me to the pond @!$10\"/pause 1000/globalFade/viewport -2000 -2000/changeToTemporaryMap LunnaLake false/warp farmer 15 19/warp Lunna 14 19/faceDirection farmer 0/faceDirection Lunna 0/viewport 14 12/pause 500/move Lunna 0 -3 0/pause 500/emote Lunna 16/pause 2000/faceDirection Lunna 2/speak Lunna \"@! I cannot wait to jump in the pond!$h#$b#I am really excited to see Umuwi and my little sister again!$h\"/emote farmer 32/pause 500/move farmer 0 -2 0/pause 800/message \"Shall we? Lunna?\"/pause 500/speak Lunna \"Yes! Let's go @...$8\"/faceDirection Lunna 0/move farmer 0 -1 0/pause 1000/warp farmer -999 -999/warp Lunna -998 -998/playSound wand/screenFlash .8/pause 1000/globalFade/viewport -2000 -2000/changeToTemporaryMap Umuwi false/warp farmer 92 29/warp Lunna 93 29/warp Dianna 78 31/faceDirection farmer 2/faceDirection Lunna 2/viewport 94 30/pause 1000/move Lunna 0 2 2/pause 1000/emote Lunna 20/pause 800/faceDirection Lunna 0/pause 1000/speak Lunna \"@...Thank you so much! To you and M. Rasmodius!$10\"/move farmer 0 2 1/faceDirection Lunna 3/emote farmer 32/emote Lunna 60/pause 800/speak Lunna \"I owe you a lot @...$10#$b#I love you so much..$l\"/showFrame Lunna 25/positionOffset Lunna -10 0/positionOffset farmer 10 0/animate farmer false true 100 101/emote Lunna 20/pause 2000/stopAnimation farmer/warp Lunna 93 31/warp farmer 92 31/faceDirection Lunna 3/faceDirection farmer 1/pause 1000/speak Lunna \"Well I...$l\"/message \"???: Who?? Who are you??\"/emote farmer 16/emote Lunna 16/faceDirection farmer 3/move Dianna 6 0 1/textAboveHead Dianna \"Uhhmm.. Hello there!\"/move farmer 0 1 3/move Lunna -1 0 3/speak Dianna \"Uhhhmmmm...$0#$b#Whatcha doin here humans?$0#$b#I mean! How did you get here? You came out of nowhere!$h#$b#Dun worry! I am friendly!$u#$b#Unless you are not!$a\"/pause 1000/move Lunna -1 0 3/pause 1000/speak Lunna \"Dianna?...$11#$b#Dianna it's me.. Do you not recognize me?$10\"/pause 500/emote Dianna 8/pause 800/speak Dianna \"Uhhhhhhhh$0#$b#Who are you lady human?$h\"/pause 200/speak Dianna \"I mean! I dun know any humans besides M. Raphael and Bianka.#h#$b#I'm so sorry If I dun know you lady!$0\"/pause 1000/move Lunna -4 0 3/showFrame Lunna 35/emote Dianna 8/pause 800/move Dianna 2 0 1/speak Dianna \"There there lady human.#$b#Dun cry too much now would ya!$h#$b#What's the problem???$h\"/emote Lunna 28/pause 800/speak Lunna \"Dianna... It is me.. Lunna! Your sister!$10\"/pause 800/emote Dianna 16/stopMusic/speak Dianna \"How do you know that name human!$a#$b#Don't you dare make fun of my lost sister!$a#$b#She isn't a human like you guys are!$a\"/pause 200/shake Lunna 1000/showFrame Lunna 51/speak Lunna \"But Dianna! It is me! I turned into a human upon jumping into the lake after having the monsters chase me away from you!$11#$b#I am not lying to you Dianna!$11\"/emote Dianna 12/emote Lunna 28/pause 800/speak Lunna \"DIANNA LISTEN TO ME!$11#$b#Uhhhhhhhhhgg...$12\"/showFrame Lunna 34/glow 255 255 255/pause 1000/emote Dianna 16/emote farmer 16/message \"Lunna seems to be radiating some kind of magic\"/glow 255 255 255/pause 1000/speak Dianna \"Uhhhh!? Lady?! Are you okay?$0\"/move farmer 0 -1 0/move farmer -4 0 3/message \"Lunna! Are you okay?!\"/speak Lunna \"@.... I got carried away by my emotions...$12#$b#The magic is going wild... I do not know what to do!$13\"/pause 200/message \"You remember the wizard mentioning something about this..\"/message \"..about how Lunna's magic reacts calmer with you around..\"/pause 500/emote farmer 40/pause 500/message \"You hold on to Lunna tightly\"/playMusic desolate/positionOffset farmer -10 0/animate farmer true true 100 101/glow 255 255 255/pause 1000/playSound wand/glow 216 8 178/pause 1000/playSound wand/glow 216 8 178/pause 1000/showFrame Lunna 29/stopAnimation farmer/warp farmer 88 31/faceDirection farmer 3/emote Dianna 16/pause 800/speak Dianna \"Lady! Your face! You..$4\"/glow 216 8 178/pause 1000/faceDirection Lunna 3/showFrame Lunna 31/pause 1000/speak Dianna \"You look like big sis Lunna...$0\"/pause 500/speak Lunna \"It is me my little Dianna! I am home!$14#$b#I tried to tell you!$14\"/pause 200/emote Dianna 40/pause 800/speak Dianna \"Lunna?..$0\"/emote Dianna 16/pause 800/speak Dianna \"LUNNA! IT IS YOU!$s\"/glow 194 255 4/pause 1000/faceDirection Lunna 0/faceDirection Lunna 3/emote Dianna 16/pause 800/speak Dianna \"Huh!? Where did your face go Lunna!$a\"/emote Lunna 8/pause 800/speak Lunna \"Oh?$0#$b#It seems the magic has calmed down entirely$u\"/pause 1000/emote Dianna 40/pause 800/speak Dianna \"But is that really you big sis Lunna?$s\"/pause 500/showFrame Lunna 35/pause 1000/emote Dianna 28/pause 800/speak Lunna \"Yes.. It is really me Dianna..$11#$b#Come give your big sis a hug$10\"/speak Dianna \"BIG SIS LUNNA!$s\"/warp Dianna -1000 -1000/showFrame Lunna 39/pause 2000/speak Dianna \"LUNNA!! I MISSED YOU SO MUCH!! WHERE DID YOU GO!$s\"/speak Lunna \"I shall tell you later Dianna... I am just glad I could see you again..$10\"/speak Dianna \"I missed you!$s#$b#I was so lonely Lunna!$s#$b#WAHHHHHHHHHH$s\"/emote farmer 32/pause 2000/globalFade/viewport -2000 -2000/warp Lunna 85 19/warp Dianna 84 19/warp farmer 87 19/faceDirection farmer 3/faceDirection Lunna 3/faceDirection Dianna 1/stopMusic/pause 2000/message \"..A little while later\"/viewport 88 18/playMusic sweet/pause 1000/speak Dianna \"Ohhh so that's why you were lost! You were in a whole other place!\"/pause 500/speak Lunna \"Yes well I do not even know how and why I turned into a human.#$b#The last thing I remember before that was falling into this lake here.$u#$b#After that I ended up in staying in Pelican Town for a while#$b#and learned a lot of stuff, met new humans, and even more!$h\"/pause 500/emote Dianna 16/pause 800/speak Dianna \"Even more humans! WOAH!$4\"/jump Dianna/emote Lunna 20/pause 1000/speak Dianna \"Uhm.#$b#Who's that with you big sis?\"/faceDirection Lunna 1/textAboveHead Lunna \"Oh!!\"/pause 800/speak Dianna \"I saw you two together hugging so close.#$b#It was SOOOO close that it looked like your faces were mixed with each other.$u\"/emote Lunna 60/emote farmer 60/pause 800/speak Lunna \"Oh!$l#$b#Meet @ Dianna..$l#$b#He is my boyfriend...$l^She is my girlfriend...$l\"/emote farmer 32/pause 800/speak Dianna \"Oh! Really!?$4\"/move Dianna 0 1 1/move Dianna 3 0 0/faceDirection farmer 2/emote Dianna 40/pause 800/speak Dianna \"I like you! You make big sis happy!#$b#My name is Dianna! Nice to meet you big boi!$h^My name is Dianna! Nice to meet you tall gerl!$h\"/emote farmer 32/pause 800/faceDirection Dianna 3/speak Dianna \"Big sis? Are you going to come home again?\"/pause 800/emote Lunna 16/pause 800/speak Lunna \"Oh! Uhmmm...$12\"/emote Dianna 8/emote farmer 8/pause 2000/showFrame Lunna 23/speak Lunna \"I have thought about it while we were on the way here...$12#$b#And uhmm$12\"/pause 2000/speak Lunna \"I wish to stay with @...$12#$b#I do really miss you and this place Dianna but..$12\"/pause 500/move Dianna -2 0 0/pause 1000/emote Lunna 28/pause 1000/emote Dianna 32/pause 800/speak Dianna \"Lunna! Hey!$0#$b#It's okay!$h#$b#Whenever I started missing you so much, I just thought about some of our talks.$u#$b#And on those talks, You always mention about exploring the world!$0#$b#And you can't do that here when you're stuck in Umuwi$u\"/faceDirection Lunna 2/emote Lunna 16/pause 800/speak Dianna \"You belong where you are happy big sissy!$h#$b#And besides...\"/faceDirection Dianna 2/pause 1000/faceDirection Dianna 1/pause 1000/faceDirection Dianna 0/speak Dianna \"Now that there is a portal, You and @ can always come and visit Umuwi!$h\"/emote farmer 32/emote Lunna 20/pause 800/speak Lunna \"Oh Dianna!$11#$b#When have you become more mature than me?$10\"/pause 800/speak Dianna \"I have always been more mature than you big sis! You big baby!$h\"/emote Dianna 20/pause 800/speak Lunna \"Thank you Dianna! I promise I shall visit often!\"/pause 500/speak Dianna \"Yes please!#$b#You and @ better bring lots of food and stuff for me okay!?$u\"/emote farmer 32/emote Lunna 32/pause 200/move farmer -1 0 2/pause 1000/speak Dianna \"I am just happy that we can see each other again big sis!$h\"/emote Dianna 32/animate Dianna false true 100 20 20 21 21 22 22 21 21 20 20 21 21 22 22 21 21/pause 5000/fade/stopAnimation Dianna/viewport -2000 -2000/message \"Everything went well..\"/message \"We all went home after that...\"/message \"Lunna and Dianna are really happy\"/pause 2000/friendship Dianna 500/friendship Lunna 200/end dialogue Lunna \"Thank you for today @! Let us visit Umuwi once more soon$h\"",
+				
+				//Lunna and Abigail
+				"75160042/w sunny/t 800 1200/f Abigail 500": "playful/33 23/farmer -100 -100 0 Lunna 33 25 2 Abigail 40 17 3/skippable/pause 500/move Abigail -5 0 3/emote Abigail 8/pause 500/faceDirection Abigail 2/pause 1000/speak Abigail \"Oh! Hi Lunna!$h#$b#Why do you seem so quiet there?\"/emote Lunna 16/pause 500/faceDirection Lunna 0/speak Lunna \"Oh! Miss Abigail!$6#$b#I did not see you there! You startled me!$u#$b#I was just enjoying the breeze.#$b#It is such a relaxing day!.$h\"/emote Abigail 56/pause 500/speak Abigail \"It really is right?$h\"/emote Lunna 32/pause 500/speak Lunna \"I welcome your company Miss Abigail.$u#$b#If you want to hang around here with me I will be delighted.$h\"/emote Abigail 20/pause 500/speak Abigail \"Lunna you're so sweet!$h#$b#Alright I'm coming over.\"/move Abigail 0 8 2 0/faceDirection Lunna 2/emote Abigail 32/emote Lunna 32/pause 1000/speak Abigail \"Hey Lunna! You don't have to keep calling me 'Miss Abigail' okay?$h#$b#I'm your friend! You can just call me Abby.\"/speak Lunna \"Oh! I am so sorry if that bothered you Miss..#$b#EHR I mean Abby!$6#$b#We've only met a few months back and yet you have become one of my friends here in Pelican Town!$h\"/speak Abigail \"Haha! I found a liking to you!$h#$b#And I am still curious to where you came from by they way.#$b#You still won't tell me.$h\"emote Lunna 28/pause 500/speak Lunna \"Oh. I am sorry Abby but I do not think I am ready to tell my story.$s#$b#I hope you understand.$s\"/faceDirection Abigail 3/emote Abigail 56/pause 500/speak Abigail \"Hey Lunna it's okay!$h#$b#What matters is that I know you're a good person and a good friend!#$b#Remember that time you helped me sneak out the house at night!$h#$b#My Dad was so confused!$h\"/faceDirection Lunna 1/speak Lunna \"Oh yes! I do recall!$h#$b#Remember the time where I kept dying in your videogame too?#$b#I was really embarassed for I did not know what I was doing and I just kept on screaming!$h\"/emote Abigail 56/pause 500/speak Abigail \"Yeah! Oh my also remember when...$h\"/pause 500/textAboveHead Lunna \"Oh yes that was fun!\"/pause 500/jump Abigail/pause 1000/end",
+				
+				//Lunna and Vincent
+				"75160043/w sunny/t 800 1400/f Vincent 500": "none/9 9/farmer -100 -100 0 Lunna 6 7 0 Vincent 10 11 3/skippable/pause 500/emote Lunna 40/pause 500/emote Vincent 8/move Vincent -4 0 0/pause 1000/speak Lunna \"*sobs*$11\"/pause 1000/speak Vincent \"Uhh, Miss Lunna? Are you okay?\"/emote Lunna 16/pause 500/faceDirection Lunna 2/speak Lunna \"Oh! Vincent!$6#$b#What are you doing here this far back at the forest?$u#$b#I am sorry I was just thinking about something.$s\"/emote Vincent 40/pause 500/move Vincent 0 -2 0/speak Vincent \"You seem so sad Miss Lunna. What's wrong?#$b#Are you in trouble?#$b#Miss Penny said if someone is in trouble, It is the right thing to help them!$h\"/emote Lunna 20/pause 500/speak Lunna \"Aw you are such a sweet child Vincent!$10#$b#I was just sad because I was missing somebody.$u\"/speak Vincent \"Well whoever they are, I am sure they miss you too!$h#$b#I will try to cheer you up Miss Lunna!#$b#Want to go play with me and Jas?$h\"/emote Lunna 32/speak Lunna \"You act just like my little sister!$h#$b#You cheered me up a lot Vincent. Thank you.$u#$b#Yes I will be happy to play with you! Lead the way!$h\"/emote Vincent 32/jump Vincent/pause 500/move Vincent 0 3 1 true/move Lunna 0 1 2/pause 1000/globalFade/end",
+
+				//Lunna and Krobus
+				"75160045/w sunny/z spring summer fall/f Krobus 500": "none/34 23/farmer -100 -100 0 Lunna 34 18 2 Krobus 34 25 2/skippable/pause 1000/emote Lunna 16/pause 500/speak Lunna \"Is that?...$6#$b#A shadowfolk!?$6\"/move Lunna 0 3 2/emote Krobus 16/pause 500/jump Krobus/faceDirection Krobus 0/speak Krobus \"OH NO! I'VE BEEN FOUND!$3#$b#I MUST RUN!$3\"/jump Krobus/shake Krobus 1000/pause 1000/emote Lunna 16/pause 500/speak Lunna \"Hey! Wait!$6#$b#I am like you! I am a Shadowfolk as well!$u#$b#Well once before...$s\"/pause 500/emote Krobus 8/pause 500/speak Krobus \"Wait? What?#$b#But, You're human! I can clearly see it!\"/emote Lunna 28/pause 500/speak Lunna \"Yeah well it is a long story.$u#$b#But please believe me, I am telling the truth.$s\"/emote Krobus 40/pause 500/move Krobus 0 -1 0/emote Krobus 16/jump Krobus/pause 500/speak Krobus \"Why yes! I do sense the same magic from you like mine!#$b#I also feel a hint of ancient magic!\"/speak Lunna \"Yeah, M. Rasmodius mentioned that ancient magic is involved too.$u\"/emote Krobus 32/pause 500/speak Krobus \"Oh! You know the wizard too!#$b#He is a good friend despite being grumpy.$h\"/emote Lunna 32/pause 500/speak Lunna \"He is kind of grumpy sometimes right?$h\"/emote Krobus 56/pause 500/speak Krobus \"I believe you!$h#$b#By the way, My name's Krobus! I reside at the sewers under town!\"/speak Lunna \"My name is Lunna, Nice to meet you Mister Krobus!$h#$b#I reside at the old shack near the Wizard's tower.#$b#I am interested to seeing the sewers though!\"/emote Krobus 20/pause 500/speak Krobus \"Oh! You want a tour! Oh joy!$h#$b#Come on! Follow me Lunna!#$b#I would also like to ask you about a lot of things!$h#$b#Like which tribe did you can from?\"/emote Lunna 56/emote Krobus 56/pause 1000/end",
+			},
+		},
+		{
+			"LogName": "SeedShop Events",
+			"Action": "EditData",
+			"Target": "Data/Events/SeedShop",
+			"Entries": {
+				
+				//HeartEvent 4 = 6 Hearts: Lunna buy Food
+				"75160004/e 75160003/f Lunna 1500/t 900 1400/d Wed Fri Sun/w sunny": "playful/8 21/farmer 6 27 0 Lunna 5 19 0 Pierre 4 17 2/skippable/pause 1000/emote Lunna 32/speak Lunna \"The fruits you sell here taste great Pierre!$h\"/pause 500/speak Pierre \"Well ofcourse! I grow most of my produce here myself!$h\"/pause 500/emote Lunna 8/pause 800/speak Lunna \"Oh? But most of the good ones here I see look like what @ grows?$s\"/pause 500/emote Pierre 16/pause 800/speak Pierre \"Oh! Yeah! I mean I also get shipping from %farm and uhmm..$4\"/pause 800/move farmer 0 -5 0 true/pause 800/emote Pierre 16/pause 500/faceDirection Lunna 2/pause 1000/emote farmer 8/pause 800/speak Pierre \"Oh welcome @!#$b#Here to buy more seeds eh?$h\"/pause 200/speak Lunna \"Hello @! Nice seeing you here!$h#$b#I am just buying some tasty fruits to munch on while I stroll around town.$0\"/pause 500/emote farmer 32/pause 1000/faceDirection Lunna 0/textAboveHead Lunna \"Here is the payment Pierre!\"/pause 1000/speak Pierre \"Thank you so much Lunna!#$b#Uhhh here! Have an extra piece of fruit! Grown by yours truly!$h\"/pause 500/emote Lunna 20/pause 800/speak Lunna \"Oh wow thank you!\"/pause 500/faceDirection Lunna 2/pause 500/speak Lunna \"Hey @.$0#$b#Care to stroll around town with me after buying some seeds?$8\"/pause 500/emote farmer 32/pause 1000/globalFade/viewport -2000 -2000/changeToTemporaryMap Town false/warp farmer 71 9/faceDirection farmer 2/warp Lunna 72 9/faceDirection Lunna 2/viewport -2000 -2000/viewport 76 13/pause 500/animate Lunna false true 100 16 16 16 16 16 16 16 16 16 16 16 16 17 18 19 19 19/pause 2000/speak Lunna \"This is so tasty!$9\"/emote farmer 32/emote Lunna 20/pause 1500/speak Lunna \"The strolling around was nice too!$8\"/pause 1000/stopAnimation Lunna 2/pause 500/speak Lunna \"Hey @! Thank you so much for hanging around with me this day$0.\"/pause 500/emote farmer 32/pause 1000/speak Lunna \"I do not know a lot of people here in Town. I just started staying here a little while before you arrived.$u\"/faceDirection Lunna 3/pause 500/speak Lunna \"I feel people would find me strange if they get to know me more..$s#$b#Plus, M. Rasmodius discourages me on spending too much time with other people..$s\"/pause 500/emote farmer 8/pause 800/emote Lunna 16/pause 800/speak Lunna \"Oh! I mean he is a really good person. Do not get me wrong.$8#$b#We have reasons why he does that and I understand.$u\"/pause 1000/speak Lunna \"But I do wonder about how other people see me...$s\"/pause 500/speak Lunna \"$q 751605 null#What do you think @?#$r 751605 30 event_4lunna1#A pretty and sweet girl.#$r 751605 30 event_4lunna2#A fun and caring person.#$r 751605 -50 event_4lunna3#An annoying and too loud a person\"/pause 1000/speak Lunna \"I really appreciate you being forward to me @.$0#$b#Along with spending time with little old me today...$u\"/pause 1000/speak Lunna \"It really means a lot. Thank you.$8\"/pause 500/speak Lunna \"Come on! Let us get more tasty fruits!\"/emote farmer 20/pause 1500/fade/pause 1000/message \"That was a fun walk with Lunna\"/end",								
+			},
+		},
+		{
+			"LogName": "Mine Events",
+			"Action": "EditData",
+			"Target": "Data/Events/Mine",
+			"Entries": {
+			
+				//Raphael Mines (4 hearts)
+				"75160024/f Raphael 1000/t 2000 2400": "Upper_Ambient/16 6/farmer -100 -100 0 Raphael 22 8 2/skippable/showFrame Raphael 22/pause 1000/shake Raphael 1000/pause 2000/speak Raphael \"*Huff huff* $9\"/pause 1000/warp farmer 18 12/move farmer 0 -2 0/emote farmer 8/pause 800/emote Raphael 16/pause 800/speak Raphael \"OH! @! Nice seeing you here!$8#$b#I came to visit your town in order to go down the mines.$8\"/emote farmer 8/move farmer 0 -2 1/showFrame Raphael 23/speak Raphael \"What am I doing down the mines this late?$8#$b#Oh! I'm just doing some combat training against some hostile monsters that are found in this area.$8#$b#Marlon, from this town's adventure guild, told me it is a good place to train along with helping keeping the monsters out of town.$8\"/emote farmer 32/emote Raphael 56/pause 800/speak Raphael \"Don't worry, I know what I'm doing.$8#$b#My sister and I have been undergoing combat training since we were little, along with learning magic.$8#$b#Our mother, who is a sorceress, teaches us about magic.$8#b#While our father, who's an adventurer, teaches us about weapon combat and survival practices.&8\"/emote farmer 16/pause 800/speak Raphael \"It was not such a tough childhood to be honest, Our parents were still parents, they can see if we're at our limits sometimes.$8.#$b#Yeah well... Maybe our mom is softer.. But dad...$9\"/emote Raphael 40/emote farmer 8/pause 800/speak Raphael \"Yeah well, Dad's real serious about training often times.$9#$b#He often times gets real strict towards me about getting better. He is easily disappointed too..$9#$b#And the recent events.. well..$9\"/emote farmer 8/pause 800/speak Raphael \"Nevermind @.. I'm sorry I might tell you sometime.$9#$b#But now it's getting real late and I have to get back to Umuwi, Bianka might lock me out the house and I don't have the key to my shop right now.$8\"/emote farmer 56/emote Raphael 32/pause 800/speak Raphael \"Oh you understand? Thanks @! You should get home too, the mines can become dangerous at night!$8\"/emote farmer 32/emote Raphael 32/pause 1000/globalFade/viewport -1000 -1000/message \"I wonder what Raphael is worried about?\"/end",
+			},
+		},
+		{
+			"LogName": "Town Events",
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"Entries": {
+			
+				//Raphael Clint and Marlon (8 hearts)
+				"75160026/e 75160025/f Raphael 2000/t 1000 1400/w sunny": "playful/93 83/farmer 93 89 0 Raphael 93 83 1 Marlon 95 83 3 Clint 94 82 2/skippable/pause 800/move farmer 0 -4 0/emote farmer 8/pause 800/speak Marlon \"...And such weapons are effective with monsters that get close to attack.\"/speak Raphael \"I agree, With our training earlier, I learned how to use such weapons. And thanks to Clint, I got an idea on how to forge them.\"/speak Clint \"You're a fast learner Raphael! I was surprised you were able to get the hang of it fast!#$b#It's even a tricky technique!$h\"/speak Raphael \"Oh! Thanks Clint! I had some experience on the basics so I was able to grasp the idea much faster.$h\"/emote Clint 56/emote Raphael 56/pause 800/faceDirection Marlon 2/speak Marlon \"Why hello there @! How long have you been standing there?\"/faceDirection Raphael 2/emote Raphael 16/pause 500/speak Raphael \"Oh @! Nice seeing you here!$h#$b#I just finished combat training from Marlon and some got some forging techniques from Clint.\"/emote farmer 32/pause 800/speak Clint \"Hello there @!#$b#I'm sorry but I may have to go back to work, I got a huge pile of orders to finish by the week!$h\"/faceDirection Raphael 1/faceDirection Marlon 3/speak Raphael \"Thank you for the lessons Clint! I'll visit again soon!$h\"/speak Clint \"I'm looking forward to that Raph! You're welcome to visit anytime!$h#$b#Marlon, @, I'll see you when I see you!$h\"/speak Marlon \"Clint.\"/faceDirection Clint 0/pause 1000/warp Clint -100 -100/playSound doorClose/pause 800/speak Marlon \"I would have to take my leave as well now, I got some adventurers returning from a mission today.#$b#Good training today Raphael, I'll notify your father about your good progress!\"/speak Raphael \"Oh!$u#$b#Uhmm sure Marlon! Thank you!\"/faceDirection Marlon 2/speak Marlon \"@.\"/emote farmer 32/pause 500/move Marlon 0 1 3/faceDirection Raphael 2/move Marlon -3 0 2/move Marlon 0 6 2/warp Marlon -101 -100/emote Raphael 28/pause 800/speak Raphael \"It's just the two of us now eh?\"/emote farmer 28/pause 800/emote Raphael 16/pause 800/speak Raphael \"Hey @! Seems while I'm already here in town, Why don't we hang out for the day?#$b#I could really use an unwind, I've been on hardwork since this morning!$h\"/emote farmer 32/pause 600/speak Raphael \"You're fine? That's awesome!\"/move Raphael 0 1 2/speak Raphael \"Well, Let's go!$h\"/pause 1000/globalFade/viewport -1000 -1000/warp farmer 44 73/warp Raphael 43 73/faceDirection farmer 0/faceDirection Raphael 0/viewport 44 72/pause 500/emote Raphael 28/pause 500/speak Raphael \"Aww.. It's too early. We should come back here sometime.$s#$b#I've been planning on visiting this town's saloon for a while now too.$s\"/emote farmer 28/pause 1000/viewport -1000 -1000/warp farmer 53 21/faceDirection farmer 0/warp Raphael 52 21/faceDirection Raphael 0/viewport 52 19/pause 1000/emote Raphael 40/pause 800/speak Raphael \"Hmmm... This place has traces of ancient magic...#$b#Interesting..$h\"/emote farmer 32/pause 1000/viewport -1000 -1000/message \"Raphael and I strolled around town for a while..\"/message Raphael \"He seems to be relaxed for once.\"/changeToTemporaryMap Beach false/warp farmer 42 20/faceDirection farmer 2/warp Raphael 43 20/faceDirection Raphael 2/playMusic ocean/pause 1000/viewport 42 25/move farmer 0 5 2/move Raphael 0 5 2/emote Raphael 20/pause 800/speak Raphael \"Woah! The ocean!$h#$b#It's been so long since I saw the ocean!$h#$b#Ruby Island is surrounded by the ocean, But it's been years since we were home so this is a treat for me!.\"/emote farmer 32/pause 500/speak Raphael \"*sigh* This is relaxing.$h#$b#Thanks for bringing me here @. This is a good alternative to a time in the Saloon.\"/pause 4000/faceDirection Raphael 3/pause 1000/speak Raphael \"@... Uhhh..$l\"/faceDirection farmer 1/emote farmer 8/pause 800/playMusic echos/speak Raphael \"I had a great time today.#$b#I can't remember the last time I was this relaxed.#$b#Almost all the time my mind's always worried or thinking about something.$s#$b#Stuff like safety of everyone in Umuwi, My dad, my training, plan A for if ever an invasion comes, plan B, plan C, plan D, and so on.$s#$b#I always got a lot of stuff cramped in my brain from time to time I and I'm just stressed most of the time.$s\"/pause 500/emote Raphael 60/pause 800/speak Raphael \"But today, even for just a bit, My mind was clear and I wasn't worried about anything else...#$b#Hanging around with you seems to do just that. Thanks @.$h\"/emote farmer 60/pause 800/faceDirection Raphael 1/emote Raphael 40/pause 500/speak Raphael \"*whispers to himself* Should I do it? Or uhhmm.. I don't know about these stuff!!$a\"/emote farmer 8/pause 600/faceDirection Raphael 3/emote Raphael 28/pause 800/speak Raphael \"Sorry sorry!$h#$b#I was just spacing out that's all! Haha!$h#$b#Don't mind me!$h\"/faceDirection farmer 3/emote farmer 60/pause 800/faceDirection farmer 1/pause 2000/globalFade/viewport -1000 -1000/message \"I had a fun day today with Raphael\"/message \"I'm happy he seems relaxed today!\"/pause 1000/end dialogue Raphael \"I had a great day today! Thanks @!$l\"",
+
+				//Bianka and Haley
+				"75160046/e 75160015/f Haley 500/t 1000 1400": "playful/25 22/farmer -100 -100 0 Haley 25 23 2 Bianka 26 23 2/skippable/pause 500/emote Haley 56/pause 500/emote Bianka 56/pause 500/speak Haley \"Oh the breeze is so nice in here don't you think Bee?$h\"/speak Bianka \"Sure is Hales.$h#$b#Oh how I missed this world's air!$h\"/faceDirection Haley 1/pause 500/speak Haley \"There you again about 'Other worlds'.#$b#I am still really confused to what you are talking about!$h#$b#I thought you came from Ruby Islands?\"/faceDirection Bianka 3/speak Bianka \"I did! My family is from Ruby Islands!#$b#Oh how I miss the mall there! I do sure hope I get to visit home soon.\"/jump Haley/pause 500/emote Bianka 16/pause 500/speak Haley \"There is a mall at Ruby Islands now!?$8#$b#OH MY YOBA!!$h#$b#The last visit I had was years ago!\"/emote Bianka 56/pause 500/speak Bianka \"YES! It was just newly built a few days before I left home!#$b#I was only able to shop for a day!$s\"/speak Haley \"Oh how I wish to visit Ruby Islands someday!$8\"/emote Bianka 32/pause 500/jump Bianka/speak Bianka \"If ever I get tickets back home, I'll for sure make you tag along!!$h#$b#I CAN EVEN TOUR YOU AROUND!$h\"/emote Haley 20/jump Haley/pause 500/speak Haley \"OH MY REALLY BEE!?$8#$b#But you only met me a few weeks ago!#$b#Are you sure it would be fine?$s\"/speak Bianka \"I may not know you for so long yet we instantly became BFFs!$h#$b#I would love to have you tag along!$h\"/emote Haley 20/pause 500/speak Haley \"OH MY YOU'RE THE BEST BEE!$8#$b#MY HEART IS FLUTTERING!! AAAHHH$8#$b#I LOVE YOU SO MUCH BEE!$h\"/speak Bianka \"OH MY YOBA I LOVE YOU TOO HALES!$h\"/speak Haley \"Hey Bee! I got a new package that arrived yesterday!#$b#It's suppose to contain the new set of lipstick line from Zuzu City!$h\"/speak Bianka \"OH MY! Let's go try them out on you!$h\"/speak Haley \"I want to try some on you too! I bet you'll look pretty!$h\"/speak Bianka \"Oh shut up you!$h\"/emote Haley 32/emote Bianka 32/pause 2000/end",
+
+				//Bianka and Penny
+				"75160048/e 75160015/f Penny 500/w sunny/t 1000 1400": "playful/44 78/farmer -100 -100 0 Penny 44 78 2 Bianka 38 81 1/skippable/showFrame Penny 19/pause 1000/move Bianka 4 0 1/emote Bianka 8/pause 500/faceDirection Bianka 0/emote Bianka 16/pause 500/emote Penny 8/pause 500/speak Bianka \"Is that 'Till My Heart Burns'!?#$b#The sequeal book to 'Till My Heart Aches?!'\"/speak Penny \"Oh why yes!#$b#You follow the series as well?#$b#I did not expect anyone to be such a big fan as me.$h\"/jump Bianka/emote Bianka 20/pause 500/speak Bianka \"Oh!! How I longed to buy one of those!#$b#There was no available ones to the last town I visited!$s\"/emote Penny 56/pause 500/speak Penny \"Hey uhmmm... Bianka right?#$b#Come sit beside me then!$h#$b#I am just so happy there is another in this town that appreciates these novels!$h\"/emote Bianka 32/pause 500/speak Bianka \"Really! OH MY okay!$h\"/move Bianka 0 -3 1/faceDirection Penny 3/emote Penny 56/pause 500/speak Bianka \"Hey, Your name's Penny right?#$b#Haley mentioned you to me one time!$h#$b#She says you're a good person.\"/speak Penny \"Oh! Haley is one of my childhood friends.$h#$b#We kind of grew apart as we grew up though.$s#$b#It's lovely to meet you Bianka.\"/emote Bianka 20/pause 500/speak Bianka \"Me too Penny!$h#$b#OH MY YOBA! Another TMHA fan!$h#$b#I have so much theories to who may be manipulating Ericka in the 3rd chapter! Do you have ideas there too?\"/speak Penny \"OH! Yes! I have made a concept map for that to guide me too!$h#$b#It could be relating to...\"/textAboveHead Bianka \"OH! I haven't thought of that!\"/pause 2000/textAboveHead Penny \"Yes! Even she...\"/pause 1000/end",
+
+				//Raphael Lewis and Alex
+				"75160051/e 75160015/f Alex 500/w sunny/t 1000 1200": "playful/49 67/farmer -100 -100 0 Alex 50 66 3 Lewis 48 66 1 Raphael 49 71 0/skippable/pause 1000/emote Lewis 40/pause 500/speak Lewis \"...And you remind your grandparents about the incoming festival okay Alex?\"/speak Alex \"No problem Lewis!$h#$b#I'll tell them later\"/emote Raphael 8/pause 500/faceDirection Lewis 2/emote Lewis 16/pause 500/faceDirection Alex 2/emote Alex 8/pause 500/speak Lewis \"Ah! Raphael! I'm glad I found you!#$b#Come here I need to talk to you.\"/speak Alex \"Oh? A new face in town?#$b#Hey there! Where'd ya come from?!$h#$b#Do you know how to play gridball?$h\"/move Raphael 0 -4 0/speak Raphael \"Hi there Lewis! And hello there!\"/faceDirection Lewis 1/faceDirection Alex 3/speak Lewis \"Alex, This is Raphael.#$b#He visits the town from time to time and has asked me to become a mentor to him in people management.#$b#He helps in the office and runs errands for me from time to time.#$b#Raphael. This is Alex.\"/speak Alex \"Nice to meet you Raph!$h#$b#Woah you're big! Do you work out too!$h\"/speak Raphael \"Great meeting you Alex!$h#$b#Yeah I guess I have been since I was young.#$b#Grew up in a strict home that prioritized training for fitness a lot!\"/speak Lewis \"Sorry to cut your chat boys but I need to talk to Raph for a moment.$h\"/emote Alex 56/pause 500/speak Alex \"It's fine Lewis!#$b#Hey Raph! Come by in front of my grandparent's house after you're done!$h#$b#I wanna ask you more about your training.\"/speak Raphael \"No problem Alex!$h#$b#I'm glad I met someone who is a big training fanatic like me!$h#$b#I'll see you later!\"/emote Raphael 56/emote Alex 56/emote Lewis 40/pause 500/move Alex 0 -1 1/move Alex 7 0 0 true/textAboveHead Lewis \"So I was saying...\"/pause 2000/end",
+
+				//Raphael and Clint
+				"75160049/e 75160015/f Clint 500/t 800 1200": "playful/94 81/farmer -100 -100 0 Raphael 92 82 1 Clint 95 82 2/skippable/pause 1000/emote Raphael 28/pause 500/speak Raphael \"Phew!#$b#Is this enough swords Clint?\"/faceDirection Clint 3/pause 1000/speak Clint \"Oh yes Raphael! After these swords we will start with the shields.#$b#Thank you so much for helping me today Raphael! I really appreciate it!$h\"/emote Raphael 56/pause 500/speak Raphael \"No problem Clint!$h#$b#I owe you a lot for teaching me those new smithing techniques you showed me last time!#$b#I was able to craft a stronger sword because of it!\"/emote Clint 32/pause 500/speak Clint \"Why I'm glad Raphael!$h#$b#I sure do hope I can visit your shop one day!#$b#You mention it's on another world right?\"/speak Raphael \"Yes it is, Through a portal in the ancient lake near the woods.#$b#Just tell me anytime you're free I can accompany you there.\"/speak Clint \"Thank you so much Raphael, I'm really interested in that!$h\"/faceDirection Clint 2/pause 500/emote Clint 40/pause 500/emote Raphael 8/pause 500/speak Clint \"Speaking of other worldy, I have some problems.$s\"/speak Raphael \"Oh? What's up Clint?#$b#I can try to help as much as I can.\"/faceDirection Clint 1/emote Clint 60/pause 500/speak Clint \"It's about a girl in town.$s#$b#She is what I can as well say 'Out of this world'.#$b#And I want to ask her out but I can't seem to bring myself to do that.$s\"emote Raphael 16/pause 500/speak Raphael \"Oh!#$b#I am sorry Clint but I don't do well with girls as well.$s#$b#I once had a special someone but I was afraid of asking her out too.$s#$b#That was a long time ago though.$s\"/faceDirection Clint 3/speak Clint \"Oh? I'm sorry to hear that Raphael.#$b#It seems like we both have and had the same problems!$s\"/speak Raphael \"No, That was on me.#$b#In your case Clint I am pretty sure you can bring yourself to ask her out someday!$h#$b#Don't make the same mistake as I did! It hurt a lot!$h#$b#I can be your wingman if you need me!$h\"/emote Clint 32/pause 500/speak Clint \"That sounds assuring Raphael!$h#$b#You're a good friend!#$b#There was one time though where I ALMOST asked her out!\"/emote Raphael 16/pause 500/speak Raphael \"Oh!$u#$b#What happened!$h\"/textAboveHead Clint \"So it was like...\"/pause 2000/end",
+
+			},
+		},
+		{
+			"LogName": "Beach Events",
+			"Action": "EditData",
+			"Target": "Data/Events/Beach",
+			"Entries": {
+			
+				//Bianka and Sebastian
+				"75160047/e 75160015/f Sebastian 500/w sunny/t 1600 1800": "ocean/12 36/farmer -100 -100 0 Bianka 12 39 2 Sebastian 12 32 2/skippable/pause 500/emote Sebastian 8/pause 500/move Sebastian 0 4 2/emote Bianka 16/pause 500/faceDirection Bianka 0/speak Bianka \"Huh? Who are you?#$b#Why are you staring at me?$a\"/emote Sebastian 40/pause 1000/speak Sebastian \"You're in my spot\"/emote Bianka 8/pause 500/speak Bianka \"What do you mean 'your spot'?$a#$b#Is this your bridge or something?$u\"/pause 1000/speak Sebastian \"No.#$b#But...\"/emote Bianka 16/pause 500/move Sebastian 0 2 2/move Sebastian 1 0 2/move Sebastian 0 1 2/faceDirection Bianka 1/speak Sebastian \"It's a place where I want to be alone from time to time.\"/emote Bianka 28/pause 500/speak Bianka \"OH!$u#$b#This is 'YOUR' spot.$u#$b#I'm sorry I didn't know.$u#$b#I'm just new to the town.$s#$b#I will leave now and leave you be.\"/faceDirection Bianka 0/move Bianka 0 -1 0/speak Sebastian \"Hey wait.\"/emote Bianka 8/pause 500/faceDirection Bianka 2/speak Sebastian \"I didn't tell you to leave did I?#$b#You seemed you needed your own alone time too.#$b#Come sit by me if you want.\"/emote Bianka 40/pause 500/speak Bianka \"Yeah.. I was just thinking about my problems, Especially towards my Mom...$s\"/speak Sebastian \"You don't have to tell me your story.#$b#I'm a stranger to you and you are to me.#$b#You can still have an alone time here with me since I'm a stranger right?$h\"/emote Bianka 32/pause 500/speak Bianka \"Yeah...$h#$b#Thank you.#$b#I shall sit beside you there okay?#$b#Scoot over will you?$h\"/move Bianka 0 1 2/pause 2000/end",
+			},
+		},
+		{
+			"LogName": "Mountain Events",
+			"Action": "EditData",
+			"Target": "Data/Events/Mountain",
+			"Entries": {
+				
+				//Raphael Maru and Linus
+				"75160050/e 75160015/f Maru 500/t 1000 1400/w sunny": "playful/13 7/farmer -100 -100 0 Raphael 14 7 1 Maru 9 7 1 Linus 17 7 3/skippable/pause 1000/emote Linus 40/pause 500/speak Linus \"and we shall wait...\"/emote Maru 8/pause 500/speak Maru \"Uhhmm What are you guys doing?\"/emote Raphael 16/faceDirection Raphael 3/pause 500/speak Raphael \"Oh hi! Linus was teaching me more about sap and bark harvest!#$b#I don't believe I have met you before.#$b#My name's Raphael. I came to visit the town.\"/emote Maru 32/pause 500/move Maru 3 0 1/speak Maru \"Hi! Nice to meet you Raphael!$h#$b#My name's Maru!#$b#I was going home when I saw two men staring at a tree for prolonged period of time and I was curious\"/speak Linus \"Raph here wanted to learn more about botany.#$b#I happened to know a thing or two about this tree here and he wanted me to show him.\"/speak Raphael \"It is some interesting stuff!$h\"/speak Maru \"Oh!$h#$b#Can I join in as well!#$b#My dad and I study local flora and fauna here in the valley sometimes!#$b#He might enjoy new field research output!$h\"/speak Raphael \"You're more than welcome Maru!#$b#Come join us!$h\"/emote Maru 32/faceDirection Raphael 1/move Maru 0 1 1/move Maru 3 0 0/pause 1000/textAboveHead Linus \"And watch as I remove this piece here...\"/pause 2000/end",
+			}
+		},
+		{
+			"LogName": "Saloon Events",
+			"Action": "EditData",
+			"Target": "Data/Events/Saloon",
+			"Entries": {
+				
+				//HeartEvent 5 = 7 Hearts: Lunna Saloon
+				"75160005/e 75160004/f Lunna 1750/t 2000 2200/d Fri Sun/w sunny": "Saloon1/14 20/farmer 14 24 0 Lunna 38 18 0 Gus 10 18 2 Emily 14 17 0 Leah 2 20 1 Shane 20 17 2 Lewis 10 23 3 Marnie 9 23 1/skippable/pause 1000/move farmer 0 -4 0 true/textAboveHead Gus \"Hey! Welcome!\"/pause 800/speak Gus \"Well goodevening @!$h#$b#Nothing beats a drink after a hard day of work doesn't it?$h\"/pause 200/emote farmer 32/pause 500/textAboveHead Gus \"Here have a drink\"/pause 3500/warp Lunna 14 24/playSound doorClose/faceDirection Lunna 0/pause 500/move Lunna 0 -2 0/pause 500/emote Lunna 32/pause 800/speak Lunna \"..Oh! Hey @!$h#$b#It is really wonderful seeing you here.$u\"/pause 100/faceDirection farmer 2/pause 200/emote farmer 32/pause 800/speak Lunna \"Come sit by me after I order a drink!$0\"/globalFade/viewport -2000 -2000/warp farmer 18 22/warp Lunna 19 23/faceDirection Lunna 3/viewport 14 20/pause 500/emote Lunna 32/pause 800/emote farmer 32/pause 800/speak Lunna \"MMMMM!$9#$b#Some salad along with beer really soothes both my thirst and mood!$h\"/pause 500/emote Lunna 40/pause 1000/move Lunna 0 -1 3/emote farmer 8/pause 200/faceDirection farmer 1/question null \"Lunna?#You good?#Hey, Don't tell me you're drunk!#Oh? Why so close?\"/pause 500/shake Lunna 500/pause 200/speak Lunna \"Hey uhmmm @....$u#$b#May I ask if..$u\"/showFrame Lunna 35/pause 100/positionOffset Lunna -20 0/pause 100/positionOffset Lunna -20 0/pause 100/emote farmer 16/pause 800/globalFade/viewport -2000 -2000/stopMusic/message \"I should get her home now..\"/playSound doorClose/pause 200/speak Lunna \"..It's fine @.. I can atleast walk..$u\"/changeToTemporaryMap Forest/playMusic spring_night_ambient/viewport -2000 -2000/warp farmer 52 14/warp Lunna 53 14/faceDirection farmer 3/faceDirection Lunna 3/viewport 38 14/pause 200/move farmer -16 0 1/move Lunna -13 0 3/pause 500/emote Lunna 40/pause 200/emote farmer 8/pause 200/shake Lunna 1000/pause 200/speak Lunna \"@...$s\"/pause 200/speak Lunna \"..May I tell you something?..$s\"/pause 500/shake Lunna 500/emote farmer 8/pause 1000/emote Lunna 40/pause 1000/speak Lunna \"It..$s#$b#..It is about me.. And my past...$12\"/stopMusic/pause 1000/speak Lunna \"I...$s#$b#I......$s#$b#Im..Im...........$12\"/pause 200/shake Lunna 1000/emote farmer 28/pause 500/speak Lunna \"..I am not ready..$s\"/pause 500/faceDirection Lunna 1/pause 500/speak Lunna \"It appears that I merely thought I was ready to reveal my story to someone close...$s\"/pause 500/faceDirection Lunna 3/shake Lunna 500/speak Lunna \"I am sorry @..$11#$b#I truly am really really REALLY sorry..$11\"/showFrame Lunna 23/pause 200/move farmer 1 0 1/shake Lunna 500/speak Lunna \"I really want to tell you everything..$11#$b#But..but I do not know if everything will be alright.$11\"/pause 200/move farmer 1 0 1/shake Lunna 500/speak Lunna \"There is so much I could lose if I tell you$11#$b#I....I...$11\"/pause 200/move farmer 1 0 1/shake Lunna 500/speak Lunna \"Im scared @...$11#$b#Im so soooo scared...$11#$b#Especially having spent much time in this town.. I.. I....$11\"/pause 200/positionOffset farmer 30 20/animate farmer false true 100 101/playMusic desolate/pause 5000/speak Lunna \"....$11\"/pause 100/speak Lunna \"$q 751606 null#Lunna...#$r 751606 20 event_5lunna1#I'm not rushing you to tell me anything Lunna...#$r 751606 20 event_5lunna2#...(Hold her tight)\"/pause 500/speak Lunna \"$q 751607 null#.....#$r 751607 20 event_5lunna3#I may not know much about your past. But I believe you are a good person...#$r 751607 20 event_5lunna4#It's okay Lunna... I won't go anywhere.\"/pause 200/message \"Lunna holds tighter on to you\"/pause 2000/stopAnimation farmer/warp farmer 39 14/move farmer -1 0 1/faceDirection Lunna 0/pause 100/faceDirection Lunna 3/emote Lunna 60/pause 800/speak Lunna \"You are such a strange person @..$10\"/pause 100/move Lunna -1 0 3/pause 1000/speak Lunna \"Thank you for being here...$l\"/pause 1000/fade/pause 100/message \"Lunna seems much better now...\"/end",	
+				
+				//Raphael 10 Hearts
+				"75160030/f Raphael 2500/t 2000 2400/w sunny": "sweet/14 20/farmer 14 23 0 Raphael 14 20 0 Gus 9 18 3 Pam 7 18 1 Shane 21 17 2 Emily 17 17 0/pause 1000/faceDirection Raphael 2/emote Raphael 16/pause 800/speak Raphael \"Oh hey @! I was kinda waiting for you.$l.#$b#Come let's get some drinks shall we love?$h\"/emote farmer 32/move farmer 0 -2 0/faceDirection Raphael 0/textAboveHead Raphael \"We would like to order...\"/pause 800/globalFade/viewport -1000 -1000/pause 1000/speak Raphael \"Hey @? You kind of seem drunk!$u#$b#Come here, I'll carry you to your farm okay?$h#$b#Oh you..$l\"/changeToTemporaryMap BusStop false/warp Shane -100 -100/warp Gus -101 100/warp Emily -102 -100/warp Pam -103 -100/warp farmer 29 23/warp Raphael 28 30/faceDirection Raphael 3/faceDirection farmer 3/viewport 25 23/move Raphael -2 0 1/move farmer -2 0 3/emote farmer 60/pause 800/emote Raphael 32/pause 800/speak Raphael \"Hey @... Are you doing okay?$s\"/emote farmer 28/pause 800/speak Raphael \"Hey, I'm always here for you okay @? I'll take care of you don't worry.$h#$b#I'll always be here for you, like how you were for me.$l\"/emote farmer 20/pause 800/emote Raphael 60/pause 800/faceDirection Raphael 3/speak Raphael \"@... I.. I love you...$l\"/emote farmer 16/pause 1600/faceDirection Raphael 1/pause 1000/showFrame Raphael 42/positionOffset Raphael 5 0/positionOffset farmer -5 0/animate farmer true true 100 101/pause 3000/end",
+				
+				//Lunna Gus and Emily
+				"75160044/t 1600 1800/f Gus 500": "playful/12 20/farmer -100 -100 0 Lunna 12 20 0 Gus 10 18 2 Emily 14 17 0/pause 500/move Emily 0 1 3/move Emily -2 0 2/speak Emily \"Lunna! You're here early again!$h#$b#Ever since you came here you quickly became one of our best customers here!$h#$b#You sure do have such an appetite huh?\"/emote Lunna 20/pause 500/speak Lunna \"Emily! Oh how I adore your presence!$h#$b#It is one of the reasons I come here apart from the food and drinks!$h#$b#Mister Gus does sure make delicious meals and thus I keep coming back!$u\"/faceDirection Gus 1/emote Gus 56/pause 500/speak Gus \"To have such a pretty lady compliment my cooking is such a blessing to witness!$h#$b#You're always welcome here Lunna!#$b#Speaking of food. I have a new dish for you to test!#$b#Would that be fine?\"/emote Lunna 20/pause 500/speak Lunna \"OH! Mister Gus that would be an honor!$h\"/emote Emily 32/pause 500/speak Emily \"My my I also have a new drink I want you to test Lunna!$h#$b#It may be strong but after seeing how much alcohol you can actually take, this might be still light for you.\"/emote Lunna 56/pause 500/speak Lunna \"Oh my! This is such a lucky day!$h\"/pause 1000/end",
+			},
+		},
+		{
+			"LogName": "Farmhouse Events",
+			"Action": "EditData",
+			"Target": "Data/Events/FarmHouse",
+			"Entries": {
+				
+				//Raphael 14 Heart Event (formulation of speed pill)
+				"75160036/L/f Raphael 3500/O Raphael/t 1000 1800/p Raphael": "sweet/-1000 -1000/farmer 11 14 3 Raphael 8 14 3/makeInvisible 5 5 5 1/makeInvisible 8 14 5 1/viewport -100 -100 true unfreeze/pause 1000/textAboveHead Raphael \"Hmmm.. It just might work..\"/emote farmer 8/pause 500/move farmer -2 0 3/emote farmer 56/pause 500/emote Raphael 16/jump Raphael/pause 200/faceDirection Raphael 1/pause 200/speak Raphael \"Oh hun! You startled me!$u\"/emote farmer 8/pause 500/speak Raphael \"Oh? What was I doing?#$b#I was just trying to complete a formula for a magically enhanced item.#$b#I'm having troubles figuring out what can serve as a key ingredient for it to effectively and safely work.$s#$b#Any ideas hun?\"/emote farmer 40/pause 500/question null \"What can be an ingredient?#How about an Umuwi Rambutan?#How about some Solar Essence?\"/pause 200/emote Raphael 40/pause 2000/emote Raphael 32/pause 500/speak Raphael \"You know what hun? I think that might just work!$h\"/emote farmer 32/pause 500/speak Raphael \"I'll start the concoction when I get a chance to visit my shop at Umuwi.#$b#Meet me there tomorrow okay hun!$h#$b#You can go there early if you want and wait for me!$h\"/emote farmer 20/pause 500/showFrame Raphael 42/positionOffset Raphael 5 0/positionOffset farmer -5 0/animate farmer true true 100 101/pause 2000/globalFade/end dialogue Raphael \"Meet me at my shop tomorrow okay hun?\"",
+			
+				//Lunna 14 Heart Event (Picnic at Umuwi)
+				"75160038/L/f Lunna 3500/O Lunna/t 1000 1800/p Lunna": "sweet/-1000 -1000/farmer 11 14 3 Lunna 8 14 0/makeInvisible 5 5 5 1/makeInvisible 8 14 5 1/viewport -100 -100 true unfreeze/pause 1000/emote Lunna 56/pause 500/move farmer -2 0 3/emote Lunna 20/faceDirection Lunna 1/pause 500/speak Lunna \"Love! I was just doing the dishes here.#$b#I had an extra meal after you left *giggle*.$h#$b#I am such a heavy eater yet I do not grow fat as much!$u#$b#I hope that does not bother you too much @ love.$s\"/emote farmer 32/pause 500/emote Lunna 20/pause 500/speak Lunna \"It does not?$h#$b#Oh @! You love me so much!$l#$b#And I love you too...$15\"/showFrame Lunna 28/positionOffset Lunna 10 0/positionOffset farmer -10 0/animate farmer true true 100 101/emote farmer 20/pause 2000/stopAnimation farmer/warp farmer 9 14/faceDirection farmer 3/warp Lunna 8 14/faceDirection Lunna 1/emote Lunna 16/pause 500/emote farmer 8/pause 500/speak Lunna \"Love! I have an idea!$h#$b#I was just thinking, may we have a date at Umuwi? There is this thing that Emily told me about.#$b#It is called a piknik or peaknic or picnic?$u#$b#I am not sure to how it is called, But it involves food and a nice view!$h#$b#We can spend alone time together as well, somewhere secluded.$l#$b#I also miss the air of Umuwi teehee < $u\"/emote farmer 32/pause 500/jump Lunna/emote Lunna 32/pause 500/speak Lunna \"Really!? It is fine with you!$h#$b#Yehey!$h I am so happy!\"/move Lunna -1 0 3/speak Lunna \"I will have to prepare and cook lots of food then!$h#$b#I shall try new recipies as well!$8#$b#Maybe I shall ask Emily for recipes!$u\"/faceDirection Lunna 1/emote Lunna 56/pause 500/speak Lunna \"I cannot wait my love!$h#$b#I guess we shall meet at Umuwi tomorrow then?$u#$b#I shall see you there!$h\"/emote farmer 56/pause 1000/end dialogue Lunna \"I cannot wait! I shall see you at Umuwi tomorrow morning my love. I have lots to prepare!$h\"",
+
+				//Bianka 14 Heart Event (Date at  PrincessVille)
+				"75160040/L/f Bianka 3500/O Bianka/t 1800 2400/p Bianka": "sweet/-1000 -1000/farmer 11 14 3 Bianka 8 14 0/makeInvisible 5 5 5 1/makeInvisible 8 14 5 1/viewport -100 -100 true unfreeze/pause 1000/emote Bianka 20/jump Bianka/pause 500/jump Bianka/textAboveHead Bianka \"OH MY YOBA!!\"/emote farmer 8/pause 500/move farmer -2 0 3/emote Bianka 16/pause 500/faceDirection Bianka 1/speak Bianka \"BABY!! @!!$h#$b#Mom and Dad just sent me free tickets to the cinema showing premiere of 'Till My Heart aches' the moveie!!!$h#$b#This was based on a novel I used to read! It's one of my favorites!!$h#$b#Mom and Dad said they happened to be at PrincessVille when they saw the movie theatre there was selling tickets!#$b#They had already watched the movie and bought extra ones for us!$h\"/emote farmer 32/emote Bianka 56/pause 500/speak Bianka \"Oh baby! I AM SO HAPPY OMY OMY OMY!!!$h#$b#Let's go see the movie tomorrow!#$b#I have the bus tickets to PrincessVille ready! < $h\"/emote farmer 20/pause 500/speak Bianka \"Meet me at the BusStop tomorrow morning okay?#$b#It's about time we have a date outside the valley as a married couple.$l#$b#Let's arrive there hours before the movie starts so we can see the town a little more.#$b#I remember that there's a shopping mall there! OH MY YOBA!$h#$b#BABY I'M SO HAPPY!!$h\"/showFrame Bianka 28/positionOffset Bianka 5 0/positionOffset farmer -5 0/animate farmer true true 100 101/emote farmer 16/emote Bianka 20/pause 500/speak Bianka \"I was just so happy I just kissed you ehie <$l\"/emote farmer 20/pause 2000/end dialogue Bianka \"Let's have a little fun tonight baby? I'm just way too excited for tomorrow I don't think I won't be able to fall asleep later!$l\"",
+			},
+		},
+		{
+			"LogName": "BusStop Events",
+			"Action": "EditData",
+			"Target": "Data/Events/BusStop",
+			"Entries": {
+			
+				//Bianka 14 Heart Event part 2
+				"75160041/e 75160040/t 600 1000/w sunny": "playful/13 12/farmer 13 14 0 Bianka 13 12 2/pause 1000/emote Bianka 56/jump Bianka/pause 500/speak Bianka \"@! Baby! Let's go! Hurry up!$h#$b#We have to get there early!$h\"/emote farmer 28/pause 500/faceDirection Bianka 0/pause 1000/globalFade/viewport -1000 -1000/changeToTemporaryMap BiankaDate false/warp farmer -100 -100/warp Bianka 43 46/faceDirection Bianka 2/pause 1000/viewport 40 46/move Bianka -4 0 1/warp farmer 43 46/faceDirection farmer 3/move farmer -3 0 3/emote Bianka 56/emote farmer 32/pause 500/speak Bianka \"That was a quick trip wasn't baby?\"/faceDirection Bianka 0/speak Bianka \"Ah! PrincessVille!$h#$b#It got bigger as a town compared to the last visit we had here with my family!#$b#Raph and I were little kids then!$h\"/emote farmer 32/pause 500/faceDirection Bianka 1/speak Bianka \"Let's go baby! Let's have fun!$h#$b#Hold my hand as we go on with our date darling.$l\"/emote farmer 56/move Bianka 0 -7 0 true/move farmer 0 -7 0 true/pause 4000/globalFade/viewport -1000 -1000/warp Bianka 29 26/faceDirection Bianka 3/warp farmer 30 26/faceDirection farmer 3/pause 1000/viewport 29 26/pause 1000/emote Bianka 16/jump Bianka/faceDirection Bianka 1/textAboveHead Bianka \"That necklace looks pretty baby! <\"/pause 3000/emote farmer 32/pause 1000/globalFade/viewport -1000 -1000/warp Bianka -100 -100/warp farmer -100 -101/pause 1000/viewport 46 23/pause 2000/warp Bianka 49 22/faceDirection Bianka 2/emote Bianka 20/pause 500/textAboveHead Bianka \"Those were some cute sleepwear right!?\"/move Bianka 0 2 0/jump Bianka/warp farmer 49 22/faceDirection farmer 2/pause 2000/emote farmer 56/pause 2000/globalFade/viewport -1000 -1000/warp Bianka 41 29/warp farmer 40 29/faceDirection Bianka 0/faceDirection farmer 0/pause 1000/viewport 42 29/pause 1000/textAboveHead Bianka \"I'd like the pistacio ice cream please\"/pause 2000/faceDirection farmer 1/pause 1000/emote farmer 20/pause 2000/globalFade/viewport -1000 -1000/warp farmer 30 25/faceDirection farmer 0/warp Bianka 30 24/faceDirection Bianka 0/pause 1000/viewport 30 25/pause 1000/move Bianka 0 -2 2/emote Bianka 16/jump Bianka/pause 500/emote farmer 56/pause 500/move farmer 0 -1 0/pause 500/globalFade/viewport -1000 -1000/warp Bianka 86 34/faceDirection Bianka 0/warp farmer 85 34/faceDirection farmer 0/pause 1000/stopMusic/viewport 86 33/pause 1000/emote farmer 56/pause 2000/faceDirection Bianka 3/pause 1000/emote Bianka 20/pause 500/showFrame Bianka 29/positionOffset Bianka -15 0/pause 1000/emote farmer 20/pause 3000/globalFade/viewport -1000 -1000/message \"That was a fun day at PrincessVille\"/message \"The movie was a action love story, it was quiete fun\"/message \"We then went back to the valley after the movie.\"/changeToTemporaryMap BusStop/warp farmer 14 14/faceDirection farmer 3/warp Bianka 13 14/faceDirection Bianka 1/pause 2000/viewport 14 14/pause 500/jump Bianka/emote Bianka 20/playMusic sweet/pause 500/speak Bianka \"Today was such fun day baby...$l#$b#I don't know why but I think this reminded me like the day we were touring around Umuwi.#$b#As well as the time you toured me around town.$l#$b#Everyday has been really amazing since marrying you.$l#$b#And I have a little surprise for you!$h#$b#I bought this from PrincessVille! I forgot to give it to you earlier at the bus because we both fell asleep on the ride home.$h#$b#But here baby, I hope this helps you in your adventures.$l\"/addCraftingRecipe EmbraceFruit/pause 200/message \"You have learned how to craft an EmbraceFruit!\"/emote farmer 20/pause 500/speak Bianka \"I love you soo soo much @..$l\"/showFrame Bianka 28/positionOffset Bianka 5 0/positionOffset farmer -5 0/animate farmer true true 100 101/pause 2000/globalFade/viewport -1000 -1000/message \"Bianka seems to be really happy\"/message \"My wife is so lovely\"/pause 500/end dialogue Bianka \"I wonder what town or city we can visit soon?$h\"",
+			
+			},
+		},
+		{
+			"LogName": "Farm Events",
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"Entries": {
+				
+				//Wizard finds something special about farmer Part1
+				"75160008/e 75160007/q 751611/f Lunna 2250/x WizardLunnaLake": "null",	
+
+				//Wizard finds something special about farmer (Non romance with Lunna)
+				"75160012/q 751612/f Wizard 1500/x WizardLunnaLakeAlt": "null",
+				
+				//Bianka mails farmer (8 Hearts Bianka and Dating)
+				"75160020/e 75160019/D Bianka/x BiankaMail": "null",
+
+				//Dianna Visits to ask for help in farming
+				"75160032/f Dianna 1000/t 600 1000/w sunny/c 1": "playful/64 15/farmer 64 16 2 Dianna 64 18 0/skippable/pause 1000/emote farmer 16/pause 200/emote Dianna 56/jump Dianna/pause 700/jump Dianna/pause 200/speak Dianna \"HEYA!!!!!!!$h#$b#SURPRISE @!!!\"/pause 200/question null \"Dianna?!#What are you doing here?#How did you get here?\"/emote Dianna 32/pause 500/speak Dianna \"I got bored at Umuwi.#$b#Then I had an idea of jumping into the portal and visit Lunna.#$b#After that I wondered about your farm and wanted to see.$h#$b#And well here I am!$h\"/faceDirection Dianna 2/emote Dianna 20/jump Dianna/pause 500/speak Dianna \"Your farm looks so amazing @!!! AAAAAAAAAAAAAH$h#$b#I want a farm like this someday too!!\"/faceDirection Dianna 0/speak Dianna \"OH! Speaking of which. I actually also came by here to ask for some farming tips and advices. Especially with crops.#$b#Lunna said you might have some farming wisdom to spare. Hehe.#$b#In any case, Do you have any tips on how to grow better crops?$h\"/emote farmer 40/pause 500/question null \"Any tips?#Use fertilizers on your crops.#Talk to your crops everyday.#Give your crops gifts.\"/emote Dianna 8/pause 500/speak Dianna \"Wait? It's that simple?#$b#Oh why THANK YOU @!! I shall use thy learned techniques when I get back home!$h#$b#By the way, it is such a long walk from the portal to your house like SHEESH.\"/emote farmer 56/pause 500/faceDirection Dianna 2/pause 500/emote Dianna 16/pause 500/faceDirection Dianna 0/speak Dianna \"Oh wait! I got something for you as well...#$b#Here take this. [ 347 ] $h\"/pause 200/message \"You recieved a rare seed!\"/speak Dianna \"I know that these things are rare here, But I got extra seeds it would be a waste to throw it away.#$b#So here! I hope you use it well!$h#$b#Imma go now! Thank you @!!! SEE YAA!$h\"/pause 500/globalFade/end",
+
+				//Dianna's 8 Heart Greenhouse Unlock
+				"75160035/f Dianna 2000/t 600 1000/w sunny": "playful/64 15/farmer 64 16 2 Dianna 64 18 2/skippable/pause 1000/emote farmer 16/pause 500/emote Dianna 16/jump Dianna/faceDirection Dianna 0/pause 200/speak Dianna \"HIYA @! IZZA ME AGAIN!$h#$b#I was just admiring your farm!#$b#And speaking of farming...$u#$b#I have something important to ask of you!$h\"/emote farmer 8/pause 500/speak Dianna \"I need you to come with me to Umuwi.$u#$b#Well let's go! CHOP CHOP!$h\"/emote farmer 8/pause 500/speak Dianna \"You'll see @! COME ON LEZ GO!$h\"/pause 1000/globalFade/viewport -1000 -1000/changeToTemporaryMap Umuwi false/warp farmer 68 35/faceDirection farmer 0/warp Dianna 68 33/faceDirection Dianna 1/pause 1000/viewport 69 33/pause 500/emote Dianna 56/move Dianna 1 0 0/pause 500/jump Dianna/pause 500/speak Dianna \"OH! I forgot to move these crates of trash!#$b#Silly me!$h\"/jump Dianna/faceDirection Dianna 2/emote Dianna 32/pause 500/speak Dianna \"Hey @! Can ya help lil me in moving this?#$b#I need to open the door behind it!#$b#It's a surprise my dude!$h\"/emote farmer 32/pause 500/faceDirection Dianna 0/move farmer 0 -2 1/message \"You and Dianna move the heavy crate!\"/pause 200/globalFade/viewport -1000 -1000/speak Dianna \"There! Now to open the door here...\"/playSound doorClose/pause 1000/changeToTemporaryMap DiannaGreenhouse false/warp farmer 18 42/faceDirection farmer 0/warp Dianna 19 42/faceDirection Dianna 0/viewport 18 36/pause 500/move Dianna 0 -3 0/emote Dianna 56/move farmer 0 -1 0/emote farmer 16/pause 500/jump Dianna/faceDirection Dianna 2/emote Dianna 32/pause 500/speak Dianna \"SURPRISE!!!$h\"/emote farmer 8/pause 500/speak Dianna \"I cleaned up this old cave that Lunna and I used for farming before.#$b#I wasn't able to maintain it because I couldn't handle it on my own and I got lazy HAHA!$u#$b#Well It seems such a waste to let it be, so I have been cleaning it up for some time.#$b#Then I thought of giving it to you for you have been such a good friend to me and my sister.#$b#I also want to thank you for not letting my sister feel alone in your world!$h#$b#Really @! Thank you! I sure do hope this place suites ya!$u\"/emote farmer 20/pause 200/emote Dianna 32/pause 500/speak Dianna \"Don't go crying there now! You're being like Lunna! HAHA$h\"/faceDirection Dianna 0/pause 1000/animate Dianna false true 200 20 20 20 21 21 21 22 22 22/pause 2000/speak Dianna \"Ah! Feel that!$h#$b#There's some kind of magic in this cave!$u#$b#You can grow any crop here in any season!#$b#You can also dip into the water to replenish energy!$h\"/emote farmer 56/pause 500/stopAnimation Dianna 0/emote Dianna 32/pause 500/speak Dianna \"I sure do hope you like this little surprise @.#$b#For reals, You have been such a great friend! And I hope this shows my gratitude and appreciation!.$u#$b#I sure do hope you visit here often again when you can!$h\"/emote farmer 32/pause 1000/globalFade/viewport -1000 -1000/message \"A cave where I can grow any crop in any season!\"/message \"I am really thankful to Dianna.\"/end dialogue Dianna \"WAZZUP HOMIE!?$u\"",
+			},
+		},
+						{
+							"LogName": "Mail",
+							"Action": "EditData",
+							"Target": "Data/mail",
+							"Entries": {
+								"WizardLunnaLake": "Good day @,^^I require your assistance for a certain spell. This is regarding the magic that turned Lunna human. Come by my tower in the earliest of your convenience^^-M. Rasmodius, Wizard",
+								"WizardLunnaLakeAlt": "Good day @,^^I require your assistance for a certain spell. This is regarding the ancient magic I mentioned about Lunna. Come by my tower in the earliest of your convenience^^-M. Rasmodius, Wizard",
+								"BiankaMail": "Hey @,^^Uhmm can you meet me at the Falls Cave at Umuwi later tonight? 8PM sharp GOT THAT! I want to show you something.^^< Bianks",
+							},
+						},
+
+		{
+			"LogName": "WizardHouse Events",
+			"Action": "EditData",
+			"Target": "Data/Events/WizardHouse",
+			"Entries": {
+			
+				//Question for Non Romance with Lunna for Passage to Umuwi
+				"75160011/f Wizard 1000/t 600 2200": "WizardSong/6 16/farmer 8 23 0 Wizard 10 15 2/playSound doorClose/showFrame Wizard 16/textAboveHead Wizard \"Suppose this is the way..\"/pause 2000/faceDirection Wizard 2/emote Wizard 16/pause 800/move Wizard -2 0 2/pause 500/speak Wizard \"Oh hello there @.#$b#I was in the middle of researching some ancient magic\"/pause 500/faceDirection Wizard 1/emote Wizard 40/pause 1000/move farmer 0 -6 0/pause 500/emote farmer 8/pause 1000/faceDirection Wizard 2/speak Wizard \"My apologies @. I seem to be deeply lost in my own thoughts.#$b#I have a certain magical problem regarding ancient magic on Lunna\"/emote farmer 8/pause 1000/speak Wizard \"What about Lunna you ask?#$b#For now it is none of your concern.\"/pause 500/emote farmer 60/pause 1000/emote Wizard 8/pause 1000/speak Wizard \"May I ask, Do you plan to romantically pursue Lunna?\"/pause 200/speak Wizard \"$q 751612 null#Do you have romantic intentions towards Lunna?#$r 751611 0 romanceLunna_Yes#Yes I do.#$r 751612 0 romanceLunna_No#No I don't\"/pause 200/faceDirection Wizard 1/pause 2000/speak Wizard \"Well, I am sorry @, But I would need to kindly ask you to leave for now.#$b#I have some studies to attend to\"/emote farmer 32/pause 1000/end warpOut",
+				
+				//Wizard finds something special about farmer Part2
+				"75160009/e 75160008/t 600 2200": "WizardSong/6 16/farmer 8 23 0 Wizard 10 15 2/skippable/playSound doorClose/showFrame Wizard 16/textAboveHead Wizard \"..and we would have..\"/pause 2000/faceDirection Wizard 2/emote Wizard 16/pause 1000/move Wizard -2 0 2/pause 500/speak Wizard \"Ah! @! I've been expecting you!#$b#Come close, boy^Come close, girl\"/move farmer 0 -7 0/pause 500/emote farmer 8/pause 1000/speak Wizard \"I have found an amazing discovery!#$b#Regarding the magic Lunna is under, I have discovered that it is reacting a lot more calmer whenever you are with her.\"/emote farmer 16/pause 1000/speak Wizard \"It seems that you, One who can see and speak to Junimos and who is also closely linked to Lunna's emotions, have a unique effect on the ancient magic that she is under\"/faceDirection Wizard 1/pause 1000/textAboveHead Wizard \"Hmmmmm What if...\"/pause 1000/faceDirection Wizard 2/speak Wizard \"Maybe I should bring you to that place\"/emote farmer 8/pause 1000/speak Wizard \"The place where I found Lunna.#$b#Let us go @. Let us not waste any more time.#$b#This is truly intriguing\"/pause 1000/globalFade/viewport -2000 -2000/changeToTemporaryMap LunnaLake false/warp farmer 13 18/faceDirection farmer 0/warp Wizard 15 18/faceDirection Wizard 0/viewport -2000 -2000/stopMusic/playMusic woodsTheme/viewport 14 12/pause 500/move farmer 0 -1 0/move Wizard 0 -1 0/pause 1000/speak Wizard \"Here we are.#$b#I did not have you invite Lunna yet. We can't have her hopes too high up now can we.\"/emote farmer 40/pause 1000/speak Wizard \"Now, @.#$b#I need you to stand right here in front of the lake.#$b#And I shall do an incantation that may produce some effect.\"/move farmer 1 0 0/move Wizard 1 0 0/move Wizard 0 -2 2/emote Wizard 40/pause 1000/speak Wizard \"Brace yourself @. You might feel a little strange\"/emote farmer 28/pause 1500/showFrame Wizard 16/textAboveHead Wizard \"Alright then....\"/pause 2000/playSound wand/glow 194 255 4/pause 2000/playSound wand/glow 194 255 4/pause 2000/playSound wand/glow 194 255 4/pause 1000/faceDirection Wizard 3/emote farmer 16/emote Wizard 16/pause 800/glow 194 255 4 true/removeTile 15 15 Buildings/removeTile 14 16 Buildings/removeTile 13 15 Buildings/pause 2000/stopGlowing/pause 2000/textAboveHead Wizard \"Fascinating..\"/emote farmer 40/pause 1000/speak Wizard \"It was a success!$h#$b#It appears that we have opened a rift on the pond's magic barrier.#$b#We have opened a portal to somewhere!\"/emote farmer 16/pause 800/faceDirection Wizard 2/speak Wizard \"I shall go ahead @.#$b#I shall call unto you if it is safe to enter\"/pause 500/faceDirection Wizard 0/warp Wizard -2000 -2000/playSound wand/screenFlash .8/pause 1000/emote farmer 40/pause 3000/jump farmer/speak Wizard \"@! Come and follow! It is a safe passage!\"/pause 1000/move farmer 0 1 0/emote farmer 16/move farmer 0 -1 0/glow 255 255 255 true/playSound wand/viewport -1000 -1000/stopGlowing/message \"Woah!\"/changeToTemporaryMap Umuwi false/warp farmer 93 28/faceDirection farmer 2/warp Wizard 92 31/faceDirection Wizard 3/stopMusic/playMusic SettlingIn/viewport -1000 -1000/viewport 92 31/pause 500/textAboveHead Wizard \"This is marvelous!\"/move Wizard -1 0 3/emote farmer 16/move farmer 0 3 0/pause 1000/faceDirection Wizard 1/emote farmer 8/pause 500/faceDirection farmer 1/pause 1000/faceDirection farmer 0/pause 1000/faceDirection farmer 3/jump farmer/pause 1000/speak Wizard \"We have made such an amazing discovery @! This is marvelous!\"/faceDirection Wizard 3/emote Wizard 40/pause 1000/speak Wizard \"If I have the time, I could explore this place.#$b#Unfortunately I do not have such luxury.\"/faceDirection Wizard 1/pause 500/speak Wizard \"You see I have to maintain the magic barrier that protects Stardew Valley.#$b#Fortunately for you @, You may explore these areas.#$b#Just be cautious for it is a new world.\"/emote farmer 32/pause 1000/speak Wizard \"I think it is time for us to go back now.#$b#You better tell Lunna the good news then, boy^You better tell Lunna the good news then, girl#$b#I am sure she would be very pleased\"/emote farmer 32/pause 1000/fade/viewport -1000 -1000/pause 1000/message \"A whole new world!\"/message \"This is exciting!\"/end",
+				
+				//Wizard and farmer go to Umuwi (Non romance with Lunna)
+				"75160013/e 75160012/t 600 2200": "WizardSong/6 16/farmer 8 23 0 Wizard 10 15 2/skippable/playSound doorClose/showFrame Wizard 16/textAboveHead Wizard \"..and we would have..\"/pause 2000/faceDirection Wizard 2/emote Wizard 16/pause 1000/move Wizard -2 0 2/pause 500/speak Wizard \"Ah! @! I've been expecting you!#$b#Come close, boy^Come close, girl\"/move farmer 0 -7 0/pause 500/emote farmer 8/pause 1000/speak Wizard \"I have found an amazing discovery!#$b#Regarding the magic Lunna is under, I have discovered that it has relation to Junimo magic!\"/emote farmer 16/pause 1000/speak Wizard \"It seems that you, One who can see and speak to Junimos and is a medium for them in this world, should have a unique effect on the ancient magic that she is under\"/faceDirection Wizard 1/pause 1000/textAboveHead Wizard \"Hmmmmm What if...\"/pause 1000/faceDirection Wizard 2/speak Wizard \"Maybe I should bring you to that place\"/emote farmer 8/pause 1000/speak Wizard \"The place where I found Lunna.#$b#Let us go @. Let us not waste any more time.#$b#This is truly intriguing\"/pause 1000/globalFade/viewport -2000 -2000/changeToTemporaryMap LunnaLake false/warp farmer 13 18/faceDirection farmer 0/warp Wizard 15 18/faceDirection Wizard 0/viewport -2000 -2000/stopMusic/playMusic woodsTheme/viewport 14 12/pause 500/move farmer 0 -1 0/move Wizard 0 -1 0/pause 1000/speak Wizard \"Here we are.#$b#The place where I found Lunna.\"/emote farmer 8/pause 1000/speak Wizard \"You ask about Lunna huh?.. Well..#$b#Lunna says that she is not human, she came from a place called Umuwi.\"/emote farmer 16/pause 1000/speak Wizard \"According to her, certain events led her into jumping to a certain lake,#$b#And when she woke up, she found herself to have turned into a human and now beside this pond here in front of us.\"/emote farmer 40/pause 800/speak Wizard \"I believe her. For I sense such strong ancient magic from her, thus I kept an eye on her.#$b#Took her in and taught her about this world and to be a human.\"/pause 2000/speak Wizard \"Now, enough chit-chat. @.#$b#I need you to stand right here in front of the lake.#$b#And I shall do an incantation that may produce some effect.\"/move farmer 1 0 0/move Wizard 1 0 0/move Wizard 0 -2 2/emote Wizard 40/pause 1000/speak Wizard \"Brace yourself @. You might feel a little strange\"/emote farmer 28/pause 1500/showFrame Wizard 16/textAboveHead Wizard \"Alright then....\"/pause 2000/playSound wand/glow 194 255 4/pause 2000/playSound wand/glow 194 255 4/pause 2000/playSound wand/glow 194 255 4/pause 1000/faceDirection Wizard 3/emote farmer 16/emote Wizard 16/pause 800/glow 194 255 4 true/removeTile 15 15 Buildings/removeTile 14 16 Buildings/removeTile 13 15 Buildings/pause 2000/stopGlowing/pause 2000/textAboveHead Wizard \"Fascinating..\"/emote farmer 40/pause 1000/speak Wizard \"It was a success!$h#$b#It appears that we have opened a rift on the pond's magic barrier.#$b#We have opened a portal to somewhere!\"/emote farmer 16/pause 800/faceDirection Wizard 2/speak Wizard \"I shall go ahead @.#$b#I shall call unto you if it is safe to enter\"/pause 500/faceDirection Wizard 0/warp Wizard -2000 -2000/playSound wand/screenFlash .8/pause 1000/emote farmer 40/pause 3000/jump farmer/speak Wizard \"@! Come and follow! It is a safe passage!\"/pause 1000/move farmer 0 1 0/emote farmer 16/move farmer 0 -1 0/glow 255 255 255 true/playSound wand/viewport -1000 -1000/stopGlowing/message \"Woah!\"/changeToTemporaryMap Umuwi false/warp farmer 93 28/faceDirection farmer 2/warp Wizard 92 31/faceDirection Wizard 3/stopMusic/playMusic SettlingIn/viewport -1000 -1000/viewport 92 31/pause 500/textAboveHead Wizard \"This is marvelous!\"/move Wizard -1 0 3/emote farmer 16/move farmer 0 3 0/pause 1000/faceDirection Wizard 1/emote farmer 8/pause 500/faceDirection farmer 1/pause 1000/faceDirection farmer 0/pause 1000/faceDirection farmer 3/jump farmer/pause 1000/speak Wizard \"We have made such an amazing discovery @! This is marvelous!\"/faceDirection Wizard 3/emote Wizard 40/pause 1000/speak Wizard \"If I have the time, I could explore this place.#$b#Unfortunately I do not have such luxury.\"/faceDirection Wizard 1/pause 500/speak Wizard \"You see I have to maintain the magic barrier that protects Stardew Valley.#$b#Fortunately for you @, You may explore these areas.#$b#Just be cautious for it is a new world.\"/emote farmer 32/pause 1000/speak Wizard \"I think it is time for us to go back now.#$b#I better tell Lunna the good news!#$b#I am sure she would be very pleased\"/emote farmer 32/pause 1000/fade/viewport -1000 -1000/pause 1000/message \"A whole new world!\"/message \"This is exciting!\"/end",
+			},
+		},
+		{
+			"LogName": "LunnaHouse Events",
+			"Action": "Load",
+			"Target": "Data/Events/LunnaHouse",
+			"FromFile": "assets/Events/LunnaHouse.json",
+		},
+		{
+			"LogName": "LunnaWestForest Events",
+			"Action": "Load",
+			"Target": "Data/Events/LunnaWestForest",
+			"FromFile": "assets/Events/LunnaWestForest.json",
+		},
+		{
+			"LogName": "Umuwi Events",
+			"Action": "Load",
+			"Target": "Data/Events/Umuwi",
+			"FromFile": "assets/Events/Umuwi.json",
+		},
+		{
+			"LogName": "FallsCave Events",
+			"Action": "Load",
+			"Target": "Data/Events/FallsCave",
+			"FromFile": "assets/Events/FallsCave.json",
+		},
+		{
+			"LogName": "LunnaLake Events",
+			"Action": "Load",
+			"Target": "Data/Events/LunnaLake",
+			"FromFile": "assets/Events/LunnaLake.json",
+		},
+		{
+			"LogName": "RaphaelShop Events",
+			"Action": "Load",
+			"Target": "Data/Events/RaphaelShop",
+			"FromFile": "assets/Events/RaphaelShop.json",
+		},
+	]
+}

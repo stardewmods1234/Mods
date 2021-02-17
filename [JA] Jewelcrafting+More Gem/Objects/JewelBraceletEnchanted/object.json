@@ -1,0 +1,43 @@
+{
+  "Name": "Enchanted Golden Jewel Bracelet",
+  "Description": "A Finely crafted jewel bracelet filled with lightning!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 1000,
+  "IsColored": true,
+  "Recipe": null,
+   "CanPurchase": false,
+   //"PurchaseFrom": "Robin",
+   //"PurchasePrice": 500,
+   //"PurchaseRequirements":
+   //[
+    //  "r 0.50"
+   // ]
+  "NameLocalization": { 
+		// "es": "",
+		"ko": "마법의 황금 보석 팔찌",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Bracelete de Jóias Dourado Encantado",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        "ko": "반짝임으로 가득한, 정교하게 만들어진 보석 팔찌!",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Um bracelete de jóias elegantemente trabalhado e cheio de relâmpagos!",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    }  
+}

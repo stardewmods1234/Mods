@@ -1,0 +1,225 @@
+{
+	"Format": "1.16.0",
+	
+			"ConfigSchema": 
+		{
+			"Butterfish":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 
+			"Clownfish":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 
+			"Frog":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 
+			"KingSalmon":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 
+			"Kittyfish":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 	
+			"Minnow":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 
+			"Puppyfish":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 
+			"RazorTrout":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"Starfish":
+				{
+				"AllowValues": "true,false",
+				"Default": "false",
+				"AllowMultiple": "false"
+				}, 
+			"Starfish2":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 
+			"VoidEel":
+				{
+				"AllowValues": "true,false",
+				"Default": "false",
+				"AllowMultiple": "false"
+				}, 
+			"VoidEel2":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 
+		},	
+	"Changes": [
+		{
+			"LogName": "Butterfish",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Butterfish}}",
+			"FromFile": "butterfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Butterfish}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Butterfish}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 30,
+			"AnimationFrameCount": 6,
+			"When":
+				{"Butterfish": "true"},
+		},
+		{
+			"LogName": "Clownfish",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Clownfish}}",
+			"FromFile": "clownfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Clownfish}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Clownfish}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{"Clownfish": "true", "HasMod |contains=MoreFish": false},
+		},
+		{
+			"LogName": "Frog",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Frog}}",
+			"FromFile": "frog.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Frog}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Frog}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 10,
+			"When":
+				{"Frog": "true"},
+		},
+		{			
+			"LogName": "King Salmon",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:King Salmon}}",
+			"FromFile": "kingsalmon.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:King Salmon}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:King Salmon}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{"KingSalmon": "true"},
+		},
+		{			
+			"LogName": "Kittyfish",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Kittyfish}}",
+			"FromFile": "kittyfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Kittyfish}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Kittyfish}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 6,
+			"When":
+				{"Kittyfish": "true"},
+		},
+		{			
+			"LogName": "Minnow",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Minnow}}",
+			"FromFile": "minnow.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Minnow}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Minnow}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{"Minnow": "true"},
+		},
+		{
+			"LogName": "Puppyfish",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Puppyfish}}",
+			"FromFile": "puppyfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Puppyfish}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Puppyfish}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 30,
+			"AnimationFrameCount": 6,
+			"When":
+				{"Puppyfish": "true"},
+		},
+		{
+			"LogName": "Razor Trout",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Razor Trout}}",
+			"FromFile": "razortrout.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Razor Trout}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Razor Trout}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{"RazorTrout": "true"},
+		},
+		{			
+			"LogName": "Starfish",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Starfish}}",
+			"FromFile": "starfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Starfish}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Starfish}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{"Starfish": "true", "HasMod |contains=MoreFish": false},
+		},
+		{			
+			"LogName": "Starfish2",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Starfish}}",
+			"FromFile": "starfish2.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Starfish}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Starfish}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 16,
+			"When":
+				{"Starfish2": "true", "HasMod |contains=MoreFish": false},
+		},
+		{			
+			"LogName": "Void Eel",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Void Eel}}",
+			"FromFile": "voideel.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Void Eel}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Void Eel}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{"VoidEel": "true"},
+		},
+		{			
+			"LogName": "Void Eel2",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Void Eel}}",
+			"FromFile": "voideel2.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Void Eel}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Void Eel}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 8,
+			"When":
+				{"VoidEel2": "true"},
+		}
+	]
+}

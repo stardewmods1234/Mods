@@ -1,0 +1,18 @@
+{
+	"Changes": [{
+			"LogName": "Conversation Topic: After Shell Necklace - Willy",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Willy",
+			"Entries": {
+				"ShellCollection.AfterShellNecklace": "{{i18n:ShellCollection.AfterShellNecklace}}"
+			}
+		}, {
+			"LogName": "Conversation Topic: After Coral Project Special Order - Maru",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries": {
+				"ShellCollection.AfterCoralOrder": "{{i18n:ShellCollection.AfterCoralOrder}}"
+			}
+		}
+	]
+}

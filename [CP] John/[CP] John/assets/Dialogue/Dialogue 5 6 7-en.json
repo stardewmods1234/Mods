@@ -1,0 +1,47 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/John",
+            "Entries": {
+                "Tue": "...#$e#It's not the best time.$2",
+                "Wed": "It's a beautiful day...#$e#I'd rather enjoy it alone.$3",
+                "Thu": "*sigh*#$e#I just don't feel like talking.",
+                "Fri": "You look... thirsty.#$e#Here, you can have this. [350]",
+                "Sat": "The weekends are always slow.",
+                "Sun": "I've been meaning to visit the shrine, but I can't bring myself to.$2",
+                "Mon_summer": "It's gotten quite hot.#$b#I can't stand the heat.$2",
+                "Tue_summer": "I'm busy right now...$2",
+                "Wed_summer": "Hm, is there a reason you're talking to me?",
+                "Thu_summer": "It's crazy how often you talk to me.$2",
+                "Fri_summer": "The sooner this month is over, the better.",
+                "Sat_summer": "",
+                "Sun_summer": "",
+                "Mon_fall": "Fall is such a great season.$3",
+                "Tue_fall": "I could use a cup of hot coffee.$3",
+                "Wed_fall": "I'm always in a better mood during this season.#$e#I get pretty cranky when I'm too hot.$2",
+                "Thu_fall": "Feel that cool breeze?#$e#It's refreshing, isn't it?",
+                "Fri_fall": "The week went by so quickly, I don't know what happened.$6",
+                "Sat_fall": "",
+                "Sun_fall": "",
+                "Mon_winter": "The snow is beautiful this time of year.$3",
+                "Tue_winter": "The holidays are stressful.$2",
+                "Wed_winter": "It's already winter. Feels like I just got here.$2",
+                "Thu_winter": "Think I'll hang around the fireplace tonight. It gets pretty cold in my room.",
+                "Fri_winter": "This is around the time I moved to Pelican Town.#$e#It's a nice little town.$3",
+                "Sat_winter": "",
+                "Sun_winter": "",
+                "Saloon": "I can finally relax.$2",
+                "Saloon_Entry": "*sigh* Good to be back.",
+                "Spring_12": "I'm not sure about going to the festival. Crowds stress me out.$2",
+                "Spring_23": "Dancing has always been my strong suit, but I don't think I'll attend the flower festival.$2",
+                "Summer_10": "The luau is tomorrow. I've no idea what to bring for the pot.",
+                "Summer_27": "I'm excited to see the jellyfish tomorrow.",
+                "Fall_15": "The fair is supposed to be a big deal. I'm thinking of going.$2",
+                "Fall_26": "Spirit's Eve is such a interesting holiday. You should read up on the lore.$1",
+                "Winter_7": "I would fish with the rest of the townspeople tomorrow, but I am terrible at it.",
+                "Winter_24": "Would it be disrespectful not to go to the Feast of the Winter Star tomorrow? I don't want to offend anyone.$2"
+            }
+        }
+    ]
+}

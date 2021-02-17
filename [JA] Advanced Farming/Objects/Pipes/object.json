@@ -1,0 +1,34 @@
+{
+    "Name": "Pipes", //The name you would like your object to have, this should be identical to the subfolder name.
+    "Description": "An assortment of corrosion resistant PVC pipes, fittings and Copper sockets. Can be formed into any desired shape and welded together with heat.", //Description of the product.
+    "Category": "Metal", //This should match the crop.json Type or for fruit trees should be one of the following: Flower, Fruit, Vegetable, Gem, Fish, Egg, Milk, Cooking, Crafting, Mineral, Meat, Metal, Junk, Syrup, MonsterLoot, ArtisanGoods, and Seeds.
+    "Edibility": -300, //Edibility is for health, energy is calculated by the game. For inedibile items, set to -300.
+    "Price": 0, //How much your item sells for.
+    "IsColored": false, //(optional) Set this value to true if your product is colored. Primairly applies to flowers.
+    "Recipe": 
+	{ 
+        "ResultCount": 1,
+        "Ingredients": [
+			{
+				"Object": "Plastic Bar", 
+				"Count": 2
+			},
+			{
+				"Object": 334, 
+				"Count": 1
+			}
+		],
+		"CanPurchase": true, 
+		"PurchaseFrom": "Robin",
+		"PurchasePrice": 5000,
+		"PurchaseRequirements": ["j 168", "f Demetrius 1500"]
+    },
+    "NameLocalization": //Used for localization. 
+    { 
+        "zh": "管道" //Chinese (Simplified)
+    },
+    "DescriptionLocalization": //Used for localization. 
+    { 
+        "zh": "各种耐腐蚀的PVC管、配件和铜套。可以弯成任何所需的形状然后加热热焊接在一起。" //Chinese (Simplified)
+    }
+}

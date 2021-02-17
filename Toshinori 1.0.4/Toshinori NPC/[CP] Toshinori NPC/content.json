@@ -1,0 +1,1010 @@
+{
+  "Format": "1.19.0",
+
+//SPOILERS ABOUND! Reading this file will absolutely spoil the experience of the mod, as it contains notes about plot direction.
+//If you're looking to configure the mod, go to config.json, you're in the wrong place!
+
+//This mod was built with much love, from a dedicated team.
+//@AeolianMode (Twitter)
+//@dylawa (Twitter)
+//@mittens_fuzzy (Twitter)
+
+//**C O N F I G S**//
+
+  "ConfigSchema": 
+  {
+    "ToshiVariant": {
+      "AllowValues": "Mask,NoMask,NoBlood",
+      "Default": "NoMask",
+      "AllowBlank": false 
+	},
+    "Erasermight": {
+      "AllowValues": "true,false",
+      "Default": "false",
+      "AllowBlank": false
+	},
+    "NPCDialogueEdits": {
+      "AllowValues": "true,false",
+      "Default": "true",
+      "AllowBlank": false
+	},
+	"HeartbreakMode": {
+      "AllowValues": "true,false",
+      "Default": "false",
+      "AllowBlank": false
+	},
+	"AnimatedPortrait": {
+	  "AllowValues": "true,false",
+	  "Default": "false",
+	  "AllowBlank": false
+	},
+    "PregnancyTalk": {
+	  "AllowValues": "true,false",
+	  "Default": "true",
+	  "AllowBlank": false
+    },
+    "PregnancyAndChildbirth": {
+	  "AllowValues": "true,false",
+	  "Default": "true",
+	  "AllowBlank": false
+    },
+    "WhiteToddler": {
+	  "AllowValues": "true,false",
+	  "Default": "false",
+	  "AllowBlank": false
+    },
+    "BlackToddler": {
+	  "AllowValues": "true,false",
+	  "Default": "false",
+	  "AllowBlank": false
+    },
+
+//	"AnniversarySeason": {
+//		"AllowValues": "spring, summer, fall, winter",
+//		"Default": "spring"
+//		},
+//	"AnniversaryDayOfMonth": {
+//		"AllowValues": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28",
+//		"Default": "1"
+//		},
+  },
+//**D Y N A M I C  T O K E N S  
+ 
+  "DynamicTokens": [
+    {
+      "Name": "WeatherVariant",
+      "Value": "Rain",
+      "When": {
+        "Season": "spring, summer, fall",
+        "Weather": "rain, storm, snow"
+              }
+    },
+    {
+      "Name": "WeatherVariant",
+      "Value": "Sun",
+      "When": {
+        "Weather": "sun, wind"
+      }
+    },
+    {
+      "Name": "WeatherVariant",
+      "Value": "Snow",
+      "When": {
+        "Season": "winter",
+        "Weather": "snow, rain, storm"
+      }
+    },
+        {
+            "Name": "Festival",
+            "Value": "EggFestival",
+            "When":
+            {
+                "DayEvent": "egg festival",
+                "LocationName": "town, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "FlowerDance",
+            "When":
+            {
+                "DayEvent": "flower dance",
+                "LocationName": "Forest, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "IceFestival",
+            "When":
+            {
+                "DayEvent": "festival of ice",
+                "LocationName": "Forest, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "Luau",
+            "When":
+            {
+                "DayEvent": "luau",
+                "LocationName": "Beach, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "MoonlightJellies",
+            "When":
+            {
+                "DayEvent": "dance of the moonlight jellies",
+                "LocationName": "Beach, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "SpiritsEve",
+            "When":
+            {
+                "DayEvent": "spirit's eve",
+                "LocationName": "town, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "SVFair",
+            "When":
+            {
+                "DayEvent": "stardew valley fair",
+                "LocationName": "town, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "WinterStar",
+            "When":
+            {
+                "DayEvent": "feast of the winter star",
+                "LocationName": "town, temp"
+            }
+        },
+{
+   "Name": "ToshinoriRelationship",
+   "Value": "Friendly"
+},
+{
+   "Name": "ToshinoriRelationship",
+   "Value": "{{Relationship:Toshinori}}",
+   "When": {
+      "Relationship:Toshinori": "Dating, Married, Divorced, Unmet"
+   }
+},
+		{ 
+			"Name": "ToshinoriSpouse",
+			"Value": "false"
+		},
+		{
+			"Name": "ToshinoriSpouse",
+			"When": {
+				"Relationship:Toshinori": "Married"
+			},
+			"Value": "true"
+		},
+  ],
+
+  "Changes": [
+
+//**P O R T R A I T S  A N D  S P R I T E S 
+   {
+  "LogName": "Portraits",
+  "Action": "Load",
+  "Target": "Portraits/Toshinori",
+  "FromFile": "assets/image/Portraits/{{ToshiVariant}}/{{season}}_{{WeatherVariant}}.png",
+  "Update": "OnLocationChange"
+   },
+   {
+  "LogName": "Sprites",
+  "Action": "Load",
+  "Target": "Characters/Toshinori",
+  "FromFile": "assets/image/Sprites/{{ToshiVariant}}/{{season}}_{{WeatherVariant}}.png",
+  "Update": "OnLocationChange"
+   },
+   {
+  "LogName": "Alternative Summer Sprites",
+  "Action": "EditImage",
+  "Target": "Characters/Toshinori",
+  "FromFile": "assets/image/Sprites/{{ToshiVariant}}/Dress.png",
+  "Update": "OnLocationChange",
+  "When": {"Season":"Summer", "Random: apply, skip, skip, skip, skip": "apply", "HasSeenEvent": "66170036"}
+   },
+   {
+    "LogName": "Festival Sprites",
+    "Action": "EditImage",
+    "Target": "Characters/Toshinori",
+    "FromFile": "assets/image/Sprites/{{ToshiVariant}}/{{Festival}}.png",
+    "When": {"DayEvent": "dance of the moonlight jellies, egg festival, feast of the winter star, festival of ice, flower dance, luau, stardew valley fair, spirit's eve",},
+	"Update": "OnLocationChange"
+   },
+  {
+    "LogName": "Festival Portraits",
+    "Action": "EditImage",
+    "Target": "Portraits/Toshinori",
+    "FromFile": "assets/image/Portraits/{{ToshiVariant}}/{{Festival}}.png",
+    "When": {"DayEvent": "dance of the moonlight jellies, egg festival, feast of the winter star, festival of ice, flower dance, luau, stardew valley fair, spirit's eve",},
+	"Update": "OnLocationChange"
+  },
+  { 
+      "LogName": "Toshi Spa",
+      "Action": "Load",
+      "Target": "Characters/Toshinori_Spa",
+      "FromFile": "assets/Image/Sprites/spa.png",
+      
+    },
+  { 
+      "LogName": "Toshi Spa",
+      "Action": "Load",
+      "Target": "Portraits/Toshinori_Spa",
+      "FromFile": "assets/Image/Portraits/spa.png",
+      
+    },
+  { 
+      "LogName": "Radio",
+      "Action": "Load",
+      "Target": "Characters/Radio",
+      "FromFile": "assets/Image/radio.png",
+      
+    },
+ 
+//**A N I M A T E D  P O R T R A I T S 
+        {
+			"LogName": "Neutral",
+			"Action": "EditImage",
+			"When": {"AnimatedPortrait": "true"},
+			"Target": "Portraits/Toshinori",
+			"FromFile": "assets/Image/Portraits/Animated/{{ToshiVariant}}/{{season}}_{{WeatherVariant}}_NeutralAnim.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 25,
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Happy",
+			"Action": "EditImage",
+			"When": {"AnimatedPortrait": "true"},
+			"Target": "Portraits/Toshinori",
+			"FromFile": "assets/Image/Portraits/Animated/{{ToshiVariant}}/{{season}}_{{WeatherVariant}}_HappyAnim.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 21,
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Sad",
+			"Action": "EditImage",
+			"When": {"AnimatedPortrait": "true"},
+			"Target": "Portraits/Toshinori",
+			"FromFile": "assets/Image/Portraits/Animated/{{ToshiVariant}}/{{season}}_{{WeatherVariant}}_SadAnim.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 25,
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Surprised",
+			"Action": "EditImage",
+			"When": {"AnimatedPortrait": "true"},
+			"Target": "Portraits/Toshinori",
+			"FromFile": "assets/Image/Portraits/Animated/{{ToshiVariant}}/{{season}}_{{WeatherVariant}}_SurprisedAnim.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+			"AnimationFrameTime": 5,
+			"AnimationFrameCount": 16,
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Blushing",
+			"Action": "EditImage",
+			"When": {"AnimatedPortrait": "true"},
+			"Target": "Portraits/Toshinori",
+			"FromFile": "assets/Image/Portraits/Animated/{{ToshiVariant}}/{{season}}_{{WeatherVariant}}_BlushingAnim.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 18,
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Angry",
+			"Action": "EditImage",
+			"When": {"AnimatedPortrait": "true"},
+			"Target": "Portraits/Toshinori",
+			"FromFile": "assets/Image/Portraits/Animated/{{ToshiVariant}}/{{season}}_{{WeatherVariant}}_AngryAnim.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 64, "Y": 128, "Width": 64, "Height": 64 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 25,
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Reading",
+			"Action": "EditImage",
+			"When": {"AnimatedPortrait": "true"},
+			"Target": "Portraits/Toshinori",
+			"FromFile": "assets/Image/Portraits/Animated/{{ToshiVariant}}/{{season}}_{{WeatherVariant}}_ReadingAnim.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 0, "Y": 192, "Width": 64, "Height": 64 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 15,
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Sick",
+			"Action": "EditImage",
+			"When": {"AnimatedPortrait": "true"},
+			"Target": "Portraits/Toshinori",
+			"FromFile": "assets/Image/Portraits/Animated/{{ToshiVariant}}/{{season}}_{{WeatherVariant}}_SickShirtlessAnim.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 64, "Y": 192, "Width": 64, "Height": 64 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 4,
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Sick 2",
+			"Action": "EditImage",
+			"When": {"AnimatedPortrait": "true"},
+			"Target": "Portraits/Toshinori",
+			"FromFile": "assets/Image/Portraits/Animated/{{ToshiVariant}}/{{season}}_{{WeatherVariant}}_SickAnim.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 0, "Y": 256, "Width": 64, "Height": 64 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 4,
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Love",
+			"Action": "EditImage",
+			"When": {"AnimatedPortrait": "true"},
+			"Target": "Portraits/Toshinori",
+			"FromFile": "assets/Image/Portraits/Animated/{{ToshiVariant}}/{{season}}_{{WeatherVariant}}_LoveAnim.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 64, "Y": 256, "Width": 64, "Height": 64 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 25,
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Cry",
+			"Action": "EditImage",
+			"When": {"AnimatedPortrait": "true"},
+			"Target": "Portraits/Toshinori",
+			"FromFile": "assets/Image/Portraits/Animated/{{ToshiVariant}}/{{season}}_{{WeatherVariant}}_CryAnim.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 0, "Y": 320, "Width": 64, "Height": 64 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 15,
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Tense",
+			"Action": "EditImage",
+			"When": {"AnimatedPortrait": "true"},
+			"Target": "Portraits/Toshinori",
+			"FromFile": "assets/Image/Portraits/Animated/{{ToshiVariant}}/{{season}}_{{WeatherVariant}}_TenseAnim.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 64, "Y": 320, "Width": 64, "Height": 64 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 16,
+			"Update": "OnLocationChange"
+		},
+{
+			"LogName": "Neutral Festival",
+			"Action": "EditImage",
+			"When": {"AnimatedPortrait": "true", "DayEvent": "dance of the moonlight jellies, egg festival, feast of the winter star, festival of ice, flower dance, luau, stardew valley fair, spirit's eve",},
+			"Target": "Portraits/Toshinori",
+			"FromFile": "assets/Image/Portraits/Animated/{{ToshiVariant}}/{{Festival}}_NeutralAnim.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 25,
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Happy Festival",
+			"Action": "EditImage",
+			"When": {"AnimatedPortrait": "true", "DayEvent": "dance of the moonlight jellies, egg festival, feast of the winter star, festival of ice, flower dance, luau, stardew valley fair, spirit's eve",},
+			"Target": "Portraits/Toshinori",
+			"FromFile": "assets/Image/Portraits/Animated/{{ToshiVariant}}/{{Festival}}_HappyAnim.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 21,
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Sad Festival",
+			"Action": "EditImage",
+			"When": {"AnimatedPortrait": "true", "DayEvent": "dance of the moonlight jellies, egg festival, feast of the winter star, festival of ice, flower dance, luau, stardew valley fair, spirit's eve",},
+			"Target": "Portraits/Toshinori",
+			"FromFile": "assets/Image/Portraits/Animated/{{ToshiVariant}}/{{Festival}}_SadAnim.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 25,
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Surprised Festival",
+			"Action": "EditImage",
+			"When": {"AnimatedPortrait": "true", "DayEvent": "dance of the moonlight jellies, egg festival, feast of the winter star, festival of ice, flower dance, luau, stardew valley fair, spirit's eve",},
+			"Target": "Portraits/Toshinori",
+			"FromFile": "assets/Image/Portraits/Animated/{{ToshiVariant}}/{{Festival}}_SurprisedAnim.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+			"AnimationFrameTime": 5,
+			"AnimationFrameCount": 16,
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Blushing Festival",
+			"Action": "EditImage",
+			"When": {"AnimatedPortrait": "true", "DayEvent": "dance of the moonlight jellies, egg festival, feast of the winter star, festival of ice, flower dance, luau, stardew valley fair, spirit's eve",},
+			"Target": "Portraits/Toshinori",
+			"FromFile": "assets/Image/Portraits/Animated/{{ToshiVariant}}/{{Festival}}_BlushingAnim.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 18,
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Angry Festival",
+			"Action": "EditImage",
+			"When": {"AnimatedPortrait": "true", "DayEvent": "dance of the moonlight jellies, egg festival, feast of the winter star, festival of ice, flower dance, luau, stardew valley fair, spirit's eve",},
+			"Target": "Portraits/Toshinori",
+			"FromFile": "assets/Image/Portraits/Animated/{{ToshiVariant}}/{{Festival}}_AngryAnim.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 64, "Y": 128, "Width": 64, "Height": 64 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 25,
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Reading Festival",
+			"Action": "EditImage",
+			"When": {"AnimatedPortrait": "true", "DayEvent": "dance of the moonlight jellies, egg festival, feast of the winter star, festival of ice, flower dance, luau, stardew valley fair, spirit's eve",},
+			"Target": "Portraits/Toshinori",
+			"FromFile": "assets/Image/Portraits/Animated/{{ToshiVariant}}/{{Festival}}_ReadingAnim.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 0, "Y": 192, "Width": 64, "Height": 64 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 15,
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Sick Festival",
+			"Action": "EditImage",
+			"When": {"AnimatedPortrait": "true", "DayEvent": "dance of the moonlight jellies, egg festival, feast of the winter star, festival of ice, flower dance, luau, stardew valley fair, spirit's eve",},
+			"Target": "Portraits/Toshinori",
+			"FromFile": "assets/Image/Portraits/Animated/{{ToshiVariant}}/{{Festival}}_SickShirtlessAnim.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 64, "Y": 192, "Width": 64, "Height": 64 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 4,
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Sick 2 Festival",
+			"Action": "EditImage",
+			"When": {"AnimatedPortrait": "true", "DayEvent": "dance of the moonlight jellies, egg festival, feast of the winter star, festival of ice, flower dance, luau, stardew valley fair, spirit's eve",},
+			"Target": "Portraits/Toshinori",
+			"FromFile": "assets/Image/Portraits/Animated/{{ToshiVariant}}/{{Festival}}_SickAnim.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 0, "Y": 256, "Width": 64, "Height": 64 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 4,
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Love Festival",
+			"Action": "EditImage",
+			"When": {"AnimatedPortrait": "true", "DayEvent": "dance of the moonlight jellies, egg festival, feast of the winter star, festival of ice, flower dance, luau, stardew valley fair, spirit's eve",},
+			"Target": "Portraits/Toshinori",
+			"FromFile": "assets/Image/Portraits/Animated/{{ToshiVariant}}/{{Festival}}_LoveAnim.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 64, "Y": 256, "Width": 64, "Height": 64 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 25,
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Cry Festival",
+			"Action": "EditImage",
+			"When": {"AnimatedPortrait": "true", "DayEvent": "dance of the moonlight jellies, egg festival, feast of the winter star, festival of ice, flower dance, luau, stardew valley fair, spirit's eve",},
+			"Target": "Portraits/Toshinori",
+			"FromFile": "assets/Image/Portraits/Animated/{{ToshiVariant}}/{{Festival}}_CryAnim.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 0, "Y": 320, "Width": 64, "Height": 64 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 15,
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Tense Festival",
+			"Action": "EditImage",
+			"When": {"AnimatedPortrait": "true", "DayEvent": "dance of the moonlight jellies, egg festival, feast of the winter star, festival of ice, flower dance, luau, stardew valley fair, spirit's eve",},
+			"Target": "Portraits/Toshinori",
+			"FromFile": "assets/Image/Portraits/Animated/{{ToshiVariant}}/{{Festival}}_TenseAnim.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 64, "Y": 320, "Width": 64, "Height": 64 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 16,
+			"Update": "OnLocationChange"
+		},
+ 
+//**I Z U K U  C O D E S
+    {
+    "LogName": "Izuku NPC Manifestation",
+    "Action": "EditData",
+    "Target": "Data/NPCDispositions",
+	"When": {"HasSeenEvent":"66170016, 66170021",
+             "HasSeenEvent |contains=66170019, 66170020": "false"},
+    "Entries": {
+    "Izuku": "adult/polite/neutral/positive/male/non-datable/null/Town/summer 15//Hospital 21 12 0/Izuku"
+              }
+     },
+     {
+    "LogName": "Izuku's AntiSocial Flag",
+    "Action": "EditData",
+    "Target": "Data/AntiSocialNPCs",
+	"When": {"HasSeenEvent |contains=66170019, 66170020": "false"},
+    "Entries": {
+      "Izuku": true
+                }
+ 	},
+    {
+    "LogName": "Izuku NPC Departure",
+    "Action": "EditData",
+    "Target": "Data/NPCDispositions",
+    "When": {"HasSeenEvent":"66170019, 66170020"},
+    "Entries": {
+    "Izuku": "adult/polite/neutral/positive/male/non-datable/null/Town/summer 15//Town -1000 -1000 0/Izuku"
+              }
+     },
+   {
+  "LogName": "Deku Portraits",
+  "Action": "Load",
+  "Target": "Portraits/Izuku",
+  "FromFile": "assets/image/Portraits/Izuku.png"
+   },
+   {
+  "LogName": "Deku Portraits Special",
+  "Action": "EditImage",
+  "Target": "Portraits/Izuku",
+  "FromFile": "assets/image/Portraits/IzukuSpecial.png",
+  "Update": "OnLocationChange",
+  "When": {"HasSeenEvent":"66170015, 66170014", 
+           "HasSeenEvent |contains=66170018": "false"}
+   },
+  {
+  "LogName": "Deku Sprites",
+  "Action": "Load",
+  "Target": "Characters/Izuku",
+  "FromFile": "assets/image/Izuku.png",
+  "Update": "OnLocationChange"
+   },
+   {
+  "LogName": "Deku Dialogue",
+  "Action": "Load",
+  "Target": "Characters/Dialogue/Izuku",
+  "FromFile": "assets/Dialogue/IzukuDialogue.json"
+   },
+     {
+      "LogName": "Izuku Schedule Active",
+      "Action": "Load",
+      "Target": "Characters/schedules/Izuku",
+      "FromFile": "assets/Schedule/IzukuScheduleActive.json",
+  	  "When": {"HasSeenEvent":"66170016, 66170021",
+      "HasSeenEvent |contains=66170019, 66170020": "false"},
+      },
+      {
+       "LogName": "Izuku Schedule Dialogue",
+       "Action": "Load",
+       "Target": "Strings/schedules/Izuku",
+       "FromFile": "assets/Schedule/IzukuScheduleDialogue.json"
+       },
+       {
+       "LogName": "Izuku's Animations",
+       "Action": "EditData",
+       "Target": "Data/animationdescriptions",
+        "Entries": {
+        "Izuku_Sleep": "16/16/16",
+                    }
+       },
+ 
+//**T O S H I N O R I  C O D E S
+        {
+          "LogName": "NPC Manifestation",
+          "Action": "EditData",
+          "Target": "Data/NPCDispositions",
+          "Entries": {
+            "Toshinori": "adult/polite/neutral/positive/male/datable/null/Town/summer 10//Hospital 29 6 2/{{i18n:NPCD.Toshinori}}"
+                     },
+        },		
+        {
+          "LogName": "NPC Gift Tastes",
+          "Action": "EditData",
+          "Target": "Data/NPCGiftTastes",
+          "Entries": {
+            "Toshinori": "{{i18n:gift.love.{{ToshinoriSpouse}}}}/74 227 228 351 421 614 768/{{i18n:gift.like.{{ToshinoriSpouse}}}}/18 202 268 279 395 815/{{i18n:gift.dislike.{{ToshinoriSpouse}}}}/167 184 445 446 229 814/{{i18n:gift.hate.{{ToshinoriSpouse}}}}/153 154 155 157 382 769/{{i18n:gift.neutral.{{ToshinoriSpouse}}}}/88 797 304 373/"
+                     },
+        },
+        {
+          "LogName": "Schedule",
+          "Action": "Load",
+		  "When": {"HasSeenEvent |contains=661716000, 661715000": "false"},
+          "Target": "Characters/schedules/Toshinori",
+          "FromFile": "assets/Schedule/Schedule.json"
+        },
+        {
+          "LogName": "Schedule Dialogue",
+          "Action": "Load",
+          "Target": "Strings/schedules/Toshinori",
+          "FromFile": "assets/Schedule/ScheduleDialogue.json"
+        },
+        {
+          "LogName": "Dialogue",
+          "Action": "Load",
+          "Target": "Characters/Dialogue/Toshinori",
+          "FromFile": "assets/Dialogue/Dialogue.json"
+        },
+        {
+          "LogName": "Marriage Dialogue",
+          "Action": "Load",
+          "Target": "Characters/Dialogue/MarriageDialogueToshinori",
+          "FromFile": "assets/Dialogue/MarriageDialogue.json"
+        },
+        {
+          "LogName": "Toshinori's Animations",
+          "Action": "EditData",
+          "Target": "Data/animationdescriptions",
+          "Entries": {
+            "Toshinori_Letter": "39/51 51 51 51 51 51 51 43 43 43 43 43 51 51 51 51 51 51 51 51 43 43 43 43 43 43 43 43 39 39/39",
+            "Toshinori_Sleep": "52/52/52",
+			"Toshinori_Barf": "29/29 29 29 29 29 29 29 29 29 29 29 29 29 30 30 31 31 31 31 31 31 31 31 30 30 30 31 31 31 31 30 30 30 30 30 31 31 31 31 31 31 31 30/30",
+			"Toshinori_Sit": "34/34/34",
+          }
+        },
+        {
+		"LogName": "White Girl",
+		"Action": "EditImage",
+		"Target": "Characters/Toddler_girl",
+		 "When": {"WhiteToddler": "true"},
+		"FromFile": "assets/Image/Girl_W.png"
+        },
+        {
+		"LogName": "White Boy",
+		"Action": "EditImage",
+		"Target": "Characters/Toddler_boy",
+		 "When": {"WhiteToddler": "true"},
+		"FromFile": "assets/Image/Boy_W.png"
+        },
+        {
+		"LogName": "Black Girl",
+		"Action": "EditImage",
+		"Target": "Characters/Toddler_girl",
+		 "When": {"BlackToddler": "true"},
+		"FromFile": "assets/Image/Girl_B.png"
+        },
+        {
+		"LogName": "Black Boy",
+		"Action": "EditImage",
+		"Target": "Characters/Toddler_boy",
+		 "When": {"BlackToddler": "true"},
+		"FromFile": "assets/Image/Boy_B.png"
+        },
+        {
+		"LogName": "Black Baby",
+		"Action": "EditImage",
+		"Target": "Characters/Baby",
+		 "When": {"BlackToddler": "true"},
+		"FromFile": "assets/Image/Baby_dark.png"
+        },
+//**I N C L U D E S
+		{
+			"LogName": "Movies",
+			"Action": "Include",
+			"FromFile": "assets/Includes/Movies.json"
+		},
+       	{
+			"LogName": "Festival Dialogue",
+			"Action": "Include",
+			"FromFile": "assets/Includes/DialogueFestivals.json"
+		},
+        {
+            "LogName": "Quests",
+            "Action": "Include",
+            "FromFile": "assets/Includes/Quests.json"
+        },
+        {
+          "LogName": "Engagement Dialogue",
+          "Action": "EditData",
+          "Target": "Data/EngagementDialogue",
+          "Entries": {
+            "Toshinori0": "{{i18n:engagement0}}",
+            "Toshinori1": "{{i18n:engagement1}}"
+          }
+        },
+	    {
+			"LogName": "Toshinori's Dialogue Edits",
+			"Action": "Include",
+			"FromFile": "assets/Includes/Dialogue.json"
+		},
+		{
+			"LogName": "Strings from Maps",
+			"Action": "Include",
+			"FromFile": "assets/Includes/StringsFromMaps.json"
+		},
+	    {
+			"LogName": "NPC Conversation Topics",
+			"Action": "Include",
+			"FromFile": "assets/Includes/NPCConversationTopics.json"
+		},
+	    {
+			"LogName": "NPC Dialogue Edits",
+			"Action": "Include",
+			"FromFile": "assets/Includes/NPCDialogueEdits.json"
+		},
+	    {
+			"LogName": "Events",
+			"Action": "Include",
+			"FromFile": "assets/Includes/Events.json"
+		},
+		{
+			"LogName": "Marriage and Children",
+			"Action": "Include",
+			"FromFile": "assets/Includes/Marriage.json",
+			"When": {
+				"Spouse": "Toshinori"
+			}
+		},
+ //**N P C  E D I T S
+         {
+		"LogName": "Harvey Schedule",
+		"Action": "EditData",
+		"Target": "Characters/schedules/Harvey",
+		"Entries": {"Sun": "730 Hospital 1 5 0/1250 Hospital 10 14 2/1330 Hospital 5 5 2/1410 Hospital 5 6 3 harvey_examine_left/1550 Hospital 5 5 2/1610 Hospital 4 5 0/1630 Hospital 3 15 0/1800 HarveyRoom 9 5 0/2300 HarveyRoom 13 4 1 harvey_sleep"},
+        },
+		
+//**M A P  E D I T S
+
+//Toshinori Hospital Room Patch. Thanks for fixing the doors for me, Draylon!
+      {
+         "Action": "EditMap",
+         "Target": "Maps/Hospital",
+         "FromFile": "assets/Map/ToshiHospital.tmx",
+         "FromArea": { "X": 0, "Y": 0, "Width": 15, "Height": 20 },
+         "ToArea": { "X": 23, "Y": 0, "Width": 15, "Height": 20 }
+      },
+      {
+         "Action": "EditMap",
+         "Target": "Maps/Hospital",
+         "MapProperties": {
+		"Doors": "5 9 1 120 5 13 1 120 10 13 1 120 9 5 1 120 10 5 1 120 25 7 1 120"
+		}
+      },
+
+//50% Random Chance that lets Toshinori sometimes sleep under the covers of his hospital bed, and sometimes sleep on top of them. Dumb cosmetic detail.
+      {
+         "Action": "EditMap",
+         "Target": "Maps/Hospital",
+         "FromFile": "assets/Map/ToshiHospitalBed.tmx",
+         "FromArea": { "X": 0, "Y": 0, "Width": 2, "Height": 2 },
+         "ToArea": { "X": 28, "Y": 3, "Width": 2, "Height": 2 },
+		 "When": {
+  "Random: skip, apply": "apply"
+                 }
+      },
+	
+//Toshinori Hospital Closing Hours Adjusted. Code written by Aeo. Hospital originally closes at 1500, now it closes at 2200.
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 36,
+            "Y": 55
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 10 19 Hospital 900 2200"
+          }
+        }
+      ]
+    },
+
+//HeartbreakMode Gravestone
+        {
+         "Action": "EditMap",
+         "Target": "Maps/Town",
+         "When": {"HasSeenEvent": "66171000, 661717000"},
+         "MapTiles": [
+            {
+               "Position": { "X": 49, "Y": 90 },
+               "Layer": "Buildings",
+               "SetTilesheet": "Town",
+               "SetIndex": "321",
+               "SetProperties": {
+                  "Action": "Message \"ToshiGravestone\"" 
+               }
+            },
+         ]
+        },
+
+    //Code that adds an action tile to a chair at the Altar of Yoba allowing for a free divorce. May change this tile later, this is for testing purposes. Thanks, mouse!
+    {
+      "Action": "EditMap",
+      "Target": "Maps/SeedShop",
+      "When": {"HeartbreakMode": "true","HasSeenEvent": "661719000"},
+      "MapTiles": [
+         {
+          "Position": {
+            "X": 37,
+            "Y": 19
+         },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Confirm Are you ready to move on?",
+            "Conditions": "LC Game1.player.divorceTonight.Value~=true and Game1.player.spouse == 'Toshinori'",
+            "Fallback": "Say You think you're ready...",
+            "Success": "Lua this divorceMe",
+            "Lua_divorceMe": "Game1.player.divorceTonight.Value=true"
+         }
+       }
+     ]
+    },
+ 
+//**DEAD TOSHINORI** 
+
+    //Heartbreak Mode codes to "kill" Toshinori. Updates his schedule to move him to an inaccessible map location and turns his sprite to an invisible tile. Changes Toshinori to his ghost self for use in events (and for the unfortunate probability that he still spawns in your house, in your bed, after he's dead...) Thanks for help with the code, mouse!
+      { "LogName": "ScheduleDead",
+        "Action": "Load",
+        "Target": "Characters/schedules/Toshinori",
+        "When": {"HeartbreakMode": "true", "HasSeenEvent": "661716000"},
+        "FromFile": "assets/Schedule/ScheduleSpecial.json"
+      },       
+
+     { "LogName": "ScheduleDeadWasMarried",
+       "Action": "Load",
+       "Target": "Characters/schedules/Toshinori",
+       "When": {"HeartbreakMode": "true", "HasSeenEvent": "661715000", "Relationship:Toshinori": "Divorced"},
+       "FromFile": "assets/Schedule/ScheduleSpecial.json"
+     },         
+
+   {
+   "LogName": "Ghost Sprites",
+    "Action": "EditImage",
+    "Target": "Characters/Toshinori",
+    "FromFile": "assets/Image/Sprites/special.png",
+    "When": {"HeartbreakMode": "true", "HasSeenEvent": "661715000, 661716000"},
+   },
+
+   {"LogName": "Ghost Portraits",
+    "Action": "EditImage",
+    "Target": "Portraits/Toshinori",
+    "FromFile": "assets/Image/Portraits/special.png",
+    "When": {"HeartbreakMode": "true", "HasSeenEvent": "661715000, 661716000"},
+   },
+  
+    //Heartbreak Mode invisibility script was moved to TMX mod folder due to incompatibility with his Spouse Room
+	
+    //Codes to remove Toshinori from festival maps after his death. 
+     {"LogName": "RemoveToshinoriFromEggFest",    
+     "Action": "EditMap",
+     "Target": "Maps/Town-EggFestival",
+     "MapTiles": [    
+     {"Position": { "X": 23, "Y": 71 },"Layer": "Set-Up","Remove": true },
+     {"Position": { "X": 23, "Y": 71 },"Layer": "MainEvent","Remove": true}
+     ], "When": {"HasSeenEvent":"661715000, 661716000"}
+     },
+	 
+	 {"LogName": "RemoveToshinoriFromFlowerFestival",    
+     "Action": "EditMap",
+     "Target": "Maps/Forest-FlowerFestival",
+     "MapTiles": [    
+     {"Position": { "X": 24, "Y": 25 },"Layer": "Set-Up","Remove": true },
+     {"Position": { "X": 24, "Y": 25 },"Layer": "MainEvent","Remove": true}
+     ], "When": {"HasSeenEvent":"661715000, 661716000"}
+     },
+	 
+	  {"LogName": "RemoveToshinoriFromLuau",    
+     "Action": "EditMap",
+     "Target": "Maps/Beach-Luau",
+     "MapTiles": [    
+     {"Position": { "X": 53, "Y": 24 },"Layer": "Set-Up","Remove": true },
+     {"Position": { "X": 53, "Y": 24 },"Layer": "MainEvent","Remove": true}
+     ], "When": {"HasSeenEvent":"661715000, 661716000"}
+     },
+	 
+	 {"LogName": "RemoveToshinoriFromJellies",    
+     "Action": "EditMap",
+     "Target": "Maps/Beach-Luau",
+     "MapTiles": [    
+     {"Position": { "X": 14, "Y": 39 },"Layer": "Set-Up","Remove": true },
+     {"Position": { "X": 14, "Y": 39 },"Layer": "MainEvent","Remove": true}
+     ], "When": {"HasSeenEvent":"661715000, 661716000"}
+     },
+	 
+	 {"LogName": "RemoveToshinoriFromFair",    
+     "Action": "EditMap",
+     "Target": "Maps/Town-Fair",
+     "MapTiles": [    
+     {"Position": { "X": 31, "Y": 63 },"Layer": "Set-Up","Remove": true },
+     {"Position": { "X": 31, "Y": 63 },"Layer": "MainEvent","Remove": true}
+     ], "When": {"HasSeenEvent":"661715000, 661716000"}
+     },
+	 
+	 {"LogName": "RemoveToshinoriFromHalloween",    
+     "Action": "EditMap",
+     "Target": "Maps/Town-Halloween",
+     "MapTiles": [    
+     {"Position": { "X": 31, "Y": 73 },"Layer": "Set-Up","Remove": true },
+     {"Position": { "X": 31, "Y": 73 },"Layer": "MainEvent","Remove": true}
+     ], "When": {"HasSeenEvent":"661715000, 661716000"}
+     },
+	 
+	 {"LogName": "RemoveToshinoriFromIceFest",    
+     "Action": "EditMap",
+     "Target": "Maps/Forest-IceFestival",
+     "MapTiles": [    
+     {"Position": { "X": 73, "Y": 11 },"Layer": "Set-Up","Remove": true },
+     {"Position": { "X": 73, "Y": 11 },"Layer": "MainEvent","Remove": true}
+     ], "When": {"HasSeenEvent":"661715000, 661716000"}
+     },
+	 
+	 {"LogName": "RemoveToshinoriFromLuau",    
+     "Action": "EditMap",
+     "Target": "Maps/Beach-Luau",
+     "MapTiles": [    
+     {"Position": { "X": 36, "Y": 73 },"Layer": "Set-Up","Remove": true },
+     {"Position": { "X": 36, "Y": 73 },"Layer": "MainEvent","Remove": true}
+     ], "When": {"HasSeenEvent":"661715000, 661716000"}
+     },
+	 
+//Non-MFM Mail (For Pregnancy Functionality)
+        {
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"Harvey_Letter": "{{i18n:Harvey_Letter}}",
+				"Harvey_Letter2": "{{i18n:Harvey_Letter2}}",
+				"Toshinori_BabyArrives": "{{i18n:Toshinori_BabyArrives}}",
+				"Toshinori_BabyCrawling": "{{i18n:Toshinori_BabyCrawling}} ",
+				"Izuku_Letter": "{{i18n:Izuku_Letter}}",
+				"Izuku_Letter2": "{{i18n:Izuku_Letter2}}",
+				"Izuku_Letter3":"{{i18n:Izuku_Letter3}}",
+			}
+		},
+
+//**Interactions with External Mods**
+//WIP
+//NPCs to Acknowledge: SVE Victor, Olivia, Andy, Susan, Sophia, Morris, + Marlon 3753 | Kim 6486 | Mister Ginger 5295 | Professor Jasper 5599 | Lyell 4499 | Nikolai 4882 | John 4500 | Lucikiel 6307 | 
+//  "When": {
+//            "HasMod": "KimJyeulNPC.ExnoticTest"
+//         }
+//  "When": {
+//            "HasMod": "FlashShifter.StardewValleyExpandedCP"
+//         }
+// 
+//  "When": {
+//            "HasMod": "FlashShifter.StardewValleyExpandedCP"
+//         }
+//  "When": {
+//            "HasMod": "LemurKat.Mr.Ginger.NPC"
+//         }
+ 
+
+  ]
+}

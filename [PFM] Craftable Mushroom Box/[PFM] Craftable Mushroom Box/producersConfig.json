@@ -1,0 +1,8 @@
+[
+	{
+		"ProducerName":"Mushroom Box",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": true,
+		"NoInputStartMode": "Placement"
+	},
+]

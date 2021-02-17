@@ -1,0 +1,48 @@
+[
+	{
+		"Id": "gv.batwingsandwich",
+		"Text": "batwingsandwich.text",
+		"Recipe": "Bat Wing Sandwich",
+		"LetterBG": "HekateStationary.png",
+		"Date": "1 spring Y1",
+		"TextColor": 4,
+		"Repeatable": false,
+		"EventsSeen": [13730009],
+	},
+	{
+        "Id": "gv.hephquest1", 
+        "GroupID": "Hephaestus.Quest",
+        "Text": "refinedquartz.text", 
+        "WhichBG": 1,
+		"TextColor": 3,
+        "Repeatable": false,          
+        "FriendshipConditions":
+        [
+            { "NpcName": "Hephaestus", "FriendshipLevel": 3 }
+        ],
+    },
+		{
+        "Id": "gv.hephquest2", 
+        "GroupID": "Hephaestus.Quest",
+        "Text": "slimequest.text", 
+        "WhichBG": 1,
+		"TextColor": 3,
+        "Repeatable": false,          
+        "FriendshipConditions":
+        [
+            { "NpcName": "Hephaestus", "FriendshipLevel": 5 }
+        ],
+    },
+		{
+        "Id": "gv.hephquest3", 
+        "GroupID": "Hephaestus.Quest",
+        "Text": "iridiumbar.text", 
+        "WhichBG": 1,
+		"TextColor": 3,
+        "Repeatable": false,          
+        "FriendshipConditions":
+        [
+            { "NpcName": "Hephaestus", "FriendshipLevel": 7 }
+        ],
+    },
+]

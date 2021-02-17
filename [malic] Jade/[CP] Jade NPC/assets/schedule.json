@@ -1,0 +1,30 @@
+{
+    "Changes": [
+		{
+			"LogName": "Jade - Schedule",
+			"Action": "Load",
+			"Target": "Characters/schedules/Jade",
+			"FromFile": "{{blankFile}}"
+		},
+		
+		// Schedule Dialogue (only for mod support at the moment. loads blank)
+		{
+			"LogName": "Jade - Schedule Dialogue", 
+			"Action": "Load",	
+			"Target": "Strings/schedules/Jade",	
+			"FromFile": "{{blankFile}}"
+		},
+		
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Jade",
+            "Entries": {
+				"spring": "610 {{ScheduleAfterSpawnLocation}}/800 {{ScheduleBenchSit}} jade_sit/1000 {{ScheduleBenchSit}} jade_read/1100 {{ScheduleAlexDogVisit}}/1230 {{ScheduleBenchSit}} jade_sit/1300 {{ScheduleBenchSit}} jade_read/2000 {{ScheduleAfterSpawnLocation}}/2100 {{SpawnLocation}} 1",
+				"summer": "610 {{ScheduleAfterSpawnLocation}}/800 {{ScheduleBenchSit}} jade_sit/1000 {{ScheduleBenchSit}} jade_read/1100 {{ScheduleAlexDogVisit}}/1230 {{ScheduleBenchSit}} jade_sit/1300 {{ScheduleBenchSit}} jade_read/2000 {{ScheduleAfterSpawnLocation}}/2100 {{SpawnLocation}} 1",
+				"winter": "610 {{ScheduleAfterSpawnLocation}}/800 {{ScheduleBenchSit}} jade_sit/1000 {{ScheduleBenchSit}} jade_read/1100 {{ScheduleAlexDogVisit}}/1230 {{ScheduleBenchSit}} jade_sit/1300 {{ScheduleBenchSit}} jade_read/2000 {{ScheduleAfterSpawnLocation}}/2100 {{SpawnLocation}} 1",
+				"fall": "610 {{ScheduleAfterSpawnLocation}}/800 {{ScheduleBenchSit}} jade_sit/1000 {{ScheduleBenchSit}} jade_read/1100 {{ScheduleAlexDogVisit}}/1230 {{ScheduleBenchSit}} jade_sit/1300 {{ScheduleBenchSit}} jade_read/2000 {{ScheduleAfterSpawnLocation}}/2100 {{SpawnLocation}} 1",
+				"rain": "610 {{ScheduleAfterSpawnLocation}}/1100 Saloon 35 18 0/2000 {{ScheduleAfterSpawnLocation}}/2100 {{SpawnLocation}} 1",
+			}
+        }
+    ]
+}

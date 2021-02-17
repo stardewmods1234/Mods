@@ -1,0 +1,49 @@
+{
+	"Name": "EmbraceFruit",
+	"Description": "A warm fruit like Bianka's presence. Seems to reduce pain for a few seconds.",
+	"Category": "Crafting",
+	"Edibility": 5,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": {
+    "Farming": 0,
+    "Fishing": 0,
+    "Mining": 0,
+    "Luck": 0,
+	"Foraging": 0,
+	"MaxStamina": 0,
+    "MagnetRadius": 0,
+	"Speed": 0,
+	"Defense": 50,
+	"Attack": 0,
+    "Duration": 10,
+	},
+	"Price": 10,
+	"IsColored": false,
+	"GiftTastes":
+	{
+		"Love": ["Bianka"],
+	},
+
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Amethyst",
+        "Count": 1,
+      },
+      {
+        "Object": "Umuwi Lanzones",
+        "Count": 5,
+      },
+    ],
+	},
+
+	"NameLocalization":
+	{
+		//
+	},
+	"DescriptionLocalization":
+	{
+		//
+	},
+}

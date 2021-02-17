@@ -1,0 +1,62 @@
+{
+    "Name": "Mushroom Box",
+    "Description": "Place down to grow mushrooms anywhere.",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": true,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 709, //Hardwood
+            "Count": 10,
+        },
+        {
+            "Object": 368, //Basic Fertilizer
+            "Count": 3,
+        },
+        {
+            "Object": 725, //Oak Resin
+            "Count": 1,
+        }, 
+		{
+            "Object": 557, //Petrified Slime
+            "Count": 3,
+        }, 
+		],
+		"IsDefault": false,
+        "SkillUnlockName": "Foraging",
+		"SkillUnlockLevel": 6,
+    },
+	"CanPurchase": false,
+    "PurchaseFrom": "Robin",
+    "PurchasePrice": 1000,
+  "NameLocalization": { 
+		// "es": "",
+		//"ko": "",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        //"ko": "",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    }  
+}

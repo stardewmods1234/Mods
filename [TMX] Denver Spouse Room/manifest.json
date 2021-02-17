@@ -1,0 +1,11 @@
+{
+  "Name": "Balverines spouse room",
+  "Author": "balverines",
+  "Version": "2.1",
+  "Description": "Spouse Room for Denver",
+  "UniqueID": "balverines.denver.room",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.4.0"
+  }
+}

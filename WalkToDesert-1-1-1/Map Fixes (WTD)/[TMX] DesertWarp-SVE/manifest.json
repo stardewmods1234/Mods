@@ -1,0 +1,19 @@
+﻿{
+  "Name": "[TMX] Desert Warp SVE",
+  "Author": "Tarniyar",
+  "Version": "1.0.6",
+  "Description": "Adds warp compatibilities",
+  "UniqueID": "Tarniyar.TMX.WTD.DesertWarpSVE",
+  "MinimumApiVersion": "2.0",
+  "UpdateKeys": [ ],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.6.4"
+  },
+  "Dependencies": [
+  {
+	"UniqueID": "Tarniyar.TMX.WalkToDesert",
+	"IsRequired": true,
+  }
+  ]
+}

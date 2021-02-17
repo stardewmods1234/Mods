@@ -1,0 +1,13 @@
+{
+   "Name": "[CON] Tiny Discoveries In The Depths",
+   "Author": "mikeInside",
+   "Version": "1.0.0",
+   "Description": "New tiny formations to discover in the mines. Content pack for Custom Ore Nodes by aedenthorn.",
+   "UniqueID": "mikeInside.TinyDiscoveriesInTheDepths",
+   "MinimumApiVersion": "3.4.0",
+   "UpdateKeys": [ ],
+   "ContentPackFor": {
+      "UniqueID": "aedenthorn.CustomOreNodes", 
+      "MinimumVersion": "0.3.0" 
+   }
+}

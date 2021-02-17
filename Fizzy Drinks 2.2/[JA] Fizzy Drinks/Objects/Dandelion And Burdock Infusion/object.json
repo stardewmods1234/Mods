@@ -1,0 +1,38 @@
+﻿{
+  "Name": "Dandelion and Burdock Infusion",
+  "Description": "Made from Dandelion and Burdock Root. Used to make Dandelion and Burdock Soda.",
+  "Category": "ArtisanGoods",
+  "Edibility": 20,
+  "Price": 250,
+  "IsColored": false,
+  "CanPurchase": true,
+  "PurchasePrice": 200,
+  "Recipe": null,
+"NameLocalization": { 
+    // "es": "",
+    "ko": "민들레 우엉 인퓨전",
+    // "de": "",
+    // "fr": "",
+    // "hu": "",
+    // "it": "",
+    // "ja": "",
+    // "pt": "",
+    // "ru": "",
+    // "tr": "",
+     "zh": "蒲公英和牛蒡输液",
+     },
+ "DescriptionLocalization": { 
+    // "es": "",
+    "ko": "민들레와 우엉 뿌리로 만들어졌다. 소다 재료로 쓰인다.",
+    // "de": "",
+    // "fr": "",
+    // "hu": "",
+    // "it": "",
+    // "ja": "",
+    // "pt": "",
+    // "ru": "",
+    // "tr": "",
+     "zh": "从蒲公英和牛蒡制成。 用作苏打水成分。",
+    }
+}
+

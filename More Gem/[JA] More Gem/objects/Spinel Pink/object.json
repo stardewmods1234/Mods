@@ -1,0 +1,46 @@
+{
+    "Name": "Pink Spinel",
+    "Description": "A gem of a similar makeup to sapphire.",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
+    "Edibility": -300,
+    "Price": 200,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "핑크 스피넬",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Espinela Cor-de-Rosa",
+        // "ru": "",
+        // "tr": "",
+        "zh": "粉尖晶石",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "사파이어와 매우 흡사한 보석.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Uma jóia muito semelhante à safira.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "一种与蓝宝石有着极高相似度的宝石。",
+    },
+	
+    "ContextTags": [
+        "color_pink", "spinel_item", "pink_gem", 
+    ],
+}

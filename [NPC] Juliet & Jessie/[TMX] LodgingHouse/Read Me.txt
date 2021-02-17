@@ -1,0 +1,57 @@
+REQUIREMENTS:
+
+- Content Patcher
+- TMXLoader
+- DaisyNiko's Tilesheets
+	DaisyNiko.Tilesheets
+    	Nexus Mod:4736
+- Custom NPC Fixes
+	spacechase0.CustomNPCFixes
+  	Nexus Mod:3849
+
+RECOMMENDED:
+
+- NPC Jade 
+	malic.cp.jadeNPC
+  	Nexus Mod:5559
+	
+Juliet and Gale's house can be found up and behind the community center. If you have used that little fenced area for anything, don't use the SVR2 configuration! It leaves an opening at the back, and both the characters will walk straight through and destroy anything you've put in their path. You have been warned.
+
+Designed for compatibility with:
+- Karmylla's Immersive Maps
+- Stardew Valley Reimagined 2
+
+1. Will automatically see if you have KIM and/or SVR2 installed.
+	- If only SVR2 installed, will load the appropriate patch
+	- If both SVR2 and KIM installed, will default to vanilla (Karm compatible as well)
+	- If you wish to show SVR2 and have both installed, then set the config to "reimagined"
+2. Will not break anything if it messes up, the shadows just won't align properly.
+
+NOTE: If you are using mods that replace the town map, you should also install 'Reset Terrain Features' (MabelSyrup.ResetTerrainFeatures Nexus Mods: 4715) and perform a bush reset on the town map BEFORE triggering Juliet's 4-heart scene. If you do not, it may crash the event and force you to skip it. I have had to remove some bushes to enable it properly.
+Once you have seen the scene, you can reset the terrain again and it should be restored to its intended appearance.
+
+NOT COMPATIBLE WITH STARDEW VALLEY EXPANDED
+And never will be. Sorry.
+(why not? Because SVE has their own version of the JojaMart clerk.)
+
+If you are an NPC creator and would like your character to work part-time at the Joja Mart, then please message me. 
+Current hours these two characters cover are:
+Juliet	Mon Fri 9-5 		Sun 5-11
+Gale 	Mon Fri 5-11  Sat 9-11	Sun 9-5
+If you would like to give Gale a day off, we are taking applications :) 
+Note, even if the chars misbehave* and refuse to work, you can still purchase items from the JojaMart counter.
+(* Juliet is proving problmatic, but Gale is an absolute delight)
+
+SPECIAL CREDIT TO:
+
+* Fellowclown for the sprites, portraits and personality of Gale.
+  She is his character, and he has kindly gifted her to me for use in this mod, as Juliet's landlord, role model, guardian and friend.
+  I hope I have presented her well.
+* DaisyNiko for her beautiful flowers and other garden decorations that have brought the lodging house's clearing into beautiful life.
+* Eemie (and Minerva) for the beautiful Victorian House that is the lodging house. [Nexus: 890]
+* Efa for the edits on my Juliet portrait that brought her into glorious life.
+* EssGee for Gremlin's portrait, and help with Juliet's alt-attire portraits - also for being another supportive NPC creator.
+* Malic for allowing Jade to move in and become Juliet's roomie (housemate/flatmate/friend).
+* Haleatsburrito for 'Yet Another Dog Mod' [Nexus:1853] whose pomeranian formed the basis for Gremlin.
+* Pathoschild for creating Smapi, Content Patcher, and also helping me when Juliet began wilfully refusing to work.
+* Everyone else on the Stardew Valley Discord and all the other related SDV discord channels that have offered suggestions, advice, listened to me vent (have I mentioned Juliet it troublesome?), and overall just been awesome at guiding me through the process.

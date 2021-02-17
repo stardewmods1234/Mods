@@ -1,0 +1,65 @@
+{
+    "Name": "Marine Gem Cultivator",
+    "Description": "Grows pearls and coral.",
+    "Price": 1,
+	"PurchaseFrom": "Willy",
+	"PurchasePrice": 30000,
+    "ProvidesLight": true,
+    "ReserveNextIndex": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+			{
+				"Object": 390, //Stone
+				"Count": 20,
+			},
+			{
+				"Object": 336, //Gold Bar
+				"Count": 1,
+			},
+			{
+				"Object": 725, //Oak Resin
+				"Count": 1,
+			}, 
+			{
+				"Object": 152, //Seaweed
+				"Count": 10,
+			}, 
+			{
+				"Object": 153, //Green Algae
+				"Count": 10,
+			}, 
+		],
+        "CanPurchase": true,
+		"PurchaseFrom": "Willy",
+		"PurchasePrice": 10000,
+    },
+  "NameLocalization": { 
+		// "es": "",
+		"ko": "양식용 아쿠아리움",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Cultivador de Jóias Marinhas",
+        // "ru": "",
+        // "tr": "",
+        "zh": "海洋宝石农场",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        "ko": "일정 확률로 진주와 산호를 배양할 수 있다.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Cultiva pérolas e corais.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "有机会人工培育出珊瑚和珍珠的养殖缸。",
+    }  
+}

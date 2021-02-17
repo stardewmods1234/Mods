@@ -1,0 +1,41 @@
+{
+  "Name": "Dark Tea Leaves",
+  "Description": "A kind of dark tea leaf.Is used on many occasions. ",
+  "Category": "vegetable",
+  "Edibility": 20,
+  "Price": 80,
+  "IsColored": false,
+  "GiftTastes":
+  {
+        "Love": ["Caroline", "Evelyn", "Linus", "Sandy", "Sebastian", "Andy"],
+        "Like": ["Elliott", "Harvey", "Abigail", "Leah", "Emily", "Penny", "Demetrius", "Dwarf", "Pam", "Robin", "Marlon", "Olivia", "Victor", "Jodi", "Kent", "Lewis", "Linus", "Susan", "Marlon"],
+        "Neutral": ["Alex", "Sam", "Shane", "Maru", "Clint", "Krobus", "George", "Marnie", "Pierre", "Vincent", "Willy", "Sophia", "Gus", "Wizard", "Haley", "Jas"],
+  },
+  "Recipe": null,
+  "NameLocalization": { 
+    //"es": "",
+    "ko": "흑찻잎",
+  /*  "de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",*/
+    "zh": "黑茶叶",
+  },
+ "DescriptionLocalization": { 
+    //*"es": "",
+    "ko": "여러곳에 쓰이는 찻잎이다.",
+  /*  "de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",*/
+    "zh": "一种黑色的茶叶,在很多场合被用到",
+  },
+}

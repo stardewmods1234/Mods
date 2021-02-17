@@ -1,0 +1,17 @@
+{
+  "Name": "Walk to Desert Content Patcher",
+  "Author": "Tarniyar",
+  "Version": "1.1.1",
+  "Description": "Makes changes to vanilla game files.",
+  "UniqueID": "Tarniyar.CP.WalkToDesert",
+  "MinimumApiVersion": "3.0",
+  "UpdateKeys": [ "Nexus:6234" ],
+  "ContentPackFor": {
+  "UniqueID": "Pathoschild.ContentPatcher",
+   },
+  	"Dependencies": [
+		{
+			"UniqueID": "spacechase0.JsonAssets"
+		}
+	]
+}

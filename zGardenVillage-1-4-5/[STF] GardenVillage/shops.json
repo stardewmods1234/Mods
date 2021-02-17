@@ -1,0 +1,2122 @@
+{
+"RemovePacksFromVanilla": [
+	"BFV.FruitVeggie",
+	"uberkwefty.wintercrops"
+],
+  "Shops": [
+    {
+      "ShopName": "GVFlorist",
+	  "StoreCurrency": "Money",
+	  "CategoriesToSellHere": [-74,-80,-81],
+	  	  "PortraitPath": "assets/Rose-portrait.png",
+	  "Quote": "Hello! Can I help you find something?",
+	  "When": ["t 900 1700"],
+
+      "ItemStocks": [
+        {
+          "ItemType": "Object",
+          "ItemNames": [
+            "Daffodil",
+			"Crocus",
+			"Dandelion",
+			"Fairy Rose",
+			"Sunflower",
+			"Tulip",
+			"Blue Jazz",
+			"Bouquet"
+          ],
+		  "MaxNumItemsSoldInItemStock": 3
+        },
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+		"Dozen Dark Pink Roses",
+		"Dozen Light Pink Roses",
+		"Dozen Red Roses",
+		"Dozen White Roses",
+		"Dozen Yellow Roses",
+		],
+		"MaxNumItemsSoldInItemStock": 2
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+		"Tulip Bulb",
+		"Jazz Seeds",
+		],
+		"When": ["!z spring"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+		"Spangle Seeds",
+		"Poppy Seeds",
+		"Sunflower Seeds"
+		],
+		"When": ["!z summer"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+		"Sunflower Seeds",
+		"Fairy Seeds"
+		],
+		"When": ["!z fall"]
+		},
+		// Bonsters crops flower
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Nasturtium Seeds"
+		],
+		"When": ["HasMod BFV.FruitVeggie/!z summer"]
+		},
+		// PPJA Mizus Flowers
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Chamomile Seeds",
+			"Shaded Violet Seeds",
+			"Spring Rose Starter",
+			"Rose Starter",
+		],
+		"When": ["HasMod mizu.flowers/!z spring"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Pitcher Plant Starter",
+			"Rafflesia Seeds",
+		],
+		"When": ["HasMod mizu.flowers/!z spring/y 3"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Blue Mist Seeds",
+			"Clary Sage Seeds",
+			"Fragrant Lilac Pod",
+			"Herbal Lavender Seeds",
+			"Passion Flower Seeds",
+			"Rose Starter",
+			"Summer Rose Starter",
+		],
+		"When": ["HasMod mizu.flowers/!z summer"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Rafflesia Seeds",
+		],
+		"When": ["HasMod mizu.flowers/!z summer/y 3"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Fall Rose Starter",
+			"Purple Coneflower Seeds",
+			"Rose Starter",
+			"Sweet Jasmine Seeds",
+		],
+		"When": ["HasMod mizu.flowers/!z fall"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Rafflesia Seeds",
+		],
+		"When": ["HasMod mizu.flowers/!z fall/y 3"]
+		},	
+		// Winter Crops flowers
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Christmas Rose Seeds",
+			"Mahonia Seeds"
+		],
+		"When": ["HasMod uberkwefty.wintercrops/!z winter"]
+		},
+		// PPJA More Trees
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Fragrant Wisteria Sapling"
+		],
+		"When": ["HasMod ppja.moretrees"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Eucalyptus Sapling"
+		],
+		"When": ["HasMod ppja.moretrees/y 2"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Camphor Sapling",
+			"Melaleuca Sapling",
+			"Ylang Ylang Sapling"
+		],
+		"When": ["HasMod ppja.moretrees/y 3"]
+		},
+      ],
+	  	  "ClosedMessage": "I'm sorry, but the shop is closed now. Please come back tomorrow."
+    },
+	{
+      "ShopName": "GVSeeds",
+	  "StoreCurrency": "Money",
+	  "CategoriesToSellHere": [],
+	  "PortraitPath": "assets/Rose-portrait.png",
+	  "Quote": "Expanded Seed Catalogue",
+	  "When": ["t 900 1800"],
+
+      "ItemStocks": [
+        {
+		"ItemType": "Object",
+		"ItemNames": [
+		"Spring Seeds",
+		"Summer Seeds",
+		"Fall Seeds",
+		"Winter Seeds",
+		"Mixed Seeds"
+		],
+		"Stock": 5,
+		"MaxNumItemsSoldInItemStock": 2
+		},
+		// Bonsters crops seeds
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Lingonberry Seeds"
+		],
+		"When": ["HasMod BFV.FruitVeggie/!z spring"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Cloudberry Seeds",
+			"White Alpine Strawberry Seeds",
+			"Chayote Seeds",
+		],
+		"When": ["HasMod BFV.FruitVeggie/!z spring/y 2"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Cranberry Beans Seeds",
+			"Green Chile Seeds",
+			"Red Currant Seeds",
+			"Rose Hips Seeds",
+		],
+		"When": ["HasMod BFV.FruitVeggie/!z spring/y 3"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Benne Sesame Seed",
+			"Cardamom Seeds",
+			"Summer Squash Seeds",
+			"Cowpea Seeds",
+			"Peppercorn Seeds",
+		],
+		"When": ["HasMod BFV.FruitVeggie/!z summer"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Chayote Seeds",
+			"Prickly Pear Seeds",
+			"Scotch Bonnet Pepper Seeds",
+			"Blue Corn Seeds",
+			"Sunchoke Seeds",
+		],
+		"When": ["HasMod BFV.FruitVeggie/!z summer/y 2"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Rose Hips Seeds",
+			"Blackcurrant Seeds",
+			"Maypop Seeds",
+			"Roselle Hibiscus Seeds"
+		],
+		"When": ["HasMod BFV.FruitVeggie/!z summer/y 3"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Black Beans Seeds",
+			"Oats Seeds",
+			"Cowpea Seeds",
+			"Peppercorn Seeds",
+			"Candy Roaster Squash Seeds",
+		],
+		"When": ["HasMod BFV.FruitVeggie/!z fall"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Salsify Seeds",
+			"Blue Corn Seeds",
+			"Sunchoke Seeds",
+		],
+		"When": ["HasMod BFV.FruitVeggie/!z fall/y 2"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"White Currant Seeds",
+		],
+		"When": ["HasMod BFV.FruitVeggie/!z fall/y 3"]
+		},
+		// PPJA Fruits & Veggies
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Basil Seeds",
+			"Cabbage Seeds",
+			"Onion Seeds",
+			"Parsley Seeds",
+			"Spinach Seeds"
+		],
+		"When": ["HasMod ppja.fruitsandveggies/!z spring"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Buckwheat Seeds",
+			"Ginseng Seeds",
+			"Muskmelon Seeds",
+			"Passion Fruit Seeds",
+			"Sugar Beet Seeds",
+			"Sweet Canary Melon Seeds"
+		],
+		"When": ["HasMod ppja.fruitsandveggies/!z spring/y 2"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Bamboo Cutting",
+			"Licorice Root Seeds",
+			"Maguey Seeds",
+			"Rapeseed Seeds",
+			"Red Onion Seeds",
+			"Shallot Seeds",
+			"Shiitake Mushroom Starter"
+		],
+		"When": ["HasMod ppja.fruitsandveggies/!z spring/y 3"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Adzuki Bean Seeds",
+			"Chive Seeds",
+			"Cotton Seeds",
+			"Lettuce Seeds",
+			"Navy Bean Seeds",
+			"Oregano Seeds"
+		],
+		"When": ["HasMod ppja.fruitsandveggies/!z summer"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Cassava Seeds",
+			"Cucumber Starter",
+			"Ginseng Seeds",
+			"Gooseberry Seeds",
+			"Kiwi Seeds",
+			"Raspberry Seeds",
+			"Wasabi Root"			
+		],
+		"When": ["HasMod ppja.fruitsandveggies/!z summer/y 2"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Asparagus Seeds",
+			"Bamboo Cutting",
+			"Butternut Squash Seeds",
+			"Chickpea Seeds",
+			"Green Pea Seeds",
+			"Maguey Seeds",
+			"Okra Seeds",
+			"Perilla Seeds",
+			"Quinoa Seeds",
+			"Rapeseed Seeds",
+			"Sulfur Shelf Mushroom Seeds",
+			"Zucchini Seeds"			
+		],
+		"When": ["HasMod ppja.fruitsandveggies/!z summer/y 3"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Bell Pepper Seeds",
+			"Cabbage Seeds",
+			"Carrot Seeds",
+			"Cotton Seeds",
+			"Rosemary Seeds",
+			"Sage Seeds",
+			"Spinach Seeds",
+			"Thyme Seeds",
+			"Watermelon Seeds"
+		],
+		"When": ["HasMod ppja.fruitsandveggies/!z fall"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Barley Seeds",
+			"Blackberry Seeds",
+			"Broccoli Seeds",
+			"Celery Seeds",
+			"Fennel Seeds",
+			"Ginseng Seeds",
+			"Kiwi Seeds",
+			"Peanut Seeds",
+			"Soybean Seeds",
+			"Sweet Potato Seeds"
+		],
+		"When": ["HasMod ppja.fruitsandveggies/!z fall/y 2"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Durum Seeds",
+			"Habanero Seeds",
+			"Jalapeno Seeds",
+			"Kidney Bean Starter",
+			"Oat Seeds",
+			"Okra Seeds",
+			"Shiitake Mushroom Starter",
+			"Sulfur Shelf Mushroom Seeds",
+			"Tabasco Pepper Seeds"
+		],
+		"When": ["HasMod ppja.fruitsandveggies/!z fall/y 3"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Mint Seeds",
+			"Juniper Seeds"
+		],
+		"When": ["HasMod ppja.fruitsandveggies/!z winter"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Elderberry Seeds",
+			"Ginseng Seeds"
+		],
+		"When": ["HasMod ppja.fruitsandveggies/!z winter/y 2"]
+		},
+		// Winter Crops seeds
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Brussel Sprout Seeds",
+			"Iceberg Lettuce Seeds",
+			"Nettle Starter",
+			"Winter Carrot Seeds",
+			"Winter Onion Seeds",
+			"Winter Spinach Seeds",
+			"Winter Squash Seeds"
+		],
+		"When": ["HasMod uberkwefty.wintercrops/!z winter"]
+		},
+		// Bonsters crops saplings
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Chestnut Sapling",
+			"Purple Pluot Sapling",
+			"Quince Sapling",
+			"Tamarind Sapling",
+		],
+		"When": ["HasMod BonsterTrees"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Blood Orange Sapling",
+			"Cherimoya Sapling",
+			"Clove Sapling",
+			"Jujube Sapling",
+			"Mangosteen Sapling",
+			"Stone Pine Sapling"
+		],
+		"When": ["HasMod BonsterTrees/y 2"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Jackfruit Sapling",
+			"Mamey Sapote Sapling",
+			"Mayhaw Sapling",		
+			"Pawpaw Sapling"
+		],
+		"When": ["HasMod BonsterTrees/y 3"]
+		},
+		// PPJA More Trees saplings
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Almond Sapling",
+			"Lemon Sapling",
+			"Lime Sapling",
+			"Pear Sapling",
+			"Persimmon Sapling"
+		],
+		"When": ["HasMod ppja.moretrees"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Cashew Sapling",
+			"Cinnamon Sapling",
+			"Cocoa Sapling",
+			"Fig Sapling",
+			"Granny Smith Sapling",
+			"Olive Sapling",
+			"Pecan Sapling"
+		],
+		"When": ["HasMod ppja.moretrees/y 2"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Asian Pear Sapling",
+			"Avocado Sapling",
+			"Grapefruit Sapling",
+			"Pomelo Sapling",
+			"Ume Sapling",
+			"Yuzu Sapling"
+		],
+		"When": ["HasMod ppja.moretrees/y 3"]
+		},
+		// Winter Crops saplings
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Asian Persimmon Sapling",
+			"Ponderosa Lemon Sapling"
+		],
+		"When": ["HasMod uberkwefty.wintercrops/!z winter"]
+		},
+      ],
+	  	  "ClosedMessage": "I'm sorry, but the shop is closed now. Please come back tomorrow."
+    },
+	{
+      "ShopName": "GVDiner",
+	  "StoreCurrency": "Money",
+	  "CategoriesToSellHere": [],
+	  "PortraitPath": "assets/Hacan-portrait.png",
+	  "Quote": "What would you like? We serve a little of everything!",
+	  "When": ["t 900 1700"],
+      "ItemStocks": [
+        {
+			"ItemType": "Object",
+			"ItemNames": [
+				"Omelet",
+				"Baked Fish",
+				"Complete Breakfast",
+				"Vegetable Medley",
+				"Eggplant Parmesan",
+				"Fried Mushroom",
+				"Salmon Dinner",
+				"Fish Taco",
+				"Spaghetti",
+				"Fried Eel",
+				"Red Plate",
+				"Autumn's Bounty",
+				"Super Meal",
+				"Stir Fry",
+				"Radish Salad",
+				"Fiddlehead Risotto",
+				"Chowder",
+				"Shrimp Cocktail",
+				"Ice Cream",
+				"Pizza"
+			],
+			"Stock": 3,
+			"MaxNumItemsSoldInItemStock": 4
+		},
+				{
+          "ItemType": "Object", //PPJA recipes foods
+          "ItemNames": [
+            "Deviled Eggs",
+			"Fried Rice",
+			"Fried Sweet Bananas",
+			"Garlic Bread",
+			"Grilled Cheese",
+			"Grilled Zucchini",
+			"Halloumi Burger",
+			"Mushroom and Pepper Crepe",
+			"Orange Juice",
+			"Pea Soup",
+			"Peach Milk",
+			"Pineapple Pizza",
+			"Salsa",
+			"Spring Salad",
+			"Waffles"
+          ],
+		  "MaxNumItemsSoldInItemStock": 3,
+		  "When": [		  
+		  "HasMod ppja.evenmorerecipes"		  
+		  ]
+        },
+		{
+          "ItemType": "Object", //PPJA more meat recipes foods
+          "ItemNames": [
+			"Bangers Beans and Mash",
+			"Breakfast Sandwich",
+			"Bulgogi",
+			"Chicken and Spinach Crepe",
+			"Dumplings",
+			"Mild Curry",
+			"Paella"
+          ],
+		  "MaxNumItemsSoldInItemStock": 2,
+		  "When": [		  
+		  "HasMod ppja.MoreRecipesMeat",
+		  "HasMod ppja.FreshMeatforPFM" // Fresh Meat BETA
+		  ]
+        },
+		{
+          "ItemType": "Object", //PPJA meat recipes foods
+          "ItemNames": [
+			"Bacon Hamburger",
+			"Bacon n Eggs",
+			"Beef Burrito",
+			"Beef Ribs",
+			"Cheeseburger",
+			"Grilled Skewer",
+			"Hot Dog",
+			"Steak"
+          ],
+		  "MaxNumItemsSoldInItemStock": 2,
+		  "When": [
+		  "HasMod paradigmnomad.freshmeat"
+		  ]
+        },
+		{
+          "ItemType": "Object", //PPJA vegetable recipes foods
+          "ItemNames": [
+			"Avocado Eel Roll",
+			"Avocado Toast",
+			"Baked Sweet Potato",
+			"Broccoli and Cheese",
+			"Chocolate Pudding",
+			"Cucumber Roll",
+			"Cucumber Sandwich",
+			"Island Salad",
+			"Melon Salad",
+			"PB&J Sandwich",
+			"Poached Pear",
+			"Rice Pilaf",
+			"Sweet Potato Fries",
+			"Vegetable Stirfry"
+          ],
+		  "MaxNumItemsSoldInItemStock": 2,
+		  "When": [
+		  "HasMod paradigmnomad.morefood"
+		  ]
+        },
+		// PPJA Artisan Valley
+		{
+          "ItemType": "Object",
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Pizokel"
+          ],
+		  "When": [
+		  "HasMod ppja.artisanvalleymachinegoods/y 2"
+		  ]
+        },
+		// PPJA More Recipes
+		{
+          "ItemType": "Object",
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Chamomile Tea",
+			"Fruit Tea",
+			"Lemon Tea",
+          ],
+		  "When": [
+		  "HasMod paradigmnomad.morefood"
+		  ]
+        },
+		{
+          "ItemType": "Object",
+		  "IsRecipe": true, 
+		  "StockPrice": 100,
+          "ItemNames": [
+			"Black Tea"
+          ],
+		  "When": [
+		  "HasMod paradigmnomad.morefood/e 719926"
+		  ]
+        },
+		{
+          "ItemType": "Object",
+		  "IsRecipe": true, 
+		  "StockPrice": 100,
+          "ItemNames": [
+			"White Tea"
+          ],
+		  "When": [
+		  "HasMod paradigmnomad.morefood/y 2/e 719926"
+		  ]
+        },
+		{
+          "ItemType": "Object",
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Blue Mist Tea"
+          ],
+		  "When": [
+		  "HasMod paradigmnomad.morefood/!z summer"
+		  ]
+        },
+		{
+          "ItemType": "Object",
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Mint Tea"
+          ],
+		  "When": [
+		  "HasMod paradigmnomad.morefood/!z winter"
+		  ]
+        },
+		{
+          "ItemType": "Object",
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Avocado Eel Roll",
+			"Avocado Toast",
+			"Chocolate Covered Strawberry",
+			"Chocolate Pudding",
+			"Crab Roll",
+			"Cucumber Roll",
+			"Cucumber Sandwich",
+			"Earl Grey Tea",
+			"Jasmine Tea",
+			"Rose Tea",
+			"Spice Tea",
+          ],
+		  "When": [
+		  "HasMod paradigmnomad.morefood/y 2"
+		  ]
+        },
+		{
+          "ItemType": "Object",
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Barley Tea",
+          ],
+		  "When": [
+		  "HasMod paradigmnomad.morefood/y 2/!z summer"
+		  ]
+        },
+		{
+          "ItemType": "Object",
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Breakfast Tea",
+			"Lavender Milk Tea",
+			"Oolong Tea"
+          ],
+		  "When": [
+		  "HasMod paradigmnomad.morefood/y 3"
+		  ]
+        },
+		{
+          "ItemType": "Object",
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Berry Fusion Tea"
+          ],
+		  "When": [
+		  "HasMod paradigmnomad.morefood/y 3/!z spring"
+		  ]
+        },
+		{
+          "ItemType": "Object",
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Southern Sweet Tea"
+          ],
+		  "When": [
+		  "HasMod paradigmnomad.morefood/y 3/!z summer"
+		  ]
+        },
+		{
+          "ItemType": "Object",
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Chai Tea",
+			"Cranberry Pomegranate Tea"
+          ],
+		  "When": [
+		  "HasMod paradigmnomad.morefood/y 3/!z fall"
+		  ]
+        },
+		{
+          "ItemType": "Object",
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Crocus White Tea"
+          ],
+		  "When": [
+		  "HasMod paradigmnomad.morefood/y 3/!z winter"
+		  ]
+        },
+		// PPJA Even More Recipes
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Cheese Fries",
+			"Fresh Lemonade",
+			"Fried Rice",
+			"Fried Sweet Bananas",
+			"Garlic Bread",
+			"Grilled Cheese",
+			"Limeade",
+			"Meuniere",
+			"Ramen",
+			"Soft Pretzel",
+			"Spinach Dip",
+			"Spring Salad",
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes"
+		  ]
+        },
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Cotton Candy",
+			"Grilled Zucchini",
+			"Miso Soup",
+			"Onion Pumpkin Soup",
+			"Salmon Onigiri",
+			"Smores",
+			"Strawberry Lemonade",
+			"Tendon",
+			"Tiradito",
+			"Tuna Mayo Onigiri",
+			"Ume Onigiri",
+			"Waffles",
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes/y 2"
+		  ]
+        },
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Caramel Apple",
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes/y 2/!z fall"
+		  ]
+        },
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Bunny Cotton Candy",
+			"Crab in Oyster Sauce",
+			"Halloumi",
+			"Halloumi Burger",
+			"Heart Lollipop",
+			"Ice Cream and Jam Cake",
+			"Ice Cream Brownie",
+			"Pea Soup",
+			"Penne al Arrabiata",
+			"Pierogi",
+			"Pineapple Pizza",
+			"Rainbow Cotton Candy",
+			"Wasabi Peas",
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes/y 3"
+		  ]
+        },
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Candied Apple",
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes/y 3/!z fall"
+		  ]
+        },
+		// PPJA Fresh Meat recipes
+		{
+          "ItemType": "Object",
+		  "IsRecipe": true,		  
+          "ItemNames": [
+		    "Bacon n Eggs",
+			"Bangers Beans and Mash",
+			"Beef Ribs"
+          ],
+		  "When": [		  
+		  "HasMod paradigmnomad.freshmeat",
+		  ]
+        },
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true,
+          "ItemNames": [
+			"Bacon Hamburger",
+			"Barbecue Sausage",
+			"Beef Burrito",
+			"Breakfast Sandwich",
+			"Cheese Board",
+			"Cheeseburger",
+			"Corndog",
+			"Lula Kebab",
+			"Poutine",
+			"Schnitzel",
+			"Spaghetti Bolognese",
+			"Sweet and Sour Pork with Rice",
+			"Teriyaki",
+			"Toast Williams"
+          ],
+		  "When": [
+		  "HasMod paradigmnomad.freshmeat/y 2"
+		  ]
+        },
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true,
+          "ItemNames": [
+			"Toast Hawaii"
+          ],
+		  "When": [
+		  "HasMod paradigmnomad.freshmeat/y 2/n willyHours"
+		  ]
+        },
+		{
+          "ItemType": "Object",
+		  "IsRecipe": true,		  
+          "ItemNames": [
+			"Asam Pedas",
+			"Bulgogi",
+			"Dumplings",
+			"Mild Curry",
+			"Paella",
+			"Pizza Diavolo",
+			"Sorrel Soup"
+          ],
+		  "When": [		  
+		  "HasMod paradigmnomad.freshmeat/y 3"
+		  ]
+        },
+		],
+	  	  "ClosedMessage": "I'm sorry, but the shop is closed now. Please come back tomorrow."
+    },
+	    {
+      "ShopName": "GVBakery",
+	  "StoreCurrency": "Money",
+	  "CategoriesToSellHere": [],
+	  	  "PortraitPath": "assets/Kay-portrait.png",
+	  "Quote": "Welcome! What can I get you today?",
+	  "When": ["t 900 1700"],
+
+      "ItemStocks": [
+        {
+          "ItemType": "Object",
+          "ItemNames": [
+            "Maple Bar",
+			"Chocolate Cake",
+			"Pink Cake"
+          ],
+		  
+        },
+		{
+          "ItemType": "Object",
+          "ItemNames": [
+            "Apple Pie",
+			"Banana Bread",
+			"Bear Donut",
+			"Better Pumpkin Pie",
+			"Blueberry Macaron",
+			"Cookie Bear",
+			"Cookie Cat",
+			"Cookie Pig",
+			"Cookie Squid",
+			"Fox Donut",
+			"Lemon Pie",
+			"Lilac Macaron",
+			"Matcha Cookies",
+			"Pathos Cookie",
+			"Pecan Pie",
+			"Pig Donut",
+			"Plain Chocolate Donut",
+			"Plain Strawberry Donut",
+			"Plain Vanilla Donut",
+			"Purple Pastel Cake",
+			"Rainbow Candy Cookies",
+			"Rich Tiramisu",
+			"Sprinkled Chocolate Donut",
+			"Sprinkled Lavender Donut",
+			"Sprinkled Strawberry Donut",
+			"Sprinkled Vanilla Donut",
+			"Strawberry Macaron",
+			"Strawberry Tart"
+          ],
+		  "MaxNumItemsSoldInItemStock": 5,
+		  "When": [		  
+		  "HasMod ppja.evenmorerecipes"		  
+		  ]
+        },
+		{
+          "ItemType": "Object",
+          "ItemNames": [
+            "Baker's Angel Food Cake",
+			"Baker's Banana Cream Pie",
+			"Baker's Blackberry Pie",
+			"Baker's Bread",
+			"Baker's Bread Rolls",
+			"Baker's Carrot Cake",
+			"Baker's Cherry Galette",
+			"Baker's Cinnamon Rolls",
+			"Baker's Confetti Roll Cake",
+			"Baker's Fig Galette",
+			"Baker's Irish Cream Cheesecake",
+			"Baker's Key Lime Pie",
+			"Baker's Lemon Coconut Cake",
+			"Baker's Lemon Ginger Blueberry Cheesecake",
+			"Baker's Macarons",
+			"Baker's Marble Bundt Cake",
+			"Baker's Pineapple Upside Down Cake",
+			"Baker's Red Velvet Roll Cake",
+			"Baker's Shortbread Cookies",
+			"Baker's Strawberry Rhubarb Pie",
+			"Baker's Ultimate Birthday Cake",
+			"Baker's Ultimate Wedding Cake",
+			"Baker's Wedding Cake",
+			"Baker's Zucchini Bread"
+          ],
+		  "MaxNumItemsSoldInItemStock": 5,
+		  "When": [		  
+		  "HasMod Ritsune.BakersLifeJA"		  
+		  ]
+        },
+		// PPJA Artisan Valley
+		{
+          "ItemType": "Object",
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Petit Four"
+          ],
+		  "When": [
+		  "HasMod ppja.artisanvalleymachinegoods/y 2"
+		  ]
+        },
+		// PPJA More Recipes
+		{
+          "ItemType": "Object",
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Banana Bread"
+          ],
+		  "When": [
+		  "HasMod paradigmnomad.morefood"
+		  ]
+        },
+		{
+          "ItemType": "Object",
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Raspberry Tart"
+          ],
+		  "When": [
+		  "HasMod paradigmnomad.morefood/y 2"
+		  ]
+        },
+		// PPJA Even More Recipes
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Apple Pie",
+			"Cherry Pie",
+			"Honey Cake",
+			"Iced Strawberry Donut",
+			"Iced Vanilla Donut",
+			"Lady Fingers",
+			"Matcha Cookies",
+			"Pecan Pie",
+			"Plain Chocolate Donut",
+			"Plain Strawberry Donut",
+			"Plain Vanilla Donut",
+			"Sprinkled Chocolate Donut",
+			"Sprinkled Lavender Donut",
+			"Sprinkled Strawberry Donut",
+			"Sprinkled Vanilla Donut",
+			"Strawberry Cake",
+			"Strawberry Tart",
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes"
+		  ]
+        },
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Strawberry Cake",
+			"Strawberry Tart",
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes/!z spring"
+		  ]
+        },
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Autumn Muffin",
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes/!z fall"
+		  ]
+        },
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Bear Donut",
+			"Brownie",
+			"Cheesecake",
+			"Chocolate Drizzle Cheesecake",
+			"Chocolate Roll Cake",
+			"Cookie Bear",
+			"Cookie Cat",
+			"Cookie Pig",
+			"Cookie Squid",
+			"Crème Brûlée",
+			"Cupcake Cat",
+			"Fox Donut",
+			"Lemon Lavender Cookie",
+			"Pig Donut",
+			"Pink Strawberry Cake",
+			"Purple Pastel Cake",
+			"Rich Tiramisu",
+			"Strawberry Cheesecake",
+			"Strawberry Roll Cake",
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes/y 2"
+		  ]
+        },
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Lemon Pie",
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes/y 2/!z spring"
+		  ]
+        },
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Iced Strawberry Cake",
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes/y 2/!z summer"
+		  ]
+        },
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Better Pumpkin Pie",
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes/y 2/!z fall"
+		  ]
+        },
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Mochi",
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes/y 2/!z winter"
+		  ]
+        },
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Blueberry Honey Cake",
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes/y 2/z winter"
+		  ]
+        },
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Blueberry Macaron",
+			"Lilac Macaron",
+			"Mushroom and Pepper Crepe",
+			"Rainbow Candy Cookies",
+			"Sachertorte",
+			"Strawberry and Cream Crepe",
+			"Strawberry Macaron",
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes/y 3"
+		  ]
+        },
+		// PPJA Fresh Meat recipes
+		{
+          "ItemType": "Object",
+		  "IsRecipe": true,		  
+          "ItemNames": [
+			"Chicken and Spinach Crepe",
+          ],
+		  "When": [		  
+		  "HasMod paradigmnomad.freshmeat/y 3",
+		  ]
+        },
+      ],
+	  	  "ClosedMessage": "I'm sorry, but the shop is closed now. Please come back tomorrow."
+    },
+	{
+      "ShopName": "GVClothier",
+	  "StoreCurrency": "Money",
+	  "CategoriesToSellHere": [-95,-96],
+	  "PortraitPath": "assets/Tuxford-hat.png",
+	  "Quote": "Hello! Can I help you find something?",
+	  "MaxNumItemsSoldInStore": 40,
+	  "When": ["t 900 1700"],
+
+      "ItemStocks": [
+	          {
+          "ItemType": "Clothing",
+          "ItemNames": [
+            "Flower Dance Shirt",
+			"Flower Dance Pants"		
+          ],
+		  "When":["!z spring"]
+        },
+		{
+          "ItemType": "Clothing",
+          "ItemNames": [
+			"Flower Dance Tuxedo",	
+          ],
+		  "When":["!z spring/y 2"]
+        },
+		{
+          "ItemType": "Clothing",
+          "ItemNames": [
+			"Flower Dance Blouse",
+			"Flower Dance Skirt"		
+          ],
+		  "When":["!z spring"]
+        },
+		{
+          "ItemType": "Hat",
+		  "StockPrice": 10000,
+		  "ItemNames": [
+			"Flower Crown"
+          ],
+		  "When":["!z spring"]
+        },
+		{
+          "ItemType": "Clothing",
+          "ItemNames": [
+		  	"White Tuxedo",
+			"White Dress Pants",
+			"Black Wedding Shirt",
+			"Black Tuxedo",
+			"Black Dress Pants",
+          ],
+        },
+		{
+          "ItemType": "Clothing",
+		  "StockPrice": 20000,
+          "ItemNames": [
+            "Bridal Shirt",	
+          ],
+        },
+		{
+          "ItemType": "Clothing",
+          "ItemNames": [
+			"Long Bridal Dress",
+			"Short Bridal Dress",
+			"Simple Bridal Dress",			
+          ],
+        },
+		{
+          "ItemType": "Hat",
+		  "StockPrice": 20000,
+          "ItemNames": [
+            "Bridal Veil"
+          ],
+        },
+		{
+          "ItemType": "Boot",
+		  "StockPrice": 20000,
+          "ItemNames": [
+            "Black Dress Shoes",
+			"White Dress Shoes"
+          ],
+        },
+        {
+          "ItemType": "Clothing",
+		  "StockPrice": 20000,
+          "ItemNames": [
+            "Dress",
+			"Simple Dress",
+			"Pleated Skirt",
+			"Genie Pants",
+			"Gray Suit",
+			"Holiday Shirt",
+			"Red Tuxedo",
+			"Navy Tuxedo",
+			"Jester Shirt",
+			"Ocean Shirt",
+			"Bandana Shirt",
+			"Purple Blouse",
+			"Classy Top"
+          ],
+		  "MaxNumItemsSoldInItemStock": 3
+        },
+	          
+        {
+          "ItemType": "Boot",
+		  "StockPrice": 10000,
+          "ItemNames": [
+            "Sneakers",
+			"Blue Sneakers",
+			"Rubber Boots",
+			"Cowboy Boots",
+			"Red Rubber Boots",
+			"Yellow Rubber Boots",
+			"Leprechaun Shoes"
+          ],
+		  "MaxNumItemsSoldInItemStock": 2
+        },
+	  
+        {
+          "ItemType": "Hat",
+		  "StockPrice": 20000,
+          "ItemNames": [
+            "Top Hat",
+			"Bowler Hat",
+			"Fashion Hat",
+          ],
+		  "MaxNumItemsSoldInItemStock": 1
+        }
+      ],
+	  	  "ClosedMessage": "I'm sorry, but the shop is closed now. Please come back tomorrow."
+    },
+	{
+      "ShopName": "GVArtisanry",
+	  "StoreCurrency": "Money",
+	  "CategoriesToSellHere": [-26, -27, -28],
+	  "PortraitPath": "assets/Hekate-portrait.png",
+	  "Quote": "Hello, dearie! Won't you buy something?",
+	  "MaxNumItemsSoldInStore": 15,
+	  "When": ["NPCAt Hekate 10 5"],
+
+      "ItemStocks": [
+	          {
+          "ItemType": "Object",
+          "ItemNames": [
+            "Truffle Oil",
+			"Oil",
+			"Mayonnaise",
+			"Void Mayonnaise",
+			"Honey",
+			"Wine",
+			"Pale Ale",
+			"Goat Cheese",
+			"Juice",
+			"Pickles",
+			"Jelly",
+			"Caviar",
+			"Aged Roe"
+          ],
+		  "MaxNumItemsSoldInItemStock": 3
+        },
+		{
+          "ItemType": "Object",
+          "ItemNames": [
+            "Slime Cheese",
+			"Slime Mayonnaise",
+			"Century Egg"
+          ],
+		  "MaxNumItemsSoldInItemStock": 1
+        },
+		{
+          "ItemType": "Object",
+          "ItemNames": [
+            "Absinthe",
+			"Apple Cider",
+			"Beeswax",
+			"Bitter",
+			"Candle",
+			"Chanterelle Kombucha",
+			"Coconut Butter",
+			"Coconut Oil",
+			"Corn Flour",
+			"Dandelion Kombucha",
+			"Dried Flower",
+			"Dried Fruit",
+			"Dried Herb",
+			"Dried Mushroom",
+			"Dried Tea Leaves",
+			"Dried Vegetable",
+			"Essential Oil",
+			"Fruit Juice",
+			"Fruit Yogurt",
+			"Garlic Mayonnaise",
+			"Goat Yogurt",
+			"Gold Thread",
+			"Ground Herb",
+			"Ground Vegetable",
+			"Handmade Soap",
+			"Kimchi",
+			"Kombucha",
+			"Lassi",
+			"Margarine",
+			"Miso Starter",
+			"Miso Paste",
+			"Moonshine",
+			"Morel Kombucha",
+			"Natto",
+			"Natto Starter",
+			"Orange Peel",
+			"Potpourri",
+			"Purple Kombucha",
+			"Rice Flour",
+			"Rice Noodles",
+			"Rum",
+			"Sake",
+			"Shochu",
+			"Slime Butter",
+			"Smoked Ocean Fish",
+			"Sparkling Wine",
+			"Thread",
+			"Twine",
+			"Wheat Noodles",
+			"Yarn",
+			"Yeast",
+			"Yogurt"
+			
+          ],
+		  "MaxNumItemsSoldInItemStock": 7,
+		  "When": [		  
+		  "HasMod ppja.artisanvalleymachinegoods"		  
+		  ]
+        }
+
+      ],
+	  	  "ClosedMessage": "The shop is open 9 to 5, except during lunch break."
+    },
+	{
+      "ShopName": "GVMachines",
+	  "StoreCurrency": "Money",
+	  "CategoriesToSellHere": [],
+	  "PortraitPath": "assets/Hephaestus-portrait.png",
+	  "Quote": "I'll let you in on my crafting secrets... for a price, of course.",
+	  "When": ["NPCAt Hephaestus 9 5"],
+
+      "ItemStocks": [
+	  	{
+          "ItemType": "Object",
+		  "StockPrice": 750,
+          "ItemNames": [
+			"Copper Bar"
+          ],
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": 1250,
+          "ItemNames": [
+			"Iron Bar"
+          ],
+        },
+	  	// Bakers Life machines
+		{  
+          "ItemType": "BigCraftable",
+		  "IsRecipe": false,
+		  "StockPrice": 5000,
+          "ItemNames": [
+		    "Baker's Mixer",
+		    "Baker's Oven",
+          ],
+		  "Stock": 1,
+          "MaxNumItemsSoldInItemStock": 1,
+		  "When":["!d Sat/HasMod Ritsune.BakersLifeJA" ]
+        },
+		// PPJA Artisan Valley machines
+		{
+          "ItemType": "BigCraftable",
+		  "IsRecipe": false,
+		  "StockPrice": 5000,
+          "ItemNames": [
+			"Foreign Cask",
+			"Grinder",
+			"Ice Cream Machine",
+			"Juicer",
+			"Pepper Blender",
+			"Smoker",
+			"Soap Press",
+			"Sorbet Machine",
+			"Vinegar Cask",
+			"Wax Barrel",
+			"Yogurt Jar"
+          ],
+		  "Stock": 1,
+          "MaxNumItemsSoldInItemStock": 2,
+		  "When":["!d Sat/HasMod ppja.artisanvalleymachinegoods" ]
+        },
+		{
+          "ItemType": "BigCraftable",
+		  "IsRecipe": false,
+		  "StockPrice": 10000,
+          "ItemNames": [
+			"Alembic",
+			"Espresso Machine",
+			"Infuser",
+			"Still"
+          ],
+		  "Stock": 1,
+          "MaxNumItemsSoldInItemStock": 2,
+		  "When":["!d Sat/HasMod ppja.artisanvalleymachinegoods/y 3" ]
+        },
+		// Bakers Life blueprints
+		{
+          "ItemType": "BigCraftable",
+		  "IsRecipe": true,
+		  "StockPrice": 2000,
+          "ItemNames": [
+		    "Baker's Mixer",
+			"Baker's Oven"
+          ],
+		  "Stock": 1,
+		  "When":["HasMod Ritsune.BakersLifeJA" ]
+        },
+		// PPJA Artisan Valley blueprints
+	    {
+          "ItemType": "BigCraftable",
+		  "IsRecipe": true,
+		  "StockPrice": 3000,
+          "ItemNames": [
+		    "Alembic"
+          ],
+		  "Stock": 1,
+		  "When":["SkillLevel farming 8" ]
+        },
+		{
+          "ItemType": "BigCraftable",
+		  "IsRecipe": true,
+		  "StockPrice": 2000,
+          "ItemNames": [
+		    "Butter Churn"
+          ],
+		  "Stock": 1,
+		  "When":["SkillLevel farming 5" ]
+        },
+		{
+          "ItemType": "BigCraftable",
+		  "IsRecipe": true,
+		  "StockPrice": 3000,
+          "ItemNames": [
+		    "Espresso Machine"
+          ],
+		  "Stock": 1,
+		  "When":["SkillLevel farming 8" ]
+        },
+		{
+          "ItemType": "BigCraftable",
+		  "IsRecipe": true,
+		  "StockPrice": 2000,
+          "ItemNames": [
+		    "Extruder"
+          ],
+		  "Stock": 1,
+		  "When":["SkillLevel farming 3" ]
+        },
+		{
+          "ItemType": "BigCraftable",
+		  "IsRecipe": true,
+		  "StockPrice": 5000,
+          "ItemNames": [
+		    "Infuser"
+          ],
+		  "Stock": 1,
+		  "When":["SkillLevel farming 9" ]
+        },
+		{
+          "ItemType": "BigCraftable",
+		  "IsRecipe": true,
+		  "StockPrice": 5000,
+          "ItemNames": [
+		    "Still"
+          ],
+		  "Stock": 1,
+		  "When":["SkillLevel farming 10" ]
+        },
+		{
+          "ItemType": "BigCraftable",
+		  "IsRecipe": true,
+		  "StockPrice": 2000,
+          "ItemNames": [
+			"Foreign Cask",
+			"Grinder",
+			"Ice Cream Machine",
+			"Juicer",
+			"Pepper Blender",
+			"Smoker",
+			"Soap Press",
+			"Sorbet Machine",
+			"Vinegar Cask",
+			"Wax Barrel",
+			"Yogurt Jar"
+          ],
+		  "Stock": 1,
+        },
+		// PPJA Fresh Meat Blueprints
+		{
+          "ItemType": "BigCraftable",
+		  "IsRecipe": true,
+		  "StockPrice": 2000,
+          "ItemNames": [
+			"Canning Machine",
+			"Meat Press"
+          ],
+		  "When": ["HasMod paradigmnomad.freshmeat"],
+		  "Stock": 1,
+        },
+		{
+          "ItemType": "BigCraftable",
+		  "IsRecipe": true,
+		  "StockPrice": 10000,
+          "ItemNames": [
+			"DNA Synthesizer"
+          ],
+		  "When": ["e 13730006/HasMod paradigmnomad.freshmeat"],
+		  "Stock": 1,
+        },
+		// Industrialization for PFM blueprints
+		{
+          "ItemType": "BigCraftable",
+		  "IsRecipe": true,
+		  "StockPrice": 5000,
+          "ItemNames": [
+			"Alternator E. Furnace",
+			"Ceramic Kiln",
+			"Combustion Miner",
+			"Hay Bin",
+			"Pulverizer"
+          ],
+		  "Stock": 1,
+		  "When": ["e 13730006/HasMod Kazuakisama.JA.Industrialization"]
+        },
+		{
+          "ItemType": "BigCraftable",
+		  "IsRecipe": true,
+		  "StockPrice": 6000,
+          "ItemNames": [
+			"Auto Miner",
+			"Combustion Generator",
+			"Hay Rehydrator",
+			"Rock Crusher",
+			"Tree Cloche"
+          ],
+		  "Stock": 1,
+		  "When": ["e 13730006/HasMod Kazuakisama.JA.Industrialization"]
+        },
+		{
+          "ItemType": "BigCraftable",
+		  "IsRecipe": true,
+		  "StockPrice": 7000,
+          "ItemNames": [
+			"Electric Furnace",
+			"Garden Cloche",
+			"Gem Polisher",
+			"Mineral Washer",
+			"Solar Generator"
+          ],
+		  "Stock": 1,
+		  "When": ["e 13730006/HasMod Kazuakisama.JA.Industrialization"]
+        },
+		{
+          "ItemType": "BigCraftable",
+		  "IsRecipe": true,
+		  "StockPrice": 10000,
+          "ItemNames": [
+			"Chromium Furnace",
+			"Industrial Distillery",
+			"Preservative Press",
+          ],
+		  "Stock": 1,
+		  "When": ["e 13730006/HasMod Kazuakisama.JA.Industrialization"]
+        },
+      ],
+	  	  "ClosedMessage": "Go home. I'm not working overtime for you."
+    }
+  ],
+      "VanillaShops": [
+  // Vanilla Marnie Shop
+  {
+  "ShopName": "MarnieShop",
+  "ItemStocks": [
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			//"Honeysuckle Starter",
+			//"Pink Cat Seeds",
+		],
+		"When": ["HasMod mizu.flowers/!z spring"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			//"Honeysuckle Starter",
+		],
+		"When": ["HasMod mizu.flowers/!z summer"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			//"Bee Balm Seeds"
+		],
+		"When": ["HasMod mizu.flowers/!z fall"]
+		},
+  ]
+  },
+  // Vanilla Sandy Shop
+  {
+  "ShopName": "SandyShop",
+  "ItemStocks": [
+		// PPJA Mizus Flowers
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+			"Fairy Duster Pod"
+		],
+		"When": ["HasMod mizu.flowers/!z fall"]
+		},
+		// Bonsters trees
+
+		// added with patch or by default
+
+		// PPJA More Trees
+
+		// added automatically
+
+		// PPJA Fruits & Veggies
+		
+		// added with patch or by default
+		
+		// PPJA More Recipes
+
+		// added by default
+
+		// PPJA Even More Recipes
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Dragon Fruit Popsicle"
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes"
+		  ]
+        },
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Coconut Popsicle"
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes/s 88 1"
+		  ]
+        },
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Prismatic Popsicle"
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes/s 417 1"
+		  ]
+        },
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Blueberry Creme Popsicle",
+			"Muskmelon Strawberry Popsicle",
+			"Neapolitan Popsicle",
+			"Strawberry Creme Popsicle",
+			"Strawberry Kiwi Popsicle",
+			"Wisteria Popsicle"
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes/y 2"
+		  ]
+        },
+  ]
+  },
+  // Vanilla Pierre Shop
+  {
+  "ShopName": "PierreShop",
+  "ItemStocks": [
+		// PPJA More Trees
+
+		// added automatically
+
+		//PPJA More Recipes foods
+		{
+          "ItemType": "Object", 					   
+          "ItemNames": [
+			"Chocolate",
+			"Marshmallow Fluff",
+			"Peanut Butter",			
+          ],
+		  "When": [
+		  "HasMod paradigmnomad.morefood"
+		  ]
+        },
+		//PPJA Even More Recipes foods
+		{
+          "ItemType": "Object", 
+          "ItemNames": [
+			"Sesame Seeds",
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes"
+		  ]
+        },
+		// PPJA Fresh Meat foods
+		{
+          "ItemType": "Object", 
+          "ItemNames": [
+			"Bacon",
+			"BBQ Sauce",
+			"Ketchup",
+			"Mustard",
+			"Seasonings"
+          ],
+		  "When": [
+		  "HasMod paradigmnomad.freshmeat"
+		  ]
+        },
+  ]
+  },
+  // Vanilla Gus Shop
+  {
+  "ShopName": "GusShop",
+  "ItemStocks": [
+  		//PPJA Even More Recipes foods
+		{
+          "ItemType": "Object", 
+          "ItemNames": [
+			"Black Coffee",
+			"Pathos Cookie",	
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes"
+		  ]
+        },
+		{
+          "ItemType": "Object", 
+          "ItemNames": [
+			"Cola",
+			"Milky Coffee",
+			"Milky Strawberry Juice",
+			"Peach Milk",		
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes/y 2"
+		  ]
+        },
+		//PPJA Fresh Meat foods
+		{
+          "ItemType": "Object", 
+          "ItemNames": [
+			"Cooked Beef",
+			"Cooked Chevon",
+			"Cooked Chicken",
+			"Cooked Duck",
+			"Cooked Pork",
+			"Cooked Rabbit",
+			"Steak",
+			"Seasonings"
+          ],
+		  "When": [
+		  "HasMod paradigmnomad.freshmeat"
+		  ]
+        },
+		{
+          "ItemType": "Object", 
+          "ItemNames": [
+			"Cooked Alpaca Meat",
+			"Cooked Beast Meat",
+			"Cooked Bird Meat",
+			"Cooked Bison Meat",
+			"Cooked Boar",
+			"Cooked Critter Meat",
+			"Cooked Dragon Meat",
+			"Cooked Fowl",
+			"Cooked Frog",
+			"Cooked Horse Meat",
+			"Cooked Phoenix",
+			"Cooked Reptile Meat",
+			"Cooked Turkey",
+			"Cooked Venison",
+          ],
+		  "MaxNumItemsSoldInItemStock": 5,
+		  "When": [
+		  "HasMod paradigmnomad.freshmeat/!d Sat Sun"
+		  ]
+        },
+		//PPJA More Recipes
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true,
+					   
+          "ItemNames": [
+			"Peanut Butter",
+		
+          ],
+		  "When": [
+		  "HasMod paradigmnomad.morefood"
+		  ]
+        },
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true,
+					   
+          "ItemNames": [
+			"Celery and Peanut Butter",
+			"Chocolate"
+				
+          ],
+		  "When": [
+		  "HasMod paradigmnomad.morefood/y 2"
+		  ]
+        },
+		//PPJA Even More Recipes
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Basil Tomato Soup",
+			"Broth",
+			"Canned Baked Beans",
+			"Canned Lemon Tea",
+			"Cream Cheese",
+			"Hardboiled Egg",
+			"Marmalade",
+			"Noodle Soup",
+			"Orange Juice",
+			"Pasta Bowl",
+			"Popcorn",
+			"Salt Flavored Chips",
+			"Sprinkles",
+			"Surimi",
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes"
+		  ]
+        },
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Salsa",
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes/z winter"
+		  ]
+        },		
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Caramel",
+			"Dashi Stock",
+			"Ento",
+			"Graham Crackers",
+			"Plain Cheesecake",
+			"Sriracha",
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes/y 2"
+		  ]
+        },	
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Strawberry Preserves",
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes/y 2/!z spring"
+		  ]
+        },
+				{
+          "ItemType": "Object", 
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Bonito Flakes",
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes/y 2/z spring fall"
+		  ]
+        },
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Chips and Guac",
+			"Mushroom Soup"
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes/y 3"
+		  ]
+        },	
+		//PPJA Fresh Meat Recipes
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Bratwurst",
+			"Chicken Nuggets",
+		    "Ham",
+			"Hamburger Patty",
+			"Hot Dog",
+			"Toast"
+          ],
+		  "When": [
+		  "HasMod paradigmnomad.freshmeat"
+		  ]
+        },	
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Bacon",
+			"Batter",
+			"BBQ Sauce",
+			"Beef Stock",
+			"Chicken Stock",
+			"Coconut Curry",
+			"Cooked Alpaca Meat",
+			"Cooked Beast Meat",
+			"Cooked Beef",
+			"Cooked Bird Meat",
+			"Cooked Bison Meat",
+			"Cooked Boar",
+			"Cooked Chevon",
+			"Cooked Chicken",
+			"Cooked Critter Meat",
+			"Cooked Dragon Meat",
+			"Cooked Duck",
+			"Cooked Fowl",
+			"Cooked Frog",
+			"Cooked Horse Meat",
+			"Cooked Phoenix",
+			"Cooked Pork",
+			"Cooked Rabbit",
+			"Cooked Reptile Meat",
+			"Cooked Turkey",
+			"Cooked Venison",
+			"Fish and Chips",
+			"Ketchup",
+			"Lobster Stock",
+			"Meat Skewer",
+			"Meatloaf",
+			"Meaty Burrito Wrap",
+			"Mustard",
+			"Roasted Fowl",
+			"Salami",
+			"Sausage",
+			"Seafood Stock",
+			"Shrimp Stock",
+			"Steak",
+			"Steak Tartare",
+			"Tonkatsu",
+          ],
+		  "When": [
+		  "HasMod paradigmnomad.freshmeat/y 2"
+		  ]
+        },
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true, 
+          "ItemNames": [
+			"Baked Turkey with Risotto",
+			"Beast n' Onion Handpie",
+			"Brown Gravy",
+			"Chippy Curry",
+			"Cottage Pie",
+			"Sweet n' Sour Bites",
+			"Venison Handpie",
+			"White Gravy",
+          ],
+		  "When": [
+		  "HasMod paradigmnomad.freshmeat/y 3"
+		  ]
+        },
+		
+
+  ]
+  },
+   // Vanilla Willy Shop
+  {
+  "ShopName": "WillyShop",
+  "ItemStocks": [
+  		//PPJA Even More Recipes foods
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true,
+          "ItemNames": [
+			"Shrimp on Rice",
+			"Steckerlfisch",	
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes"
+		  ]
+        },
+		{
+          "ItemType": "Object", 
+		  "IsRecipe": true,
+          "ItemNames": [
+			"Salmon Fillet",	
+          ],
+		  "When": [
+		  "HasMod ppja.evenmorerecipes/s 139 5"
+		  ]
+        },
+		]
+	}
+  
+  ]
+}

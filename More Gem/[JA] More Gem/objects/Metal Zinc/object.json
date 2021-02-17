@@ -1,0 +1,47 @@
+{
+    "Name": "Zinc",
+    "Description": "A common metal, used most often after iron, aluminum and copper.",
+    "Category": "Metal",
+    "Edibility": -300,
+    "Price": 15,
+    "IsColored": false,
+    "GiftTastes":
+    {
+		"Neutral": ["Clint", ],
+        "Dislike": ["Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+		"Hate": ["Sam", ],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "아연",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Zinco",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": " 철, 알루미늄, 구리 다음으로 많이 사용하는 금속.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Um metal comum, o mais utilizado depois do ferro, do alumínio e do cobre.",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+	
+    "ContextTags": [
+        "color_gray",
+    ],
+}

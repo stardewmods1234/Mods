@@ -1,0 +1,54 @@
+{
+  "Name": "Fudgesicle",
+  "Description": "A frozen treat with a smooth chocolate flavor.",
+  "Category": "Cooking",
+  "Edibility": 21,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 220,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 245,
+        "Count": 1,
+      },
+      {
+	"Object": "Chocolate",
+	"Count": 1,
+	}
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Sandy",
+    "PurchasePrice": 286,
+    "PurchaseRequirements": null,
+  },
+  "NameLocalization": { 
+		// "es": "",
+		"ko": "초콜렛퍼지 팝시클",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "巧克力软糖冰棍",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        "ko": "부드러운 초콜렛맛 빙과.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "具有柔滑巧克力味的冷冻零食。",
+    }  
+}

@@ -1,0 +1,45 @@
+{
+    "Name": "Sardonyx",
+    "Description": "Layered gemstone with various precipitated components.",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
+    "Price": 150,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "홍마노",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Sárdonix",
+        // "ru": "",
+        // "tr": "",
+        "zh": "红玛瑙",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "다양한 성분이 침전되어 층을 이룬 원석.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Uma pedra formada pela decomposição de vários componentes.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "一种层状宝石，其中各种成分已经沉淀出来。",
+    },
+	
+    "ContextTags": [
+        "color_red", "agate_item", "red_gem",
+    ],
+}

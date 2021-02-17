@@ -1,0 +1,11 @@
+{
+   "Name": "Better Resources",
+   "Author": "cometkins",
+   "Version": "1.1.3",
+   "Description": "Nicer looking resources.",
+   "UniqueID": "cometkins.BetterResources",
+   "UpdateKeys": ["Nexus:6942"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}

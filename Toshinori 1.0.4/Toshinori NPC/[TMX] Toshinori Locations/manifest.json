@@ -1,0 +1,18 @@
+{
+  "Name": "Toshinori Locations",
+  "Author": "FuzzyMittens, AeolianMode, Dylawa",
+  "Version": "1.0.4",
+  "UpdateKeys": ["Nexus:???"],
+  "Description": "Locations for Toshinori",
+  "UniqueID": "FuzzyMittens.ToshiLocation.X",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.4.0"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "FlashShifter.StardewValleyExpandedALL",
+      "IsRequired": false,
+    },
+  ]
+}

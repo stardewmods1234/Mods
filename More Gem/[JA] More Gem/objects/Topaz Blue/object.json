@@ -1,0 +1,46 @@
+{
+    "Name": "Blue Topaz",
+    "Description": "Elegant blue topaz.",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
+    "Edibility": -300,
+    "Price": 120,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "블루 토파즈",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Topázio",
+        // "ru": "",
+        // "tr": "",
+        "zh": "蓝色托帕石",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "기품있는 푸른색의 토파즈.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Um topázio azul elegante.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "优雅的蓝色托帕石。",
+    },
+	
+    "ContextTags": [
+        "color_blue", "topaz_item", "blue_gem", 
+    ],
+}

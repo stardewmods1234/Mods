@@ -1,0 +1,13 @@
+{
+  "Name": "Delores",
+  "Author": "blaaze6",
+  "Description": "A young girl with a sad story. Created with the help of Miss Coriel's NPC Creator.",
+  "Version": "1.0.1",
+  "UniqueID": "blaaze6.Delores",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "UpdateKeys": [
+    "Nexus:5510"
+  ]
+}

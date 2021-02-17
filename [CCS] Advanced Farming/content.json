@@ -1,0 +1,26 @@
+{
+	"CraftingStations": [
+	{
+		"BigCraftable": "Advanced Farming Workbench Left",
+		"ExclusiveRecipes": true,
+		"CraftingRecipes": ["Aeroponics Tower - Ancient Fruits", "Aeroponics Tower - Beans", "Aeroponics Tower - Blueberries", "Aeroponics Tower - Cactus",
+							"Aeroponics Tower - Coffee", "Aeroponics Tower - Corn", "Aeroponics Tower - Cranberries", "Aeroponics Tower - Eggplants", 
+							"Aeroponics Tower - Grapes", "Aeroponics Tower - Hops", "Aeroponics Tower - Peppers", "Aeroponics Tower - Strawberries", 
+							"Aeroponics Tower - Tea", "Aeroponics Tower - Tomatoes", "Aquaponics Aquarium", "Aquarium Breeding Tank", "Aquarium Filter",
+							"Compost Bin", "Fish Hatchery", "Hydroponics System", "Large Hydroponics System", "Mixer", "Raised Bed", "Rock Smasher", 
+							"Seedling Tray", "Aeroponics Tower Base", "Aeroponics Tower Frame", "Frame Components", "Pipes", "Raw Bioplastic",
+							"Water Pump", "Water Tank"]
+	},
+	{
+		"BigCraftable": "Advanced Farming Workbench Right",
+		"ExclusiveRecipes": true,
+		"CraftingRecipes": ["Aeroponics Tower - Ancient Fruits", "Aeroponics Tower - Beans", "Aeroponics Tower - Blueberries", "Aeroponics Tower - Cactus",
+							"Aeroponics Tower - Coffee", "Aeroponics Tower - Corn", "Aeroponics Tower - Cranberries", "Aeroponics Tower - Eggplants", 
+							"Aeroponics Tower - Grapes", "Aeroponics Tower - Hops", "Aeroponics Tower - Peppers", "Aeroponics Tower - Strawberries", 
+							"Aeroponics Tower - Tea", "Aeroponics Tower - Tomatoes", "Aquaponics Aquarium", "Aquarium Breeding Tank", "Aquarium Filter",
+							"Compost Bin", "Fish Hatchery", "Hydroponics System", "Large Hydroponics System", "Mixer", "Raised Bed", "Rock Smasher", 
+							"Seedling Tray", "Aeroponics Tower Base", "Aeroponics Tower Frame", "Frame Components", "Pipes", "Raw Bioplastic",
+							"Water Pump", "Water Tank"]
+	},
+	]
+}

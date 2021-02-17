@@ -1,0 +1,142 @@
+{
+  "Format": "1.6",
+  "Changes": [
+
+    {
+
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Douglas": "adult/neutral/outgoing/neutral/female/not-datable/null/Other/winter 8//WizardHouse 6 5/Douglas"
+
+
+      }
+    },
+
+    {
+
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Douglas": "Wow! This is Great! Thank you farmer @!/119 575 308 746 769 795/Thanks, I love this!/680 799 798 767 305 420 422 682 156/I do not like this./18 22 402 418 421 595 597/But...I hate this./221 524/Thanks./424 426 306 307 308 428 446 78 725 726 768 769 -4 142 721 681 688 689 690 -74 309 310 311/"
+		
+      }
+    },
+
+    {
+
+      "LogName": "Douglas Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Douglas",
+      "FromFile": "assets/Image/Portraits.png"
+
+    },
+
+    {
+
+      "LogName": "Douglas Sprites",
+      "Action": "Load",
+      "Target": "Characters/Douglas",
+      "FromFile": "assets/Image/Sprite.png"
+
+    },
+
+    {
+
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Douglas",
+      "FromFile": "assets/Dialogue/Dialogue.json"
+
+    },
+
+    {
+
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Douglas",
+      "FromFile": "assets/Schedule/Schedule.json"
+
+    },
+
+    { //EGG FESTIVAL
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Douglas": "Eggs, eggs, I love eggs! *Douglas is singing but I have trouble understanding*.$0"
+      }
+    },
+	
+	//FLOWER DANCE
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Douglas": "No, I don't dance. I came here to watch people.$1"
+      }
+    },
+	
+	//LUAU
+	{
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Douglas": "I wanna dance, but my daddy won't let me go.$1"
+      }
+    },
+  
+	
+	//DANCE OF THE MOONLIGHT JELLIES
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Douglas": "Dad, please I want to take a closer look.$0"
+      }
+    },
+   
+	//STARDEW VALLEY FAIR
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Douglas": "The clown is no fun.$4#$b#And so is the fortune teller.$1"
+      }
+    },
+	
+	//SPIRITS EVE FESTIVAL
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Douglas": "Do you want me to tell you a secret? My father is up on the mountain...$2"
+      }
+    },
+	
+	//ICE FISHING FESTIVAL
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Douglas": "You are forbidden to come here.$0#$b#You cheated.$1#$e#You shouldn't play this game like this!$4"
+      }
+    },
+	
+	//WINTER STAR FESTIVAL
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Douglas": "Hi! My father is not here. I came alone.$1"
+      }
+    },
+
+   
+
+
+  ]
+}
+		
+		

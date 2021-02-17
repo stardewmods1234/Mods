@@ -1,0 +1,48 @@
+{
+    "Name": "Pink Mushroom",
+    "Product": "Pink Mushroom",
+    "SeedName": "Pink Mushroom Seeds",
+    "SeedDescription": "Shhhhhhhh its a secret. Takes 16 days to mature in the cold weather like winter.",
+    "Type": "Vegetable",
+    "Seasons": ["winter"],
+    "Phases": [1, 2, 3, 4, 3, 3],
+    "RegrowthPhase": 4,
+    "HarvestWithScythe": false,
+    "TrellisCrop": true,
+    "Bonus":
+    {
+        "MinimumPerHarvest": 4,
+        "MaximumPerHarvest": 5,
+        "MaxIncreasePerFarmLevel": 10,
+        "ExtraChance": 0.2,
+    },
+    "SeedPurchasePrice": 400,
+    "SeedNameLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "SeedDescriptionLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    }
+}

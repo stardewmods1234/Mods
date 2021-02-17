@@ -1,0 +1,10 @@
+{
+  //Custom Locations here
+  "mergeMaps": [
+    {
+      "name": "BoardingHouse", 
+	  "file": "assets/BoardingHouseDenver.tbin",
+      "position": [31,0], 
+    },
+  ]
+}

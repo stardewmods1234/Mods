@@ -1,0 +1,27 @@
+{
+    "Name": "Giant Allium",
+    "Description": "Alliums are ornamental members of the onion family. The giant variety can grow up to 4 feet tall.",
+    "Category": "Flower",
+    "Edibility": 25,
+    "Price": 80,
+    "IsColored": true,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "Haley", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Shane", "Vincent", "Willy", "Wizard", "Jas", "Sandy"],
+		"Dislike": [ "Clint", "George", "Sebastian"]
+    },
+    "NameLocalization":
+    {
+        
+    },
+    "DescriptionLocalization":
+    {
+        
+    },
+    "ContextTags": [
+        "season_spring",
+        "color_purple",
+        "flower_item",
+    ]
+}

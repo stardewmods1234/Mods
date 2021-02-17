@@ -1,0 +1,66 @@
+{
+    "Name": "Aeroponics Tower - Ancient Fruits",
+    "Description": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Ancient Fruits.",
+    "Price": 100,
+    "ProvidesLight": false,
+	"ReserveExtraIndexCount": 2,
+    "Recipe":
+    { 
+        "ResultCount": 1,
+        "Ingredients": [
+			{
+				"Object": "Aeroponics Tower Base", 
+				"Count": 1
+			},
+			{
+				"Object": "Aeroponics Tower Frame", 
+				"Count": 2
+			},
+			{
+				"Object": "Water Pump", 
+				"Count": 1
+			},
+			{
+				"Object": "Pipes", 
+				"Count": 4
+			},
+			{
+				"Object": "Ancient Seedlings", //Stone
+				"Count": 1
+			}
+		],
+		
+		"CanPurchase": true, 
+		"PurchaseFrom": "Robin",
+		"PurchasePrice": 350,
+		"PurchaseRequirements": ["j 336", "f Demetrius 2000"],
+    },
+        "NameLocalization": //Used for localization. 
+        { 
+            "es": "Aeroponics Tower - Ancient Fruits", //Spansih
+            "ko": "Aeroponics Tower - Ancient Fruits", //Korean
+            "de": "Aeroponics Tower - Ancient Fruits", //German
+            "fr": "Aeroponics Tower - Ancient Fruits", //French
+            "hu": "Aeroponics Tower - Ancient Fruits", //Hungarian
+            "it": "Aeroponics Tower - Ancient Fruits", //Italian
+            "ja": "Aeroponics Tower - Ancient Fruits", //Japanese
+            "pt": "Aeroponics Tower - Ancient Fruits", //Portuguese
+            "ru": "Aeroponics Tower - Ancient Fruits", //Russian
+            "tr": "Aeroponics Tower - Ancient Fruits", //Turkish
+            "zh": "气雾栽培塔-远古水果" //Chinese (Simplified)
+        },
+        "DescriptionLocalization": //Used for localization. 
+        { 
+            "es": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Ancient Fruits.", //Spansih
+            "ko": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Ancient Fruits.", //Korean
+            "de": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Ancient Fruits.", //German
+            "fr": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Ancient Fruits.", //French
+            "hu": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Ancient Fruits.", //Hungarian
+            "it": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Ancient Fruits.", //Italian
+            "ja": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Ancient Fruits.", //Japanese
+            "pt": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Ancient Fruits.", //Portuguese
+            "ru": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Ancient Fruits.", //Russian
+            "tr": "An Aeroponics Tower fitted with plant slots on the outside and nozzles on the inside spraying nutrient solution. Configured to grow Ancient Fruits.", //Turkish
+            "zh": "一个气雾栽培塔，外部装有种植槽，内部装有喷嘴，用于喷洒营养液。 配置为种植古代水果。" //Chinese (Simplified)
+        }
+    }

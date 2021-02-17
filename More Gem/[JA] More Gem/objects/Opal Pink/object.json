@@ -1,0 +1,46 @@
+{
+    "Name": "Pink Opal",
+    "Description": "Lovely pink opal.",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
+    "Edibility": -300,
+    "Price": 250,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "핑크 오팔",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Opala Cor-de-Rosa",
+        // "ru": "",
+        // "tr": "",
+        "zh": "粉红蛋白石",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "사랑스러운 분홍빛 오팔.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Uma linda pedra opala rosada.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "可爱的粉红色蛋白石。",
+    },
+	
+    "ContextTags": [
+        "color_pink", "pink_gem", "opal_item",
+    ],
+}

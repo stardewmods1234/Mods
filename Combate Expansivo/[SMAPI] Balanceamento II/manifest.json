@@ -1,0 +1,12 @@
+{
+   "Name": "Balanciamento Combatista",
+   "Author": "HamioDracny",
+   "Version": "1.0.1",
+   "Description": "Balanceia receitas e conjuntos.",
+   "UniqueID": "HDAnimReb",
+   "MinimumApiVersion": "3.4.2",
+   "UpdateKeys": ["Nexus:7511"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

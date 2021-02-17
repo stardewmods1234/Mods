@@ -1,0 +1,37 @@
+{
+    "Name": "Induction Oven",
+    "Description": "A counter that can make food that needs heating.",
+    "Price": 10,
+	"ProvidesLight": true,
+	"CanPurchase": true, 
+	"PurchaseFrom": "Robin",
+	"PurchasePrice": 7500,
+    "NameLocalization":
+    {
+        //"es": "", //Spansih
+        "ko": "인덕션 오븐", //Korean
+        //"de": "", //German
+        //"fr": "", //French
+        //"hu": "", //Hungarian
+        //"it": "", //Italian
+        //"ja": "", //Japanese
+        //"pt": "", //Portuguese
+        //"ru": "", //Russian
+        //"tr": "", //Turkish
+        //"zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "", //Spansih
+        "ko": "가열이 필요한 음식을 만들 수 있는 조리대.", //Korean
+        //"de": "", //German
+        //"fr": "", //French
+        //"hu": "", //Hungarian
+        //"it": "", //Italian
+        //"ja": "", //Japanese
+        //"pt": "", //Portuguese
+        //"ru": "", //Russian
+        //"tr": "", //Turkish
+        //"zh": "", //Chinese (Simplified)
+    },
+}

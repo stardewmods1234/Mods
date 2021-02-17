@@ -1,0 +1,11 @@
+{
+    "Name": "Denver's Necklace",
+    "Author": "balverines",
+    "Description": "Adds an event item for Denver",
+    "Version": "2.1",
+    "UniqueID": "Denver.Necklace",
+    "ContentPackFor":
+    {
+        "UniqueID": "spacechase0.JsonAssets"
+    },
+}

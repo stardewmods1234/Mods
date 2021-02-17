@@ -1,0 +1,13 @@
+{
+  "Name": "Beatrice",
+  "Author": "attonbomb",
+  "Description": "Adds an NPC called Beatrice to SDV.",
+  "Version": "1.0.0",
+  "UniqueID": "attonbomb.Beatrice",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "UpdateKeys": [
+    "Nexus: "
+  ]
+}

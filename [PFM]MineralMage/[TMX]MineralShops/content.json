@@ -1,0 +1,26 @@
+﻿{
+	"addMaps": [
+    {
+      "name": "MineralGuildPlaza",
+      "file": "assets/MineralGuildPlaza.tbin"
+    },
+	],
+  "mergeMaps": [
+    {
+      "name": "Forest",
+      "file": "assets/PortalGem.tmx",
+      "sourceArea": [ 0, 0, 1, 3 ],
+      "position": [ 44, 4 ],
+      "removeEmpty": false,
+    },
+
+  ],
+  	  "onlyWarps": [
+    {
+      "name": "Forest",
+      "addWarps": [
+        "44 6 MineralGuildPlaza 14 39"
+      ]
+    }
+  ]  
+}

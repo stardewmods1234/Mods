@@ -1,0 +1,46 @@
+{
+    "Name": "Rose Quartz",
+    "Description": "A pink crystal reminiscent of a rose.",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
+    "Edibility": -300,
+    "Price": 100,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "로즈쿼츠",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Quartzo Cor-de-Rosa",
+        // "ru": "",
+        // "tr": "",
+        "zh": "玫瑰晶",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "장미꽃을 연상케하는 분홍빛 수정.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Um cristal cor-de-rosa que lembra uma rosa.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "会让人联想起玫瑰的粉红色水晶",
+    },
+	
+    "ContextTags": [
+        "color_pink", "pink_gem", "quartz_item",
+    ],
+}

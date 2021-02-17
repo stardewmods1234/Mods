@@ -1,0 +1,43 @@
+{
+  "Name": "Golden Jewel Earrings",
+  "Description": "A pair of shiny jewel earrings!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 1000,
+  "IsColored": true,
+  "Recipe": null,
+   "CanPurchase": false,
+   //"PurchaseFrom": "Robin",
+   //"PurchasePrice": 500,
+   //"PurchaseRequirements":
+   //[
+    //  "r 0.50"
+   // ]
+    "NameLocalization": { 
+		// "es": "",
+		"ko": "황금 보석 귀걸이",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Brincos de Jóias Dourados",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        "ko": "반짝이는 보석 귀걸이!",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Um par de brincos de jóias brilhantes!",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    }  
+}

@@ -1,0 +1,66 @@
+{
+    "Name": "Large Hydroponics System",
+    "Description": "A larger Hydroponics system with two pairs of trays stacked vertically. Twice the farming capacity in the same footprint.",
+    "Price": 100,
+    "ProvidesLight": false,
+	"ReserveExtraIndexCount": 2,
+    "Recipe":
+    { 
+        "ResultCount": 1,
+        "Ingredients": [
+         {
+            "Object": "Hydroponics Tray", 
+            "Count": 4
+        },
+		{
+            "Object": "Frame Components", 
+            "Count": 4
+        },
+		{
+            "Object": "Water Pump", 
+            "Count": 1
+        },
+        {
+            "Object": "Water Tank",
+            "Count": 1
+        }, 
+		{
+            "Object": "Pipes",
+            "Count": 4
+        } 
+		],
+		
+		"CanPurchase": true, 
+		"PurchaseFrom": "Robin",
+		"PurchasePrice": 2200,
+		"PurchaseRequirements": ["j 168", "f Demetrius 1500"],
+    },
+        "NameLocalization": //Used for localization. 
+        { 
+            "es": "Large Hydroponics System", //Spansih
+            "ko": "Large Hydroponics System", //Korean
+            "de": "Large Hydroponics System", //German
+            "fr": "Large Hydroponics System", //French
+            "hu": "Large Hydroponics System", //Hungarian
+            "it": "Large Hydroponics System", //Italian
+            "ja": "Large Hydroponics System", //Japanese
+            "pt": "Large Hydroponics System", //Portuguese
+            "ru": "Large Hydroponics System", //Russian
+            "tr": "Large Hydroponics System", //Turkish
+            "zh": "大型水培系统" //Chinese (Simplified)
+        },
+        "DescriptionLocalization": //Used for localization. 
+        { 
+            "es": "A larger Hydroponics system with two pairs of trays stacked vertically. Twice the farming capacity for the same footprint.", //Spansih
+            "ko": "A larger Hydroponics system with two pairs of trays stacked vertically. Twice the farming capacity for the same footprint.", //Korean
+            "de": "A larger Hydroponics system with two pairs of trays stacked vertically. Twice the farming capacity for the same footprint.", //German
+            "fr": "A larger Hydroponics system with two pairs of trays stacked vertically. Twice the farming capacity for the same footprint.", //French
+            "hu": "A larger Hydroponics system with two pairs of trays stacked vertically. Twice the farming capacity for the same footprint.", //Hungarian
+            "it": "A larger Hydroponics system with two pairs of trays stacked vertically. Twice the farming capacity for the same footprint.", //Italian
+            "ja": "A larger Hydroponics system with two pairs of trays stacked vertically. Twice the farming capacity for the same footprint.", //Japanese
+            "pt": "A larger Hydroponics system with two pairs of trays stacked vertically. Twice the farming capacity for the same footprint.", //Portuguese
+            "ru": "A larger Hydroponics system with two pairs of trays stacked vertically. Twice the farming capacity for the same footprint.", //Russian
+            "tr": "A larger Hydroponics system with two pairs of trays stacked vertically. Twice the farming capacity for the same footprint.", //Turkish
+            "zh": "更大的水培系统，有两组垂直堆叠的托盘。在相同的占地面积上，提高了两倍的耕种能力。" //Chinese (Simplified)
+        }
+    }

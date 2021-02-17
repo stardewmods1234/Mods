@@ -1,0 +1,54 @@
+{
+  "Name": "Strawberry Popsicle",
+  "Description": "A frozen treat that tastes like a sweet strawberry.",
+  "Category": "Cooking",
+  "Edibility": 44,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 220,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 245,
+        "Count": 1,
+      },
+      {
+	       "Object": 400,
+	       "Count": 1,
+	     }
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Sandy",
+    "PurchasePrice": 286,
+    "PurchaseRequirements": null,
+  },
+  "NameLocalization": { 
+		// "es": "",
+		"ko": "딸기 팝시클",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "草莓冰棒",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        "ko": "달콤한 딸기 맛이 나는 빙과.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "一种冰冻的食物，尝起来像甜草莓。",
+    }  
+}

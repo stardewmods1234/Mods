@@ -1,0 +1,22 @@
+﻿{
+  "Name": "Underwater East Scarpe TMX",
+  "Author": "aedenthorn",
+  "Version": "0.1.0",
+  "Description": "Adds an underwater map to LemurKat's East Scarpe.",
+  "UniqueID": "aedenthorn.UnderwaterEastScarpeTMX",
+  "MinimumApiVersion": "2.0",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.3.4"
+  },
+  "Dependencies": [
+   {
+      "UniqueID": "aedenthorn.Swim",
+      "IsRequired": true
+   },
+   {
+      "UniqueID": "LemurKat.EastScarpe.TMX",
+      "IsRequired": true
+   },
+  ]
+}

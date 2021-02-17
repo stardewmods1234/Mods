@@ -1,0 +1,27 @@
+{
+    "Name": "Morning Glory",
+    "Description": "These flowering vines grow vigorously.  They will overgrow your entire house if left unchecked!",
+    "Category": "Flower",
+    "Edibility": -5,
+    "Price": 25,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "Haley", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Shane", "Vincent", "Willy", "Wizard", "Jas", "Sandy"],
+		"Dislike": [ "Clint", "George", "Sebastian"]
+    },
+    "NameLocalization":
+    {
+        
+    },
+    "DescriptionLocalization":
+    {
+        
+    },
+    "ContextTags": [
+        "season_fall",
+        "color_blue",
+        "flower_item",
+    ]
+}

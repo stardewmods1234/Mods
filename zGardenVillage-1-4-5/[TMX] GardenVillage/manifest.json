@@ -1,0 +1,18 @@
+﻿{
+  "Name": "[TMX] Garden Village",
+  "Author": "Tarniyar",
+  "Version": "1.4.5",
+  "Description": "Adds a tourist town full of shops to sell modded goods",
+  "UniqueID": "Tarniyar.TMX.GardenVillage",
+  "MinimumApiVersion": "2.0",
+  "UpdateKeys": [ "Nexus:6113" ],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.6.4"
+  },
+    	"Dependencies": [
+		{
+			"UniqueID": "Tarniyar.CP.GardenVillage"
+		}
+	]
+}

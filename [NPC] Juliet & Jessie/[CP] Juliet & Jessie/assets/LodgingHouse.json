@@ -1,0 +1,237 @@
+{
+	"Changes": [
+		// SVE AND RECOLOR COMPATIBILITY EDIT: JOJAMART BACKDOOR
+		{
+			"LogName": "JojaMart backdoor for SVE and optional interior recolors",
+			"Action": "EditMap",
+			"Target": "Maps/JojaMart",
+			"FromFile": "assets/Maps/JojaMart-Backdoor-{{recolor}}.tbin",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 2,
+				"Height": 5
+			},
+			"ToArea": {
+				"X": 2,
+				"Y": 1,
+				"Width": 2,
+				"Height": 5
+			},
+			"When": {
+				"IsCommunityCenterComplete": false
+			}
+		},
+		//Counter chance
+		{
+			"LogName": "Changes out the counter",
+			"Action": "EditMap",
+			"Target": "Maps/JojaMart",
+			"FromFile": "assets/Maps/JojaMart-Counter.tmx",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 2,
+				"Height": 4
+			},
+			"ToArea": {
+				"X": 8,
+				"Y": 23,
+				"Width": 2,
+				"Height": 4
+			},
+			"When": {
+				"IsCommunityCenterComplete": false,
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+			}
+		},
+		// Optional Universal Recolor Compat and Disabling Alternating Tiles
+		{
+			"LogName": "Theater Breakroom - Alternate Walls and Floors",
+			"Action": "EditMap",
+			"Target": "Maps/TheaterBreakroom",
+			"FromFile": "assets/Maps/TheaterBreakroomAlternateWalls-enabled.tmx",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 22,
+				"Height": 22
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 22,
+				"Height": 22
+			},
+			"When": {
+				"HasMod |contains=RusticCountry.wallsandfloors": false,
+				"alternateWallsNFloors": "disabled"
+			}
+		},
+		// Rustic Country Walls and Floors compatibility
+		{
+			"LogName": "Theater Breakroom - Rustic Country Walls and Floors",
+			"Action": "EditMap",
+			"Target": "Maps/TheaterBreakroom",
+			"FromFile": "assets/Maps/TheaterBreakroom-rusticWalls.tmx",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 22,
+				"Height": 22
+			},
+			"ToArea": {
+				"X": 9,
+				"Y": 26,
+				"Width": 22,
+				"Height": 22
+			},
+			"When": {
+				"HasMod |contains=RusticCountry.wallsandfloors": true
+			}
+		},
+		//EDITS END
+		{
+			"LogName": "Add dirt tile underneath Joja to try and eliminate voiding issue.",
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 95,
+						"Y": 50
+					},
+					"Layer": "Back",
+					"SetTileSheet": "Landscape",
+					"SetIndex": "153"
+				}
+			]
+		},
+		/*{
+			"LogName": "Adds warp to town map",
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 100,
+						"Y": 50
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "Warp 21 20 TheaterBreakroom"
+					}
+				}
+			],
+			"When": {
+				"HasFlag |contains=ccMovieTheater": true,
+				"HasFlag |contains=ccMovieTheaterJoja": false,
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+			}
+		},*/
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"FromFile": "assets/Maps/Town-staircasePatch-vanilla.tmx",
+			"ToArea": {
+				"X": 32,
+				"Y": 0,
+				"Width": 7,
+				"Height": 13
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"FromFile": "assets/Maps/Town-staircasePatch-SDR2.tmx",
+			"ToArea": {
+				"X": 32,
+				"Y": 0,
+				"Width": 7,
+				"Height": 13
+			},
+			"When": {
+				"HasMod |contains=DaisyNiko.SVR2": true,
+				"HasMod |contains=Karmylla.ImmersiveMaps": true,
+				"TownMap": "reimagined"
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"FromFile": "assets/Maps/Town-staircasePatch-SDR2.tmx",
+			"ToArea": {
+				"X": 32,
+				"Y": 0,
+				"Width": 7,
+				"Height": 13
+			},
+			"When": {
+				"HasMod |contains= DaisyNiko.SVR2": true,
+				"HasMod |contains=Karmylla.ImmersiveMaps": false
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"FromFile": "assets/Maps/Town-staircasePatch-Reimagined1.tmx",
+			"ToArea": {
+				"X": 32,
+				"Y": 0,
+				"Width": 7,
+				"Height": 13
+			},
+			"When": {
+				"HasMod |contains=DaisyNiko.StardewValleyReimagined": true
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"FromFile": "assets/Maps/Town-staircasePatch-SVE.tmx",
+			"ToArea": {
+				"X": 32,
+				"Y": 0,
+				"Width": 7,
+				"Height": 13
+			},
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"ClearingHouse.1": "Looks like a litterbug lives here.",
+				"ClearingHouse.2": "This garden looks well tended. Someone clearly takes great pride in it.",
+				"ClearingHouse.3": "Oh... it looks empty. Where's the doggy?",
+				"ClearingHouse.4": "The crystals look tacky, but standing near them you feel a sense of peace wash over you. Interesting.",
+				"JojaBR.000": "WASH YOUR OWN DISHES",
+				"JojaBR.001": "None yet",
+				"JojaBR.002": "CLEAN AFTER USE.",
+				"JojaBR.003": "They're locked.",
+				"JojaBR.004": "Juliet's locker is covered in stickers of unicorns. Some are making crude hand gestures. One is vomiting a rainbow.",
+				"JojaBR.005": "Joja Cola Max for 'enhanced productivity'.^('Side effects may include: high blood pressure, heart disease, diabetes, tooth decay, and enhanced appetite for creophagy).'",
+				"LodgingHouse.000": "The kitchen is spotless, and smells fresh and clean.",
+				"LodgingHouse.001": "You spot a missing piece of the puzzle. It slots in perfectly! Success!",
+				"LodgingHouse.002": "It's password protected. Also, it's very rude to snoop!",
+				"LodgingHouse.003": "It's tuned to the gardening channel.",
+				"LodgingHouse.004": "Slipped in between a Gardener's Manual and a Field Guide to Birds of the Valley, there's a battered copy of... oooh... someone here likes their literature spicy!",
+				"LodgingHouse.005": "The artist really loves color. Perhaps a little TOO much...",
+				"LodgingHouse.006": "Are these for relaxation or yoga? Who knows?",
+				"LodgingHouse.007": "Wow, Juliet certainly likes her music loud and angry.",
+				"LodgingHouse.008": "Juliet certainly has eclectic taste - and some of these titles are making you blush.",
+				"LodgingHouse.009": "Various books on herbology... and spellcraft? Is there something Jessie hasn't told you?",
+				"LodgingHouse.010": "A collection of gardening journals, with a few herbology titles mixed in.",
+				"LodgingHouse.011": "The battered bunny stares at you with weary eyes. It's threadbare and... are those bite marks?",
+				"LodgingHouse.012": "you wipe away the fine layer of dust to see a photograph of Jessie and... a child in a costume? It's taken at night, and you can't see their face.",
+				"LodgingHouse.013": "The family in here don't look human. They've been crafted together from clothespegs and pompoms and wool.",
+				"LodgingHouse.014": "A pile of children's classics.",
+				"LodgingHouse.015": "Looks like this is designed to only play DVDs, and they're all kids titles. Movies about family and friendship. Very wholesome.",
+				"JulesMovie.1": "The owl blinks sleepily at you. It looks well fed.",
+				"JulesMovie.2": "You put out your hand and the little bird pecks it. Ow!"
+			}
+		}
+	]
+}

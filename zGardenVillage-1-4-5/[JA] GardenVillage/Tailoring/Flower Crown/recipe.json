@@ -1,0 +1,6 @@
+{
+    "CraftedItems": [ "Flower Crown" ],
+    "FirstItemTags": [ "item_cloth" ],
+    "SecondItemTags": [ "item_purple_easter_mayonnaise" ],
+    "ConsumeSecondItem": true,
+}

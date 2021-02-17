@@ -1,0 +1,12 @@
+{
+   "Name": "[BL] GardenVillage",
+   "Author": "Tarniyar",
+   "Version": "1.4.5",
+   "Description": "Adds a bus stop for Garden Village",
+   "UniqueID": "Tarniyar.BL.GardenVillage",
+   "MinimumApiVersion": "2.0",
+   "UpdateKeys": [ "Nexus:6113" ],
+   "ContentPackFor": {
+      "UniqueID": "hootless.BusLocations", // the ID of required mod
+   }
+}

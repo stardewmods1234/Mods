@@ -1,0 +1,555 @@
+{
+	"Format": "1.11.0",
+	"ConfigSchema": {
+		"Acorn": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Batterypack": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Clay": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Coal": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Copperbar": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Copperore": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Fallenlog": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Fiber": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Goldbar": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Goldore": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Hardwood": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Iridiumbar": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Iridiumore": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Ironbar": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Ironore": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Mapleseed": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Meteorite": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Outdoorboulder": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Outdoorstone1": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Outdoorstone2": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Pinecone": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Refinedquartz": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Seednodefall": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Seednodespring": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Seednodesummer": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Stone": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Treebranch1": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Treebranch2": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Treestump": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Weedsfall1": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Weedsfall2": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Weedsfall3": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Weedsspring1": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Weedsspring2": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Weedsspring3": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Weedssummer1": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Weedssummer2": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Weedssummer3": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Wood": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+
+	},
+	"Changes": [
+		//Acorn
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/acorn.png",
+			"ToArea": { "X": 336, "Y": 192, "Width": 16, "Height": 16 },
+			"When": {
+				"Acorn": "True",
+			},
+        },
+		//Mapleseed
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/mapleseed.png",
+			"ToArea": { "X": 352, "Y": 192, "Width": 16, "Height": 16 },
+			"When": {
+				"Mapleseed": "True",
+			},
+        },
+		//Pinecone
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/pinecone.png",
+			"ToArea": { "X": 368, "Y": 192, "Width": 16, "Height": 16 },
+			"When": {
+				"Pinecone": "True",
+			},
+        },
+		//Batterypack
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/batterypack.png",
+			"ToArea": { "X": 304, "Y": 512, "Width": 16, "Height": 16 },
+			"When": {
+				"Batterypack": "True",
+			},
+        },
+		//Clay
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/clay.png",
+			"ToArea": { "X": 288, "Y": 208, "Width": 16, "Height": 16 },
+			"When": {
+				"Clay": "True",
+			},
+        },
+		//Coal
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/coal.png",
+			"ToArea": { "X": 352, "Y": 240, "Width": 16, "Height": 16 },
+			"When": {
+				"Coal": "True",
+			},
+        },
+		//Copperbar
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/copperbar.png",
+			"ToArea": { "X": 352, "Y": 208, "Width": 16, "Height": 16 },
+			"When": {
+				"Copperbar": "True",
+			},
+        },
+		//Copperore
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/copperore.png",
+			"ToArea": { "X": 288, "Y": 240, "Width": 16, "Height": 16 },
+			"When": {
+				"Copperore": "True",
+			},
+        },
+		//Fallenlog
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fallenlog.png",
+			"ToArea": { "X": 32, "Y": 400, "Width": 32, "Height": 32 },
+			"When": {
+				"Fallenlog": "True",
+			},
+        },
+		//Fiber
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fiber.png",
+			"ToArea": { "X": 48, "Y": 512, "Width": 16, "Height": 16 },
+			"When": {
+				"Fiber": "True",
+			},
+        },
+		//Goldbar
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/goldbar.png",
+			"ToArea": { "X": 0, "Y": 224, "Width": 16, "Height": 16 },
+			"When": {
+				"Goldbar": "True",
+			},
+        },
+		//Goldore
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/goldore.png",
+			"ToArea": { "X": 0, "Y": 256, "Width": 16, "Height": 16 },
+			"When": {
+				"Goldore": "True",
+			},
+        },
+		//Hardwood
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/hardwood.png",
+			"ToArea": { "X": 208, "Y": 464, "Width": 16, "Height": 16 },
+			"When": {
+				"Hardwood": "True",
+			},
+        },
+		//Iridiumbar
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/iridiumbar.png",
+			"ToArea": { "X": 16, "Y": 224, "Width": 16, "Height": 16 },
+			"When": {
+				"Iridiumbar": "True",
+			},
+        },
+		//Iridiumore
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/iridiumore.png",
+			"ToArea": { "X": 32, "Y": 256, "Width": 16, "Height": 16 },
+			"When": {
+				"Iridiumore": "True",
+			},
+        },
+		//Ironbar
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/ironbar.png",
+			"ToArea": { "X": 368, "Y": 208, "Width": 16, "Height": 16 },
+			"When": {
+				"Ironbar": "True",
+			},
+        },
+		//Ironore
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/ironore.png",
+			"ToArea": { "X": 320, "Y": 240, "Width": 16, "Height": 16 },
+			"When": {
+				"Ironore": "True",
+			},
+        },
+		//Meteorite
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/meteorite.png",
+			"ToArea": { "X": 352, "Y": 400, "Width": 32, "Height": 32 },
+			"When": {
+				"Meteorite": "True",
+			},
+        },
+		//Outdoorboulder
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/outdoorboulder.png",
+			"ToArea": { "X": 0, "Y": 448, "Width": 32, "Height": 32 },
+			"When": {
+				"Outdoorboulder": "True",
+			},
+        },
+		//Outdoorstone1
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/outdoorstone1.png",
+			"ToArea": { "X": 112, "Y": 224, "Width": 16, "Height": 16 },
+			"When": {
+				"Outdoorstone1": "True",
+			},
+        },
+		//Outdoorstone2
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/outdoorstone2.png",
+			"ToArea": { "X": 288, "Y": 288, "Width": 16, "Height": 16 },
+			"When": {
+				"Outdoorstone2": "True",
+			},
+        },
+		//Refinedquartz
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/refinedquartz.png",
+			"ToArea": { "X": 32, "Y": 224, "Width": 16, "Height": 16 },
+			"When": {
+				"Refinedquartz": "True",
+			},
+        },
+		//Seednodefall
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/seednodefall.png",
+			"ToArea": { "X": 32, "Y": 528, "Width": 16, "Height": 16 },
+			"When": {
+				"seednodefall": "True",
+			},
+        },
+		//Seednodespring
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/seednodespring.png",
+			"ToArea": { "X": 0, "Y": 528, "Width": 16, "Height": 16 },
+			"When": {
+				"Seednodespring": "True",
+			},
+        },
+		//Seednodesummer
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/seednodesummer.png",
+			"ToArea": { "X": 16, "Y": 528, "Width": 16, "Height": 16 },
+			"When": {
+				"seednodesummer": "True",
+			},
+        },
+		//Stone
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/stone.png",
+			"ToArea": { "X": 96, "Y": 256, "Width": 16, "Height": 16 },
+			"When": {
+				"Stone": "True",
+			},
+        },
+		//Treebranch1
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/treebranch1.png",
+			"ToArea": { "X": 96, "Y": 192, "Width": 16, "Height": 16 },
+			"When": {
+				"Treebranch1": "True",
+			},
+        },
+		//Treebranch2
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/treebranch2.png",
+			"ToArea": { "X": 112, "Y": 192, "Width": 16, "Height": 16 },
+			"When": {
+				"Treebranch2": "True",
+			},
+        },
+		//Treestump
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/treestump.png",
+			"ToArea": { "X": 0, "Y": 400, "Width": 32, "Height": 32 },
+			"When": {
+				"Treestump": "True",
+			},
+        },
+		//Weedsfall1
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/weedsfall1.png",
+			"ToArea": { "X": 96, "Y": 448, "Width": 16, "Height": 16 },
+			"When": {
+				"Weedsfall1": "True",
+			},
+        },
+		//Weedsfall2
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/weedsfall2.png",
+			"ToArea": { "X": 112, "Y": 448, "Width": 16, "Height": 16 },
+			"When": {
+				"Weedsfall2": "True",
+			},
+        },
+		//Weedsfall3
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/weedsfall3.png",
+			"ToArea": { "X": 288, "Y": 512, "Width": 16, "Height": 16 },
+			"When": {
+				"Weedsfall3": "True",
+			},
+        },
+		//Weedsspring1
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/weedsspring1.png",
+			"ToArea": { "X": 32, "Y": 448, "Width": 16, "Height": 16 },
+			"When": {
+				"Weedsspring1": "True",
+			},
+        },
+		//Weedsspring2
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/weedsspring2.png",
+			"ToArea": { "X": 48, "Y": 448, "Width": 16, "Height": 16 },
+			"When": {
+				"Weedsspring2": "True",
+			},
+        },
+		//Weedsspring3
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/weedsspring3.png",
+			"ToArea": { "X": 256, "Y": 512, "Width": 16, "Height": 16 },
+			"When": {
+				"Weedsspring3": "True",
+			},
+        },
+		//Weedssummer1
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/weedssumer1.png",
+			"ToArea": { "X": 64, "Y": 448, "Width": 16, "Height": 16 },
+			"When": {
+				"Weedssummer1": "True",
+			},
+        },
+		//Weedssummer2
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/weedssummer2.png",
+			"ToArea": { "X": 80, "Y": 448, "Width": 16, "Height": 16 },
+			"When": {
+				"Weedssummer2": "True",
+			},
+        },
+		//Weedssummer3
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/weedssummer3.png",
+			"ToArea": { "X": 272, "Y": 512, "Width": 16, "Height": 16 },
+			"When": {
+				"Weedssummer3": "True",
+			},
+        },
+		//Wood
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/wood.png",
+			"ToArea": { "X": 64, "Y": 256, "Width": 16, "Height": 16 },
+			"When": {
+				"Wood": "True",
+			}
+        },
+
+	]
+}

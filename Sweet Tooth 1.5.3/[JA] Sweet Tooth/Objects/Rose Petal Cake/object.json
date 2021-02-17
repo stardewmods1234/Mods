@@ -1,0 +1,68 @@
+{
+  "Name": "Rose Petal Cake",
+  "Description": "A light sponge cake with a sweet, floral icing. There are clusters of rose petals pressed into the frosting.",
+  "Category": "Cooking",
+  "Edibility": 122,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 200,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 246,
+        "Count": 1,
+      },
+      {
+        "Object": 245,
+        "Count": 1,
+      },
+      {
+        "Object": -5,
+        "Count": 1,
+      },
+      {
+        "Object": "Rose",
+        "Count": 1,
+      }
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 200,
+    "PurchaseRequirements": null,
+  },
+    "GiftTastes":
+    {
+        "Love": ["Haley", "Jas", "Marnie", "Vincent", "Abigail", "Evelyn", "Jodi"],
+        "Like": ["Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "George", "Gus", "Harvey", "Kent", "Leah", "Lewis", "Linus", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Wizard"],
+        "Dislike": ["Krobus", "Willy"]
+    },
+  "NameLocalization": { 
+		// "es": "",
+		"ko": "장미꽃 케이크",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "玫瑰花瓣蛋糕",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        "ko": "달콤한 플로럴 아이싱을 곁들인 가벼운 스펀지 케이크. 설탕코팅 속에 장미 꽃잎이 뭉쳐 있다.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "轻巧的海绵蛋糕，甜甜的花糖衣。一簇玫瑰花瓣压在糖衣上。",
+    }  
+}

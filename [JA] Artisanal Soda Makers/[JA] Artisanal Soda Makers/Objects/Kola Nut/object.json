@@ -1,0 +1,47 @@
+{
+    "Name": "Kola Nut",
+    "Description": "A nut packed inside a pink seed shell, used to flavor and caffeinate soft drinks.",
+    "Category": "Vegetable",
+    "CategoryTextOverride": "Nut",
+    "CategoryColorOverride": "107, 70, 30, 255",
+    "Edibility": 12,
+    "Price": 90,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+  "NameLocalization": {
+	// "es": "",
+    "ko": "콜라 열매",
+    // "de": "",
+    // "fr": "",
+    // "hu": "",
+    // "it": "",
+    // "ja": "",
+    // "pt": "",
+    // "ru": "",
+    // "tr": "",
+    //"zh":"",
+  },
+  "DescriptionLocalization": {
+	// "es": "",
+    "ko": "분홍색 껍질로 감싸져있습니다. 소프트 드링크에 사용됩니다.",
+    // "de": "",
+    // "fr": "",
+    // "hu": "",
+    // "it": "",
+    // "ja": "",
+    // "pt": "",
+    // "ru": "",
+    // "tr": "",
+    //"zh":"",
+  },
+    "Recipe": null,
+    "ContextTags": [
+        "season_summer",
+        "color_red_pink",
+        "fruit_tree_item",
+        "nut_item"
+    ]
+}

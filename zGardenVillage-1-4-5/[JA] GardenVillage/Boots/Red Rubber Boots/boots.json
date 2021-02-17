@@ -1,0 +1,9 @@
+{
+"Name":"Red Rubber Boots",
+"Description":"Protection from the elements. Now in red!",
+"Price":2500,
+"Defense":0,
+"Immunity":1,
+"PurchasePrice":5000,
+"PurchaseRequirements":null
+}

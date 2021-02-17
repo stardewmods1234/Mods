@@ -1,0 +1,13 @@
+{
+  "Name": "Luma",
+  "Author": "Pillow",
+  "Description": "Created by MissCoriel's NPC Creator!-=Created By MissCoriel's NPC Creator=-",
+  "Version": "1.0.0",
+  "UniqueID": "Pillow.Luma",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "UpdateKeys": [
+    "Nexus: "
+  ]
+}

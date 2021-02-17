@@ -1,0 +1,86 @@
+{
+  "name": "Locations for Toshinori",
+  "version": "1.0.0",
+  "author": "FuzzyMittens, AeolianMode",
+  "festivalSpots": [
+    {
+      "name": "Toshinori",
+      "map": "Town-EggFestival",
+      "position": [
+        23,
+        71
+      ],
+      "direction": 1
+    },
+    {
+      "name": "Toshinori",
+      "map": "Forest-FlowerFestival",
+      "position": [
+        24,
+        25
+      ],
+      "direction": 2
+    },
+    {
+      "name": "Toshinori",
+      "map": "Beach-Luau",
+      "position": [
+        53,
+        24
+      ],
+      "direction": 2
+    },
+    {
+      "name": "Toshinori",
+      "map": "Beach-Jellies",
+      "position": [
+        14,
+        39
+      ],
+      "direction": 1
+    },
+    {
+      "name": "Toshinori",
+      "map": "Town-Fair",
+      "position": [
+        31,
+        63
+      ],
+      "direction": 2
+    },
+    {
+      "name": "Toshinori",
+      "map": "Town-Halloween",
+      "position": [
+        30,
+        71
+      ],
+      "direction": 0
+    },
+    {
+      "name": "Toshinori",
+      "map": "Forest-IceFestival",
+      "position": [
+        73,
+        11
+      ],
+      "direction": 2
+    },
+    {
+      "name": "Toshinori",
+      "map": "Town-Christmas",
+      "position": [
+        36,
+        73
+      ],
+      "direction": 3
+    }
+  ],
+  "spouseRooms": [
+	{
+      "name": "Toshinori",
+	  "file": "SpouseRoomToshi.tmx",
+    }
+  ],
+  "scripts": ["HideToshi.lua"]
+}

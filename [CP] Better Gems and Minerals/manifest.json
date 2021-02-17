@@ -1,0 +1,11 @@
+{
+   "Name": "Better Gems and Minerals",
+   "Author": "cometkins",
+   "Version": "1.0.1",
+   "Description": "Nicer looking gems and minerals.",
+   "UniqueID": "cometkins.BetterGemsAndMinerals",
+  "UpdateKeys": ["Nexus:5443"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}

@@ -1,0 +1,34 @@
+[{
+		"Id": "ShellCollection.GarlicCoconutScallopRecipe",
+		"GroupId": "null",
+		"Title": "GarlicCoconutScallop.title",
+		"Text": "GarlicCoconutScallop.text",
+		"Recipe": "Garlic Coconut Scallop",
+		"Repeatable": false,
+		"EventsSeen": [12200002],
+		"RecipeNotKnown": ["Garlic Coconut Scallop"]
+	}, {
+		"Id": "ShellCollection.NauticalScarecrowRecipe",
+		"GroupId": "null",
+		"Title": "NauticalScarecrowRecipe.title",
+		"Text": "NauticalScarecrowRecipe.text",
+		"Recipe": "Nautical Scarecrow",
+		"Repeatable": false,
+		"EventsSeen": [12200003],
+		"RecipeNotKnown": ["Nautical Scarecrow"]
+	}, {
+		"Id": "ShellCollection.CoralOrder.Latter",
+		"GroupId": "null",
+		"Title": "CoralOrderReward.title",
+		"Text": "CoralOrderReward.text",
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Index": 224,
+				"Stack": 1
+			}
+		],
+		"Repeatable": false,
+		"MailReceived":["ShellCollection.CoralOrder.Latter.Trigger"]
+	}
+]

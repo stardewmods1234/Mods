@@ -1,0 +1,13 @@
+{
+   "Name": "[CRC] Chunky Discoveries In The Depths",
+   "Author": "mikeInside",
+   "Version": "1.0.4",
+   "Description": "New chunky formations to discover in the mines. Content pack for Custom Resource Clumps by aedenthorn.",
+   "UniqueID": "mikeInside.ChunkyDiscoveriesInTheDepths",
+   "MinimumApiVersion": "3.4.0",
+   "UpdateKeys": [ "Nexus:8053" ],
+   "ContentPackFor": {
+      "UniqueID": "aedenthorn.CustomResourceClumps", 
+      "MinimumVersion": "0.1.0" 
+   }
+}

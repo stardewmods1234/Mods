@@ -1,0 +1,18 @@
+﻿{
+	"Name": "[MFM] Shell Collection",
+	"Author": "ItsBenter",
+	"Version": "1.2.1",
+	"Description": "Add mails that contain recipes.",
+	"UniqueID": "ItsBenter.ShellCollection.MFM",
+	"MinimumApiVersion": "3.8.1",
+	"UpdateKeys": ["Nexus:????"],
+	"Dependencies": [
+		{
+			"UniqueID": "ItsBenter.ShellCollection.JA",
+			"IsRequired": true
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod"
+	}
+}

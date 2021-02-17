@@ -1,0 +1,27 @@
+{
+  "Name": "Umuwi Poinsettia",
+  "Description": "A flower that blooms in the cold dirt of Umuwi. Popular among female shadowfolk and werewolves.",
+  "Category": "Flower",
+  "Edibility": 5,
+	"EdibleBuffs": {
+    "Farming": 0,
+    "Fishing": 0,
+    "Mining": 0,
+    "Luck": 0,
+	"Foraging": 3,
+	"MaxStamina": 0,
+    "MagnetRadius": 0,
+	"Speed": 0,
+	"Defense": 0,
+	"Attack": 0,
+    "Duration": 100,
+	},
+  "Price": 60,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+  {
+  "Love": ["Bianka", "Lunna", "Abigail", "Dianna"],
+  "Like": ["Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Shane", "Willy", "Wizard","Lewis", "Haley", "Jas", "Sam", "Sebastian", "Vincent"],
+  },
+}

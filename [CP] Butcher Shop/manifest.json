@@ -1,0 +1,17 @@
+{
+   "Name": "[CP] Butcher Shop",
+   "Author": "KAYA",
+   "Version": "1.0.0",
+   "Description": "Add Butcher Shop",
+   "UniqueID": "KAYA.CP.ButcherShop",
+   "UpdateKeys": ["Nexus:7087"],
+	"Dependencies": [
+	{
+		"UniqueID": "coco.meatshop",
+		"IsRequired": true,
+	},
+	],
+   "ContentPackFor": {
+    	"UniqueID": "Pathoschild.ContentPatcher",
+  }
+}

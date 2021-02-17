@@ -1,0 +1,381 @@
+﻿{
+  "Format": "1.10.0",
+  
+
+   "DynamicTokens": [
+
+	//Dynamic sprites
+        {
+            "Name": "SeasonalValue",
+            "Value": "_Summer",
+            "When":
+            {
+                "SeasonalSprite": "true",
+		"season":"summer"
+            },
+        },
+        {
+            "Name": "SeasonalValue",
+            "Value": "_Spring",
+            "When":
+            {
+                "SeasonalSprite": "true",
+		"season":"spring"
+            },
+        },
+        {
+            "Name": "SeasonalValue",
+            "Value": "_Fall",
+            "When":
+            {
+                "SeasonalSprite": "true",
+		"season":"fall"
+            },
+        },
+        {
+            "Name": "SeasonalValue",
+            "Value": "_Winter",
+            "When":
+            {
+                "SeasonalSprite": "true",
+		"season":"winter"
+            },
+        },
+
+
+        // Festivals
+
+         
+        {
+            "Name": "Festival",
+            "Value": "_EggFestival",
+            "When":
+            {
+                "DayEvent": "egg festival"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "_FlowerDance",
+            "When":
+            {
+                "DayEvent": "flower dance"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "_IceFestival",
+            "When":
+            {
+                "DayEvent": "festival of ice"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "_Luau",
+            "When":
+            {
+                "DayEvent": "luau"
+            }
+        }, 
+        {
+            "Name": "Festival",
+            "Value": "_SVFair",
+            "When":
+            {
+                "DayEvent": "stardew valley fair"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "_WinterStar",
+            "When":
+            {
+                "DayEvent": "feast of the winter star"
+            }
+        },
+
+
+
+	//Default
+        {
+            "Name": "SeasonalValue",
+            "Value": "",
+            "When":
+            {
+                "SeasonalSprite": "false"
+            },
+        }
+
+    ],
+
+
+	"ConfigSchema": {
+			"SeasonalSprite":{
+           		"AllowValues": "true, false",
+			"Default": "true"
+		},	
+     },
+
+
+
+
+
+
+"Changes": [
+    {
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "FromFile": null,
+      "Entries": {
+        "Beatrice": "adult/neutral/shy/negative/female/non-datable/null/Town/spring 17//Lighthouse 11 10/Beatrice"
+      }
+    },
+    {
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "FromFile": null,
+      "Entries": {
+        "Beatrice": "Merci beaucoup. You are too kind!/84 192 199/Merci, mon cher.^Merci, ma chère./207 117 24/Hmm, merci./152 202/I appreciate the thought./129 130 131 148/Merci bien./74/"
+      }
+    },
+    {
+      "LogName": "Beatrice Sprite",
+      "Action": "Load",
+      "Target": "Characters/Beatrice",
+      "FromFile": "assets/sprites/Beatrice{{SeasonalValue}}.png",
+    },
+    {
+      "LogName": "Beatrice Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Beatrice",
+      "FromFile": "assets/portraits/Beatrice{{SeasonalValue}}.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Beatrice",
+      "FromFile": "assets/dialogue/Dialogue.json",
+    },
+
+//Festival Sprites
+   
+{
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Beatrice",
+      "FromFile": "assets/sprites/Festivals/Beatrice{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "egg festival",
+        "LocationName":"Temp",
+      }
+    }, 
+{
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Beatrice",
+      "FromFile": "assets/sprites/Festivals/Beatrice{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "flower dance",
+        "LocationName":"Temp",
+      }
+      },
+{
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Beatrice",
+      "FromFile": "assets/sprites/Festivals/Beatrice{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "luau",
+        "LocationName":"Temp",
+      }
+      },       
+{
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Beatrice",
+      "FromFile": "assets/sprites/Festivals/Beatrice{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "festival of ice",
+        "LocationName":"Temp",
+      }
+      },
+{
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Beatrice",
+      "FromFile": "assets/sprites/Festivals/Beatrice{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "stardew valley fair",
+        "LocationName":"Temp",
+      }
+      },
+      
+{
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Beatrice",
+      "FromFile": "assets/sprites/Festivals/Beatrice{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "feast of the winter star",
+        "LocationName":"Temp",
+      }
+      }, 
+
+//Festival Portraits        
+{
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Beatrice",
+      "FromFile": "assets/portraits/Festivals/Beatrice{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "egg festival",
+        "LocationName":"Temp",
+      }
+    },
+    
+{
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Beatrice",
+      "FromFile": "assets/portraits/Festivals/Beatrice{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "flower dance",
+        "LocationName":"Temp",
+      }
+      },
+       
+{
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Beatrice",
+      "FromFile": "assets/portraits/Festivals/Beatrice{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "luau",
+        "LocationName":"Temp",
+      }
+      },
+{
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Beatrice",
+      "FromFile": "assets/portraits/Festivals/Beatrice{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "festival of ice",
+        "LocationName":"Temp",
+      }
+      },
+{
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Beatrice",
+      "FromFile": "assets/portraits/Festivals/Beatrice{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "stardew valley fair",
+        "LocationName":"Temp",
+      }
+      },
+{
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Beatrice",
+      "FromFile": "assets/portraits/Festivals/Beatrice{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "feast of the winter star",
+        "LocationName":"Temp",
+      }
+      },
+//Festival Dialogue
+	
+
+    { 
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Beatrice": "I remember when Abigail was too small to even join in!"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Beatrice": "Raoul and I would dance together every spring."
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Beatrice": "Mmm, the soup smells délicieuse!",
+     }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Beatrice": "I think Eloise wanted to make a display of feathers!#$e#Marnie has some excellent looking cheese on display.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Beatrice": "I do not enjoy eating fish. I think we'd all be 'appier if we just left them be."
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Beatrice": "Today is a day for families. Those we belong to and those we 'ave found for ourselves."
+      }
+    },
+
+
+
+
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Beatrice",
+      "FromFile": "assets/schedule/Schedule.json",
+    },
+    {
+
+      "LogName": "Schedule Dialogue",
+      "Action": "Load",
+      "Target": "Strings/schedules/Beatrice",
+      "FromFile": "assets/schedule/ScheduleDialogue.json"
+
+    },
+    {
+
+      "LogName": "Animations",
+      "Action": "EditData",
+      "Target": "Data/animationdescriptions",
+      "Entries": {
+        "Beatrice_sit": "0/16/0",
+        "Beatrice_read": "0/17/0",
+        "Beatrice_stool": "0/18/0",
+        "Beatrice_shop": "12/24/12",
+        "Beatrice_pjs": "0/26/13",
+        "Beatrice_chair": "12/25/12",
+        "Beatrice_telescope": "0/20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22/0"
+      }
+    },
+  ]
+}

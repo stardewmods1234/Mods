@@ -1,0 +1,10 @@
+﻿{
+"Music" : [
+{
+"Id": "Poppy",
+"File": "Poppy.wav",
+"Loop": true,
+"Ambient": false
+}
+]
+}

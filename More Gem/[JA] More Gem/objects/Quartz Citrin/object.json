@@ -1,0 +1,46 @@
+{
+    "Name": "Citrin",
+    "Description": "A transparent, yellowish crystal.",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
+    "Edibility": -300,
+    "Price": 100,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "시트린",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Citrino",
+        // "ru": "",
+        // "tr": "",
+        "zh": "黄水晶",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "투명한 노란색을 띠는 황수정.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Um cristal transparente amarelado.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "透明的黄色水晶。",
+    },
+	
+    "ContextTags": [
+        "color_yellow", "yellow_gem", "quartz_item",
+    ],
+}

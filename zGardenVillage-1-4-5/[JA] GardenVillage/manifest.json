@@ -1,0 +1,41 @@
+{
+	"Name": "New objects for Garden Village",
+	"Author": "Tarniyar",
+	"Version": "1.4.5",
+	"UniqueID": "Tarniyar.JA.GardenVillage",
+	"UpdateKeys": [ "Nexus:6113" ],
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.JsonAssets"
+	},
+	"Dependencies": [
+   {
+      "UniqueID": "Tarniyar.JA.EasterBunny",
+      "IsRequired": false
+   },
+   	  // fix item id collisions
+   {
+      "UniqueID": "MoreFish",    // CP only mod
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "Medinaquirin.CoffeeMakerJA",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "JA.Fishbreeding",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "HisameCraftables",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "JAISland",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "Elaseolvidah.SeedMaker", // non JA mod
+      "IsRequired": false
+   }
+]
+}

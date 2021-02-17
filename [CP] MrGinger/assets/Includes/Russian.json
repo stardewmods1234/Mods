@@ -1,0 +1,1054 @@
+//Russian Translation by Ghost3lboom
+{
+  "Changes": [
+
+{	"LogName": "NPC Manifestation #1", 
+	"Action": "EditData", 
+	"Target": "Data/NPCDispositions", 
+	"Entries": { 
+			"MisterGinger": "adult/rude/outgoing/neutral/male/non-datable/null/Town/summer 20//AnimalShop 7 16/Мистер Джинджер"
+					}
+			},
+{	"LogName": "NPC Gift Tastes", 
+	"Action": "EditData", 
+	"Target": "Data/NPCGiftTastes",
+	"Entries": {
+		"MisterGinger": "Мирруп!/130 139 148 198 227 267 424 426 715/Миау!/-4 168 95 50 125 195 209 228 305 444 446 684 685 732/Муррр?/-81 -2 -75 -79 -7/Мурр/2 220 221 222 223 -26 395/Муууур?//"
+					}
+			},
+{	"LogName": "NPC Gift Tastes", 
+	"Action": "EditData", 
+	"Target": "Data/NPCGiftTastes",
+	"Entries": {
+		"MisterGinger": "О-о-о, дань подношения! Я люблю это. *мурлычет*/130 139 148 198 227 267 424 426 715/О-о-о, подарок для меня? Вот это здорово!/-4 168 95 50 125 195 209 228 305 444 446 684 685 732/Это для меня? А разве я могу... съесть это?/-81 -2 -75 -79 -7/Я не люблю когда надо мной издеваются, @./2 220 221 222 223 -26 395/О, у тебя есть для меня подарок. А как же иначе.//"
+			},
+	"When": {		"HasSeenEvent": "50706121"		}
+	},
+{	"LogName": "Dialogue", 
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/MisterGinger",
+	"Entries": {
+			"Introduction": "Мурр? Мирп!$1",
+			"Mon": "Мяу?",
+			"Tue": "Мирруп!$1",
+			"Wed": "Мяууууу.$2",
+			"Thu": "МЯУ!$1",
+			"Fri": "Мррррррррв.",
+			"Sat": "Мяу-мяу - мяу-мяу?$2",
+			"Sun": "Мирп!$1",
+			"Town_54_71": "Мррврвррр мяуууу!$3",
+			"MrG_Friend": "Мирп!",
+			"MrG_Rid": "Мурррк",
+			"rejectNPCA": "Мирп!$5",
+			"rejectNPCB": "%Мистер Джинджер принюхивается и поворачивает свой хвост прямо вам в лицо. Вы же не думаете, что ему это интересно.",
+			"engageA": "Муррр.... шшшшш!$5",
+			"engageB": "%На мистера Джинджера это не произвело никакого впечатления.",
+			"marriedA": "Mррррр....мяу!$5",
+			"marriedB": "%Мистер Джинджер не выглядит счастливым..",
+			"refusal_no_heartsA": "Mррррк!$5",
+			"refusal_no_heartsB": "Mурррррр.$5"
+	  		  },
+	"When": {	"HasSeenEvent |contains=50706121":false		}              
+		},
+{	"LogName": "Dialogue 6-hearts",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/MisterGinger",
+	"Entries": {
+			"danceRejection": "Не надо верить тому, что написано в этой книге. Кошки не умеют танцевать.",
+			"divorced": "...Mуррр...$5",
+			"breakUp": "Ну и ладно. В любом случае Абигейл неплохо гладит мне голову.$2",
+			"give_flowersA": "А для чего это нужно? Это что, какой-то странный человеческий ритуал? Неужели это кошачья мята?$3#$b#Ну конечно же, я согласен! Несмотря на то, что это всего лишь одна из схем Пьера 'разбогатеть'.$4",
+			"give_flowersB": "Оооо, я чувствую запах кошачьей мяты? Ты так хорошо меня знаешь, @!#$b#Да-да, мне тоже нравится твоё общество.",
+			"give_pendant": "О-о-о, игрушка на верёвочке. *кулон с летучими мышами* Ты приглашаешь меня переехать к тебе?$4#$b#Рыба и сыр, когда захочу? Как же я могу отказаться!$3",
+			"Town_54_71": "Эй ты, слюнявая морда! Думаешь, что ты такой крутой, благодаря своим большим острым зубам и липкому языку?$4#$b#И всё же ты застрял здесь, а я на свободе!$1",
+			"Town_56_21": "$d cc#Итак, что же там внутри, @? Это таинственное и волшебное место, наполненное рыбой и сыром?$5#$b#НЕТ? А вот это уже разочаровывает.$2|Я что-то слышу, @. Это не крысы и не птицы, а что-то другое. Что-то волшебное.#$b#Интересно, каковы они на вкус?$1",
+			"Forest_29_12": "Привет @! Ты тоже здесь, чтобы попробовать лакомства империи Готоро?$4",
+			"Mon": "Каждый может разговаривать с животными, но для того, чтобы слушать их, нужно быть особенным человеком.#$b#Да, это комплимент. Только не привыкай к ним. У меня есть репутация, которую нужно скрывать, ты же знаешь.",
+			"Mon8": "Иногда мне снится, что я стал человеком.#$b#Потом я просыпаюсь, шерсть встаёт дыбом, и я радуюсь, что это всего лишь сон.$3#$b#Шучу. Должно быть, приятно иметь большие пальцы - или, как я люблю их называть, лапы-инструменты.$1",
+			"Mon10": "Мне очень приятно твоё общество, @. Есть не так много людей, которых я ценю так дорого.",
+			"Tues": "Хмм... Вторник... Интересно, чистит ли Вилли свой холодильник...#$b#Хочешь пойти со мной, @? Там могут быть какие-нибудь объедки!$1",
+			"Tue8": "Малыш Винни постоянно шепчет, что хочет жениться на Мисс Пенни.#$b#Глупое дитя, любой человек с половиной носа может почувствовать, что влюблён в кого-то другого.#$b#Кто это? А вот это уже было бы красноречиво.$3",
+			"Tue10": "Ты веришь в сказки, @? Джас читает их мне.#$b#'К востоку от Луны и к западу от Солнца' одна из моих любимых сказок. А ты её знаешь?",
+			"Wed": "Для человека ты выглядишь вполне прилично, @. Не то что этот противный Пьер.#$b#А ты знаешь, как он меня называет? Паразитом!$5",
+			"Wed8": "Мы с Жасмин смотрели тот фильм про бесшабашного кота.#$b#Интересно, где я моу поменять свои лапы на абордажную саблю?",
+			"Wed10": "Мне нравится быть с Джас, но она растёт, и скоро я ей больше не понадоблюсь.#$b#Тогда я не знаю, что буду делать.$2",
+			"Thu": "Да, признаюсь, я очень привязан к Джас. Маленькой девочке нужен кто-то, кто бы присматривал за ней.#$b#Не допусти, чтобы она попала в беду.$1#$b#Что? Нет. Я имел в виду то, что сказал!$3",
+			"Thu8": "Есть ли у тебя сегодня какая-нибудь рыбка для меня? Или может быть, хороший рассыпчатый кусочек сыра?$4",
+			"Thu10": "$q 910/911 MrG_Fairytale#Стал бы ты превращаться в кошку, если бы мог?^Стала бы ты превращаться в кошку, если бы могла?#$r 910 50 MrG_Fairytales_Yes#В мгновение ока!#$r 910 50 MrG_Fairytales_Human#Стал бы ты превращаться в человека, если бы мог?#$r 911 -5 MrG_Fairytales_No#Нет, мне нравится быть человеком.#$r 911 -25 MrG_Fairytales_NoWay#Ни за что! Я не хочу походить на тебя.",
+				"MrG_Fairytales_Yes": "Здорово! Мы - высший вид.",
+				"MrG_Fairytales_Human": "Ох, если бы... Мне приходит в голову несколько вещей, которые я бы сделал, если бы только у меня были руки.$1#$b#Я имею в виду открывать банки с кошачьим кормом! Не знаю, о чём ты только что подумал.^Я имею в виду открывать банки с кошачьим кормом! Не знаю, о чём ты только что подумала.$4",
+				"MrG_Fairytales_No": "Ты не хочешь всю жизнь валяться на солнце, гоняться за бабочками и получать пощёчины по голове? Ну, ты многое теряешь.$4",
+				"MrG_Fairytales_NoWay": "О... Я просто подумал, что это возможно... Ну ладно, неважно.$2",
+				"MrG_Fairytale": "$p 910#Знаешь историю про принца-лягушку? Я спросил Раса, сработает ли это.. Он ответил 'Нет'.$2|Слушай, а если ты упадёшь с дерева, то приземлишься на ноги? Я так и думал!$4",
+			"Fri": "Пятница... сегодня меня ждёт традиционная ночь для употребления рыбы.#$b#Хмм... Кажется, самое подходящее время для рыбалки, не так ли?$1",
+			"Fri8": "Собираешься сегодня посетить салун, @? Если да, то не можешь ли ты принести мне несколько вкусных рыбных пирогов Гаса?#$b#По какой-то причине он, кажется, не ценит моего покровительства.",
+			"Fri10": "Какое-то время мы с Гасом были друзьями. Затем произошло недоразумение, связанное с печёной рыбы...#$b#Откуда мне было знать, что он просто поставил его остывать?",
+			"Sat": "Что? Нет, я тебя не понимаю. Просто так получилось, что я тоже иду этим путем, большое тебе спасибо.",
+			"Sat8": "Я поймал мышь, и принёс её домой, чтобы показать Марни. Она вскрикнула.#$b#Некоторые люди не ценят хорошо сделанную работу.",
+			"Sat10": "Есть ли у тебя крысы или мыши на ферме, @? Если да, то для меня будет большой честью предложить тебе свои услуги по борьбе с вредителями.$1#$b#У меня очень разумные цены: я принимаю сыр или рыбу.$4",
+			"Sun": "Расмодиус оказался вполне приемлемой компанией Ну да, и ты тоже, @. Вполне приемлемо.$1",
+			"Sun8": "Эмили - прекрасная девушка, а что про того здоровяка, от которого пахнет раскалённым металлом?#$b#Каждый, у кого есть хоть половина носа, чует, что она ему небезразлична...#$b#Но он ничего ей не говорит. Человеческое ухаживание до смешного сложно.",
+			"Sun10": "Поразительно, как много люди могут рассказать тебе, если ты хорошо слушаешь.#$b#Я знаю много секретов, @. Разве тебе не хочется знать, что все кошки разговаривают на моём языке!$3",
+			"summer_Mon": "Люди - странные существа, @. Они тратят так много времени, собирая бесполезные вещи, а ещё беспокоятся о всякой ерунде...#$b#...Когда они могли бы делать что-то продуктивное. Например, спать.$4",
+			"summer_Mon8": "Шейн случайно запер меня в курятнике прошлой ночью.#$b#Говорю тебе, курица - это единственная птица, с которой лучше не связываться. О, мне потребовалось несколько часов, чтобы привести в порядок свою шкурку!$2",
+			"summer_Tue": "$d joja#Этот жуткий Моррис бродит по ночному городу. На твоём месте я бы не спускал с него глаз.|Мэр, Льюис? Я видел, как он крадётся по ночному городу. Он вызывает у меня подозрения.$5#$b#Мне кажется, он замышляет что-то хитрое.",
+			"summer_Tue8": "Курочки могут быть сварливыми, они обычно хороши для забавы. Гуси на другой лапе...#$b#А гуси - это просто зло, @. Берегись гусей!",
+			"summer_Tue10": "Я принёс тебе подарок. Надеюсь, тебе понравится...$6[136 145 138]",
+			"summer_Wed": "Джас сейчас читает мне про дварфов. Хотя я думаю, что она ошибается в изложении фактов.#$b#В конце концов, что это за имя такое - Снизи?",
+			"summer_Thu": "Я так рад, что теперь мы можем нормально поговорить. Здесь очень мало шансов для интеллигентного разговора.#$b#Почему люди разговаривают с кошками, как с младенцами? Это унизительно.",
+			"summer_Fri": "Может, у тебя и есть руки, но есть ли у тебя ножи на пальцах? Я так и думал!",
+			"summer_Sat": "Коты, отточенные эволюцией - идеальные машины для убийства.#$b#Если бы мы были твоего размера, то смогли бы править миром.#$b#Однако нам нужен кто-то, кто будет управлять открывалкой для консервов.",
+			"summer_Sun": "Девушка с фиолетовыми волосами? Абигейл. Она мне нравится!#$b#Она тайком выносит мои объедки через заднюю дверь.",
+			"summer_Sun8": "Ты же знаешь Абигейл? От неё пахнет шёпотом ночи. Это меня заинтриговало.#$b#Порой мне кажется, что она, возможно, даже сможет понять меня.",
+			"fall_Mon": "Джас заинтересовалась птицами.#$b#Я попытался объяснить ей, что есть только три типа: вкусные, крикливые и страшные.#$b#Она по-прежнему в это не верит.",
+			"fall_Mon8": "Знаешь, если бы люди понимали, что на самом деле говорят птицы, они бы любили их гораздо меньше.",
+			"fall_Tue": "А ты знаешь, как меня называет девушка с фиолетовыми волосами? Тыковка?! Я же не какой-то глупый, пухлый овощь.#$b#Во всяком случае, она хорошо ко мне относится, так что, наверное, мне не стоит жаловаться. Но Тыковка!",
+			"fall_Wed": "Неужели тебе не нравятся яркие осенние цвета? Так много оттенков синего и зелёного!#$b#Они красные и оранжевые? Правда? У вас, людей такое причудливое цветовое зрение.",
+			"fall_Thu": "'Ой, такой хорошенький игривый котёнок'. Да разве это вообще можно назвать словом?#$b#Я хочу сказать, что у бабушки доброе сердце, но всё же...",
+			"fall_Fri": "Привет @. Надеюсь, сегодня тебе удастся поймать много рыбы!",
+			"fall_Sat": "Высокий парень с бледными волосами? Он называет меня гусём и смеётся.#$b#Только я тебе не тупой Хэнк, чтобы назавать меня гусём! Человек может быть самым тупым из всех остроумных существ.",
+			"fall_Sun": "Знаешь, а сегодня очень приятно наблюдать, как солнечный свет пробивается сквозь ветви деревьев.$3#$b#А этот, по-твоему, похож на голубя? Большой пухлый, вкусный голубь.$1",
+			"winter_Mon": "Я чувствую, что должен дать тебе знать, @, мусорные баки по всему городу - мои, и я должен их разгребать.#$b#Конечно, иногда я разрешаю сделать Линусу первый заход. Это будет справедливо. В конце концов, у него нет моих охотничьих навыков.",
+			"winter_Tue": "Я развлекался с этой штукой, которую вы, люди, называете 'интернетом'.#$b#Правильно ли я предполагаю, что это своего рода святилище для вас, расы кошачьих хозяев?$3",
+			"winter_Wed": "Вы с Марлоном знакомы? Если бы он был котом, то был бы тем самым покрытым боевыми шрамами Томом, который правит домом.",
+			"winter_Wed8": "Мы с Марлоном патрулировали вчера вечером. Боремся с вредителями, понимаешь?#$b#Не только с крысами и мышами! Есть другие виды вредителей. Такие, от которых у меня шерсть дыбом встаёт.",
+			"winter_Wed10": "Ты когда-нибудь слышал о часе колдовства? Это когда мир спит, а пустота пробуждается.^Ты когда-нибудь слышала о часе колдовства? Это когда мир спит, а пустота пробуждается.#$b#Существует причина, по которой здесь действует комендантский час. Береги себя, @, я очень расстроюсь, если с тобой что-нибудь случится.",
+			"winter_Sun10": "Рас в основном сам по себе, но я видел его с этим затворником в лесу.#$b#Знаешь Линуса? Этот человек пахнет богатой землёй и рыбным мясом.",
+			"spring_Sun_inlaw_Shane": "Как поживает твой вонючий цыплёнок? Теперь уже не так воняет? Вот это хорошо!$1",
+			"spring_Sun_inlaw_Emily": "Я слышал, что теперь у тебя живёт птичка. А теперь представь, что у тебя мог бы жить я, а не тот попугай.#$b#Короче, думаю, что вкус здесь не учитывается. По крайней мере, Эмили очень привлекательна.",
+			"spring_Sun_inlaw_Abigail": "Абигейл гораздо счастливее теперь, когда её больше не теснят мистер и миссис Боринг.$1#$b#Передай ей от меня 'Привет!'$4",
+			"spring_Sun_inlaw_Sebastian": "Разве мрачный кроумен делает тебя счастливым? Ну, тут уж не до вкуса.",
+			"spring_Sun_inlaw_Sam": "А Самсон не напоминает тебе золотистого ретриверчика? Все нетерпеливо подпрыгивают и радуются похвале??#$b#А может, дело только во мне?",
+			"spring_Sun_inlaw_Elliot": "Мистер Претенциозность уже написал тебе стихотворение? Я ведь тоже могу написать стихотворение.#$b#Розы голубые, и фиалки тоже...#$b#Что? Да, я дальтоник. Но разве ты можешь видеть в темноте? Ну уж нет!",
+			"spring_Sun_inlaw_Penny": "Ха-ха, маленький Винни так ревнует, что ты женился на Пенни! Люди такие глупые.",
+			"spring_Sun_inlaw_Maru": "Девочка-наука ещё не успела сжечь твой дом дотла? Вот и хорошо.#$b#Тебе нужно присматривать за ней. Она пахнет клубникой и холодным металлом, и это очень странно.",
+			"spring_Sun_inlaw_Krobus": "Вокруг тебя какой-то интересный запах, @. Словно слякоть и...#$b#...Может, это намёк на пустоту? И... канализацию? А что ты там делал?^...Может, это намёк на пустоту? И... канализацию? А что ты там делала?",
+			"spring_Sun_inlaw_Leah": "Мыши перебрались в домик Леи, и теперь он пустует.#$b#Я скучаю по ней. У неё всегда был кусочек сыра и доброе слово для меня.",
+			"spring_Sun_inlaw_Harvey": "Эй, как поживает наш друг, гусеница-морд?#$b#Что? Только не говори мне, что тебе никогда не приходило в голову, что он похож на большую мохнатую гусеницу!$4",
+			"spring_Sun_inlaw_Haley": "А ты не думаешь, что твоя прелестная жена захочет меня сфотографировать?#$b#Я ведь, в конце концов, довольно симпатичный кот, не так ли?#$b#Я мог бы устроить настоящий переполох на этой запутанной штуковине.",
+			"spring_Sun_inlaw_Alex": "Твой потный спортсмен уже последовал за своей мечтой? Чтобы стать собой... что же была за мечта? Звезда, бьющая по мячу?#$b#Но он этого не сделал? Таковы люди - не следуй своим мечтам, и ты никогда их не разрушишь, верно?",
+			"MrG_Friend": "Я так рад это слышать, @.",
+			"MrG_Rid": "O...$2#$b#Ну уж, извините, что беспокою вас своими 'нелепыми' кошачьими эмоциями.$5#$b#Ты вполне можешь наслаждаться пикником, а я уж точно не собираюсь.$2",
+			"stardrop_gift": "Я нашёл этот странный фрукт. Он показался мне невкусным, и я решил, что тебе понравится.$1#$b#Он заставил меня чувствовать себя немного тёплым и покалывающим, как хорошее поглаживание по голове. Кстати, о поглаживаниях...$l",
+			"rejectNPCA": "Что же это за штука? Зачем оно мне нужно?",
+			"rejectNPCB": "Цветы? Цветы-то зачем коту понадобились? И что прикажешь мне с ними делать?",
+			"reject_two_heartA": "Цветы? Цветы-то зачем коту понадобились? И что прикажешь мне с ними делать?",
+			"reject_two_heartB": "А-А-А-ПЧХИ! Убери их с моего лица.$5",
+			"reject_four_heartA": "Цветы? Цветы-то зачем коту понадобились? И что прикажешь мне с ними делать?",
+			"reject_four_heartB": "А-А-А-ПЧХИ! Убери их с моего лица.$5",
+			"engageA": "Эм, ты ведь понимаешь, что я кот, не так ли?$3#$b#Кроме того, я думал, что вы, люди, связаны моногамными узами.$1",
+			"engageB": "Ты хочешь жениться на мне? Неужели мыши съели твой мозг?$2",
+			"marriedA": "Переехать к тебе и %spouse? Звучит немного оживлённо для меня.#$b#Мне нужно немного уединения, и никаких здесь 'кис-кис', хорошо!",
+			"marriedB": "O @. Ты мне нравишься достаточно хорошо, но мне придётся жить и с %spouse тоже?#$b#Твёрдое 'нет'.$2",
+			"refusal_no_heartsA": "Это что, игрушка? Убери это с моего лица? И вообще, что это такое?",
+			"refusal_no_heartsB": "О, пытаешься поиграть с котом. Иди дальше. Брысь!",
+			"refusal_knownA": "Ты мне нравишься достаточно хорошо, @. Но я не могу покинуть ранчо.",
+			"refusal_knownB": "Переехать к тебе? И что Марни и Джас будут делать без меня?#$b#Почему бы вместо этого не отдать это вонючему цыплёнку?",
+			"refusal_botherA": "Теперь ты действительно начинаешь меня раздражать...$5",
+			"refusal_botherB": "Иди и помаши этим кому-нибудь в лицо. Я не хочу играть с тобой сегодня."
+						},
+	"When": {		"HasSeenEvent |contains=50706121":true			}
+		},
+{	"LogName": "Rainy Day Dialogue",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/rainy",
+	"Entries": {			"MisterGinger": "Мурррр.....$2"			}
+		},
+{	"LogName": "Rainy Day Dialogue 6-hearts",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/rainy",
+	"Entries": {
+			"MisterGinger": "Блин, ненавижу дождь. И всё же это хороший предлог, чтобы остаться дома и поспать, верно?"
+				},
+	"When": {	"HasSeenEvent": "50706121"		}
+},
+{ 	"Action": "EditData",
+	"Target": "data/festivals/spring13",
+	"Entries": {
+	  "MisterGinger": "Мурр!"
+			}
+  		},
+{	"Action": "EditData",
+	"Target": "data/festivals/spring13",
+	"Entries": {
+		"MisterGinger":  "Фестиваль в честь этих миниатюрных динозавров? Зачем?$2#$b#Но эти крошечные малыши даже не набивают рот. Это не стоит таких усилий."
+							},
+	"When": {	"HasSeenEvent": "50706121"	}
+  		},
+{	"Action": "EditData",
+	"Target": "data/festivals/spring24",
+	"Entries": {
+	  	"MisterGinger": "Я уже говорил тебе об этом раньше и повторю ещё раз. 'Кошки. Не. Танцуют'.$2"
+				}	
+		},
+{	"Action": "EditData",
+	"Target": "data/festivals/summer11",
+	"Entries": {
+	  	"MisterGinger": "Мууурр?"
+				}
+		},
+{	"Action": "EditData",
+	"Target": "data/festivals/summer11",
+	"Entries": {
+	  	"MisterGinger": "На твоём месте я бы не стал есть суп. У него будет вкус мышиных внутренностей и старых носков.#$b#Почему? Потому что именно это я их положил туда.$3"
+				},
+	"When": {	"HasSeenEvent": "50706121"	}
+		},
+{	"Action": "EditData",
+	"Target": "data/festivals/summer28",
+	"Entries": {
+		  "MisterGinger": "Мирруп!"
+				}
+  		},
+{	"Action": "EditData",
+	"Target": "data/festivals/summer28",
+	"Entries": {
+	  "MisterGinger": "Они сотворены не из желе и не из рыбы.#$b#Почему люди дают вещам глупые названия?"
+					},
+	"When": {	"HasSeenEvent": "50706121"		}
+  		},  
+{	"Action": "EditData",
+	"Target": "data/festivals/fall16",
+	"Entries": {
+	  "MisterGinger": "Мирруп!"
+				}
+  		},
+{	"Action": "EditData",
+	"Target": "data/festivals/fall16",
+	"Entries": {
+	  "MisterGinger": "Не знаю, как ты, а я здесь только ради еды.#$b#А этот парень - совершенно неряшливый едок."
+							},
+	"When": {	"HasSeenEvent": "50706121"		}
+  		},
+{	"Action": "EditData",
+	"Target": "data/festivals/fall27",
+	"Entries": {
+	  "MisterGinger": "Мяу?"
+				}
+  		},
+{	"Action": "EditData",
+	"Target": "data/festivals/fall27",
+	"Entries": {
+	  "MisterGinger": "А что, если я и есть та самая 'Золотая тыква', которую все ищут?$2"
+					},
+	"When": {	"HasSeenEvent": "50706121"	}
+		},
+{	"Action": "EditData",
+	"Target": "data/festivals/winter8",
+	"Entries": {
+		"MisterGinger": "Mурр!"
+				}
+		},
+{	"Action": "EditData",
+	"Target": "data/festivals/winter8",
+	"Entries": {
+	  "MisterGinger": "*поёт* 'Рыбки, рыбки, моё любимое блюдо'. O, привет @.$3#$b#Как ты думаешь, если я вежливо попрошу, они позволят мне взять кое-что из этого домой?$4#$b#Они собираются выбросить их оттуда? Какая пустая трата времени.$2"
+		},
+	"When": {	"HasSeenEvent": "50706121"		}
+  		},
+{	"Action": "EditData",
+	"Target": "data/festivals/winter25",
+	"Entries": {
+	  "MisterGinger": "Мурр...$5"
+			}
+		},
+{	"Action": "EditData",
+	"Target": "data/festivals/winter25",
+	"Entries": {
+	  "MisterGinger": "Что? Я вовсе не дуюсь, из-за того, что никто не принёс мне подарок!$5#$b#Просто мне нужно побыть одному, хорошо?$2"
+		},
+	"When": {	"HasSeenEvent": "50706121"		}
+  		},
+{	"LogName": "2-heart Event",
+	"Action": "EditData",
+	"Target": "Data/Events/Town",
+	"Entries": {
+		"50706117/f MisterGinger 500/t 1400 1700/w sunny": "springtown/43 75/Emily -100 -100 2 MisterGinger 45 71 0 farmer 38 72 2/skippable/pause 500/animate MisterGinger false true 250 18 19/playSound cat/pause 700/move farmer 3 0 1/pause 250/stopAnimation MisterGinger/animate MisterGinger false false 250 17 16/pause 500/faceDirection MisterGinger 3/pause 250/playSound cat/pause 1000/animate MisterGinger false false 250 16 17/pause 500/animate MisterGinger false true 250 18 19/pause 500/pause 250/playSound cat/emote farmer 8/playSound stoneStep/pause 250/stopAnimation MisterGinger/pause 250/move MisterGinger 0 1 0/move MisterGinger 1 0 3/playSound doorOpen/warp Emily 45 71/pause 250/playSound cat/pause 250/playSound cat/pause 250/speak Emily \"Здравствуй, Осирис!$1\"/pause 250/speak MisterGinger \"Mууурр?$2\"/pause 250/speak Emily \"Ладно, ладно... Только не говори Гасу!$3\"/move MisterGinger 1 0 3/move MisterGinger 0 1 3/pause 250/playSound cat/move Emily 0 1 1/pause 250/playSound woodyStep/addObject 46 72 142/move MisterGinger -1 0 0/pause 250/playSound cat/pause 250/animate MisterGinger false false 250 42 43/animate MisterGinger false true 350 43 60 61 62/pause 500/speak Emily \"О, ты голоден, не так ли, Осирис?$2\"/pause 250/move farmer 2 0 1/pause 250/emote farmer 8/pause 250/faceDirection Emily 3/pause 250/jump Emily 4/pause 250/speak Emily \"O, привет @! Это было неожиданно.$1\"/pause 250/pause 250/speak Emily \"Но ты ведь не расскажешь об этом Гасу, правда?$2\"/pause 250/emote farmer 32/pause 250/speak Emily \"Фу-ух. Мне известно, что Осирис живет на ранчо, и его, вероятно, хорошо кормят , но он всегда кажется таким голодным.$3\"/pause 250/stopAnimation MisterGinger/removeObject 46 72/pause 250/pause 250/animate MisterGinger false false 250 24 25 26 27 23/pause 1250/animate MisterGinger false true 120 29 30 29 23/playSound cat/pause 500/speak Emily \"Осирис - очень необычное существо. Иногда мне кажется, что он больше, чем просто кот.$4\"/pause 500/playSound cat/speak Emily \"Хотя, может быть, нет такого понятия, как 'просто кошка'!$1\"/pause 500/pause 250/question null \"А ты как думаешь?#В нём определенно есть что-то уникальное!#У всех кошек есть свой собственный разум.\"/pause 500/textAboveHead Emily \"Чересчур правильно!\"/pause 250/showFrame MisterGinger 25/playSound cat/pause 250/pause 500/faceDirection Emily 2/speak Emily \"Тебе это понравилось, Осирис?$3\"/pause 250/speak MisterGinger \"Mуррр!$1\"/animate Misterginger false true 120 29 30 29 23/pause 250/textAboveHead Emily \"Я так рада!\"/pause 250/faceDirection Emily 3/pause 250/speak Emily \"Вскоре после приезда Джас он появился в городе. Она была совсем крошечной девочкой, недавно осиротевшей. Это было так грустно!$2#$b#Никто не знал, откуда он взялся и кому принадлежал, но знаешь что?$3#$b#...Я верю, что он её ангел-хранитель.$4\"/pause 500/playSound cat/pause 500/playSound stoneStep/pause 250/speak Emily \"Ой, мне лучше идти. Гас будет гадать, что я тут долго делаю. До свидания @, и пока, Осирис. Ещё увидимся!\"/faceDirection Emily 0/pause 250/move Emily 0 -1 0/playSound doorOpen/warp Emily -100 -100/pause 500/faceDirection farmer 1/stopAnimation MisterGinger/move MisterGinger -2 0 3/pause 250/speak MisterGinger \"Mуррррр?$2\"/pause 500/emote farmer 32/pause 1000/end"
+				}
+		},
+{	"LogName": "4-heart Event",
+	"Action": "EditData",
+	"Target": "Data/Events/SeedShop",
+	"Entries": {  
+		"50706118/f MisterGinger 1000/d Mon Wed Thu Fri Sat Sun/Hl Tristan_Returns/t 1100 1500": "aerobics/-1000 -1000/farmer 14 12 1 Marnie 23 18 0 Robin 25 18 0 Caroline 24 15 2 Jodi 27 16 0 Pierre 9 17 1 MisterGinger 14 16 0/skippable/viewport 24 17 true/pause 500/animate Marnie false true 250 24 25 26 27/animate Jodi false true 250 19 19 19 19 20 21 22 23 23 23 23 22 21 20 19 19 20 21 22 23 23 23 23 22 21 20 21 22 23 22 21 20 22 23 22 21 20/animate Caroline false true 250 16 16 17 17 16 16 18 18/animate Robin false true 250 28 28 29 30 30 31/pause 1000/doAction 14 16/playSound doorOpen/faceDirection farmer 2/move MisterGinger 0 -3 0/pause 500/playSound cat/move farmer -1 0 1/pause 250/move MisterGinger 0 -1 1/speed MisterGinger 2/move MisterGinger 6 0 1/move Pierre 5 0 0/move farmer 6 0 2/pause 500/move MisterGinger 0 5 1/doAction 14 16/move Pierre 0 -4 0/pause 500/move MisterGinger 4 0 0/pause 250/stopAnimation Caroline/faceDirection Caroline 2/pause 250/playSound cat/move Pierre 0 -1 1 true/emote Caroline 12/pause 250/textAboveHead MisterGinger \"Мяу?\"/pause 1000/textAboveHead Caroline \"Брысь!\"/stopAnimation Marnie/pause 500/speak Marnie \"Привет, Мистер Джинджер! Забежал, чтобы присоединиться к нам для тренировки, не так ли?$1\"/move Marnie 0 -1 1/pause 250/faceDirection MisterGinger 3/pause 500/textAboveHead MisterGinger \"Mуррр!\"/pause 500/stopAnimation Robin/faceDirection Robin 0/pause 500/speak Robin \"Привет, котик! Ну разве ты не красавец?$1\"/faceDirection MisterGinger 2/pause 500/animate MisterGinger false false 250 24 25 26 27 28/stopAnimation Jodi/pause 500/move Jodi -2 0 3/speak Jodi \"Мистер Джинджер? Так вот как его зовут?$1\"/pause 500/animate MisterGinger false True 120 29 30 31 30/pause 250/speak Marnie \"Что ж, именно так Джас его и назвала.$1#$b#Она говорит, что это не его *настоящее* имя.$3\"/pause 500/speak Robin \"И вот теперь я называю его тигром!$4\"/pause 500/speak Jodi \"Сэм называет его гусем. Я не знаю точно почему.\"/pause 500/move farmer 0 4 1/move Pierre 5 0 2/emote Caroline 40/pause 500/move farmer 2 0 1/pause 500/faceDirection Marnie 3/pause 250/speak Marnie \"Aх, привет @. Ты ведь знаком с мистером Джинджером, верно?^Aх, привет @. Ты ведь знакома с мистером Джинджером, верно?$1\"/pause 250/emote Caroline 40/pause 500/speak Caroline \"Ладно, дамы, мы здесь для того, чтобы тренироваться, а не подлизываться к глупому коту.$3\"/pause 500/stopAnimation MisterGinger/faceDirection MisterGinger 0/faceDirection Marnie 0/pause 500/playSound cat/speak MisterGinger \"Муууууууррр....$5\"/pause 500/shake Marnie 350/pause 500/speak Marnie \"Ах нет, теперь ты его рассердила!$2\"/pause 500/move Pierre 0 3 1/textAboveHead Pierre \"Эй!\"/faceDirection Marnie 3/faceDirection farmer 3/faceDirection Caroline 3/faceDirection Jodi 3/faceDirection Robin 3/faceDirection MisterGinger 3/animate MisterGinger false true 250 20 21/pause 500/speak Pierre \"Что здесь делает этот кот?$3#$b#Ты же знаешь, что у меня... A-A-A-aaa-Пчхи!!!$2\"/shake Pierre 350/pause 1000/end"
+				}
+		},
+{   "Action": "EditData",
+	"Target": "Data/mail",
+	"Entries":{ 
+		"Wizard_CatTalk": "Приветствую тебя, юный адепт,^ Наш общий знакомый просил тебя явиться в мою башню после наступлении темноты. Пожалуйста, принеси с собой фрагмент пустоты. ^    -M. Расмодиус, Волшебник.[#]Приглашение"
+						},
+	"When": {	"HasMod |contains=Ran.HarvestGoddess":false		}
+			},
+{	"LogName": "5-heart Event",
+	"Action": "EditData",
+	"Target": "Data/Events/Beach",	
+	"Entries": {
+		"50706119/f MisterGinger 1250/w sunny/Hl Tristan_Returns/t 1000 1600": "archaeo/-100 13/MisterGinger 40 16 0 farmer 42 9 2 Willy 26 21 0/skippable/changeSprite MisterGinger Fish/viewport 39 12 true/pause 250/move MisterGinger 0 -7 1/faceDirection farmer 3/pause 250/speak MisterGinger \"*невнятно* Mрррррр! $6\"/pause 250/emote farmer 8/speed Willy 4/move Willy 0 -12 0/playSound stairsdown/jump MisterGinger 3/speed MisterGinger 4/move MisterGinger 0 -2 1/faceDirection farmer 0/speed MisterGinger 4/faceDirection farmer 1/move MisterGinger 4 0 3/pause 500/faceDirection farmer 0/speed Willy 4/move Willy 14 0 1/pause 500/faceDirection farmer 3/jump farmer 3/pause 250/speak Willy \"*Пыхтит* Эй @. Ты не видел Боцмана? Большого оранжевого кота?^*Пыхтит* Эй @. Ты не видела Боцмана? Большого оранжевого кота?#$b#Надоедливый бродяга украл мой обед.\"/question fork1 \"#(Показать на север) Он пошёл в ту сторону.#Он прячется за этим кустом.\"/fork BehindBush/pause 250/faceDirection Willy 1/pause 250/FaceDirection Willy 2/pause 250/faceDirection Willy 3/pause 250/faceDirection farmer 0/speak Willy \"Спасибо, парень, я действительно надеялся на это.^Спасибо, леди, я действительно надеялся на это.\"/pause 250/speed Willy 3/move Willy 0 -4 0/emote farmer 28/faceDirection farmer 0/speed Willy 3/move Willy -2 0 3/speed Willy 3/move Willy 0 -5 0/warp Willy -100 -100/move farmer 0 -1 1/pause 1000/playSound cat/move MisterGinger -1 0 3/pause 250/emote MisterGinger 16/pause 500/showFrame MisterGinger 16/pause 250/showFrame MisterGinger 17/pause 250/showFrame MisterGinger 18/addObject 43 8 698/showFrame MisterGinger 19/changeSprite MisterGinger NoFish/showFrame MisterGinger 8/pause 250/faceDirection MisterGinger 2/pause 500/speak MisterGinger \"Мяу муррр!$4\"/emote farmer 32/friendship MisterGinger 100/pause 1000/end",
+		"BehindBush": "speak Willy \"Ага, я вижу твой хвост, Боцман!\"/move Willy 0 -2 1/move Willy 3 0 1/shake Willy 350/showFrame Willy 26/speak Willy \"Отдай обратно, негодяй-воришка!\"/pause 500/playSound cat/playSound cat/textAboveHead Willy \"Понял!\"/changeSprite MisterGinger NoFish/pause 500/move Willy -2 0 2/pause 250/speak Willy \"Спасибо, тебе.#$b#Похоже, в целом всё в порядке. Доброго тебе дня!\"/pause 500/move Willy -4 0 2/playSound leafrustle/pause 250/move MisterGinger -2 0 2/move Willy 0 7 2 true/move Willy -5 0 2 true/faceDirection farmer 0/speak MisterGinger \"Мяууу.$2\"/friendship MisterGinger -100/emote farmer 60/pause 1000/end"
+			}
+	},
+{	"LogName": "6-heart Event",
+	"Action": "EditData",
+	"Target": "Data/Events/WizardHouse",
+	"Entries": {  	
+		"50706121/f MisterGinger 1500/t 1800 2400/n Wizard_CatTalk/Hl Tristan_Returns/i 769": "WizardSong/-1000 -1000/farmer -100 -100 0 Wizard 3 17 2 MisterGinger 2 17 1/removeItem 769/skippable/viewport 8 19 true/pause 1000/faceDirection Wizard 3/speak Wizard \"Мне очень жаль, что я не могу помочь тебе с твоей более насущной проблемой, Трикс. Но возможно... никто из нас не может знать, что ждёт нас в будущем.\"/pause 500/playSound cat/pause 250/speak Wizard \"Ах да, верно, за исключением мадам Уэлвик, но она не говорит ни слова на эту конкретную тему.\"/pause 500/playSound cat/pause 1000/playSound cat/speak Wizard \"Я знаю, я знаю. Однако терпение, говорят они - это добродетель, и возможно... Ну что ж, возможно, сегодня вечером все шестерёнки будут пущены в ход... колесо начинает вращаться...\"/playSound cat/pause 250/speak Wizard \"Ладно, да, я опять болтаю без умолку. Я слишком долго был один, мой друг.\"/pause 500/playSound stoneStep/faceDirection MisterGinger 2/faceDirection Wizard 2/pause 250/speak Wizard \"Как раз вовремя. Наш гость прибыл.\"/pause 500/playSound doorOpen/warp farmer 8 24/move farmer 0 -4 0/pause 250/speak Wizard \"Привет @, рад тебя видеть. Ты можешь присоединиться к нам.\"/move farmer -2 0 3/move farmer 0 -3 3/pause 500/playSound cat/pause 250/faceDirection Wizard 3/speak Wizard \"Да-да, я знаю. Пожалуйста, наберись терпения!\"/pause 500/faceDirection Wizard 1/speak Wizard \"Ты принёс этот предмет, @?^Ты принесла этот предмет, @?\"/pause 500/move farmer -2 0 3/pause 250/playSound coin/speak Wizard \"Замечательно, это точно соответствует моим требованиям. Давайте начнём!#$b#Что мы тут варим? А вот это уже сюрприз.$h\"/move Wizard 0 2 2/faceDirection farmer 2/faceDirection MisterGinger 1/pause 500/speak Wizard \"Ну вот, держи: Звёздные осколки, Капельку голубиной крови, Лепестки волшебной Розы.#$b#И всё благодаря тебе, @. Последние элементы: фрагмент тьмы, осколок сердца пустоты...\"/pause 250/playSound cat/speak Wizard \"Ты же понимаешь, что я имею в виду!$h\"/pause 500/playSound dropItemInWater/move farmer 0 2 2/pause 250/showFrame Wizard 18/showFrame 96/pause 1000/speak Wizard \"Сюда. Пей. Я знаю, что прошлый раз был не слишком приятным, но польза перевешивает затраты, не так ли?$h\"/pause 800/emote farmer 28/faceDirection MisterGinger 1/playSound cat/pause 500/showFrame Wizard 19/pause 800/showFrame farmer 90/faceDirection Wizard 2/pause 1000/farmerEat 184/pause 4000/playSound gulp/move farmer 0 -1 2/animate farmer false true 350 104 105/pause 4000/globalFade .008/viewport -1000 -1000/stopAnimation farmer/faceDirection farmer 2/warp MisterGinger 5 18/warp Wizard 3 18 1/faceDirection Wizard 1/faceDirection MisterGinger 3/playMusic none/pause 500/viewport 8 19 true/pause 500/speak MisterGinger \"@? @!$2\"/pause 500/speak MisterGinger \"Привет? @? Сработало?$2\"/pause 500/emote Wizard 8/pause 500/speak MisterGinger \"@? Ты в порядке?\"/pause 250/quickQuestion #Я не чувствую своих ног.#О, смотрите, говорящий кот!#Ему нужен был ломтик лимона.#Это последний раз, когда я пью то, что ты предлагаешь!(break)emote Wizard 40\\speak Wizard \"Должен сказать, что это довольно неожиданный побочный эффект, но я уверен, что он быстро пройдёт.#$b#Не торопись\"(break)speak MisterGinger \"Это сработало! Это действительно сработало. Прости, что я сомневался в тебе, Рас.$4\"(break)speak MisterGinger \"Эй, Рас, похоже, кто-то ценит твои кулинарные таланты!\"(break)speak Wizard \"Это ты сейчас так говоришь, @, но ты не можешь отрицать, что мои варева весьма полезны.\"/pause 500/faceDirection farmer 1/pause 500/emote farmer 16/speak MisterGinger \"Эй, @. Так здорово, когда есть с кем поговорить.#$b#С Расом всё в порядке, но он немного задирает нос, тебе не кажется?....$1\"/pause 250/emote Wizard 12/pause 500/speak Wizard \"Ты же знаешь, я тебя слышу. Котёнок.\"/pause 250/speak MisterGinger \"Котёнок... Он знает, что я ненавижу это имя. Так унизительно. Как будто я какой-то обычный домашний питомец.$5#$b#Пожалуйста, никогда не называй меня котёнком, @.$1\"/emote farmer 32/pause 1000/end dialogue MisterGinger \"Каждый может разговаривать с животными, но для того, чтобы слушать их, нужно быть особенным человеком.#$b#Да, это комплимент. Только не привыкай к ним. У меня есть репутация, которую нужно скрывать, ты же знаешь.\""
+		},
+	"When": {		"HasMod |contains=Ran.HarvestGoddess":false,
+					"HasMod |contains=FlashShifter.StardewValleyExpandedALL":false
+					}
+		},
+{	"LogName": "8-heart Event - Shane still a drunk",
+	"Action": "EditData",
+	"Target": "Data/Events/Forest",
+	"Entries": {    
+		"50706126/f MisterGinger 2000/k 2118991/e 50706121/Hl Tristan_Returns/t 1800 2200": "nightTime/-1000 -1000/Jas -100 -100 0 Shane -100 -100 0 MisterGinger 86 17 3 farmer 93 23 3/skippable/viewport 93 21 true/pause 500/move MisterGinger -1 0 0/playSound cat/pause 500/move MisterGinger 1 0 0/pause 500/playSound cat/pause 500/move MisterGinger -1 0 0/animate MisterGinger false false 250 16 17 18 19 18 19 18 19/playSound cat/pause 1500/pause 250/move farmer -3 0 0/playSound woodyStep/pause 250/faceDirection MisterGinger 2/jump MisterGinger 3/pause 500/move MisterGinger 0 1 1/pause 500/speak MisterGinger \"@! Я так рад, что ты здесь!#$b#Мне нужна твоя помощь!$2\"/pause 500/emote farmer 8/speed MisterGinger 4/move MisterGinger 4 0 2/speed farmer 4/move farmer 0 -5 0/pause 500/faceDirection MisterGinger 1/faceDirection farmer 3/speak MisterGinger \"Там Джас! Она внутри, напугана и одинока, и я не могу до неё достучаться!$2\"/pause 500/emote farmer 16/pause 500/speak MisterGinger \"Её мучают ужасные ночные кошмары! Марни нет дома, а Шейн спит, как бесполезный болван, которым он и является!$2\"/pause 250/move MisterGinger -1 0 3/pause 250/move MisterGinger 1 0 1/speak MisterGinger \"Под этим фальшивым камнем у двери есть ключ.\"/pause 250/move MisterGinger -1 0 3/pause 250/move MisterGinger 1 0 1/pause 500/question fork1 \"Пожалуйста, ты мне поможешь?#Конечно же, я помогу!#С чего бы это? Я же не няня.\"/fork NoHelpMrG/pause 500/move farmer 0 -2 1/emote MisterGinger 20/playSound stoneCrack/pause 500/faceDirection farmer 0/pause 500/move MisterGinger 0 -2 0/playSound openChest/globalfade/viewport -1000 -1000/viewport -1000 -1000/stopMusic/changeLocation AnimalShop/warp Jas 3 6/warp Shane 4 6/warp farmer 10 18/warp MisterGinger 9 18/faceDirection Shane 2/showFrame Shane 53/faceDirection Jas 1/faceDirection MisterGinger 3/faceDirection farmer 3/viewport 11 11 true/pause 500/move MisterGinger -3 0 0/move MisterGinger 0 -5 0/doAction 6 12/pause 500/speak Shane \"...И принцесса опустила губы, чтобы осторожно поцеловать скользкую голову лягушки...\"/shake MisterGinger 350/pause 500/emote MisterGinger 40/showFrame Shane 52/pause 500/speak Jas \"Фу-у-у!$3\"/move farmer -3 0 0/move farmer 0 -3 3/pause 500/showFrame Shane 53/speak Shane \"...Тут же вспыхнула искра света, достаточно яркая, чтобы ослепить принцессу.#$b#Когда её зрение прояснилось, перед ней на корточках сидел молодой человек.\"/emote Jas 20/showFrame Shane 54/pause 500/speak Jas \"Не молодой человек, а принц! Прекрасный принц.\"/pause 500/showFrame Shane 12/pause 500/emote Shane 40/pause 500/speak Shane \"Нет, не принц. Простой деревенский парень, который полюбил её всем сердцем.#$b#А если у него были слегка выпученные глаза и липкая кожа, то что с того?$1\"/pause 500/speak Jas \"ИК!$3#$b#Дядя Шейн, ты такой забавный.$1\"/pause 500/speak Shane \"Спасибо. Но серьёзно, малышка, тебе не нужен принц, чтобы быть счастливой.$3\"/pause 500/speak Jas \"Я знаю! Я должна знать, что есть кто-то, кому я буду небезразлична.$4#$b#Верно?$1\"/pause 500/speak Shane \"Да, именно так, солнышко.$l#$b#Ну что, ты уже готова снова лечь спать? Кошмар забылся?#$b#...(Дяде Шейну нужно отдохнуть)...\"/pause 500/emote Jas 32/pause 500/speak Jas \"Ещё не забыла. Но теперь лучше. Да, точно лучше.$3#$b#Думаю, теперь я смогу заснуть спокойно.\"/pause 500/speak Shane \"Умница, давай уложим тебя обратно в постель.\"/move Jas 0 1 2/speak Jas \"Спокойной ночи, дядюшка Шейн. Спасибо. Мне от этого стало гораздо легче.$1\"/pause 500/move Jas -2 0 2/showFrame Jas 25/move Shane -1 0 2/move Shane 0 1 3/pause 500/emote Shane 20/pause 500/viewport 11 13 true/move MisterGinger 0 1 1/showFrame MisterGinger 38/pause 500/faceDirection farmer 0/showFrame MisterGinger 4/speak MisterGinger \"Она ведь совсем во мне не нуждалась. Сейчас у неё есть он.$2\"/quickQuestion #Она всегда будет нуждаться в тебе. Он всего лишь её дядя, а ты - её кот!#Детям надоедают домашние животные, это правда.#Ты просто кот, а Шейн - её дядя.#Я всегда буду с тобой, Мистер Джинджер.(break)speak MisterGinger \"Хорошо, спасибо. Теперь я чувствую себя намного лучше.$1\"(break)speak MisterGinger \"Я всего лишь домашний питомец...? Нет! Я же её друг...$2#$b#И я не позволю тебе сказать иначе!$5\"(break)speak MisterGinger \"Семья важнее домашних животных. Я всё понял.$2#$b#Мне это не нравится, но я понимаю.$2\"(break)speak MisterGinger \"В самом деле? Спасибо, @. Для меня это очень много значит.$4\"/pause 1000/speak Jas \"*сонливо* Мистер Джинджер? Мистер Джинджер? Это ты?\"/pause 500/jump MisterGinger 3/emote MisterGinger 16/pause 500/speak MisterGinger \"Пока @! Мне пора идти!$3\"/speed MisterGinger 4/move MisterGinger 0 -7 3/move Shane 1 0 0/move Shane 0 -1 3/move Shane 2 0 2/faceDirection Jas 1/speed MisterGinger 4/move MisterGinger -3 0 3/emote MisterGinger 20/move Shane 0 2 3/speak Shane \"Ей очень нравится этот кот.\"/move Shane 0 7 2/faceDirection Shane 1/pause 250/showFrame Shane 18/jump Shane 4/pause 250/emote Shane 40/pause 500/emote farmer 60/pause 1000/end warpOut",       
+		"NoHelpMrG": "pause 500/speak MisterGinger \"Ты не поможешь мне утешить испуганного ребёнка?$5#$b#Ты ужасный человек, @. Я не могу поверить, что считал тебя своим другом.$2\"/friendship MisterGinger -500/pause 250/animate MisterGinger false false 250 12 20 21 20 21/pause 2000/speak MisterGinger \"Не волнуйся, Джас! Я здесь!\"/move MisterGinger -1 0 0/playSound cat/pause 500/end warpOut"
+				}
+		},
+{	"LogName": "8-heart Event - Shane sober",
+	"Action": "EditData",
+	"Target": "Data/Events/Forest",
+	"Entries": {    
+		"50706127/f MisterGinger 2000/e 2118991/e 50706121/k 50706126/Hl Tristan_Returns/t 1800 2200": "nightTime/-1000 -1000/Jas -100 -100 0 Shane -100 -100 0 MisterGinger 86 17 3 farmer 93 23 3/skippable/viewport 93 21 true/pause 500/move MisterGinger -1 0 0/playSound cat/pause 500/move MisterGinger 1 0 0/pause 500/playSound cat/pause 500/move MisterGinger -1 0 0/animate MisterGinger false false 250 16 17 18 19 18 19 18 19/playSound cat/pause 1500/pause 250/move farmer -3 0 0/playSound woodyStep/pause 250/faceDirection MisterGinger 2/jump MisterGinger 3/pause 500/move MisterGinger 0 1 1/pause 500/speak MisterGinger \"@! Я так рад, что ты здесь!#$b#Мне нужна твоя помощь!$2\"/pause 500/emote farmer 8/speed MisterGinger 4/move MisterGinger 4 0 2/speed farmer 4/move farmer 0 -5 0/pause 500/faceDirection MisterGinger 1/faceDirection farmer 3/speak MisterGinger \"Там Джас! Она внутри, напугана и одинока, и я не могу до неё достучаться!$2\"/pause 500/emote farmer 16/pause 500/speak MisterGinger \"Её мучают ужасные ночные кошмары! Марни нет дома, а Шейн спит, как бесполезный болван, которым он и является!$2\"/pause 250/move MisterGinger -1 0 3/pause 250/move MisterGinger 1 0 1/speak MisterGinger \"Под этим фальшивым камнем у двери есть ключ.\"/pause 250/move MisterGinger -1 0 3/pause 250/move MisterGinger 1 0 1/pause 500/question fork1 \"Пожалуйста, ты мне поможешь?#Конечно же, я помогу!#С чего бы это? Я же не няня.\"/fork NoHelpMrG/pause 500/move farmer 0 -2 1/emote MisterGinger 20/playSound stoneCrack/pause 500/faceDirection farmer 0/pause 500/move MisterGinger 0 -2 0/playSound openChest/globalfade/viewport -1000 -1000/viewport -1000 -1000/stopMusic/changeLocation AnimalShop/warp Jas 3 6/warp Shane 4 6/warp farmer 10 18/warp MisterGinger 9 18/faceDirection Shane 2/showFrame Shane 53/faceDirection Jas 1/faceDirection MisterGinger 3/faceDirection farmer 3/viewport 11 11 true/pause 500/move MisterGinger -3 0 0/move MisterGinger 0 -5 0/doAction 6 12/pause 500/speak Shane \"...И принцесса опустила губы, чтобы осторожно поцеловать скользкую голову лягушки...\"/shake MisterGinger 350/pause 500/emote MisterGinger 40/showFrame Shane 52/pause 500/speak Jas \"Фу-у-у!$3\"/move farmer -3 0 0/move farmer 0 -3 3/pause 500/showFrame Shane 53/speak Shane \"...Тут же вспыхнула искра света, достаточно яркая, чтобы ослепить принцессу.#$b#Когда её зрение прояснилось, перед ней на корточках сидел молодой человек.\"/emote Jas 20/showFrame Shane 54/pause 500/speak Jas \"Не молодой человек, а принц! Прекрасный принц.\"/pause 500/showFrame Shane 12/pause 500/emote Shane 40/pause 500/speak Shane \"Нет, не принц. Простой деревенский парень, который полюбил её всем сердцем.#$b#А если у него были слегка выпученные глаза и липкая кожа, то что с того?$1\"/pause 500/speak Jas \"ИК!$3#$b#Дядя Шейн, ты такой забавный.$1\"/pause 500/speak Shane \"Спасибо. Но серьёзно, малышка, тебе не нужен принц, чтобы быть счастливой.$3\"/pause 500/speak Jas \"Я знаю! Я должна знать, что есть кто-то, кому я буду небезразлична.$4#$b#Верно?$1\"/pause 500/speak Shane \"Да, именно так, солнышко.$l#$b#Ну что, ты уже готова снова лечь спать? Кошмар забылся?#$b#Помни, я обещал быть здесь ради тебя. Отныне и навсегда.\"/pause 500/emote Jas 32/pause 500/speak Jas \"Ещё не забыла. Но теперь лучше. Да, точно лучше.$3#$b#Думаю, теперь я смогу заснуть спокойно.\"/pause 500/speak Shane \"Умница, давай уложим тебя обратно в постель.\"/move Jas 0 1 2/speak Jas \"Спокойной ночи, дядюшка Шейн. Спасибо. Мне от этого стало гораздо легче.$1\"/pause 500/move Jas -2 0 2/showFrame Jas 25/move Shane -1 0 2/move Shane 0 1 3/pause 500/emote Shane 20/pause 500/viewport 11 13 true/move MisterGinger 0 1 1/showFrame MisterGinger 38/pause 500/faceDirection farmer 0/showFrame MisterGinger 4/speak MisterGinger \"Она ведь совсем во мне не нуждалась. Сейчас у неё есть он.$2\"/quickQuestion #Она всегда будет нуждаться в тебе. Он всего лишь её дядя, а ты - её кот!#Детям надоедают домашние животные, это правда.#Ты просто кот, а Шейн - её дядя.#Я всегда буду с тобой, Мистер Джинджер.(break)speak MisterGinger \"Хорошо, спасибо. Теперь я чувствую себя намного лучше.$1\"(break)speak MisterGinger \"Я всего лишь домашний питомец...? Нет! Я же её друг...$2#$b#И я не позволю тебе сказать иначе!$5\"(break)speak MisterGinger \"Семья важнее домашних животных. Я всё понял.$2#$b#Мне это не нравится, но я понимаю.$2\"(break)speak MisterGinger \"В самом деле? Спасибо, @. Для меня это очень много значит.$4\"/pause 1000/speak Jas \"*сонливо* Мистер Джинджер? Мистер Джинджер? Это ты?\"/pause 500/jump MisterGinger 3/emote MisterGinger 16/pause 500/speak MisterGinger \"Пока @! Мне пора идти!$3\"/speed MisterGinger 4/move MisterGinger 0 -7 3/move Shane 1 0 0/move Shane 0 -1 3/move Shane 2 0 2/faceDirection Jas 1/speed MisterGinger 4/move MisterGinger -3 0 3/emote MisterGinger 20/move Shane 0 2 3/speak Shane \"Ей очень нравится этот кот.\"/move Shane 0 7 2/faceDirection Shane 1/pause 250/showFrame Shane 18/jump Shane 4/pause 250/emote Shane 40/pause 500/emote farmer 60/pause 1000/end warpOut",       
+		"NoHelpMrG": "pause 500/speak MisterGinger \"Ты не поможешь мне утешить испуганного ребёнка?$5#$b#Ты ужасный человек, @. Я не могу поверить, что считал тебя своим другом.$2\"/friendship MisterGinger -500/pause 250/animate MisterGinger false false 250 12 20 21 20 21/pause 2000/speak MisterGinger \"Не волнуйся, Джас! Я здесь!\"/move MisterGinger -1 0 0/playSound cat/pause 500/end warpOut",
+		"5295020/f MisterGinger 500/f Shane 2000/Hl Tristan_Returns/t 2000 2400":"nightTime/-1000 -1000/MisterGinger 33 18 2 Shane 34 25 2/skippable/addLantern 735 35 25 1/animate Shane false true 200 20 20 20 20 20 20 20 20 20 20 21 22 23 24 24 24 24 23 22 21 20 20 20 20/viewport 34 25 true/move MisterGinger 0 7 1/pause 500/animate MisterGinger false false 120 29 30 29 28/stopAnimation Shane/showFrame Shane 20/speak Shane \"Это Марни послала тебя проведать меня, Джинджер?$2\"/pause 500/faceDirection MisterGinger 1/playSound cat/pause 500/speak Shane \"О, не крути хвостом, это всего лишь Джоджа-Кола.$2\"/pause 500/playSound cat/pause 500/speak Shane \"Лучше бы это было не так...$2#$b#Сегодня было тяжело, Джинджер. Очень тяжело. Я хочу закопать их... чтобы заглушить боль...$5\"/pause 500/playSound cat/pause 500/speak Shane \"Йоба... Должно быть, я сошёл с ума, раз разговариваю с котом.#$b#Ты же не понимаешь, тебе всё равно.$2\"/positionOffset MisterGinger 18 10/showFrame MisterGinger 28/pause 2000/speak Shane \"Ладно, что ж, ты хороший кот, Джинджер. И хороший друг для Джас.$1\"/showFrame MisterGinger 4/showFrame Shane 19/pause 500/speak Shane \"Ладно, мне пора идти... и спасибо, кот... это странно, но это правда помогло.\"/faceDirection Shane 0/pause 500/move Shane 0 -5 0 true/faceDirection MisterGinger 0/emote MisterGinger 20/pause 500/end warpOut"
+			}
+	},
+{	"LogName": "10-heart event part 1",
+	"Action": "EditData",
+	"Target": "Data/Events/Town",
+	"Entries": {
+		"50706132/f MisterGinger 2500/f Linus 1000/e 50706121/w sunny/Hl Tristan_Returns/t 2000 2400": "nightTime/-1000 -1000/MisterGinger 50 37 1 Linus 50 36 1 farmer -100 -100 0/addTemporaryActor VoidGolem 16 24 56 33 0 false/showFrame VoidGolem 18/skippable/viewport 46 37 true/pause 500/speak Linus \"Неплохой улов, Мармелад.#$b#Сегодня мы вкусно поедим!\"/pause 500/faceDirection Linus 2/faceDirection MisterGinger 0/speak Linus \"Хотя я не сомневаюсь, что Марни хорошо тебя кормит.\"/pause 500/move Linus 3 0 1/move MisterGinger 5 0 1/pause 500/faceDirection MisterGinger 3/speak MisterGinger \"Марни меня кормит? Я вполне способен сам себя прокормить. Большое тебе спасибо.$1#$b#Действующий чемпион-мышелов ранчо восемь лет подряд!$4#$b#Хотя также, я очень люблю сыр и рыбу.#1\"/pause 500/speak Linus \"Спасибо, что составил мне компанию сегодня вечером.\"/faceDirection Linus 0/pause 250/faceDirection Linus 1/pause 250/shake Linus 250/speak Linus \"Кажется, что-то не так... сегодня вечером, как ты думаешь?\"/pause 500/faceDirection MisterGinger 0/pause 500/speak MisterGinger \"Это пахнет, как облака на краю бури.$2\"/pause 500/speak Linus \"Эта пустота беспокойна.#$b#Нам надо спешить.\"/speed Linus 4/move Linus 3 0 0/pause 500/move Linus 0 -2 0/animate VoidGolem false false 250 18 19 20/jump Linus/animate VoidGolem false false 250 21 22 23 24 0/playSound shadowHit/speed Linus 8/move Linus 4 0 1/speed Linus 8/move Linus 0 2 0/shake Linus 350/pause 500/faceDirection VoidGolem 1/emote MisterGinger 16/animate VoidGolem false true 250 28 29 28 29/pause 500/move VoidGolem 1 0 1/speed MisterGinger 5/move MisterGinger 0 -4 1/speak MisterGinger \"Эй, ты! Дыхание пустоты!$5#$b#Оставь моего друга в покое!$5\"/stopAnimation VoidGolem/pause 500/faceDirection VoidGolem 3/pause 500/textAboveHead VoidGolem \"Ко-тёнок?\"/pause 500/move VoidGolem -1 0 3/speak MisterGinger \"Не называй меня Котёнком!$5\"/animate MisterGinger false false 250 52 53 52 53/pause 500/specificTemporarySprite swordswipe 56 33/pause 250/playSound shadowHit/pause 500/move VoidGolem 1 0 3/animate VoidGolem false true 250 30 31/pause 500/move MisterGinger 1 0 1/animate MisterGinger false false 250 52 53 52 53/specificTemporarySprite swordswipe 57 33/playSound shadowHit/pause 500/move MisterGinger -1 0 1/move VoidGolem 1 0 3/showFrame MisterGinger 38/pause 500/faceDirection VoidGolem 1/move VoidGolem 1 0 1/pause 500/speed MisterGinger 5/move MisterGinger 3 0 1/faceDirection VoidGolem 3/animate MisterGinger false false 250 52 53 52 53/pause 500/specificTemporarySprite swordswipe 58 33/playSound shadowHit/showFrame VoidGolem 25/pause 250/playSound shadowDie/warp VoidGolem -100 -100/move MisterGinger 1 0 2/showFrame MisterGinger 38/pause 500/speak Linus \"Мармелад? Ты в порядке?\"/move Linus 0 -3 3/speak Linus \"Ты спас мне жизнь! Да ты просто герой!\"/pause 500/playSound cat/speak Linus \"О, ты ранен! Нам лучше тебя подлатать.\"/pause 1000/end dialogue MisterGinger \"Да не суетись ты так, @, это всего лишь царапина, и Линус хорошо меня вылечил.$2#$b#На самом деле, пожалуйста, не суетись. Это же больно! Может быть, немного сыра поможет мне исцелиться.$2\""
+			}
+	},		
+{ 	"LogName": "10-heart part 2",
+	"Action": "EditData",
+	"Target": "Data/Events/BusStop",
+	"Entries": {
+		"50706133/e 50706132/t 0600 1200/Hl Tristan_Returns/w sunny": "MarlonsTheme/14 23/farmer 7 23 1 Marlon 14 20 2 MisterGinger -100 -100 2/skippable/pause 1000/move farmer 2 0 1/pause 500/showFrame Marlon 12/pause 1000/speak Marlon \"Aх, @! Я как раз собирался посетить город.\"/showFrame Marlon 0/move farmer 6 0 0/emote farmer 40/pause 500/speak Marlon \"Сегодня утром я столкнулся с моим хорошим другом Линусом, и мне было интересно, не знаешь ли ты, где может находиться 'Мармелад'.\"/pause 500/move farmer 0 -2 3/emote farmer 8/pause 500/speak Marlon \"Я полагаю, что он также носит имена: Осирис, Трикс и Мистер Джинджер, среди прочих?\"/warp MisterGinger 0 23/move MisterGinger 7 0 1/pause 500/speak MisterGinger \"Кто-то произнёс моё имя? Не то чтобы у меня вошло в привычку приходить, когда меня зовут, но... ладно...#$b#... А, привет, Марлон!\"/pause 500/showFrame Marlon 5/move MisterGinger 7 0 0/move MisterGinger 0 -2 0/showFrame Marlon 4/speak MisterGinger \"Сколько же времени прошло! Всё ещё живёшь со стариком в том доме на горе?$1#$b#Мечтаешь о жизни, которая могла бы быть... может тебе надо было следовать зову своего сердца, а не упрямой совести?$1\"/pause 500/speak Marlon \"Он очень разговорчивый, правда?\"/faceDirection MisterGinger 1/pause 500/speak MisterGinger \"Марлон так и не научился 'слушать'.$4\"/faceDirection MisterGinger 0/pause 500/speak MisterGinger \"Итак, седобородый, что привело тебя сюда с гор?#$b#Знаешь, тебе стоит спуститься вниз и поздороваться с Марни.#$b#Она тоскует и читает тошнотворные книжки в мягкой обложке. Она ждёт, когда какой-нибудь пират подхватит её на руки.$3\"/pause 500/faceDirection MisterGinger 1/pause 500/speak MisterGinger \"Видишь, не понимаешь ни слова из того, что я говорю. Глупые люди. Нужно прочистить вам уши.\"/emote farmer 40/pause 500/speak Marlon \"Что ж, это слегка необычно, но я пришёл сюда с предложением.\"/pause 500/emote MisterGinger 8/faceDirection MisterGinger 0/speak MisterGinger \"С предложением? И что же ты предлагаешь?$1\"/pause 500/showFrame Marlon 0/speak Marlon \"Я слышал этот кот был настоящим героем, @.\"/pause 500/emote MisterGinger 12/pause 500/faceDirection MisterGinger 0/speak MisterGinger \"Я прямо здесь, седобородый. Ты можешь поговорить со мной, ты же знаешь!\"/pause 500/speak Marlon \"И мы подумали, не хочет ли он вступить в Гильдию искателей приключений?\"/pause 500/emote MisterGinger 16/jump MisterGinger 3/pause 500/speak MisterGinger \"В гильдию искателей приключений! Меня? В защитники города!$4\"/pause 500/speak Marlon \"Я имею в виду, что это опасная работа. Как ты думаешь, почему я потерял глаз?#$b#Так что же ты скажешь?\"/pause 500/faceDirection MisterGinger 1/speak MisterGinger \"Шанс защитить Джас и всех остальных - вот это была бы честь! Но что ты об этом думаешь, @?\"/quickQuestion #Ты смелый и сильный, и ты им нужен!#Ты должен следовать тому, что правильно для тебя.#Я не хочу, чтобы ты пострадал.#Ты? Защитник? Ты же просто кот!(break)speak MisterGinger \"Мне так приятно, что ты это признаёшь!\"(break)speak MisterGinger \"Ты очень мудро мыслишь... Да, я думаю, что так оно и есть!\"(break)speak MisterGinger \"Я тоже не хочу, чтобы мне было больно, @. Но я быстр, хитёр и коварен. Я могу это сделать!\"(break)speak MisterGinger \"И что ты хочешь этим сказать? Неужели то, что я кот, делает меня слабым?#$b#Мои зубы и когти - вот моё оружие, @.#$b#Хочешь бросить мне вызов?$5\"/pause 1000/emote Marlon 8/pause 500/speak Marlon \"Это значит 'да'?\"/pause 500/faceDirection MisterGinger 0/pause 500/showFrame MisterGinger 40/pause 500/playSound cat/pause 500/showFrame Marlon 4/speak Marlon \"Готов ли ты поклясться мне в верности?\"/pause 500/playSound cat/pause 500/showFrame MisterGinger 41/showFrame MisterGinger 42/pause 500/showFrame MisterGinger 43/pause 500/speak Marlon \"Очень хорошо. Неужели ты, тот, кого называют Мармеладом, а также Мистером Джинджером, торжественно клянёшься ставить чужие жизни выше своих собственных?\"/pause 500/playSound cat/pause 500/showFrame MisterGinger 42/pause 500/showFrame MisterGinger 43/pause 500/speak Marlon \"Обещаешь ли ты быть хорошим опекуном и защитником?#$b#Дабы уберечься от проклятия тьмы и чумы пустоты. То, что пребывает внутри и снаружи.\"/pause 500/playSound cat/pause 500/showFrame MisterGinger 42/pause 500/showFrame MisterGinger 43/pause 500/speak Marlon \"Ты можешь встать, благородный кот.\"/pause 500/showFrame MisterGinger 17/pause 500/showFrame MisterGinger 18/pause 500/speak MisterGinger \"Благодарю тебя за эту честь, Марлон. Я сделаю так, что ты будешь мной гордиться, обещаю.\"/pause 500/showFrame MisterGinger 25/animate MisterGinger false true 120 29 30 31 30/pause 500/emote Marlon 8/pause 500/emote farmer 32/pause 2000/end"
+				}
+	},
+
+//Ran Harvest Goddess Compatability
+{	"LogName": "Dialogue 6-hearts - removing Ras references",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/MisterGinger",
+	"Entries": {
+		"MrG_Fairytales": "$p 910#Знаешь историю про принца-лягушку? Я спросил Богиню, подействует ли это...#$b#Она одарила меня самой грустной улыбкой. Так что я думаю, что это означало 'нет'.$2|Слушай, а если ты упадёшь с дерева, то приземлишься на ноги? Я так и думал!$4",
+		"winter_Sun10": "Богиня в основном сама по себе, но я видел её с этим затворником в лесу.#$b#Знаешь Линуса? Этот человек пахнет богатой землёй и рыбным мясом.",
+		"Sun": "Дамочка в лесу оказалась очень приятной в общении. Ну да, и ты тоже, @. Очень приятно, иногда, поболтать с ней.$1"
+		 },
+	"When": {	"HasSeenEvent |contains=50706121":true,		"HasMod |contains=Ran.HarvestGoddess":true	}		
+	},
+{   "LogName": "Goddess Mail",
+	"Action": "EditData",
+	"Target": "Data/mail",
+	"Entries":{ 
+		"Wizard_CatTalk": "Привет!^ Наш общий знакомый просил тебя явиться ко мне в каменную башню после наступлении темноты. Пожалуйста, принеси с собой фрагмент пустоты. ^    -Богиня У.[#]Приглашение"
+									},
+			"When": {	"HasMod |contains=Ran.HarvestGoddess":true		}
+	},		
+{	"LogName": "6-heart Event",
+	"Action": "EditData",
+	"Target": "Data/Events/WizardHouse",
+	"Entries": {  	
+		"50706121/f MisterGinger 1500/t 1800 2400/n Wizard_CatTalk/Hl Tristan_Returns/i 768": "WizardSong/-1000 -1000/farmer -100 -100 0 Wizard 3 17 2 MisterGinger 2 17 1/removeItem 768/skippable/viewport 8 19 true/pause 1000/faceDirection Wizard 3/speak Wizard \"Мне очень жаль, что я не могу помочь тебе с твоей более насущной проблемой, Трикс. Но возможно... никто из нас не может знать, что ждёт нас в будущем.\"/pause 500/playSound cat/pause 250/speak Wizard \"Ах да, верно, за исключением мадам Уэлвик, но она не говорит ни слова на эту конкретную тему.\"/pause 500/playSound cat/pause 1000/playSound cat/speak Wizard \"Да знаю я, знаю. Но терпение - это добродетель, и возможно... Ну что ж, возможно, сегодня вечером всё пойдёт своим чередом.\"/playSound cat/pause 250/speak Wizard \"Ладно, да, я опять болтаю без умолку. Я слишком долго была одна, мой друг.\"/pause 500/playSound stoneStep/faceDirection MisterGinger 2/faceDirection Wizard 2/pause 250/speak Wizard \"Как раз вовремя. Наш гость прибыл.\"/pause 500/playSound doorOpen/warp farmer 8 24/move farmer 0 -4 0/pause 250/speak Wizard \"Привет @, рада тебя видеть. Ты можешь присоединиться к нам.\"/move farmer -2 0 3/move farmer 0 -3 3/pause 500/playSound cat/pause 250/faceDirection Wizard 3/speak Wizard \"Да-да, я знаю. Пожалуйста, наберись терпения!\"/pause 500/faceDirection Wizard 1/speak Wizard \"Ты принёс этот предмет, @?^Ты принесла этот предмет, @?\"/pause 500/move farmer -2 0 3/pause 250/playSound coin/speak Wizard \"Замечательно, это точно то, что я просила. Давайте начнём!#$b#Что мы тут варим? О, это сюрприз, но я чувствую, что он доставит тебе удовольствие. Хи-хи!.$h\"/move Wizard 0 2 2/faceDirection farmer 2/faceDirection MisterGinger 1/pause 500/speak Wizard \"Ну вот, держи: Звёздные осколки, Лепестки волшебной Розы.#$b#И всё благодаря тебе, @. Последний элемент: щепотка солнца...\"/pause 250/playSound cat/speak Wizard \"Да, я знаю, Трикс. Пожалуйста, потерпи.$h\"/pause 500/playSound dropItemInWater/move farmer 0 2 2/pause 250/showFrame Wizard 18/showFrame 96/pause 1000/speak Wizard \"Сюда, дыши глубже. Вдохни магию. Почувствуй, как она впитывается в твои чувства.$h\"/pause 800/emote farmer 28/faceDirection MisterGinger 1/playSound cat/move farmer 0 -1 2/pause 500/pause 4000/globalFade .008/viewport -1000 -1000/speak Wizard \"@? Пожалуйста, не надо бояться. У нас есть ты. Мы здесь ради тебя.\"/faceDirection farmer 2/warp MisterGinger 5 18/warp Wizard 3 18 1/faceDirection Wizard 1/faceDirection MisterGinger 3/playMusic none/pause 500/viewport 8 19 true/pause 500/speak MisterGinger \"@? @!$2\"/pause 500/speak MisterGinger \"Привет? @? Сработало?$2\"/pause 500/emote Wizard 8/pause 500/speak MisterGinger \"@? Ты в порядке?\"/pause 250/quickQuestion #Я не чувствую своих ног.#О, смотри, этот кот разговаривает!#Что произошло? У меня был обморок?(break)emote Wizard 40\\speak Wizard \"О, нет! Это неожиданный побочный эффект. Он должен скоро сойти на нет.#$b#Извини!$2\"(break)speak MisterGinger \"Это сработало! Это действительно сработало. Прости, что я сомневался в тебе, Богиня.$4\"(break)speak Wizard \"Приношу свои извинения, @. Порой эта сила действительно вызывает у человека лёгкое головокружение.\"/pause 500/faceDirection farmer 1/pause 500/emote farmer 16/speak MisterGinger \"Эй, @. Так здорово, когда есть с кем поговорить.#$b#Я имею в виду, что Богиня прекрасна и здорова... на то ты и Богиня!$1\"/pause 250/emote Wizard 60/pause 500/speak Wizard \"Может и так, Трикс, но я ещё и твой друг.\"/pause 250/faceDirection farmer 3/speak MisterGinger \"Я знаю, и это большая честь для меня, Богиня. Но иногда... ты знаешь.$1\"/pause 500/speak Wizard \"Так и есть, мой пушистый друг. Пожалуйста, относись к нему хорошо, @. Поскольку в этом котике есть нечто большее, чем кажется на первый взгляд.\"/pause 500/faceDirection farmer 1/emote farmer 32/pause 1000/end dialogue MisterGinger \"Каждый может разговаривать с животными, но для того, чтобы слушать их, нужно быть особенным человеком.#$b#Да, это комплимент. Только не привыкай к ним. У меня есть репутация, которую нужно скрывать, ты же знаешь.\""
+						},
+			"When": {	"HasMod |contains=Ran.HarvestGoddess":true,	"HasMod |contains=FlashShifter.StardewValleyExpandedALL":false		}
+				},
+{	"LogName": "Schedule", 
+	"Action": "EditData",
+	"Target": "Characters/schedules/MisterGinger",
+	"Entries": {
+		"Sun": "800 AnimalShop 5 5 2 MrG_Grooming/1000 Forest 29 12 0/1200 Forest 16 75 2 MrG_Grooming/1600 Forest 13 40 2 MrG_Grooming/1900 AnimalShop 7 16 2 MrG_Sleep"
+					},
+	"When": {	"HasMod |contains=Ran.HarvestGoddess":true		}
+				},
+
+//SVE compatibility
+{	"LogName": "6-heart Event",
+	"Action": "EditData",
+	"Target": "Data/Events/WizardHouse",
+	"Entries": {  	
+		"50706121/f MisterGinger 1500/t 1800 2400/n Wizard_CatTalk/Hl Tristan_Returns/i 769": "WizardSong/-1000 -1000/farmer -100 -100 0 Wizard 3 17 2 MisterGinger 2 17 1/removeItem 769/skippable/viewport 8 19 true/pause 1000/faceDirection Wizard 3/speak Wizard \"Мне очень жаль, что я не могу помочь тебе с твоей более насущной проблемой, Трикс. Но возможно... никто из нас не может знать, что ждёт нас в будущем.\"/pause 500/playSound cat/pause 250/speak Wizard \"Ах да, верно, за исключением мадам Уэлвик, но она не говорит ни слова на эту конкретную тему.\"/pause 500/playSound cat/pause 1000/playSound cat/speak Wizard \"Я знаю, я знаю. Однако терпение, говорят - это добродетель, и возможно... Ну что ж, возможно, сегодня вечером все шестерёнки будут пущены в ход... колесо начинает вращаться...\"/playSound cat/pause 250/speak Wizard \"Ладно, да, я опять болтаю без умолку. Я слишком долго был один, мой друг.\"/pause 500/playSound stoneStep/faceDirection MisterGinger 2/faceDirection Wizard 2/pause 250/speak Wizard \"Как раз вовремя. Наш гость прибыл.\"/pause 500/playSound doorOpen/warp farmer 9 24/move farmer 0 -4 0/pause 250/speak Wizard \"Привет @, рад тебя видеть. Ты можешь присоединиться к нам.\"/move farmer -2 0 3/move farmer 0 -3 3/pause 500/playSound cat/pause 250/faceDirection Wizard 3/speak Wizard \"Да-да, я знаю. Пожалуйста, наберись терпения!\"/pause 500/faceDirection Wizard 1/speak Wizard \"Ты принёс этот предмет, @?^Ты принесла этот предмет, @?\"/pause 500/move farmer -3 0 3/pause 250/playSound coin/speak Wizard \"Замечательно, это точно соответствует моим требованиям. Давайте начнём!#$b#Что мы тут варим? А вот это уже сюрприз.$h\"/move Wizard 0 2 2/faceDirection farmer 2/faceDirection MisterGinger 1/pause 500/speak Wizard \"Ну вот, держи: Звёздные осколки, Капельку голубиной крови, Лепестки волшебной Розы.#$b#И всё благодаря тебе, @. Последние элементы: фрагмент тьмы, осколок сердца пустоты...\"/pause 250/playSound cat/speak Wizard \"Ты же понимаешь, что я имею в виду!$h\"/pause 500/playSound dropItemInWater/move farmer 0 2 2/pause 250/showFrame Wizard 18/showFrame 96/pause 1000/speak Wizard \"Сюда. Пей. Я знаю, что прошлый раз был не слишком приятным, но польза перевешивает затраты, не так ли?$h\"/pause 800/emote farmer 28/faceDirection MisterGinger 1/playSound cat/pause 500/showFrame Wizard 19/pause 800/showFrame farmer 90/faceDirection Wizard 2/pause 1000/farmerEat 184/pause 4000/playSound gulp/move farmer 0 -1 2/animate farmer false true 350 104 105/pause 4000/globalFade .008/viewport -1000 -1000/stopAnimation farmer/faceDirection farmer 2/warp MisterGinger 5 18/warp Wizard 3 18 1/faceDirection Wizard 1/faceDirection MisterGinger 3/playMusic none/pause 500/viewport 8 19 true/pause 500/speak MisterGinger \"@? @!$2\"/pause 500/speak MisterGinger \"Привет? @? Сработало?$2\"/pause 500/emote Wizard 8/pause 500/speak MisterGinger \"@? Ты в порядке?\"/pause 250/quickQuestion #Я не чувствую своих ног.#О, смотрите, говорящий кот!#Ему нужен был ломтик лимона.#Это последний раз, когда я пью то, что ты предлагаешь!(break)emote Wizard 40\\speak Wizard \"Должен сказать, что это довольно неожиданный побочный эффект, но я уверен, что он быстро пройдёт.#$b#Не торопись\"(break)speak MisterGinger \"Это сработало! Это действительно сработало. Прости, что я сомневался в тебе, Рас.$4\"(break)speak MisterGinger \"Эй, Рас, похоже, кто-то ценит твои кулинарные таланты!\"(break)speak Wizard \"Это ты сейчас так говоришь, @, но ты не можешь отрицать, что мои варева весьма полезны.\"/pause 500/faceDirection farmer 1/pause 500/emote farmer 16/speak MisterGinger \"Эй, @. Так здорово, когда есть с кем поговорить.#$b#С Расом всё в порядке, но он немного задирает нос, тебе не кажется?...$1\"/pause 250/emote Wizard 12/pause 500/speak Wizard \"Ты же знаешь, я тебя слышу. Котёнок.\"/pause 250/speak MisterGinger \"Котёнок... Он знает, что я ненавижу это имя. Так унизительно. Как будто я какой-то обычный домашний питомец.$5#$b#Пожалуйста, никогда не называй меня котёнком, @.$1\"/emote farmer 32/pause 1000/end dialogue MisterGinger \"Каждый может разговаривать с животными, но для того, чтобы слушать их, нужно быть особенным человеком.#$b#Да, это комплимент. Только не привыкай к ним. У меня есть репутация, которую нужно скрывать, ты же знаешь.\""
+				},
+	"When": {	"HasMod |contains=Ran.HarvestGoddess":false,	"HasMod |contains=FlashShifter.StardewValleyExpandedALL":true			}
+		},
+{	"LogName": "6-heart Event",
+	"Action": "EditData",
+	"Target": "Data/Events/WizardHouse",
+	"Entries": {  	
+		"50706121/f MisterGinger 1500/t 1800 2400/n Wizard_CatTalk/Hl Tristan_Returns/i 768": "WizardSong/-1000 -1000/farmer -100 -100 0 Wizard 3 17 2 MisterGinger 2 17 1/removeItem 768/skippable/viewport 8 19 true/pause 1000/faceDirection Wizard 3/speak Wizard \"Мне очень жаль, что я не могу помочь тебе с твоей более насущной проблемой, Трикс. Но возможно... никто из нас не может знать, что ждёт нас в будущем.\"/pause 500/playSound cat/pause 250/speak Wizard \"Ах да, верно, за исключением мадам Уэлвик, но она не говорит ни слова на эту конкретную тему.\"/pause 500/playSound cat/pause 1000/playSound cat/speak Wizard \"Да знаю я, знаю. Но терпение - это добродетель, и возможно... Ну что ж, возможно, сегодня вечером всё пойдёт своим чередом.\"/playSound cat/pause 250/speak Wizard \"Ладно, да, я опять болтаю без умолку. Я слишком долго была одна, мой пушистый друг.\"/pause 500/playSound stoneStep/faceDirection MisterGinger 2/faceDirection Wizard 2/pause 250/speak Wizard \"Как раз вовремя. Наш гость прибыл.\"/pause 500/playSound doorOpen/warp farmer 9 24/move farmer 0 -4 0/pause 250/speak Wizard \"Привет @, рада тебя видеть. Ты можешь присоединиться к нам.\"/move farmer -2 0 3/move farmer 0 -3 3/pause 500/playSound cat/pause 250/faceDirection Wizard 3/speak Wizard \"Да-да, я знаю. Пожалуйста, наберись терпения!\"/pause 500/faceDirection Wizard 1/speak Wizard \"Ты принёс этот предмет, @?^Ты принесла этот предмет, @?\"/pause 500/move farmer -3 0 3/pause 250/playSound coin/speak Wizard \"Замечательно, это точно то, что я просила. Давайте начнём!#$b#Что мы тут варим? О, это сюрприз, но я чувствую, что он доставит тебе удовольствие. Хи-хи!$h\"/move Wizard 0 2 2/faceDirection farmer 2/faceDirection MisterGinger 1/pause 500/speak Wizard \"Ну вот, держи: Звёздные осколки, Лепестки волшебной Розы.#$b#И всё благодаря тебе, @. Последний элемент: щепотка солнца...\"/pause 250/playSound cat/speak Wizard \"Да, я знаю, Трикс. Пожалуйста, потерпи.$h\"/pause 500/playSound dropItemInWater/move farmer 0 2 2/pause 250/showFrame Wizard 18/showFrame 96/pause 1000/speak Wizard \"Сюда, дыши глубже. Вдохни магию. Почувствуй, как она впитывается в твои чувства.$h\"/pause 800/emote farmer 28/faceDirection MisterGinger 1/playSound cat/move farmer 0 -1 2/pause 500/pause 4000/globalFade .008/viewport -1000 -1000/speak Wizard \"@? Пожалуйста, не надо бояться. У нас есть ты. Мы здесь ради тебя.\"/faceDirection farmer 2/warp MisterGinger 5 18/warp Wizard 3 18 1/faceDirection Wizard 1/faceDirection MisterGinger 3/playMusic none/pause 500/viewport 8 19 true/pause 500/speak MisterGinger \"@? @!$2\"/pause 500/speak MisterGinger \"Привет? @? Сработало?$2\"/pause 500/emote Wizard 8/pause 500/speak MisterGinger \"@? Ты в порядке?\"/pause 250/quickQuestion #Я не чувствую своих ног.#О, смотри, этот кот разговаривает!#Что произошло? У меня был обморок?(break)emote Wizard 40\\speak Wizard \"О, нет! Это неожиданный побочный эффект. Он должен скоро сойти на нет.#$b#Извини!$2\"(break)speak MisterGinger \"Это сработало! Это действительно сработало. Прости, что я сомневался в тебе, Богиня.$4\"(break)speak Wizard \"Приношу свои извинения, @. Порой эта сила действительно вызывает у человека лёгкое головокружение.\"/pause 500/faceDirection farmer 1/pause 500/emote farmer 16/speak MisterGinger \"Эй, @. Так здорово, когда есть с кем поговорить.#$b#Я имею в виду, что Богиня прекрасна и здорова... на то ты и Богиня!$1\"/pause 250/emote Wizard 60/pause 500/speak Wizard \"Может и так, Трикс, но я ещё и твой друг.\"/pause 250/faceDirection farmer 3/speak MisterGinger \"Я знаю, и это большая честь для меня, Богиня. Но иногда... ты знаешь.$1\"/pause 500/speak Wizard \"Так и есть, мой пушистый друг. Пожалуйста, относись к нему хорошо, @. Поскольку в этом котике есть нечто большее, чем кажется на первый взгляд.\"/pause 500/emote farmer 32/pause 1000/end dialogue MisterGinger \"Каждый может разговаривать с животными, но для того, чтобы слушать их, нужно быть особенным человеком.#$b#Да, это комплимент. Только не привыкай к ним. У меня есть репутация, которую нужно скрывать, ты же знаешь.\""
+						},
+			"When": {	"HasMod |contains=Ran.HarvestGoddess":true,	"HasMod |contains=FlashShifter.StardewValleyExpandedALL":true		}
+		},
+
+// Jas mentions Mr. Ginger
+{	"LogName": "Dialogue Jas",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Jas",
+	"Entries": {
+		"fall_Mon4": "А ты уже знаком с мистером Джинджером? Он вроде как кот, но и не простой кот. Он - мой друг!^А ты уже знакома с мистером Джинджером? Он вроде как кот, но и не простой кот. Он - мой друг!",
+		"fall_Mon8": "Ты знаешь человека в башне? Он - волшебник.#$b#Тётя Марни велела мне не разговаривать с ним, но он, должно быть, очень одинок и живёт в этой башне совсем один.#$b#Мистер Джинджер иногда навещает его.",
+		"winter_Mon10": "Как думаешь, Мр. Расмодиус похож на Крестомана$3?#$b#Откуда я знаю его имя? Мистер Джинджер сказал мне!$1#$b#О, я знаю, что коты не умеют говорить. Но мистер Джинджер - это не просто кот.#$b#Но кто же он тогда? Это секрет!"		
+		},
+	"When": {"Hearts:Jas":"4,5,6,7,8,9,10"	}
+	},
+{	"LogName": "Birthday Gift Dialogue",
+	"Action": "EditData",
+	"Target": "Strings/StringsFromCSFiles",
+	"Entries": {
+		"NPC.cs.4274": "Миррупп!$1",
+		"NPC.cs.4275": "Миррупп!!$1",
+		"NPC.cs.4276": "Мирп!$1/Мирп!$1",
+		"NPC.cd.4277": "Мяууу!$1",
+		"NPC.cs.4278": "Mурр....$3/Mурррр....$3",
+		"NPC.cs.4279": "Muрр....$3/Muрррр....$3",
+		"NPC.cs.4280": "Mяу?",
+		"NPC.cs.4281": "Mяу?"
+	},
+	"When": {	"Season": "summer",		"Day": "20",	"HasSeenEvent |contains=50706121":false		}
+	},
+{	"LogName": "Birthday Gift Dialogue",
+	"Action": "EditData",
+	"Target": "Strings/StringsFromCSFiles",
+	"Entries": {
+		"NPC.cs.4274": "Ох! Вот это здорово! Мне нравятся эти человеческие обычаи дарения подарков!$4",
+		"NPC.cs.4276": "Оооо, подарок для меня! Из-за того, что я стал на год старше? Вот это достижение! Спасибо!$4/Оооо, подарок для меня! Из-за того, что я стал на год старше? Вот это достижение! Спасибо!$4",
+		"NPC.cs.4277": "Оооо, подарок для меня! Из-за того, что я стал на год старше? Вот это достижение! Спасибо!$4",
+		"NPC.cs.4278": "Сегодня мой день рождения? И ты даришь мне мусор? Интересный человеческий обычай.$3/Сегодня мой день рождения? И ты даришь мне мусор? Интересный человеческий обычай.$3/",
+		"NPC.cs.4279": "Сегодня мой день рождения? Какое никчёмное подношение, ты это серьёзно?$3",
+		"NPC.cs.4280": "Ох! Подарок для меня? У меня сегодня день рождения? Ах, у вас, людей, такие причудливые обычаи.",
+		"NPC.cs.4281": "Ох! Подарок для меня? У меня сегодня день рождения? Ах, у вас, людей, такие причудливые обычаи."
+		},
+	"When": {	"Season": "summer",	"Day": "20",	"HasSeenEvent |contains=50706121":true		}
+		},
+{	"Action": "EditData",
+	"Target": "strings/schedules/MisterGinger",
+	"Entries": {
+		"winter_15.000": "Mирррруп!$4"
+		},
+	"When": {	"HasSeenEvent |contains=50706121":false		}              
+		},
+{	"Action": "EditData",
+	"Target": "strings/schedules/MisterGinger",
+	"Entries": {
+			"winter_15.000": "Привет, @! Зрелища, звуки, запахи: этот аромат соли и рыбы с лёгким привкусом кофе. Ах, как вкусно. !$4",
+			"marriage.000": "Не знаю, откуда у неё столько энергии. Это так утомительно - просто наблюдать за ней.",
+			"marriage.001": "Я не хочу тебя расстраивать, но кремовая паста Марни - лучшая в долине. ",
+			"marriage.002": "Пузырь, пузырь, тяжкий труд и неприятности... заглянуть за лекарством? ",
+			"marriage.003": "Здесь полно рыбы. Держу пари, Джас знает имена всех их!",
+			"marriage.004": "Привет, @! Странно видеть тебя здесь.$3",
+			"marriage.005": "О, не ожидал увидеть тебя здесь, @! Я не спал - просто отдыхал с закрытыми глазами!"
+					},
+	"When": {	"HasSeenEvent |contains=50706121":true		}              
+				},
+//Movies
+{ 	"LogName": "Movie Theatre Default",
+	"Action": "EditData",
+	"Target": "Data/MoviesReactions",
+	"Entries": {
+		"MisterGinger": {
+			"NPCName": "MisterGinger",
+			"Reactions": [	  	{
+						"Tag": "*",
+						"Response": "love",
+						"Whitelist": [],
+						"SpecialResponses": {
+		  						"BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Mирруп!"
+		  	},
+		  	"DuringMovie": {
+			"ResponsePoint": null,
+			"Script": "/message \"Мистер Джинджер смотрит на экран.\"",
+			"Text": ""
+		  	},
+		  	"AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Mурр!$3#$b#%Мистер Джинджер, кажется, доволен фильмом."
+		  }
+		},
+		"ID": "reaction_0"
+	  },
+	  {
+		"Tag": "spring_movie_0",
+		"Response": "like",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Мурррр!"
+		  },
+		  "DuringMovie": {
+			"ResponsePoint": "sprout_leave",
+			"Script": "pause 500/message \"Мистер Джинджер выглядит грустным.\"",
+			"Text": "Муррр.$2"
+		  },
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Mирррп?$1"
+		  }
+		},
+		"ID": "reaction_1"
+	  },
+	  {
+		"Tag": "spring_movie_1",
+		"Response": "love",
+		"Whitelist": [],
+		"SpecialResponses": {
+			"BeforeMovie": {
+			  "ResponsePoint": null,
+			  "Script": "",
+			  "Text": "Mуррр!"
+			},
+			"DuringMovie": {
+			  "ResponsePoint": null,
+			  "Script": "/message \"Мистер Джинджер сосредоточен на своём предназначении.\"",
+			  "Text": ""
+			},
+			"AfterMovie": {
+			  "ResponsePoint": null,
+			  "Script": "",
+			  "Text": "Муррр."
+			}
+		},
+		"ID": "reaction_2"
+	  },
+	  {
+		"Tag": "winter_movie_0",
+		"Response": "dislike",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Mиирррппп..."
+		  },
+		  "DuringMovie": {
+			"ResponsePoint": null,
+			"Script": "/message \"Мистер Джинджер выглядит скучающим.\"",
+			"Text": ""
+		  },
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Муррип?"
+		  }
+		},
+		"ID": "reaction_3"
+	  },
+	  {
+		"Tag": "summer_movie_1",
+		"Response": "love",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Мурррип!$1"
+		  },
+		  "DuringMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "%Мистер Джинджер мурлычет."
+		  },
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "%Мистер Джинджер, кажется, был доволен собой."
+		  }
+		},
+		"ID": "reaction_4"
+	  },
+	  {
+		"Tag": "fall_movie_1",
+		"Response": "dislike",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Мурр!"
+		  },
+		  "DuringMovie": {
+			"ResponsePoint": null,
+			"Script": "/shake MisterGinger 3000/pause 500/",
+			"Text": "Mууууууурр...$2"
+		  },
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "%Шёрстка мистера Джинджера всё ещё немного взъерошена."
+		  }
+		},
+		"ID": "reaction_5"
+	  },
+	  {
+		"Tag": "winter_movie_1",
+		"Response": "like",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "%Мистер Джинджер явно недоволен вашим выбором."
+		},
+		"DuringMovie": {
+		  "ResponsePoint": null,
+		  "Script": "/message \"Это слёзы на глазах мистера Джинджера?",
+		  "Text": ""
+		},
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Мурр?$2"
+		  }
+		},
+		"ID": "reaction_6"
+	  },
+	  {
+		"Tag": "summer_movie_1",
+		"Response": "dislike",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Mирруп!"
+		},
+		"DuringMovie": {
+		  "ResponsePoint": null,
+		  "Script": "/message \"Мистер Джинджер сидит, низко скрючившись, в своём кресле.",
+		  "Text": ""
+		},
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "%Мистер Джинджер выглядит измотанным."
+		  }
+		},
+		"ID": "reaction_7"
+	  },
+	  {
+		"Tag": "fall_movie_1",
+		"Response": "dislike",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Mирруп!"
+		  },
+		  "DuringMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "..."
+		  },
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Mур.$5"
+		  }
+		},
+		"ID": "reaction_8"
+	  },
+	  {
+		"Tag": "seen_love",
+		"Response": "like",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Mурррр!"
+		  },
+		  "DuringMovie": null,
+		  "AfterMovie": null
+		},
+		"ID": "reaction_9"
+	  },
+	  {
+		"Tag": "seen_like",
+		"Response": "like",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Mуррр."
+		  },
+		  "DuringMovie": null,
+		  "AfterMovie": null
+		},
+		"ID": "reaction_10"
+	  },
+	  {
+		"Tag": "seen_dislike",
+		"Response": "like",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Mууууррр!$5"
+		  },
+		  "DuringMovie": null,
+		  "AfterMovie": null
+		},
+		"ID": "reaction_11"
+			}
+			]
+        	}
+    	}
+	},
+{ 	"LogName": "Movie Theatre Default",
+	"Action": "EditData",
+	"Target": "Data/MoviesReactions",
+	"When": {	"HasSeenEvent": "50706121"		},
+	"Entries": {
+		"MisterGinger": {
+		"NPCName": "MisterGinger",
+		"Reactions": [
+	  	{
+			"Tag": "*",
+			"Response": "love",
+			"Whitelist": [],
+			"SpecialResponses": {
+		  	"BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "История, рассказанная на экране? Ну, я думаю, это может быть весело."
+		  	},
+		  	"DuringMovie": {
+			"ResponsePoint": null,
+			"Script": "/message \"Мистер Джинджер смотрит на экран.\"",
+			"Text": ""
+		  	},
+		  	"AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Очень занятно. Мне понравилось."
+		  }
+		},
+		"ID": "reaction_0"
+	  },
+	  {
+		"Tag": "spring_movie_0",
+		"Response": "like",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Джас очень любила этот фильм, и у неё довольно хороший вкус.#$b#Но больше всего она любит меня.$1"
+		  },
+		  "DuringMovie": {
+			"ResponsePoint": "sprout_leave",
+			"Script": "pause 500/message \"Мистер Джинджер выглядит грустным.\"",
+			"Text": "I can see the appeal.$2"
+		  },
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Мило, но глупо.#$b#Сентиментально, да?$1"
+		  }
+		},
+		"ID": "reaction_1"
+	  },
+	  {
+		"Tag": "spring_movie_1",
+		"Response": "love",
+		"Whitelist": [],
+		"SpecialResponses": {
+			"BeforeMovie": {
+			  "ResponsePoint": null,
+			  "Script": "",
+			  "Text": "Я бывал в разных местах, но не уверен, что мне нужно видеть это на экране."
+			},
+			"DuringMovie": {
+			  "ResponsePoint": null,
+			  "Script": "/message \"Мистер Джинджер сосредоточен на своём предназначении.\"",
+			  "Text": ""
+			},
+			"AfterMovie": {
+			  "ResponsePoint": null,
+			  "Script": "",
+			  "Text": "Ладно, признаю, это было прекрасно."
+			}
+		},
+		"ID": "reaction_2"
+	  },
+	  {
+		"Tag": "winter_movie_0",
+		"Response": "dislike",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Звучит душераздирающе и тошнотворно."
+		  },
+		  "DuringMovie": {
+			"ResponsePoint": null,
+			"Script": "/message \"Мистер Джинджер выглядит скучающим.\"",
+			"Text": ""
+		  },
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Нет, не мой котелок с рыбой. Мммм, рыба... Мы можем пообедать вместе?"
+		  }
+		},
+		"ID": "reaction_3"
+	  },
+	  {
+		"Tag": "summer_movie_1",
+		"Response": "love",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": ""
+		  },
+		  "DuringMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Это просто смешно.$1"
+		  },
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Что за дурацкий фильм! Чрезвычайно забавный."
+		  }
+		},
+		"ID": "reaction_4"
+	  },
+	  {
+		"Tag": "fall_movie_1",
+		"Response": "dislike",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Страшно? Ха, я самый храбрый в этом городе. Мне смешно от этого ужастика!"
+		  },
+		  "DuringMovie": {
+			"ResponsePoint": null,
+			"Script": "/shake MisterGinger 3000/pause 500/",
+			"Text": "Нет... Не делай этого... Ой!"
+		  },
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Что? Мне было страшно? Нет, ты все выдумываешь.$2"
+		  }
+		},
+		"ID": "reaction_5"
+	  },
+	  {
+		"Tag": "winter_movie_1",
+		"Response": "like",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Фу, романтика? Кошки не делают таких глупых, сентиментальных вещей."
+		},
+		"DuringMovie": {
+		  "ResponsePoint": null,
+		  "Script": "/message \"Это слёзы на глазах мистера Джинджера?",
+		  "Text": ""
+		},
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Я не плачу. Это ты плачешь. Наверное, это из-за освещения."
+		  }
+		},
+		"ID": "reaction_6"
+	  },
+	  {
+		"Tag": "summer_movie_1",
+		"Response": "dislike",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Абигейл говорила об этом фильме. Должно быть, хороший!"
+		},
+		"DuringMovie": {
+		  "ResponsePoint": null,
+		  "Script": "/message \"Мистер Джинджер сидит, низко скрючившись, в своём кресле.",
+		  "Text": "Too loud..."
+		},
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Сюжет был бессмысленным, а звуки слишком громкими!$1"
+		  }
+		},
+		"ID": "reaction_7"
+	  },
+	  {
+		"Tag": "fall_movie_1",
+		"Response": "dislike",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Хммм, Расу он понравился. Я доверяю его суждениям."
+		  },
+		  "DuringMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "..."
+		  },
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Да, чтоб я ещё хоть раз поверил Расу! Нет, больше никогда."
+		  }
+		},
+		"ID": "reaction_8"
+	  },
+	  {
+		"Tag": "seen_love",
+		"Response": "like",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Я был бы счастлив посмотреть его ещё раз, раз ты настаиваешь.$1"
+		  },
+		  "DuringMovie": null,
+		  "AfterMovie": null
+		},
+		"ID": "reaction_9"
+	  },
+	  {
+		"Tag": "seen_like",
+		"Response": "like",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Да, конечно, почему бы и нет? Хорошо."
+		  },
+		  "DuringMovie": null,
+		  "AfterMovie": null
+		},
+		"ID": "reaction_10"
+	  },
+	  {
+		"Tag": "seen_dislike",
+		"Response": "like",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "Мне до сих пор снятся кошмары."
+		  },
+		  "DuringMovie": null,
+		  "AfterMovie": null
+		},
+		"ID": "reaction_11"
+		}
+		]
+        }
+    	}
+	},	
+{	"LogName": "Marriage Dialogue", 
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/MarriageDialogueMisterGinger",
+	"Entries": {
+			"Rainy_Day_0": "Сегодня на улице немного сыро. Будь осторожней, @. Я не хочу, чтобы у тебя была простуда.",
+			"Rainy_Day_1": "Ах, в дождливые денёчки так приятно спать. О, кого я обманываю?#$b#Каждый день хорош для сна!",
+			"Rainy_Day_2": "Джас любила читать мне 'Красавицу и чудовище'. По-твоему, наша договорённость немного похожа на это?#$b#О, красавец разумеется я, ты только посмотри на этот хвост!",
+			"Rainy_Day_3": "Хм, сегодня подходящий день для охоты на лягушек. Но тогда мой мех намокнет...#$b#Жизнь полна трудных решений, @.",
+			"Rainy_Day_4": "Ты уже уходишь? Тогда включи говорящую цветную коробку, пожалуйста?#$b#Не волнуйся, я согрею твоё любимое кресло.",
+			"patio_MisterGinger": "Ах, боже мой! О, прости, наше королевство. Это прекрасно, не правда ли?",
+			"spouseRoom_MisterGinger": "Ах, чем бы заняться сегодня? Может быть, вздремнуть... или немного почитать.",
+			"Rainy_Night_0": "От тебя пахнет сыростью. Держу пари, тебе холодно. Иди сюда, свернись калачиком рядом со мной.$#$b#И тогда мы согреем друг друга.$4",
+			"Rainy_Night_1": "Подойди сюда и прижмись ко мне. Может, ты прочтёшь мне сказку?#$b#Видишь, что я там натворил? О, ты такой милый и тёплый.^Видишь, что я там натворил? О, ты такая милая и тёплая.$4",
+			"Rainy_Night_2": "О, ты насквозь промок. Нет-нет, никаких объятий! Я терпеть не могу быть мокрым.^О, ты насквозь промокла. Нет-нет, никаких объятий! Я терпеть не могу быть мокрым.#$b#Я знаю, что тебе приятно меня видеть... но не можешь ли ты сначала вытереться?$2",
+			"Rainy_Night_3": "Прости, похоже, сейчас сезон линьки, и я боюсь, что потерял довольно много шерсти.#$b#Я бы взял метлу, но, видишь ли, у меня нет рук.",
+			"Rainy_Night_4": "Сегодня целый день провёл, гоняясь за мышами. Дом должен быть свободен от паразитов!#$b#Всегда пожалуйста.",
+			"Rainy_Night_5": "Я что, весь день смотрю телевизор? Поведаю тебе, @, что я интенсивно изучаю человеческое поведение.#$b#Хорошо, да, из телевидения ты знаешь, что человеческие ухаживания были бы намного проще, если бы люди просто говорили то, что они думают.#$b#Правда, это было бы куда менее интересно.",
+			"Indoor_Day_0": "А-а-а-Пчих! Ты что, пшикаешь себя дезодорантом?$2#$b#Я предпочитаю естественные запахи, например, солнечный свет и свежескошенная трава с лёгким привкусом древесного дыма.#$b#Ты пахнешь домом.$3",
+			"Indoor_Day_1": "Какие у тебя планы на сегодня? Надеюсь, они связаны с рыбой. Правда же?",
+			"Indoor_Day_2": "Прошлой ночью здесь что-то скреблось. Думаю, у нас появились пушистые захватчики.",
+			"Indoor_Day_3": "Я нашёл это во время утреннего патрулирования, и я знаю, как сильно ты любишь блестящие штучки. [60 72 80 80 80 80 80 84 82]",
+			"Indoor_Day_4": "Тебе когда-нибудь хотелось узнать ответы на вопрос о жизни, Вселенной и всём остальном?$4#$b#Ага, я тоже.$1",
+			"Indoor_Night_0": "На кухне было несколько мышей, и я их съел.$4#$b#Надеюсь, от меня не воняет мышами.",
+			"Indoor_Night_1": "Свернуться калачиком перед огнём... Ах, вот это жизнь.#$b#Спасибо, что предложил мне жить с тобой, @.^Спасибо, что предложила мне жить с тобой, @.",
+			"Indoor_Night_2": "Итак, перед обедом я позволил себе вздремнуть... затем мне понадобилась послеобеденная тишина.#$b#Я наконец-то собирался сделать что-то полезное, но попал в ловушку солнечного луча...#$b#В любом случае, это мой день. Как у тебя дела?",
+			"Indoor_Night_3": "Как я провёл свой день? В основном пялился в стену.#$b#Куда ты тратишь свои деньги? Это связано с рыбой?",
+			"Indoor_Night_4": "Ах, свернись калачиком рядом со мной. Да. Прямо посередине спины у меня зудит что-то такое, что я просто не могу пережи-#$b#О да, это то самое место. Эй, а кто сказал тебе остановиться?",
+			"Outdoor_0": "Сегодня утром в курятнике рыскала лиса. Не волнуйся, я спугнул её.#$b#Я всё-таки самый крутой в этом городе!",
+			"Outdoor_1": "Ранний утренний патруль завершён! Я нашёл кое-что для тебя.[444]#$b#О, кого я обманываю? Это для меня. О, извивайся, давай, извивайся. Ха-ха-ха! Умри, перо, умри!",
+			"Outdoor_2": "Ну вот, я восстановил свою должность главы фермы!#$b#О, я никому не причинил вреда! Первое правило боя? Не дерись, если не нужно! Просто докажи, что ты крупнее и сильнее.#$b#Если они пытаются тебя съесть, тогда дерись изо всех сил. Бесплатный совет на весь день. Всегда пожалуйста.",
+			"Outdoor_3": "Ранний утренний патруль завершён! Докладывать не о чём, и уж точно в твоей пещере нет никаких тёмных теневых существ.#$b#Что? О, ты собираешься пойти проверить сейчас, не так ли? Тогда не доверяй мне, посмотрим, волнует ли меня это.$4",
+			"Outdoor_4": "*отрыжка* Извини, я съел летучую мышь. Надеюсь, это была не фруктовая летучая мышь.",
+			"funLeave_MisterGinger": "Я отправляюсь патрулировать город, навещать старых друзей и всё прочее. Хочешь, я тебе что-нибудь принесу?",
+			"funReturn_MisterGinger": "Удивительно, какие вещи люди выбрасывают. Так расточительно![143 223 148 226 228]#$b#Извини, я не сдержался и пожевал немного.",
+			"OneKid_0": "%kid1 похоже, быстро учится. Я даже не ожидал, что меня когда-нибудь правильно погладят.$3",
+			"OneKid_1": "Я знаю, что ты не будешь возражать, но я сделал кое-какие покупки в интернет-магазине.#$b#О, это для детей. И шкатулка для меняяяя!$1",
+			"OneKid_2": "Я знаю, что %kid1 не умеет читать, но ты можешь хотя бы научить малыша переворачивать страницы?#$b#Иногда мне становится скучно, а %kid1 не из разговорчивых.",
+			"OneKid_3": "Пожалуйста, пожалуйста, пожалуйста, научи %kid1 ловить рыбу!$4#$b#Ещё слишком рано? Ох, человеческие котята растут так медленно.$2",
+			"TwoKids_0": "У меня для тебя плохие новости, @. Я принёс сегодня малышу мышку, но у %kid1 почему-то пропало настроение.#$b#Боюсь, %kid1 не станет хорошим охотником.",
+			"TwoKids_1": "Не буду врать, я не был уверен, как бы я отнёсся к крошечным человеческим котятам, бегающим вокруг.#$b#Но они вроде как выросли на мне. К тому же %kid1 дарит мне неплохую головную боль.",
+			"TwoKids_2": "Нянчиться с одним ребёнком было весело, нянчиться с двумя... ну, нам нужно научить их перестать кусаться.#$b#*вздохи* Человеческие котята, такие нецивилизованные.",
+			"TwoKids_3": "Не буду врать, %kid1 мне нравится. %kid2 немного... как сказать? Буянит?",
+			"Good_1": "Ты самый лучший человек, @. Никто не чешет голову так, как это делаешь ты. Да, это то самое место, прямо за моим ухом.#$b#Ты молодец, и не позволяй никому говорить тебе что-то другое, хорошо?",
+			"Good_2": "Будь аккуратней сегодня. И поймай мне побольше рыбы!$1#$b#Но если серьёзно, я скучаю по тебе, когда тебя нет рядом.$3",
+			"Good_3": "На свете не так много людей, которых я бы оценил так высоко, как тебя, @.#$b#Я имею в виду, что у палатки Линуса есть свои преимущества - никаких дверей, во-первых! - но я лучше свернусь калачиком рядом с тобой.",
+			"Good_4": "Ах, хорошая еда, тёплый огонь, приятная компания. О чём ещё может мечтать кот?#$b#Кроме, может быть, хорошей морщинки на подбородке. Довольно мурлыканья?$3",
+			"Good_5": "Зачем тебе понадобилось наполнять этот дом таким количеством солнечных ловушек? Трудно же что-то сделать!",
+			"Good_6": "Я сочинил для тебя песню. Хочешь послушать?#$b#*визг* '@, самый лучший хозяин на свете, потому что он - мооооой!'$5^*визг* '@, с ней у меня всё хорошо, потому что она - моояяяяяяя!$4",
+			"Good_7": "@, ты мой любимый человек. Но не единственный, и находишься, по крайней мере, определённо в первой... четвёрке.",
+			"Neutral_0": "Прошу великодушно извенить, @. Но по-моему, у нас в доме завелись призраки.#$b#Или, может быть, это просто игра света на стене?#$b#Но в любом случае, тебе обязательно стоит это проверить.",
+			"Neutral_1": "Я занимался косметическим ремонтом. Думаю, ты заметишь восхитительный оранжевый оттенок на ковре.#$b#Не за что.",
+			"Neutral_2": "Я снова сделал кое-какие покупки в интернете. Так много коробок!#$b#Что? Если ты не хотешь, чтобы я им пользовался, то почему не выключаешь?",
+			"Neutral_3": "Может показаться, что я просто сплю, но на самом деле я размышляю о фундаментальных принципах...#$b#Ладно, да, я просто сплю. Что тебе надо?",
+			"Neutral_4": "Обрати внимание, что когда смотришь на солнечный луч, он наполнен крошечными крапинками! Так вот как выглядит свет?#$b#Это пыль? О, значит тебе, наверное, стоит подмести здесь.",
+			"Neutral_9": "Под диваном лежали крошки от крекеров. Я их съел.#$b#Надеюсь, они лежали там не на потом. И если это так, что ж, тебе нужно найти лучшие места для тайников.",
+			"Bad_0": "Я думаю, что это никогда не получится. Кошка и человек... с чего бы им вообще ладить?$2#$b#О, они лишь счастливо сосуществовали на протяжении тысячелетий.$4",
+			"Bad_1": "Я оставил тебе сюрприз дома.#$b#Так тебе и надо. Да, пожалуйста. Что угодно.",
+			"Bad_2": "Надеюсь, тебе не очень полюбился диван. Мне нужен был маникюр.#$b#Что? Эти когти-прекрасно отточенное оружие!",
+			"Bad_3": "Я сделал небольшой косметический ремонт. Как ты относишься к таким сделкам?#$b#Это звучало намного лучше в моей голове... Во всяком случае, там была крыса. Теперь она мертва. Всегда пожалуйста.",
+			"Bad_4": "Это была ошибка, не так ли? Переезжать к тебе. Теперь ты это понимаешь...$2#$b#Я бы хотел, чтобы всё было по-другому.",
+			"Bad_5": "Если бы только у меня были большие пальцы... и, может быть, табуретка... Здесь всё будет совсем по-другому.$5",
+			"Bad_6": "Мне следовало остаться на ранчо, по крайней мере, там знают, как со мной обращаться.$5",
+			"Bad_7": "На кухне было несколько мышей. Не то чтобы тебе было не всё равно, но я их поймал.$2#$b#(И подожду, когда ты найдёшь, куда я их положил...)$1",
+			"Bad_8": "Иногда мне кажется, что ты любишь других животных больше, чем меня.$5#$b#Тебе, разумеется, следует уделять им больше внимания.$2",
+			"Bad_9": "Тебя так долго не было дома... и ты знаешь, что я не очень хорошо разбираюсь в дверях.#$b#Ну, в любом случае это было ужасное пальто.",
+			"spring_1": "Ах, весна пришла! Прыгающие крольчата, писклявые цыплята.$3#$b#О боже, теперь я проголодался.$1",
+			"spring_12": "Если ты принесёшь мне завтра домой немного шотландских яиц, я был бы очень благодарен.#$b#Я бы и сам пошёл, но мы с Гасом... ну, у нас произошло маленькое недоразумение из-за блюда с печеной рыбой...",
+			"spring_23": "Я слышал, что завтра будут какие-то танцы. Не придумывай ничего необычного.#$b#Кошки не танцуют, несмотря на то, что написано в этой книге.",
+			"spring_24": "Наверное, я мог бы пригласить тебя потанцевать. Если это тебя обрадует. Надеюсь, это не попадёт на МяуТуб!$3",
+			"summer_1": "Ах, лето. Так много солнечных ловушек! Сомневаюсь, что мне удастся что-нибудь сделать.",
+			"summer_10": "Завтра шведский стол, верно? Не забудь наесться досыта, @. В конце концов, никогда не знаешь, где тебя накормят в следующий раз.#$b#О, ты поступаешь правильно. Да, я забыл о времени приема пищи. Так цивилизованно.",
+			"summer_27": "Так что они сделаны не из желе, и не из рыбы. Почему люди дают животным дурацкие названия? Ну, я надеюсь, тебе понравится смотреть на эти плавающие мешки жгучей боли.",
+			"fall_1": "Ах, осень, моё любимое время года! Пора гоняться за листьями. И зарываться в них... Не хочешь присоединиться ко мне? Знаешь, тебе это может понравиться.",
+			"fall_15": "Много людей, вонючих животных и слишком много шума...#$b#Наслаждайся ярмарочной жизнью, @. Я пока здесь посторожу.",
+			"winter_1": "Пришла зима. Уйма времени, чтобы свернуться калачиком перед камином с моим любимым человеком.#$b#Не волнуйся, я также буду на посту. Ни один паразит не найдёт сюда дорогу.#$b#По крайней мере, не в ближайшее время.",
+			"winter_25": "Хммм, есть что-то особенное в сегодняшнем дне, не так ли, @?#$b#Счастливой Зимней Звезды! Ну а теперь, где мой подарок? [176 442 444 717 716 715]",
+			"winter_28": "Я слышал, что люди любят принимать какие-то 'решения' на Новый год, верно? Рассказывай, какие у тебя, @?#$b#У меня? Пожалуй, я ещё вздремну. Это звучит как хорошее решение?"	
+		}
+	}
+	]
+}

@@ -1,0 +1,150 @@
+﻿{
+    "Format": "1.5",
+    "Changes": [
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Emily",
+        "Entries":
+        {
+			"Wed2": "I saw a goose looking after a golden egg! Is the legend true? Hihihi, it would be magical if it were, wouldn't it be @?",
+			"Fri10": "@, do you take care of animals? Is it fun to take care of them? I would like to raise some chickens or cows, I see Marnie and I find her work very fun.",
+			"Sun6": "I heard from my parents who are doing well on vacation, they even sent me pictures of some Guineas that are in the woods near the hotel where they are.",
+			"summer_Sat10": "The day is going very well, I feel a positive energy, I think the ducks I saw playing in the water sent me a good energy.",
+			"fall_Fri8": "Hey @, I found a golden feather, it looks like a goose, oh what does that have to do with you? I remembered that you are radiant as a feather.",
+			"winter_Sun6": "Have you heard of the goose that laid the golden eggs? $ l #$b# It's a story that I remembered the other day when I saw geese swimming in the river ... wouldn't it be magical if it really existed?",
+			"spring_1_2": "Well, another year beginning, and another season of flocks of birds returning from migration, I saw a flock of geese flying earlier today, one of them seemed to have a golden tail, but I think it was just an impression, well, see you later.",
+        }
+    },
+    
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Leah",
+        "Entries":
+        {
+			"Mon6": "Hi @, enjoying the break? Are you raising a lot of animals? Marnie has a good variety of animals, doesn't she?",
+			"Tue4": "I left yesterday to collect some things in the forest, it really has a lot to offer, I even found some egg shells and feathers, I think there was a nest of wild Guineas nearby.",
+			"Wed8": "It is good to let the mind enter into communion with nature, you revitalize, more intense than that, just cute pictures of baby goats.",
+			"Fri6": "Whenever possible, I go to the salon, the food is good there, it is cheap and there are always people there, I really like talking to Emily, in fact, I found a tuft of animal hair, I will give it to her, she must like it.",
+			"summer_Thu8": "It is very good to leave the house early and look at nature, one of these days I saw a flock of geese flying, one of them seemed to glow a little golden, it must be a good omen.",
+            "fall_Tue8": "I left one of these days to walk in the forest and get inspiration, while I was walking I saw a nest of geese, the female took care of some eggs, one of them amazed me, it was golden, nature is full of surprises.",
+            "spring_7": "Hey @, have you heard of the golden goose? Emily told me this story last year, was the one I saw last year one of those fantastic beings?",
+        }
+    },
+	
+	{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Penny",
+        "Entries":
+        {
+			"Thue8": "I like to read, it is good to occupy the mind and mainly, to imagine in a world out of reality, I read recently: The ugly duckling.",
+            "summer_Mon2": "During the day, I like to use children to have a good future, the difficult thing is to preach their attention, especially with the geese playing in the water.",
+            "fall_Mon6": "I recently read a novel called: The bull of Tremeia. #$e# Talk about love and overcoming ... #$e# It was a good read ...",
+		}
+	},
+
+	{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Alex",
+        "Entries":
+        {
+			"Wed4": "Eat eggs! They are great as a complement and strengthen, but don't abuse it, especially if it's a goose egg, which is quite large.",
+        }
+	},
+
+	{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Sebastian",
+        "Entries":
+        {
+			"Wed10": "Sometimes I go out and watch the mountains, I've seen alpine goats, I may be seeing things, but I think one of them was black as night and had amethyst black eyes.",
+			"Sat4": "I'm doing some programming stuff, I lacked inspiration, but after seeing a few Guineas in the river last night, I had a good inspiration.",
+			"Sat10": "Hi @, it was not many days ago that I heard a laugh while walking at night, it looked like a horror movie, with a witch haunting a village, I even found a black feather with purple details, well, it looks more like fiction isn't it ?",
+            "fall_Wed6": "There is a lot on the internet, I watched a documentary that talks about various species and how they sometimes adapt to a new environment, could it be that the black goat I saw was a readapted animal or was it just a game of light?",
+            "spring_12": "I'm not a big fan of festivals ... if I didn't have friends around here, I wouldn't even want to get up, I would lie on my bed, like a canasta pig in the mud.",
+		},
+	},
+
+	{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Shane",
+        "Entries":
+        {
+			"summer_Tue10": "I help my aunt with the chickens, sometimes I see her negotiating, one of the sellers has a black bull, he is very imposing.",
+            "winter_Wed6": "Another day at Joja, another day wasted on a mediocre routine. It seems that my life has stopped, like an ox that decides to sleep in the middle of the track.",
+            "spring_1_2": "Another beginning of the year, another useless year ahead, certainly, at least, I will see the birds that some traders bring, like geese and guineas and in particular the chickens.",
+			"fall_Sat10": "@, Hi, I hope everything is fine for you, because for me I'm just going down, just like an alpine goat going down the mountains.",
+        }
+    },
+		
+		{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Dwarf",
+        "Entries":
+        {
+			"Thu4": "I feel comfortable here, it is a peaceful and quite ancestral place, even with the action of you humans, but I would be happier if I could ride on an alpine goat, except the black one.",
+			"Fri8": "Sometimes I am undecided if I go to the mountains in search of something, alpine goats in all their grace frighten me when they drop rocks while jumping without difficulty on the steep rocks.",
+			"Sun6": "My old civilization is gone, so I will have to get used to humans ... and alpine goats. Do you want to buy anything?",
+			"winter_Sun": "I saw a black alpine goat yesterday during my mountain tour, they are beautiful and graceful animals, as well as rare.",
+        }
+    },
+	
+	{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Krobus",
+        "Entries":
+        {
+			"Tue10": "... Thank you for visiting me so much, it's very lonely here. #$e# I never thought I would befriend humans ... if you want to please me, dark items usually make me happy.",
+			"spring_1_2": "I wanted to tell you that I will be selling a new item, well you are a great friend and merchant, so I wanted to bring something new.",
+        }
+    },
+
+	{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Demetrius",
+        "Entries":
+		{
+			"Qui2": "Are you growing green beans? I always use them in personal recipes. It also serves as feed for birds such as geese, guineas and chickens.",
+			"Fri8": "Yesterday I saw an Alphenios Ovino Petium, that rare specimen ... I should do more research or try to find a way to get more information.",
+			"summer_Mon6": "I saw a purple pig these days, he was definitely ... attractive, I want to meet him again, he seems to be an undocumented individual.",
+			"summer_Tue4": "Fertilizer is good for producing high quality fruit, do you use it? #$b# You can even make more money from it. If you have an ox, it will be easy for you.",
+			"summer_Fri": "Do you have animals on this farm? I was interested in researching the specimens, especially if they are rare specimens.",
+			"fall_Sun": "At this time of year, I turn my attention to fungi. However, observing the forest brings me much closer to animals like Guinea.",
+        }
+    },
+	
+	{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Marnie",
+        "Entries":
+        {
+			"Mon2": "I order all our supplies from an old acquaintance of mine, he comes sometimes and introduces me to new animals ... But I prefer to let it go, I don't have a market for some animals like Llamas.",
+			"Mon8": "I think it is in my blood to take care of animals. Someone has to maintain this line of work, I never tire of waking up and taking care of my cows and oxen.",
+			"Tue4": "Jas likes feathers, you know? It's very easy to befriend her with colored feathers.",
+			"Tue8": "I have tested what it is like to create Guineas, they are fun and their singing is very funny, really, I think they are very beautiful.",
+			"Wed4": "I always lived on the farm, this farm belonged to my parents ... They left the legacy of taking good care of animals, nowadays I put more friends in the store.",
+			"Wed8": "I liked the results of raising exotic pigs, they are specialized in finding different truffles, I believe that a good cook can invent a delicious dish by mixing all of them.",
+			"Sat2": "It is very interesting to have geese in my store, as they lay very large eggs, it is really a good option for a consistent feed.",
+			"Sat8": "Sometimes and I buy my pets from acquaintances who work in the same area, but I must say, they have some animals ... a little strange ...",
+			"Sun4": "Hey, I've seen that Guinea and Chickens have a lot in common, you know? They even share their darkest breeds ... Well, let's put these tense issues aside, spend any of these days to buy something at my store.",
+			"summer_Mon2": "One of our cows gave birth last night, I was surprised when I saw a black calf, I never thought it would give birth to a rare specimen.",
+            "fall_Wed": "Are you stocking hay for the winter @ ?, the animals eat a lot in the winter, especially the rare ones, oh, don't forget to buy a heater so they don't get cold.",
+            "spring_10_2": "I think I saw a golden egg in the middle of the goose eggs of an acquaintance of mine, I think it was just in my head.",
+            "winter_16_2": "Hi! This weather is very cold, isn't it? For alpine goats it must be just another normal day, well ... watch out for them, they can go head on, even just playing, they hurt." ,
+        }
+    },
+	
+	{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries":
+        {
+			"Fri6": "When I thought she was limited to chickens, she covers one more bird ... What is she thinking? ... Ah, hello @, was she thinking out loud, is she after magic knowledge?",
+			"fall_Mon2": "This time is very active for spiritual and magical beings, will the Bordinez-montanienses-obscurus be active with their black energy?",
+			"fall_4": "I watched your acquaintance, Marnie, she sells animals of various kinds ... I realized that she knows a friend of mine who has a tourelios-obscurion, this rare specimen is incredible.",
+            "winter_Mon": "It's cold ... The Bophes-Alphelis must like an environment so favorable to them.",
+			"spring_1_2": "I saw an Avenungansai-ouros today, this mystical being says a lot about what his beginning of the year will be like.",
+			"summer_20_2": "At that time the activity of the suinius-misteriuns is very frequent, that of the same species of my friend Trader Ambulante, they find a truffle almost as sweet as the rare jewel cherry.",
+        }
+    },    
+    ]
+}

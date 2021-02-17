@@ -1,0 +1,11 @@
+{
+   "Name": "Better Artisan Goods",
+   "Author": "cometkins",
+   "Version": "1.2.1",
+   "Description": "Nicer looking artisan goods and animal products.",
+   "UniqueID": "cometkins.BetterArtisanGoods",
+  "UpdateKeys": ["Nexus:5394"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}

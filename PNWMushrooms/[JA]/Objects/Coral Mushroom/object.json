@@ -1,0 +1,51 @@
+{
+    "Name": "Coral Mushroom",
+    "Description": "Artomyces pyxidatus - The raw fruiting bodies have a peppery taste that usually disappears when cooked.",
+    "Category": "Greens",
+	"CategoryTextOverride": "Mushroom",
+    "Edibility": 30,
+    "Price": 90,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": 
+    {
+        "Love": [""],
+		"Like": [""],
+		//"Dislike": [""],
+        "Hate": [""],
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        //"ko": "",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        //"ko": "",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        //"zh": "",
+    },
+    "ContextTags": [
+        "color_white",
+		"season_summer",
+		"season_spring",
+		"forage_item",
+    ]
+}

@@ -1,0 +1,2826 @@
+﻿[
+    //Estorial Deflowerizer
+{
+        "ProducerName": "Estorial Deflowerizer",  ///Extract ores from flowers
+        "InputIdentifier": "-80", //AnyFlower
+        "InputStack": 1,
+        "MinutesUntilReady": 240,
+        "OutputIdentifier": "378", //copper ore
+		"OutputStack": 3,
+		"OutputMaxStack": 7,
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.3, 
+				"OutputIdentifier": "380", //IronOre
+				"OutputStack": 3,
+				"OutputMaxStack": 7,
+				"MinutesUntilReady": 240, 
+			},
+			{
+				"OutputProbability": 0.10, 
+				"OutputIdentifier": "Silver Ore",
+				"OutputStack": 3,
+				"OutputMaxStack": 6,
+				"MinutesUntilReady": 360, 
+			},
+			{
+				"OutputProbability": 0.12, 
+				"OutputIdentifier": "384", //GoldOre
+				"OutputStack": 3,
+				"OutputMaxStack": 6,
+				"MinutesUntilReady": 240, 
+			},
+			{
+				"OutputProbability": 0.08, 
+				"OutputIdentifier": "Platinum Ore",
+				"OutputStack": 3,
+				"OutputMaxStack": 6,
+				"MinutesUntilReady": 360, 
+			},
+			{
+				"OutputProbability": 0.005, 
+				"OutputIdentifier": "386", //IridiumOre
+				"OutputStack": 1,
+				"OutputMaxStack": 3,
+				"MinutesUntilReady": 360, 
+			},
+		],
+        "Sounds": ["grassyStep"],
+		"OverrideMod": [ "Undare.MineralMageMachinesPFM" ],
+    },
+    //Estorial Defisher
+{
+        "ProducerName": "Estorial Defisher",  ///Transform Fish into stone
+        "InputIdentifier": "-4", //AnyFish
+        "InputStack": 1,
+        "MinutesUntilReady": 60,
+        "OutputIdentifier": "390", //Stone
+		"OutputStack": 10,
+		"OutputMaxStack": 40,
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.003, 
+				"OutputIdentifier": "166", // Treasure!
+				"OutputStack": 1,
+				"MinutesUntilReady": 2400, 
+			},
+			{
+				"OutputProbability": 0.007, 
+				"OutputIdentifier": "390", //Large stone stack
+				"OutputStack": 50,
+				"OutputMaxStack": 100,
+				"MinutesUntilReady": 120, 
+			},
+			//More Gem
+			{
+				"OutputProbability": 0.003, 
+				"OutputIdentifier": "Larimar",
+				"OutputStack": 1,
+				"MinutesUntilReady": 1200, 
+			},
+		],
+        "Sounds": ["slimeHit"],
+		"OverrideMod": [ "Undare.MineralMageMachinesPFM" ],
+    },
+	//Nevaliz Separator
+{
+        "ProducerName": "Nevaliz Separator",  ///separate Stone
+        "InputIdentifier": "390", //Stone
+        "InputStack": 10,
+        "MinutesUntilReady": 60,
+        "OutputIdentifier": "390", //Stone
+		"OutputStack": 5,
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.32, 
+				"OutputIdentifier": "378", //copper ore
+				"OutputStack": 1,
+				"OutputMaxStack": 4,
+				"MinutesUntilReady": 300, 
+			},
+			{
+				"OutputProbability": 0.2, 
+				"OutputIdentifier": "382", //coal
+				"OutputStack": 1,
+				"OutputMaxStack": 2,
+				"MinutesUntilReady": 120, 
+			},
+			{
+				"OutputProbability": 0.13, 
+				"OutputIdentifier": "380", //iron ore
+				"OutputStack": 1,
+			    "OutputMaxStack": 4,
+				"MinutesUntilReady": 300, 
+			},
+			{
+				"OutputProbability": 0.08, 
+				"OutputIdentifier": "Silver Ore", 
+				"OutputStack": 1,
+			    "OutputMaxStack": 3,
+				"MinutesUntilReady": 300, 
+			},
+			{
+				"OutputProbability": 0.06, 
+				"OutputIdentifier": "384", //gold ore
+				"OutputStack": 1,
+			    "OutputMaxStack": 3,
+				"MinutesUntilReady": 300, 
+			},
+			{
+				"OutputProbability": 0.03, 
+				"OutputIdentifier": "Platinum Ore",
+				"OutputStack": 1,
+			    "OutputMaxStack": 3,
+				"MinutesUntilReady": 300, 
+			},
+			{
+				"OutputProbability": 0.003, 
+				"OutputIdentifier": "386", //iridium ore
+				"OutputStack": 1,
+				"OutputMaxStack": 2,			
+				"MinutesUntilReady": 300, 
+			},
+			{
+				"OutputProbability": 0.06, 
+				"OutputIdentifier": "768", //Solar
+				"OutputStack": 1,
+				"MinutesUntilReady": 300, 
+			},
+			{
+				"OutputProbability": 0.06, 
+				"OutputIdentifier": "769", //Void
+				"OutputStack": 1,
+				"MinutesUntilReady": 500, 
+			},
+		],
+        "Sounds": ["breakingGlass"],
+		"OverrideMod": [ "Undare.MineralMageMachinesPFM" ],
+    },
+
+	//Slime Polisher
+	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Agate", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Agate",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Agate", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Agate", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Onyx", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Onyx",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Onyx", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Onyx", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Sardonyx", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Sardonyx",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Sardonyx", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Sardonyx", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Bixbite", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Bixbite",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Bixbite", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Bixbite", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Heliodor", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Heliodor",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Heliodor", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Heliodor", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Maxixe", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Maxixe",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Maxixe", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Maxixe", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Morganite", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Morganite",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Morganite", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Morganite", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },		
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Amber", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Amber",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Amber", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Amber", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Jet", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Jet",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Jet", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Jet", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Black Diamond", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Black Diamond",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Black Diamond", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Black Diamond", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Blue Diamond", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Blue Diamond",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Blue Diamond", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Blue Diamond", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Champagne Diamond", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Champagne Diamond",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Champagne Diamond", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Champagne Diamond", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Green Diamond", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Green Diamond",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Green Diamond", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Green Diamond", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Orange Diamond", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Orange Diamond",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Orange Diamond", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Orange Diamond", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Pink Diamond", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Pink Diamond",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Pink Diamond", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Pink Diamond", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Purple Diamond", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Purple Diamond",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Purple Diamond", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Purple Diamond", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Red Diamond", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Red Diamond",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Red Diamond", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Red Diamond", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Yellow Diamond", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Yellow Diamond",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Yellow Diamond", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Yellow Diamond", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Garnet", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Garnet",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Garnet", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Garnet", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Andradite Garnet", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Andradite Garnet",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Andradite Garnet", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Andradite Garnet", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Almandine Garnet", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Almandine Garnet",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Almandine Garnet", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Almandine Garnet", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Grossular Garnet", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Grossular Garnet",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Grossular Garnet", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Grossular Garnet", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Hessonite Garnet", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Hessonite Garnet",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Hessonite Garnet", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Hessonite Garnet", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Hydrogrossular Garnet", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Hydrogrossular Garnet",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Hydrogrossular Garnet", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Hydrogrossular Garnet", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Pyrope Garnet", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Pyrope Garnet",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Pyrope Garnet", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Pyrope Garnet", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Rhodolite Garnet", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Rhodolite Garnet",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Rhodolite Garnet", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Rhodolite Garnet", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Spessartite Garnet", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Spessartite Garnet",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Spessartite Garnet", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Spessartite Garnet", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Tsavorite Garnet", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Tsavorite Garnet",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Tsavorite Garnet", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Tsavorite Garnet", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Uvarovite Garnet", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Uvarovite Garnet",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Uvarovite Garnet", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Uvarovite Garnet", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Ice Jade", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Ice Jade",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Ice Jade", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Ice Jade", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Lavender Jade", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Lavender Jade",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Lavender Jade", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Lavender Jade", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Kunzite", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Kunzite",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Kunzite", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Kunzite", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Lapis Lazuli", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Lapis Lazuli",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Lapis Lazuli", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Lapis Lazuli", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Larimar", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Larimar",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Larimar", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Larimar", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },		
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Rhodochrosite", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Rhodochrosite",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Rhodochrosite", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Rhodochrosite", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },			
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Moonstone", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Moonstone",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Moonstone", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Moonstone", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Sunstone", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Sunstone",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Sunstone", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Sunstone", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Tanzanite", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Tanzanite",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Tanzanite", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Tanzanite", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Pink Opal", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Pink Opal",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Pink Opal", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Pink Opal", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Peridot", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Peridot",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Peridot", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Peridot", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Rhodonite", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Rhodonite",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Rhodonite", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Rhodonite", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Turquoise", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Turquoise",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Turquoise", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Turquoise", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Milky Quartz", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Milky Quartz",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Milky Quartz", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Milky Quartz", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Rose Quartz", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Rose Quartz",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Rose Quartz", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Rose Quartz", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Citrin", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Citrin",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Citrin", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Citrin", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Ametrine", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Ametrine",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Ametrine", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Ametrine", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Sapphire", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Sapphire",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Sapphire", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Sapphire", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Green Sapphire", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Green Sapphire",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Green Sapphire", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Green Sapphire", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Indian Star Sapphire", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Indian Star Sapphire",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Indian Star Sapphire", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Indian Star Sapphire", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Orange Sapphire", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Orange Sapphire",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Orange Sapphire", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Orange Sapphire", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Padparadscha Sapphire", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Padparadscha Sapphire",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Padparadscha Sapphire", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Padparadscha Sapphire", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Pink Sapphire", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Pink Sapphire",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Pink Sapphire", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Pink Sapphire", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Whiskey Sapphire", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Whiskey Sapphire",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Whiskey Sapphire", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Whiskey Sapphire", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "White Sapphire", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "White Sapphire",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "White Sapphire", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "White Sapphire", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Yellow Sapphire", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Yellow Sapphire",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Yellow Sapphire", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Yellow Sapphire", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Blue Spinel", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Blue Spinel",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Blue Spinel", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Blue Spinel", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Green Spinel", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Green Spinel",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Green Spinel", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Green Spinel", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Pink Spinel", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Pink Spinel",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Pink Spinel", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Pink Spinel", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Red Spinel", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Spinel",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Spinel", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Spinel", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Yellow Spinel", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Yellow Spinel",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Yellow Spinel", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Yellow Spinel", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Blue Topaz", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Blue Topaz",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Blue Topaz", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Blue Topaz", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Imperial Topaz", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Imperial Topaz",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Imperial Topaz", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Imperial Topaz", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Pink Topaz", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Pink Topaz",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Pink Topaz", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Pink Topaz", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "White Topaz", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "White Topaz",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "White Topaz", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "White Topaz", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Achroite Tourmaline", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Achroite Tourmaline",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Achroite Tourmaline", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Achroite Tourmaline", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Dravite Tourmaline", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Dravite Tourmaline",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Dravite Tourmaline", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Dravite Tourmaline", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Indicolite Tourmaline", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Indicolite Tourmaline",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Indicolite Tourmaline", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Indicolite Tourmaline", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Rubellite Tourmaline", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Rubellite Tourmaline",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Rubellite Tourmaline", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Rubellite Tourmaline", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Schorl Tourmaline", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Schorl Tourmaline",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Schorl Tourmaline", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Schorl Tourmaline", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Siberite Tourmaline", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Siberite Tourmaline",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Siberite Tourmaline", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Siberite Tourmaline", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Verdelite Tourmaline", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Verdelite Tourmaline",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Verdelite Tourmaline", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Verdelite Tourmaline", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Slime Polisher",
+        "InputIdentifier": "Watermelon Tourmaline", 
+        "InputStack": 1,
+		"KeepInputQuality": false,
+		"AdditionalFuel": 
+		{
+			"766": 10, //Slime
+		},
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Watermelon Tourmaline",
+				"MinutesUntilReady": 600, 
+				"RequiredInputQuality": [ 0 ], 
+				"OutputStack": 1,
+				"OutputQuality": 1,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Watermelon Tourmaline", 
+				"MinutesUntilReady": 1800, 
+				"RequiredInputQuality": [ 1 ], 
+				"OutputStack": 1,
+				"OutputQuality": 2,
+			},
+			{
+				"OutputProbability": 1, 
+				"OutputIdentifier": "Watermelon Tourmaline", 
+				"MinutesUntilReady": 4200, 
+				"RequiredInputQuality": [ 2 ], 
+				"OutputStack": 1,
+				"OutputQuality": 4,
+			},
+		],
+        "Sounds": ["Ship"],
+    },
+]

@@ -1,0 +1,49 @@
+{
+	"Name": "Pale Berry Pie",
+	"Description": "A pie made filled Pale Berries from Umuwi. Has a very sweet after taste!",
+	"Category": "Cooking",
+	"Edibility": 80,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": {
+    "Farming": 0,
+    "Fishing": 0,
+    "Mining": 0,
+    "Luck": 0,
+	"Foraging": 0,
+	"MaxStamina": 5,
+    "MagnetRadius": 0,
+	"Speed": 3,
+	"Defense": 0,
+	"Attack": 0,
+    "Duration": 300,
+	},
+	"Price": 500,
+	"IsColored": false,
+	"GiftTastes":
+	{
+		"Love": ["Lunna", "Bianka", "Marnie", "Leah", "Emily", "Haley", "Penny", "Alex", "Jas", "Vincent", "Abigail", "Maru"],
+	},
+
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Pale Berry",
+        "Count": 3,
+      },
+      {
+        "Object": "Wheat Flour",
+        "Count": 1,
+      },
+    ],
+	},
+
+	"NameLocalization":
+	{
+		//
+	},
+	"DescriptionLocalization":
+	{
+		//
+	},
+}

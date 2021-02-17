@@ -1,0 +1,30 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Nikolai",
+            "Entries": {
+                "give_flowersA": "{{i18n:courtship.give_flowersA}}",
+                "give_flowersB": "{{i18n:courtship.give_flowersB}}",
+                "give_pendant": "{{i18n:courtship.give_pendant}}",
+                "stardrop_gift": "{{i18n:courtship.stardrop_gift}}",
+                "rejectNPCA": "{{i18n:courtship.rejectNPCA}}",
+                "rejectNPCB": "{{i18n:courtship.rejectNPCB}}",
+                "reject_two_heartA": "{{i18n:courtship.reject_two_heartA}}",
+                "reject_two_heartB": "{{i18n:courtship.reject_two_heartB}}",
+                "reject_four_heartA": "{{i18n:courtship.reject_four_heartA}}",
+                "reject_four_heartB": "{{i18n:courtship.reject_four_heartB}}",
+                "engageA": "{{i18n:courtship.engageA}}",
+                "engageB": "{{i18n:courtship.engageB}}",
+                "marriedA": "{{i18n:courtship.marriedA}}",
+                "marriedB": "{{i18n:courtship.marriedB}}",
+                "refusal_no_heartsA": "{{i18n:courtship.refusal_no_heartsA}}",
+                "refusal_no_heartsB": "{{i18n:courtship.refusal_no_heartsB}}",
+                "refusal_knownA": "{{i18n:courtship.refusal_knownA}}",
+                "refusal_knownB": "{{i18n:courtship.refusal_knownB}}",
+                "refusal_botherA": "{{i18n:courtship.refusal_botherA}}",
+                "refusal_botherB": "{{i18n:courtship.refusal_botherB}}"
+            }
+        }
+    ]
+}

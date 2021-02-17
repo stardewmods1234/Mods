@@ -1,0 +1,31 @@
+{
+  "Name": "Denver",
+  "Author": "balverines",
+  "Version": "2.8.1",
+  "Description": "A new NPC",
+  "UniqueID": "balverines.Denver",
+  "UpdateKeys": [ "Nexus:4594" ],
+  "MinimumApiVersion": "2.9",
+  "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.6.1"
+  },
+  "Dependencies": [
+   {
+      "UniqueID": "FTMBdHouse",
+      "IsRequired": true
+   },
+   {
+      "UniqueID": "misscoriel.courtship",
+	  "IsRequired": false
+   },
+   {	
+			"UniqueID": "spacechase0.JsonAssets",
+			"IsRequired": true
+		},
+		{
+		    "UniqueID": "Denver.Necklace",
+			"IsRequired": true
+		},
+  ]
+}

@@ -1,0 +1,8 @@
+{
+	"mapname":"MainShops",
+	"displayname":"Garden Village",
+	"destinationX":17,
+	"destinationY":21,
+	"arrivalFacing":2,
+	"ticketPrice":350
+}

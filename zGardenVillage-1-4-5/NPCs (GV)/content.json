@@ -1,0 +1,170 @@
+{
+  "Format": "1.10.0",
+  "Changes": [
+    {
+      "LogName": "Garden Village Disposition",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "FromFile": null,
+      "Entries": {
+        "Hekate": "adult/rude/outgoing/negative/female/non-datable/null/Other/summer 14/Hephaestus 'brother'/HekateBackroom 10 5/Hekate",
+		"Hephaestus": "adult/polite/neutral/neutral/male/non-datable/null/Other/fall 26/Hekate 'sister'/MachineShed 9 5/Hephaestus"
+      }
+    },
+	{
+		"LogName": "Garden Village NPC Exclusions",
+         "Action": "EditData",
+         "Target": "Data/CustomNPCExclusions",
+         "Entries": {
+            "Hekate": "TownEvent Socialize",
+			"Hephaestus": "TownEvent Socialize"
+         }
+    },
+	{
+      "LogName": "Garden Village Gift tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Hekate": "An excellent gift! I won't forget this./203 308 348 547/This is nice. Thank you./305 376 767 769/This is mildly offensive./346 459/How dare you offer me this!/248 344/A gift? Thank you.//",
+        "Hephaestus": "This is excellent! Thank you!/308 336 337 787/Ah, many thanks./203 334 335 338/I don't understand humans sometimes./196 446 797/Do you mean this to be an insult?/248 344/It is kind of you to think of me./-12/"
+	  	}
+	},
+    {
+      "LogName": "Hekate Sprites",
+      "Action": "Load",
+      "Target": "Characters/Hekate",
+      "FromFile": "assets/spritesheets/HekateSS.png",
+      "Entries": null
+    },
+	{
+      "LogName": "Hekate Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Hekate",
+      "FromFile": "assets/spritesheets/HekateGreenSS.png",
+      "When": {
+		"DayOfWeek": "Sunday"
+	  }
+    },
+    {
+      "LogName": "Hephaestus Sprites",
+      "Action": "Load",
+      "Target": "Characters/Hephaestus",
+      "FromFile": "assets/spritesheets/HephaestusSS.png",
+      "Entries": null
+    },
+    {
+      "LogName": "Hekate Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Hekate",
+      "FromFile": "assets/dialogues/HekateD.json",
+      "Entries": null
+    },
+	{
+      "LogName": "Hephaestus Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Hephaestus",
+      "FromFile": "assets/dialogues/HephaestusD.json",
+      "Entries": null
+    },
+	{
+      "LogName": "Hekate Schedule Dialogue",
+      "Action": "Load",
+      "Target": "Strings/schedules/Hekate",
+      "FromFile": "assets/schedules/strings/Hekate.json",
+      "Entries": null
+    },
+	{
+      "LogName": "Hephaestus Schedule Dialogue",
+      "Action": "Load",
+      "Target": "Strings/schedules/Hephaestus",
+      "FromFile": "assets/schedules/strings/Hephaestus.json",
+      "Entries": null
+    },
+    {
+      "LogName": "Hekate Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Hekate",
+      "FromFile": "assets/portraits/HekateP.png",
+      "Entries": null
+    },
+	{
+      "LogName": "Hekate Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/Hekate",
+      "FromFile": "assets/portraits/HekateGreenP.png",
+	  "When": {
+		"DayOfWeek": "Sunday"
+	  }
+    },
+	{
+      "LogName": "Hephaestus Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Hephaestus",
+      "FromFile": "assets/portraits/HephaestusP.png",
+      "Entries": null
+    },
+	{
+	"LogName": "Rainy Dialogue",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/rainy",
+	"Entries": {
+		"Hekate": "I love how the rain leaves the whole world feeling cleaner.",
+		"Hephaestus": "I love the rain, but the humidity makes trouble for some of the machines."
+	}
+	},
+	{
+      "LogName": "Hekate Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Hekate",
+      "FromFile": "assets/schedules/HekateS.json",
+      "Entries": null
+    },
+	{
+      "LogName": "Hephaestus Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Hephaestus",
+      "FromFile": "assets/schedules/HephaestusS.json",
+      "Entries": null
+    },
+	{
+	"Action": "Load",
+	"Target": "Data/Events/Artisanry",
+	"FromFile": "assets/events/Artisanry.json"
+	},
+	{
+	"Action": "Load",
+	"Target": "Data/Events/MachineShed",
+	"FromFile": "assets/events/MachineShed.json"
+	},
+	{
+	"Action": "Load",
+	"Target": "Data/Events/MainShops",
+	"FromFile": "assets/events/MainShops.json"
+	},
+	// Animations and Effects
+	{
+      "LogName": "TransformFrog",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "FromFile": null,
+      "Entries": {
+        "TransformFrog": "adult/neutral/neutral/neutral/male/non-datable/null/Other/null//HekateBackroom 8 5/TransformFrog"
+      }
+    },
+	{
+	   "LogName": "TransformFrog AntiSocial Flag",
+	   "Action": "EditData",
+	   "Target": "Data/AntiSocialNPCs",
+	   "Entries": {
+		  "TransformFrog": true
+	   }
+	},
+	{
+      "LogName": "TransformFrog Sprites",
+      "Action": "Load",
+      "Target": "Characters/TransformFrog",
+      "FromFile": "assets/spritesheets/TransformFrogSS.png",
+      "Entries": null
+    },
+  ]
+}

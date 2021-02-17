@@ -1,0 +1,49 @@
+{
+	"Name": "Umuwi Mash",
+	"Description": "A spicy starch mash good for a cold winter day!",
+	"Category": "Cooking",
+	"Edibility": 80,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": {
+    "Farming": 4,
+    "Fishing": 0,
+    "Mining": 5,
+    "Luck": 0,
+	"Foraging": 0,
+	"MaxStamina": 5,
+    "MagnetRadius": 0,
+	"Speed": 0,
+	"Defense": 0,
+	"Attack": 4,
+    "Duration": 300,
+	},
+	"Price": 500,
+	"IsColored": false,
+	"GiftTastes":
+	{
+		"Love": ["Gus", "Raphael", "Dianna", "Alex", "Elliot", "Shane", "Harvey,"],
+	},
+
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Thorn Pepper",
+        "Count": 5,
+      },
+      {
+        "Object": "Eggroot",
+        "Count": 3,
+      },
+    ],
+	},
+
+	"NameLocalization":
+	{
+		//
+	},
+	"DescriptionLocalization":
+	{
+		//
+	},
+}

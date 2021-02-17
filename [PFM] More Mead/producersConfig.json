@@ -1,0 +1,12 @@
+[
+	{
+		"ProducerName":"Log Beehive",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false 
+	},
+	{
+		"ProducerName":"Mead Keg",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false 
+	},
+]

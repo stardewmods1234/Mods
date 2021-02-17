@@ -1,0 +1,556 @@
+{
+	"Format": "1.19.0",
+
+	"ConfigSchema": {
+
+		"RandomGrass": {
+			"AllowValues": "true, false",
+                                                "Default": "true"
+			},
+		"Grass": {
+			"AllowValues": "true, false",
+                                                "Default": "true"
+			},
+		"GeneralBush": {
+			"AllowValues": "true, false",
+                                                "Default": "true"
+			},
+		"FruitTrees": {
+			"AllowValues": "true, false",
+                                                "Default": "true"
+			},
+		"GeneralTrees": {
+			"AllowValues": "true, false",
+                                                "Default": "true"
+			},
+		"StaticTreesandBushes": {
+			"AllowValues": "true, false",
+                                                "Default": "true"
+			},
+		"BloomingSpring": {
+			"AllowValues": "true, false",
+                                                "Default": "true"
+			},
+		"Island": {
+			"AllowValues": "true, false",
+                                                "Default": "true"
+			},
+		"Debris": {
+			"AllowValues": "true, false",
+                                                "Default": "true"
+			},
+		},
+
+
+	"Changes": [
+//Outdoors Tilesheets
+		{
+		"LogName": "Island Fix",
+		"Action": "EditMap",
+		"PatchMode": "Replace",
+		"Target": "Maps/Island_N",
+		"FromFile": "assets/Fix/Island_N_fix.tbin",
+		"FromArea": {"X":0, "Y":0, "Width":7, "Height":3},
+		"ToArea": {"X":30, "Y":34, "Width":7, "Height":3},
+			"When": 
+				{
+				"StaticTreesandBushes": true,
+				} 
+                                },
+		{
+		"LogName": "Static foliage 1",
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "Maps/{{season}}_outdoorsTilesheet, Maps/summer_outdoorsTilesheet",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"FromArea": {"X":0, "Y":0, "Width":272, "Height":96},
+		"ToArea": {"X":0, "Y":0, "Width":272, "Height":96},
+			"When": 
+				{
+				"StaticTreesandBushes": true,
+				} 
+                                },
+		{
+		"LogName": "Static foliage 2",
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "Maps/{{season}}_outdoorsTilesheet, Maps/summer_outdoorsTilesheet",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"FromArea": {"X":272, "Y":0, "Width":80, "Height":64},
+		"ToArea": {"X":272, "Y":0, "Width":80, "Height":64},
+			"When": 
+				{
+				"StaticTreesandBushes": true,
+				} 
+                                },
+		{
+		"LogName": "Static foliage 3",
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "Maps/{{season}}_outdoorsTilesheet, Maps/summer_outdoorsTilesheet",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"FromArea": {"X":288, "Y":64, "Width":32, "Height":48},
+		"ToArea": {"X":288, "Y":64, "Width":32, "Height":48},
+			"When": 
+				{
+				"StaticTreesandBushes": true,
+				} 
+                                },
+		{
+		"LogName": "Static foliage 4",
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "Maps/{{season}}_outdoorsTilesheet, Maps/summer_outdoorsTilesheet",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"FromArea": {"X":112, "Y":96, "Width":48, "Height":16},
+		"ToArea": {"X":112, "Y":96, "Width":48, "Height":16},
+			"When": 
+				{
+				"StaticTreesandBushes": true,
+				} 
+                                },
+		{
+		"LogName": "flower 1",
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "Maps/{{season}}_outdoorsTilesheet, Maps/summer_outdoorsTilesheet",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"FromArea": {"X":112, "Y":160, "Width":16, "Height":16},
+		"ToArea": {"X":112, "Y":160, "Width":16, "Height":16},
+                                },
+                                {
+		"LogName": "flower 2",
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "Maps/{{season}}_outdoorsTilesheet, Maps/summer_outdoorsTilesheet",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"FromArea": {"X":112, "Y":192, "Width":16, "Height":16},
+		"ToArea": {"X":112, "Y":192, "Width":16, "Height":16},
+
+                                },
+	                {
+	                "Action": "EditImage",
+                                "PatchMode": "Overlay",
+                                "Target": "Maps/{{season}}_outdoorsTileSheet2",
+                                "FromFile": "assets/{{season}}_outdoorsTileSheet2.png",
+			"When": 
+				{
+				"StaticTreesandBushes": true,
+				} 
+                                },
+//debris
+		{
+		                "Action": "EditImage",
+		                "PatchMode": "Overlay",
+		                "Target": "Maps/springobjects",
+		                "FromFile": "assets/springobjects.png",
+			"When": 
+				{
+				"Debris": true,
+				} 
+		},
+//Isand
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "Maps/{{season}}_island_tilesheet_1",
+		"FromFile": "assets/{{season}}_island_tilesheet_1.png",
+			"When": 
+				{
+				"Island": true,
+				"StaticTreesandBushes": true,
+				} 
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "Maps/island_tilesheet_1",
+		"FromFile": "assets/island_tilesheet_1.png",
+			"When": 
+				{
+				"Island": true,
+				} 
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "Maps/island_tilesheet_2",
+		"FromFile": "assets/island_tilesheet_2.png",
+			"When": 
+				{
+				"Island": true,
+				} 
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "LooseSprites/ParrotPlatform",
+		"FromFile": "assets/ParrotPlatform.png",
+			"When": 
+				{
+				"Island": true,
+				} 
+		},
+		{
+		                "Action": "EditImage",
+		                "PatchMode": "Overlay",
+		                "Target": "LooseSprites/Cursors2,  LooseSprites/Cursors2.{{language}}",
+		                "FromFile": "assets/Cursors2.png",
+			"When": 
+				{
+				"Island": true,
+				} 
+		},
+
+//Grass
+		{
+		"LogName": "grass",
+		"Action": "Load",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/grass_norandom.png",
+			"When": 
+				{
+				"RandomGrass": false,
+			                "HasMod |contains=EpicBellyFlop45.MoreGrass": false,
+				"Grass": true,
+				} 
+		},
+//Randomgrass
+		{
+		"LogName": "grass",
+		"Action": "EditImage",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/grass.png",
+			"When": 
+				{
+				"RandomGrass": true,
+			                "HasMod |contains=EpicBellyFlop45.MoreGrass": false,
+				"Grass": true,
+				} 
+		},
+		{
+		"LogName": "random grass spring1",
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/Random/grass_spring_1_{{Random:0, 1, 2, 3, 4}}.png",
+		"ToArea": {"X":0, "Y":0, "Width":15, "Height":20},
+			"When": 
+				{
+				"RandomGrass": true,
+			                "HasMod |contains=EpicBellyFlop45.MoreGrass": false,
+				"Grass": true,
+				} 
+		},
+		{
+		"LogName": "random grass spring2",
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/Random/grass_spring_2_{{Random:0, 1, 2, 3, 4}}.png",
+		"ToArea": {"X":15, "Y":0, "Width":15, "Height":20},
+			"When": 
+				{
+				"RandomGrass": true,
+			                "HasMod |contains=EpicBellyFlop45.MoreGrass": false,
+				"Grass": true,
+				} 
+		},
+		{
+		"LogName": "random grass spring3",
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/Random/grass_spring_3_{{Random:0, 1, 2}}.png",
+		"ToArea": {"X":30, "Y":0, "Width":15, "Height":20},
+			"When": 
+				{
+				"RandomGrass": true,
+			                "HasMod |contains=EpicBellyFlop45.MoreGrass": false,
+				"Grass": true,
+				} 
+		},
+		{
+		"LogName": "random grass summer1",
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/Random/grass_summer_1_{{Random:0, 1, 2, 3, 4}}.png",
+		"ToArea": {"X":0, "Y":20, "Width":15, "Height":20},
+			"When": 
+				{
+				"RandomGrass": true,
+			                "HasMod |contains=EpicBellyFlop45.MoreGrass": false,
+				"Grass": true,
+				} 
+		},
+		{
+		"LogName": "random grass summer2",
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/Random/grass_summer_2_{{Random:0, 1, 2, 3, 4}}.png",
+		"ToArea": {"X":15, "Y":20, "Width":15, "Height":20},
+			"When": 
+				{
+				"RandomGrass": true,
+			                "HasMod |contains=EpicBellyFlop45.MoreGrass": false,
+				"Grass": true,
+				} 
+		},
+		{
+		"LogName": "random grass summer3",
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/Random/grass_summer_3_{{Random:0, 1, 2}}.png",
+		"ToArea": {"X":30, "Y":20, "Width":15, "Height":20},
+			"When": 
+				{
+				"RandomGrass": true,
+			                "HasMod |contains=EpicBellyFlop45.MoreGrass": false,
+				"Grass": true,
+				} 
+		},
+		{
+		"LogName": "random grass fall1",
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/Random/grass_fall_1_{{Random:0, 1, 2, 3, 4}}.png",
+		"ToArea": {"X":0, "Y":40, "Width":15, "Height":20},
+			"When": 
+				{
+				"RandomGrass": true,
+			                "HasMod |contains=EpicBellyFlop45.MoreGrass": false,
+				"Grass": true,
+				} 
+		},
+		{
+		"LogName": "random grass fall2",
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/Random/grass_fall_2_{{Random:0, 1, 2, 3, 4}}.png",
+		"ToArea": {"X":15, "Y":40, "Width":15, "Height":20},
+			"When": 
+				{
+				"RandomGrass": true,
+			                "HasMod |contains=EpicBellyFlop45.MoreGrass": false,
+				"Grass": true,
+				} 
+		},
+		{
+		"LogName": "random grass fall3",
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/Random/grass_fall_3_{{Random:0, 1, 2}}.png",
+		"ToArea": {"X":30, "Y":40, "Width":15, "Height":20},
+			"When": 
+				{
+				"RandomGrass": true,
+			                "HasMod |contains=EpicBellyFlop45.MoreGrass": false,
+				"Grass": true,
+				} 
+		},
+//bushes
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TileSheets/bushes",
+		"FromFile": "assets/bushes.png",
+			"When": 
+				{
+				"GeneralBush": true,
+				} 
+		},
+//Trees
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/tree1_spring", 
+		"FromFile": "assets/tree1_spring.png",
+			"When": 
+				{
+				"GeneralTrees": true,
+                                                                "BloomingSpring": true,
+
+				} 
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/tree1_spring",
+		"FromFile": "assets/tree1_spring_green.png",
+			"When": 
+				{
+				"GeneralTrees": true,
+                                                                "BloomingSpring": false,
+				} 
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/tree1_summer",
+		"FromFile": "assets/tree1_summer.png",
+			"When": 
+				{
+				"GeneralTrees": true,
+				} 
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/tree1_fall",
+		"FromFile": "assets/tree1_fall.png",
+			"When": 
+				{
+				"GeneralTrees": true,
+				} 
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/tree1_winter",
+		"FromFile": "assets/tree1_winter.png",
+			"When": 
+				{
+				"GeneralTrees": true,
+				} 
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/tree2_spring",
+		"FromFile": "assets/tree2_spring.png",
+			"When": 
+				{
+				"GeneralTrees": true,
+                                                                "BloomingSpring": true,
+				} 
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/tree2_spring",
+		"FromFile": "assets/tree2_spring_green.png",
+			"When": 
+				{
+				"GeneralTrees": true,
+                                                                "BloomingSpring": false,
+				} 
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/tree2_summer",
+		"FromFile": "assets/tree2_summer.png",
+			"When": 
+				{
+				"GeneralTrees": true,
+				} 
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/tree2_fall",
+		"FromFile": "assets/tree2_fall.png",
+			"When": 
+				{
+				"GeneralTrees": true,
+				} 
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/tree2_winter",
+		"FromFile": "assets/tree2_winter.png",
+			"When": 
+				{
+				"GeneralTrees": true,
+				} 
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/tree3_spring",
+		"FromFile": "assets/tree3_spring.png",
+			"When": 
+				{
+				"GeneralTrees": true,
+				} 
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/tree3_fall",
+		"FromFile": "assets/tree3_fall.png",
+			"When": 
+				{
+				"GeneralTrees": true,
+				} 
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/tree3_winter",
+		"FromFile": "assets/tree3_winter.png",
+			"When": 
+				{
+				"GeneralTrees": true,
+				} 
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TileSheets/fruitTrees",
+		"FromFile": "assets/fruitTrees.png",
+			"When": 
+				{
+				"FruitTrees": true,
+				} 
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/mushroom_tree",
+		"FromFile": "assets/mushroom_tree.png",
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/tree_palm",
+		"FromFile": "assets/tree_palm.png",
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/tree_palm2",
+		"FromFile": "assets/tree_palm2.png",
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/tree8_{{season}}",
+		"FromFile": "assets/tree8_{{season}}.png",
+		},
+//Desert
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "Maps/DesertTiles, Maps/DesertTiles.{{language}}",
+		"FromFile": "assets/DesertTiles.png",
+		"FromArea": {"X":0, "Y":112, "Width":32, "Height":80},
+		"ToArea": {"X":0, "Y":112, "Width":32, "Height":80},
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "Maps/DesertTiles, Maps/DesertTiles.{{language}}",
+		"FromFile": "assets/DesertTiles.png",
+		"FromArea": {"X":32, "Y":112, "Width":48, "Height":48},
+		"ToArea": {"X":32, "Y":112, "Width":48, "Height":48},
+		},
+	]
+}

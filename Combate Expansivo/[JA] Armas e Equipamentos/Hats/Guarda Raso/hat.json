@@ -1,0 +1,7 @@
+{
+	"Name": "Elmo de Guarda Raso",
+	"Description": "Um elmo muito bem forjado, que representa os guerreiros mais rasos, que lutam contra monstros.",
+	"PurchasePrice": "7500",
+	"ShowHair": false,
+	"IgnoreHairstyleOffset": true
+}

@@ -1,0 +1,11 @@
+{
+  "Name": "Custom NPC Wilford",
+  "Author": "FloranceBless",
+  "Description": "Meet new NPC Wilford",
+  "Version": "2.0.2",
+  "UniqueID": "Fernandtea.NewNPCWilford",
+  "UpdateKeys": [ "Nexus:7313" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

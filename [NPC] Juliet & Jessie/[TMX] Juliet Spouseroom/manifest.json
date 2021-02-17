@@ -1,0 +1,12 @@
+{
+  "Name": "Juliet's Spouse Room",
+  "Author": "LemurKat",
+  "Version": "1.0.6",
+  "Description": "Adds Juliet's Spouse room",
+  "UniqueID": "LemurKat.JulietSpouse.TMX",
+ "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.4.0"
+			}
+    
+  }

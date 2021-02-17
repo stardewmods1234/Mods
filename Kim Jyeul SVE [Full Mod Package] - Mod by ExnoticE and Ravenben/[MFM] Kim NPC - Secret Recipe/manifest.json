@@ -1,0 +1,16 @@
+﻿{
+	"Name": "Kim - Recipes MFM",
+	"Author": "ExnoticE",
+	"Version": "1.1",
+	"Description": "Kim will send you her recipes",
+	"UniqueID": "JyeulRecipeMFM.ExnoticTest",
+	"MinimumApiVersion": "3.2.0",
+	"UpdateKeys": [],
+	"Dependencies": [
+		{"UniqueID": "KimJyeulNPC.ExnoticTest"},
+                {"UniqueID": "JyeulRecipe.ExnoticTest"},
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod"
+	}
+}

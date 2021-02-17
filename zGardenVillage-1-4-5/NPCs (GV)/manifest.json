@@ -1,0 +1,25 @@
+{
+  "Name": "Garden Village NPCs",
+  "Author": "Tarniyar",
+  "Description": "Adds NPCs to Garden Village",
+  "Version": "1.4.5",
+  "UniqueID": "Tarniyar.NPC.GV",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "UpdateKeys": [ "Nexus:6113" ],
+    "Dependencies": [
+  {
+	"UniqueID": "Tarniyar.TMX.GardenVillage",
+	"IsRequired": true,
+  },
+  {
+	"UniqueID": "SuperAardvark.AntiSocial",
+	"IsRequired": true,
+  },
+    {
+	"UniqueID": "Esca.CustomNPCExclusions",
+	"IsRequired": true,
+  }
+  ]
+}

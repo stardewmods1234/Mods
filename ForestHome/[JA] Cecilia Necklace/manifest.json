@@ -1,0 +1,11 @@
+{
+    "Name": "Cecilia's Necklace",
+    "Author": "balverines",
+    "Description": "Adds an event item for Cecilia",
+    "Version": "1.5",
+    "UniqueID": "Cecilia.Necklace",
+    "ContentPackFor":
+    {
+        "UniqueID": "spacechase0.JsonAssets"
+    },
+}

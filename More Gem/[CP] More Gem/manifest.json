@@ -1,0 +1,10 @@
+{
+  "Name": "[CP] More Gem",
+  "Author": "KAYA",
+  "Version": "2.1.0",
+  "Description": "Change some vanilla minerals to gem",
+  "UniqueID": "KAYA.CPMoreGem",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

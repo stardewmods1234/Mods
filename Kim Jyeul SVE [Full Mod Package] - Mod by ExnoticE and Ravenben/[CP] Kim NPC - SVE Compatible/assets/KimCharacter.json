@@ -1,0 +1,60 @@
+{
+     "Changes": [
+	{
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Kim",
+      "FromFile": "assets/img/Kim_{{season}}.png",
+      "When": {
+          "DayEvent |contains=egg festival": "false",
+          "DayEvent |contains=flower dance": "false",
+          }                 
+    },
+	{
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Kim",
+      "FromFile": "assets/img/Kim_EggFestival.png",
+	  "When": {
+	      "DayEvent": "egg festival",
+		  }
+    },
+	{
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Kim",
+      "FromFile": "assets/img/Kim_FlowerDance.png",
+	  "When": {
+	      "DayEvent": "flower dance",
+		  }
+    },
+	{
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Kim",
+      "FromFile": "assets/img/Kim Sprite_{{season}}.png",
+      "When": {
+          "DayEvent |contains=egg festival": "false",
+          "DayEvent |contains=flower dance": "false",
+          }   
+    },
+	{
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Kim",
+      "FromFile": "assets/img/Kim Sprite_EggFestival.png",
+	  "When": {
+	      "DayEvent": "egg festival",
+		  }
+    },
+	{
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Kim",
+      "FromFile": "assets/img/Kim Sprite_FlowerDance.png",
+	  "When": {
+	      "DayEvent": "flower dance",
+		  }
+    }
+  ]
+}

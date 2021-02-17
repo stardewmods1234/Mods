@@ -1,0 +1,51 @@
+{
+  "Changes": [
+    {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Nikolai",
+  "Entries": {
+// dialogue before festivals
+  "spring_12": "I actually can't eat eggs, I'm allergic. But it doesn't bother me too much at the festival as long as I don't eat it.$3",
+  "spring_23": "Maybe tomorrow I'll get a dance partner.$4",
+  "summer_10": "You think peaches would make the potluck taste better tomorrow?#$e#Maybe not haha.$3",
+  "summer_27": "Sometimes I wish I was jellyfish.#$b#What a life it must be to be completely brainless.",
+  "fall_15": "Every year I try to do the strength game and every year I fail.#$b#But I'll still tomorrow.",
+  "fall_26": "Spirit's eve is probably the best holiday in the valley.#$b#You get to see people's weird side.$3",
+  "winter_7": "You think Willy will win the fishing contest?#$e#I'll be cheering you on okay.$1",
+  "winter_14": "I'll be heading to the nightmarket tomorrow, I'm looking for some treats for boxy.#$b#I figured I could win him over with good food.",
+  "winter_24": "I've a feeling I got a bad gift for this years winter star festival.$2",
+  "fall_2": "Tomorrow's marketpalooza, I hope to see you around.",
+	
+// generic dialogue
+        "Mon": "What's more impressive than a talking llama?#$b#A spelling bee!$3#$e#Do you get it? I think it's pretty funny.",
+        "Tue": "I've got a feeling like someone is watching me, but I'm not sure who in the valley would be doing that?$2#$e#Maybe it's in all in my head.$6",
+        "Wed": "If I could spend the rest of spring in the mountain's I would.#$e#Hiking and camping is just a lot of fun!$3",
+        "Thu": "Maybe I can talk Sam and Sebastain into playing video games with me later today.#$e#I like doing things in groups, it's more fun.",
+        "Fri": "I really wish Boxy would come live in my house.$6#$e#I worry about him being outside all alone.$2",
+        "Sat": "I've been binge listening to as much heavy metal as I can lately.#$b#I like it a lot, but I like most music.$3",
+        "Sun": "I don't know how you can get up every morning and work.$1#$b#I think I would just keel over if I had to do that.",
+        "summer_Mon": "Willy and I have been talking a lot more.#$b#He's wanting to take me fishing on his boat but I really don't wanna hurt any fish.$2",
+        "summer_Tue": "Why do bee keepers have such beautiful eyes?Why do bee keepers have such beautiful eyes?#$b#Because beauty is in the eye of the beeholder!Because beauty is in the eye of the beeholder!$3#$e#Hahaha, get it?$1",
+        "summer_Wed": "I heard the best place to get cacatus fruit is from the desert.#$b#I've been thinking of heading down there to pick some up.",
+        "summer_Thu": "Hey @, It's always nice to see you around.#$b#You're one of the only people who really seem to get me.$4",
+        "summer_Fri": "I'd love to go surfing soon.#$b#Maybe I can talk Sam and Sebastain into trying it out.$3",
+        "summer_Sat": "Sometimes Penny really gets to me.$6#$b#I know she means well, but it feels like she's treating me like a little kid.$7",
+        "summer_Sun": "I like sports a lot but anytime I play I get hit in the face with something.#$b#Guess I just got that kind of mug don't I?$3",
+        "fall_Mon": "Boo!$5#$b#Haha did I scare you?#$b#It's the season for it!$3",
+        "fall_Tue": "Maybe later today we could hang out together?$1#$e#I'd love to spend time with you @.$4",
+        "fall_Wed": "George ran right over my foot this yestrday.$7#$b#It still hurts.$6#$e#I'm sure he didn't mean to though.",
+        "fall_Thu": "I'm gonna carve pumpkin's with Sam's family soon.#$b#I'm really excited for it.$1",
+        "fall_Fri": "Watch out for evil spirits, fall is when they come out.#$e%%Nikolai grins at you and then makes a silly face.",
+        "fall_Sat": "%He has a scared look in his eyes, wonder what's wrong?",
+        "fall_Sun": "Oh hey!#$b#Wouldn't it be funny if pants Lewis at spirits eve?$1#$e#I might just do it.$3",
+        "winter_Mon": "I want to lay down in a pit of hot coals I am that cold.$2#$e#I need a thicker jacket.$6",
+        "winter_Tue": "I bet your farm is pretty spooky at night.#$b#My mom's garden was pretty creepy in the dark.",
+        "winter_Wed": "%He's humming a winter star song...He's off key.",
+        "winter_Thu": "I tried baking last night and my house ended up filled with smoke.#$b#I just completely forgot it was in the oven.$1#$b#Silly me right?",
+        "winter_Fri":"Boxy scratched me this morning, I don't know why he doesn't like me.$2#$e#%Nikolai looks pretty upset, let's leave him alone right now.",
+        "winter_Sat": "The winter star festival is pretty great, I love the decorations and pretty colors.#$b#And the ugly sweaters.$3",
+        "winter_Sun": "How much trouble do you think I would get in, if I pranked Pierre?#$b#Maybe it'll make him laugh?$1",
+  }
+    }
+  ]
+}

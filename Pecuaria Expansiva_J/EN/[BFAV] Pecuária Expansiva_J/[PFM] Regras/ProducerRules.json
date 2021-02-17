@@ -1,0 +1,136 @@
+[
+	{
+		"ProducerName": "Mayonnaise Machine",
+		"InputIdentifier": "Goose egg",
+		"InputStack": 1,
+		"MinutesUntilReady": 240, //The amount of minutes it takes to produce. Should be divisible by 10.
+		"OutputIdentifier": "Goose mayonnaise",
+		"KeepInputQuality": false,
+		"InputPriceBased": false,
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White"
+	},
+		{
+		"ProducerName": "Mayonnaise Machine",
+		"InputIdentifier": "Golden Goose egg",
+		"InputStack": 1,
+		"MinutesUntilReady": 360, //The amount of minutes it takes to produce. Should be divisible by 10.
+		"OutputIdentifier": "Goose mayonnaise",
+		"KeepInputQuality": false,
+		"InputPriceBased": false,
+		"OutputQuality": 2,
+		"OutputStack": 2,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "Yellow"
+	},
+	{
+		"ProducerName": "Mayonnaise Machine",
+		"InputIdentifier": "Guinea Egg",
+		"InputStack": 1,
+		"MinutesUntilReady": 240, //The amount of minutes it takes to produce. Should be divisible by 10.
+		"OutputIdentifier": "Guinea Mayonnaise",
+		"KeepInputQuality": false,
+		"InputPriceBased": false,
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "Brown"
+	},
+	{
+		"ProducerName": "Mayonnaise Machine",
+		"InputIdentifier": "Void Guinea Egg",
+		"InputStack": 1,
+		"MinutesUntilReady": 240, //The amount of minutes it takes to produce. Should be divisible by 10.
+		"OutputIdentifier": "Void Guinea Mayonnaise",
+		"KeepInputQuality": false,
+		"InputPriceBased": false,
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "Black"
+	},
+	{
+	    "ProducerName": "Rustic Composter",
+        "InputIdentifier": "Dung",
+        "InputStack": 1,
+        "FuelIdentifier": null,
+        "FuelStack": 1,
+        "MinutesUntilReady": 560,
+        "OutputIdentifier": "369",
+        "OutputName": null,
+        "PreserveType": null,
+        "InputPriceBased": false,
+        "OutputPriceIncrement": 0,
+        "OutputPriceMultiplier": 1,
+        "KeepInputQuality": false,
+        "OutputQuality": 0,
+        "OutputStack": 1,
+        "Sounds": ["sipTea"],
+        "PlacingAnimation": null,
+        "PlacingAnimationColorName": "Brown",
+	},
+	{
+		"ProducerName": "Modern Composter",
+        "InputIdentifier": "Dung",
+        "InputStack": 1,
+        "FuelIdentifier": null,
+        "FuelStack": 1,
+        "MinutesUntilReady": 560,
+        "OutputIdentifier": "369",
+        "OutputName": null,
+        "PreserveType": null,
+        "InputPriceBased": false,
+        "OutputPriceIncrement": 0,
+        "OutputPriceMultiplier": 1,
+        "KeepInputQuality": false,
+        "OutputQuality": 0,
+        "OutputStack": 1,
+        "Sounds": ["sipTea"],
+        "PlacingAnimation": null,
+        "PlacingAnimationColorName": "Brown",
+		"SilverQualityInput": { 
+			"Probability": 0.3,
+			"OutputStack": 2,
+		},
+		"GoldQualityInput": { 
+			"Probability": 0.45, 
+			"OutputStack": 3, 
+		},
+		"IridiumQualityInput": { 
+			"Probability": 0.6, 
+			"OutputStack": 4, 
+		}
+	},
+	{
+		"ProducerName": "Oil Maker",
+		"InputIdentifier": "White truffle",
+		"InputStack": 1,
+		"MinutesUntilReady": 420, //The amount of minutes it takes to produce. Should be divisible by 10.
+		"OutputIdentifier": "White truffle oil",
+		"InputPriceBased": false,
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Oil Maker",
+		"InputIdentifier": "Marzuolo truffle",
+		"InputStack": 1,
+		"MinutesUntilReady": 420, //The amount of minutes it takes to produce. Should be divisible by 10.
+		"OutputIdentifier": "Marzuolo truffle oil",
+		"InputPriceBased": false,
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "Brown"
+	}
+]

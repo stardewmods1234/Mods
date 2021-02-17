@@ -1,0 +1,31 @@
+{
+	"Name": "More Marine Jewel",
+	"Author": "KAYA n Taelende",
+	"Version": "2.0.0",
+	"Description": "Adds more pearl and coral, Taelende's Shellfish Ponds.",
+	"UniqueID": "KAYA.PearlCoral",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [ "Nexus:6147@pond" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "1.10",
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "MouseyPounds.AnythingPonds",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "spacechase0.jsonAssets",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "KAYA.JAMoreGem",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "KAYA.EasyFishPond",
+			"IsRequired": false
+		},
+	]
+}

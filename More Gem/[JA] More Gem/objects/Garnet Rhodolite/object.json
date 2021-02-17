@@ -1,0 +1,46 @@
+{
+    "Name": "Rhodolite Garnet",
+    "Description": "A small gem that formed in a crevice.",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
+    "Edibility": -300,
+    "Price": 200,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "로돌라이트 가넷",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Granada Rodolita",
+        // "ru": "",
+        // "tr": "",
+        "zh": "红榴石",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "석류처럼 화강암의 틈새에 붙어있는 작은 보석.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Uma pequena jóia encontrada presa ao granito.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "附着在花岗岩上的小宝石，状似石榴。",
+    },
+	
+    "ContextTags": [
+        "color_pink", "garnet_item", "pink_gem", 
+    ],
+}

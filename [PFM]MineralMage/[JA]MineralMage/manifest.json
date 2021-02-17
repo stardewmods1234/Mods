@@ -1,0 +1,18 @@
+{
+   "Name": "Mineral Mage Items",
+   "Author": "Undare",
+   "Description": "Items Mineral Mage machines",
+   "Version": "1.0.1",
+   "MinimumApiVersion": "3.3.2",
+   "UniqueID": "Undare.MineralMageItems",
+   "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+   "Dependencies": [
+	{
+      "UniqueID": "DIGUS.ProducerFrameworkMod",
+      "IsRequired": true,
+    },
+],	
+"UpdateKeys": [],
+}

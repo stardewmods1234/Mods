@@ -1,0 +1,23 @@
+{
+  "Name": "Cecilia",
+  "Author": "balverines",
+  "Version": "1.14",
+  "Description": "A new NPC",
+  "UniqueID": "balverines.cecilia",
+  "UpdateKeys": [ "Nexus:6246" ],
+  "MinimumApiVersion": "2.9",
+  "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.6.1"
+  },
+  "Dependencies": [
+		{	
+			"UniqueID": "spacechase0.JsonAssets",
+			"IsRequired": true
+		},
+		{
+		    "UniqueID": "Cecilia.Necklace",
+			"IsRequired": true
+		},
+	]
+}

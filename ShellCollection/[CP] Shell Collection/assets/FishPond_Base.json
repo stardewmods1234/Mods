@@ -1,0 +1,176 @@
+{
+	"Changes": [{
+			"LogName": "Edit Fish Pond Data: Scallop and Dotted Abalone Base Version",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Entries": {
+				"item_scallop": {
+					"RequiredTags": [
+						"item_scallop"
+					],
+					"SpawnTime": -1,
+					"ProducedItems": [{
+							"RequiredPopulation": 9,
+							"Chance": 0.075,
+							"ItemID": 805,
+							"MinQuantity": 1,
+							"MaxQuantity": 1
+						}, {
+							"RequiredPopulation": 9,
+							"Chance": 0.075,
+							"ItemID": 690,
+							"MinQuantity": 1,
+							"MaxQuantity": 1
+						}, {
+							"RequiredPopulation": 0,
+							"Chance": 0.088,
+							"ItemID": 152,
+							"MinQuantity": 1,
+							"MaxQuantity": 3
+						}, {
+							"RequiredPopulation": 5,
+							"Chance": 0.05,
+							"ItemID": 397,
+							"MinQuantity": 1,
+							"MaxQuantity": 1
+						}, {
+							"RequiredPopulation": 5,
+							"Chance": 0.075,
+							"ItemID": 393,
+							"MinQuantity": 1,
+							"MaxQuantity": 1
+						}, {
+							"RequiredPopulation": 0,
+							"Chance": 0.05,
+							"ItemID": 168,
+							"MinQuantity": 1,
+							"MaxQuantity": 1
+						}, {
+							"RequiredPopulation": 0,
+							"Chance": 0.05,
+							"ItemID": 169,
+							"MinQuantity": 1,
+							"MaxQuantity": 1
+						}, {
+							"RequiredPopulation": 0,
+							"Chance": 0.05,
+							"ItemID": 170,
+							"MinQuantity": 1,
+							"MaxQuantity": 1
+						}, {
+							"RequiredPopulation": 0,
+							"Chance": 0.05,
+							"ItemID": 171,
+							"MinQuantity": 1,
+							"MaxQuantity": 1
+						}, {
+							"RequiredPopulation": 0,
+							"Chance": 0.05,
+							"ItemID": 172,
+							"MinQuantity": 1,
+							"MaxQuantity": 1
+						}, {
+							"RequiredPopulation": 0,
+							"Chance": 0.05,
+							"ItemID": 168,
+							"MinQuantity": 1,
+							"MaxQuantity": 1
+						}
+					],
+					"PopulationGates": {
+						"2": [
+							"152 2"
+						],
+						"6": [
+							"84",
+							"247",
+							"684 10"
+						],
+						"8": [
+							"767 5",
+							"698 30",
+							"398 3"
+						]
+					}
+				},
+				"item_dotted_abalone": {
+					"RequiredTags": [
+						"item_dotted_abalone"
+					],
+					"SpawnTime": -1,
+					"ProducedItems": [{
+							"RequiredPopulation": 9,
+							"Chance": 0.01,
+							"ItemID": 394,
+							"MinQuantity": 1,
+							"MaxQuantity": 1
+						}, {
+							"RequiredPopulation": 9,
+							"Chance": 0.075,
+							"ItemID": 690,
+							"MinQuantity": 1,
+							"MaxQuantity": 1
+						}, {
+							"RequiredPopulation": 0,
+							"Chance": 0.088,
+							"ItemID": 152,
+							"MinQuantity": 1,
+							"MaxQuantity": 3
+						}, {
+							"RequiredPopulation": 5,
+							"Chance": 0.05,
+							"ItemID": 397,
+							"MinQuantity": 1,
+							"MaxQuantity": 1
+						}, {
+							"RequiredPopulation": 5,
+							"Chance": 0.075,
+							"ItemID": 393,
+							"MinQuantity": 1,
+							"MaxQuantity": 1
+						}, {
+							"RequiredPopulation": 5,
+							"Chance": 0.075,
+							"ItemID": 70,
+							"MinQuantity": 1,
+							"MaxQuantity": 1
+						}, {
+							"RequiredPopulation": 0,
+							"Chance": 0.05,
+							"ItemID": 169,
+							"MinQuantity": 1,
+							"MaxQuantity": 1
+						}
+					],
+					"PopulationGates": {
+						"4": [
+							"180"
+						],
+						"6": [
+							"340 2",
+							"25 6",
+							"684 10"
+						],
+						"8": [
+							"768 5",
+							"774",
+							"397"
+						]
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"MoveEntries": [{
+					"ID": "item_scallop",
+					"ToPosition": "Top"
+				}, {
+					"ID": "item_dotted_abalone",
+					"AfterID": "item_scallop"
+				}
+			]
+		}
+	]
+}

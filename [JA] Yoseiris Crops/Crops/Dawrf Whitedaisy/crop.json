@@ -1,0 +1,48 @@
+{
+    "Name": "Dawrf Whitedaisy",
+    "Product": "Dawrf White English Daisy",
+    "SeedName": "Dawrf White Daisy Plant",
+    "SeedDescription": "Bring this home and help it continue growing, plant these in the summer and fall. Takes 13 days to mature.",
+    "Type": "Flower",
+    "Seasons": ["summer", "fall"],
+    "Phases": [1, 2, 3, 4, 3, 3],
+    "RegrowthPhase": 4,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Bonus":
+    {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 2,
+        "MaxIncreasePerFarmLevel": 2,
+        "ExtraChance": 0.2,
+    },
+    "SeedPurchasePrice": 250,
+    "SeedNameLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "SeedDescriptionLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    }
+}

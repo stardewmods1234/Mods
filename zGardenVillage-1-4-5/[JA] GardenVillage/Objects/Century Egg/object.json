@@ -1,0 +1,16 @@
+{
+"Name":"Century Egg",
+"Category":"ArtisanGoods",
+"Description":"A delicacy made by preserving eggs in a special mixture of clay and ash.",
+"Price":250,
+"Edibility":"75",
+"IsColored":false,
+"Recipe":null,
+ "GiftTastes":
+    {
+        "Love": ["Dwarf", "Krobus", "Wizard"],
+        "Like": ["Abigail", "Alex", "Demetrius", "Evelyn", "Caroline", "Elliott", "Emily", "Haley", "Jodi", "Marnie", "Maru", "Penny", "Sam", "Sandy", "Gus", "Harvey", "Kent", "Leah", "Lewis", "Linus", "Pam", "Pierre", "Robin", "Shane", "Willy", "George", "Sebastian", "Clint"],
+        "Dislike": ["Jas", "Vincent"],
+		"Hate": []
+    },
+}

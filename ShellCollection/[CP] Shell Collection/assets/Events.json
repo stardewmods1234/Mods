@@ -1,0 +1,34 @@
+{
+	"Changes": [{
+			"LogName": "Event: Shell Necklace",
+			"Action": "EditData",
+			"Target": "Data/Events/FishShop",
+			"Entries": {
+				"12200001/t 600 1710/f Willy {{Query:{{HeartRequirementForFishShopCraftingRecipes}}*250}}": "continue/5 7/farmer -1000 -1000 0 Willy 6 4 1/addCraftingRecipe Shell Necklace/skippable/showFrame Willy 26/pause 250/emote Willy 40/pause 250/emote Willy 40/pause 250/emote Willy 40/pause 1000/playSound doorClose/warp farmer 5 9/pause 250/faceDirection Willy 2/pause 500/move farmer 0 -1 0 true/faceDirection Willy 2/speak Willy \"{{i18n:12200001.1}}\"/pause 300/emote Willy 40/pause 300/speak Willy \"{{i18n:12200001.2}}\"/emote Willy 40/pause 500/faceDirection Willy 1/showFrame Willy 26/pause 500/playSound Ship/pause 800/playSound Ship/pause 1000/move Willy -4 0 2 false/move Willy 0 4 1 true/faceDirection farmer 3/emote farmer 8/move Willy 2 0 1/speak Willy \"{{i18n:12200001.3}}\"/pause 800/itemAboveHead/playSound getNewSpecialItem/pause 3300/message \"{{i18n:12200001.4}}\"/pause 800/faceDirection farmer 3/speak Willy \"{{i18n:12200001.5}}\"/pause 300/faceDirection Willy 3/faceDirection Willy 4/animate Willy true true 250 28 29 30 31/pause 500/speak Willy \"{{i18n:12200001.6}}\"/faceDirection farmer 3/emote farmer 32/pause 500/mail PappyStockFishShop/addConversationTopic ShellCollection.AfterShellNecklace 3/end"
+			}
+		}, {
+			"LogName": "Event: Coral Fence",
+			"Action": "EditData",
+			"Target": "Data/Events/ScienceHouse",
+			"Entries": {
+				"12200005/t 600 1710/n ShellCollection.CoralOrder.1st/k 12200005": "breezy/20 19/farmer 9 20 1 Demetrius 19 18 1 Robin 22 18 3/addCraftingRecipe Coral Fence/skippable/addObject 20 18 298/addObject 21 18 31/animate Demetrius true true 250 27 27 27 30 30 30 31 30 31 30 31 27 27/showFrame Robin 27/pause 500/textAboveHead Robin \"{{i18n:12200005.1}}\"/pause 800/speak Robin \"{{i18n:12200005.2}}\"/stopAnimation Demetrius 27/speak Demetrius \"{{i18n:12200005.3}}\"/emote Robin 32/pause 250/move farmer 3 0 1/showFrame Demetrius 12/move farmer 4 0 1/speak Robin \"{{i18n:12200005.4}}\"/emote farmer 8/move farmer 2 0 0/showFrame Demetrius 0/move farmer 2 0 0/speak Demetrius \"{{i18n:12200005.5}}\"/emote Robin 12/pause 250/speak Robin \"{{i18n:12200005.6}}\"/emote farmer 40/pause 250/showFrame Robin 12/animate Robin false false 100 24 24 24 25 26/showFrame Robin 27/pause 150/playSound axe/pause 500/emote Demetrius 28/pause 250/speak Robin \"{{i18n:12200005.7}}\"/emote farmer 56/move Robin 0 1 2/move Robin -2 0 2/pause 250/speak Robin \"{{i18n:12200005.8}}\"/pause 1000/itemAboveHead/playSound getNewSpecialItem/pause 3300/message \"{{i18n:12200005.9}}\"/pause 800/faceDirection farmer 0/showFrame Robin 32/pause 250/speak Robin \"{{i18n:12200005.10}}\"/pause 250/speak Demetrius \"{{i18n:12200005.11}}\"/showFrame Robin 34/emote Robin 40/pause 250/speak Robin \"{{i18n:12200005.12}}\"/question null \"{{i18n:12200005.13}}\"/showFrame Robin 0/speak Robin \"{{i18n:12200005.14}}\"/speak Demetrius \"{{i18n:12200005.15}}\"/pause 800/speak Demetrius \"{{i18n:12200005.16}}\"/pause 250/speak Robin \"{{i18n:12200005.17}}\"/emote farmer 56/faceDirection farmer 2/showFrame farmer 32/pause 800/end"
+			}
+		}, {
+			"LogName": "Overlay Spring Objects for Event Purpose",
+			"Action": "EditImage",
+			"Update": "OnLocationChange",
+			"When": {
+				"HasReadLetter": "ShellCollection.CoralOrder.1st",
+				"HasSeenEvent|contains=12200005": "false"
+			},
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/CoralFence.png",
+			"ToArea": {
+				"X": 112,
+				"Y": 16,
+				"Width": 16,
+				"Height": 16
+			}
+		}
+	]
+}

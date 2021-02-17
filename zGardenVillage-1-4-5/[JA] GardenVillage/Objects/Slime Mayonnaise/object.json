@@ -1,0 +1,16 @@
+{
+"Name":"Slime Mayonnaise",
+"Category":"ArtisanGoods",
+"Description":"Thick, odorless goo. Very spreadable.",
+"Price":125,
+"Edibility":"-300",
+"IsColored":false,
+"Recipe":null,
+ "GiftTastes":
+    {
+        "Love": [],
+        "Like": ["Dwarf", "Krobus", "Wizard" ],
+        "Dislike": ["Abigail", "Alex", "Demetrius", "Evelyn", "Caroline", "Elliott", "Emily", "Haley", "Jodi", "Marnie", "Maru", "Penny", "Sam", "Sandy", "Gus", "Harvey", "Jas", "Kent", "Leah", "Lewis", "Linus", "Pam", "Pierre", "Robin", "Shane", "Vincent", "Willy", "George", "Sebastian", "Clint"],
+		"Hate": []
+    },
+}

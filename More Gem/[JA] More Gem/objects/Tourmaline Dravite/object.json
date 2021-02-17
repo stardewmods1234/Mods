@@ -1,0 +1,46 @@
+{
+    "Name": "Dravite Tourmaline",
+    "Description": "A gem with a shape similar to crystal. Comes in various colors.",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
+    "Edibility": -300,
+    "Price": 120,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "드라바이트 토르말린",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Turmanlina Dravita",
+        // "ru": "",
+        // "tr": "",
+        "zh": "钠镁碧玺",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "모양이 수정과 비슷하며 다양한 색을 띄는 전기석.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Uma gema com uma forma semelhante ao cristal com várias cores.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "形状与水晶极为相似的宝石，色彩非常多样。",
+    },
+	
+    "ContextTags": [
+        "color_brown", "tourmaline_item", "brown_gem", 
+    ],
+}

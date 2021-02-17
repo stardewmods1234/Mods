@@ -1,0 +1,31 @@
+{
+    "Name": "MorningGlory",
+    "Product": "Morning Glory",
+    "SeedName": "Morning Glory Seeds",
+    "SeedDescription": "Plant in fall. Grows on a trellis. Takes 7 days to produce bright blue blossoms, then keeps producing after the first harvest.",
+    "Type": "Flower",
+
+    "Seasons": ["fall"],
+    "Phases": [1, 2, 3, 1, 4],
+    "RegrowthPhase": 5,
+    "HarvestWithScythe": false,
+    "TrellisCrop": true,
+    "Colors": null,
+    "Bonus":
+    {
+        "MinimumPerHarvest": 2,
+        "MaximumPerHarvest": 5,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+    "SeedPurchaseFrom": "STF.GVFlorist",
+    "SeedPurchasePrice": 20,
+    "SeedNameLocalization":
+    {
+        
+    },
+    "SeedDescriptionLocalization":
+    {
+        
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "Fruits": [ "Banana", "Mango", "Pineapple" ],
+  "Vegetables": [ "Taro Root", "Tea Leaves", "Unmilled Rice" ],
+  "Flowers": null,
+  "Honey": null,
+  "Jelly": "assets/vanillajelly.png",
+  "Juice": "assets/vanillajuice.png",
+  "Pickles": "assets/vanillapickles.png",
+  "Wine": "assets/vanillawine.png"
+}

@@ -1,0 +1,46 @@
+{
+    "Name": "Larimar",
+    "Description": "Beautiful ocean-colored gemstones excavated in the Caribbean.",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
+    "Edibility": -300,
+    "Price": 180,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "라리마",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Larimar",
+        // "ru": "",
+        // "tr": "",
+        "zh": "海纹石",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "카리브해에서 발굴되는 바다처럼 아름다운 원석.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Pedras preciosas tão belas quanto os mares escavados no Caribe.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "美丽得如同直接捡拾起了加勒比海碎片一般的珍贵宝石。",
+    },
+	
+    "ContextTags": [
+        "color_cyan", "cyan_gem", "marine_item",
+    ],
+}

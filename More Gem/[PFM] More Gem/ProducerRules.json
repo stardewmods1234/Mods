@@ -1,0 +1,310 @@
+[
+//Furnace
+	{
+		"ProducerName": "Furnace", 
+		"InputIdentifier": "Silver Ore",
+		"InputStack": 5,
+		"FuelIdentifier": "382",   //coal
+        "FuelStack": 1,
+		"MinutesUntilReady": 200, //4hr
+		"OutputIdentifier": "Silver Bar",
+		"OutputStack": 5,
+		"InputPriceBased": false,
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Furnace", 
+		"InputIdentifier": "Platinum Ore",
+		"InputStack": 5,
+		"FuelIdentifier": "382",   //coal
+        "FuelStack": 1,
+		"MinutesUntilReady": 360, //6hr
+		"OutputIdentifier": "Platinum Bar",
+		"OutputStack": 5,
+		"InputPriceBased": false,
+		"Sounds": ["Ship"],
+	},
+//Mineral Grinder
+	{
+		"ProducerName": "Mineral Grinder", 
+		"InputIdentifier": "80", //Quartz
+		"InputStack": 2,
+		"FuelIdentifier": "390", //Stone
+        "FuelStack": 2,
+		"AdditionalFuel": {"571":1}, //Limestone
+		"MinutesUntilReady": 60, //1Hr
+		"OutputIdentifier": "Glass Sand",
+		"OutputStack": 5,
+		"InputPriceBased": false,
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Mineral Grinder", 
+		"InputIdentifier": "Halite",
+		"InputStack": 1,
+		"MinutesUntilReady": 60, //1Hr
+		"OutputIdentifier": "Rock Salt",
+		"OutputStack": 3,
+		"InputPriceBased": false,
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Mineral Grinder", 
+		"InputIdentifier": "Pink Halite",
+		"InputStack": 1,
+		"MinutesUntilReady": 60, //1Hr
+		"OutputIdentifier": "Pink Salt",
+		"OutputStack": 2,
+		"InputPriceBased": false,
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Mineral Grinder", 
+		"InputIdentifier": "581", //Prehistoric Skull
+		"InputStack": 1,
+		"MinutesUntilReady": 180, //3Hr
+		"OutputIdentifier": "Ivory",
+		"OutputStack": 1,
+		"InputPriceBased": false,
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Mineral Grinder", 
+		"InputIdentifier": "Rock Salt",
+		"InputStack": 1,
+		"MinutesUntilReady": 60, //1Hr
+		"OutputIdentifier": "Salt", //PPJA more food
+		"OutputStack": 2,
+		"InputPriceBased": false,
+		"Sounds": ["Ship"],
+		"WarningsLogLevel": "Info"
+	},
+//Marine Gem Cultivator
+	{
+		"ProducerName": "Marine Gem Cultivator",
+		"InputIdentifier": "397", //Sea Urchin
+		"InputStack": 1,
+		"MinutesUntilReady": 3200, //2days
+		"OutputIdentifier": "Glass Sand",
+		"AdditionalOutputs": [ 
+			{
+                "OutputProbability": 0.2, 
+                "OutputIdentifier": "Larimar",
+            },
+        ],
+		"InputPriceBased": false,
+		"Sounds": [ "bubbles" ],
+	},
+	{
+		"ProducerName": "Marine Gem Cultivator",
+		"InputIdentifier": "393", //Coral
+		"InputStack": 1,
+		"MinutesUntilReady": 3200, //2days
+		"OutputIdentifier": "Glass Sand",
+		"AdditionalOutputs": [ 
+            {
+                "OutputProbability": 0.30, 
+                "OutputIdentifier": "571", //Limestone
+            },
+			{
+                "OutputProbability": 0.10, 
+                "OutputIdentifier": "543", //Dolomite
+            },
+			{
+                "OutputProbability": 0.08, 
+                "OutputIdentifier": "Red Coral",
+            },
+			{
+                "OutputProbability": 0.08, 
+                "OutputIdentifier": "Orange Coral",
+            },
+			{
+                "OutputProbability": 0.06, 
+                "OutputIdentifier": "Pink Coral",
+            },
+			{
+                "OutputProbability": 0.06, 
+                "OutputIdentifier": "White Coral",
+            },
+			{
+                "OutputProbability": 0.05, 
+                "OutputIdentifier": "Black Coral",
+            },
+        ],
+		"InputPriceBased": false,
+		"Sounds": [ "bubbles" ],
+	},
+	{
+		"ProducerName": "Marine Gem Cultivator",
+		"InputIdentifier": "372",  //Clam
+		"MinutesUntilReady": 3200, //2days
+		"OutputIdentifier": "Glass Sand",
+		"OutputStack": 1,
+		"AdditionalOutputs": [ 
+			{
+                "OutputProbability": 0.2, 
+                "OutputIdentifier": "Baroque Pearl",
+            },
+            {
+                "OutputProbability": 0.05, 
+                "OutputIdentifier": "797", //Vanilla Pearl
+            },
+			{
+                "OutputProbability": 0.08, 
+                "OutputIdentifier": "Silver Pearl",
+            },
+			{
+                "OutputProbability": 0.08, 
+                "OutputIdentifier": "Cream Pearl",
+            },
+			{
+                "OutputProbability": 0.04, 
+                "OutputIdentifier": "Pink Pearl",
+            },
+			{
+                "OutputProbability": 0.03, 
+                "OutputIdentifier": "Gold Pearl",
+            },
+			{
+                "OutputProbability": 0.03, 
+                "OutputIdentifier": "Black Pearl",
+            },
+			{
+                "OutputProbability": 0.02, 
+                "OutputIdentifier": "Conch Pearl",
+            },
+        ],
+		"InputPriceBased": false,
+		"Sounds": [ "bubbles" ],
+	},
+	{
+		"ProducerName": "Marine Gem Cultivator",
+		"InputIdentifier": "718",  //Cockle
+		"MinutesUntilReady": 3200, //2days
+		"OutputIdentifier": "Glass Sand",
+		"OutputStack": 1,
+		"AdditionalOutputs": [ 
+			{
+                "OutputProbability": 0.2, 
+                "OutputIdentifier": "Baroque Pearl",
+            },
+            {
+                "OutputProbability": 0.01, 
+                "OutputIdentifier": "797", //Vanilla Pearl
+            },
+			{
+                "OutputProbability": 0.08, 
+                "OutputIdentifier": "Silver Pearl",
+            },
+			{
+                "OutputProbability": 0.08, 
+                "OutputIdentifier": "Cream Pearl",
+            },
+			{
+                "OutputProbability": 0.04, 
+                "OutputIdentifier": "Pink Pearl",
+            },
+			{
+                "OutputProbability": 0.03, 
+                "OutputIdentifier": "Gold Pearl",
+            },
+			{
+                "OutputProbability": 0.03, 
+                "OutputIdentifier": "Black Pearl",
+            },
+			{
+                "OutputProbability": 0.02, 
+                "OutputIdentifier": "Conch Pearl",
+            },
+		],
+		"InputPriceBased": false,
+		"Sounds": [ "bubbles" ],
+	},
+	{
+		"ProducerName": "Marine Gem Cultivator",
+		"InputIdentifier": "719",  //Mussel
+		"MinutesUntilReady": 3200, //2days
+		"OutputIdentifier": "Glass Sand",
+		"OutputStack": 1,
+		"AdditionalOutputs": [ 
+			{
+                "OutputProbability": 0.2, 
+                "OutputIdentifier": "Baroque Pearl",
+            },
+            {
+                "OutputProbability": 0.01, 
+                "OutputIdentifier": "797", //Vanilla Pearl
+            },
+			{
+                "OutputProbability": 0.08, 
+                "OutputIdentifier": "Silver Pearl",
+            },
+			{
+                "OutputProbability": 0.08, 
+                "OutputIdentifier": "Cream Pearl",
+            },
+			{
+                "OutputProbability": 0.04, 
+                "OutputIdentifier": "Pink Pearl",
+            },
+			{
+                "OutputProbability": 0.03, 
+                "OutputIdentifier": "Gold Pearl",
+            },
+			{
+                "OutputProbability": 0.03, 
+                "OutputIdentifier": "Black Pearl",
+            },
+			{
+                "OutputProbability": 0.02, 
+                "OutputIdentifier": "Conch Pearl",
+            },
+        ],
+		"InputPriceBased": false,
+		"Sounds": [ "bubbles" ],
+	},
+	{
+		"ProducerName": "Marine Gem Cultivator",
+		"InputIdentifier": "723",  //Oyster
+		"MinutesUntilReady": 3200, //2days
+		"OutputIdentifier": "Glass Sand",
+		"OutputStack": 1,
+		"AdditionalOutputs": [ 
+			{
+                "OutputProbability": 0.2, 
+                "OutputIdentifier": "Baroque Pearl",
+            },
+            {
+                "OutputProbability": 0.01, 
+                "OutputIdentifier": "797", //Vanilla Pearl
+            },
+			{
+                "OutputProbability": 0.08, 
+                "OutputIdentifier": "Silver Pearl",
+            },
+			{
+                "OutputProbability": 0.08, 
+                "OutputIdentifier": "Cream Pearl",
+            },
+			{
+                "OutputProbability": 0.04, 
+                "OutputIdentifier": "Pink Pearl",
+            },
+			{
+                "OutputProbability": 0.03, 
+                "OutputIdentifier": "Gold Pearl",
+            },
+			{
+                "OutputProbability": 0.03, 
+                "OutputIdentifier": "Black Pearl",
+            },
+			{
+                "OutputProbability": 0.02, 
+                "OutputIdentifier": "Conch Pearl",
+            },
+        ],
+		"InputPriceBased": false,
+		"Sounds": [ "bubbles" ],
+	},
+	
+]

@@ -1,0 +1,61 @@
+{
+    "Name": "Fish Hatchery",
+    "Description": "A basin for hatching fishes from roes. Hatches are random for normal roes except for Sturgeon Roe. Requires Fish Food.",
+    "Price": 100,
+    "ProvidesLight": false,
+	"ReserveExtraIndexCount": 19,
+    "Recipe":
+    { 
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 335, //Iron
+			"Count": 3
+        },
+		{
+            "Object": 388, //Wood
+            "Count": 50,
+        },
+		{
+            "Object": "Silt",
+            "Count": 3,
+        },
+        {
+            "Object": 787, //Battery Pack
+            "Count": 1,
+        }, ],
+		
+		"CanPurchase": true, 
+		"PurchaseFrom": "Willy",
+		"PurchasePrice": 500,
+		"PurchaseRequirements": ["j 336", "f Demetrius 2000"],
+    },
+        "NameLocalization": //Used for localization. 
+        { 
+            "es": "Fish Hatchery", //Spansih
+            "ko": "Fish Hatchery", //Korean
+            "de": "Fish Hatchery", //German
+            "fr": "Fish Hatchery", //French
+            "hu": "Fish Hatchery", //Hungarian
+            "it": "Fish Hatchery", //Italian
+            "ja": "Fish Hatchery", //Japanese
+            "pt": "Fish Hatchery", //Portuguese
+            "ru": "Fish Hatchery", //Russian
+            "tr": "Fish Hatchery", //Turkish
+            "zh": "鱼类孵化池", //Chinese (Simplified)
+        },
+        "DescriptionLocalization": //Used for localization. 
+        { 
+            "es": "A basin for hatching fishes from roes. Hatches are random for normal roes except for Sturgeon Roe. Requires Fish Food.", //Spansih
+            "ko": "A basin for hatching fishes from roes. Hatches are random for normal roes except for Sturgeon Roe. Requires Fish Food.", //Korean
+            "de": "A basin for hatching fishes from roes. Hatches are random for normal roes except for Sturgeon Roe. Requires Fish Food.", //German
+            "fr": "A basin for hatching fishes from roes. Hatches are random for normal roes except for Sturgeon Roe. Requires Fish Food.", //French
+            "hu": "A basin for hatching fishes from roes. Hatches are random for normal roes except for Sturgeon Roe. Requires Fish Food.", //Hungarian
+            "it": "A basin for hatching fishes from roes. Hatches are random for normal roes except for Sturgeon Roe. Requires Fish Food.", //Italian
+            "ja": "A basin for hatching fishes from roes. Hatches are random for normal roes except for Sturgeon Roe. Requires Fish Food.", //Japanese
+            "pt": "A basin for hatching fishes from roes. Hatches are random for normal roes except for Sturgeon Roe. Requires Fish Food.", //Portuguese
+            "ru": "A basin for hatching fishes from roes. Hatches are random for normal roes except for Sturgeon Roe. Requires Fish Food.", //Russian
+            "tr": "A basin for hatching fishes from roes. Hatches are random for normal roes except for Sturgeon Roe. Requires Fish Food.", //Turkish
+            "zh": "用于孵化鱼卵的水池。除了鲟鱼外的普通鱼子的孵化率是随机的。需要鱼食。", //Chinese (Simplified)
+        }
+    }

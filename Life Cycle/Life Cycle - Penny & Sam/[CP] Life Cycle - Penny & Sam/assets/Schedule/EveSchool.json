@@ -1,0 +1,12 @@
+{	
+    "rain": "900 House1AC 4 14 2 eve_play/1100 SamHouse 3 15 2 eve_play/1530 SamHouse 5 6 3/1900 House1AC 6 12 1 eve_sleep",
+    "Mon": "610 School 7 29 0/1200 School 45 23 0/1330 School 40 19 3/1500 School 29 0 2 eve_play/1640 School 7 29 0/1830 House1AC 6 12 1 eve_sleep",
+    "Tue": "610 School 7 29 0/1200 School 45 23 0/1330 School 40 19 3/1500 School 42 29 2/1640 School 7 29 0/1830 House1AC 6 12 1 eve_sleep",
+    "Wed": "GOTO Mon",
+    "Thu": "GOTO Tue",
+    "Fri": "GOTO Mon",
+    "Sat": "900 Town 33 89 2/1200 Town 20 14 2 eve_play/1700 Town 29 92 3/2000 House1AC 6 12 1 eve_sleep",
+    "summer": "930 House1AC 14 18 0/1210 Beach 45 25 2/1900 House1AC 4 14 2 eve_play/2150 House1AC 6 12 1 eve_sleep",
+    "spring": "950 House1AC 5 12 0/1030 House1AC 4 14 2 eve_play/1200 Town 36 89 2 eve_read/1430 Town 13 72 2/1700 SamHouse 5 6 3/1840 House1AC 6 12 1 eve_sleep", 
+    "1": "950 House1AC 5 12 0/1030 House1AC 4 14 2 eve_play/1300 House1AC 14 15 2/1400 House1AC 4 14 2 eve_read/1740 House1AC 4 14 2 eve_play \"Strings\\schedules\\Eve:familydinner.001\"/2020 House1AC 12 17 1 \"Strings\\schedules\\Eve:familydinner.002\"/2230 House1AC 6 12 1 eve_sleep"	
+}

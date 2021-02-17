@@ -1,0 +1,496 @@
+{
+  "Categories": [
+    {
+      "Category": "Chicken",
+      "Types": [
+        {
+          "Type": "White Chicken",
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": null,
+            "Adult": null,
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Brown Chicken",
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": null,
+            "Adult": null,
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Blue Chicken",
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": null,
+            "Adult": null,
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Void Chicken",
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": null,
+            "Adult": null,
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Coop",
+        "Big Coop",
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Chicken",
+        "Description": "Well cared-for adult chickens lay eggs every day.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Paritee's Better Farm Animal Variety\\assets\\AnimalShop\\Chicken.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      }
+    },
+    {
+      "Category": "Dairy Cow",
+      "Types": [
+        {
+          "Type": "White Cow",
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": null,
+            "Adult": null,
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Brown Cow",
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": null,
+            "Adult": null,
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Barn",
+        "Big Barn",
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Dairy Cow",
+        "Description": "Adults can be milked daily. A milk pail is required to harvest the milk.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Paritee's Better Farm Animal Variety\\assets\\AnimalShop\\DairyCow.png",
+        "Exclude": []
+      }
+    },
+    {
+      "Category": "Goat",
+      "Types": [
+        {
+          "Type": "Goat",
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": null,
+            "Adult": null,
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Big Barn",
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Goat",
+        "Description": "Happy adults provide goat milk every other day. A milk pail is required to harvest the milk.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Paritee's Better Farm Animal Variety\\assets\\AnimalShop\\Goat.png",
+        "Exclude": []
+      }
+    },
+    {
+      "Category": "Duck",
+      "Types": [
+        {
+          "Type": "Duck",
+          "Data": null,
+          "DeluxeProduceLuck": 0.01,
+          "Sprites": {
+            "Baby": null,
+            "Adult": null,
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Big Coop",
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Duck",
+        "Description": "Happy adults lay duck eggs every other day.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Paritee's Better Farm Animal Variety\\assets\\AnimalShop\\Duck.png",
+        "Exclude": []
+      }
+    },
+    {
+      "Category": "Sheep",
+      "Types": [
+        {
+          "Type": "Sheep",
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": null,
+            "Adult": null,
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Sheep",
+        "Description": "Adults can be shorn for wool. Sheep who form a close bond with their owners can grow wool faster. A pair of shears is required to harvest the wool.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Paritee's Better Farm Animal Variety\\assets\\AnimalShop\\Sheep.png",
+        "Exclude": []
+      }
+    },
+    {
+      "Category": "Rabbit",
+      "Types": [
+        {
+          "Type": "Rabbit",
+          "Data": null,
+          "DeluxeProduceLuck": 0.02,
+          "Sprites": {
+            "Baby": null,
+            "Adult": null,
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Rabbit",
+        "Description": "These are woolly rabbits! They shed precious wool every few days.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Paritee's Better Farm Animal Variety\\assets\\AnimalShop\\Rabbit.png",
+        "Exclude": []
+      }
+    },
+    {
+      "Category": "Pig",
+      "Types": [
+        {
+          "Type": "Pig",
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": null,
+            "Adult": null,
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Pig",
+        "Description": "These pigs are trained to find truffles!",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Paritee's Better Farm Animal Variety\\assets\\AnimalShop\\Pig.png",
+        "Exclude": []
+      }
+    },
+    {
+      "Category": "Dinosaur",
+      "Types": [
+        {
+          "Type": "Dinosaur",
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": null,
+            "Adult": null,
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Big Coop",
+        "Deluxe Coop"
+      ],
+      "AnimalShop": null
+    },
+    {
+      "Category": "GansoS",
+      "Types": [
+        {
+          "Type": "White Goose",
+          "Data": "2/5/Goose egg/White Goose Feather/Duck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/642/2000/White Goose/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\BabyGansoBranco.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\GansoBranco.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Wild Goose",
+          "Data": "2/5/Goose egg/Wild Goose Feather/Duck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/642/2000/Wild Goose/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\BabyGansoSelvagem.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\GansoSelvagem.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Rare White Goose",
+          "Data": "2/7/Golden Feather/Golden Goose egg/Duck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/642/4000/Rare White Goose/Coop",
+          "DeluxeProduceLuck": 0.05,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\BabyGansoBrancoRaro.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\GansoBrancoRaro.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Goose",
+        "Description": "It is a large and beautiful bird, somewhat skittish, which lays relatively large eggs.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\animal_shop_ganso.png",
+        "Exclude": [
+          "Rare White Goose"
+        ]
+      }
+    },
+    {
+      "Category": "Guine",
+      "Types": [
+        {
+          "Type": "Common Guinea",
+          "Data": "1/4/Guinea Egg/Common Guinea Feather/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/642/1400/Guine Comum/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\BabyGuineComum.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\GuineComum.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "White Guinea",
+          "Data": "1/4/Guinea Egg/White Guinea Feather/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/642/1400/Guine Branco/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\BabyGuineBranco.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\GuineBranco.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Void Guinea",
+          "Data": "1/5/Void Guinea Egg/Void Guinea Feather/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/642/2800/Void Guinea/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\BabyGuineNulo.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\GuineNulo.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Coop",
+        "Big Coop",
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Guinea",
+        "Description": "Coming from the sap-gray forests, this domestic version is very calm and still maintains its iconic corner: TOFRACO.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\animal_shop_guine.png",
+        "Exclude": [
+          "Void Guinea"
+        ]
+      }
+    },
+    {
+      "Category": "Boi",
+      "Types": [
+        {
+          "Type": "White Ox",
+          "Data": "1/5/Dung/Tuft of white fur/cow/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/20/5/null/642/800/White Ox/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\BabyBoiBranco.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\BoiBranco.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Brown ox",
+          "Data": "1/5/Dung/Tuft of brown fur/cow/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/20/5/null/642/800/Brown ox/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\BabyBoiMarrom.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\BoiMarrom.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Black ox",
+          "Data": "1/7/Dung/Tuft of black fur/cow/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/20/5/null/642/2000/Black ox/Barn",
+          "DeluxeProduceLuck": 0.05,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\BabyBoiNegro.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\BoiNegro.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Barn",
+        "Big Barn",
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Ox",
+        "Description": "These oxen came from neighboring cities, are producers of incredible fertilizers and sometimes their fur falls off.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\animal_shop_boi.png",
+        "Exclude": []
+      }
+    },
+    {
+      "Category": "Bode",
+      "Types": [
+        {
+          "Type": "White Alpine Goat",
+          "Data": "1/6/536/Broken white horn/sheep/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/20/5/null/642/2500/White Alpine Goat/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\BabyBodeAlpinoBranco.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\BodeAlpinoBranco.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Brown Alpine Goat",
+          "Data": "1/6/536/Broken brown horn/sheep/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/20/5/null/642/2500/Brown Alpine Goat/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\BabyBodeAlpinoMarrom.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\BodeAlpinoMarrom.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Black Alpine Goat",
+          "Data": "3/7/Broken black horn/Crystalline flower of the Alpis/sheep/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/20/5/null/639/3250/Black Alpine Goat/Barn",
+          "DeluxeProduceLuck": 0.05,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\BabyBodeAlpinoNegro.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\BodeAlpinoNegro.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Big Barn",
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Alpine Goat",
+        "Description": "Native to the mountain peaks, where the railroad passes underneath, they are specialists in finding geodes.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\animal_shop_bodealpino.png",
+        "Exclude": []
+      }
+    },
+    {
+      "Category": "PorcoE",
+      "Types": [
+        {
+          "Type": "Canastra Pig",
+          "Data": "1/12/White truffle/-1/pig/24/64/84/64/24/64/84/64/1/false/Barn/32/32/32/32/20/5/null/640/16500/Canastra Pig/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\BabyPorcoCanastra.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\PorcoCanastra.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Monteiro Pig",
+          "Data": "1/12/Marzuolo truffle/-1/pig/24/64/84/64/24/64/84/64/1/false/Barn/32/32/32/32/20/5/null/640/16500/Monteiro Pig/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\BabyPorcoMonteiro.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\PorcoMonteiro.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Mysterious Pig",
+          "Data": "1/15/Sweet Jewel Mushroom/-1/pig/24/64/84/64/24/64/84/64/1/false/Barn/32/32/32/32/20/5/null/640/19000/Mysterious Pig/Barn",
+          "DeluxeProduceLuck": 0.05,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\BabyPorcoMisterioso.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\PorcoMisterioso.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Exotic Pig",
+        "Description": "As a domestic variation of the forest hogs that surround pelicans and other cities, they are experts in finding wild truffles.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pecuaria Expansiva_J\\EN\\[BFAV] Pecuária Expansiva_J\\[BFAV] Animais\\assets\\animal_shop_suino.png",
+        "Exclude": []
+      }
+    }
+  ]
+}

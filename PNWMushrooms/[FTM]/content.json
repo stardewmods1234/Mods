@@ -1,0 +1,302 @@
+{
+  "ForageSpawnEnabled": true,
+  "LargeObjectSpawnEnabled": false,
+  "OreSpawnEnabled": false,
+  "MonsterSpawnEnabled": false,
+  "Forage_Spawn_Settings": {
+    "Areas": [
+      {
+        "SpringItemIndex": [
+          "Slippery Jack",
+          "Coral Mushroom",
+          "Bolete",
+          "Puffball"
+        ],
+        "SummerItemIndex": [
+          "Fly Agaric",
+          "Slippery Jack",
+          "Porcini",
+          "Matsutake",
+          "Coral Mushroom",
+          "Bolete",
+          "Puffball"
+        ],
+        "FallItemIndex": [
+          "Fly Agaric",
+          "Slippery Jack",
+          "Porcini",
+          "Lobster Mushroom",
+          "Bolete",
+          "Cauliflower Mushroom"
+        ],
+        "WinterItemIndex": [
+          "Cauliflower Mushroom"
+        ],
+        "UniqueAreaID": "Secret Wood 1",
+        "MapName": "Woods",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "22,11/34,17"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "SpringItemIndex": [
+          "Slippery Jack",
+          "Coral Mushroom",
+          "Bolete",
+          "Puffball"
+        ],
+        "SummerItemIndex": [
+          "Fly Agaric",
+          "Slippery Jack",
+          "Porcini",
+          "Matsutake",
+          "Coral Mushroom",
+          "Bolete",
+          "Puffball"
+        ],
+        "FallItemIndex": [
+          "Fly Agaric",
+          "Slippery Jack",
+          "Porcini",
+          "Lobster Mushroom",
+          "Bolete",
+          "Cauliflower Mushroom"
+        ],
+        "WinterItemIndex": [
+          "Cauliflower Mushroom"
+        ],
+        "UniqueAreaID": "Forest 1",
+        "MapName": "Forest",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "11,41/40,50",
+          "8,65/18,88"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [
+            "Rain",
+            "Storm"
+          ],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "SpringItemIndex": [],
+        "SummerItemIndex": [],
+        "FallItemIndex": [],
+        "WinterItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              "Wild Truffle"
+            ]
+          }
+        ],
+        "UniqueAreaID": "Forest forage area 1",
+        "MapName": "Forest",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "11,41/40,50",
+          "8,65/18,88"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "SpringItemIndex": [
+          "Fly Agaric",
+          "Slippery Jack",
+          "Porcini",
+          "Matsutake",
+          "Coral Mushroom",
+          "Bolete",
+          "Puffball",
+          "Cauliflower Mushroom",
+          "Lobster Mushroom"
+        ],
+        "SummerItemIndex": [
+          "Fly Agaric",
+          "Slippery Jack",
+          "Porcini",
+          "Matsutake",
+          "Coral Mushroom",
+          "Bolete",
+          "Puffball",
+          "Cauliflower Mushroom",
+          "Lobster Mushroom"
+        ],
+        "FallItemIndex": [
+          "Fly Agaric",
+          "Slippery Jack",
+          "Porcini",
+          "Matsutake",
+          "Coral Mushroom",
+          "Bolete",
+          "Puffball",
+          "Cauliflower Mushroom",
+          "Lobster Mushroom"
+        ],
+        "WinterItemIndex": [
+          "Fly Agaric",
+          "Slippery Jack",
+          "Porcini",
+          "Matsutake",
+          "Coral Mushroom",
+          "Bolete",
+          "Puffball",
+          "Cauliflower Mushroom",
+          "Lobster Mushroom"
+        ],
+        "UniqueAreaID": "Island Mushroom Cave",
+        "MapName": "IslandNorthCave1",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "3,3/9,10"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [
+            "1",
+            "8",
+            "15",
+            "22+"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "PercentExtraSpawnsPerForagingLevel": 0,
+    "SpringItemIndex": [],
+    "SummerItemIndex": [],
+    "FallItemIndex": [],
+    "WinterItemIndex": [],
+    "CustomTileIndex": []
+  },
+  "Large_Object_Spawn_Settings": {
+    "Areas": [],
+    "CustomTileIndex": []
+  },
+  "Ore_Spawn_Settings": {
+    "Areas": [],
+    "PercentExtraSpawnsPerMiningLevel": 0,
+    "MiningLevelRequired": {},
+    "StartingSpawnChance": {
+      "Stone": 66,
+      "Geode": 8,
+      "FrozenGeode": 4,
+      "MagmaGeode": 2,
+      "Gem": 5,
+      "Copper": 21,
+      "Iron": 15,
+      "Gold": 10,
+      "Iridium": 1,
+      "Mystic": 1,
+      "Diamond": 0,
+      "Ruby": 0,
+      "Jade": 0,
+      "Amethyst": 0,
+      "Topaz": 0,
+      "Emerald": 0,
+      "Aquamarine": 0
+    },
+    "LevelTenSpawnChance": {},
+    "CustomTileIndex": []
+  },
+  "Monster_Spawn_Settings": {
+    "Areas": [],
+    "CustomTileIndex": []
+  },
+  "QuarryTileIndex": [],
+  "File_Conditions": {
+    "FarmTypes": [],
+    "FarmerNames": [],
+    "SaveFileNames": [],
+    "OtherMods": {}
+  }
+}

@@ -1,0 +1,23 @@
+{
+	"Name": "Carrot and Coconut Soup",
+	"Category": "Cooking",
+	"Price": 180,
+	"Description": "Salty, Creamy, and Delicious.",
+	"Edibility": 110,
+	"Recipe":{
+      "ResultCount": 1,
+      "Ingredients": [
+		{
+		"Object": "Winter Carrot", "Count": 2,
+		},
+		{
+		"Object": 88, "Count": 1,
+		},
+		{
+		"Object": 720, "Count": 3,
+		},
+       ],
+      "CanPurchase": false,
+      "IsDefault": false,
+    },
+}

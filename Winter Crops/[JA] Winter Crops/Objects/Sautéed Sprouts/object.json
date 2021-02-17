@@ -1,0 +1,20 @@
+{
+	"Name": "Sautéed Sprouts",
+	"Category": "Cooking",
+	"Price": 50,
+	"Description": "Perfectly cooked sprouts, packing with flavour.",
+	"Edibility": 40,
+	"Recipe":{
+      "ResultCount": 1,
+      "Ingredients": [
+		{
+		"Object": "Brussel Sprout", "Count": 5,
+		},
+		{
+		"Object": 247, "Count": 1,
+		},
+       ],
+      "CanPurchase": false,
+      "IsDefault": false,
+    },
+}

@@ -1,0 +1,273 @@
+-----------
+{
+  "Name": "Kim Jyeul",
+  "Author": "ExnoticE and Ravenben",
+  "Version": "1.4",
+  "Description": "Kim NPC - Art by Ravenben/itsbenter",
+  "UniqueID": "KimJyeulNPC.ExnoticTest",
+  "MinimumApiVersion": "3.5.0",
+  "UpdateKeys": [ "Nexus:6486" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "1.15.0"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "DIGUS.MailFrameworkMod",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "malic.cp.jadeNPC",
+      "IsRequired": false
+    }
+  ]
+}
+-----------
+{
+  "Format": "1.15.0",
+   "Changes": [
+	{
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Kim",
+      "FromFile": "assets/img/Kim_{{season}}.png",
+      "When": {
+          "DayEvent |contains=egg festival": "false",
+          "DayEvent |contains=flower dance": "false",
+          }                 
+    },
+	{
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Kim",
+      "FromFile": "assets/img/Kim_EggFestival.png",
+	  "When": {
+	      "DayEvent": "egg festival",
+		  }
+    },
+	{
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Kim",
+      "FromFile": "assets/img/Kim_FlowerDance.png",
+	  "When": {
+	      "DayEvent": "flower dance",
+		  }
+    },
+	{
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Kim",
+      "FromFile": "assets/img/Kim Sprite_{{season}}.png",
+      "When": {
+          "DayEvent |contains=egg festival": "false",
+          "DayEvent |contains=flower dance": "false",
+          }   
+    },
+	{
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Kim",
+      "FromFile": "assets/img/Kim Sprite_EggFestival.png",
+	  "When": {
+	      "DayEvent": "egg festival",
+		  }
+    },
+	{
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Kim",
+      "FromFile": "assets/img/Kim Sprite_FlowerDance.png",
+	  "When": {
+	      "DayEvent": "flower dance",
+		  }
+    },
+    {
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Kim": "teen/polite/shy/positive/female/datable/Abigail/Other/fall 3//BusStop 8 13/Kim"
+      }
+    },
+    {
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Kim":"Oh @, thank you!$h/72 234 18/Thanks! This is a nice gift.$h/611 597 62 595 227/Thanks, I guess.$0/22 376 591 608/Get that away from me.$2/241 404 420 422 205/Oh...um...thanks.$0/167/"
+      }
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/Schedules/Kim",
+      "FromFile": "assets/schedules/Schedule.json",
+      "When": 
+       {
+           "HasMod |contains=malic.cp.jadeNPC": false,
+           "HasMod |contains=Karmylla.ImmersiveMaps": false
+       }
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/Schedules/Kim",
+      "FromFile": "assets/schedules/Schedule-KIM.json",
+      "When": 
+       {
+           "HasMod |contains=malic.cp.jadeNPC": false,
+           "HasMod |contains=Karmylla.ImmersiveMaps": true
+       }
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/Schedules/Kim",
+      "FromFile": "assets/schedules/Schedule-Jade.json",
+      "When": 
+       {
+           "HasMod |contains=malic.cp.jadeNPC": true,
+           "HasMod |contains=Karmylla.ImmersiveMaps": false
+       }
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/Schedules/Kim",
+      "FromFile": "assets/schedules/Schedule-Jade-KIM.json",
+      "When": 
+       {
+           "HasMod |contains=malic.cp.jadeNPC": true,
+           "HasMod |contains=Karmylla.ImmersiveMaps": true
+       }
+    },
+    {
+      "LogName": "Strings",
+      "Action": "Load",
+      "Target": "Strings/schedules/Kim",
+      "FromFile": "assets/KimStrings.json"
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Kim",
+      "FromFile": "assets/dialogue/Dialogue.json",
+      "When": 
+       {
+           "HasMod |contains=malic.cp.jadeNPC": false
+       }
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Kim",
+      "FromFile": "assets/dialogue/Dialogue-Jade.json",
+      "When": 
+       {
+           "HasMod |contains=malic.cp.jadeNPC": true
+       }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring13",
+      "Entries": {
+          "Kim": "Ew, the eggs smell rotten.$2#$b#This is a nice festival though.$h"
+       }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "Entries": {
+          "Kim": "Hi, @.$0#$b#I don't like to dance, I'm too shy.$2#$b#Lewis makes us come here anyway."
+       }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "Entries": {
+          "Kim": "I don't like soup, it's gross to me.$2"
+       }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "Entries": {
+          "Kim": "The moonlight jellies look nice.$h#$e#I like their colors."
+       }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "Entries": {
+          "Kim": "I don't love coming here, Lewis forces everyone to attend.$2#$b#But it's nice to see you here.$h"
+       },
+      "When": 
+       {
+           "HasMod |contains=malic.cp.jadeNPC": false
+       }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "Entries": {
+          "Kim": "I don't love coming here, Lewis forces everyone to attend.$2#$b#It's probably good to catch up with Jade though.$h"
+       },
+      "When": 
+       {
+           "HasMod |contains=malic.cp.jadeNPC": true
+       }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall27",
+      "Entries": {
+          "Kim": "I'm scared...$2"
+       }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter8",
+      "Entries": {
+          "Kim": "It's very cold out here. I should've wore a jacket...$2"
+       }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "Entries": {
+          "Kim": "Hi @!$h#$b#I can't wait to see my gift!"
+       },
+      "When": 
+       {
+           "HasMod |contains=malic.cp.jadeNPC": false
+       }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "Entries": {
+          "Kim": "Hi @!$h#$b#I hope my gift giver is Jade. She knows me very well."
+       },
+      "When": 
+       {
+           "HasMod |contains=malic.cp.jadeNPC": true
+       }
+    },
+    {
+      "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Kim - 1": "Wow, I can't believe I'm getting married!$h",
+        "Kim - 2": "I can't wait!$4"
+      }
+    },
+    {
+      "LogName": "Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueKim",
+      "FromFile": "assets/dialogue/MarriageDialogue.json",
+    },
+  ]
+}

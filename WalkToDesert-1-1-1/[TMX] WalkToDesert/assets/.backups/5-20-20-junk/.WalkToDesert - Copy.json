@@ -1,0 +1,31 @@
+{
+  "name": "Walk to Desert",
+  "version": "1.0.0",
+  "author": "Tarniyar",
+  "addMaps": [
+    {
+      "name": "ForestRoad",
+      "file": "wtd_ForestRoad_2.tbin",
+      "addWarps": [
+        "59 18 Tunnel 0 11",
+	"59 17 Tunnel 0 10",
+	"59 16 Tunnel 0 9",
+	"59 15 Tunnel 0 8"
+      ]
+    } //don't forget a comma!
+],
+  "mergeMaps": [
+    {
+      "name": "Tunnel",
+	  "file": "wtd_tunnel.tbin",
+	  "sourceArea": [0,0,14,14],
+	  "position": [0,0],
+      "addWarps": [
+        "-1 11 ForestRoad 59 18",
+	"-1 10 ForestRoad 59 17",
+	"-1 9 ForestRoad 59 16",
+	"-1 8 ForestRoad 59 15"
+      ]
+    }
+  ]
+}

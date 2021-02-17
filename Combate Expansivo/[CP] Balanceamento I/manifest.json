@@ -1,0 +1,20 @@
+{
+	"Name": "H.D. Combate Exp. - Atributos",
+	"Author": "HamioDracny",
+	"Version": "1.0.1",
+	"Description": "Rebalanceia as armas, em um valor que crie nichos e diversifique o combate",
+	"UniqueID": "HamioDracny.AtributosBalanceados",
+	"MinimumApiVersion": "3.4.2",
+	"Dependencies": [
+		{
+			"UniqueID": "spacechase0.JsonAssets",
+			"IsRequired": false
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "1.5.3"
+	},
+   "UpdateKeys": ["Nexus:7511"]
+}
+

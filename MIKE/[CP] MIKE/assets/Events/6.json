@@ -1,0 +1,5 @@
+{
+	"Entries": {
+        "68260003/f Mike 1500/w sunny/t 1200 2000": "playful/-100 -100/farmer 14 24 0 Mike 16 20 2 Gus 15 18 2/skippable/showFrame Mike 32/viewport 16 20 true/pause 1000/move farmer 0 -2 0/move farmer 2 0 0/pause 500/speak Mike \"Hello, @. Glad to see you!$9\"/pause 800/speak Mike \"@, remember how I told you that I will play a song for you?$8#$b#Well, I am not too good but I learned how to play a song.$8#$b#And I want to play it for you right now.$9\"/emote farmer 32/pause 500/speak Mike \"Okay. I might make a mistake but you got to forgive me.$9#$b#One, two, three.$7\"/animate Mike false false 200 32 32 32 33 33 33 32 32 32 33 33 33 32 32 32 33 33 33 32 32 32 33 33 33 32 32 32 33 33 33 32 32 32 33 33 33/emote Mike 56/pause 5000/emote farmer 20/pause 2000/speak Mike \"Thanks for listening. I will keep on practicing other songs.$9#$b#Hey, since you've been a great audience, I will get you a drink.$9\"/pause 1000/emote farmer 56/move farmer 0 -1 0/move farmer 1 0 1/move farmer 0 -1 0/pause 2000/faceDirection farmer 2/pause 1000/farmerEat 350/pause 3000/message \"Well, that was fun!\"/end"
+      }
+}

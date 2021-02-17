@@ -1,0 +1,46 @@
+{
+    "Name": "Ice Jade",
+    "Description": "A white jade that's transparent like ice.",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
+    "Edibility": -300,
+    "Price": 200,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "빙옥",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Jade de Gelo",
+        // "ru": "",
+        // "tr": "",
+        "zh": "冰玉",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "눈처럼 희고 얼음처럼 투명한 백옥.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Uma pedra de jade branca como a neve e transparente como o gelo.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "一种色白如雪，透明如冰的珍贵玉石。",
+    },
+	
+    "ContextTags": [
+        "color_white", "white_gem", "jade_item",
+    ],
+}

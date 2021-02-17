@@ -1,0 +1,14 @@
+{
+  "Name": "Umuwi Rambutan",
+  "Description": "A red, plum-sized fruit with soft spines and a slightly acidic taste.",
+  "Category": "Fruit",
+  "Edibility": 31,
+  "Price": 190,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+  {
+  "Love": ["Lunna", "Gus", "Bianka"],
+  "Like": ["Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Shane", "Willy", "Wizard","Lewis","Abigail", "Haley", "Jas", "Sam", "Sebastian", "Vincent"],
+  },
+}

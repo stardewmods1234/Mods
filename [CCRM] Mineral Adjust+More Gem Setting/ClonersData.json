@@ -1,0 +1,172 @@
+﻿[
+    {
+        "Name": "Crystalarium",
+        "GetObjectBackOnChange": true, 
+        "GetObjectBackImmediately": false,
+        "UsePfmForInput": false,
+        "CloningData": { 
+		// g * 12
+		//Quartz 7hr = 25g
+		//Earth Crystal  13hr 20min = 50g
+		//Frozen Tear 18hr 40min = 75g
+		//Fire Quartz 21hr 40min = 100g
+			"Halite":  420,
+			"Pink Halite":  800,
+			"Glass Sand":  420,
+			"390": 420,  //stone
+			"Clay":  420,
+			"Coal":  420,
+			"Copper Ore":  800,
+			"Iron Ore":  1120,
+			"Gold Ore":  1300,
+			"Iridium Ore":  1800,
+			"Silver Ore":  1120,
+			"Platinum Ore":  1300,
+			"Radioactive Ore":  1800,
+			"Cinder Shard":  3000, //50g
+		//Topaz vanilla 18hr 40min = 80g
+			"Topaz":  1120,
+			"Blue Topaz":  1120,
+			"Imperial Topaz":  1120,
+			"Pink Topaz":  1120,
+			"White Topaz":  1120,
+		//Amethyst 22hr 40min  = 100g
+			"Milky Quartz":  1120, //70g
+			"Rose Quartz":  1360, //100g
+			"Citrin":  1360, //100g
+			"Ametrine":  1360, //120g
+			"Jet":  1120, //80g
+			"Amber":  1360, //100g
+			"Ivory":  1360, //100g
+		//Tourmaline = 120g
+			"Achroite Tourmaline":  1500,
+			"Dravite Tourmaline":  1500,
+			"Indicolite Tourmaline":  1500,
+			"Rubellite Tourmaline":  1500,
+			"Schorl Tourmaline":  1500,
+			"Siberite Tourmaline":  1500,
+			"Verdelite Tourmaline":  1500,
+			"Watermelon Tourmaline":  1500,
+		//Coral = 150g
+			"Orange Coral":  1800,
+			"Pink Coral":  1800,
+			"Red Coral":  1800,
+			"White Coral":  1800,
+			"Black Coral":  1800,
+		//Opal  vanilla 83hr 20min = 150g
+			"Jasper":  1800, //150g
+            "Agate":  1800, //150g
+            "Onyx":  1800, //150g
+            "Sardonyx":  1800, //150g
+			"Sunstone":  1800, //150g
+			"Moonstone":  2040, //170g
+			"Opal":  1800,  //150g
+			"Pink Opal":  3000, //250g
+			"Fire Opal":  4200, //350g
+			"Obsidian":  2400, //200g
+			"Tanzanite":  2640, //220g
+			"Peridot":  3000, //250g
+			"Tigerseye":  3300, //275g
+			"Lapis Lazuli":  3360, //280g
+		//Jade  40hr = 200g
+            "Ice Jade":  2400,
+            "Lavender Jade":  2400,
+            "Rhodochrosite":  2400,
+            "Rhodonite":  2400,
+		//Aquamarine  37hr 20min = 180g
+			"Larimar":  2160, 
+			"Kunzite":  2160,
+			"Turquoise":  2160,
+		//Spinel = 200g
+			"Spinel" :2400,
+			"Blue Spinel" :2400,
+			"Green Spinel" :2400,
+			"Pink Spinel" :2400,
+			"Yellow Spinel" :2400,
+		//Garnet  = 200g
+			"Garnet": 2400,
+			"Almandine Garnet" :2400,
+			"Andradite Garnet" :2400,
+			"Grossular Garnet" :2400,
+			"Hessonite Garnet" :2400,
+			"Hydrogrossular Garnet" :2400,
+			"Pyrope Garnet" :2400,
+			"Rhodolite Garnet" :2400,
+			"Spessartite Garnet" :2400,
+			"Tsavorite Garnet" :2400,
+			"Uvarovite Garnet" :2400,			
+		//Ruby, Emerald  50hr (2day 2hr)  = 250g
+			"Sapphire":  3000,
+			"Green Sapphire":  3000,
+			"Indian Star Sapphire":  3000,
+			"Orange Sapphire":  3000,
+			"Padparadscha Sapphire":  3000,
+			"Pink Sapphire":  3000,
+			"Whiskey Sapphire":  3000,
+			"White Sapphire":  3000,
+			"Yellow Sapphire":  3000,
+		// Beryl = 250g
+			"Bixbite":  3000,
+			"Goshenite":  3000,
+			"Heliodor":  3000,
+			"Maxixe":  3000,
+			"Morganite":  3000,
+		//Diamond 120hr (5day) = 750g
+			"Black Diamond":  7200,
+			"Blue Diamond":  7200,
+			"Champagne Diamond":  7200,
+			"Green Diamond":  7200,
+			"Orange Diamond":  7200,
+			"Pink Diamond":  7200,
+			"Purple Diamond":  7200,
+			"Red Diamond":  7200,
+			"Yellow Diamond":  7200,
+		//Pearl 336hr (14day) = 2,500g
+			"Pearl":  20160,
+			"Baroque Pearl":  20160,
+			"Silver Pearl":  20160,
+			"Cream Pearl":  20160,
+			"Gold Pearl":  20160,
+			"Pink Pearl":  20160,
+			"Black Pearl":  20160,
+			"Conch Pearl":  20160,
+		//Mineral
+			"Aerinite":  1500, //125g
+			"Alamite":  1800, //150g
+			"Baryte":  800, //50g
+			"Basalt":  2100, //175g
+			"Bixite":  3600, //300g
+			"Calcite":  1120, //75g
+			"Celestine":  1500, //125g
+			"Dolomite":  3600, //300g
+			"Esperite":  1300, //100g
+			"Fluorapatite":  2400, //200g
+			"Geminite":  1800, //150g
+			"Ghost Crystal":  2400, //200g
+			"Granite":  1120, //75g
+			"Helvite":  5400, //450g
+			"Hematite":  1800, //150g
+			"Jamborite":  1800, //150g
+			"Jagoite":  1300, //115g
+			"Kyanite":  3000, //250g
+			"Lemon Stone":  2400, //200g
+			"Limestone":  420, //15g
+			"Lunarite":  2400, //200g
+			"Malachite":  1300, //100g
+			"Marble":  1450, //110g
+			"Mudstone":  420, //25g
+			"Neptunite":  4800, //400g
+			"Nekoite":  1120, //80g
+			"Ocean Stone":  2400, //220g
+			"Orpiment":  1120, //80g
+			"Petrified Slime":  1500, //120g
+			"Pyrite":  1500, //120g
+			"Sandstone":  800, //60g
+			"Soapstone":  1600, //120g
+			"Slate":  1000, //85g
+			"Thunder Egg":  1300, //100g
+			"Fairy Stone":  3000, //250g
+			"Star Shards":  6000, //500g
+        }
+    }
+]

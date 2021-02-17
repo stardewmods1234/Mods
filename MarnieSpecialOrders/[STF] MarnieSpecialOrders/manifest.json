@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[STF] Marnie Special Orders",
+  "Author": "Tarniyar",
+  "Version": "1.0.0",
+  "Description": "Adds new machine to Marnie's shop",
+  "UniqueID": "Tarniyar.STF.MSO",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [ ],
+  "ContentPackFor": {
+    "UniqueID": "Cherry.ShopTileFramework",
+	"MinimumVersion": "1.0.1"
+  }
+}

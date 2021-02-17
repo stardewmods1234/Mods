@@ -1,0 +1,26 @@
+﻿{
+  "Name": "Underwater East Scarpe Swim Mod Info",
+  "Author": "aedenthorn",
+  "Version": "0.1.0",
+  "Description": "Adds swim mod info to LemurKat's East Scarpe and its underwater map.",
+  "UniqueID": "aedenthorn.UnderwaterEastScarpeSMI",
+  "MinimumApiVersion": "2.0",
+  "ContentPackFor": {
+    "UniqueID": "aedenthorn.Swim",
+    "MinimumVersion": "0.9.0"
+  },
+  "Dependencies": [
+   {
+      "UniqueID": "aedenthorn.Swim",
+      "IsRequired": true
+   },
+   {
+      "UniqueID": "aedenthorn.UnderwaterEastScarpeTMX",
+      "IsRequired": true
+   },
+   {
+      "UniqueID": "LemurKat.EastScarpe.TMX",
+      "IsRequired": true
+   },
+  ]
+}

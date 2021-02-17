@@ -1,0 +1,46 @@
+{
+    "Name": "Champagne Diamond",
+    "Description": "Brown diamond, also called Cognac Diamond.",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
+    "Edibility": -300,
+    "Price": 750,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Love": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "샴페인 다이아몬드",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Diamante Champangne",
+        // "ru": "",
+        // "tr": "",
+        "zh": "香槟钻石",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "일명 꼬냑 다이아몬드. 중후한 갈색의 다이아몬드.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Um diamante marrom, também chamado de Diamante Cognac.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "棕色钻石，也被称为香槟钻石。",
+    },
+	
+    "ContextTags": [
+        "color_brown", "diamond_item", "brown_gem", 
+    ],
+}

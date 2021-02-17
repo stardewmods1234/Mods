@@ -1,0 +1,16 @@
+{
+	"Format": "1.19.0",
+	"ConfigSchema": {
+        "GreenhouseType": {"AllowValues": "Regular, Expanded",
+        "Default": "Regular"}
+
+    },
+	
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Maps/Greenhouse",
+      "FromFile": "Assets/{{GreenhouseType}} Greenhouse.tbin"
+    }
+  ]
+}

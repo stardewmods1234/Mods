@@ -1,0 +1,28 @@
+[
+//Wedding invitation
+{
+    "Id": "LifeCycle.PennySam", 
+    "GroupID": "LifeCycle.Wedding",
+    "Text": " ^    Dear @,^    we invite you to celebrate our marriage today,^   22nd of spring, at 5 in the town square.", 
+    "Title": "Penny and Sam wedding invitation", 
+    "LetterBG": "PennySam.png",
+    "TextColor": 8,
+    "Repeatable": false,
+    "Date": "22 spring Y3",
+    "Weather": "sunny",
+    "EventsSeen": [59020036],
+    "FriendshipConditions":
+    [
+        {
+            "NpcName": "Sam",
+            "FriendshipLevel": 8,
+            "FriendshipStatus": ["Friendly","Divorced"]
+        },
+        {
+            "NpcName": "Penny",
+            "FriendshipLevel": 8,
+            "FriendshipStatus": ["Friendly","Divorced"]
+        }
+    ],
+},
+]

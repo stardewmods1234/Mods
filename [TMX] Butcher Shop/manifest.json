@@ -1,0 +1,11 @@
+{
+  "Name": "Butcher Shop",
+  "Author": "coco",
+  "Version": "1.0.0",
+  "Description": "add butcher shop.",
+  "UniqueID": "coco.meatshop",
+   "UpdateKeys": ["Nexus:7087"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+  },
+}

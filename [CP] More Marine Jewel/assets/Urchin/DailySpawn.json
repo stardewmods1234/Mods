@@ -1,0 +1,71 @@
+{
+  "Changes": [
+    {
+		"Action": "EditData",
+		"Target": "Data/FishPondData",
+		"Entries": {
+        "item_sea_urchin": {
+          "RequiredTags": [
+            "item_sea_urchin"
+          ],
+            "SpawnTime": 1,
+            "ProducedItems": [
+                {
+                    "RequiredPopulation": 9,
+                    "Chance": 0.019999999552965164,
+                    "ItemID": 812, //Roe
+                    "MinQuantity": 5,
+                    "MaxQuantity": 5
+                },
+                {
+                    "RequiredPopulation": 9,
+                    "Chance": 0.33000001311302185,
+                    "ItemID": 812, //Roe
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1
+                },
+                {
+                    "RequiredPopulation": 5,
+                    "Chance": 0.20000000298023224,
+                    "ItemID": 812, //Roe
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1
+                },
+                {
+                    "RequiredPopulation": 0,
+                    "Chance": 0.10000000149011612,
+                    "ItemID": 812, //Roe
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1
+                },
+				{
+				  "RequiredPopulation": 5,
+				  "Chance": 0.05,
+				  "ItemID": "{{spacechase0.JsonAssets/ObjectId:Larimar}}",
+				  "MinQuantity": 1,
+				  "MaxQuantity": 1
+				},
+				{
+				  "RequiredPopulation": 9,
+				  "Chance": 0.05,
+				  "ItemID": "{{spacechase0.JsonAssets/ObjectId:Larimar}}",
+				  "MinQuantity": 1,
+				  "MaxQuantity": 2
+				},
+            ],
+            "PopulationGates": null
+        },
+	  }
+	},
+    {
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "MoveEntries": [
+        {
+          "ID": "item_sea_urchin",
+          "ToPosition": "Top"
+        }
+      ],
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+﻿[
+    // Mushroom Propagator
+    {
+        "ProducerName": "Mushroom Propagator",
+        "InputIdentifier": null,
+        "InputStack": 0,
+		"AdditionalOutputs":[
+			//Vanilla Mushrooms
+			{
+				"OutputProbability":0.0589,
+				"OutputIdentifier":"Common Mushroom",
+			},
+			{
+				"OutputProbability":0.0589,
+				"OutputIdentifier":"Red Mushroom",
+			},
+			{
+				"OutputProbability":0.0589,
+				"OutputIdentifier":"Purple Mushroom",
+			},
+			{
+				"OutputProbability":0.0589,
+				"OutputIdentifier":"Chanterelle",
+			},
+			{
+				"OutputProbability":0.0588,
+				"OutputIdentifier":"Morel",
+			},
+			{
+				"OutputProbability":0.0588,
+				"OutputIdentifier":"Truffle",
+			},
+			{
+				"OutputProbability":0.0588,
+				"OutputIdentifier":"Magma Cap",
+			},
+			//New Mushrooms
+			{
+				"OutputProbability":0.0588,
+				"OutputIdentifier":"Bolete",
+			},
+			{
+				"OutputProbability":0.0588,
+				"OutputIdentifier":"Cauliflower Mushroom",
+			},
+			{
+				"OutputProbability":0.0588,
+				"OutputIdentifier":"Coral Mushroom",
+			},
+			{
+				"OutputProbability":0.0588,
+				"OutputIdentifier":"Fly Agaric",
+			},
+			{
+				"OutputProbability":0.0588,
+				"OutputIdentifier":"Lobster Mushroom",
+			},
+			{
+				"OutputProbability":0.0588,
+				"OutputIdentifier":"Matsutake",
+			},
+			{
+				"OutputProbability":0.0588,
+				"OutputIdentifier":"Porcini",
+			},
+			{
+				"OutputProbability":0.0588,
+				"OutputIdentifier":"Puffball",
+			},
+			{
+				"OutputProbability":0.0588,
+				"OutputIdentifier":"Slippery Jack",
+			},
+			{
+				"OutputProbability":0.0588,
+				"OutputIdentifier":"Wild Truffle",
+			},
+		],
+    },
+   // Mushroom Branch
+    {
+        "ProducerName": "Mushroom Branch",
+        "InputIdentifier": null,
+        "InputStack": 0,
+		"AdditionalOutputs":[
+			//New Mushrooms
+			{
+				"OutputProbability":0.1,
+				"OutputIdentifier":"Apricot Jelly Ear",
+			},
+			{
+				"OutputProbability":0.1,
+				"OutputIdentifier":"Bear's Tooth",
+			},
+			{
+				"OutputProbability":0.1,
+				"OutputIdentifier":"Chicken-of-the-Woods",
+			},
+			{
+				"OutputProbability":0.1,
+				"OutputIdentifier":"Jelly Ear",
+			},
+			{
+				"OutputProbability":0.1,
+				"OutputIdentifier":"Lion's Mane",
+			},
+			{
+				"OutputProbability":0.1,
+				"OutputIdentifier":"Oyster Mushroom",
+			},
+			{
+				"OutputProbability":0.1,
+				"OutputIdentifier":"Polypore",
+			},
+			{
+				"OutputProbability":0.1,
+				"OutputIdentifier":"Reishi",
+			},
+			{
+				"OutputProbability":0.1,
+				"OutputIdentifier":"Turkey Tail",
+			},
+			{
+				"OutputProbability":0.1,
+				"OutputIdentifier":"Witch's Butter",
+			},
+		],
+    },
+]

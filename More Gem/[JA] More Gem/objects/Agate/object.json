@@ -1,0 +1,46 @@
+{
+    "Name": "Agate",
+    "Description": "Layered gemstone with various precipitated components.",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
+    "Edibility": -300,
+    "Price": 150,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "마노",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Ágata",
+        // "ru": "",
+        // "tr": "",
+        "zh": "玛瑙",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "다양한 성분이 침전되어 층을 이룬 원석.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Uma pedra formada pela decomposição de vários componentes.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "具有各种成分沉淀的层状宝石。",
+    },
+	
+    "ContextTags": [
+        "color_orange", "agate_item", "orange_gem",
+    ],
+}

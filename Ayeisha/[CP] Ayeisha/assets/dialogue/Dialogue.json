@@ -1,0 +1,172 @@
+/*
+
+
+
+<season><key>
+
+====<KEY>====
+ 
+<location>_<x>_<y>
+<location>_<dayName>
+<location><hearts>
+<location> 
+
+<season>_<key>_inlaw_<spouseName>
+<season>_<key>
+
+====<KEY>====
+
+<dayOfMonth>
+<dayOfMonth>_<firstOrLaterYear>
+<dayOfWeek><hearts>_<firstOrLaterYear>
+<dayOfWeek><hearts>
+<dayOfWeek>_<firstOrLaterYear>
+<dayOfWeek> 
+
+
+@ 	Farmer's name.   Example: Hi there @!
+%adj 	Random adjective. (Defined in StringsFromCSFiles.xnb)
+%noun 	Random noun. (Defined in StringsFromCSFiles.xnb)
+%place 	Random place name. (Defined in StringsFromCSFiles.xnb)
+%spouse 	The name of Farmer's spouse.
+%name 	A randomly-generated name.
+%firstnameletter 	The first half of the farmer's name (rounded down), like Nat if the farmer's name is Natalie.
+%time 	Current time.
+%band 	The name of Sam and Sebastian's band.
+%book 	The title of Elliott's book.
+%rival 	A random first name of the Farmer's gender from StringsFromCSFiles.xnb (keys Utility.cs.5499 through Utility.cs.5560). Will not match the Farmer's name.
+%pet 	The name of Farmer's pet.
+%farm 	Farm name.
+%favorite 	The Farmer's favorite thing.
+%kid1 	The name of Farmer's first child.
+%kid2 	The name of Farmer's second child. 
+
+
+
+$q <response IDs> <fallback>#<text> 	Show a dialogue box containing the given question text. If <response IDs> (a list delimited by /) contains an answer already given, the question is skipped (along with the rest of this dialogue line), and instead the dialogue entry identified by <fallback> will be appended to whatever precedes this $q command. The <fallback> dialogue typically uses a $p command to adjust the text based on the player's answer to this question. NOTE: dialogue questions must use unique IDs, similar to events. See the event data page for more information.
+$r <response ID> <friendship> <reaction>#<answer text> 	Define a response option to a $q question dialogue. <answer text> is the text shown. <response ID> is used to group responses for future reference (multiple answers can share an answer ID). <friendship> defines the change in friendship value, positive or negative, if this response is selected. <reaction> names the dialogue entry from the NPC's Content\Characters\Dialogue\*.xnb file that will be the NPC's reaction if this response is selected by the player.
+$p <response ID>#<match text>|<no-match text> 	Stands for "dialoguePrerequisite". Shows different text depending on whether the player gave a particular answer to a previously-asked question. If <response ID> matches an answer the player gave, <match text> is shown; otherwise, <no-match text> is shown. These texts, separated by |, can each contain multiple commands separated by #. This does not need to be the first command in the dialogue string.
+$b 	Indicates pauses in dialogue, where the player will need to click for the next part to load in a new dialogue box.
+$e 	Ends the current dialogue, closing the dialogue box and resuming player control. The dialogue following $e will require a new interaction with the NPC.
+$k 	TODO. Stands for "dialogueKill".
+$c <probability>#<text1>#<text2> 	Show <text1> with a <probability> between 0 and 1; otherwise, show <text2>. E.g. $c 0.9 for a 90% chance of <text1> and a 10% chance of <text2>. NOTE: Replacer commands (see below) do not work in <text1>. This does not need to be the first command in a dialogue string. It is unaffected by daily luck.
+$d <bus|joja|cc> 	dialogueDependingOnWorldState "Tue4": "$d <dependence>#|Dialogue when dependence value is true.|Dialogue in other situations.",
+The dependence can take one of three values: "bus": is the bus fixed?; "joja": is JoJa Mart in business?; "cc": has the Community Centre been completed? This command must start the dialogue string and does not allow for any other dialogue commands in the string.
+$y 	TODO. Stands for "dialogueQuickResponse"; A simpler form of question. Works like $q, but within one and the same text line. It doesn't have neither "dialoguePrerequisite" ($p) nor friendship point changes. It can be triggered indenitelly.
+Example: Penny: "$y 'Breakfast?_Yes please._Here you go._No, I'm good_More for me then!'"
+$1 <letter ID>#<1st-time text> #$e# <nth-time text> 	Creates a line of dialogue which the character will only see once (at most). <1st-time text> is shown only if <letter ID> has not been marked as sent yet (and this marks it as sent); otherwise, <nth-time text> is shown. <letter ID> should not correspond to an actual piece of mail (because it will not be sent), but it can be referenced by events or other dialogue lines.
+%fork 	Sets the the specialEventVariable1 variable, which can be checked by a later fork event command. Mainly useful in reaction dialogue for $q questions during events.
+[# # #] 	Gives the player a random item, from the pool 
+
+
+$h 	Switch the speaking character to their happy portrait.
+$s 	Switch the speaking character to their sad portrait.
+$u 	Switch the speaking character to their unique portrait.
+$l 	Switch the speaking character to their love portrait.
+$a 	Switch the speaking character to their angry portrait. 
+
+
+% 	Turns the dialogue box into a generic text box.
+Example: "%Abigail is lost in her music."
+
+*/
+
+
+{
+  "Introduction": "Hello, you must be the new farmer. I'm Ayeisha, I work for the Ferngill Postal Service. I normally get to your house by 5:30 in the morning. $h",
+  "BeachNightMarket": "Have you seen that mermaid show? It's here every year.",
+  
+  "Town_35_56": "HEY! How did you  get to this spot so quickly? Have you been using mods to cheat?!?!$u#$b#...or did my Schedule Brake? Try sleeping 1 night to fix me or yell at TheLimeyDragon.",
+  "Saloon_15_20": "I finished early today so I am having a drink before I go home.#$b#Don't worry, it's not alchoholic.$h",
+
+  
+/* Generic Days */
+  "Mon": "Hello @",
+  "Tue": "Hey @",
+  "Wed": "Hi @",
+  "Thu": "Hello @",
+  "Fri": "Hi @",
+  "Sat": "Hey @",
+  "Sun": "Hello @",
+  "Mon2": "Hello @. Did you have a nice weekend?",
+  "Wed2": "Hi, how's %farm farm going?",
+  "Fri2": "How's your day going",
+  "Tue4": "Do you ever get a chance to watch Livin' Off The Land?#$b#I try to watch it when I can. It's my favorite show.",
+  "summer_Wed4": "I think I'll watch a movie when I get home.
+#$q 64270001/64270002 filmquestionfollowup#What would you recommend?
+#$r 64270001 10 filmquestion1#Larry Cobbler and the Labyrinth of Mystery
+#$r 64270001 20 filmquestion2#Natural Wonders: The Deep Ocean World
+#$r 64270002 -10 filmquestion3#Farmer Nancy and her Huge Tracks of Land
+#$r 64270002 0 filmquestion4#I don't know. Sorry.
+#$r 64270002 -50 filmquestion5#I think movies are really stupid.",
+filmquestion1: "Thanks, that's a good suggestion.$h",
+filmquestion2: "Good Idea! I love nature documentaries.$h",
+filmquestion3: "Err...$s",
+filmquestion4: "That's ok. I'll just browse the movie guide when I get home.",
+filmquestion5: "Oh... Um...$s",
+filmquestionfollowup: "$p 642670001#I enjoyed your suggestion last time.$h|I think my cats would suggest 'A Ferngillian Tail'.",
+
+  "Tue6": "My friend Rachael from ZuZu City baked me blackberry cobbler yesterday. It was delicious.$h",
+  "winter_Fri6": "Hi @! I've been meaning to ask you something.
+#$q 64270003/64270004 itemscarryfollowup#How do you manage to hide all those crops and items on you?
+#$r 64270003 5 itemscarryquestion1#Sorry it's a trade secret.
+#$r 64270003 5 itemscarryquestion2#Probably the same way you manage to hide all those letters and packages.
+#$r 64270004 -50 itemscarryquestion3#I'm not telling you.",
+itemscarryquestion1: "You farmers and your secrets.",
+itemscarryquestion2: "Oh?$u#$b#OOOOH! I see!$h",
+itemscarryquestion3: "Oh.$s",
+itemscarryfollowup: "$p 64270003#However I know you like your secrets.$h|However last time I asked, you were a bit blunt.$s",
+
+/*NOTE TO ANY TRANSLATORS 'Indaway' might be difficult to translate. It's a joke as it sounds like 'In the way'.*/
+
+  "fall_Mon8": "I've got a new pet cat, I still need to name it.
+#$q 64270005/64270006/64270007 catnamefollowup#What do you think I should name my new cat?
+#$r 64270005 15 catname0#Oscar
+#$r 64270005 15 catname1#Tigger
+#$r 64270006 5 catname2#Indaway
+#$r 64270006 0 catname3#Sorry I'm not very good with names.
+#$r 64270006 0 catname4#Don't ask me. All my animals are named rude words.
+#$r 64270007 -250 catname5#I'm not naming your silly pet for you.",
+catname0: "Oscar is a good idea. I'll think about it.",
+catname1: "Tigger is a good idea. I'll think about it.",
+catname2: "Inda...$s#$b#Oh very funny. No I'm not calling her that.$h",
+catname3: "That's ok. If you think of anything let me know.",
+catname4: "Oh... I definitely don't want her to be named a rude word.",
+catname5: "...$a",
+catnamefollowup: "$p 64270005#I love the suggestion you gave.$h|If you do think of a name then let me know.",
+
+  "Tue8": "Oh hi! I forgot to tell you this story. I bumped into this old lady at the Zuzu City Bank last week.#$e#She was standingnext to the cash machine and asked me to check her balance for her.#$e#So I pushed her over.$h",
+  "Wed10": "Hey! Did I tell you I put my vacuum on JojaBay the other day?#$b#It was just gathering dust.$h",
+
+/* Specific Days */
+  "spring_1_2": "Happy New Year!",
+  "spring_2_1": "How was your first night on %farm?",
+  "spring_4_1": "I hope Jodi is ok. It's her husband's birthday today.",
+  "spring_14": "Hi @. Did you go to the egg festival yesterday? I hope don't find any melted eggs in people's mailboxes again.",
+  "spring_24": "Hi @. Are you going to the Flower Dance? It's a nice day for it.",
+  "spring_25": "Did you go to the Flower Dance Yesterday?",
+
+  "summer_1_1": "I hope your first season's crops grew well.",
+  "summer_9": "It might be my birthday, however I enjoy my work.",
+  "summer_11": "Everyone should be going to the luau on the beach.",
+  "summer_28": "It's the Moonlight Jellies tonight. I should go one year. I've heard it's very beautiful.",
+
+  "fall_3": "I love the leaves at this time of year.",
+  "winter_1": "Do you know who Krowbis is? I have this strange letter.#$b#It's addressed to 'Misstar Krowbis - 1 Soo-ar'.#$b#It's very strange.$u",
+  "winter_7": "Are you going to the Festival of Ice tommorow?",
+  "winter_15": "Are you going to the Night Market?",
+  "winter_17": "It's your last chance to go to the night market tonight.",
+  "winter_25": "Hey @. I arrived early today to give my presents.$h#$b#Oh and here is yours.[621]$h#$e#Pelican Town have done a great job decorating this year.$h#$e#It's a shame I can't stay, but I have plans with my family.",
+
+
+  "rejectNPCA": "Nice bouquet however I don't want it. Sorry.$s",
+  "rejectNPCB": "You can keep it. I don't need it. Sorry.$s",
+  "refusal_no_heartsA": "Sorry you're not my type.$s", 
+  "refusal_no_heartsB": "It wouldn't work, sorry.$s",
+  "engageA": "I thought you were engaged? Besides you're not my type. Sorry.$s",
+  "engageB": "I thought you were engaged? Besides it wouldn't work. Sorry.$s",
+  "marriedA": "You're already married!$a",
+  "marriedB": "You ARE married!$a",
+  
+  
+ }

@@ -1,0 +1,35 @@
+{
+   "Entries": {
+    //Original
+        "9": "NOT friendship Penny 6/900 House1AC 14 6 3/1000 Town 79 95 2/1600 Town 24 97 3 sam_gameboy/1900 House1AC 4 12 0/2200 House1AC 19 5 3 sam_sleep",
+        "23": "NOT friendship Penny 6/GOTO 9",
+        "rain": "1000 House1AC 14 6 3/1100 House1AC 2 12 2 sam_guitar/1500 House1AC 21 17 3 sam_gameboy/1700 House1AC 4 12 0/1830 House1AC 12 17 1/2200 House1AC 19 5 3 sam_sleep",
+        "rain2": "1000 House1AC 14 6 3/1100 House1AC 15 13 2/1200 Saloon 38 18 0 \"Strings\\schedules\\Sam:rain2.000\"/2000 House1AC 19 5 3 sam_sleep",
+        "winter_17": "930 House1AC 14 6 3/1030 House1AC 2 12 2 sam_guitar/1500 Beach 11 34 3 \"Strings\\schedules\\Sam:winter_17.000\"/2130 House1AC 19 5 3 sam_sleep",
+        "summer": "930 House1AC 2 12 2 sam_guitar/1200 Beach 46 24 2/1900 House1AC 12 17 1/2200 House1AC 19 5 3 sam_sleep",
+        "fall": "1000 House1AC 14 6 3/1040 House1AC 2 12 2 sam_guitar/1200 Forest 66 50 2/1900 House1AC 12 17 1/2200 House1AC 19 5 3 sam_sleep",
+        "winter": "1000 House1AC 14 6 3/1040 House1AC 2 12 2 sam_guitar/1200 Saloon 20 19 3/1900 House1AC 12 17 1/2200 House1AC 19 5 3 sam_sleep",
+        "fall_11": "830 House1AC 14 6 3 \"Strings\\schedules\\Sam:fall_11.000\"/930 Hospital 14 15 3 sam_gameboy/1330 Hospital 4 6 1 \"Strings\\schedules\\Sam:fall_11.001\"/1600 Town 11 94 2 \"Strings\\schedules\\Sam:fall_11.002\"/2100 House1AC 19 5 3 sam_sleep",
+        "Sat": "900 Town 25 98 2/1130 Town 18 94 3 sam_gameboy/1230 SamHouse1AC7 15 2 sam_guitar/1500 SamHouse 19 13 3/1800 Town 12 94 3/1940 House1AC 19 5 3 sam_sleep",
+        "9_6": "GOTO spring",
+        "23_6": "GOTO spring",
+        "Mon": "830 JojaMart 16 5 2 sam_work/1600 House1AC 4 12 0/2130 House1AC 19 5 3 sam_sleep",
+        "Wed": "GOTO Mon",
+        "JojaMart_Replacement": "ArchaeologyHouse 40 4 2",
+        "Fri": "900 House1AC 2 12 2 sam_guitar/1000 Town 14 90 2 sam_skateboarding/1500 Saloon 36 21 3 sam_pool/2120 House1AC 19 5 3 sam_sleep",
+        "spring": "1000 House1AC 14 6 3/1040 House1AC 2 12 2 sam_guitar/1200 Town 71 99 2/1830 House1AC 12 17 1/2100 House1AC 19 5 3 sam_sleep",
+       
+       //Meet with Penny
+        "spring_Tue": "800 ArchaeologyHouse 18 12 0 \"Strings\\schedules\\Sam:spring.002\"/1340 Town 71 99 2/1830 House1AC 12 17 1/2100 House1AC 19 5 3 sam_sleep",
+        "spring_Thu": "900 House1AC 14 6 3/1000 House1AC 2 12 2 sam_guitar \"Strings\\schedules\\Sam:spring.001\"/1340 Town 71 99 2/1830 House1AC 12 17 1/2100 House1AC 19 5 3 sam_sleep",
+        "summer_Sun": "1000 House1AC 14 6 3/1040 House1AC 2 12 2 sam_guitar/1200 Beach 46 24 2 \"Strings\\schedules\\Sam:summer.001\"/1900 House1AC 12 17 1/2100 House1AC 19 5 3 sam_sleep",
+        "summer_Wed": "1000 House1AC 2 12 2/1100 House1AC 2 12 2 sam_guitar/1500 House1AC 4 12 0/1700 Forest 35 25 2 \"Strings\\schedules\\Sam:summer.002\"/2230 House1AC 19 5 3 sam_sleep",
+        "fall_Sat": "900 Town 30 90 1/1200 Town 12 12 1 \"Strings\\schedules\\Sam:fall.001\"/1700 Forest 66 50 2/2030 House1AC 12 17 1/2100 House1AC 19 5 3 sam_sleep",
+        "fall_Thu": "800 House1AC 14 6 3/930 House1AC 2 12 2 sam_guitar \"Strings\\schedules\\Sam:fall.002\"/1200 Town 71 99 2/1830 House1AC 12 17 1/2100 House1AC 19 5 3 sam_sleep",
+        "winter_Wed": "800 ArchaeologyHouse 18 12 0 \"Strings\\schedules\\Sam:winter.001\"/1340 Town 71 99 2/1830 House1AC 12 17 1/2200 House1AC 19 5 3 sam_sleep",
+        "winter_Sun": "1000 House1AC 14 6 3/1040 House1AC 2 12 2 sam_guitar/1200 Saloon 20 19 3/1830 Beach 12 38 2 \"Strings\\schedules\\Sam:winter.002\"/2130 House1AC 19 5 3 sam_sleep",
+       
+    //Family dinner
+        "1": "1000 House1AC 14 6 3/1040 House1AC 2 12 2 sam_guitar/1600 House1AC 14 18 0 \"Strings\\schedules\\Sam:familydinner.001\"/2030 House1AC 13 18 0 \"Strings\\schedules\\Sam:familydinner.002\"/2230 House1AC 19 5 3 sam_sleep"
+   },
+}

@@ -1,0 +1,46 @@
+{
+    "Name": "Peridot",
+    "Description": "An olive colored gem.",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
+    "Edibility": -300,
+    "Price": 250,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "페리도트",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Peridoto",
+        // "ru": "",
+        // "tr": "",
+        "zh": "橄榄石",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "올리브색의 보석.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Uma gema de cor oliva.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "橄榄绿色的宝石。",
+    },
+	
+    "ContextTags": [
+        "color_yellow_green", "yellow_green_gem", 
+    ],
+}

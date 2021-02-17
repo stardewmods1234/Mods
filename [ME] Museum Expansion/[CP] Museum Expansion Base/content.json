@@ -1,0 +1,79 @@
+{
+    "Format": "1.19.0",
+    "ConfigSchema": {
+
+        "CharliePortrait": {
+            "AllowValues": "Original, FellowOriginal, FellowEdited",
+            "Description": "Alters between the three Charlie portrait options available for the mod",
+            "Default": "Original",
+            "AllowBlank": false,
+        },
+        "RandyPortrait": {
+        "AllowValues": "RandyOriginal, RandyRevamped",
+        "Description": "Alters between the original and the revamped portraits for Randy",
+        "Default": "RandyRevamped",
+        "AllowBlank": false,
+    },
+    },
+    "DynamicTokens": [{
+            "Name": "recolour",
+            "Value": "Vanilla",
+        }, {
+            "Name": "recolour",
+            "Value": "FlowerValley",
+            "When": {
+                "HasMod: |contains=kaya.floralvalley": "true"
+            },
+        }, {
+            "Name": "recolour",
+            "Value": "Starblue",
+            "When": {
+                "HasMod: |contains=Lita.StarblueValley": "true"
+            },
+        }, {
+            "Name": "recolour",
+            "Value": "VibrantPastoral",
+            "When": {
+                "HasMod: |contains=grapeponta.VibrantPastoralRecolor": "true"
+            },
+        },
+    ],
+
+    "Changes": [{
+            "LogName": "Charlie Npc base",
+            "Action": "Include",
+            "FromFile": "assets/Includes/CharlieInclude.json",
+        }, {
+            "LogName": "Randy Npc base",
+            "Action": "Include",
+            "FromFile": "assets/Includes/RandyInclude.json",
+        }, {
+            "LogName": "GuntherWoods Npc Base",
+            "Action": "Include",
+            "FromFile": "assets/Includes/GuntherWoodsInclude.json",
+        }, {
+            "LogName": "Events Include",
+            "Action": "Include",
+            "FromFile": "assets/Includes/EventsInclude.json",
+        }, {
+            "LogName": "Npcs Festival Dialogues",
+            "Action": "Include",
+            "FromFile": "assets/Includes/FestivalDialogues.json",
+        }, {
+            "LogName": "Maps Include",
+            "Action": "Include",
+            "FromFile": "assets/Includes/MapsChanges.json",
+		}, {
+                "LogName": "Animations",
+                "Action": "EditData",
+                "Target": "Data/animationdescriptions",
+                "Entries": {
+                    "charlie_read": "16/16 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17 17 16 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17 17/17",
+                    "charlie_drink": "20/20 20 20 20 20 20 21 21 21 21 21 21 22 22 22 22 22 22/22",
+                    "randy_read": "16/16 16 16 16 16 16 16 17 17 17 17 17 17 17 18 18 18 18 18 18 18/18",
+                    "randy_shop": "19/19/19",
+                    "gunther_search": "17/17 17 17 17 18 18 18 18 18 19 19 19 19/19",
+                },
+            },
+            ]
+        }

@@ -1,0 +1,57 @@
+{
+    "Name": "Estorial Deflowerizer",
+    "Description": "Extract basic ores from any flower. (As a matter of fact, many living things are made of minerals in small quantities)",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveExtraIndexCount": 6,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 80,
+            "Count": 1,
+        },
+        {
+            "Object": 60,
+            "Count": 1,
+        },
+        {
+            "Object": 335,
+            "Count": 2,
+        }, ],
+        "CanPurchase": false,
+        "IsDefault": false,
+    },
+    "CanPurchase": false,
+    //"PurchaseFrom": "Clint",
+    //"PurchasePrice": 1000,
+    "NameLocalization":
+    {
+        //"es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "Name": "Middlemist Red",
+    "Description": "This beautiful camellia is extinct in its native land, making it the rarest flower in the world.",
+    "Category": "Flower",
+    "Edibility": 20,
+    "Price": 2500,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+		"Love": ["Evelyn", "Jas", "Sandy" ],
+        "Like": ["Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Emily", "Gus", "Haley", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Shane", "Vincent", "Willy", "Wizard" ],
+		"Dislike": [ "Clint", "George", "Sebastian"]
+    },
+    "NameLocalization":
+    {
+        
+    },
+    "DescriptionLocalization":
+    {
+        
+    },
+    "ContextTags": [
+        "season_winter",
+        "color_red",
+        "flower_item",
+    ]
+}

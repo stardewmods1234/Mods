@@ -1,0 +1,230 @@
+{
+"Changes": [
+{   
+    "Action": "EditData",
+	"Target": "Data/MoviesReactions",
+	"Entries": {
+	"Denver": {
+    "NPCName": "Denver",
+    "Reactions": [
+	{
+        "Tag": "*",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Sure, why not?$h"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"Denver is watching quietly...\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "That wasn't half bad.$h"
+          }
+        },
+        "ID": "reaction_13"
+      },
+      {
+        "Tag": "fall_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "This one looks pretty good.$h"
+          },
+          "DuringMovie": {
+            "ResponsePoint": "mysterium_shadow",
+            "Script": "",
+            "Text": "Do people actually think this is scary?"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Probably could have been scarier, but that was pretty good.$h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "fall_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+		"BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I've been really looking forward to this one, it has great reviews.$h"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"Denver seems really into the movie.\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "That's gotta be one of my favorite movies.$h"
+          }
+        },
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "documentary",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "romance",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_3"
+      },
+	  {
+        "Tag": "family",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_5"
+      },
+	  {
+        "Tag": "horror",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_6"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I can tell that this will be good.$h"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "It's definitely better than I thought it'd be.$h"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "At least today wasn't a total waste of time."
+          }
+        },
+        "ID": "reaction_7"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hm. This one might be alright. We can give it a shot."
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "That wasn't so bad after all.$h"
+          }
+        },
+        "ID": "reaction_8"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "...Are you sure you wanna see that one? Hm."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/emote Denver 12/message \"Denver is on his phone...\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Wow, that was, uh... just as bad as I thought it'd be."
+          }
+        },
+        "ID": "reaction_9"
+      },
+	  {
+        "Tag": "seen_love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Heh, sure, I guess we could see it again.$h"
+          },
+          "DuringMovie": null,
+          "AfterMovie": null,
+        },
+        "ID": "reaction_10"
+      },
+	  {
+        "Tag": "seen_like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Sure, why not."
+          },
+          "DuringMovie": null,
+          "AfterMovie": null,
+        },
+        "ID": "reaction_11"
+      },
+	  {
+        "Tag": "seen_dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Don't get me wrong, but it wasn't good the first time."
+          },
+          "DuringMovie": null,
+          "AfterMovie": null,
+        },
+        "ID": "reaction_12"
+      },
+    ]
+  },
+}
+}
+]	  
+
+}

@@ -1,0 +1,1567 @@
+{
+	"Format": "1.17.0",
+	
+			"ConfigSchema": 
+		{
+			"Agate":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 
+			"AgateOnyx":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"AgateSardonyx":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"BerylBixbite":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"BerylGoshenite":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"BerylHeliodor":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"BerylMaxixe":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"BerylMorganite":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"DiamondBlack":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"DiamondBlue":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"DiamondChampagne":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"DiamondGreen":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"DiamondOrange":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"DiamondPink":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"DiamondPurple":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"DiamondRed":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"DiamondYellow":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"FossilAmber":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"FossilHalite":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"FossilJet":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"Garnet":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"GarnetAlmandine":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"GarnetAndradite":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"GarnetGrossular":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"GarnetHessonite":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"GarnetHydrogrossular":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"GarnetPyrope":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"GarnetRhodolite":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"GarnetSpessartite":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"GarnetTsavorite":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"GarnetUvarovite":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"GlassSand":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"JadeIce":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"JadeLavender":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"Kunzite":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"LapisLazuli":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"Larimar":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"MetalPlatinum":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"MetalPlatinumBar":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"MetalSilver":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"MetalSilverBar":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"Moonstone":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"OpalPink":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"PearlBaroque":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"PearlBlack":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"PearlConch":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"PearlCream":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"PearlGold":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"PearlPink":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"PearlSilver":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"Peridot":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"PinkFossilHalite":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"QuartzAmetrine":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"QuartzCitrin":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"QuartzMilky":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"QuartzRose":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"Rhodochrosite":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"Rhodonite":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"Sapphire":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"SapphireGreen":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"SapphireIndianStar":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"SapphireOrange":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"SapphirePadparadscha":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"SapphirePink":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"SapphireWhite":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"SapphireWhiskey":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"SapphireYellow":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"SpinelBlue":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"SpinelGreen":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"SpinelPink":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"SpinelRed":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"SpinelYellow":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"Sunstone":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"Tanzanite":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"TopazBlue":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"TopazImperial":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"TopazPink":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"TopazWhite":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"TourmalineAchroite":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"TourmalineDravite":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"TourmalineIndicolite":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"TourmalineRubellite":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"TourmalineSchorl":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"TourmalineSiberite":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"TourmalineVerdelite":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"TourmalineWatermelon":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+			"Turquoise":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+		},
+	"Changes": [
+		{
+			"LogName": "Agate",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Agate}}",
+			"FromFile": "assets/agate.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Agate}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Agate}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"Agate": "true"},
+		},
+		{
+			"LogName": "Agate Onyx",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Onyx}}",
+			"FromFile": "assets/agate_onyx.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Onyx}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Onyx}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"AgateOnyx": "true"},
+		},
+		{
+			"LogName": "Agate Sardonyx",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Sardonyx}}",
+			"FromFile": "assets/agate_sardonyx.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Sardonyx}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Sardonyx}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"AgateSardonyx": "true"},
+		},
+		{
+			"LogName": "Beryl Bixbite",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Bixbite}}",
+			"FromFile": "assets/beryl_bixite.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Bixbite}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Bixbite}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"BerylBixbite": "true"},
+		},
+		{
+			"LogName": "Beryl Goshenite",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Goshenite}}",
+			"FromFile": "assets/beryl_ghoshenite.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Goshenite}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Goshenite}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"BerylGoshenite": "true"},
+		},
+		{
+			"LogName": "Beryl Heliodor",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Heliodor}}",
+			"FromFile": "assets/beryl_heliodor.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Heliodor}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Heliodor}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"BerylHeliodor": "true"},
+		},
+		{
+			"LogName": "Beryl Maxixe",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Maxixe}}",
+			"FromFile": "assets/beryl_maxxie.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Maxixe}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Maxixe}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"BerylMaxixe": "true"},
+		},
+		{
+			"LogName": "Beryl Morganite",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Morganite}}",
+			"FromFile": "assets/beryl_morganite.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Morganite}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Morganite}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"BerylMorganite": "true"},
+		},
+		{
+			"LogName": "Diamond Black",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Black Diamond}}",
+			"FromFile": "assets/diamond_black.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Black Diamond}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Black Diamond}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"DiamondBlack": "true"},
+		},
+		{
+			"LogName": "Diamond Blue",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Blue Diamond}}",
+			"FromFile": "assets/diamond_blue.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Blue Diamond}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Blue Diamond}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"DiamondBlue": "true"},
+		},
+		{
+			"LogName": "Diamond Champagne",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Champagne Diamond}}",
+			"FromFile": "assets/diamond_champagne.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Champagne Diamond}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Champagne Diamond}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"DiamondChampagne": "true"},
+		},
+		{
+			"LogName": "Diamond Green",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Green Diamond}}",
+			"FromFile": "assets/diamond_green.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Green Diamond}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Green Diamond}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"DiamondGreen": "true"},
+		},
+		{
+			"LogName": "Diamond Orange",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Orange Diamond}}",
+			"FromFile": "assets/diamond_orange.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Orange Diamond}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Orange Diamond}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"DiamondOrange": "true"},
+		},
+		{
+			"LogName": "Diamond Pink",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Pink Diamond}}",
+			"FromFile": "assets/diamond_pink.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Pink Diamond}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Pink Diamond}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"DiamondPink": "true"},
+		},
+		{
+			"LogName": "Diamond Purple",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Purple Diamond}}",
+			"FromFile": "assets/diamond_purple.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Purple Diamond}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Purple Diamond}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"DiamondPurple": "true"},
+		},
+		{
+			"LogName": "Diamond Red",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Red Diamond}}",
+			"FromFile": "assets/diamond_red.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Red Diamond}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Red Diamond}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"DiamondRed": "true"},
+		},
+		{
+			"LogName": "Diamond Yellow",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Yellow Diamond}}",
+			"FromFile": "assets/diamond_yellow.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Yellow Diamond}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Yellow Diamond}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"DiamondYellow": "true"},
+		},
+		{
+			"LogName": "Fossil Amber",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Amber}}",
+			"FromFile": "assets/fossil_amber.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Amber}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Amber}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"FossilAmber": "true"},
+		},
+		{
+			"LogName": "Fossil Halite",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Halite}}",
+			"FromFile": "assets/fossil_halite.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Halite}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Halite}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"FossilHalite": "true"},
+		},
+		{
+			"LogName": "Fossil Jet",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Jet}}",
+			"FromFile": "assets/fossil_jet.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Jet}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Jet}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"FossilJet": "true"},
+		},
+		{
+			"LogName": "Garnet",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Garnet}}",
+			"FromFile": "assets/garnet.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Garnet}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Garnet}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"Garnet": "true"},
+		},
+		{
+			"LogName": "Garnet Almandine",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Almandine Garnet}}",
+			"FromFile": "assets/garnet_almandine.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Almandine Garnet}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Almandine Garnet}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"GarnetAlmandine": "true"},
+		},
+		{
+			"LogName": "Garnet Andradite",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Andradite Garnet}}",
+			"FromFile": "assets/garnet_andradite.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Andradite Garnet}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Andradite Garnet}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"GarnetAndradite": "true"},
+		},
+		{
+			"LogName": "Garnet Grossular",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Grossular Garnet}}",
+			"FromFile": "assets/garnet_grossular.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Grossular Garnet}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Grossular Garnet}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"GarnetGrossular": "true"},
+		},
+		{
+			"LogName": "Garnet Hessonite",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Hessonite Garnet}}",
+			"FromFile": "assets/garnet_hessonite.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Hessonite Garnet}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Hessonite Garnet}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"GarnetHessonite": "true"},
+		},
+		{
+			"LogName": "Garnet Hydrogrossular",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Hydrogrossular Garnet}}",
+			"FromFile": "assets/garnet_hydrogrossular.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Hydrogrossular Garnet}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Hydrogrossular Garnet}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"GarnetHydrogrossular": "true"},
+		},
+		{
+			"LogName": "Garnet Pyrope",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Pyrope Garnet}}",
+			"FromFile": "assets/garnet_pyrope.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Pyrope Garnet}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Pyrope Garnet}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"GarnetPyrope": "true"},
+		},
+		{
+			"LogName": "Garnet Rhodolite",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Rhodolite Garnet}}",
+			"FromFile": "assets/garnet_rhodolite.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Rhodolite Garnet}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Rhodolite Garnet}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"GarnetRhodolite": "true"},
+		},
+		{
+			"LogName": "Garnet Spessartite",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Spessartite Garnet}}",
+			"FromFile": "assets/garnet_spessartite.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Spessartite Garnet}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Spessartite Garnet}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"GarnetSpessartite": "true"},
+		},
+		{
+			"LogName": "Garnet Tsavorite",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Tsavorite Garnet}}",
+			"FromFile": "assets/garnet_tsavorite.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Tsavorite Garnet}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Tsavorite Garnet}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"GarnetTsavorite": "true"},
+		},
+		{
+			"LogName": "Garnet Uvarovite",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Uvarovite Garnet}}",
+			"FromFile": "assets/garnet_uvarovite.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Uvarovite Garnet}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Uvarovite Garnet}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"GarnetUvarovite": "true"},
+		},
+		{
+			"LogName": "Glass Sand",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Glass Sand}}",
+			"FromFile": "assets/glass_sand.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Glass Sand}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Glass Sand}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"GlassSand": "true"},
+		},
+		{
+			"LogName": "Jade Ice",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Ice Jade}}",
+			"FromFile": "assets/jade_ice.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Ice Jade}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Ice Jade}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"JadeIce": "true"},
+		},
+		{
+			"LogName": "Jade Lavender",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Lavender Jade}}",
+			"FromFile": "assets/jade_lavender.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Lavender Jade}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Lavender Jade}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"JadeLavender": "true"},
+		},
+		{
+			"LogName": "Kunzite",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Kunzite}}",
+			"FromFile": "assets/kunzite.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Kunzite}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Kunzite}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"Kunzite": "true"},
+		},
+		{
+			"LogName": "Lapis Lazuli",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Lapis Lazuli}}",
+			"FromFile": "assets/lapis_lazuli.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Lapis Lazuli}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Lapis Lazuli}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"LapisLazuli": "true"},
+		},
+		{
+			"LogName": "Larimar",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Larimar}}",
+			"FromFile": "assets/larimar.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Larimar}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Larimar}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"Larimar": "true"},
+		},
+		{
+			"LogName": "Metal Platinum", //just a reskin
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Platinum Ore}}",
+			"FromFile": "assets/metal_platinum.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Platinum Ore}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Platinum Ore}}", "Width": 16, "Height": 16 },
+			"When":
+				{"MetalPlatinum": "true"},
+		},
+		{
+			"LogName": "Metal Platinum Bar", //just a reskin
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Platinum Bar}}",
+			"FromFile": "assets/metal_platinum_bar.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Platinum Bar}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Platinum Bar}}", "Width": 16, "Height": 16 },
+			"When":
+				{"MetalPlatinum": "true"},
+		},
+		{
+			"LogName": "Metal Silver", //just a reskin
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Silver Ore}}",
+			"FromFile": "assets/metal_silver.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Silver Ore}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Silver Ore}}", "Width": 16, "Height": 16 },
+			"When":
+				{"MetalSilver": "true"},
+		},
+		{
+			"LogName": "Metal Silver Bar", //just a reskin
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Silver Bar}}",
+			"FromFile": "assets/metal_silver_bar.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Silver Bar}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Silver Bar}}", "Width": 16, "Height": 16 },
+			"When":
+				{"MetalSilverBar": "true"},
+		},
+		{
+			"LogName": "Moonstone",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Moonstone}}",
+			"FromFile": "assets/moonstone.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Moonstone}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Moonstone}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"Moonstone": "true"},
+		},
+		{
+			"LogName": "Opal Pink",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Pink Opal}}",
+			"FromFile": "assets/opal_pink.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Pink Opal}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Pink Opal}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"OpalPink": "true"},
+		},
+		{
+			"LogName": "Pearl Baroque", //just a reskin
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Baroque Pearl}}",
+			"FromFile": "assets/pearl_baroque.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Baroque Pearl}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Baroque Pearl}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 9,
+			"When":
+				{"PearlBaroque": "true"},
+		},
+		{
+			"LogName": "Pearl Black", //just a reskin
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Black Pearl}}",
+			"FromFile": "assets/pearl_black.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Black Pearl}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Black Pearl}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 9,
+			"When":
+				{"PearlBlack": "true"},
+		},
+		{
+			"LogName": "Pearl Conch", //just a reskin
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Conch Pearl}}",
+			"FromFile": "assets/pearl_conch.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Conch Pearl}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Conch Pearl}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 9,
+			"When":
+				{"PearlConch": "true"},
+		},
+		{
+			"LogName": "Pearl Cream", //just a reskin
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Cream Pearl}}",
+			"FromFile": "assets/pearl_cream.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Cream Pearl}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Cream Pearl}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 9,
+			"When":
+				{"PearlConch": "true"},
+		},
+		{
+			"LogName": "Pearl Gold", //just a reskin
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Gold Pearl}}",
+			"FromFile": "assets/pearl_gold.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Gold Pearl}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Gold Pearl}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 9,
+			"When":
+				{"PearlGold": "true"},
+		},
+		{
+			"LogName": "Pearl Pink", //just a reskin
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Pink Pearl}}",
+			"FromFile": "assets/pearl_pink.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Pink Pearl}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Pink Pearl}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 9,
+			"When":
+				{"PearlPink": "true"},
+		},
+		{
+			"LogName": "Pearl Silver", //just a reskin
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Silver Pearl}}",
+			"FromFile": "assets/pearl_silver.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Silver Pearl}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Silver Pearl}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 9,
+			"When":
+				{"PearlSilver": "true"},
+		},
+		{
+			"LogName": "Peridot",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Peridot}}",
+			"FromFile": "assets/peridot.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Peridot}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Peridot}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"Peridot": "true"},
+		},
+		{
+			"LogName": "Pink Fossil Halite",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Pink Halite}}",
+			"FromFile": "assets/pink_fossil_halite.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Pink Halite}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Pink Halite}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"PinkFossilHalite": "true"},
+		},
+		{
+			"LogName": "Quartz Ametrine",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Ametrine}}",
+			"FromFile": "assets/quartz_ametrine.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Ametrine}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Ametrine}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"QuartzAmetrine": "true"},
+		},
+		{
+			"LogName": "Quartz Citrin",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Citrin}}",
+			"FromFile": "assets/quartz_citrin.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX: Citrin}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Citrin}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"QuartzCitrin": "true"},
+		},
+		{
+			"LogName": "Quartz Milky",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Milky Quartz}}",
+			"FromFile": "assets/quartz_milky.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Milky Quartz}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Milky Quartz}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"QuartzMilky": "true"},
+		},
+		{
+			"LogName": "Quartz Rose",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Rose Quartz}}",
+			"FromFile": "assets/quartz_rose.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Rose Quartz}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Rose Quartz}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"QuartzRose": "true"},
+		},
+		{
+			"LogName": "Rhodochrosite",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Rhodochrosite}}",
+			"FromFile": "assets/rhodochrosite.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Rhodochrosite}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Rhodochrosite}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"Rhodochrosite": "true"},
+		},
+		{
+			"LogName": "Rhodonite",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Rhodonite}}",
+			"FromFile": "assets/rhodonite.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Rhodonite}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Rhodonite}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"Rhodonite": "true"},
+		},
+		{
+			"LogName": "Sapphire",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Sapphire}}",
+			"FromFile": "assets/sapphire.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Sapphire}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Sapphire}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"Sapphire": "true"},
+		},
+		{
+			"LogName": "Sapphire Green",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Green Sapphire}}",
+			"FromFile": "assets/sapphire_green.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Green Sapphire}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Green Sapphire}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"SapphireGreen": "true"},
+		},
+		{
+			"LogName": "Sapphire Indian Star",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Indian Star Sapphire}}",
+			"FromFile": "assets/sapphire_indian_star.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Indian Star Sapphire}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Indian Star Sapphire}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"SapphireIndianStar": "true"},
+		},
+		{
+			"LogName": "Sapphire Orange",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Orange Sapphire}}",
+			"FromFile": "assets/sapphire_orange.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Orange Sapphire}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Orange Sapphire}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"SapphireOrange": "true"},
+		},
+		{
+			"LogName": "Sapphire Padparadscha",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Padparadscha Sapphire}}",
+			"FromFile": "assets/sapphire_padparadscha.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Padparadscha Sapphire}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Padparadscha Sapphire}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"SapphirePadparadscha": "true"},
+		},
+		{
+			"LogName": "Sapphire Pink",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Pink Sapphire}}",
+			"FromFile": "assets/sapphire_pink.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Pink Sapphire}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Pink Sapphire}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"SapphirePink": "true"},
+		},
+		{
+			"LogName": "Sapphire White",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:White Sapphire}}",
+			"FromFile": "assets/sapphire_white.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:White Sapphire}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:White Sapphire}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"SapphireWhite": "true"},
+		},
+		{
+			"LogName": "Sapphire Whiskey",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Whiskey Sapphire}}",
+			"FromFile": "assets/sapphire_whiskey.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Whiskey Sapphire}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Whiskey Sapphire}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"SapphireWhiskey": "true"},
+		},
+		{
+			"LogName": "Sapphire Yellow",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Yellow Sapphire}}",
+			"FromFile": "assets/sapphire_yellow.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Yellow Sapphire}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Yellow Sapphire}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"SapphireYellow": "true"},
+		},
+		{
+			"LogName": "Spinel Blue",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Blue Spinel}}",
+			"FromFile": "assets/spinel_blue.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Blue Spinel}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Blue Spinel}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"SpinelBlue": "true"},
+		},
+		{
+			"LogName": "Spinel Green",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Green Spinel}}",
+			"FromFile": "assets/spinel_green.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Green Spinel}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Green Spinel}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"SpinelGreen": "true"},
+		},
+		{
+			"LogName": "Spinel Pink",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Pink Spinel}}",
+			"FromFile": "assets/spinel_pink.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Pink Spinel}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Pink Spinel}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"SpinelPink": "true"},
+		},
+		{
+			"LogName": "Spinel",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Spinel}}",
+			"FromFile": "assets/spinel_red.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Spinel}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Spinel}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"SpinelRed": "true"},
+		},
+		{
+			"LogName": "Spinel Yellow",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Yellow Spinel}}",
+			"FromFile": "assets/spinel_yellow.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Yellow Spinel}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Yellow Spinel}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"SpinelYellow": "true"},
+		},
+		{
+			"LogName": "Sunstone",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Sunstone}}",
+			"FromFile": "assets/Sunstone.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Sunstone}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Sunstone}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"Sunstone": "true"},
+		},
+		{
+			"LogName": "Tanzanite",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Tanzanite}}",
+			"FromFile": "assets/tanzanite.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Tanzanite}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Tanzanite}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"Tanzanite": "true"},
+		},
+		{
+			"LogName": "Topaz Blue",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Blue Topaz}}",
+			"FromFile": "assets/topaz_blue.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Blue Topaz}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Blue Topaz}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"TopazBlue": "true"},
+		},
+		{
+			"LogName": "Topaz Imperial",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Imperial Topaz}}",
+			"FromFile": "assets/topaz_imperial.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Imperial Topaz}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Imperial Topaz}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"TopazImperial": "true"},
+		},
+		{
+			"LogName": "Topaz Pink",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Pink Topaz}}",
+			"FromFile": "assets/topaz_pink.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Pink Topaz}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Pink Topaz}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"TopazPink": "true"},
+		},
+		{
+			"LogName": "Topaz White",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:White Topaz}}",
+			"FromFile": "assets/topaz_white.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:White Topaz}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:White Topaz}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"TopazWhite": "true"},
+		},
+		{
+			"LogName": "Tourmaline Achroite",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Achroite Tourmaline}}",
+			"FromFile": "assets/tourmaline_achroite.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Achroite Tourmaline}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Achroite Tourmaline}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"TourmalineAchroite": "true"},
+		},
+		{
+			"LogName": "Tourmaline Dravite",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Dravite Tourmaline}}",
+			"FromFile": "assets/tourmaline_dravite.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Dravite Tourmaline}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Dravite Tourmaline}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"TourmalineDravite": "true"},
+		},
+		{
+			"LogName": "Tourmaline Indicolite",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Indicolite Tourmaline}}",
+			"FromFile": "assets/tourmaline_indicolite.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Indicolite Tourmaline}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Indicolite Tourmaline}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"TourmalineIndicolite": "true"},
+		},
+		{
+			"LogName": "Tourmaline Rubellite",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Rubellite Tourmaline}}",
+			"FromFile": "assets/tourmaline_rubelite.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Rubellite Tourmaline}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Rubellite Tourmaline}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"TourmalineRubellite": "true"},
+		},
+		{
+			"LogName": "Tourmaline Schorl",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Schorl Tourmaline}}",
+			"FromFile": "assets/tourmaline_schorl.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Schorl Tourmaline}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Schorl Tourmaline}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"TourmalineSchorl": "true"},
+		},
+		{
+			"LogName": "Tourmaline Siberite",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Siberite Tourmaline}}",
+			"FromFile": "assets/tourmaline_siberite.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Siberite Tourmaline}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Siberite Tourmaline}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"TourmalineSiberite": "true"},
+		},
+		{
+			"LogName": "Tourmaline Verdelite",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Verdelite Tourmaline}}",
+			"FromFile": "assets/tourmaline_verdelite.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Verdelite Tourmaline}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Verdelite Tourmaline}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"TourmalineVerdelite": "true"},
+		},
+		{
+			"LogName": "Tourmaline Watermelon",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Watermelon Tourmaline}}",
+			"FromFile": "assets/tourmaline_watermelon.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Watermelon Tourmaline}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Watermelon Tourmaline}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"TourmalineWatermelon": "true"},
+		},
+		{
+			"LogName": "Turquoise",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Turquoise}}",
+			"FromFile": "assets/tourquise.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Turquoise}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Turquoise}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 5,
+			"When":
+				{"Turquoise": "true"},
+		},
+	]
+}

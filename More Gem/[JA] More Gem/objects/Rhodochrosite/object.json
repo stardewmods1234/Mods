@@ -1,0 +1,46 @@
+{
+    "Name": "Rhodochrosite",
+    "Description": "A pink rose stone characterized by white stripes.",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
+    "Edibility": -300,
+    "Price": 200,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "로도크로사이트",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Rodocrosita",
+        // "ru": "",
+        // "tr": "",
+        "zh": "红纹石",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "흰 줄무늬가 특징적인 분홍색 장미휘석.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Uma pedra rosada caracterizada por listras brancas.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "被白色条纹覆盖的玫瑰粉色矿石，学名菱锰矿石。",
+    },
+	
+    "ContextTags": [
+        "color_pink", "pink_gem", 
+    ],
+}

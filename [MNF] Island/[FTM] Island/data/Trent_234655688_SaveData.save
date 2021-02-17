@@ -1,0 +1,79 @@
+{
+  "WeatherForYesterday": "Debris",
+  "LNOSCounter": {},
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Island",
+      "Name": "Red Dragon Fruit",
+      "Tile": "15, 26",
+      "Type": "Forage",
+      "ID": 2717,
+      "DaysUntilExpire": 8,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Island",
+      "Name": null,
+      "Tile": "22, 28",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 9,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "buried",
+        "PercentChanceToSpawn": 3.0,
+        "Contents": [
+          589
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Island",
+      "Name": "Red Dragon Fruit",
+      "Tile": "28, 22",
+      "Type": "Forage",
+      "ID": 2717,
+      "DaysUntilExpire": 11,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Island",
+      "Name": null,
+      "Tile": "31, 13",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 13,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "buried",
+        "PercentChanceToSpawn": 3.0,
+        "Contents": [
+          589
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Island",
+      "Name": null,
+      "Tile": "26, 12",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "buried",
+        "Contents": [
+          "Mosasaur Scapula"
+        ]
+      },
+      "MonType": null
+    }
+  ]
+}

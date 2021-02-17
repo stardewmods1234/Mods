@@ -1,0 +1,54 @@
+{
+  "Name": "Strawberry Drizzle Ice Cream",
+  "Description": "A sweet vanilla ice cream with a sweet strawberry drizzle on top.",
+  "Category": "Cooking",
+  "Edibility": 48,
+  "Price": 250,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Vanilla Ice Cream",
+        "Count": 1,
+      },
+      {
+        "Object": "Strawberry Syrup",
+        "Count": 1,
+      },
+    ],
+},
+   "GiftTastes":
+    {
+        "Love": ["Demetrius", "Maru"],
+        "Like": ["Elliott", "Harvey", "Jodi", "Kent", "Leah", "Linus", "Pam", "Robin", "Sandy", "Shane"],
+        "Dislike": ["Abigail", "Haley", "Jas", "Vincent"]
+    },
+  "NameLocalization": { 
+		// "es": "",
+		"ko": "딸기 드리즐 아이스크림",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "草莓细雨冰淇淋",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        "ko": "딸기 드리즐을 올린 달콤한 바닐라 아이스크림.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "甜甜的香草冰淇淋，上面撒上了草莓毛毛雨。",
+    }  
+}

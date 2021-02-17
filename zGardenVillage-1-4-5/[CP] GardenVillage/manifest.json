@@ -1,0 +1,17 @@
+{
+  "Name": "Garden Village",
+  "Author": "Tarniyar",
+  "Version": "1.4.5",
+  "Description": "Makes changes vanilla game files",
+  "UniqueID": "Tarniyar.CP.GardenVillage",
+  "MinimumApiVersion": "3.0",
+  "UpdateKeys": [ "Nexus:6113" ],
+  "ContentPackFor": {
+  "UniqueID": "Pathoschild.ContentPatcher",
+   },
+  	"Dependencies": [
+		{
+			"UniqueID": "spacechase0.JsonAssets"
+		}
+	]
+}

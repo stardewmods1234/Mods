@@ -1,0 +1,58 @@
+{
+  "Name": "Mint Chocolate Cake Bar",
+  "Description": "A rich chocolate cake bar with a cool mint icing.",
+  "Category": "Cooking",
+  "Edibility": 55,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 250,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Mint",
+        "Count": 1,
+      },
+      {
+        "Object": 245,
+        "Count": 1,
+      },
+      {
+        "Object": 246,
+        "Count": 1,
+      }
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 100,
+    "PurchaseRequirements": null
+  },
+  "NameLocalization": { 
+		// "es": "",
+		"ko": "민트초코 케이크바",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "薄荷巧克力蛋糕",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        "ko": "시원한 민트 아이싱을 곁들인 진한 초콜렛 케이크바.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "一个浓郁的巧克力蛋糕，带有凉爽的薄荷糖衣。",
+    }  
+}

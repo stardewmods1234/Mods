@@ -1,0 +1,17 @@
+{
+	"Name": "Regras para BFAV Pecuária Expandida",
+	"Author": "HamioDracny",
+	"Version": "1.0.2",
+	//"Description": "Regras",
+	"UniqueID": "HamioDracny.JA.regras",
+    "MinimumApiVersion": "3.5.0",
+    "UpdateKeys": ["Nexus:7176"],
+	"Dependencies": [
+		{
+			"UniqueID": "HamioDracny.BFAV.animais"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "Digus.ProducerFrameworkMod"
+	},
+}

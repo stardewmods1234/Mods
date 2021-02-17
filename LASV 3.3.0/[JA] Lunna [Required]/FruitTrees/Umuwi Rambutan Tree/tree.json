@@ -1,0 +1,9 @@
+{
+  "Name": "Umuwi Rambutan Tree",
+  "Product": "Umuwi Rambutan",
+  "SaplingName": "Umuwi Rambutan Sapling",
+  "SaplingDescription": "Takes 28 days to produce a mature Rambutan tree. Ready to harvest in the spring. Only grows if the 8 surrounding tiles are empty.",
+  "Season": "spring",
+  "SaplingPurchasePrice": 7000,
+  "SaplingPurchaseFrom": "Oddi",
+}

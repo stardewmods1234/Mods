@@ -1,0 +1,576 @@
+﻿
+{
+//Portugese translation by Likulau
+	
+"Changes": [
+	
+		
+		{	"LogName": "NPC Gift Tastes", 
+			"Action": "EditData", 
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"MisterGinger": "Mirrup!/130 139 148 198 227 267 424 426 715/Mirp!/-4 168 95 50 125 195 209 228 305 444 446 684 685 732/Mirrrrp?/-81 -2 -75 -79 -7/Mirruck/2 220 221 222 223 -26 395/Mirrrr?//"
+						}
+		},
+		{	"LogName": "NPC Gift Tastes", 
+			"Action": "EditData", 
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"MisterGinger": "Oooh, Um presente? Obrigado! Eu amo isso. *ronrona*/130 139 148 198 227 267 424 426 715/Oooh, um presente para mim? Obrigado eu adorei!/-4 168 95 50 125 195 209 228 305 444 446 684 685 732/Isso é para mim? Eu deveria... comer?/-81 -2 -75 -79 -7/Eu não gosto de ser ridicularizado, @./2 220 221 222 223 -26 395/Oh, você me deu um presente. Bem, que seja.//"
+						},
+						"When": {
+							"HasSeenEvent": "50706121"
+						}
+					},
+
+				
+
+		
+		{	"LogName": "Dialogue 6-hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MisterGinger",
+			"FromFile": "assets/Dialogue/PT/dialogue6.json",
+				"When": {
+					"HasSeenEvent |contains=50706121":true
+				}
+			},
+			
+
+		{
+			"LogName": "Rainy Day Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"Entries": {
+					"MisterGinger": "Murrrr.....$2"
+					}
+			},
+	{	"LogName": "Rainy Day Dialogue 6-hearts",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/rainy",
+		"Entries": {
+					"MisterGinger": "Nha, eu odeio a chuva. Mas, é uma boa desculpa para ficar em casa e dormir o dia todo, né?"
+						},
+			"When": {
+				"HasSeenEvent": "50706121"
+			}
+		},
+		
+		
+		{
+			"Action": "EditData",
+			"Target": "strings/schedules/MisterGinger",
+			"FromFile": "assets/Dialogue/PT/StringsMisterGinger6.json",
+			"When": {
+				"HasSeenEvent |contains=50706121":true
+			}              
+		},
+		
+		{ 
+			"Action": "EditData",
+			"Target": "data/festivals/spring13",
+			"Entries": {
+			  "MisterGinger": "Murr!"
+			}
+		  },
+		  
+		  {
+			"Action": "EditData",
+			"Target": "data/festivals/spring13",
+			"Entries": {
+				"MisterGinger":  "Um festival para celebrar aqueles dinossauros em miniatura? Porque?$2#$b#Galinhas são tão bobas, E os pintinhos então. Não vale o esforço."
+									},
+			"When": {
+				"HasSeenEvent": "50706121"
+			}
+		  },
+		{
+			"Action": "EditData",
+			"Target": "data/festivals/spring24",
+			"Entries": {
+	 			 "MisterGinger": "Mirrup!"
+					}
+			},
+
+		  {
+			"Action": "EditData",
+			"Target": "data/festivals/spring24",
+			"Entries": {
+			  "MisterGinger": "Hm... Você acha que o Marlon vai convidar ela para dançar?$1#$b#Eu o vi enfrentar monstros terríveis, o que ele tem a perder? O outro olho?$3"
+			 
+							},
+			"When": {
+				"HasSeenEvent": "50706121", "Hearts:Marnie": "6,7,8,9,10"
+				}
+					},  
+		  {
+			"Action": "EditData",
+			"Target": "data/festivals/spring24",
+			"Entries": {
+			  "MisterGinger": "Eu já te disse isso antes. Gatos. Não. Dançam.$2"
+							},
+				"When": {
+				"HasSeenEvent": "50706121"
+				}
+					},  
+		
+		{
+			"Action": "EditData",
+			"Target": "data/festivals/summer11",
+			"Entries": {
+			  "MisterGinger": "Mirrp?"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "data/festivals/summer11",
+			"Entries": {
+			  "MisterGinger": "Eu não comeria a sopa se fosse você. Vai ter gosto de terra e meias velhas.#$b#Por quê? Porque foi isso que eu coloquei na sopa.$3"
+								},
+				"When": {
+				"HasSeenEvent": "50706121"
+			}
+		
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "data/festivals/summer28",
+			"Entries": {
+			  "MisterGinger": "Mirrup!"
+			}
+		  },
+		  
+		  {
+			"Action": "EditData",
+			"Target": "data/festivals/summer28",
+			"Entries": {
+			  "MisterGinger": "Eles não são feitos de geléia e não são peixes.#$b#Por que os humanos dão nomes estúpidos às coisas?"
+							},
+			"When": {
+				"HasSeenEvent": "50706121"
+			}
+		  },  
+		  {
+			"Action": "EditData",
+			"Target": "data/festivals/fall16",
+			"Entries": {
+			  "MisterGinger": "Mirrup!"
+			}
+		  },
+		  
+		  {
+			"Action": "EditData",
+			"Target": "data/festivals/fall16",
+			"Entries": {
+			  "MisterGinger": "Eu não sei você, mas eu só estou aqui pela comida.#$b#Esse cara é um comedor totalmente desleixado."
+									},
+			"When": {
+				"HasSeenEvent": "50706121"
+									}
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "data/festivals/fall27",
+			"Entries": {
+			  "MisterGinger": "Me-ow?"
+			}
+		  },
+		  
+		  {
+			"Action": "EditData",
+			"Target": "data/festivals/fall27",
+			"Entries": {
+			  "MisterGinger": "E se eu for essa tal 'abóbora' dourada que todos estão procurando?$2"
+							},
+		
+			"When": {
+				"HasSeenEvent": "50706121"
+				}
+				
+		  },
+		
+		  {
+			"Action": "EditData",
+			"Target": "data/festivals/winter8",
+			"Entries": {
+				"MisterGinger": "Mirp!"
+			}
+		  },
+		  
+		  {
+			"Action": "EditData",
+			"Target": "data/festivals/winter8",
+			"Entries": {
+			  "MisterGinger": "*cantando* 'Peixe, peixe, peixe é gostoso'. Oh, Olá @.$3#$b#Você acha que se eu pedir com educação, eles vão me deixar levar alguns desses para casa?$4#$b#Eles não vão apenas jogá-los de volta? Que desperdício.$2"
+			},
+			"When": {
+				"HasSeenEvent": "50706121"
+				}
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "data/festivals/winter25",
+			"Entries": {
+			  "MisterGinger": "Murrr...$5"
+			}
+		  },
+		  
+		  {
+			"Action": "EditData",
+			"Target": "data/festivals/winter25",
+			"Entries": {
+			  "MisterGinger": "O que? Não estou de mau humor porque ninguém me trouxe um presente!$5#$b#Eu só preciso de um tempo sozinho ok?$2"
+			},
+			"When": {
+				"HasSeenEvent": "50706121"
+				}
+		  },
+
+		
+	{	"LogName": "2-heart Event",
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"Entries": {
+			"50706117/f MisterGinger 500/t 1400 1700/Hl Tristan_Returns/w sunny": "springtown/43 75/Emily -100 -100 2 MisterGinger 45 71 0 farmer 38 72 2/skippable/pause 500/animate MisterGinger false true 250 18 19/playSound cat/pause 700/move farmer 3 0 1/pause 250/stopAnimation MisterGinger/animate MisterGinger false false 250 17 16/pause 500/faceDirection MisterGinger 3/pause 250/playSound cat/pause 1000/animate MisterGinger false false 250 16 17/pause 500/animate MisterGinger false true 250 18 19/pause 500/pause 250/playSound cat/emote farmer 8/playSound stoneStep/pause 250/stopAnimation MisterGinger/pause 250/move MisterGinger 0 1 0/move MisterGinger 1 0 3/playSound doorOpen/warp Emily 45 71/pause 250/playSound cat/pause 250/playSound cat/pause 250/speak Emily \"Olá Osiris!$1\"/pause 250/speak MisterGinger \"Mirrrp?$2\"/pause 250/speak Emily \"Ok, ok... Não diga a Gus!$3\"/move MisterGinger 1 0 3/move MisterGinger 0 1 3/pause 250/playSound cat/move Emily 0 1 1/pause 250/playSound woodyStep/addObject 46 72 142/move MisterGinger -1 0 0/pause 250/playSound cat/pause 250/animate MisterGinger false false 250 42 43/animate MisterGinger false true 350 43 60 61 62/pause 500/speak Emily \"Oh, Você está com fome, Não está?, Osiris?$2\"/pause 250/move farmer 2 0 1/pause 250/emote farmer 8/pause 250/faceDirection Emily 3/pause 250/jump Emily 4/pause 250/speak Emily \"Oh, olá @! Você me surpreendeu.$1\"/pause 250/pause 250/speak Emily \"Você não vai contar ao Gus, vai?$2\"/pause 250/emote farmer 32/pause 250/speak Emily \"Ufa. Eu sei que Osiris mora no rancho, e ele provavelmente está bem alimentado - mas ele sempre parece tão faminto.$3\"/pause 250/stopAnimation MisterGinger/removeObject 46 72/pause 250/pause 250/animate MisterGinger false false 250 24 25 26 27 23/pause 1250/animate MisterGinger false true 200 29 30 29 23/playSound cat/pause 500/speak Emily \"Osiris, é uma criatura muito especial. Às vezes tenho a sensação de que ele é mais do que apenas um gato.$4\"/pause 500/playSound cat/speak Emily \"Although maybe there's no such thing as 'just a cat'!$1\"/pause 500/pause 250/question null \"O que você acha?#Definitivamente, há algo único sobre ele!#Todos os gatos têm personalidade proria.\"/pause 500/textAboveHead Emily \"Verdade!\"/pause 250/showFrame MisterGinger 25/playSound cat/pause 250/pause 500/faceDirection Emily 2/speak Emily \"Você gostou disso, Osiris?$3\"/pause 250/speak MisterGinger \"Mirp!$1\"/animate Misterginger false true 120 29 30 29 23/pause 250/textAboveHead Emily \"Fico feliz em ouvir isso!\"/pause 250/faceDirection Emily 3/pause 250/speak Emily \"Ele apareceu na cidade logo depois que Jas chegou aqui. Ela era apenas uma menina pequena, recentemente órfã. Era tão triste!$2#$b#Ninguém sabia de onde ele veio, ou de quem ele pertencia, mas você sabe o que eu acho?$3#$b#... Eu acredito que ele seja o anjo da guarda dela.$4\"/pause 500/playSound cat/pause 500/playSound stoneStep/pause 250/speak Emily \"Oops, é melhor eu ir. Gus deve estar se perguntando o que estou fazendo. Tchau @ tchau Osiris. Vejo você depois!\"/faceDirection Emily 0/pause 250/move Emily 0 -1 0/playSound doorOpen/warp Emily -100 -100/pause 500/faceDirection farmer 1/stopAnimation MisterGinger/move MisterGinger -2 0 3/pause 250/speak MisterGinger \"Murrrrr?$2\"/pause 500/emote farmer 32/pause 1000/end"
+			}				 
+		},
+	{	"LogName": "4-heart Event",
+		"Action": "EditData",
+		"Target": "Data/Events/SeedShop",
+						
+		"Entries": {  
+		"50706118/f MisterGinger 1000/d Mon Wed Thu Fri Sat Sun/Hl Tristan_Returns/t 1100 1500": "aerobics/-1000 -1000/farmer 14 12 1 Marnie 23 18 0 Robin 25 18 0 Caroline 24 15 2 Jodi 27 16 0 Pierre 9 17 1 MisterGinger 14 16 0/skippable/viewport 24 17 true/pause 500/animate Marnie false true 250 24 25 26 27/animate Jodi false true 250 19 19 19 19 20 21 22 23 23 23 23 22 21 20 19 19 20 21 22 23 23 23 23 22 21 20 21 22 23 22 21 20 22 23 22 21 20/animate Caroline false true 250 16 16 17 17 16 16 18 18/animate Robin false true 250 28 28 29 30 30 31/pause 1000/doAction 14 16/playSound doorOpen/faceDirection farmer 2/move MisterGinger 0 -3 0/pause 500/playSound cat/move farmer -1 0 1/pause 250/move MisterGinger 0 -1 1/speed MisterGinger 2/move MisterGinger 6 0 1/move Pierre 5 0 0/move farmer 6 0 2/pause 500/move MisterGinger 0 5 1/doAction 14 16/move Pierre 0 -4 0/pause 500/move MisterGinger 4 0 0/pause 250/stopAnimation Caroline/faceDirection Caroline 2/pause 250/playSound cat/move Pierre 0 -1 1 true/emote Caroline 12/pause 250/textAboveHead MisterGinger \"Meow?\"/pause 1000/textAboveHead Caroline \"Shoo!\"/stopAnimation Marnie/pause 500/speak Marnie \"Olá Mr.Ginger! Está aqui para se juntar a nós para fazer alguns exercícios?$1\"/move Marnie 0 -1 1/pause 250/faceDirection MisterGinger 3/pause 500/textAboveHead MisterGinger \"Mirp!\"/pause 500/stopAnimation Robin/faceDirection Robin 0/pause 500/speak Robin \"Ei gatinho! Mas você não é um sujeito bonito?$1\"/faceDirection MisterGinger 2/pause 500/animate MisterGinger false false 250 24 25 26 27 28/stopAnimation Jodi/pause 500/move Jodi -2 0 3/speak Jodi \"Mr.Ginger? Então esse é o nome dele?$1\"/pause 500/animate MisterGinger false True 120 29 30 31 30/pause 250/speak Marnie \"Bem, e assim que a Jas o chama.$1#$b#Mas ela diz que não é o nome *real* dele.$3\"/pause 500/speak Robin \"Eu o chamo de tigre!$4\"/pause 500/speak Jodi \"Sam o chama de Ganso. Não tenho certeza porque.\"/pause 500/move farmer 0 4 1/move Pierre 5 0 2/emote Caroline 40/pause 500/move farmer 2 0 1/pause 500/faceDirection Marnie 3/pause 250/speak Marnie \"Ah, olá @. Você conhece o Mr.Ginger, certo?$1\"/pause 250/emote Caroline 40/pause 500/speak Caroline \"Certo, senhoras, estamos aqui para fazer exercícios, não bajular um gato bobo.$3\"/pause 500/stopAnimation MisterGinger/faceDirection MisterGinger 0/faceDirection Marnie 0/pause 500/playSound cat/speak MisterGinger \"Murrrrrr....$5\"/pause 500/shake Marnie 350/pause 500/speak Marnie \"Oh não, agora você o irritou!$2\"/pause 500/move Pierre 0 3 1/textAboveHead Pierre \"Ei!\"/faceDirection Marnie 3/faceDirection farmer 3/faceDirection Caroline 3/faceDirection Jodi 3/faceDirection Robin 3/faceDirection MisterGinger 3/animate MisterGinger false true 250 20 21/pause 500/speak Pierre \"O que esse gato está fazendo aqui?$3#$b#Você sabe que eu sou A-A-A-aaa-CHOO!!!$2\"/shake Pierre 350/pause 1000/end"
+						}
+					},
+	{	"Action": "EditData",
+		"Target": "Data/Events/Farm",
+		"Entries":{
+		"50706120/f MisterGinger 1502/f Wizard 500/e 50706118/e 50706117/e 50706119/e 112/Hl Tristan_Returns/x Wizard_CatTalk": "null"
+								}
+					
+					},
+	{   "Action": "EditData",
+		"Target": "Data/mail",
+		"Entries":{ 
+			"Wizard_CatTalk": "Saudações,^ Solícito sua presença em minha torre, após as horas de escuridão. Por favor, traga um fragmento do Vazio. ^    -M. Rasmodius, O feiticeiro.[#]An invitation"
+							},
+				"When": {
+					"HasMod |contains=Ran.HarvestGoddess":false
+					}
+				},
+
+{	"LogName": "5-heart Event",
+	"Action": "EditData",
+	"Target": "Data/Events/Beach",
+				
+	"Entries": {
+		"50706119/f MisterGinger 1250/w sunny/Hl Tristan_Returns/t 1000 1600": "archaeo/-100 13/MisterGinger 40 16 0 farmer 42 9 2 Willy 26 21 0/skippable/changeSprite MisterGinger Fish/viewport 39 12 true/pause 250/move MisterGinger 0 -7 1/faceDirection farmer 3/pause 250/speak MisterGinger \"*Ofegando* Mrrrrp! $6\"/pause 250/emote farmer 8/speed Willy 4/move Willy 0 -12 0/playSound stairsdown/jump MisterGinger 3/speed MisterGinger 4/move MisterGinger 0 -2 1/faceDirection farmer 0/speed MisterGinger 4/faceDirection farmer 1/move MisterGinger 4 0 3/pause 500/faceDirection farmer 0/speed Willy 4/move Willy 14 0 1/pause 500/faceDirection farmer 3/jump farmer 3/pause 250/speak Willy \"*Puffs* Ahoy @. Você viu o Bosun? Ele é um grande gato laranja.#$b#Aquele traquinas roubou meu almoço.\"/question fork1 \"#(Apontar para o norte) Ele foi por ali.#Ele está atrás deste arbusto.\"/fork BehindBush/pause 250/faceDirection Willy 1/pause 250/FaceDirection Willy 2/pause 250/faceDirection Willy 3/pause 250/faceDirection farmer 0/speak Willy \"Obrigado rapaz.^Obrigado senhorita.\"/pause 250/speed Willy 3/move Willy 0 -4 0/emote farmer 28/faceDirection farmer 0/speed Willy 3/move Willy -2 0 3/speed Willy 3/move Willy 0 -5 0/warp Willy -100 -100/move farmer 0 -1 1/pause 1000/playSound cat/move MisterGinger -1 0 3/pause 250/emote MisterGinger 16/pause 500/showFrame MisterGinger 16/pause 250/showFrame MisterGinger 17/pause 250/showFrame MisterGinger 18/addObject 43 8 698/showFrame MisterGinger 19/changeSprite MisterGinger NoFish/showFrame MisterGinger 8/pause 250/faceDirection MisterGinger 2/pause 500/speak MisterGinger \"Mreep mirrp!$4\"/emote farmer 32/friendship MisterGinger 25/pause 1000/end",
+		"BehindBush": "faceDirection farmer 0/pause 500/speak Willy \"Ei, eu consigo ver sua cauda, Bosun!\"/faceDirection farmer 3/move Willy 0 -2 1/move Willy 3 0 1/faceDirection farmer 0/shake Willy 350/showFrame Willy 26/speak Willy \"Me devolva seu traquinas!\"/pause 500/playSound cat/playSound cat/textAboveHead Willy \"Devolva!\"/changeSprite MisterGinger NoFish/pause 500/move Willy -2 0 2/pause 250/speak Willy \"Obrigado. Agradeço sua honestidade.^Obrigado. Agradeço sua honestidade.\"/playSound leafrustle/pause 250/move MisterGinger -2 0 3/speak MisterGinger \"Mroooow.$2\"/pause 500/faceDirection Willy 1/emote Willy 40/pause 500/speak Willy \"Bem, está um pouquinho mastigado, então você pode ficar com ele, Bosun.#$b#Mas não pense que você está sendo recompensado por seus crimes!$a\"/addObject 42 8 698/pause 500/playSound cat/speak Willy \"Diga, que tal você e eu almoçarmos no saloon?$1^Diga senhorita, que tal você e eu almoçarmos no saloon?$1\"/emote farmer 32/pause 1000/end"
+	},
+	"When": {
+		"HasMod |contains=FlashShifter.StardewValleyExpandedALL":false
+			}
+},
+
+
+	{	"LogName": "6-heart Event",
+		"Action": "EditData",
+		"Target": "Data/Events/WizardHouse",
+		"Entries": {  	
+			"50706121/f MisterGinger 1500/t 1800 2400/n Wizard_CatTalk/Hl Tristan_Returns/i 769": "WizardSong/-1000 -1000/farmer -100 -100 0 Wizard 3 17 2 MisterGinger 2 17 1/removeItem 769/skippable/viewport 8 19 true/pause 1000/faceDirection Wizard 3/speak Wizard \"Lamento não poder ajudá-lo com seu problema, Trix. Mas talvez... bem, nenhum de nós pode saber o que o futuro reserva.\"/pause 500/playSound cat/pause 250/speak Wizard \"Sim, correto, exceto a Madame Welwick, mas ela está se mantendo muda sobre esse assunto em particular.\"/pause 500/playSound cat/pause 1000/playSound cat/speak Wizard \"Sim eu sei. Mas tenha paciência, e talvez... bem, talvez esta noite eu consiga pensar em algo...\"/playSound cat/pause 250/speak Wizard \"Sim, eu sei, estou tão ansioso para ver isso acontecer quanto você, meu amigo.\"/pause 500/playSound stoneStep/faceDirection MisterGinger 2/faceDirection Wizard 2/pause 250/speak Wizard \"Parece que nosso convidado chegou na hora certa.\"/pause 500/playSound doorOpen/warp farmer 8 24/move farmer 0 -4 0/pause 250/speak Wizard \"Olá @, estou feliz por você poder se juntar a nós.\"/move farmer -2 0 3/move farmer 0 -3 3/pause 500/playSound cat/pause 250/faceDirection Wizard 3/speak Wizard \"Sim, sim, eu sei. Por favor tenha paciencia!\"/pause 500/faceDirection Wizard 1/speak Wizard \"Você trouxe o item solicitado, @?\"/pause 500/move farmer -2 0 3/pause 250/playSound coin/speak Wizard \"Excelente, isso deve bastar para atender meus requisitos precisamente. Vamos começar!#$b#O que estamos preparando? Oh, isso é uma surpresa.$h\"/move Wizard 0 2 2/faceDirection farmer 2/faceDirection MisterGinger 1/pause 500/speak Wizard \"Certo, aqui vamos nós: uma pitada de poeira estelar em pó. Uma gota de sangue de pombo. Pétalas de uma Rosa-de-fada.#$b#E graças a você, @, o ingrediente final, um fragmento de escuridão, uma lasca de um coração do vazio...\"/pause 250/playSound cat/speak Wizard \"Você entendeu a ideia!$h\"/pause 500/playSound dropItemInWater/move farmer 0 2 2/pause 250/showFrame Wizard 18/showFrame 96/pause 1000/speak Wizard \"Aqui. Beba. Sei que da última vez não foi nada agradável, mas o benefício supera o custo, não é?$h\"/pause 800/emote farmer 28/faceDirection MisterGinger 1/playSound cat/pause 500/showFrame Wizard 19/pause 800/showFrame farmer 90/faceDirection Wizard 2/pause 1000/farmerEat 184/pause 4000/playSound gulp/move farmer 0 -1 2/animate farmer false true 350 104 105/pause 4000/globalFade .008/viewport -1000 -1000/stopAnimation farmer/faceDirection farmer 2/warp MisterGinger 5 18/warp Wizard 3 18 1/faceDirection Wizard 1/faceDirection MisterGinger 3/playMusic none/pause 500/viewport 8 19 true/pause 500/speak MisterGinger \"@? @!$2\"/pause 500/speak MisterGinger \"Olá? @? Funcionou?$2\"/pause 500/emote Wizard 8/pause 500/speak MisterGinger \"@? Você está bem?\"/pause 250/quickQuestion #Não consigo sentir meus pés.#Oh olha, um gato falante!#Precisava de uma rodela de limão.#Essa é a última vez que bebo qualquer coisa que você oferece!(break)emote Wizard 40\\speak Wizard \"Devo dizer que é um efeito colateral bastante inesperado, mas tenho certeza que vai passar em pouco tempo.#$b#Não temos tempo para isso\"(break)speak MisterGinger \"Funcionou! Realmente funcionou. Desculpe ter duvidado de você, Ras.$4\"(break)speak MisterGinger \"Ei, Ras, parece que alguém aprecia seus talentos culinários!\"(break)speak Wizard \"Você diz isso agora, @, mas não pode negar que minhas bebidas são bastante benéficas.\"/pause 500/faceDirection farmer 1/pause 500/emote farmer 16/speak MisterGinger \"Ei, @. É ótimo ter outra pessoa com quem conversar.#$b#Quer dizer, Ras é legal - mas, ele anda meio estranho, não acha?...$1\"/pause 250/emote Wizard 12/pause 500/speak Wizard \"Você sabe que posso te ouvir, não sabe. gatinho.\"/pause 250/speak MisterGinger \"Gatinho... Ele sabe que eu odeio esse nome. Tão humilhante. Como se eu fosse algum tipo de animal doméstico comum.$5#$b#Por favor, nunca me chame de gatinho, @.$1\"/emote farmer 32/pause 1000/end dialogue MisterGinger \"Qualquer um pode falar com os animais, mas é preciso um tipo especial de pessoa para _ouvi-los_.#$b#Sim, isso é um elogio. Mas não se acostume com eles. Eu tenho uma reputação a manter, você sabe.\""
+			},
+		"When": {
+			"HasMod |contains=Ran.HarvestGoddess":false,
+			"HasMod |contains=FlashShifter.StardewValleyExpandedALL":false
+				}
+	},
+	
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Shane",
+		"FromFile": "assets/Images/Shane-Book.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 32},
+		"ToArea":   { "X": 0, "Y": 416, "Width": 48, "Height": 32}
+	},
+	{	"LogName": "8-heart Event - Shane still a drunk",
+		"Action": "EditData",
+		"Target": "Data/Events/Forest",
+			
+	"Entries": {    
+		"50706127/f MisterGinger 2000/k 2118991/e 50706121/Hl Tristan_Returns/t 1800 2200": "nightTime/-1000 -1000/Jas -100 -100 0 Shane -100 -100 0 MisterGinger 86 17 3 farmer 93 23 3/skippable/viewport 93 21 true/pause 500/move MisterGinger -1 0 0/playSound cat/pause 500/move MisterGinger 1 0 0/pause 500/playSound cat/pause 500/move MisterGinger -1 0 0/animate MisterGinger false false 250 16 17 18 19 18 19 18 19/playSound cat/pause 1500/pause 250/move farmer -3 0 0/playSound woodyStep/pause 250/faceDirection MisterGinger 2/jump MisterGinger 3/pause 500/move MisterGinger 0 1 1/pause 500/speak MisterGinger \"@! Estou tão feliz por você estar aqui!#$b#Preciso da sua ajuda!$2\"/pause 500/emote farmer 8/speed MisterGinger 4/move MisterGinger 4 0 2/speed farmer 4/move farmer 0 -5 0/pause 500/faceDirection MisterGinger 1/faceDirection farmer 3/speak MisterGinger \"É a Jas! Ela está lá dentro assustada e sozinha, e eu não consigo chegar até ela!$2\"/pause 500/emote farmer 16/pause 500/speak MisterGinger \"Ela tem muito medo do escuro! Marnie está fora, e aquele preguiçoso do Shane deve estar dormirndo!$2\"/pause 250/move MisterGinger -1 0 3/pause 250/move MisterGinger 1 0 1/speak MisterGinger \"Tem uma chave debaixo daquela pedra falsa perto da porta.\"/pause 250/move MisterGinger -1 0 3/pause 250/move MisterGinger 1 0 1/pause 500/question fork1 \"Por favor, você vai me ajudar?#Claro que eu vou!#Por quê? Eu não sou uma babá.\"/fork NoHelpMrG/pause 500/move farmer 0 -2 1/emote MisterGinger 20/playSound stoneCrack/pause 500/faceDirection farmer 0/pause 500/move MisterGinger 0 -2 0/playSound openChest/globalFade/viewport -1000 -1000/stopMusic/changeLocation AnimalShop/warp Jas 3 6/warp Shane 4 6/warp farmer 10 18/warp MisterGinger 9 18/faceDirection Shane 2/showFrame Shane 53/faceDirection Jas 1/faceDirection MisterGinger 3/faceDirection farmer 3/viewport 11 11 true/pause 500/move MisterGinger -3 0 0/move MisterGinger 0 -5 0/doAction 6 12/pause 500/speak Shane \"...Então a princesa se abaixou cuidadosamente beijando a cabeça do sapo...\"/shake MisterGinger 350/pause 500/emote MisterGinger 40/showFrame Shane 52/pause 500/speak Jas \"Ewww!$3\"/move farmer -3 0 0/move farmer 0 -3 3/pause 500/showFrame Shane 53/speak Shane \"...Assim que o sapo é beijado o mesmo começa a brilhar, Brilhando o bastente para deslumbrar a princesa.#$b#O sapo estaria se transformando em outra coisa, e ali, diante dela, ele se transformou em um homen.\"/emote Jas 20/showFrame Shane 54/pause 500/speak Jas \"Não um homem, um príncipe! Um príncipe bonito.\"/pause 500/showFrame Shane 12/pause 500/emote Shane 40/pause 500/speak Shane \"Não, não um príncipe. Um simples garoto de fazenda, que a amava de todo o coração.#$b#E se ele tivesse olhos rosa e pele roxa pegajosa, Que tal?$1\"/pause 500/speak Jas \"Ick!$3#$b#Tio Shane, você é tão engraçado.$1\"/pause 500/speak Shane \"Obrigado. Mas, falando sério, você não precisa de um príncipe para ser feliz.$3\"/pause 500/speak Jas \"Eu sei! Você só precisa saber que há alguém que se importa.$4#$b#Certo?$1\"/pause 500/speak Shane \"Sim, isso mesmo, querida.$l#$b#Já está pronta para voltar para a cama? Conseguiu esquecer o pessadelo?#$b#...(Tio Shane precisa descansar a cabeça)...\"/pause 500/emote Jas 32/pause 500/speak Jas \"Não consegui. Mas estou melhor. Bem Melhor.$3#$b#Acho que já estou pronta para dormir agora.\"/pause 500/speak Shane \"Boa garota, vou colocá-la de volta na cama.\"/move Jas 0 1 2/speak Jas \"Boa noite, tio Shane. Obrigado. Agora me sinto muito melhor.$1\"/pause 500/move Jas -2 0 2/showFrame Jas 25/move Shane -1 0 2/move Shane 0 1 3/pause 500/emote Shane 20/pause 500/viewport 11 13/move MisterGinger 0 1 1/showFrame MisterGinger 38/pause 500/faceDirection farmer 0/showFrame MisterGinger 4/speak MisterGinger \"Ela não precisa mais de mim, Ela tem ele agora.$2\"/quickQuestion #Ela precisa de você. Ele é apenas tio dela - E você é o gato dela!#Isso é verdade, Crianças ficam cansadas dos seus animais de estimação.#Você é apenas um gatinho, Shane é tio dela.#Você sempre terá a mim, Mr.Ginger.(break)speak MisterGinger \"Obrigado. Isso faz eu me sentir muito melhor.$1\"(break)speak MisterGinger \"Eu sou apenas um gatinho...? Não! Eu sou amigo dela...$2#$b#E eu não vou deixar você me dizer o contrário!$5\"(break)speak MisterGinger \"família é mais importante do que animais de estimação. Eu entendo isso agora.$2#$b#Eu não gosto disso, mas entendo.$2\"(break)speak MisterGinger \"Serio? Obrigado, @. Isso significa muito.$4\"/pause 1000/speak Jas \"*com sono* Mr.Ginger? Mr.Ginger? onde você esta?\"/pause 500/jump MisterGinger 3/emote MisterGinger 16/pause 500/speak MisterGinger \"Tchau @! Tenho que ir!$3\"/speed MisterGinger 4/move MisterGinger 0 -7 3/move Shane 1 0 0/move Shane 0 -1 3/move Shane 2 0 2/faceDirection Jas 1/speed MisterGinger 4/move MisterGinger -3 0 3/emote MisterGinger 20/move Shane 0 2 3/speak Shane \"Ela realmente ama aquele gato.\"/move Shane 0 7 2/faceDirection Shane 1/pause 250/showFrame Shane 18/jump Shane 4/pause 250/emote Shane 40/pause 500/emote farmer 60/pause 1000/end warpOut",
+		"NoHelpMrG": "pause 500/speak MisterGinger \"Você não vai me ajudar a consolar uma criança assustada?$5#$b#Você é uma pessoa terrível, @. Não acredito que te considerei meu amigo.$2\"/friendship MisterGinger -500/pause 250/animate MisterGinger false false 250 12 20 21 20 21/pause 2000/speak MisterGinger \"Não se preocupe, Jas! Eu estou aqui!\"/move MisterGinger -1 0 0/playSound cat/pause 500/end warpOut"
+				}
+		},
+{	"LogName": "8-heart Event - Shane sober",
+	"Action": "EditData",
+	"Target": "Data/Events/Forest",
+	"Entries": {    
+	"50706127/f MisterGinger 2000/e 2118991/e 50706121/k 50706126/Hl Tristan_Returns/t 1800 2200": "nightTime/-1000 -1000/Jas -100 -100 0 Shane -100 -100 0 MisterGinger 86 17 3 farmer 93 23 3/skippable/viewport 93 21 true/pause 500/move MisterGinger -1 0 0/playSound cat/pause 500/move MisterGinger 1 0 0/pause 500/playSound cat/pause 500/move MisterGinger -1 0 0/animate MisterGinger false false 250 16 17 18 19 18 19 18 19/playSound cat/pause 1500/pause 250/move farmer -3 0 0/playSound woodyStep/pause 250/faceDirection MisterGinger 2/jump MisterGinger 3/pause 500/move MisterGinger 0 1 1/pause 500/speak MisterGinger \"@! Estou tão feliz por você estar aqui!#$b#Preciso da sua ajuda!$2\"/pause 500/emote farmer 8/speed MisterGinger 4/move MisterGinger 4 0 2/speed farmer 4/move farmer 0 -5 0/pause 500/faceDirection MisterGinger 1/faceDirection farmer 3/speak MisterGinger \"É a Jas! Ela está lá dentro assustada e sozinha, e eu não consigo chegar até ela!$2\"/pause 500/emote farmer 16/pause 500/speak MisterGinger \"Ela tem muito medo do escuro! Marnie está fora, e aquele preguiçoso do Shane deve estar dormirndo!$2\"/pause 250/move MisterGinger -1 0 3/pause 250/move MisterGinger 1 0 1/speak MisterGinger \"Tem uma chave debaixo daquela pedra falsa perto da porta.\"/pause 250/move MisterGinger -1 0 3/pause 250/move MisterGinger 1 0 1/pause 500/question fork1 \"Por favor, você vai me ajudar?#Claro que eu vou!#Eu não sou uma babá.\"/fork NoHelpMrG/pause 500/move farmer 0 -2 1/emote MisterGinger 20/playSound stoneCrack/pause 500/faceDirection farmer 0/pause 500/move MisterGinger 0 -2 0/playSound openChest/globalFade/viewport -1000 -1000/stopMusic/changeLocation AnimalShop/warp Jas 3 6/warp Shane 4 6/warp farmer 10 18/warp MisterGinger 9 18/faceDirection Shane 2/showFrame Shane 53/faceDirection Jas 1/faceDirection MisterGinger 3/faceDirection farmer 3/viewport 11 11 true/pause 500/move MisterGinger -3 0 0/move MisterGinger 0 -5 0/doAction 6 12/pause 500/speak Shane \"...Então a princesa se abaixou cuidadosamente beijando a cabeça do sapo...\"/shake MisterGinger 350/pause 500/emote MisterGinger 40/showFrame Shane 52/pause 500/speak Jas \"Ewww!$3\"/move farmer -3 0 0/move farmer 0 -3 3/pause 500/showFrame Shane 53/speak Shane \"...Assim que o sapo é beijado o mesmo começa a brihar, Brilhando o bastente para deslumbrar a princesa.#$b#O sapo estaria se transformando em outra coisa, e ali, diante dela, ele se transformou em um homen.\"/emote Jas 20/showFrame Shane 54/pause 500/speak Jas \"Não um homem, um príncipe! Um príncipe bonito.\"/pause 500/showFrame Shane 12/pause 500/emote Shane 40/pause 500/speak Shane \"Não, não um príncipe. Um simples garoto de fazenda, que a amava de todo o coração.#$b#E se ele tivesse olhos rosa e pele roxa pegajosa, Que tal?$1\"/pause 500/speak Jas \"Ick!$3#$b#Tio Shane, você é tão engraçado.$1\"/pause 500/speak Shane \"Obrigado. Mas, falando sério, você não precisa de um príncipe para ser feliz.$3\"/pause 500/speak Jas \"Eu sei! Você só precisa saber que há alguém que se importa.$4#$b#Certo?$1\"/pause 500/speak Shane \"Sim, isso mesmo, querida.$l#$b#Já está pronta para voltar para a cama? Conseguiu esquecer o pessadelo?#$b#Lembre-se, prometi estar aqui por você. Sempre que precisar.\"/pause 500/emote Jas 32/pause 500/speak Jas \"Não consegui. Mas estou melhor. Bem Melhor.$3#$b#Acho que já estou pronta para dormir agora.\"/pause 500/speak Shane \"Boa garota, vou colocá-la de volta na cama.\"/move Jas 0 1 2/speak Jas \"Boa noite, tio Shane. Obrigado. Agora me sinto muito melhor.$1\"/pause 500/move Jas -2 0 2/showFrame Jas 25/move Shane -1 0 2/move Shane 0 1 3/pause 500/emote Shane 20/pause 500/viewport 11 13/move MisterGinger 0 1 1/showFrame MisterGinger 38/pause 500/faceDirection farmer 0/showFrame MisterGinger 4/speak MisterGinger \"Ela não precisa mais de mim, Ela tem ele agora.$2\"/quickQuestion #Ela precisa de você. Ele é apenas tio dela - E você é o gato dela!#Isso é verdade, Crianças ficam cansadas dos seus animais de estimação.#Você é apenas um gatinho, Shane é tio dela.#Você sempre terá a mim, Mr.Ginger.(break)speak MisterGinger \"Obrigado. Isso faz eu me sentir muito melhor.$1\"(break)speak MisterGinger \"Eu sou apenas um gatinho...? Não! Eu sou amigo dela...$2#$b#E eu não vou deixar você me dizer o contrário!$5\"(break)speak MisterGinger \"família é mais importante do que animais de estimação. Eu entendo isso agora.$2#$b#Eu não gosto disso, mas entendo.$2\"(break)speak MisterGinger \"Serio? Obrigado, @. Isso significa muito.$4\"/pause 1000/speak Jas \"*com sono* Mr.Ginger? Mr.Ginger? onde você esta?\"/pause 500/jump MisterGinger 3/emote MisterGinger 16/pause 500/speak MisterGinger \"Tchau @! Tenho que ir!$3\"/speed MisterGinger 4/move MisterGinger 0 -7 3/move Shane 1 0 0/move Shane 0 -1 3/move Shane 2 0 2/faceDirection Jas 1/speed MisterGinger 4/move MisterGinger -3 0 3/emote MisterGinger 20/move Shane 0 2 3/speak Shane \"Ela realmente ama aquele gato.\"/move Shane 0 7 2/faceDirection Shane 1/pause 250/showFrame Shane 18/jump Shane 4/pause 250/emote Shane 40/pause 500/emote farmer 60/pause 1000/end warpOut",       
+		"NoHelpMrG": "pause 500/speak MisterGinger \"Você não vai me ajudar a consolar uma criança assustada?$5#$b#Você é uma pessoa terrível, @. Não acredito que te considerei meu amigo.$2\"/friendship MisterGinger -500/pause 250/animate MisterGinger false false 250 12 20 21 20 21/pause 2000/speak MisterGinger \"Não se preocupe, Jas! Eu estou aqui!\"/move MisterGinger -1 0 0/playSound cat/pause 500/end warpOut"
+		}	
+
+},
+{	"LogName": "8-heart Event - Shane sober",
+	"Action": "EditData",
+	"Target": "Data/Events/Forest",
+	"Entries": {    
+	"50706127/f MisterGinger 2000/e 2118991/e 50706121/k 50706126/O Shane/Hl Tristan_Returns/t 1800 2200": "nightTime/-1000 -1000/Jas -100 -100 0 Shane -100 -100 0 MisterGinger 86 17 3 farmer 93 23 3/skippable/viewport 93 21 true/pause 500/move MisterGinger -1 0 0/playSound cat/pause 500/move MisterGinger 1 0 0/pause 500/playSound cat/pause 500/move MisterGinger -1 0 0/animate MisterGinger false false 250 16 17 18 19 18 19 18 19/playSound cat/pause 1500/pause 250/move farmer -3 0 0/playSound woodyStep/pause 250/faceDirection MisterGinger 2/jump MisterGinger 3/pause 500/move MisterGinger 0 1 1/pause 500/speak MisterGinger \"@! Estou tão feliz por você estar aqui!#$b#Preciso da sua ajuda!$2\"/pause 500/emote farmer 8/speed MisterGinger 4/move MisterGinger 4 0 2/speed farmer 4/move farmer 0 -5 0/pause 500/faceDirection MisterGinger 1/faceDirection farmer 3/speak MisterGinger \"É a Jas! Ela está lá dentro assustada e sozinha, e eu não consigo chegar até ela!$2\"/pause 500/emote farmer 16/pause 500/speak MisterGinger \"Ela tem muito medo do escuro! Marnie está fora, e Shane está na sua fazenda!$2\"/pause 250/move MisterGinger -1 0 3/pause 250/move MisterGinger 1 0 1/speak MisterGinger \"Tem uma chave debaixo daquela pedra falsa perto da porta.\"/pause 250/move MisterGinger -1 0 3/pause 250/move MisterGinger 1 0 1/pause 500/question fork1 \"Por favor, você vai me ajudar?#Claro que eu vou!#Eu não sou uma babá.\"/fork NoHelpMrG/pause 500/move farmer 0 -2 1/emote MisterGinger 20/playSound stoneCrack/pause 500/faceDirection farmer 0/pause 500/move MisterGinger 0 -2 0/playSound openChest/globalFade/viewport -1000 -1000/stopMusic/changeLocation AnimalShop/warp Jas 3 6/warp Shane 4 6/warp farmer 10 18/warp MisterGinger 9 18/faceDirection Shane 2/showFrame Shane 53/faceDirection Jas 1/faceDirection MisterGinger 3/faceDirection farmer 3/viewport 11 11 true/pause 500/move MisterGinger -3 0 0/move MisterGinger 0 -5 0/doAction 6 12/pause 500/speak Shane \"...Então a princesa se abaixou cuidadosamente beijando a cabeça do sapo...\"/shake MisterGinger 350/pause 500/emote MisterGinger 40/showFrame Shane 52/pause 500/speak Jas \"Ewww!$3\"/move farmer -3 0 0/move farmer 0 -3 3/pause 500/showFrame Shane 53/speak Shane \"...Assim que o sapo é beijado o mesmo começa a brihar, Brilhando o bastente para deslumbrar a princesa.#$b#O sapo estaria se transformando em outra coisa, e ali, diante dela, ele se transformou em um homen.\"/emote Jas 20/showFrame Shane 54/pause 500/speak Jas \"Não um homem, um príncipe! Um príncipe bonito.\"/pause 500/showFrame Shane 12/pause 500/emote Shane 40/pause 500/speak Shane \"Não, não um príncipe. Um simples garoto de fazenda, que a amava de todo o coração.#$b#E se ele tivesse olhos rosa e pele roxa pegajosa, Que tal?$1\"/pause 500/speak Jas \"Ick!$3#$b#Tio Shane, você é tão engraçado.$1\"/pause 500/speak Shane \"Obrigado. Mas, falando sério, você não precisa de um príncipe para ser feliz.$3\"/pause 500/speak Jas \"Eu sei! Você só precisa saber que há alguém que se importa.$4#$b#Certo?$1\"/pause 500/speak Shane \"Sim, isso mesmo, querida.$l#$b#Já está pronta para voltar para a cama? Conseguiu esquecer o pessadelo?#$b#Lembre-se, prometi estar aqui por você. Sempre que você precisar, mesmo agora que estou morando com @\"/pause 500/emote Jas 32/pause 500/speak Jas \"Não consegui. Mas estou melhor. Bem Melhor.$3#$b#Acho que já estou pronta para dormir agora.\"/pause 500/speak Shane \"Boa garota, vou colocá-la de volta na cama.\"/move Jas 0 1 2/speak Jas \"Boa noite, tio Shane. Obrigado. Agora me sinto muito melhor.$1\"/pause 500/move Jas -2 0 2/showFrame Jas 25/move Shane -1 0 2/move Shane 0 1 3/pause 500/emote Shane 20/pause 500/viewport 11 13/move MisterGinger 0 1 1/showFrame MisterGinger 38/pause 500/faceDirection farmer 0/showFrame MisterGinger 4/speak MisterGinger \"Ela não precisa mais de mim, Ela tem ele agora.$2\"/quickQuestion #Ela precisa de você. Ele é apenas tio dela - E você é o gato dela!#Isso é verdade, Crianças ficam cansadas dos seus animais de estimação.#Você é apenas um gatinho, Shane é tio dela.#Você sempre terá a mim, Mr.Ginger.(break)speak MisterGinger \"Obrigado. Isso faz eu me sentir muito melhor.$1\"(break)speak MisterGinger \"Eu sou apenas um gatinho...? Não! Eu sou amigo dela...$2#$b#E eu não vou deixar você me dizer o contrário!$5\"(break)speak MisterGinger \"família é mais importante do que animais de estimação. Eu entendo isso agora.$2#$b#Eu não gosto disso, mas entendo.$2\"(break)speak MisterGinger \"Serio? Obrigado, @. Isso significa muito.$4\"/pause 1000/speak Jas \"*com sono* Mr.Ginger? Mr.Ginger? onde você esta?\"/pause 500/jump MisterGinger 3/emote MisterGinger 16/pause 500/speak MisterGinger \"Tchau @! Tenho que ir!$3\"/speed MisterGinger 4/move MisterGinger 0 -7 3/move Shane 1 0 0/move Shane 0 -1 3/move Shane 2 0 2/faceDirection Jas 1/speed MisterGinger 4/move MisterGinger -3 0 3/emote MisterGinger 20/move Shane 0 2 3/speak Shane \"Ela realmente ama aquele gato.\"/move Shane 0 7 2/faceDirection Shane 1/pause 250/showFrame Shane 18/jump Shane 4/pause 250/emote Shane 40/pause 500/emote farmer 60/pause 1000/end warpOut",
+		"NoHelpMrG": "pause 500/speak MisterGinger \"Você não vai me ajudar a consolar uma criança assustada?$5#$b#Você é uma pessoa terrível, @. Não acredito que te considerei meu amigo.$2\"/friendship MisterGinger -500/pause 250/animate MisterGinger false false 250 12 20 21 20 21/pause 2000/speak MisterGinger \"Não se preocupe, Jas! Eu estou aqui!\"/move MisterGinger -1 0 0/playSound cat/pause 500/end warpOut"
+		}	
+
+},
+
+	{
+		"LogName": "10-heart event part 1",
+		"Action": "EditData",
+		"Target": "Data/Events/Town",
+		"Entries": {
+			"50706132/f MisterGinger 2500/f Linus 1000/e 50706121/w sunny/Hl Tristan_Returns/t 2000 2400": "nightTime/-1000 -1000/MisterGinger 50 37 1 Linus 50 36 1 farmer -100 -100 0/addTemporaryActor VoidGolem 16 24 56 33 0 false/showFrame VoidGolem 18/skippable/viewport 46 37 true/pause 500/speak Linus \"Nada mal, Marmelada.#$b#Vamos comer bem esta noite!\"/pause 500/faceDirection Linus 2/faceDirection MisterGinger 0/speak Linus \"Embora eu tenha certeza que Marnie te alimenta bem.\"/pause 500/move Linus 3 0 1/move MisterGinger 5 0 1/pause 500/faceDirection MisterGinger 3/speak MisterGinger \"Marnie me alimenta? Sou mais do que capaz de me alimentar sozinho, Muito obrigado.$1#$b#Sou campeão em caçar ratos por oito anos consecutivos!$4#$b#Mas ainda assim, eu adoro quando me alimentam com queijo e peixe.#1\"/pause 500/speak Linus \"Obrigado por me fazer companhia esta noite.\"/faceDirection Linus 0/pause 250/faceDirection Linus 1/pause 250/shake Linus 250/speak Linus \"Essa noite o clima está meio... Sombrio... você não acha?\"/pause 500/faceDirection MisterGinger 0/pause 500/speak MisterGinger \"Tem cheiro de nuvens à beira de uma tempestade.$2\"/pause 500/speak Linus \"O vazio está inquieto.#$b#Nós deveríamos nos apressar.\"/speed Linus 4/move Linus 3 0 0/pause 500/move Linus 0 -2 0/animate VoidGolem false false 250 18 19 20/jump Linus/animate VoidGolem false false 250 21 22 23 24 0/playSound shadowHit/speed Linus 8/move Linus 4 0 1/speed Linus 8/move Linus 0 2 0/shake Linus 350/pause 500/faceDirection VoidGolem 1/emote MisterGinger 16/animate VoidGolem false true 250 28 29 28 29/pause 500/move VoidGolem 1 0 1/speed MisterGinger 5/move MisterGinger 0 -4 1/speak MisterGinger \"Ei, Você! Criatura sombria!$5#$b#Deixe-o em paz!$5\"/stopAnimation VoidGolem/pause 500/faceDirection VoidGolem 3/pause 500/textAboveHead VoidGolem \"Gat-tinho?\"/pause 500/move VoidGolem -1 0 3/speak MisterGinger \"Não me chame de gatinho!$5\"/animate MisterGinger false false 250 52 53 52 53/pause 500/specificTemporarySprite swordswipe 56 33/pause 250/playSound shadowHit/pause 500/move VoidGolem 1 0 3/animate VoidGolem false true 250 30 31/pause 500/move MisterGinger 1 0 1/animate MisterGinger false false 250 52 53 52 53/specificTemporarySprite swordswipe 57 33/playSound shadowHit/pause 500/move MisterGinger -1 0 1/move VoidGolem 1 0 3/showFrame MisterGinger 38/pause 500/faceDirection VoidGolem 1/move VoidGolem 1 0 1/pause 500/speed MisterGinger 5/move MisterGinger 3 0 1/faceDirection VoidGolem 3/animate MisterGinger false false 250 52 53 52 53/pause 500/specificTemporarySprite swordswipe 58 33/playSound shadowHit/showFrame VoidGolem 25/pause 250/playSound shadowDie/warp VoidGolem -100 -100/move MisterGinger 1 0 2/showFrame MisterGinger 38/pause 500/speak Linus \"Marmelada? Você está bem?\"/move Linus 0 -3 3/speak Linus \"Você salvou minha vida! Você é um heroi!\"/pause 500/playSound cat/speak Linus \"Oh, você está ferido! Deixe-me cuidar disso.\"/pause 1000/end dialogue MisterGinger \"Oh não se preocupe, @, é apenas um arranhão, Linus já colocou um curativo.$2#$b#Na verdade, por favor, Sem preocupe sim. Dói muito! E o unico jeito de me curar e com um pedaço gostoso de queijo.$2\""
+		}
+    },	
+
+	
+	
+
+		
+	{ "LogName": "10-heart part 2",
+		"Action": "EditData",
+		"Target": "Data/Events/BusStop",
+		"Entries": {
+		"50706133/e 50706132/t 0600 1200/Hl Tristan_Returns/w sunny": "MarlonsTheme/14 23/farmer 7 23 1 Marlon 14 20 2 MisterGinger -100 -100 2/skippable/pause 1000/move farmer 2 0 1/pause 500/showFrame Marlon 12/pause 1000/speak Marlon \"Ah, @! Eu estava descendo para visitar a cidade.\"/showFrame Marlon 0/move farmer 6 0 0/emote farmer 40/pause 500/speak Marlon \"Encontrei meu bom amigo Linus esta manhã, e eu estava me perguntando se você teria visto 'Marmelada' por aí?\"/pause 500/move farmer 0 -2 3/emote farmer 8/pause 500/speak Marlon \"Eu acredito que ele também atende pelos nomes de: Osiris, Trix e Mr.Ginger.\"/warp MisterGinger 0 23/move MisterGinger 7 0 1/pause 500/speak MisterGinger \"Alguém disse meu nome? Não que eu tenha o hábito de vir quando chamado, mas, bem...#$b#... Ah, olá Marlon!\"/pause 500/showFrame Marlon 5/move MisterGinger 7 0 0/move MisterGinger 0 -2 0/showFrame Marlon 4/speak MisterGinger \"Quanto tempo! Ainda morando com o aquele velho naquela casa na montanha?$1#$b#Ainda sonha acordado com uma vida que poderia ter sido boa - se você apenas seguisse seu coração, em vez de sua consciência teimosa?$1\"/pause 500/speak Marlon \"Mas que falador hein?\"/faceDirection MisterGinger 1/pause 500/speak MisterGinger \"Você nunca escuta o que eu digo.$4\"/faceDirection MisterGinger 0/pause 500/speak MisterGinger \"Então, barba grisalha, o que o traz das montanhas?#$b#Sabe, você deveria aparecer e dizer 'oi' para Marnie enquanto estiver aqui.#$b#Ela anda tão deprimida, ela está esperando por um pirata para roubar seu coração.$3\"/pause 500/faceDirection MisterGinger 1/pause 500/speak MisterGinger \"Veja, não entende uma palavra que estou dizendo. Humanos tolos. Precisa limpar seus ouvidos.\"/emote farmer 40/pause 500/speak Marlon \"Bem, isso é um tanto incomum, mas eu vim aqui com uma proposta.\"/pause 500/emote MisterGinger 8/faceDirection MisterGinger 0/speak MisterGinger \"Uma proposta? Qual a sua proposta?$1\"/pause 500/showFrame Marlon 0/speak Marlon \"Ouvi dizer que seu gato tem sido um grande herói, @.\"/pause 500/emote MisterGinger 12/pause 500/faceDirection MisterGinger 0/speak MisterGinger \"Estou bem aqui, barba grisalha, você pode falar comigo sabia!\"/pause 500/speak Marlon \"E estávamos nos perguntando se ele poderia estar interessado em se juntar a Guilda dos Aventureiros?\"/pause 500/emote MisterGinger 16/jump MisterGinger 3/pause 500/speak MisterGinger \"A Guilda dos Aventureiros! Eu? Um defensor da cidade!$4\"/pause 500/speak Marlon \"É um trabalho perigoso, quero dizer, como você acha que perdi meu olho?#$b#Mas o oque você me diz?\"/pause 500/faceDirection MisterGinger 1/speak MisterGinger \"A chance de proteger Jas e todos os outros, isso seria uma honra! mas o que você acha, @?\"/quickQuestion #Você é corajoso e forte, e eles precisam de você!#Você tem que seguir o que é certo para você.#Eu não quero ver você se machucar.#Você, um defensor? Você é um gato!(break)speak MisterGinger \"Estou tão feliz que você reconheça isso!\"(break)speak MisterGinger \"Isso é verdade... bem, eu aceito!\"(break)speak MisterGinger \"Eu também não quero me machucar, @. Mas eu sou bem rápido e astuto. eu posso fazer isso!\"(break)speak MisterGinger \"Esse é seu ponto? Ser um gato me deixa fraco?#$b#Meus dentes e minhas garras são minhas armas, @.#$b#Quer me desafiar?$5\"/pause 1000/emote Marlon 8/pause 500/speak Marlon \"Isso é um 'Sim'?\"/pause 500/faceDirection MisterGinger 0/pause 500/showFrame MisterGinger 40/pause 500/playSound cat/pause 500/showFrame Marlon 4/speak Marlon \"Você está preparado para fazer o juramento de fidelidade?\"/pause 500/playSound cat/pause 500/showFrame MisterGinger 41/showFrame MisterGinger 42/pause 500/showFrame MisterGinger 43/pause 500/speak Marlon \"Muito bem. Você, aquele conhecido como Marmelada e também, Mr.Ginger, jura solenemente colocar a vida dos outros antes da sua?\"/pause 500/playSound cat/pause 500/showFrame MisterGinger 42/pause 500/showFrame MisterGinger 43/pause 500/speak Marlon \"Você promete agir como guardião e protetor?#$b#Proteger todos contra as trevas e a peste do vazio. Aquilo que reside dentro e fora.\"/pause 500/playSound cat/pause 500/showFrame MisterGinger 42/pause 500/showFrame MisterGinger 43/pause 500/speak Marlon \"Você está pronto, nobre felino.\"/pause 500/showFrame MisterGinger 17/pause 500/showFrame MisterGinger 18/pause 500/speak MisterGinger \"Obrigado por esta homenagem, Marlon. Vou te deixar orgulhoso, eu prometo.\"/pause 500/showFrame MisterGinger 25/animate MisterGinger false true 120 29 30 31 30/pause 500/emote Marlon 8/pause 500/emote farmer 32/pause 2000/end"
+                }
+            },
+
+//Ran Harvest Goddess Compatability
+
+{	"LogName": "Dialogue 6-hearts - removing Ras references",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/MisterGinger",
+	"FromFile": "assets/Dialogue/PT/HarvestGoddess.json",
+	"When": {
+		"HasSeenEvent |contains=50706121":true,
+		"HasMod |contains=Ran.HarvestGoddess":true
+		}
+					
+	},
+{   
+	"LogName": "Goddess Mail",
+	 "Action": "EditData",
+	"Target": "Data/mail",
+	"Entries":{ 
+		"Wizard_CatTalk": "Olá Jovem!^ Estou solícitando sua presença em minha torre, após as horas de escuridão. Por favor, traga uma lasca do sol. ^    -H. A deusa.[#]An Invitation"
+									},
+			"When": {
+			"HasMod |contains=Ran.HarvestGoddess":true
+										}
+			},
+
+
+	{	"LogName": "6-heart Event",
+		"Action": "EditData",
+		"Target": "Data/Events/WizardHouse",
+		"Entries": {  	
+			"50706121/f MisterGinger 1500/t 1800 2400/n Wizard_CatTalk/Hl Tristan_Returns/i 768": "WizardSong/-1000 -1000/farmer -100 -100 0 Wizard 3 17 2 MisterGinger 2 17 1/removeItem 768/skippable/viewport 8 19 true/pause 1000/faceDirection Wizard 3/speak Wizard \"Lamento não poder te ajudar com seu problema, Trix. Mas talvez... bem, quem pode saber o que o futuro reserva?\"/pause 500/playSound cat/pause 250/speak Wizard \"Sim, Correto, a Madame Welwick pode, mas ela está se mantendo muda sobre este assunto em particular.\"/pause 500/playSound cat/pause 1000/playSound cat/speak Wizard \"Sim eu sei. Mas tenha paciência, e talvez... bem, talvez eu consiga pensar em algo.\"/playSound cat/pause 250/speak Wizard \"Sim, eu sei, estou tão ansiosa para ver isso acontecer quanto você, meu amigo.\"/pause 500/playSound stoneStep/faceDirection MisterGinger 2/faceDirection Wizard 2/pause 250/speak Wizard \"Parece que nosso covindado chegou na hora certa.\"/pause 500/playSound doorOpen/warp farmer 8 24/move farmer 0 -4 0/pause 250/speak Wizard \"Olá @, estou feliz por você poder se juntar a nós.\"/move farmer -2 0 3/move farmer 0 -3 3/pause 500/playSound cat/pause 250/faceDirection Wizard 3/speak Wizard \"Sim, sim, eu sei. Por favor paciencia!\"/pause 500/faceDirection Wizard 1/speak Wizard \"Você trouxe o item solicitado, @?\"/pause 500/move farmer -2 0 3/pause 250/playSound coin/speak Wizard \"Excelente, era exatamente isso que precisávamos. Vamos começar!#$b#O que estamos preparando? Oh, é uma surpresa, mas sinto que você ira amar.$h\"/move Wizard 0 2 2/faceDirection farmer 2/faceDirection MisterGinger 1/pause 500/speak Wizard \"Certo, aqui vamos nós: uma pitada de poeira estelar em pó. Uma pena presenteada por um visitante de longe. Pétalas de uma Rosa-de-fada.#$b#E graças a você, @, o ingrediente final, uma lasca do sol...\"/pause 250/playSound cat/speak Wizard \"Sim, eu sei, Trix. Por favor, seja paciente.$h\"/pause 500/playSound dropItemInWater/move farmer 0 2 2/pause 250/showFrame Wizard 18/showFrame 96/pause 1000/speak Wizard \"Aqui, respire fundo. Inspire a magia. Sinta a magia penetrar em seus sentidos.$h\"/pause 800/emote farmer 28/faceDirection MisterGinger 1/playSound cat/move farmer 0 -1 2/pause 500/pause 4000/globalFade .008/viewport -1000 -1000/speak Wizard \"@? Por favor, não tenha medo. Estamos aqui por você.\"/faceDirection farmer 2/warp MisterGinger 5 18/warp Wizard 3 18 1/faceDirection Wizard 1/faceDirection MisterGinger 3/playMusic none/pause 500/viewport 8 19 true/pause 500/speak MisterGinger \"@? @!$2\"/pause 500/speak MisterGinger \"Olá? @? Funcionou?$2\"/pause 500/emote Wizard 8/pause 500/speak MisterGinger \"@? Você está bem?\"/pause 250/quickQuestion #Não consigo sentir meus pés.#Oh, olha um gato falante!#O que aconteceu? Eu desmaiei?(break)emote Wizard 40\\speak Wizard \"Oh não, Esse é um efeito colateral inesperado. Mas deve passar em breve.#$b#Me perdoe!$2\"(break)speak MisterGinger \"Funcionou! Realmente funcionou. Desculpe, eu duvidei de você.$4\"(break)speak Wizard \"Me desculpe, @. Acho que estava forte demais.\"/pause 500/faceDirection farmer 1/pause 500/emote farmer 16/speak MisterGinger \"Ei, @. É ótimo ter outra pessoa com quem conversar.#$b#Quer dizer, a Deusa é maravilhosa - mas... ela é uma deusa!$1\"/pause 250/emote Wizard 60/pause 500/speak Wizard \"Posso ser, Trix, mas também sou sua amiga.\"/pause 250/faceDirection farmer 3/speak MisterGinger \"Eu sei, e estou honrado. Mas às vezes, bem... você sabe.$1\"/pause 500/speak Wizard \"Sim, meu amigo felino. Por favor, @, trate-o bem. Pois há mais neste gato do que aparenta.\"/pause 500/faceDirection farmer 1/emote farmer 32/pause 1000/end dialogue MisterGinger \"Qualquer um pode falar com os animais, mas é necessário um tipo especial de pessoa para _ouvi-los_.#$b#Sim, isso é um elogio. Não se acostume com eles. Eu tenho uma reputação a manter, você sabe.\""
+							},
+				"When": {
+					"HasMod |contains=Ran.HarvestGoddess":true,
+					"HasMod |contains=FlashShifter.StardewValleyExpandedALL":false
+						}
+					},
+		{	"LogName": "Schedule", 
+			"Action": "EditData",
+			"Target": "Characters/schedules/MisterGinger",
+			"Entries": {
+				"Sun": "800 AnimalShop 5 5 2 MrG_Grooming/1000 Forest 29 12 0/1200 Forest 16 75 2 MrG_Grooming/1600 Forest 13 40 2 MrG_Grooming/1900 AnimalShop 7 16 2 MrG_Sleep"
+			},
+			"When": {
+				"HasMod |contains=Ran.HarvestGoddess":true
+					}
+	},
+
+//SVE compatibility
+
+{	"LogName": "6-heart Event",
+		"Action": "EditData",
+		"Target": "Data/Events/WizardHouse",
+		"Entries": {  	
+			"50706121/f MisterGinger 1500/t 1800 2400/Hl Tristan_Returns/n Wizard_CatTalk/i 769": "WizardSong/-1000 -1000/farmer -100 -100 0 Wizard 3 17 2 MisterGinger 2 17 1/removeItem 769/skippable/viewport 8 19 true/pause 1000/faceDirection Wizard 3/speak Wizard \"Lamento não poder te ajudár com seu problema, Trix. Mas talvez... bem, ninguem pode saber o que o futuro nos reserva.\"/pause 500/playSound cat/pause 250/speak Wizard \"Sim, correto, exceto a Madame Welwick, mas ela está mantendo muda sobre esse topico em particular.\"/pause 500/playSound cat/pause 1000/playSound cat/speak Wizard \"Sim eu sei. Mas tenha paciência, e talvez... bem, talvez esta npoite eu consiga pensar em algo\"/playSound cat/pause 250/speak Wizard \"Sim, eu sei, estou tão ansiosa para ver isso acontecer quanto você, meu amigo.\"/pause 500/playSound stoneStep/faceDirection MisterGinger 2/faceDirection Wizard 2/pause 250/speak Wizard \"Parece que nosso convidado chegou na hora certa.\"/pause 500/playSound doorOpen/warp farmer 9 24/move farmer 0 -4 0/pause 250/speak Wizard \"Olá @, estou feliz por você poder se juntar a nós.\"/move farmer -2 0 3/move farmer 0 -3 3/pause 500/playSound cat/pause 250/faceDirection Wizard 3/speak Wizard \"Sim, sim, eu sei. Por favor paciencia!\"/pause 500/faceDirection Wizard 1/speak Wizard \"Você trouxe o item solicitado, @?\"/pause 500/move farmer -3 0 3/pause 250/playSound coin/speak Wizard \"Excelente, isso deve bastar para atender meus requisitos precisamente. Vamos começar!#$b#O que estamos preparando? Oh, isso é uma surpresa.$h\"/move Wizard 0 2 2/faceDirection farmer 2/faceDirection MisterGinger 1/pause 500/speak Wizard \"Certo, aqui vamos nós: uma pitada de poeira estelar em pó. Uma gota de sangue de pombo. Pétalas de um Rosa-de-fada.#$b#E graças a você, @, o ingrediente final, um fragmento de escuridão, uma lasca de um coração do vazio...\"/pause 250/playSound cat/speak Wizard \"Você entendeu a ideia!$h\"/pause 500/playSound dropItemInWater/move farmer 0 2 2/pause 250/showFrame Wizard 18/showFrame 96/pause 1000/speak Wizard \"Aqui. Beba. Sei que da última vez não foi nada agradável, mas o benefício supera o custo, não é?$h\"/pause 800/emote farmer 28/faceDirection MisterGinger 1/playSound cat/pause 500/showFrame Wizard 19/pause 800/showFrame farmer 90/faceDirection Wizard 2/pause 1000/farmerEat 184/pause 4000/playSound gulp/move farmer 0 -1 2/animate farmer false true 350 104 105/pause 4000/globalFade .008/viewport -1000 -1000/stopAnimation farmer/faceDirection farmer 2/warp MisterGinger 5 18/warp Wizard 3 18 1/faceDirection Wizard 1/faceDirection MisterGinger 3/playMusic none/pause 500/viewport 8 19 true/pause 500/speak MisterGinger \"@? @!$2\"/pause 500/speak MisterGinger \"Olá? @? Funcionou?$2\"/pause 500/emote Wizard 8/pause 500/speak MisterGinger \"@? Você esta bem?\"/pause 250/quickQuestion #Não consigo sentir meus pés.#Oh olha, um gato falante!#Precisava de uma rodela de limão.#Essa é a última vez que bebo qualquer coisa que você oferece!(break)emote Wizard 40\\speak Wizard \"Devo dizer que é um efeito colateral bastante inesperado, mas tenho certeza que vai passar em pouco tempo.#$b#Não temos tempo para isso\"(break)speak MisterGinger \"Funcionou! Realmente funcionou. Desculpe ter duvidado de você, Ras.$4\"(break)speak MisterGinger \"Ei, Ras, parece que alguém aprecia seus talentos culinários!\"(break)speak Wizard \"Você diz isso agora, @, mas não pode negar que minhas bebidas são bastante benéficas.\"/pause 500/faceDirection farmer 1/pause 500/emote farmer 16/speak MisterGinger \"Ei, @. É ótimo ter outra pessoa com quem conversar.#$b#Quer dizer, Ras é legal - mas, ele anda meio estranho, não acha?...$1\"/pause 250/emote Wizard 12/pause 500/speak Wizard \"Voce sabe que eu posso te ouvir, você sabe. gatinho.\"/pause 250/speak MisterGinger \"Gatinho... Ele sabe que eu odeio esse nome. Tão humilhante. Como se eu fosse algum tipo de animal doméstico comum.$5#$b#Por favor, nunca me chame de gatinho, @.$1\"/emote farmer 32/pause 1000/end dialogue MisterGinger \"Qualquer um pode falar com os animais, mas é necessário um tipo especial de pessoa para _ouvi-los_.#$b#Sim, isso é um elogio. Não se acostume com eles. Eu tenho uma reputação a manter, você sabe.\""
+		},
+		"When": {
+			"HasMod |contains=Ran.HarvestGoddess":false,
+			"HasMod |contains=FlashShifter.StardewValleyExpandedALL":true
+				}
+	},
+{	"LogName": "6-heart Event",
+	"Action": "EditData",
+	"Target": "Data/Events/WizardHouse",
+	"Entries": {  	
+		"50706121/f MisterGinger 1500/t 1800 2400/n Wizard_CatTalk/Hl Tristan_Returns/i 768": "WizardSong/-1000 -1000/farmer -100 -100 0 Wizard 3 17 2 MisterGinger 2 17 1/removeItem 768/skippable/viewport 8 19 true/pause 1000/faceDirection Wizard 3/speak Wizard \"Lamento não poder te ajudár com seu problema, Trix. Mas talvez... bem, quem pode saber o que o futuro reserva?\"/pause 500/playSound cat/pause 250/speak Wizard \"Sim, Correto, a Madame Welwick pode, mas ela está se mantendo muda sobre este assunto em particular.\"/pause 500/playSound cat/pause 1000/playSound cat/speak Wizard \"Sim eu sei. Mas tenha paciência, e talvez... bem, talvez eu consiga pensar em algo.\"/playSound cat/pause 250/speak Wizard \"Sim, eu sei, estou tão ansiosa para ver isso acontecer quanto você, meu amigo.\"/pause 500/playSound stoneStep/faceDirection MisterGinger 2/faceDirection Wizard 2/pause 250/speak Wizard \"Parece que nosso convidado chegou na hora certa.\"/pause 500/playSound doorOpen/warp farmer 9 24/move farmer 0 -4 0/pause 250/speak Wizard \"Olá @, estou feliz por você poder se juntar a nós.\"/move farmer -2 0 3/move farmer 0 -3 3/pause 500/playSound cat/pause 250/faceDirection Wizard 3/speak Wizard \"Sim, sim, eu sei. Por favor paciencia!\"/pause 500/faceDirection Wizard 1/speak Wizard \"Você trouxe o item solicitado, @?\"/pause 500/move farmer -3 0 3/pause 250/playSound coin/speak Wizard \"Excelente, era exatamente isso que precisávamos. Vamos começar!#$b#O que estamos preparando? Oh, é uma surpresa, mas sinto que você ira amar.$h\"/move Wizard 0 2 2/faceDirection farmer 2/faceDirection MisterGinger 1/pause 500/speak Wizard \"Certo, aqui vamos nós: uma pitada de poeira estelar em pó. Uma pena presenteada por um visitante de longe. Pétalas de uma Rosa-de-fada.#$b#E graças a você, @, o ingrediente final, uma lasca do sol...\"/pause 250/playSound cat/speak Wizard \"Sim, eu sei, Trix. Por favor, seja paciente.$h\"/pause 500/playSound dropItemInWater/move farmer 0 2 2/pause 250/showFrame Wizard 18/showFrame 96/pause 1000/speak Wizard \"Aqui, respire fundo. Inspire a magia. Sinta ela penetrar em seus sentidos.$h\"/pause 800/emote farmer 28/faceDirection MisterGinger 1/playSound cat/move farmer 0 -1 2/pause 500/pause 4000/globalFade .008/viewport -1000 -1000/speak Wizard \"@? Por favor, não tenha medo. Estamos aqui por você.\"/faceDirection farmer 2/warp MisterGinger 5 18/warp Wizard 3 18 1/faceDirection Wizard 1/faceDirection MisterGinger 3/playMusic none/pause 500/viewport 8 19 true/pause 500/speak MisterGinger \"@? @!$2\"/pause 500/speak MisterGinger \"Olá? @? Funcionou?$2\"/pause 500/emote Wizard 8/pause 500/speak MisterGinger \"@? Você esta bem?\"/pause 250/quickQuestion #Não consigo sentir meus pés.#Oh, olha um gato falante!#O que aconteceu? Eu desmaiei?(break)emote Wizard 40\\speak Wizard \"Oh não, Esse é um efeito colateral inesperado. Mas deve passar em breve.#$b#Me perdoe!$2\"(break)speak MisterGinger \"Funcionou! Realmente funcionou. Desculpe, eu duvidei de você.$4\"(break)speak Wizard \"Me desculpe, @. Acho que estava forte demais.\"/pause 500/faceDirection farmer 1/pause 500/emote farmer 16/speak MisterGinger \"Ei, @. É otimo ter outra pessoa com quem conversar.#$b#Quer dizer, a Deusa é maravilhosa - mas... ela é uma deusa!$1\"/pause 250/emote Wizard 60/pause 500/speak Wizard \"Posso ser, Trix, mas também sou sua amiga.\"/pause 250/faceDirection farmer 3/speak MisterGinger \"Eu sei, e estou honrado. Mas às vezes, bem... você sabe.$1\"/pause 500/speak Wizard \"Sim, meu amigo felino. Por favor, @, trate-o bem. Pois há mais neste gato do que aparenta.\"/pause 500/emote farmer 32/pause 1000/end dialogue MisterGinger \"Qualquer um pode falar com os animais, mas é necessário um tipo especial de pessoa para _ouvi-los_.#$b#isso é um elogio. Não se acostume com eles. Eu tenho uma reputação a manter, você sabe.\""
+						},
+			"When": {
+				"HasMod |contains=Ran.HarvestGoddess":true,
+				"HasMod |contains=FlashShifter.StardewValleyExpandedALL":true
+					}
+	
+},
+{	"LogName": "5-heart Event",
+	"Action": "EditData",
+	"Target": "Data/Events/Beach",
+				
+	"Entries": {
+		"50706119/f MisterGinger 1250/w sunny/Hl Tristan_Returns/t 1000 1600": "playful/-100 13/MisterGinger 40 16 0 farmer 42 9 2 Willy 26 21 0/skippable/changeSprite MisterGinger Fish/viewport 39 12 true/pause 250/move MisterGinger 0 -7 1/faceDirection farmer 3/pause 250/speak MisterGinger \"*Ofegando* Mrrrrp! $6\"/pause 250/emote farmer 8/speed Willy 4/move Willy 0 -12 0/playSound stairsdown/jump MisterGinger 3/speed MisterGinger 4/move MisterGinger 0 -2 1/faceDirection farmer 0/speed MisterGinger 4/faceDirection farmer 1/move MisterGinger 4 0 3/pause 500/faceDirection farmer 0/speed Willy 4/move Willy 14 0 1/pause 500/faceDirection farmer 3/jump farmer 3/pause 250/speak Willy \"*Puffs* Ahoy @. Você viu o Bosun? Ele é um grande gato laranja.#$b#Aquele traquinas roubou meu almoço.\"/question fork1 \"#(Apontar para o norte) Ele foi por ali.#Ele está atrás deste arbusto.\"/fork BehindBush/pause 250/faceDirection Willy 1/pause 250/FaceDirection Willy 2/pause 250/faceDirection Willy 3/pause 250/faceDirection farmer 0/speak Willy \"Obrigado rapaz.^Obrigado senhorita.\"/pause 250/speed Willy 3/move Willy 0 -4 0/emote farmer 28/faceDirection farmer 0/speed Willy 3/move Willy -2 0 3/speed Willy 3/move Willy 0 -5 0/warp Willy -100 -100/move farmer 0 -1 1/pause 1000/playSound cat/move MisterGinger -1 0 3/pause 250/emote MisterGinger 16/pause 500/showFrame MisterGinger 16/pause 250/showFrame MisterGinger 17/pause 250/showFrame MisterGinger 18/addObject 43 8 698/showFrame MisterGinger 19/changeSprite MisterGinger NoFish/showFrame MisterGinger 8/pause 250/faceDirection MisterGinger 2/pause 500/speak MisterGinger \"Mreep mirrp!$4\"/emote farmer 32/friendship MisterGinger 100/pause 1000/end",
+		"BehindBush": "faceDirection farmer 0/pause 500/speak Willy \"Ei, eu consigo ver sua cauda, Bosun!\"/faceDirection farmer 3/move Willy 0 -2 1/move Willy 3 0 1/faceDirection farmer 0/shake Willy 350/showFrame Willy 26/speak Willy \"Me devolva seu traquinas!\"/pause 500/playSound cat/playSound cat/textAboveHead Willy \"Devolva!\"/changeSprite MisterGinger NoFish/pause 500/move Willy -2 0 2/pause 250/speak Willy \"Obrigado. Agradeço sua honestidade.^Obrigado. Agradeço sua honestidade.\"/playSound leafrustle/pause 250/move MisterGinger -2 0 3/speak MisterGinger \"Mroooow.$2\"/pause 500/faceDirection Willy 1/emote Willy 40/pause 500/speak Willy \"Bem, está um pouquinho mastigado, então você pode ficar com ele, Bosun.#$b#Mas não pense que você está sendo recompensado por seus crimes!$a\"/addObject 42 8 698/pause 500/playSound cat/speak Willy \"Diga, que tal você e eu almoçarmos no saloon?$1^Diga senhorita, que tal você e eu almoçarmos no saloon?$1\"/emote farmer 32/pause 1000/end"
+	},
+	"When": {
+		"HasMod":"FlashShifter.StardewValleyExpandedALL, MIDI.CM.Pack"
+			}
+},
+
+// Jas mentions Mr. Ginger
+
+{	"LogName": "Dialogue Jas",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Jas",
+	"Entries": {
+		"fall_Mon4": "Você conhece o Mr.Ginger? Ele é um gatinho laranja, mas ele é mais do que um gato. Ele é meu amigo!",
+		"fall_Mon8": "Você conhece o homem na torre? Ele é um mago.#$b#Tia Marnie me disse que eu não deveria falar com ele, mas ele deve estar tão sozinho, vivendo naquela torre.#$b#Mr.Ginger visita ele às vezes.",
+		"winter_Mon10": "Você acha que o Sr.Rasmodius é parecido com Chrestomanci?$3?#$b#Como sei o nome dele? Mr.Ginger me disse!$1#$b#Oh, eu sei que _gatos_ não podem falar. Mas o Mr.Ginger é mais que um gato.#$b#O que ele é então? Isso é segredo!",
+		"summer_Tue6": "Mr.Ginger ama quuando leio histórias para ele. Sua favorita é a 'Leste do Sol...'#$b#É um conto de fadas sobre um urso, só que ele não é realmente um urso. Ele está encantado!$1#$b#*rindo* De qualquer forma, achei que você deveria saber! Sem nenhuma razão especial!$4"
+				}
+	
+},
+
+{
+	"LogName": "Birthday Gift Dialogue",
+	"Action": "EditData",
+	"Target": "Strings/StringsFromCSFiles",
+	"Entries": {
+		"NPC.cs.4274": "Mirrupppp!$1",
+		"NPC.cs.4275": "Mirrupppp!$1",
+		"NPC.cs.4276": "Mirp!$1/Mirp!$1",
+		"NPC.cd.4277": "Mirp!$1",
+		"NPC.cs.4278": "Murr....$3/Murrrr....$3",
+		"NPC.cs.4279": "Murr....$3/Murrrr....$3",
+		"NPC.cs.4280": "Mirp?",
+		"NPC.cs.4281": "Mirp?"
+	},
+		"When": {
+				"Season": "summer",
+				"Day": "20",
+				"HasSeenEvent |contains=50706121":false
+				
+}
+},
+{
+	"LogName": "Birthday Gift Dialogue",
+	"Action": "EditData",
+	"Target": "Strings/StringsFromCSFiles",
+	"Entries": {
+		"NPC.cs.4274": "Oh! Isso é ótimo! Eu amo esses costumes humanos de dar presentes!$4",
+		"NPC.cs.4276": "Oooh, um presente para mim! Porque sou um ano mais velho? Que legal! obrigado!$4/Oooh, um presente para mim! Porque sou um ano mais velho? Que legal! obrigado!$4",
+		"NPC.cs.4277": "Oooh, um presente para mim! Porque sou um ano mais velho? Que legal! obrigado!$4",
+		"NPC.cs.4278": "É meu aniversário? Então você está me dando lixo? Costume humano interessante.$3/É meu aniversário? Então você está me dando lixo? Costume humano interessante.$3/",
+		"NPC.cs.4279": "É meu aniversário? E esta me oferecendo lixo inútil?$3",
+		"NPC.cs.4280": "Oh! Um presente para mim? Porque hoje é meu aniversário? Ah, vocês humanos têm costumes tão peculiares.",
+		"NPC.cs.4281": "Oh! Um presente para mim? Porque hoje é meu aniversário? Ah, vocês humanos têm costumes tão peculiares."
+	},
+		"When": {
+				"Season": "summer",
+				"Day": "20",
+				"HasSeenEvent |contains=50706121":true
+				
+}
+},
+
+//movies!
+
+{ 
+	"LogName": "Movie Theatre Default",
+	"Action": "EditData",
+	"Target": "Data/MoviesReactions",
+	 "FromFile": "assets/Dialogue/PT/MoviesReactions.json",
+	 "When": {"HasSeenEvent": "50706121"}
+},
+
+
+// In case you manage to end up married to the cat
+{
+	"Action": "EditData",
+	"Target": "strings/StringsFromCSFiles",
+	"Entries": {
+	"Utility.cs.5367": "Bem, isso é incomum, mas bem, se você insiste. *Limpa a garganta*#$b#É uma honra, neste dia {0} de {1}, unir @ e, Mr.Ginger atravez dos laços da amizade e carinho um pelo outro.",
+	"Utility.cs.5369": "Bem, isso é incomum, mas bem, se você insiste. *Limpa a garganta*#$b#É uma honra, neste dia {0} de {1}, unir @ e, Mr.Ginger atravez dos laços da amizade e carinho um pelo outro.",
+	"Utility.cs.5371": "@... Ginger... #$b# Como prefeito da vila pelicanos e portador regional do selo matrimonial, eu agora os declaro companheiros para a vida!$h",
+	"Utility.cs.5377": "@... Ginger... #$b# Como prefeito da vila pelicanos e portador regional do selo matrimonial, eu agora os declaro companheiros para a vida toda!$h",
+	"Utility.cs.5379": "Vocês podem, Hmm..., se abraçar ou algo assim?",				
+	"Game1.cs.2782": "Oooh, foi divertido não foi?$3#$e#E agora estou aqui, morando em uma fazenda! Você tem ratos por aqui? Bem por pouco tempo!$4",
+	"NPC.cs.4439": "Um humano em miniatura andando por ai? É bom ele não pisar na minha cauda!#$b#Mas, se isso te az feliz. Eu vou tentar lidar com isso.$3",
+	"NPC.cs.4440": "Deixe-me ver se entendi: você preenche alguns papéis e eles entregam um bebê na porta?#$b#Isso é muito menos confuso do que a maneira como os gatos fazem as coisas.",
+	"NPC.cs.4441": "Mirp? {0}, Eu acidentalmente mastiguei os papéis de adoção.#$b#O que? Eles estavam tremulando com o vento, eu pensei que era uma mariposa.",
+	"NPC.cs.4444": "Bebês... são gatinhos humanos, certo? Isso vai ser ótimo! Vou ensiná-lo a caçar e subir em árvores e... o que?$1",
+	"NPC.cs.4447": "De que tipo de coisas os bebês gostam?#$b#Daqueles animais fofinhos de mentira com olhos de vidro? Que graça tem nisso! Eu não entendo os bebês.",
+	"NPC.cs.4448": "Deixe-me ver se entendi: você preenche alguns papéis e eles entregam um bebê na porta?#$b#Isso é muito menos confuso do que a maneira como os gatos fazem as coisas.",
+	"NPC.cs.4449": "Eu preciso de um minuto sozinho... Ei, eles não são meus filhos.$5",
+	"NPC.cs.4462": "Acordei cedo e reguei algumas colheitas para você. Você sabe como me sinto sobre a água!",
+	"NPC.cs.4463": "#$e#Ah, e eu enchi a tigela do {0} com água. Pobres animais comuns, não sabem nem mesmo encher suas próprias tigelas com água.",
+	"NPC.cs.4465": "Mirrrp? Você me trouxe algo delicioso {0}?",
+	"NPC.cs.4466": "*yawns* Ah, bom dia, {0}. Eu estava apenas tirando meu sono da beleza.",
+	"NPC.cs.4470": "Eu levantei cedo para regar suas plantações, e quase fui encharcado pelos Aspesores!$2#$b#Eles são malvados, muito malvados!.$5",
+	"NPC.cs.4474": "Acordei cedo e alimentei todos os seus animais  fedidos de fazenda. Agora você tem mais tempo para pescar peixes para mim.$1",
+	"NPC.cs.4481": "Eu não conseguia dormir, então me levantei e consertei algumas cercas. Não podemos ter os animais fugindo, podemos?",
+	"NPC.cs.4500": "Humanos... Não conseguem arrumar a propria bagunça sozinhos. Que bagunça? Do que você chama a zona que você faz? Pelo menos tudo que eu faço é soltar pelos."
+	},
+	"When": {	"Relationship:MisterGinger": "Engaged, Married", "HasMod |contains=Lemurkat.Tristan.CP":false				}
+},
+{ 	"LogName": "Adopting a baby with the cat",
+	"Action": "EditData",
+	"Target": "strings/Events",
+	"Entries": {  
+		"BirthMessage_Adoption": "Seu novo bebe {0} chegou! Eu espero que você esteja pronto para ser pai.",
+		"BirthMessage_PlayerMother": "Seu novo bebe {0} chegou! Eu espero que você esteja pronto para ser pai.",
+		"BirthMessage_SpouseMother": "Seu novo bebe {0} chegou! Eu espero que você esteja pronto para ser pai.",
+		"HaveBabyQuestion": "Estou pronto para adotar um bebê?",
+		"HaveBabyQuestion_Adoption": "Estou pronto para adotar um bebê?",
+		"BabyNamingTitle_Male": "Como devemos chamá-lo? Ginger é um bom nome.",
+		"BabyNamingTitle_Female": "Como devemos chamá-la? Que tal 'Fluffy'?"
+		},
+	"When": {"Spouse":"MisterGinger", "HasMod |contains=Lemurkat.Tristan.CP":false	}
+			},
+{
+
+	"LogName": "Engagement Dialogue", 
+	"Action": "EditData",
+	"Target": "Data/EngagementDialogue",
+	"Entries": {
+		"MisterGinger0": "Você sabe que sou um gato, não é??#$b#Certo, só checando.#$b#Tenho quase certeza de que isso não é comun, mesmo para seus estranhos padrões, mas vai ter peixe e queijo para o resto da minha vida?$3",
+		"MisterGinger1": "Você duvida de mim, @? Tudo está sob controle. Eu tenho contatos, você sabe.$1#$b#Bem, que contato? O Ras. Ele é muito bom em organizar as coisas.$4" 				},
+		"When": {	"Relationship:MisterGinger": "Engaged, Married", "HasMod |contains=Lemurkat.Tristan.CP":false				}
+},
+{
+	"LogName": "Just a nightmare",
+	"Action": "EditData",
+	"Target": "Data/Events/Farm",
+	"Entries": {
+		"50706131/e 52950000": "none/64 15/MisterGinger 65 16 2 farmer 64 16 2/skippable/pause 500/animate MisterGinger false true 250 24 25 26 27 23 29 30 31 30/pause 1500/emote farmer 40/pause 1500/faceDirection MisterGinger 3/stopAnimation MisterGinger/pause 500/emote MisterGinger 8/pause 500/speak MisterGinger \"O que há de errado, @? Sua testa está enrugada e você fede a infelicidade.$2#$b#O cheiro é semelhante a repolho cozido, se estiver curioso.\"/pause 400/quickQuestion #você já foi um homen?#Eu tive um sonho ruim.#Você é mesmo um gato?(break)jump MisterGinger 3\\speak MisterGinger \"O que??! Um homem!$5#$b#Para não ter mais esse pelo luxuoso e essa cauda magnífica!#$b#Nem pensar!\"(break)speak MisterGinger \"Oh! Que tipo de sonho?#$b#Você sonhou que eu era um homem? Um homem nojento e sem pelo!$5#$b#Ugh! Oh, desculpe, não tive a intenção de ofender. Mas, é nojento! Sua espécie é claramente inferior à minha.$2\"(break)speak MisterGinger \"Hmmm, Você ainda duvida que sou um gato? quer que eu te prove?$3#$b#bem, Tenho quatro patas. Orelhas pontudas, Uma cauda fofinha, Ronrono, sou encantador...$1#$b#Bem, eu diria que todas as evidências confirmam que sim, sou um gato.$4\"/pause 500/speak MisterGinger \"Era isso que estava te incomodando, @?\"/quickQuestion #Sim, era isso.#Você me ama, Mr.Ginger?#Estou com fome, vamos tomar café da manhã?(break)speak MisterGinger \"Ah que bom! Você me deixou preocupado, vocês humanos podem ser criaturas tão temperamentais.#$b#Quer que eu pegue um rato para você no café da manhã?#$b#Não? okay, sobra mais para mim.$1\"(break)speak MisterGinger \"Se eu amo? Claro que eu te amo, @! Você me traz peixe e queijo e me mantem aquecido em um dia frio.#$b#Além disso, é legal conversar com você, nunca fui de falar muito com outros gatos e humanos.$1#$b#O que mais um felino poderia pedir? Vocês humanos são tão complicados com suas emoções.$4\"(break)speak MisterGinger \"Mrrrp?$4\"/pause 500/speak MisterGinger \"Está melhor agora @?#$b#Vocês humanos focam demais em seus pensamentos. Você tem que se concentrar no que é real.$3#$b#Como queijo. Agora, falando em queijo...$4\"/pause 500/emote MisterGinger 20/emote farmer 32/pause 1000/end"
+							},
+		"When": {"HasMod |contains=Lemurkat.Tristan.CP":false					}
+				},
+{	"LogName": "Marriage Dialogue", 
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/MarriageDialogueMisterGinger",
+	"FromFile": "assets/Dialogue/PT/HousemateDialogue.json"
+											},
+{
+	"LogName": "Just a nightmare",
+	"Action": "EditData",
+	"Target": "Data/Events/Farm",
+	"Entries": {
+		"50706131/e 52950000": "none/64 15/MisterGinger 65 16 2 farmer 64 16 2/skippable/pause 500/animate MisterGinger false true 250 24 25 26 27 23 29 30 31 30/pause 1500/emote farmer 40/pause 1500/faceDirection MisterGinger 3/stopAnimation MisterGinger/pause 500/emote MisterGinger 8/pause 500/speak MisterGinger \"O que e eu fazendo na sua porta, @?#$b#Eu estava em patrulha matinal, e pensei em passar por aqui.#$b#O que há de errado, @? Sua testa está enrugada e você fede a infelicidade..$2#$b#O cheiro é semelhante a repolho cozido, se estiver curioso.\"/pause 400/quickQuestion #você já foi um homen?#Eu tive um sonho ruim.#Você é mesmo um gato?(break)jump MisterGinger 3\\speak MisterGinger \"O que??! Um homem!$5#$b#Para não ter mais esse pelo luxuoso e essa cauda magnífica!#$b#Nem pensar!\"(break)speak MisterGinger \"Oh! Que tipo de sonho?#$b#Você sonhou que eu era um homem? Um homem nojento e sem pelo!$5#$b#Ugh! Oh, desculpe, não tive a intenção de ofender. Mas, é nojento! Sua espécie é claramente inferior à minha.$2\"(break)speak MisterGinger \"Hmmm, Você ainda duvida que sou um gato? quer que eu te prove?$3#$b#bem, Tenho quatro patas. Orelhas pontudas, Uma cauda fofinha, Ronrono, sou encantador....$1#$b#Bem, eu diria que todas as evidências confirmam que sim, sou um gato.$4\"/pause 500/speak MisterGinger \"Era isso que estava te incomodando, @?\"/quickQuestion #Sim, era isso.#Você me ama, Mr.Ginger?#Estou com fome, vamos tomar café da manhã?(break)speak MisterGinger \"Ah que bom! Você me deixou preocupado, vocês humanos podem ser criaturas tão temperamentais.#$b#Quer que eu pegue um rato para você no café da manhã?#$b#Não? okay, sobra mais para mim!$1\"(break)speak MisterGinger \"Se eu amo? Claro que eu te amo, @! Você me traz peixe e queijo e me mantem aquecido em um dia frio.#$b#Além disso, é legal conversar com você, nunca fui de falar muito com outros gatos e humanos.$1#$b#O que mais um felino poderia pedir? Vocês humanos são tão complicados com suas emoções.$4\"(break)speak MisterGinger \"Mrrrp?$4\"/pause 500/speak MisterGinger \"Está melhor agora @?#$b#Vocês humanos focam demais em seus pensamentos. Você tem que se concentrar no que é real.$3#$b#Como queijo. Agora, falando em queijo...$4\"/pause 500/emote MisterGinger 20/emote farmer 32/pause 1000/end"
+							},
+		"When": {	"HasMod |contains=Lemurkat.Tristan.CP": false	}
+		
+		}
+]
+}
+		
+		

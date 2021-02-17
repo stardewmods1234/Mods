@@ -1,0 +1,19 @@
+﻿{
+  "Name": "[TMX] Walk to Desert",
+  "Author": "Tarniyar",
+  "Version": "1.1.0",
+  "Description": "Adds a walkable road to the Desert Oasis, plus extra locations",
+  "UniqueID": "Tarniyar.TMX.WalkToDesert",
+  "MinimumApiVersion": "2.0",
+  "UpdateKeys": [ ],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.6.4"
+  },
+  "Dependencies": [
+  {
+	"UniqueID": "Tarniyar.TMX.GardenVillage",
+	"IsRequired": true,
+  }
+  ]
+}

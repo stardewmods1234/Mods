@@ -1,0 +1,20 @@
+﻿{
+	"Name": "[MFM] Luxury Meals",
+	"Author": "xXStrayXx",
+	"Version": "1.0.0",
+	"Description": "Allows recipes to be mailed to the player.",
+	"UniqueID": "xXStrayXx.luxurymealsMFM",
+	"MinimumApiVersion": "3.1.0",
+	"UpdateKeys": ["Nexus:5891"],
+	"Dependencies": [
+		{
+			"UniqueID": "xXStrayXx.luxurymeals"
+		},
+		{
+			"UniqueID": "DIGUS.MailFrameworkMod"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod"
+	}
+}

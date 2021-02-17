@@ -1,0 +1,140 @@
+﻿{
+"loadLate": true,
+
+  "addMaps": [
+    {
+      "name": "ForestRoad",
+      "file": "assets/wtd_ForestRoad.tbin",
+      "addWarps": [
+        "60 18 Tunnel 0 11",
+		"60 17 Tunnel 0 10",
+		"60 16 Tunnel 0 9",
+		"60 15 Tunnel 0 8",
+		"9 -1 Meadow 9 18",
+		"10 -1 Meadow 10 18",
+		"-1 18 WindingRoad 38 85",
+		"-1 17 WindingRoad 38 84",
+		"-1 16 WindingRoad 38 83",
+		"-1 15 WindingRoad 38 82",
+		"-1 14 WindingRoad 38 82",
+		"50 4 Backwoods 31 24"
+      ]
+    },
+	{
+      "name": "Meadow",
+      "file": "assets/wtd_Meadow.tbin",
+      "addWarps": [
+	  "9 20 ForestRoad 9 1",
+	  "10 20 ForestRoad 10 1"]
+    },
+	{
+      "name": "WindingRoad",
+      "file": "assets/wtd_WindingRoad.tbin",
+      "addWarps": [
+		"40 85 ForestRoad 1 18",
+		"40 84 ForestRoad 1 17",
+		"40 83 ForestRoad 1 16",
+		"40 82 ForestRoad 1 15",
+		"40 81 ForestRoad 1 14",
+		"22 -1 Interchange 22 58",
+		"23 -1 Interchange 23 58",
+		"24 -1 Interchange 24 58",
+		"25 -1 Interchange 25 58",
+		"26 -1 Interchange 26 58",
+		"27 -1 Interchange 27 58",
+		"28 -1 Interchange 28 58",
+		"-1 81 MainShops 52 19",
+		"-1 82 MainShops 52 20",
+		"-1 83 MainShops 52 21",
+		"-1 84 MainShops 52 22",
+		"-1 85 MainShops 52 23",
+      ]
+    },
+	{
+      "name": "Interchange",
+      "file": "assets/wtd_Interchange.tbin",
+      "addWarps": [
+		"22 60 WindingRoad 22 1",
+		"23 60 WindingRoad 23 1",
+		"24 60 WindingRoad 24 1",
+		"25 60 WindingRoad 25 1",
+		"26 60 WindingRoad 26 1",
+		"27 60 WindingRoad 27 1",
+		"28 60 WindingRoad 28 1",
+		"-1 35 GhostTown 68 45",
+		"-1 36 GhostTown 68 46",
+		"-1 37 GhostTown 68 47",
+		"-1 38 GhostTown 68 48",
+		"-1 39 GhostTown 68 49"
+      ]
+    },
+{
+      "name": "GhostTown",
+      "file": "assets/wtd_GhostTown.tbin",
+      "addWarps": [
+	"70 45 Interchange 1 35",
+	"70 46 Interchange 1 36",
+	"70 47 Interchange 1 37",
+	"70 48 Interchange 1 38",
+	"70 49 Interchange 1 39",
+	"-1 33 Desert 47 24",
+	"-1 34 Desert 47 25",
+	"-1 35 Desert 47 26",
+	"-1 36 Desert 47 27",
+	"-1 37 Desert 47 28"
+      ]
+    },
+	{
+      "name": "GhostShop",
+      "file": "assets/wtd_GhostShop.tbin",
+      "addWarps": []
+    },
+		{
+      "name": "PeteHidden",
+      "file": "assets/wtd_PeteHidden.tbin",
+      "addWarps": []
+    },
+],
+  "mergeMaps": [
+    {
+      "name": "Tunnel",
+	  "file": "assets/wtd_Tunnel.tbin",
+	  "sourceArea": [0,0,14,14],
+	  "position": [0,0],
+      "addWarps": [
+        "-1 11 ForestRoad 59 18",
+		"-1 10 ForestRoad 59 17",
+		"-1 9 ForestRoad 59 16",
+		"-1 8 ForestRoad 59 15"
+      ]
+    },
+	{
+		"name": "Backwoods",
+		"file": "assets/wtd_Backwoods.tmx",
+		"sourceArea": [0,0,50,40],
+		"position": [0,0],
+		"addWarps": [ "29 23 ForestRoad 48 5" ]
+	},
+	{
+		"name": "Backwoods_Staircase",
+		"file": "assets/wtd_Backwoods_Staircase.tmx",
+		"sourceArea": [0,0,50,40],
+		"position": [0,0],
+	}
+  ],
+"onlyWarps": [
+
+{
+"name": "MainShops",
+"addWarps": [
+        "54 19 WindingRoad 1 81",
+		"54 20 WindingRoad 1 82",
+		"54 21 WindingRoad 1 83",
+		"54 22 WindingRoad 1 84",
+		"54 23 WindingRoad 1 85"
+
+      ]
+}
+]
+  
+}

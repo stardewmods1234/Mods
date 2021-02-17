@@ -1,0 +1,66 @@
+{
+    "Name": "Aquaponics Aquarium",
+    "Description": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Houses multiple fish whose waste can subsequently be refined into fertilizers.",
+    "Price": 100,
+    "ProvidesLight": false,
+	"ReserveExtraIndexCount": 4,
+    "Recipe":
+    { 
+        "ResultCount": 1,
+        "Ingredients": [
+			{
+				"Object": "Frame Components",
+				"Count": 5
+			},
+			{
+				"Object": 338, // Refined Quartz, for the glass
+				"Count": 5
+			},
+			{
+				"Object": "Water Pump",
+				"Count": 1
+			},
+			{
+				"Object": 390, //Stone
+				"Count": 10
+			},
+			{
+				"Object": -4, //5 of any Fish
+				"Count": 5
+			}
+		],
+		
+		"CanPurchase": true, 
+		"PurchaseFrom": "Robin",
+		"PurchasePrice": 450,
+		"PurchaseRequirements": ["j 336", "f Demetrius 2000"],
+    },
+        "NameLocalization": //Used for localization. 
+        { 
+            "es": "Aquaponics Aquarium", //Spansih
+            "ko": "Aquaponics Aquarium", //Korean
+            "de": "Aquaponics Aquarium", //German
+            "fr": "Aquaponics Aquarium", //French
+            "hu": "Aquaponics Aquarium", //Hungarian
+            "it": "Aquaponics Aquarium", //Italian
+            "ja": "Aquaponics Aquarium", //Japanese
+            "pt": "Aquaponics Aquarium", //Portuguese
+            "ru": "Aquaponics Aquarium", //Russian
+            "tr": "Aquaponics Aquarium", //Turkish
+            "zh": "生态鱼池" //Chinese (Simplified)
+        },
+        "DescriptionLocalization": //Used for localization. 
+        { 
+            "es": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Houses multiple fish whose waste can subsequently be refined into fertilizers.", //Spansih
+            "ko": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Houses multiple fish whose waste can subsequently be refined into fertilizers.", //Korean
+            "de": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Houses multiple fish whose waste can subsequently be refined into fertilizers.", //German
+            "fr": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Houses multiple fish whose waste can subsequently be refined into fertilizers.", //French
+            "hu": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Houses multiple fish whose waste can subsequently be refined into fertilizers.", //Hungarian
+            "it": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Houses multiple fish whose waste can subsequently be refined into fertilizers.", //Italian
+            "ja": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Houses multiple fish whose waste can subsequently be refined into fertilizers.", //Japanese
+            "pt": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Houses multiple fish whose waste can subsequently be refined into fertilizers.", //Portuguese
+            "ru": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Houses multiple fish whose waste can subsequently be refined into fertilizers.", //Russian
+            "tr": "An Aquarium with inlets and outlets designed to work in Aquaponics systems. Houses multiple fish whose waste can subsequently be refined into fertilizers.", //Turkish
+            "zh": "带有进水口和出水口的养鱼池馆，可在生态循环系统中工作。能饲养多条鱼，这些鱼的废物随后可以精炼成肥料。" //Chinese (Simplified)
+        }
+    }

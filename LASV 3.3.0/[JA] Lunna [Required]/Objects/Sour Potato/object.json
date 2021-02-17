@@ -1,0 +1,14 @@
+{
+  "Name": "Sour Potato",
+  "Description": "A variety of potato grown in Umuwi that tastes sour.",
+  "Category": "Vegetable",
+  "Edibility": 50,
+  "Price": 70,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+  {
+  "Love": ["Raphael", "Leah", "Dwarf"],
+  "Like": ["Vincent", "Robin"],
+  },
+}

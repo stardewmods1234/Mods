@@ -1,0 +1,13 @@
+{
+    "Name": "[JA] Kitchen Station Set",
+    "Author": "KAYA",
+    "Description": "[JA] Kitchen Station Set",
+    "Version": "1.1.2",
+    "MinimumApiVersion": "3.3.2",
+    "UniqueID": "KAYA.JAKitchenStationSet",
+    "ContentPackFor":
+    {
+        "UniqueID": "spacechase0.JsonAssets"
+    },
+    "UpdateKeys": ["Nexus:6305@JAKitchen"],
+}

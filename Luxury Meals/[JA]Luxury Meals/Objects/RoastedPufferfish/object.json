@@ -1,0 +1,34 @@
+{
+  "Name": "Roasted Pufferfish",
+  "Description": "It's not easy to remove the toxins...But a roasted pufferfish is a famous delicacy.",
+  "Category": "Cooking",
+  "Edibility": 100,
+  "EdibleIsDrink": false,
+  "EdibleBuffs":null,
+  "Price": 450,
+  "IsColored": false,
+  "GiftTastes": {
+	"Love": [ "Leah","Willy","Pierre","Lewis", "Linus"],
+	"Like": ["Alex","Abigail", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Evelyn", "George", "Kent", "Krobus",  "Maru", "Pam", "Gus","Jodi","Penny","Robin","Sandy", "Sam",  "Shane",  "Wizard","Vincent","Emily", "Haley",  "Jas","Marnie", "Sebastian","Harvey"],
+	"Neutral": [],
+	"Dislike": [],
+	"Hate": [],
+  },
+  "Recipe": {
+    "ResultCount": 1,
+	"IsDefault": false,
+    "Ingredients": [
+      {
+        "Object": 128,
+        "Count": 1,
+      }
+    ],
+  },
+
+ "NameLocalization": { 
+    "zh": "烧河豚",
+  },
+ "DescriptionLocalization": { 
+    "zh": "移除毒素可是门技术活……不过烧好的河豚是知名的美食。",
+  }
+}

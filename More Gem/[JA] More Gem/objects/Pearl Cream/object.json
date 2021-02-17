@@ -1,0 +1,47 @@
+{
+    "Name": "Cream Pearl",
+    "Description": "A rare treasure from the sea.",
+    "Category": "-15",
+	"CategoryTextOverride": "Jewel",
+    "CategoryColorOverride": "90, 150, 80, 255",
+    "Edibility": -300,
+    "Price": 2500,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Love": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "크림색 진주",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Pérola Creme",
+        // "ru": "",
+        // "tr": "",
+        "zh": "奶油珍珠",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "바다에서 얻을 수 있는 진귀한 보물.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        "pt": "Um tesouro raro do mar.",
+        // "ru": "",
+        // "tr": "",
+        "zh": "海洋里的珍贵宝藏。",
+    },
+	
+    "ContextTags": [
+        "color_sand", "pearl_item",
+    ],
+}

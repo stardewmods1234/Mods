@@ -1,0 +1,20 @@
+{
+"read.001": "Have you ever read the tale of the Ancient Mariner? It's one of my favourites.$1",
+"read.002": "Penny invites me to read to the little ones sometimes. I like to tell them all the old myths and legends of the sea.$1",
+
+"light.001": "It's a dark night tonight. I must make sure the light shines brightly.",
+
+"rain.001": "Weather like this keeps me on the lookout.",
+
+"telescope.001": "There's a storm brewing out at sea.",
+"telescope.002": "I make sure to watch for ships in trouble when the fog is thick.",
+
+"boat.001": "I'd rather not have to row out to anyone in trouble, but the nearest coastguard station is far from here.",
+
+"saloon.001": "Ah, it's good to take a load off and relax.$1",
+
+"checkup": "A good Keeper is a healthy Keeper.",
+
+"sleep": "%Beatrice works all night. Better leave her to sleep."
+}
+
