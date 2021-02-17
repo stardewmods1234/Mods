@@ -6,3 +6,5 @@ vortex.deployment.json
 .idea/**
 FarmTypeManager/data/*
 !FarmTypeManager/data/default.json
+UI Info Suite/*_modData.xml
+SkillPrestige/psconfigs/*

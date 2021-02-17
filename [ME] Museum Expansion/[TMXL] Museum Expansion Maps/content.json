@@ -10,6 +10,9 @@
         }, {
             "name": "Museumshop",
             "file": "assets/shopmu.tmx",
+        }, {
+            "name": "GuntherCourt",
+            "file": "assets/Judgment.tmx",
         },
     ],
     "spouseRooms": [{

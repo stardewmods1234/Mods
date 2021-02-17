@@ -11,7 +11,7 @@
   "Jade": "true",
   "Diamond": "true",
   "PrismaticShard": "true",
-  "Geode": "true",
+  "Geode": "false",
   "FrozenGeode": "true",
   "MagmaGeode": "true",
   "OmniGeode": "true",

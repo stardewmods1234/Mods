@@ -2,7 +2,7 @@
   "Name": "Museum Expansion CP",
   "Author": "andril11 and various artists",
   "Description": "Adds Charlie to your world!",
-  "Version": "2.0.2",
+  "Version": "2.1.0",
   "UniqueID": "andril11.charlie",
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher"
