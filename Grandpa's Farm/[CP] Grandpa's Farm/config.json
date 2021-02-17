@@ -5,6 +5,6 @@
   "RemoveGrassStretch": "false",
   "GrassCropField": "false",
   "HeavyDebris": "false",
-  "LargerGreenhouse": "false",
+  "LargerGreenhouse": "true",
   "RemoveGreenhouseObjects": "false"
 }

@@ -2,10 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a264c3-5969-4de6-9ef0-ed2ce2dec00e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/AdvancedLootFramework/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CrabNet/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FarmTypeManager/data/Hardcore_453453453.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FishingChestsExpanded/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShowCatchQuality/ShowCatchQuality.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShowCatchQuality/ShowCatchQuality.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShowCatchQuality/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreasureChestsExpanded/config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BetterJunimos/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/BetterJunimos/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grandpa's Farm/[CP] Grandpa's Farm/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/Grandpa's Farm/[CP] Grandpa's Farm/config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HorseOverhaul/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/HorseOverhaul/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stardew Valley Expanded/[CP] Stardew Valley Expanded/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/Stardew Valley Expanded/[CP] Stardew Valley Expanded/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Swim/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/Swim/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI Info Suite/Tesaskan_modData.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UI Info Suite/Tesaskan_modData.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Characters/Gunther/Gunther_Greyscale_recolored_354253717.png" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Characters/Gunther/Gunther_Greyscale_recolored_354253717.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Characters/SafariGuy/SafariGuy_Greyscale_recolored_121582824.png" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Characters/SafariGuy/SafariGuy_Greyscale_recolored_121582824.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Portraits/Gunther/Gunther_Greyscale_recolored_3530729885.png" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Portraits/Gunther/Gunther_Greyscale_recolored_3530729885.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Portraits/SafariGuy/SafariGuy_Greyscale_recolored_3290243262.png" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Portraits/SafariGuy/SafariGuy_Greyscale_recolored_3290243262.png" afterDir="false" />
     </list>
     <list id="df405b05-a641-4446-8c59-d3949be38b2b" name="Revert &quot;:tada: initial commit&quot;" comment="Revert &quot;:tada: initial commit&quot;&#10;&#10;This reverts commit 6b0926c7" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +77,7 @@
       <workItem from="1613433921241" duration="2334000" />
       <workItem from="1613442523770" duration="2393000" />
       <workItem from="1613447402450" duration="620000" />
-      <workItem from="1613556748851" duration="3037000" />
+      <workItem from="1613556748851" duration="4956000" />
     </task>
     <task id="LOCAL-00001" summary=":tada: initial">
       <created>1613431689680</created>
