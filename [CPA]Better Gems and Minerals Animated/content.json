@@ -52,14 +52,6 @@
       "Default": "true"
     },
     //Geodes
-    "FrozenGeode": {
-      "AllowValues": "false, true",
-      "Default": "true"
-    },
-    "Geode": {
-      "AllowValues": "false, true",
-      "Default": "true"
-    },
     "MagmaGeode": {
       "AllowValues": "false, true",
       "Default": "true"

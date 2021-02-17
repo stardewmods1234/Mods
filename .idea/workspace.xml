@@ -2,24 +2,575 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a264c3-5969-4de6-9ef0-ed2ce2dec00e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/(CP) Better Greenhouse/assets/Expanded Greenhouse.tbin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/(CP) Better Greenhouse/assets/Regular Greenhouse.tbin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/(CP) Better Greenhouse/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/(CP) Better Greenhouse/content.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/(CP) Better Greenhouse/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/(CP) Better Greenhouse/references/Expanded Greenhouse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/(CP) Better Greenhouse/references/Regular Greenhouse.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrabNet/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/CrabNet/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillPrestige/psconfigs/Hardcore_453453453" beforeDir="false" afterPath="$PROJECT_DIR$/SkillPrestige/psconfigs/Hardcore_453453453" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI Info Suite/Tesaskan_modData.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UI Info Suite/Tesaskan_modData.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BobaCafe/[JA]BobaCafe/Crops/Cassava Plant/crop.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BobaCafe/[JA]BobaCafe/Crops/Cassava Plant/crop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BobaCafe/[JA]BobaCafe/Crops/Cassava Plant/seeds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BobaCafe/[JA]BobaCafe/Objects/Cassava/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BobaCafe/[JA]BobaCafe/Objects/Cassava/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BobaCafe/[JA]BobaCafe/Objects/Cherry Boba Tea/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BobaCafe/[JA]BobaCafe/Objects/Cherry Boba Tea/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BobaCafe/[JA]BobaCafe/Objects/Grape Boba Tea/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BobaCafe/[JA]BobaCafe/Objects/Grape Boba Tea/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BobaCafe/[JA]BobaCafe/Objects/Green Boba Tea/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BobaCafe/[JA]BobaCafe/Objects/Green Boba Tea/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BobaCafe/[JA]BobaCafe/Objects/Iced Coffee Boba/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BobaCafe/[JA]BobaCafe/Objects/Iced Coffee Boba/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BobaCafe/[JA]BobaCafe/Objects/Melon Boba Tea/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BobaCafe/[JA]BobaCafe/Objects/Melon Boba Tea/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BobaCafe/[JA]BobaCafe/Objects/Strawberry Boba Tea/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BobaCafe/[JA]BobaCafe/Objects/Strawberry Boba Tea/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BobaCafe/[JA]BobaCafe/Objects/Tapioca/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BobaCafe/[JA]BobaCafe/Objects/Tapioca/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BobaCafe/[JA]BobaCafe/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BobaCafe/[MFM]BobaCafe/mail.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BobaCafe/[MFM]BobaCafe/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[FTM] Fizzy Drinks/content.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[FTM] Fizzy Drinks/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/BigCraftables/Marble Soda Machine/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/BigCraftables/Marble Soda Machine/big-craftable-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/BigCraftables/Marble Soda Machine/big-craftable-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/BigCraftables/Marble Soda Machine/big-craftable-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/BigCraftables/Marble Soda Machine/big-craftable.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/BigCraftables/Marble Soda Machine/big-craftable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Crops/Burdock/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Crops/Burdock/crop.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Crops/Burdock/crop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Crops/Burdock/seeds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Crops/Guarana/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Crops/Guarana/crop.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Crops/Guarana/crop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Crops/Guarana/seeds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Crops/Muscat Grape/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Crops/Muscat Grape/crop.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Crops/Muscat Grape/crop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Crops/Muscat Grape/seeds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Crops/Red Sorrel/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Crops/Red Sorrel/crop.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Crops/Red Sorrel/crop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Crops/Red Sorrel/seeds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Crops/Stevia Plant/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Crops/Stevia Plant/crop.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Crops/Stevia Plant/crop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Crops/Stevia Plant/seeds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/FruitTrees/Myrtle Leaved Orange Tree/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/FruitTrees/Myrtle Leaved Orange Tree/sapling.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/FruitTrees/Myrtle Leaved Orange Tree/tree.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/FruitTrees/Myrtle Leaved Orange Tree/tree.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/FruitTrees/Yerba Mate Tree/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/FruitTrees/Yerba Mate Tree/sapling.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/FruitTrees/Yerba Mate Tree/tree.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/FruitTrees/Yerba Mate Tree/tree.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Apple Beer/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Apple Beer/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Banana Marble Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Banana Marble Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Birch Bark/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Birch Bark/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Birch Beer/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Birch Beer/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Birch Extract/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Birch Extract/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Bitter Orange/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Bitter Orange/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Blue Bubblegum Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Blue Bubblegum Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Blueberry Marble Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Blueberry Marble Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Burdock Root/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Burdock Root/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Butterscotch Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Butterscotch Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Cane Sugar Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Cane Sugar Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Cappuccino Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Cappuccino Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Champagne Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Champagne Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Chili Oil Marble Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Chili Oil Marble Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Chinotto Extract/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Chinotto Extract/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Chinotto Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Chinotto Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Coconut Marble Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Coconut Marble Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Cucumber Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Cucumber Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Dandelion And Burdock Infusion/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Dandelion And Burdock Infusion/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Dandelion And Burdock Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Dandelion And Burdock Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Dreamsicle Float/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Dreamsicle Float/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Espresso Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Espresso Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Ginger Brew/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Ginger Brew/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Ginger Extract/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Ginger Extract/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Ginseng Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Ginseng Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Grape Marble Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Grape Marble Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Green Tea Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Green Tea Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Guarana Extract/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Guarana Extract/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Guarana Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Guarana Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Guarana/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Guarana/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Hard Chinotto Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Hard Chinotto Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Hard Ginger Brew/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Hard Ginger Brew/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Hard Root Beer/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Hard Root Beer/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Jamaican Ginger Brew/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Jamaican Ginger Brew/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Julmust Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Julmust Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Mango Marble Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Mango Marble Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Maple Cream Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Maple Cream Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Maple Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Maple Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Matcha Marble Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Matcha Marble Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Melon Marble Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Melon Marble Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Muscat Grape/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Muscat Grape/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Muscat Marble Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Muscat Marble Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Old Fashioned Sarsaparilla/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Old Fashioned Sarsaparilla/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Orange Marble Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Orange Marble Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Original Marble Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Original Marble Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Peach Marble Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Peach Marble Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Pineapple Marble Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Pineapple Marble Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Plum Marble Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Plum Marble Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Pomegranate Marble Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Pomegranate Marble Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Red Sorrel Leaf/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Red Sorrel Leaf/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Red Sorrel Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Red Sorrel Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Red Sorrel Syrup/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Red Sorrel Syrup/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Root Beer Float/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Root Beer Float/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Root Beer Ice Cream/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Root Beer Ice Cream/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Root Beer/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Root Beer/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Sarsaparilla/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Sarsaparilla/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Sassafras Root/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Sassafras Root/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Spruce Beer/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Spruce Beer/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Spruce Essence/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Spruce Essence/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Spruce Tips/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Spruce Tips/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Stevia Extract/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Stevia Extract/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Stevia Plant/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Stevia Plant/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Stevia Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Stevia Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Strawberry Marble Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Strawberry Marble Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Yerba Mate Extract/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Yerba Mate Extract/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Yerba Mate Leaves/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Yerba Mate Leaves/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Yerba Mate Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Yerba Mate Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Yerba Mate Tea/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Yerba Mate Tea/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Yogurt Marble Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Yogurt Marble Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Yuzu Marble Soda/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/Objects/Yuzu Marble Soda/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[JA] Fizzy Drinks/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[PFM] Fizzy Drinks/ProducerRules.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fizzy Drinks 2.2/[PFM] Fizzy Drinks/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HappyFishJump/HappyFishJump.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HappyFishJump/HappyFishJump.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HappyFishJump/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HappyFishJump/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Haste Milk/[CP-A] Haste Milk/Haste Cheese-Sheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Haste Milk/[CP-A] Haste Milk/Haste Milk-Sheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Haste Milk/[CP-A] Haste Milk/content.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Haste Milk/[CP-A] Haste Milk/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Haste Milk/[PFM] Haste Milk/ProducerRules.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Haste Milk/[PFM] Haste Milk/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[CFR] Kawaii Valley/Kawaii Valley.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[CFR] Kawaii Valley/artistmachine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[CFR] Kawaii Valley/beautymachine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[CFR] Kawaii Valley/dyemachine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[CFR] Kawaii Valley/lollipopmachine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[CFR] Kawaii Valley/macaronoven.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[CFR] Kawaii Valley/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[CFR] Kawaii Valley/nailpolishmaker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Ancient Macaron/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Ancient Macaron/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Black Dye/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Black Dye/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Blue Dye/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Blue Dye/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Blueberry Lollipop/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Blueberry Lollipop/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Blush/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Blush/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Candy Polish/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Candy Polish/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Chocoberry Macaron/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Chocoberry Macaron/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Chocoffee Macaron/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Chocoffee Macaron/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Cola Lollipop/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Cola Lollipop/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Crayons/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Crayons/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Fairy Macaron/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Fairy Macaron/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Frozen Polish/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Frozen Polish/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Glamour Polish/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Glamour Polish/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Grape Lollipop/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Grape Lollipop/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Green Dye/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Green Dye/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Holographic Polish/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Holographic Polish/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Lagoon Polish/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Lagoon Polish/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Lemon Lollipop/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Lemon Lollipop/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Lemon Macaron/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Lemon Macaron/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Lipstick/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Lipstick/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Lotion/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Lotion/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Magic Clay/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Magic Clay/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Magic Marker/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Magic Marker/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Magic Paint/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Magic Paint/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Magic Polish/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Magic Polish/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Mascara/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Mascara/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Midnight Polish/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Midnight Polish/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Mint Lollipop/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Mint Lollipop/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Mint Macaron/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Mint Macaron/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Night Cream/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Night Cream/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Orange Dye/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Orange Dye/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Orange Lollipop/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Orange Lollipop/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Orange Macaron/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Orange Macaron/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Paint Brush/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Paint Brush/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Palette/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Palette/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Peach Macaron/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Peach Macaron/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Pink Dye/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Pink Dye/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Purple Dye/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Purple Dye/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Rainbow Lollipop/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Rainbow Lollipop/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Red Dye/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Red Dye/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Starfruit Lollipop/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Starfruit Lollipop/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Strawberry Lollipop/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Strawberry Lollipop/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Sunscreen/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Sunscreen/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Sunset Polish/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Sunset Polish/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Turquoise Dye/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Turquoise Dye/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Vaniberry Macaron/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Vaniberry Macaron/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Voilet Macaron/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Voilet Macaron/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Watercolors/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Watercolors/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Yellow Dye/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/Objects/Yellow Dye/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kawaii Valley/[JA] Kawaii Valley Machine Goods/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kitchen Nook/assets/FarmHouse.tbin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kitchen Nook/content.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kitchen Nook/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoreRings/MoreRings.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoreRings/MoreRings.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoreRings/assets/Objects/Ring_Combat_Regen/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoreRings/assets/Objects/Ring_Combat_Regen/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoreRings/assets/Objects/Ring_DiamondBooze/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoreRings/assets/Objects/Ring_DiamondBooze/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoreRings/assets/Objects/Ring_Fishing_LargeBar/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoreRings/assets/Objects/Ring_Fishing_LargeBar/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoreRings/assets/Objects/Ring_Refresh/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoreRings/assets/Objects/Ring_Refresh/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoreRings/assets/content-pack.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoreRings/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultipleSpouses/MultipleSpouses.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultipleSpouses/MultipleSpouses.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultipleSpouses/assets/Baby.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultipleSpouses/assets/Baby_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultipleSpouses/assets/CustomBed.tmx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultipleSpouses/assets/Toddler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultipleSpouses/assets/Toddler_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultipleSpouses/assets/Toddler_girl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultipleSpouses/assets/Toddler_girl_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultipleSpouses/assets/beds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultipleSpouses/assets/hair/Baby.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultipleSpouses/assets/hair/Toddler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultipleSpouses/assets/hair/Toddler_girl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultipleSpouses/assets/kiss.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultipleSpouses/assets/kiss.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultipleSpouses/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultipleSpouses/i18n/default.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultipleSpouses/i18n/es.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultipleSpouses/i18n/fr.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultipleSpouses/i18n/zh.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultipleSpouses/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPCMapLocations/config/3423_273193637.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPCMapLocations/config/a_273194341.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPCMapLocations/config/a_273201558.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPCMapLocations/config/a_273202284.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PriceFluctuation/PriceFluctuation.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PriceFluctuation/PriceFluctuation.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PriceFluctuation/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PriceFluctuation/i18n/default.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PriceFluctuation/i18n/ko.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PriceFluctuation/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillPrestige/Data.json" beforeDir="false" afterPath="$PROJECT_DIR$/SkillPrestige/Data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/SkillRings.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/SkillRings.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/CursedRing/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/CursedRing/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/DustyRing/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/DustyRing/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/ElusiveRing/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/ElusiveRing/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/GrassyRing/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/GrassyRing/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfDecentSoil/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfDecentSoil/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfDeepRoots/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfDeepRoots/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfDwarvenLuck/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfDwarvenLuck/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfIneffableKnowledge/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfIneffableKnowledge/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfInsight/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfInsight/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfKnowledge/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfKnowledge/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfNaturalBounty/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfNaturalBounty/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfNaturesOracle/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfNaturesOracle/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfPureStrength/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfPureStrength/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfSharperBlades/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfSharperBlades/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfTheApprenticeFisher/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfTheApprenticeFisher/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfTheCaves/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfTheCaves/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfTheGatherer/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfTheGatherer/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfTheGreenThumb/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfTheGreenThumb/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfTheLegendaryAngler/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfTheLegendaryAngler/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfTheMadMariner/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfTheMadMariner/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfTheWarGod/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfTheWarGod/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfTheWieldyPick/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/RingOfTheWieldyPick/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/StickyRing/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/StickyRing/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/StoneRing/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/Objects/StoneRing/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/assets/content-pack.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/SkillRings/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/[MFM] SkillRings/mail.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/[MFM] SkillRings/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/[STF] SkillRings/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkillRings/[STF] SkillRings/shops.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StardewNotification/StardewNotification.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StardewNotification/StardewNotification.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StardewNotification/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StardewNotification/i18n/default.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StardewNotification/i18n/it.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StardewNotification/i18n/ko.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StardewNotification/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival.CP-A/SurfingTrophy_Animated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival.CP-A/content.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival.CP-A/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival.MFM/i18n/default.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival.MFM/i18n/ko.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival.MFM/i18n/pt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival.MFM/i18n/zh.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival.MFM/mail.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival.MFM/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival.STF/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival.STF/shops.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/CP-A/SurfingTrophy_Animated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/CP-A/content.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/CP-A/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/MFM/i18n/default.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/MFM/i18n/ko.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/MFM/i18n/pt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/MFM/i18n/zh.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/MFM/mail.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/MFM/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/STF/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/STF/shops.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/SpaceCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/SpaceCore.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/SurfingFestival.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/SurfingFestival.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/TiledNet.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/TiledNet.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/Beach.tbin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/festival.en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/festival.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/festival.ko.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/festival.pt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/festival.zh.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/BigCraftables/Brown Surfboard (Scarecrow)/big-craftable.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/BigCraftables/Brown Surfboard (Scarecrow)/big-craftable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/BigCraftables/Cool Surfboard (Scarecrow)/big-craftable.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/BigCraftables/Cool Surfboard (Scarecrow)/big-craftable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/BigCraftables/Hibiscus Surfboard (Scarecrow)/big-craftable.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/BigCraftables/Hibiscus Surfboard (Scarecrow)/big-craftable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/BigCraftables/Red Surfboard (Scarecrow)/big-craftable.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/BigCraftables/Red Surfboard (Scarecrow)/big-craftable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/BigCraftables/Stripe Surfboard (Scarecrow)/big-craftable.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/BigCraftables/Stripe Surfboard (Scarecrow)/big-craftable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/BigCraftables/Surfing Trophy/big-craftable.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/BigCraftables/Surfing Trophy/big-craftable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/BigCraftables/White Surfboard (Scarecrow)/big-craftable.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/BigCraftables/White Surfboard (Scarecrow)/big-craftable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/Hats/Black Snorkel Mask/hat.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/Hats/Black Snorkel Mask/hat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/Hats/Blue Snorkel Mask/hat.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/Hats/Blue Snorkel Mask/hat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/Hats/Green Snorkel Mask/hat.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/Hats/Green Snorkel Mask/hat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/Hats/Orange Snorkel Mask/hat.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/Hats/Orange Snorkel Mask/hat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/Hats/Pink Snorkel Mask/hat.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/Hats/Pink Snorkel Mask/hat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/Hats/Red Snorkel Mask/hat.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/Hats/Red Snorkel Mask/hat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/Objects/Cheap Amulet/object.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/Objects/Cheap Amulet/object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/ja/content-pack.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/net-stun.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/obstacles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/surfboard-water.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/surfboards.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/assets/surfing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/i18n/default.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/i18n/ko.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/i18n/pt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/i18n/zh.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SurfingFestival/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpgradeEmptyCabins/UpgradeEmptyCabins.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpgradeEmptyCabins/UpgradeEmptyCabins.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpgradeEmptyCabins/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpgradeEmptyCabins/i18n/default.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpgradeEmptyCabins/i18n/es.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpgradeEmptyCabins/i18n/fr.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpgradeEmptyCabins/i18n/it.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpgradeEmptyCabins/i18n/ko.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpgradeEmptyCabins/i18n/pt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpgradeEmptyCabins/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP-A] Paul's Mini-Obelisk/Mini-Obelisk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP-A] Paul's Mini-Obelisk/content.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP-A] Paul's Mini-Obelisk/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP-A]Animated IridiumBand and SpaceBoots/IridiumBand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP-A]Animated IridiumBand and SpaceBoots/SpaceBoots.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP-A]Animated IridiumBand and SpaceBoots/content.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP-A]Animated IridiumBand and SpaceBoots/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CPA]Better Gems and Minerals Animated/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/[CPA]Better Gems and Minerals Animated/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CPA]Better Gems and Minerals Animated/content.json" beforeDir="false" afterPath="$PROJECT_DIR$/[CPA]Better Gems and Minerals Animated/content.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/[CP] Better Gems and Minerals/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Better Gems and Minerals/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Characters/Birdie/Birdie_BowtieGreyscale_recolored_2155922236.png" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Characters/Birdie/Birdie_BowtieGreyscale_recolored_2155922236.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Characters/Birdie/Birdie_ShirtGreyscale_recolored_2504181271.png" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Characters/Birdie/Birdie_ShirtGreyscale_recolored_2504181271.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Better Gems and Minerals/content.json" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Better Gems and Minerals/content.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Butcher Shop/assets/SVR.tbin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Butcher Shop/assets/SVR2.tbin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Butcher Shop/assets/SummitReborn.tbin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Butcher Shop/assets/Vanilla.tbin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Butcher Shop/assets/meat shop tile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Butcher Shop/assets/meat shop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Butcher Shop/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Butcher Shop/content.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Butcher Shop/i18n/default.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Butcher Shop/i18n/ko.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Butcher Shop/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Characters/Birdie/Birdie_BowtieGreyscale_recolored_2202859020.png" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Characters/Birdie/Birdie_BowtieGreyscale_recolored_2202859020.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Characters/Birdie/Birdie_ShirtGreyscale_recolored_2508014567.png" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Characters/Birdie/Birdie_ShirtGreyscale_recolored_2508014567.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Characters/Gunther/Gunther_Greyscale_recolored_1143015491.png" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Characters/Gunther/Gunther_Greyscale_recolored_1143015491.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Characters/Gunther/Gunther_Greyscale_recolored_419627659.png" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Characters/Gunther/Gunther_Greyscale_recolored_419627659.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Characters/Gunther/Gunther_Greyscale_recolored_528143317.png" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Characters/Gunther/Gunther_Greyscale_recolored_528143317.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Characters/SafariGuy/SafariGuy_Greyscale_recolored_108853446.png" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Characters/SafariGuy/SafariGuy_Greyscale_recolored_108853446.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Characters/SafariGuy/SafariGuy_Greyscale_recolored_117518872.png" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Characters/SafariGuy/SafariGuy_Greyscale_recolored_117518872.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Portraits/Birdie/Birdie_BowtieGreyscale_recolored_66239028.png" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Portraits/Birdie/Birdie_BowtieGreyscale_recolored_66239028.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Portraits/Birdie/Birdie_ShirtGreyscale_recolored_1473880421.png" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Portraits/Birdie/Birdie_ShirtGreyscale_recolored_1473880421.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Portraits/Birdie/Birdie_StarfishGreyscale_recolored_3294575394.png" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Portraits/Birdie/Birdie_StarfishGreyscale_recolored_3294575394.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Portraits/Birdie/Birdie_BowtieGreyscale_recolored_33852100.png" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Portraits/Birdie/Birdie_BowtieGreyscale_recolored_33852100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Portraits/Birdie/Birdie_ShirtGreyscale_recolored_1475240341.png" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Portraits/Birdie/Birdie_ShirtGreyscale_recolored_1475240341.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Portraits/Birdie/Birdie_StarfishGreyscale_recolored_3290463250.png" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Portraits/Birdie/Birdie_StarfishGreyscale_recolored_3290463250.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Portraits/Gunther/Gunther_Greyscale_recolored_3172127875.png" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Portraits/Gunther/Gunther_Greyscale_recolored_3172127875.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Portraits/Gunther/Gunther_Greyscale_recolored_3429814749.png" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Portraits/Gunther/Gunther_Greyscale_recolored_3429814749.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Portraits/SafariGuy/SafariGuy_Greyscale_recolored_3057184208.png" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Portraits/SafariGuy/SafariGuy_Greyscale_recolored_3057184208.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Portraits/SafariGuy/SafariGuy_Greyscale_recolored_3292985230.png" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Seasonal Villager Outfits/generated/Portraits/SafariGuy/SafariGuy_Greyscale_recolored_3292985230.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[ME] Museum Expansion/[CP] Museum Expansion Base/assets/Dialogues/Charlie.en.json" beforeDir="false" afterPath="$PROJECT_DIR$/[ME] Museum Expansion/[CP] Museum Expansion Base/assets/Dialogues/Charlie.en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[ME] Museum Expansion/[CP] Museum Expansion Base/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/[ME] Museum Expansion/[CP] Museum Expansion Base/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[ME] Museum Expansion/[TMXL] Museum Expansion Maps/content.json" beforeDir="false" afterPath="$PROJECT_DIR$/[ME] Museum Expansion/[TMXL] Museum Expansion Maps/content.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Sprinkler Updater/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Sprinkler Updater/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Sprinkler Updater/content.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Sprinkler Updater/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] The Perks of Being Married/content.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] The Perks of Being Married/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[STF] Butcher Shop/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[STF] Butcher Shop/shops.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[TMX] Butcher Shop/assets/MeatShopin.tbin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[TMX] Butcher Shop/assets/meat shop tile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[TMX] Butcher Shop/content.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[TMX] Butcher Shop/manifest.json" beforeDir="false" />
     </list>
     <list id="df405b05-a641-4446-8c59-d3949be38b2b" name="Revert &quot;:tada: initial commit&quot;" comment="Revert &quot;:tada: initial commit&quot;&#10;&#10;This reverts commit 6b0926c7" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +626,8 @@
       <workItem from="1613433921241" duration="2334000" />
       <workItem from="1613442523770" duration="2393000" />
       <workItem from="1613447402450" duration="620000" />
-      <workItem from="1613556748851" duration="5810000" />
+      <workItem from="1613556748851" duration="6680000" />
+      <workItem from="1613577133406" duration="1490000" />
     </task>
     <task id="LOCAL-00001" summary=":tada: initial">
       <created>1613431689680</created>

@@ -354,47 +354,6 @@
 				"PrismaticSHard": "True",
 			}
 		},
-	//Geodes
-		//Geode
-		{
-			"Action": "EditImage",
-			"Target": "Maps/springobjects",
-			"FromFile": "assets/Geodes/Geode.png",
-			"ToArea": { "X": 112, "Y": 352, "Width": 16, "Height": 16 },
-			"When": {
-				"Geode": "True",
-			}
-		},
-		//FrozenGeode
-		{
-			"Action": "EditImage",
-			"Target": "Maps/springobjects",
-			"FromFile": "assets/Geodes/FrozenGeode.png",
-			"ToArea": { "X": 128, "Y": 352, "Width": 16, "Height": 16 },
-			"When": {
-				"FrozenGeode": "True",
-			}
-		},
-		//MagmaGeode
-		{
-			"Action": "EditImage",
-			"Target": "Maps/springobjects",
-			"FromFile": "assets/Geodes/MagmaGeode.png",
-			"ToArea": { "X": 144, "Y": 352, "Width": 16, "Height": 16 },
-			"When": {
-				"MagmaGeode": "True",
-			}
-		},
-		//OmniGeode
-		{
-			"Action": "EditImage",
-			"Target": "Maps/springobjects",
-			"FromFile": "assets/Geodes/OmniGeode.png",
-			"ToArea": { "X": 80, "Y": 496, "Width": 16, "Height": 16 },
-			"When": {
-				"OmniGeode": "True",
-			}
-		},
 	//Minerals
 		//Alamite
 		{
