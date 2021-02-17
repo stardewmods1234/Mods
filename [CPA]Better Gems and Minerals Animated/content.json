@@ -51,15 +51,6 @@
       "AllowValues": "false, true",
       "Default": "true"
     },
-    //Geodes
-    "MagmaGeode": {
-      "AllowValues": "false, true",
-      "Default": "true"
-    },
-    "OmniGeode": {
-      "AllowValues": "false, true",
-      "Default": "true"
-    },
     //Minerals
     "Aerinite": {
       "AllowValues": "false, true",
@@ -379,59 +370,6 @@
       "AnimationFrameCount": 5,
       "When": {
         "Topaz": "true"
-      }
-    },
-    //Geodes
-    {
-      "LogName": "FrozenGeode",
-      "Action": "EditImage",
-      "Target": "Maps/springobjects",
-      "FromFile": "Assets/Geodes/frozengeode.png",
-      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
-      "ToArea": { "X": 128, "Y": 352, "Width": 16, "Height": 16 },
-      "AnimationFrameTime": 8,
-      "AnimationFrameCount": 5,
-      "When": {
-        "FrozenGeode": "true"
-      }
-    },
-    {
-      "LogName": "Geode",
-      "Action": "EditImage",
-      "Target": "Maps/springobjects",
-      "FromFile": "Assets/Geodes/geode.png",
-      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
-      "ToArea": { "X": 112, "Y": 352, "Width": 16, "Height": 16 },
-      "AnimationFrameTime": 8,
-      "AnimationFrameCount": 5,
-      "When": {
-        "Geode": "true"
-      }
-    },
-    {
-      "LogName": "MagmaGeode",
-      "Action": "EditImage",
-      "Target": "Maps/springobjects",
-      "FromFile": "Assets/Geodes/magmageode.png",
-      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
-      "ToArea": { "X": 144, "Y": 352, "Width": 16, "Height": 16 },
-      "AnimationFrameTime": 8,
-      "AnimationFrameCount": 5,
-      "When": {
-        "MagmaGeode": "true"
-      }
-    },
-    {
-      "LogName": "OmniGeode",
-      "Action": "EditImage",
-      "Target": "Maps/springobjects",
-      "FromFile": "Assets/Geodes/omnigeode.png",
-      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
-      "ToArea": { "X": 80, "Y": 496, "Width": 16, "Height": 16 },
-      "AnimationFrameTime": 8,
-      "AnimationFrameCount": 5,
-      "When": {
-        "OmniGeode": "true"
       }
     },
     //Minerals
