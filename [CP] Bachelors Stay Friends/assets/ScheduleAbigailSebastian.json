@@ -1,0 +1,19 @@
+{
+    "Changes": [
+
+{
+"Action": "EditData",
+"Target": "Characters/schedules/Abigail",
+"When": {
+   "Relationship:Sebastian |contains=Married": "false",
+		},
+"Entries":  {
+        "11": "1000 SebastianRoom 5 4 2 abigail_sit_down/1700 SeedShop 1 9 3 abigail_sleep",
+        "25": "GOTO 11",
+        "11_6": null,
+        "25_6": null,
+            },
+},
+
+    ]
+}

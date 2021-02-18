@@ -1,0 +1,17 @@
+﻿{
+	"Name": "[MFM] Regional Cuisine Korean Dish",
+	"Author": "KAYA and deffiliation",
+	"Version": "1.0.1",
+	"Description": "Adds letters to Regional Cuisine.",
+	"UniqueID": "RCK.mailframeworkmod",
+	"MinimumApiVersion": "3.3.2",
+	"Dependencies": [
+		{
+			"UniqueID": "RCK.JAPreserve",
+			"IsRequired": true,
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod"
+	}
+}

@@ -1,0 +1,133 @@
+[
+	// Preserves Jar - Copper
+	{ //Jelly
+		"ProducerName": "Preserves Jar - Copper",
+		"InputIdentifier": "-79",
+		"InputStack": 10,
+		"MinutesUntilReady": 4000,
+		"OutputIdentifier": "344",
+		"PreserveType": "Jelly",
+		"InputPriceBased": true,
+		"OutputPriceIncrement": 50,
+		"OutputPriceMultiplier": 2,
+		"KeepInputQuality": true,
+		"OutputStack": 10,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "LightBlue"
+	},
+	{ //Pickle
+		"ProducerName": "Preserves Jar - Copper",
+		"InputIdentifier": "-75",
+		"InputStack": 10,
+		"MinutesUntilReady": 4000,
+		"OutputIdentifier": "342",
+		"PreserveType": "Pickle",
+		"InputPriceBased": true,
+		"OutputPriceIncrement": 50,
+		"OutputPriceMultiplier": 2,
+		"KeepInputQuality": true,
+		"OutputStack": 10,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles"
+	},
+	
+	// Preserves Jar - Iron
+	{ //Jelly
+		"ProducerName": "Preserves Jar - Iron",
+		"InputIdentifier": "-79",
+		"InputStack": 25,
+		"MinutesUntilReady": 4000,
+		"OutputIdentifier": "344",
+		"PreserveType": "Jelly",
+		"InputPriceBased": true,
+		"OutputPriceIncrement": 50,
+		"OutputPriceMultiplier": 2,
+		"KeepInputQuality": true,
+		"OutputStack": 25,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "LightBlue"
+	},
+	{ //Pickle
+		"ProducerName": "Preserves Jar - Iron",
+		"InputIdentifier": "-75",
+		"InputStack": 25,
+		"MinutesUntilReady": 4000,
+		"OutputIdentifier": "342",
+		"PreserveType": "Pickle",
+		"InputPriceBased": true,
+		"OutputPriceIncrement": 50,
+		"OutputPriceMultiplier": 2,
+		"KeepInputQuality": true,
+		"OutputStack": 25,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles"
+	},
+	
+	// Preserves Jar - Gold
+	{ //Jelly
+		"ProducerName": "Preserves Jar - Gold",
+		"InputIdentifier": "-79",
+		"InputStack": 50,
+		"MinutesUntilReady": 4000,
+		"OutputIdentifier": "344",
+		"PreserveType": "Jelly",
+		"InputPriceBased": true,
+		"OutputPriceIncrement": 50,
+		"OutputPriceMultiplier": 2,
+		"KeepInputQuality": true,
+		"OutputStack": 50,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "LightBlue"
+	},
+	{ //Pickle
+		"ProducerName": "Preserves Jar - Gold",
+		"InputIdentifier": "-75",
+		"InputStack": 50,
+		"MinutesUntilReady": 4000,
+		"OutputIdentifier": "342",
+		"PreserveType": "Pickle",
+		"InputPriceBased": true,
+		"OutputPriceIncrement": 50,
+		"OutputPriceMultiplier": 2,
+		"KeepInputQuality": true,
+		"OutputStack": 50,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles"
+	},
+	
+	// Preserves Jar - Iridium
+	{ //Jelly
+		"ProducerName": "Preserves Jar - Iridium",
+		"InputIdentifier": "-79",
+		"InputStack": 100,
+		"MinutesUntilReady": 4000,
+		"OutputIdentifier": "344",
+		"PreserveType": "Jelly",
+		"InputPriceBased": true,
+		"OutputPriceIncrement": 50,
+		"OutputPriceMultiplier": 2,
+		"KeepInputQuality": true,
+		"OutputStack": 100,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "LightBlue"
+	},
+	{ //Pickle
+		"ProducerName": "Preserves Jar - Iridium",
+		"InputIdentifier": "-75",
+		"InputStack": 100,
+		"MinutesUntilReady": 4000,
+		"OutputIdentifier": "342",
+		"PreserveType": "Pickle",
+		"InputPriceBased": true,
+		"OutputPriceIncrement": 50,
+		"OutputPriceMultiplier": 2,
+		"KeepInputQuality": true,
+		"OutputStack": 100,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles"
+	},
+]

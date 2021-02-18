@@ -1,0 +1,15 @@
+{
+  "Name": "[PFM] Upgraded Jars",
+  "Author": "Fox536",
+  "Version": "1.0.3",
+  "Description": "Adds more Space Efficient Jars.",
+  "UniqueID": "Fox536.UpgradedJarsPFM",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [ "Nexus:5181" ],
+  "Dependencies": [
+	  { "UniqueID": "Digus.ProducerFrameworkMod", "MinimumVersion": "1.1.0" },
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Digus.ProducerFrameworkMod"
+  }
+}

@@ -1,0 +1,58 @@
+{
+    "Name": "Preserves Jar - Iridium",
+    "Description": "Turns 100 vegetables into 100 pickles and 100 fruit into 100 jam.",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": true,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 388,
+            "Count": 5000,
+        },
+        {
+            "Object": 390,
+            "Count": 4000,
+        },
+        {
+            "Object": 382,
+            "Count": 800,
+        }, ],
+		"CanPurchase": true,
+		"PurchaseFrom": "Clint",
+		"PurchasePrice": 100000,
+    },
+	"CanPurchase": true,
+    "PurchaseFrom": "Clint",
+	"PurchasePrice": 40000,
+    "NameLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "铱质罐头瓶",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "把蔬菜变成泡菜，把水果变成果酱。效率是原始罐头瓶的100倍，一次需要放入100份蔬菜或水果。",
+    }
+}

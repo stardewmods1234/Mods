@@ -1,0 +1,58 @@
+{
+    "Name": "Preserves Jar - Copper",
+    "Description": "Turns 10 vegetables into 10 pickles and 10 fruit into 10 jam.",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": true,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 388,
+            "Count": 500,
+        },
+        {
+            "Object": 390,
+            "Count": 400,
+        },
+        {
+            "Object": 382,
+            "Count": 80,
+        }, ],
+		"CanPurchase": true,
+		"PurchaseFrom": "Clint",
+		"PurchasePrice": 10000,
+    },
+	"CanPurchase": true,
+    "PurchaseFrom": "Clint",
+	"PurchasePrice": 4000,
+    "NameLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "铜质罐头瓶",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "https://www.nexusmods.com/stardewvalley/mods/3687",
+    }
+}

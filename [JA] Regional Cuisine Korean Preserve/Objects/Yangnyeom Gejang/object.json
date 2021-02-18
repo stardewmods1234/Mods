@@ -1,0 +1,55 @@
+{
+    "Name": "Yangnyeom Gejang",
+    "Description": "Crab marinated in spicy sauce. Pairs well with rice.",
+    "Category": "ArtisanGoods",
+    "Edibility": 20,
+	"EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 1,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 1,
+        "Attack": 0,
+        "Duration": 180,
+    },
+    "Price": 300,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Dislike": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "양념게장",
+        "de": "Yangnyeom Gejang",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "매콤하게 양념한 게요리. 밥이 술술 넘어갑니다.",
+        "de": "Krabbe in scharfer Sauce mariniert. Passt gut zu Reis.",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+        //"ja": "",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+        //"zh": "",
+    }
+}

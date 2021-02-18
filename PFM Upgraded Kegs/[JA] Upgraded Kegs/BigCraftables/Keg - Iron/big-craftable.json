@@ -1,0 +1,62 @@
+{
+    "Name": "Keg - Iron",
+    "Description": "Place 25 fruits or vegetables in here. Eventually they will turn into beverages..",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": true,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 388,
+            "Count": 750,
+        },
+        {
+            "Object": 334,
+            "Count": 25,
+        },
+        {
+            "Object": 335,
+            "Count": 25,
+        },
+        {
+            "Object": 725,
+            "Count": 25,
+        }, ],
+		"CanPurchase": true,
+		"PurchaseFrom": "Clint",
+		"PurchasePrice": 100000,
+    },
+	"CanPurchase": true,
+    "PurchaseFrom": "Clint",
+	"PurchasePrice": 40000,
+    "NameLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "铁质小桶",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "在这里放置蔬菜或水果。最终它们会变成饮料。效率是原始小桶的25倍，一次需要放入25份蔬菜或水果。",
+    }
+}

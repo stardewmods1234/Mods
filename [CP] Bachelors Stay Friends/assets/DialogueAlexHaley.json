@@ -1,0 +1,27 @@
+{
+    "Changes": [
+
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Alex",
+"When": {
+   "Relationship:Haley |contains=Married": "false",
+		},
+"Entries":  {
+        "winter_Tue4": "Hey, @.$l#$b#Haley and I usually hang out at her house on Wednesdays.$h#$b#Um, you could join us maybe, if you want?$l",
+            },
+},
+
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Haley",
+"When": {
+   "Relationship:Alex |contains=Married": "false",
+		},
+"Entries":  {
+        "winter_Sun6": "Hi, @!$h#$b#You should help me convince Alex to bring his grandma's cookies when he comes over on Wednesday.#$e#Then you could come, too, and we could all eat them together. It would be seasonal!$h",
+            },
+},
+
+    ]
+}

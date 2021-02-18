@@ -1,0 +1,32 @@
+{
+    "Changes": [
+{
+"Action": "EditData",
+"Target": "Characters/schedules/Sam",
+"When": {
+   "Relationship:Penny |contains=Married": "false",
+		},
+"Entries":  {
+        "9": "900 SamHouse 15 13 0/1100 Town 79 95 2/1600 Town 24 97 3 sam_gameboy/1900 SamHouse 17 13 0/2130 SamHouse 22 13 1 sam_sleep",
+        "23": "GOTO 9",
+        "9_6": null,
+        "23_6": null,
+            },
+},
+
+{
+"Action": "EditData",
+"Target": "Characters/schedules/Penny",
+"When": {
+   "Relationship:Sam |contains=Married": "false",
+		},
+"Entries":  {
+        "9": "900 Trailer 1 8 0/1100 Town 78 93 2 penny_sit_down/1600 Trailer 12 6 0 penny_dishes/1840 Trailer 4 9 1 penny_sleep",
+        "23": "GOTO 9",
+        "9_6": null,
+        "23_6": null,
+            },
+},
+
+    ]
+}

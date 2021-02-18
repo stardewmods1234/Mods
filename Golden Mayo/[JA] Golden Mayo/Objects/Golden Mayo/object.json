@@ -1,0 +1,8 @@
+{
+	"Name": "Golden Mayonnaise", 
+	"Description": "Perfect for King Midas' sandwiches.", 
+	"Category": "ArtisanGoods", 
+	"Edibility": -300, 
+	"Price": 2500,
+	"HideFromShippingCollection": true
+}

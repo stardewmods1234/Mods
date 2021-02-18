@@ -1,0 +1,25 @@
+﻿{
+	"Name": "[PFM] Regional Cuisine Korean  Preserve",
+	"Author": "KAYA",
+	"Version": "1.0.2",
+	"Description": "PFM Component for Korean Regional Cuisine.",
+	"UniqueID": "RCK.producermodframework",
+	"MinimumApiVersion": "3.3.2",
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	},
+	"Dependencies": [
+		{
+		  "UniqueID": "RCK.JAPreserve",
+		  "IsRequired": true,
+		},
+		{
+		  "UniqueID": "ppja.artisanvalleymachinegoods",
+		  "IsRequired": true,
+		},
+		{
+		  "UniqueID": "paradigmnomad.morefood",
+		  "IsRequired": false,
+		},
+	]
+}

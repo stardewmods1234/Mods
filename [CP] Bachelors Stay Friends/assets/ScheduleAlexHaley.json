@@ -1,0 +1,29 @@
+{
+    "Changes": [
+
+{
+"Action": "EditData",
+"Target": "Characters/schedules/Alex",
+"When": {
+   "Relationship:Haley |contains=Married": "false",
+		},
+"Entries":  {
+        "Wed_6": null,
+        "Wed": "800 Town 64 64 2 alex_football/1200 HaleyHouse 7 23 3 alex_sit_left/1630 Town 50 68 1/1840 JoshHouse 8 19 2/2000 JoshHouse 17 5 0/2200 JoshHouse 21 4 1 alex_sleep",
+            },
+},
+
+{
+"Action": "EditData",
+"Target": "Characters/schedules/Haley",
+"When": {
+   "Relationship:Alex |contains=Married": "false",
+		},
+"Entries":  {
+        "Wed_6": null,
+        "Wed": "900 HaleyHouse 6 5 0/950 HaleyHouse 8 7 1/1200 HaleyHouse 5 20 2/1630 HaleyHouse 19 16 0 square_5_1_0/2000 HaleyHouse 5 7 0 square_5_5/2230 HaleyHouse 1 5 3 haley_sleep",
+            },
+},
+
+    ]
+}

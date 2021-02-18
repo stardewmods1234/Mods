@@ -1,0 +1,53 @@
+{
+//original png draw by 내동생금손
+    "Name": "Seafood Drying Rack",
+    "Description": "Make dried fish.", 
+    "Price": 1,
+    "ProvidesLight": false, 
+    "CanPurchase": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 178, //Hay
+            "Count": 10,
+        },
+        {
+            "Object": 388, //Wood
+            "Count": 15,
+        },
+      ],
+	  "CanPurchase": true,
+	  "PurchaseFrom": "Willy",
+      "PurchasePrice": 3000,
+    },
+        "NameLocalization":
+        { 
+            //"es": "", //Spanish
+            "ko": "해산물 건조대",
+            "de": "Mache getrocknten Fisch", //German
+            //"fr": "", //French
+            //"hu": "", //Hungarian
+            //"it": "", //Italian
+            //"ja": "", //Japanese
+            //"pt": "", //Portuguese
+            //"ru": "", //Russian
+            //"tr": "", //Turkish
+            //"zh": "", //Chinese (Simplified)
+        },
+        "DescriptionLocalization": //Used for localization. 
+        { 
+            //"es": "", //Spanish
+            "ko": "건어물을 만듭니다.",
+            "de": "Trockenregal für Meeresfrüchte", //German
+            //"fr": "", //French
+            //"hu": "", //Hungarian
+            //"it": "", //Italian
+            //"ja": "", //Japanese
+            //"pt": "", //Portuguese
+            //"ru": "", //Russian
+            //"tr": "", //Turkish
+            //"zh": "", //Chinese (Simplified)
+        }
+    }

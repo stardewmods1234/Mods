@@ -1,0 +1,262 @@
+{
+   "Format": "1.19.0",
+	"ConfigSchema": {
+      "Agriculturalist": {
+         "AllowValues": "true, false",
+         "Default": "true",
+         "Description": "Replaces icon for Agriculturalist profession."
+		 },
+      "Angler": {
+         "AllowValues": "true, false",
+         "Default": "true",
+         "Description": "Replaces icon for Angler profession."
+		},
+      "Artisan": {
+         "AllowValues": "true, false",
+         "Default": "true",
+         "Description": "Replaces icon for Artisan profession."
+		},
+      "Botanist": {
+         "AllowValues": "true, false",
+         "Default": "true",
+         "Description": "Replaces icon for Botanist profession."
+		},
+      "Defender": {
+         "AllowValues": "true, false",
+         "Default": "true",
+         "Description": "Replaces icon for Defender profession."
+		},
+      "Excavator": {
+         "AllowValues": "true, false",
+         "Default": "true",
+         "Description": "Replaces icon for Excavator profession."
+		},
+      "Fisher": {
+         "AllowValues": "true, false",
+         "Default": "true",
+         "Description": "Replaces icon for Fisher profession."
+		},
+      "Geologist": {
+         "AllowValues": "true, false",
+         "Default": "true",
+         "Description": "Replaces icon for Geologist profession."
+		},
+      "Mariner": {
+         "AllowValues": "true, false",
+         "Default": "true",
+         "Description": "Replaces icon for Mariner profession."
+		},
+      "Miner": {
+         "AllowValues": "true, false",
+         "Default": "true",
+         "Description": "Replaces icon for Miner profession."
+		},
+      "Pirate": {
+         "AllowValues": "true, false",
+         "Default": "true",
+         "Description": "Replaces icon for Pirate profession."
+		},
+      "Prospector": {
+         "AllowValues": "true, false",
+         "Default": "true",
+         "Description": "Replaces icon for Prospector profession."
+		},
+      "Rancher": {
+         "AllowValues": "true, false",
+         "Default": "true",
+         "Description": "Replaces icon for Rancher profession."
+		},
+      "Tapper": {
+         "AllowValues": "true, false",
+         "Default": "true",
+         "Description": "Replaces icon for Tapper profession."
+		},
+      "Tiller": {
+         "AllowValues": "true, false",
+         "Default": "true",
+         "Description": "Replaces icon for Tiller profession."
+		},
+      "Tracker": {
+         "AllowValues": "true, false",
+         "Default": "true",
+         "Description": "Replaces icon for Tracker profession."
+		},
+      "Trapper": {
+         "AllowValues": "true, false",
+         "Default": "true",
+         "Description": "Replaces icon for Trapper profession."
+		},
+   },
+   "Changes": [
+		{
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+		"LogName": "Profession Icons",
+        "FromFile": "assets/agriculturalist.png",
+		"ToArea": {"X": 80, "Y": 624, "Width":16, "Height":16},
+		"When": {
+            "Agriculturalist": "true"
+			},
+ 		},
+		{
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+		"LogName": "Profession Icons",
+        "FromFile": "assets/angler.png",
+		"ToArea": {"X": 32, "Y": 640, "Width": 16, "Height": 16},
+		"When": {
+            "Angler": "true"
+			},
+ 		},
+		{
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+		"LogName": "Profession Icons",
+        "FromFile": "assets/artisan.png",
+		"ToArea": {"X": 64, "Y": 624, "Width": 16, "Height": 16},
+		"When": {
+            "Artisan": "true"
+			},
+ 		},
+		{
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+		"LogName": "Profession Icons",
+        "FromFile": "assets/botanist.png",
+		"ToArea": {"X": 64, "Y": 656, "Width": 16, "Height": 16},
+		"When": {
+            "Botanist": "true"
+			},
+ 		},
+		{
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+		"LogName": "Profession Icons",
+        "FromFile": "assets/defender.png",
+		"ToArea": {"X": 48, "Y": 688, "Width": 16, "Height": 16},
+		"When": {
+            "Defender": "true"
+			},
+ 		},
+		{
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+		"LogName": "Profession Icons",
+        "FromFile": "assets/excavator.png",
+		"ToArea": {"X": 64, "Y": 672, "Width": 16, "Height": 16},
+		"When": {
+            "Excavator": "true"
+			},
+ 		},
+		{
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+		"LogName": "Profession Icons",
+        "FromFile": "assets/fisher.png",
+		"ToArea": {"X": 0, "Y": 640, "Width": 16, "Height": 16},
+		"When": {
+            "Fisher": "true"
+			},
+ 		},
+		{
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+		"LogName": "Profession Icons",
+        "FromFile": "assets/geologist.png",
+		"ToArea": {"X": 16, "Y": 672, "Width": 16, "Height": 16},
+		"When": {
+            "Geologist": "true"
+			},
+ 		},
+		{
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+		"LogName": "Profession Icons",
+        "FromFile": "assets/mariner.png",
+		"ToArea": {"X": 64, "Y": 640, "Width": 16, "Height": 16},
+		"When": {
+            "Mariner": "true"
+			},
+ 		},
+		{
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+		"LogName": "Profession Icons",
+        "FromFile": "assets/miner.png",
+		"ToArea": {"X": 0, "Y": 672, "Width": 16, "Height": 16},
+		"When": {
+            "Miner": "true"
+			},
+ 		},
+		{
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+		"LogName": "Profession Icons",
+        "FromFile": "assets/pirate.png",
+		"ToArea": {"X": 48, "Y": 640, "Width": 16, "Height": 16},
+		"When": {
+            "Pirate": "true"
+			},
+ 		},
+		{
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+		"LogName": "Profession Icons",
+        "FromFile": "assets/prospector.png",
+		"ToArea": {"X": 48, "Y": 672, "Width": 16, "Height": 16},
+		"When": {
+            "Prospector": "true"
+			},
+ 		},
+		{
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+		"LogName": "Profession Icons",
+        "FromFile": "assets/rancher.png",
+		"ToArea": {"X": 0, "Y": 624, "Width": 16, "Height": 16},
+		"When": {
+            "Rancher": "true"
+			},
+ 		},
+		{
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+		"LogName": "Profession Icons",
+        "FromFile": "assets/tapper.png",
+		"ToArea": {"X": 48, "Y": 656, "Width": 16, "Height": 16},
+		"When": {
+            "Tapper": "true"
+			},
+ 		},
+		{
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+		"LogName": "Profession Icons",
+        "FromFile": "assets/tiller.png",
+		"ToArea": {"X": 80, "Y": 624, "Width": 16, "Height": 16},
+		"When": {
+            "Tiller": "true"
+			},
+ 		},
+		{
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+		"LogName": "Profession Icons",
+        "FromFile": "assets/tracker.png",
+		"ToArea": {"X": 80, "Y": 656, "Width": 16, "Height": 16},
+		"When": {
+            "Tracker": "true"
+			},
+ 		},
+		{
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+		"LogName": "Profession Icons",
+        "FromFile": "assets/trapper.png",
+		"ToArea": {"X": 16, "Y": 640, "Width": 16, "Height": 16},
+		"When": {
+            "Trapper": "true"
+			},
+ 		},		
+   ]
+}

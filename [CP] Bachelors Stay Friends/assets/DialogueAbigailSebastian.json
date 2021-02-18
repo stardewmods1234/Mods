@@ -1,0 +1,12 @@
+{
+    "Changes": [
+
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Sebastian",
+"Entries":  {
+        "Wed6": "You and Sam and Abby are probably my only friends in this town.$s",
+            },
+},
+    ]
+}

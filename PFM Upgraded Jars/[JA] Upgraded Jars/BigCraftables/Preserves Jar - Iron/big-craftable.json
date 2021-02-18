@@ -1,0 +1,58 @@
+{
+    "Name": "Preserves Jar - Iron",
+    "Description": "Turns 25 vegetables into 25 pickles and 25 fruit into 25 jam.",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": true,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 388,
+            "Count": 1250,
+        },
+        {
+            "Object": 390,
+            "Count": 1000,
+        },
+        {
+            "Object": 382,
+            "Count": 200,
+        }, ],
+		"CanPurchase": true,
+		"PurchaseFrom": "Clint",
+		"PurchasePrice": 25000,
+    },
+	"CanPurchase": true,
+    "PurchaseFrom": "Clint",
+	"PurchasePrice": 10000,
+    "NameLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "铁质罐头瓶",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "把蔬菜变成泡菜，把水果变成果酱。效率是原始罐头瓶的25倍，一次需要放入25份蔬菜或水果。",
+    }
+}

@@ -1,0 +1,12 @@
+﻿{
+	"Name": "[JA] Upgraded Jars",
+	"Author": "Fox536",
+	"Version": "1.0.0",
+	"Description": "Upgraded forms of Jars to reduce space needed.",
+	"UniqueID": "Fox536.UpgradedJarsJA",
+	"MinimumApiVersion": "3.0.1",
+	"UpdateKeys": [],
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.JsonAssets"
+	}
+}

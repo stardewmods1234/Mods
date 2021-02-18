@@ -1,0 +1,19 @@
+{
+  "Agriculturalist": "true",
+  "Angler": "true",
+  "Artisan": "true",
+  "Botanist": "true",
+  "Defender": "true",
+  "Excavator": "true",
+  "Fisher": "true",
+  "Geologist": "true",
+  "Mariner": "true",
+  "Miner": "true",
+  "Pirate": "true",
+  "Prospector": "true",
+  "Rancher": "true",
+  "Tapper": "true",
+  "Tiller": "true",
+  "Tracker": "true",
+  "Trapper": "true"
+}

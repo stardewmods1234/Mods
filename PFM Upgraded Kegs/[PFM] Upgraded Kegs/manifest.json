@@ -1,0 +1,15 @@
+{
+  "Name": "[PFM] Upgraded Kegs",
+  "Author": "Fox536",
+  "Version": "1.0.4",
+  "Description": "Adds more Space Efficient Kegs.",
+  "UniqueID": "Fox536.UpgradedKegsPFM",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [ "Nexus:5180" ],
+  "Dependencies": [
+	  { "UniqueID": "Digus.ProducerFrameworkMod", "MinimumVersion": "1.1.0" },
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Digus.ProducerFrameworkMod"
+  }
+}

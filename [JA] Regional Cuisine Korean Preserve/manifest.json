@@ -1,0 +1,23 @@
+{
+  "Name": "[JA] Regional Cuisine Korean Preserve",
+  "Author": "KAYA",
+  "Version": "1.0.2",
+  "Description": "Adds a series of delicious korean regional recipes!",
+  "UniqueID": "RCK.JAPreserve",
+    "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"},
+	"Dependencies": [
+    {
+        "UniqueID": "ppja.artisanvalleymachinegoods",
+		"IsRequired": true,
+	},
+    {
+        "UniqueID": "ppja.artisanvalleyPFM",
+		"IsRequired": true,
+    },   
+	{	"UniqueID": "paradigmnomad.morefood",
+		"IsRequired": false,
+    }, 
+	],
+   "UpdateKeys": ["Nexus:6325"],
+  }

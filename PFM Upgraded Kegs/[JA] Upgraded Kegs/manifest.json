@@ -1,0 +1,12 @@
+﻿{
+	"Name": "[JA] Upgraded Kegs",
+	"Author": "Fox536",
+	"Version": "1.0.0",
+	"Description": "Upgraded forms of Kegs to reduce space needed.",
+	"UniqueID": "Fox536.UpgradedKegsJA",
+	"MinimumApiVersion": "3.0.1",
+	"UpdateKeys": [],
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.JsonAssets"
+	}
+}

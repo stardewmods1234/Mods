@@ -1,0 +1,15 @@
+{
+    "Crock.Kimchi": "{inputName} Kimchi",
+	"Crock.WhiteKimchi": "{inputName} Weißer Kimchi",
+	"Preserve.Fruit": "{inputName} Obstkonserven",
+	"Preserve.Salt": "{inputName} Gemüsesalzgurke",
+	"Preserve.SoySauce": "Sojasaucen {inputName} Essiggurke",
+	"Preserve.GochuJang": "GochuJang {inputName} Essiggurke",
+	"Preserve.DoenJang": "DoenJang {inputName} Essiggurke",
+	"Preserve.Fish": "Gesalzene  {inputName}",
+	"Preserve.Oil": "Öl {inputName} Essiggurke",
+	"Soju.Fruit": "{inputName} Soju",
+	"Soju.Flower": "{inputName} Soju",
+	"Soju.Mushroom": "{inputName} Soju",
+	"SeafoodDryingRack.Fish": "Getrockneter {inputName}",
+}

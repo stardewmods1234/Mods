@@ -1,0 +1,58 @@
+{
+    "Name": "Preserves Jar - Gold",
+    "Description": "Turns 50 vegetables into 50 pickles and 50 fruit into 50 jam.",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": true,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 388,
+            "Count": 2500,
+        },
+        {
+            "Object": 390,
+            "Count": 2000,
+        },
+        {
+            "Object": 382,
+            "Count": 400,
+        }, ],
+		"CanPurchase": true,
+		"PurchaseFrom": "Clint",
+		"PurchasePrice": 50000,
+    },
+	"CanPurchase": true,
+    "PurchaseFrom": "Clint",
+	"PurchasePrice": 20000,
+    "NameLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "金质罐头瓶",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "把蔬菜变成泡菜，把水果变成果酱。效率是原始罐头瓶的50倍，一次需要放入50份蔬菜或水果。",
+    }
+}

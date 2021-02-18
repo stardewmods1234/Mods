@@ -1,0 +1,213 @@
+{
+    "Format": "1.19.0",
+	"ConfigSchema": {
+		"DisableWhenDating": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"AllowBlank": false,
+			"Description": "When 'true', dating either of the pair will end their continued meetups"
+		},
+		"WaitUntilMarriage": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"AllowBlank": false,
+			"Description": "When 'true', bachelor*ettes will only resume their friendships once the player is married"
+		},
+		"ChangeDialogue": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false,
+			"Description": "When 'true', some clashing canon dialogue is tweaked to match"
+		},
+	},
+
+    "Changes": [
+
+//Schedule Changes
+
+		{
+	"Action": "Include",
+	"FromFile": "assets/ScheduleElliott.json, assets/SchedulePennySam.json, assets/ScheduleAlexHaley.json, assets/ScheduleAbigailSebastian.json",
+	"When": {
+   		"DisableWhenDating": "false",
+		"WaitUntilMarriage": "false",
+			},
+		},
+
+		{
+	"Action": "Include",
+	"FromFile": "assets/ScheduleElliott.json, assets/SchedulePennySam.json, assets/ScheduleAlexHaley.json, assets/ScheduleAbigailSebastian.json",
+	"When": {
+  		"DisableWhenDating": "false",
+		"HasValue:{{spouse}}": "true",
+		"WaitUntilMarriage": "true",
+			},
+		},
+
+		{
+	"Action": "Include",
+	"FromFile": "assets/ScheduleElliott.json",
+	"When": {
+   		"Relationship:Elliott |contains=Dating, Married": "false",
+   		"Relationship:Leah |contains=Dating, Married": "false",
+   		"DisableWhenDating": "true",
+   		"WaitUntilMarriage": "false",
+			},
+		},
+
+		{
+	"Action": "Include",
+	"FromFile": "assets/ScheduleElliott.json",
+	"When": {
+   		"Relationship:Elliott |contains=Dating, Married": "false",
+   		"Relationship:Leah |contains=Dating, Married": "false",
+   		"DisableWhenDating": "true",
+		"HasValue:{{spouse}}": "true",
+   		"WaitUntilMarriage": "true",
+			},
+		},
+
+		{
+	"Action": "Include",
+	"FromFile": "assets/SchedulePennySam.json",
+	"When": {
+   		"Relationship:Penny |contains=Dating, Married": "false",
+   		"Relationship:Sam |contains=Dating, Married": "false",
+   		"DisableWhenDating": "true",
+   		"WaitUntilMarriage": "false",
+			},
+		},
+
+		{
+	"Action": "Include",
+	"FromFile": "assets/SchedulePennySam.json",
+	"When": {
+   		"Relationship:Penny |contains=Dating, Married": "false",
+   		"Relationship:Sam |contains=Dating, Married": "false",
+   		"DisableWhenDating": "true",
+		"HasValue:{{spouse}}": "true",
+   		"WaitUntilMarriage": "true",
+			},
+		},
+
+		{
+	"Action": "Include",
+	"FromFile": "assets/ScheduleAlexHaley.json",
+	"When": {
+   		"Relationship:Alex |contains=Dating, Married": "false",
+   		"Relationship:Haley |contains=Dating, Married": "false",
+   		"DisableWhenDating": "true",
+   		"WaitUntilMarriage": "false",
+			},
+		},
+
+		{
+	"Action": "Include",
+	"FromFile": "assets/ScheduleAlexHaley.json",
+	"When": {
+   		"Relationship:Alex |contains=Dating, Married": "false",
+   		"Relationship:Haley |contains=Dating, Married": "false",
+   		"DisableWhenDating": "true",
+		"HasValue:{{spouse}}": "true",
+   		"WaitUntilMarriage": "true",
+			},
+		},
+
+		{
+	"Action": "Include",
+	"FromFile": "assets/ScheduleAbigailSebastian.json",
+	"When": {
+   		"Relationship:Abigail |contains=Dating, Married": "false",
+   		"Relationship:Sebastian |contains=Dating, Married": "false",
+   		"DisableWhenDating": "true",
+   		"WaitUntilMarriage": "false",
+			},
+		},
+
+		{
+	"Action": "Include",
+	"FromFile": "assets/ScheduleAbigailSebastian.json",
+	"When": {
+   		"Relationship:Abigail |contains=Dating, Married": "false",
+   		"Relationship:Sebastian |contains=Dating, Married": "false",
+   		"DisableWhenDating": "true",
+		"HasValue:{{spouse}}": "true",
+   		"WaitUntilMarriage": "true",
+			},
+		},
+
+//Dialogue Changes
+
+		{
+	"Action": "Include",
+	"FromFile": "assets/DialogueAbigailSebastian.json, assets/DialogueAlexHaley.json",
+	"When": {
+   		"DisableWhenDating": "false",
+		"WaitUntilMarriage": "false",
+		"ChangeDialogue": "true",
+			},
+		},
+
+		{
+	"Action": "Include",
+	"FromFile": "assets/DialogueAbigailSebastian.json, assets/DialogueAlexHaley.json",
+	"When": {
+  		"DisableWhenDating": "false",
+		"HasValue:{{spouse}}": "true",
+		"WaitUntilMarriage": "true",
+		"ChangeDialogue": "true",
+			},
+		},
+
+		{
+	"Action": "Include",
+	"FromFile": "assets/DialogueAbigailSebastian.json",
+	"When": {
+   		"Relationship:Abigail |contains=Dating, Married": "false",
+   		"Relationship:Sebastian |contains=Dating, Married": "false",
+   		"DisableWhenDating": "true",
+   		"WaitUntilMarriage": "false",
+		"ChangeDialogue": "true",
+			},
+		},
+
+		{
+	"Action": "Include",
+	"FromFile": "assets/DialogueAbigailSebastian.json",
+	"When": {
+   		"Relationship:Abigail |contains=Dating, Married": "false",
+   		"Relationship:Sebastian |contains=Dating, Married": "false",
+   		"DisableWhenDating": "true",
+		"HasValue:{{spouse}}": "true",
+   		"WaitUntilMarriage": "true",
+		"ChangeDialogue": "true",
+			},
+		},
+
+		{
+	"Action": "Include",
+	"FromFile": "assets/DialogueAlexHaley.json",
+	"When": {
+   		"Relationship:Alex |contains=Dating, Married": "false",
+   		"Relationship:Haley |contains=Dating, Married": "false",
+   		"DisableWhenDating": "true",
+   		"WaitUntilMarriage": "false",
+		"ChangeDialogue": "true",
+			},
+		},
+
+		{
+	"Action": "Include",
+	"FromFile": "assets/DialogueAlexHaley.json",
+	"When": {
+   		"Relationship:Alex |contains=Dating, Married": "false",
+   		"Relationship:Haley |contains=Dating, Married": "false",
+   		"DisableWhenDating": "true",
+		"HasValue:{{spouse}}": "true",
+   		"WaitUntilMarriage": "true",
+		"ChangeDialogue": "true",
+			},
+		},
+
+    ]
+}

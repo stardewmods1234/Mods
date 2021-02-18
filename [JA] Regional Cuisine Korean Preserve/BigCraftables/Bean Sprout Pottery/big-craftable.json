@@ -1,0 +1,49 @@
+{
+    "Name": "Bean Sprout Pottery",
+    "Description": "Water the beans frequently, and if you grow the buds in the dark, you can harvest the crispy bean sprouts. (Farmer can't actually water to it.)", 
+    "Price": 1,
+    "ProvidesLight": false, 
+    "CanPurchase": false,
+    "ReserveExtraIndexCount": 2,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 330, //Clay
+            "Count": 10,
+        }
+      ],
+	  "CanPurchase": true,
+	  "PurchaseFrom": "Dwarf",
+      "PurchasePrice": 2000,
+    },
+        "NameLocalization":
+        { 
+            //"es": "", //Spanish
+            "ko": "콩나물 시루",
+            "de": "Sojasbohnen Topf", //German
+            //"fr": "", //French
+            //"hu": "", //Hungarian
+            //"it": "", //Italian
+            //"ja": "", //Japanese
+            //"pt": "", //Portuguese
+            //"ru": "", //Russian
+            //"tr": "", //Turkish
+            //"zh": "", //Chinese (Simplified)
+        },
+        "DescriptionLocalization": //Used for localization. 
+        { 
+            //"es": "", //Spanish
+            "ko": "콩에 물을 자주 주며 어두운 곳에서 싹을 키워내면 아삭한 콩나물을 수확할 수 있습니다. (실제로 물을 줄 순 없습니다)",
+            "de": "Gieße die Bohnen häufig und wenn du die Knospen im Dunkeln wachsen lässt, kannst du knusprige Sojabohnensprossen ernten.", //German
+            //"fr": "", //French
+            //"hu": "", //Hungarian
+            //"it": "", //Italian
+            //"ja": "", //Japanese
+            //"pt": "", //Portuguese
+            //"ru": "", //Russian
+            //"tr": "", //Turkish
+            //"zh": "", //Chinese (Simplified)
+        }
+    }

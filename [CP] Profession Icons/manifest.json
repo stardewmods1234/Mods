@@ -1,0 +1,12 @@
+{
+   "Name": "[CP] Profession Icons Redone",
+   "Author": "IllogicalMoodSwing",
+   "Version": "2.0",
+   "Description": "CP mod to improve Profession icons.",
+   "UniqueID": "IMS.CP.ProfessionIcons",
+   "MinimumApiVersion": "3.0",
+   "UpdateKeys": ["Nexus:4163"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

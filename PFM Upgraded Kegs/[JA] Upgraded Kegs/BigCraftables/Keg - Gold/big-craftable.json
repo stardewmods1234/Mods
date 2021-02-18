@@ -1,0 +1,62 @@
+{
+    "Name": "Keg - Gold",
+    "Description": "Place 50 fruits or vegetables in here. Eventually they will turn into beverages..",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": true,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 388,
+            "Count": 1500,
+        },
+        {
+            "Object": 334,
+            "Count": 50,
+        },
+        {
+            "Object": 335,
+            "Count": 50,
+        },
+        {
+            "Object": 725,
+            "Count": 50,
+        }, ],
+		"CanPurchase": true,
+		"PurchaseFrom": "Clint",
+		"PurchasePrice": 200000,
+    },
+	"CanPurchase": true,
+    "PurchaseFrom": "Clint",
+	"PurchasePrice": 80000,
+    "NameLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "金质小桶",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "在这里放置蔬菜或水果。最终它们会变成饮料。效率是原始小桶的50倍，一次需要放入50份蔬菜或水果。",
+    }
+}

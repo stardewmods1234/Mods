@@ -1,0 +1,11 @@
+{
+   "Name": "Bachelors and Bachelorettes stay friends",
+   "Author": "MissMarlot",
+   "Version": "1.0.0",
+   "Description": "Preserves bachelors' and bachelorettes' friendships even at higher heart levels",
+   "UniqueID": "missmarlot.bachelorsstayfriends",
+   "UpdateKeys": [ "Nexus:7926" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   },
+}
