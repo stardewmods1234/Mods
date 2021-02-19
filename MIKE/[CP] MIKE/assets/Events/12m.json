@@ -1,5 +1,0 @@
-{
-	"Entries": {
-        "68260007/f Mike 3000/O Mike/t 700 1200": "continue/-100 -100/farmer 14 20 0 Mike 8 11 2/skippable/showFrame Mike 34/viewport 11 13 true/animate Mike false true 200 34 34 34 35 35 35/move farmer 0 -7 0/move farmer -6 0 0/pause 1000/emote farmer 8/pause 1000/stopAnimation Mike 34/pause 1000/emote Mike 16/pause 1000/speak Mike \"Hey, babe. I didn't know you were here!$12#$b#I was reading through a script. I have an important presentation today.$12\"/pause 500/emote farmer 28/pause 1000/speak Mike \"@, don't worry. I will be fine.$13#$b#But it sure feels nice to see you care about me.$13\"/pause 500/emote Mike 20/pause 1000/speak Mike \"Well, I got to go now. I will miss you.$13\"/pause 2000/end"
-      }
-}

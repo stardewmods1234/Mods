@@ -1,8 +1,0 @@
-{
-"rain": "700 Beach 54 24 2 \"Strings\\schedules\\Izuku:fall.000\"/1300 Mountain 50 9 2/2000 Hospital 24 5 0 \"Strings\\schedules\\fall.001\"/2200 Hospital 19 11 3 Izuku_Sleep",
-"fall": "700 Beach 54 24 2 \"Strings\\schedules\\Izuku:fall.000\"/1300 Mountain 50 9 2/2000 Hospital 24 5 0 \"Strings\\schedules\\fall.001\"/2200 Hospital 19 11 3 Izuku_Sleep",
-"fall_Tue": "900 Hospital 19 11 13 Izuku_Sleep/1000 Forest 74 50 2 \"Strings\\schedules\\fall.002\"/1600 Mountain 50 9 2/2000 Hospital 24 5 0 \"Strings\\schedules\\fall.001\"/2200 Hospital 19 11 3 Izuku_Sleep",
-"fall_Fri": "900 Hospital 19 11 13 Izuku_Sleep/1000 Forest 74 50 2 \"Strings\\schedules\\fall.002\"/1500 SeedShop 12 28 3/1800 Saloon 17 20 0 \"Strings\\schedules\\fall.003\"/2330 Hospital 19 11 3 Izuku_Sleep",
-"fall_Sun": "700 Beach 54 24 2 \"Strings\\schedules\\Izuku:fall.000\"/1200 Forest 74 50 2 \"Strings\\schedules\\Izuku:fall.002\"/1600 Mountain 50 9 2/2000 Saloon 17 20 0 \"Strings\\schedules\\fall.003\"/2200 Hospital 19 11 3 Izuku_Sleep",
-
-}
